@@ -39,7 +39,9 @@
 #include <QMouseEvent>
 #include <QPointer>
 
+#include "core/UBApplication.h"
 #include "core/UBSettings.h"
+#include "gui/UBMainWindow.h"
 #include "gui/UBActionPalette.h"
 #include "gui/UBShortcutsDialog.h"
 
@@ -461,6 +463,11 @@ void UBToolbarChoice::fillToolsMenu(QMenu* menu)
             }
         }
     }
+
+    // Not in the palettes: also at the top right of the window.
+    menu->addSeparator();
+    menu->addAction(UBApplication::mainWindow->actionMultiScreen);
+    menu->addAction(UBApplication::mainWindow->actionPodcast);
 }
 
 void UBToolbarChoice::fillCustomizeMenu(QMenu* menu)

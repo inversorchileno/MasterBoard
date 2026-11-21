@@ -226,11 +226,10 @@ void UBMainMenu::createMenus()
     homeMenu->addAction(ocrAction);
     homeMenu->addSeparator();
     homeMenu->addAction(mMainWindow->actionPreferences);
-    homeMenu->addAction(mMainWindow->actionMultiScreen);
     homeMenu->addSeparator();
-    homeMenu->addAction(mMainWindow->actionPodcast);
+    // The podcast and the screens are in the Tools menu and at the top right.
     mMainWindow->actionPodcast->setText(tr("Podcast"));
-    homeMenu->addSeparator();
+    mMainWindow->actionMultiScreen->setText(tr("Multiscreen"));
 
     auto closeAction = new QAction(QIcon(":/images/toolbar/closeDocument.svg"), tr("Close document"), mMainWindow);
     closeAction->setObjectName("actionLbClose");
@@ -588,6 +587,17 @@ void UBMainMenu::createCornerButtons()
 
     lockButton->setMinimumWidth(widest);
     updateLockText();
+
+    // The podcast and the screens, left of the lock: not in the palettes.
+    for (QAction* action : { mMainWindow->actionMultiScreen, mMainWindow->actionPodcast })
+    {
+        auto button = new QToolButton(corner);
+        button->setDefaultAction(action);
+        button->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+        button->setIconSize(QSize(18, 18));
+        button->setStyleSheet(buttonStyle);
+        layout->insertWidget(layout->indexOf(lockButton), button);
+    }
 
     // Goes to the desktop mode, like the board button of the desktop palette goes back.
     auto desktopButton = new QToolButton(corner);
