@@ -1,4 +1,4 @@
-# LibertyBoard 2.0, compilación 31
+# Master Board 2.0, compilación 31
 
 **Versión 2.0**
 
@@ -13,6 +13,6 @@
 - **Actualización** muestra siempre la versión que estás usando.
 
 ---
-**Descargas:** Windows: `LibertyBoard-windows.zip` · macOS con chip Apple (M1, M2…): `LibertyBoard-macos-apple-silicon.dmg` · macOS con Intel: `LibertyBoard-macos-intel.dmg` · Linux: `LibertyBoard-linux-x86_64.AppImage`.
+**Descargas:** Windows: `MasterBoard-windows.zip` · macOS con chip Apple (M1, M2…): `MasterBoard-macos-apple-silicon.dmg` · macOS con Intel: `MasterBoard-macos-intel.dmg` · Linux: `MasterBoard-linux-x86_64.AppImage`.
 
-**Aviso de seguridad:** la primera vez, Windows («Windows protegió su PC»: Más información → Ejecutar de todas formas) y macOS («no se puede verificar al desarrollador»: clic derecho → Abrir) muestran un aviso, porque LibertyBoard no está firmado con un certificado de pago. Es un proyecto gratuito y de código abierto; el detalle está en la página principal del repositorio.
+**Aviso de seguridad:** la primera vez, Windows («Windows protegió su PC»: Más información → Ejecutar de todas formas) y macOS («no se puede verificar al desarrollador»: clic derecho → Abrir) muestran un aviso, porque Master Board no está firmado con un certificado de pago. Es un proyecto gratuito y de código abierto; el detalle está en la página principal del repositorio.

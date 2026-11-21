@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 16
+# Master Board, compilación 16
 
 **Doble pizarra**
 
@@ -7,4 +7,4 @@
 - Formas con el color de borde y relleno en su ícono.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

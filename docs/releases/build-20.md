@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 20
+# Master Board, compilación 20
 
 **Versión 1 de las mejoras**
 
@@ -8,4 +8,4 @@
 - Flecha cónica, láser arcoíris y rotulador de punta circular o recta.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

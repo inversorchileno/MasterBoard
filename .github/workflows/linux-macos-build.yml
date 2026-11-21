@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 120
 
     steps:
-      - name: Checkout LibertyBoard
+      - name: Checkout Master Board
         uses: actions/checkout@v4
 
       - name: Number of the build
@@ -57,28 +57,28 @@ jobs:
         env:
           QMAKE: /usr/lib/qt6/bin/qmake
           APPIMAGE_EXTRACT_AND_RUN: 1
-          OUTPUT: LibertyBoard-linux-x86_64.AppImage
+          OUTPUT: MasterBoard-linux-x86_64.AppImage
         run: |
           wget -q https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
           wget -q https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
           chmod +x linuxdeploy*.AppImage
           rm -f AppDir/usr/share/applications/*.desktop
           # linuxdeploy takes icons up to 512 x 512.
-          convert docs/images/libertyboard-logo.png -resize 512x512 libertyboard.png
-          cat > libertyboard.desktop <<'EOF'
+          convert docs/images/libertyboard-logo.png -resize 512x512 masterboard.png
+          cat > masterboard.desktop <<'EOF'
           [Desktop Entry]
           Type=Application
-          Name=LibertyBoard
+          Name=Master Board
           Comment=Whiteboard and PDF reader
           Exec=openboard %F
-          Icon=libertyboard
+          Icon=masterboard
           Categories=Education;Office;
           MimeType=application/pdf;
           EOF
-          sed -i 's/^ *//' libertyboard.desktop
+          sed -i 's/^ *//' masterboard.desktop
           export EXTRA_QT_MODULES="texttospeech;svg;webenginecore;multimedia"
           ./linuxdeploy-x86_64.AppImage --appdir AppDir -e AppDir/usr/bin/openboard \
-            -d libertyboard.desktop -i libertyboard.png --plugin qt --output appimage
+            -d masterboard.desktop -i masterboard.png --plugin qt --output appimage
           ls -la *.AppImage
 
       - name: Start it once
@@ -88,7 +88,7 @@ jobs:
         run: |
           # It must still be running after 25 seconds: it opened without crashing.
           set +e
-          HOME="$RUNNER_TEMP/home" xvfb-run -a timeout 25 ./LibertyBoard-linux-x86_64.AppImage
+          HOME="$RUNNER_TEMP/home" xvfb-run -a timeout 25 ./MasterBoard-linux-x86_64.AppImage
           code=$?
           echo "exit code: $code"
           test "$code" = "124"
@@ -96,15 +96,15 @@ jobs:
       - name: Keep the AppImage
         uses: actions/upload-artifact@v4
         with:
-          name: LibertyBoard-linux
-          path: LibertyBoard-linux-x86_64.AppImage
+          name: MasterBoard-linux
+          path: MasterBoard-linux-x86_64.AppImage
           retention-days: 30
 
       - name: Add it to the release of this build
         if: github.ref == 'refs/heads/master'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: bash .github/workflows/attach-to-release.sh LibertyBoard-linux-x86_64.AppImage
+        run: bash .github/workflows/attach-to-release.sh MasterBoard-linux-x86_64.AppImage
 
   macos:
     # The new Macs with an Apple chip (M1, M2...), and the older ones with Intel.
@@ -124,7 +124,7 @@ jobs:
     timeout-minutes: 150
 
     steps:
-      - name: Checkout LibertyBoard
+      - name: Checkout Master Board
         uses: actions/checkout@v4
 
       - name: Number of the build
@@ -203,10 +203,10 @@ jobs:
 
       - name: Make the application and the disk image
         run: |
-          app=build/LibertyBoard.app
+          app=build/MasterBoard.app
           resources="$app/Contents/Resources"
           mkdir -p "$resources"
-          # The data of LibertyBoard, where the macOS version looks for it.
+          # The data of Master Board, where the macOS version looks for it.
           cp -R resources/etc resources/library resources/startupHints "$resources/"
           cp -R resources/customizations resources/fonts "$resources/" 2>/dev/null || true
           mkdir -p "$resources/i18n"
@@ -218,20 +218,20 @@ jobs:
             double=$((size * 2))
             sips -z $double $double docs/images/libertyboard-logo.png --out icon.iconset/icon_${size}x${size}@2x.png >/dev/null
           done
-          iconutil -c icns icon.iconset -o "$resources/LibertyBoard.icns"
+          iconutil -c icns icon.iconset -o "$resources/MasterBoard.icns"
           "$QT_DIR/bin/macdeployqt" "$app" -verbose=1 -libpath="$HOME/quazip/lib" -libpath="$HOME/poppler/lib" -libpath="$DEPS/lib"
           bash .github/workflows/fix-macos-libraries.sh "$app"
           codesign --force --deep --sign - "$app"
           mkdir dmg
           cp -R "$app" dmg/
           ln -s /Applications dmg/Applications
-          hdiutil create -volname LibertyBoard -srcfolder dmg -ov -format UDZO LibertyBoard-macos-${{ matrix.name }}.dmg
-          ls -la LibertyBoard-macos-${{ matrix.name }}.dmg
+          hdiutil create -volname "Master Board" -srcfolder dmg -ov -format UDZO MasterBoard-macos-${{ matrix.name }}.dmg
+          ls -la MasterBoard-macos-${{ matrix.name }}.dmg
 
       - name: Check that the application carries its libraries
         run: |
           # No library may be looked for in the folders of this machine.
-          bad=$(find build/LibertyBoard.app -type f \( -perm -u+x -o -name '*.dylib' \) -exec otool -L {} \; 2>/dev/null \
+          bad=$(find build/MasterBoard.app -type f \( -perm -u+x -o -name '*.dylib' \) -exec otool -L {} \; 2>/dev/null \
                 | grep -E '^\s+(/Users/|/opt/homebrew|/usr/local)' | sort -u || true)
           if [ -n "$bad" ]; then echo "Libraries outside the application:"; echo "$bad"; exit 1; fi
           echo "All libraries are inside the application."
@@ -240,7 +240,7 @@ jobs:
         run: |
           set +e
           unset DYLD_FALLBACK_LIBRARY_PATH
-          build/LibertyBoard.app/Contents/MacOS/LibertyBoard &
+          build/MasterBoard.app/Contents/MacOS/MasterBoard &
           pid=$!
           sleep 25
           if kill -0 $pid 2>/dev/null; then echo "still running"; kill $pid; exit 0; fi
@@ -249,12 +249,12 @@ jobs:
       - name: Keep the disk image
         uses: actions/upload-artifact@v4
         with:
-          name: LibertyBoard-macos-${{ matrix.name }}
-          path: LibertyBoard-macos-${{ matrix.name }}.dmg
+          name: MasterBoard-macos-${{ matrix.name }}
+          path: MasterBoard-macos-${{ matrix.name }}.dmg
           retention-days: 30
 
       - name: Add it to the release of this build
         if: github.ref == 'refs/heads/master'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: bash .github/workflows/attach-to-release.sh LibertyBoard-macos-${{ matrix.name }}.dmg
+        run: bash .github/workflows/attach-to-release.sh MasterBoard-macos-${{ matrix.name }}.dmg

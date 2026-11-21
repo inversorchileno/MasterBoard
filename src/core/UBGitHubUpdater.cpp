@@ -52,7 +52,7 @@ static const char* sReleasesPage = "https://github.com/inversorchileno/LibertyBo
 static QNetworkRequest gitHubRequest(const QUrl& url)
 {
     QNetworkRequest request(url);
-    request.setHeader(QNetworkRequest::UserAgentHeader, QStringLiteral("LibertyBoard"));
+    request.setHeader(QNetworkRequest::UserAgentHeader, QStringLiteral("Master Board"));
     request.setAttribute(QNetworkRequest::RedirectPolicyAttribute, QNetworkRequest::NoLessSafeRedirectPolicy);
     return request;
 }
@@ -91,7 +91,7 @@ QString UBGitHubUpdater::currentVersionText()
 /** @brief The first line of the messages of the update: the version in use. */
 static QString inUse()
 {
-    return UBGitHubUpdater::tr("You are using LibertyBoard %1.").arg(UBGitHubUpdater::currentVersionText()) + "\n\n";
+    return UBGitHubUpdater::tr("You are using Master Board %1.").arg(UBGitHubUpdater::currentVersionText()) + "\n\n";
 }
 
 void UBGitHubUpdater::checkForUpdate()
@@ -120,7 +120,7 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
     {
         mBusy = false;
         QMessageBox::warning(mDialogParent, tr("Update"),
-                             inUse() + tr("LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again."));
+                             inUse() + tr("Master Board could not reach GitHub to look for a new version. Check the internet connection and try again."));
         return;
     }
 
@@ -154,7 +154,7 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
     {
         mBusy = false;
         const auto open = QMessageBox::question(mDialogParent, tr("Update"),
-            inUse() + tr("A new version of LibertyBoard is available (build %1).\n\nOpen its page to download it?").arg(build),
+            inUse() + tr("A new version of Master Board is available (build %1).\n\nOpen its page to download it?").arg(build),
             QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 
         if (open == QMessageBox::Yes)
@@ -170,13 +170,13 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
     {
         mBusy = false;
         QMessageBox::information(mDialogParent, tr("Update"),
-                                 inUse() + tr("You have the latest version of LibertyBoard."));
+                                 inUse() + tr("You have the latest version of Master Board."));
         return;
     }
 
     const auto answer = QMessageBox::question(mDialogParent, tr("Update"),
-        inUse() + tr("A new version of LibertyBoard is available (build %1).\n\n"
-           "Download and install it now? LibertyBoard saves your documents, closes and opens again.").arg(build),
+        inUse() + tr("A new version of Master Board is available (build %1).\n\n"
+           "Download and install it now? Master Board saves your documents, closes and opens again.").arg(build),
         QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 
     if (answer != QMessageBox::Yes)
@@ -233,7 +233,7 @@ void UBGitHubUpdater::onDownloaded(QNetworkReply* reply)
     QDir(folder).removeRecursively();
     QDir().mkpath(folder);
 
-    QFile zip(folder + "/LibertyBoard-windows.zip");
+    QFile zip(folder + "/MasterBoard-windows.zip");
 
     if (!zip.open(QIODevice::WriteOnly) || zip.write(reply->readAll()) < 0)
     {
@@ -259,7 +259,7 @@ void UBGitHubUpdater::install(const QString& zipFile)
     if (!probe.open())
     {
         QMessageBox::information(mDialogParent, tr("Update"),
-            tr("LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one."));
+            tr("Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one."));
         QDesktopServices::openUrl(mReleasePage);
         return;
     }

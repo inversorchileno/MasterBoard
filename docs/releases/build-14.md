@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 14
+# Master Board, compilación 14
 
 **Etapa 6: pestañas, guardar, girar, sellos, buscar, notas rápidas, adjuntos y sonidos**
 
@@ -12,4 +12,4 @@
 - Captura de pantalla de la pizarra o del escritorio.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

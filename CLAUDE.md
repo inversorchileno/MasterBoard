@@ -1,8 +1,8 @@
-# LibertyBoard
+# Master Board
 
-This repository is **LibertyBoard**, a modified version of OpenBoard (GPLv3) owned by Luis, who builds it for his own use on Windows 11. Before any work, read:
+This repository is **Master Board** (called LibertyBoard until version 2.0), a modified version of OpenBoard (GPLv3) owned by Luis, who builds it for his own use on Windows 11. Before any work, read:
 
-1. [docs/LIBERTYBOARD.md](docs/LIBERTYBOARD.md) (in Spanish): what LibertyBoard is, every agreed change, how it is built and published, the way of working with Luis, how to test on Linux and the pending ideas.
+1. [docs/MASTERBOARD.md](docs/MASTERBOARD.md) (in Spanish): what Master Board is, every agreed change, how it is built and published, the way of working with Luis, how to test on Linux and the pending ideas.
 2. [AGENTS.md](AGENTS.md) and [CODING_STYLE.md](CODING_STYLE.md): the OpenBoard rules for code, commits and data safety, which still apply.
 
 Where they differ, for this repository:

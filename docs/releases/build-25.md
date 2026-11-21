@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 25
+# Master Board, compilación 25
 
 **Ajustes de la Versión 3**
 
@@ -7,4 +7,4 @@
 - Flecha/Lazo y Archivo/Hipervínculo como botones con dibujo.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

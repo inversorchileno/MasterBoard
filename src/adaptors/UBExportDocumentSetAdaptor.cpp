@@ -150,7 +150,7 @@ QString UBExportDocumentSetAdaptor::exportExtention()
 
 QString UBExportDocumentSetAdaptor::exportName()
 {
-    return tr("Export to LibertyBoard UBX Format");
+    return tr("Export to Master Board UBX Format");
 }
 
 bool UBExportDocumentSetAdaptor::addDocumentToZip(const QModelIndex &pIndex, UBDocumentTreeModel *model, QuaZip &zip)

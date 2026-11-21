@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 29
+# Master Board, compilación 29
 
 **Ajustes de la Versión 4**
 
@@ -8,4 +8,4 @@
 - Descripción de GitHub con todas las funciones y notas de cada versión.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

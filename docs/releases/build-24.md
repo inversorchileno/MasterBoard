@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 24
+# Master Board, compilación 24
 
 **Versión 3 de las mejoras**
 
@@ -9,4 +9,4 @@
 - Leer desde el clic; dictar desde la herramienta Texto.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 env:
-  # Compiled into LibertyBoard, which compares it with the latest release to offer updates.
+  # Compiled into Master Board, which compares it with the latest release to offer updates.
   LIBERTYBOARD_BUILD: ${{ github.run_number }}
 
 jobs:
@@ -22,10 +22,10 @@ jobs:
     timeout-minutes: 120
 
     steps:
-      - name: Checkout LibertyBoard
+      - name: Checkout Master Board
         uses: actions/checkout@v4
         with:
-          path: LibertyBoard
+          path: MasterBoard
 
       - name: Checkout OpenBoard third-party libraries
         uses: actions/checkout@v4
@@ -58,25 +58,28 @@ jobs:
 
       - name: Build
         shell: cmd
-        working-directory: LibertyBoard
+        working-directory: MasterBoard
         run: |
           rem The translations first: qmake lists the .qm files to install when it runs.
           lrelease OpenBoard.pro || exit /b 1
           qmake OpenBoard.pro -spec win32-msvc "CONFIG+=release" || exit /b 1
           nmake release-install || exit /b 1
-          if not exist build\win32\release\product\LibertyBoard.exe exit /b 1
+          if not exist build\win32\release\product\MasterBoard.exe exit /b 1
           if not exist build\win32\release\product\i18n\OpenBoard_es.qm exit /b 1
 
       - name: Collect runtime files
         shell: cmd
-        working-directory: LibertyBoard
+        working-directory: MasterBoard
         run: |
           set PRODUCT=build\win32\release\product
-          windeployqt --release --compiler-runtime --no-system-d3d-compiler %PRODUCT%\LibertyBoard.exe || exit /b 1
+          windeployqt --release --compiler-runtime --no-system-d3d-compiler %PRODUCT%\MasterBoard.exe || exit /b 1
+          rem The name of before, for the shortcuts and for the update of the versions called LibertyBoard,
+          rem which open LibertyBoard.exe again after copying the new files.
+          copy /y %PRODUCT%\MasterBoard.exe %PRODUCT%\LibertyBoard.exe || exit /b 1
           xcopy /y /q ..\OpenBoard-ThirdParty\poppler\bin\*.dll %PRODUCT%\ || exit /b 1
           xcopy /y /q ..\OpenBoard-ThirdParty\openssl\openssl-3.0.15-win64\bin\*.dll %PRODUCT%\ || exit /b 1
           xcopy /y /q ..\OpenBoard-ThirdParty\zlib\1.2.11\bin\zlib.dll %PRODUCT%\ || exit /b 1
-          rem LibertyBoard uses the C API of poppler only, and poppler-cpp needs a library that is not shipped.
+          rem Master Board uses the C API of poppler only, and poppler-cpp needs a library that is not shipped.
           del %PRODUCT%\poppler-cpp.dll || exit /b 1
           xcopy /y /q /s /i resources\customizations %PRODUCT%\customizations || exit /b 1
           xcopy /y /q /s /i resources\startupHints %PRODUCT%\startupHints || exit /b 1
@@ -86,7 +89,7 @@ jobs:
 
       - name: Add the C++ runtime
         shell: pwsh
-        working-directory: LibertyBoard
+        working-directory: MasterBoard
         run: |
           $crt = Get-ChildItem "$env:VCToolsRedistDir\x64" -Directory -Filter "Microsoft.VC*.CRT" | Select-Object -First 1
           if (-not $crt) { throw "C++ runtime not found" }
@@ -94,7 +97,7 @@ jobs:
 
       - name: Check that every DLL is shipped
         shell: pwsh
-        working-directory: LibertyBoard/build/win32/release/product
+        working-directory: MasterBoard/build/win32/release/product
         run: |
           $shipped = @{}
           Get-ChildItem -Recurse -File -Include *.dll,*.exe | ForEach-Object { $shipped[$_.Name.ToLower()] = $true }
@@ -110,34 +113,35 @@ jobs:
           if ($missing.Count -gt 0) { $missing | Sort-Object -Unique | Write-Output; throw "Missing DLLs" }
           Write-Output "All DLLs are shipped."
 
-      - name: Upload LibertyBoard
+      - name: Upload Master Board
         uses: actions/upload-artifact@v4
         with:
-          name: LibertyBoard-windows
-          path: LibertyBoard/build/win32/release/product
+          name: MasterBoard-windows
+          path: MasterBoard/build/win32/release/product
           retention-days: 30
 
       - name: Publish the release used by the update menu
         if: github.ref == 'refs/heads/master'
         shell: pwsh
-        working-directory: LibertyBoard
+        working-directory: MasterBoard
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          $zip = "LibertyBoard-windows.zip"
+          $zip = "MasterBoard-windows.zip"
           Compress-Archive -Path "build\win32\release\product\*" -DestinationPath $zip -Force
           $tag = "build-$env:LIBERTYBOARD_BUILD"
           # The notes of this build, written in docs/releases, else a short text.
           $notes = "docs\releases\$tag.md"
           if (Test-Path $notes) {
-            gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title "LibertyBoard (build $env:LIBERTYBOARD_BUILD)" --notes-file $notes --latest
+            gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title "Master Board (build $env:LIBERTYBOARD_BUILD)" --notes-file $notes --latest
           } else {
-            gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title "LibertyBoard (build $env:LIBERTYBOARD_BUILD)" --notes "Windows build $env:LIBERTYBOARD_BUILD. Unzip and open LibertyBoard.exe, or use About > Update in LibertyBoard." --latest
+            gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title "Master Board (build $env:LIBERTYBOARD_BUILD)" --notes "Windows build $env:LIBERTYBOARD_BUILD. Unzip and open MasterBoard.exe, or use About > Update in Master Board." --latest
           }
           if ($LASTEXITCODE -ne 0) { exit 1 }
 
           # The notes of the earlier builds follow their files, when they change.
           Get-ChildItem "docs\releases\build-*.md" | Where-Object { $_.BaseName -ne $tag } | ForEach-Object {
-            gh release edit $_.BaseName --repo "${{ github.repository }}" --notes-file $_.FullName 2>$null
+            $number = $_.BaseName -replace 'build-', ''
+            gh release edit $_.BaseName --repo "${{ github.repository }}" --title "Master Board (build $number)" --notes-file $_.FullName 2>$null
           }
           exit 0

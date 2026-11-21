@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="docs/images/libertyboard-logo.png" alt="LibertyBoard" width="160">
+  <img src="docs/images/libertyboard-logo.png" alt="Master Board" width="160">
 </p>
 
-<h1 align="center">LibertyBoard</h1>
+<h1 align="center">Master Board</h1>
 
 <p align="center"><b>Pizarra digital y lector de PDF para escribir, dibujar, presentar y estudiar, con inteligencia artificial integrada.</b></p>
 
 <p align="center">
-  <img src="resources/startupHints/assets/guide/board.png" alt="LibertyBoard" width="820">
+  <img src="resources/startupHints/assets/guide/board.png" alt="Master Board" width="820">
 </p>
 
-LibertyBoard junta en un solo programa lo que antes estaba repartido en muchas herramientas: un lector y anotador de PDF, una pizarra para clases y presentaciones, un modo para escribir sobre cualquier programa abierto y un panel para trabajar con ChatGPT, Claude, Gemini, Copilot y otras IA. Sirve para estudiantes, profesores, trabajadores, creadores de contenido y, en general, para todos los que quieren una herramienta de PDF y pizarra multifuncional.
+Master Board junta en un solo programa lo que antes estaba repartido en muchas herramientas: un lector y anotador de PDF, una pizarra para clases y presentaciones, un modo para escribir sobre cualquier programa abierto y un panel para trabajar con ChatGPT, Claude, Gemini, Copilot y otras IA. Sirve para estudiantes, profesores, trabajadores, creadores de contenido y, en general, para todos los que quieren una herramienta de PDF y pizarra multifuncional.
 
-Lo creó Luis, conocido en YouTube como «Inversor Chileno». Luis no programa: construyó LibertyBoard con la ayuda de Claude, una inteligencia artificial, aportando las ideas.
+Lo creó Luis, conocido en YouTube como «Inversor Chileno». Luis no programa: construyó Master Board con la ayuda de Claude, una inteligencia artificial, aportando las ideas.
 
 ## Descargar
 
@@ -20,10 +20,10 @@ Abre la sección **[Releases](https://github.com/inversorchileno/LibertyBoard/re
 
 | Sistema | Archivo | Cómo abrirlo |
 |---|---|---|
-| **Windows** 10 y 11 | `LibertyBoard-windows.zip` | Descomprime la carpeta y abre `LibertyBoard.exe`. No necesita instalación. |
-| **macOS** con chip Apple (M1, M2, M3, M4…) | `LibertyBoard-macos-apple-silicon.dmg` | Abre el `.dmg` y arrastra LibertyBoard a Aplicaciones. |
-| **macOS** con procesador Intel (Mac antiguos) | `LibertyBoard-macos-intel.dmg` | Igual que el anterior. |
-| **Linux** (64 bits) | `LibertyBoard-linux-x86_64.AppImage` | Dale permiso de ejecución (clic derecho → Propiedades → Permitir ejecutar, o `chmod +x`) y ábrelo. |
+| **Windows** 10 y 11 | `MasterBoard-windows.zip` | Descomprime la carpeta y abre `MasterBoard.exe`. No necesita instalación. |
+| **macOS** con chip Apple (M1, M2, M3, M4…) | `MasterBoard-macos-apple-silicon.dmg` | Abre el `.dmg` y arrastra Master Board a Aplicaciones. |
+| **macOS** con procesador Intel (Mac antiguos) | `MasterBoard-macos-intel.dmg` | Igual que el anterior. |
+| **Linux** (64 bits) | `MasterBoard-linux-x86_64.AppImage` | Dale permiso de ejecución (clic derecho → Propiedades → Permitir ejecutar, o `chmod +x`) y ábrelo. |
 
 ¿Qué Mac tengo? Menú  → **Acerca de este Mac**: si dice «Chip Apple M…», usa la versión *apple-silicon*; si dice «Procesador Intel…», la versión *intel*.
 
@@ -31,16 +31,16 @@ En Windows, las versiones siguientes se instalan desde el propio programa: **Ace
 
 ### Aviso de seguridad al abrirlo por primera vez
 
-**Windows y macOS mostrarán un aviso de seguridad la primera vez que abras LibertyBoard.** Es normal y no significa que el programa tenga un virus.
+**Windows y macOS mostrarán un aviso de seguridad la primera vez que abras Master Board.** Es normal y no significa que el programa tenga un virus.
 
-**Por qué aparece:** Windows y macOS confían de inmediato en los programas *firmados digitalmente* con un certificado comprado a una empresa autorizada (en Windows, varios cientos de dólares al año; en Apple, la cuenta de desarrollador cuesta US$99 al año y cada versión debe enviarse a Apple para su revisión). LibertyBoard es un proyecto personal, gratuito y de código abierto, y por ahora no está firmado. Por eso el sistema no sabe quién lo hizo y te pide confirmar. Todo su código está publicado en este repositorio, y cada versión se compila automáticamente en los servidores de GitHub a partir de ese código.
+**Por qué aparece:** Windows y macOS confían de inmediato en los programas *firmados digitalmente* con un certificado comprado a una empresa autorizada (en Windows, varios cientos de dólares al año; en Apple, la cuenta de desarrollador cuesta US$99 al año y cada versión debe enviarse a Apple para su revisión). Master Board es un proyecto personal, gratuito y de código abierto, y por ahora no está firmado. Por eso el sistema no sabe quién lo hizo y te pide confirmar. Todo su código está publicado en este repositorio, y cada versión se compila automáticamente en los servidores de GitHub a partir de ese código.
 
 **Cómo abrirlo:**
 - **Windows** («Windows protegió su PC», SmartScreen): haz clic en **Más información** y luego en **Ejecutar de todas formas**.
-- **macOS** («no se puede abrir porque no se puede verificar al desarrollador»): haz **clic derecho** (o Control + clic) sobre LibertyBoard en Aplicaciones → **Abrir** → **Abrir**. Si no aparece el botón, ve a **Configuración del Sistema → Privacidad y seguridad** y presiona **Abrir igualmente** junto al aviso de LibertyBoard.
+- **macOS** («no se puede abrir porque no se puede verificar al desarrollador»): haz **clic derecho** (o Control + clic) sobre Master Board en Aplicaciones → **Abrir** → **Abrir**. Si no aparece el botón, ve a **Configuración del Sistema → Privacidad y seguridad** y presiona **Abrir igualmente** junto al aviso de Master Board.
 - **Linux** no muestra este aviso; solo hay que darle permiso de ejecución al archivo.
 
-Solo se pide la primera vez. LibertyBoard guarda sus documentos y su configuración en su propia carpeta de usuario.
+Solo se pide la primera vez. Master Board guarda sus documentos y su configuración en su propia carpeta de usuario.
 
 ## Todas las funciones
 
@@ -82,7 +82,7 @@ Solo se pide la primera vez. LibertyBoard guarda sus documentos y su configuraci
 
 ### Inteligencia artificial
 - Herramienta **IA** con **Resumen, Traducción, Crear imagen, Quitar fondo, Borrado generativo** y **Transcribir audio**.
-- Eliges una parte de la página o todo el PDF; LibertyBoard lo adjunta, escribe la instrucción y la envía.
+- Eliges una parte de la página o todo el PDF; Master Board lo adjunta, escribe la instrucción y la envía.
 - La página de la IA se abre al costado, con tu sesión guardada: ChatGPT, Claude, Gemini, Copilot, DeepSeek, Grok, Le Chat y Perplexity, y cualquier otra que agregues en Preferencias.
 - El resultado vuelve a la página arrastrándolo, con clic derecho o descargándolo; si se acaban los usos gratis, un aviso ofrece otra IA.
 
@@ -101,8 +101,8 @@ Solo se pide la primera vez. LibertyBoard guarda sus documentos y su configuraci
 
 ## Compilar desde el código
 
-La versión de Windows se compila automáticamente con GitHub Actions (`.github/workflows/windows-build.yml`) usando Qt 6 y MSVC, y se publica en Releases con las notas de `docs/releases`. Las notas de diseño y lo acordado para cada etapa están en [docs/LIBERTYBOARD.md](docs/LIBERTYBOARD.md).
+La versión de Windows se compila automáticamente con GitHub Actions (`.github/workflows/windows-build.yml`) usando Qt 6 y MSVC, y se publica en Releases con las notas de `docs/releases`. Las notas de diseño y lo acordado para cada etapa están en [docs/MASTERBOARD.md](docs/MASTERBOARD.md).
 
 ## Licencia
 
-LibertyBoard es software libre bajo la Licencia Pública General de GNU, versión 3 (GPLv3), derivado de [OpenBoard](https://github.com/OpenBoard-org/OpenBoard); ver [LICENSE](LICENSE) y [COPYRIGHT](COPYRIGHT).
+Master Board es software libre bajo la Licencia Pública General de GNU, versión 3 (GPLv3), derivado de [OpenBoard](https://github.com/OpenBoard-org/OpenBoard); ver [LICENSE](LICENSE) y [COPYRIGHT](COPYRIGHT).

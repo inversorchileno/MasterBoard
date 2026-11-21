@@ -3219,11 +3219,11 @@ hr { height: 1px; border-width: 0; }
 &lt;body style=&quot;font-family:&#x27;Segoe UI&#x27;; font-size:10pt;&quot;&gt;
 &lt;table border=&quot;0&quot; cellpadding=&quot;6&quot;&gt;&lt;tr&gt;
 &lt;td valign=&quot;middle&quot;&gt;&lt;img src=&quot;:/images/OpenBoard.png&quot; width=&quot;64&quot; height=&quot;64&quot; /&gt;&lt;/td&gt;
-&lt;td valign=&quot;middle&quot;&gt;&lt;p style=&quot;font-size:20pt; font-weight:700; margin-bottom:2px;&quot;&gt;LibertyBoard&lt;/p&gt;
+&lt;td valign=&quot;middle&quot;&gt;&lt;p style=&quot;font-size:20pt; font-weight:700; margin-bottom:2px;&quot;&gt;Master Board&lt;/p&gt;
 &lt;p style=&quot;font-size:11pt; color:#555555;&quot;&gt;Pizarra digital y lector PDF con anotaciones a mano alzada.&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;
-&lt;p&gt;LibertyBoard es un programa para leer y anotar documentos PDF con lápiz, presentar con puntero láser y dibujar sobre el escritorio. Incluye paneles de herramientas, formas, resaltador, notas y miniaturas de páginas.&lt;/p&gt;
-&lt;p&gt;Código fuente de LibertyBoard: &lt;a href=&quot;https://github.com/inversorchileno/LibertyBoard&quot;&gt;github.com/inversorchileno/LibertyBoard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Master Board es un programa para leer y anotar documentos PDF con lápiz, presentar con puntero láser y dibujar sobre el escritorio. Incluye paneles de herramientas, formas, resaltador, notas y miniaturas de páginas.&lt;/p&gt;
+&lt;p&gt;Código fuente de Master Board: &lt;a href=&quot;https://github.com/inversorchileno/LibertyBoard&quot;&gt;github.com/inversorchileno/LibertyBoard&lt;/a&gt;&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="openExternalLinks">

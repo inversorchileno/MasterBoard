@@ -208,7 +208,7 @@ void UBSoundDialog::record()
     }
 
     const QString folder = QStandardPaths::writableLocation(QStandardPaths::TempLocation);
-    const QString file = folder + "/LibertyBoard " + tr("Recording") + " "
+    const QString file = folder + "/Master Board " + tr("Recording") + " "
                          + QDateTime::currentDateTime().toString("yyyy-MM-dd HH-mm-ss") + ".m4a";
     mRecorder->setOutputLocation(QUrl::fromLocalFile(file));
     mRecorder->record();

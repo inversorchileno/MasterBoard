@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 21
+# Master Board, compilación 21
 
 **Versión 2 de las mejoras**
 
@@ -10,4 +10,4 @@
 - Hipervínculos; leer en voz alta y dictar.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

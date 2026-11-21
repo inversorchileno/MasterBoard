@@ -892,7 +892,7 @@ void UBAiPanel::startAction(Action action, QWidget* parent)
             QScreen* screen = layer->screen() ? layer->screen() : QGuiApplication::primaryScreen();
 
             new AreaPicker(layer, screen, [instruction, owner](const QImage& image) {
-                const QString file = workFolder() + "/LibertyBoard-selection.png";
+                const QString file = workFolder() + "/MasterBoard-selection.png";
 
                 if (!image.save(file, "PNG"))
                 {
@@ -916,7 +916,7 @@ void UBAiPanel::startAction(Action action, QWidget* parent)
     if (question.clickedButton() == whole)
     {
         UBApplication::applicationController->showBoard();
-        const QString file = workFolder() + (picture ? "/LibertyBoard-page.png" : "/LibertyBoard-document.pdf");
+        const QString file = workFolder() + (picture ? "/MasterBoard-page.png" : "/MasterBoard-document.pdf");
         UBBoardSaver saver;
 
         if (!saver.saveTo(file))
@@ -934,7 +934,7 @@ void UBAiPanel::startAction(Action action, QWidget* parent)
         QPointer<QWidget> owner = parent;
 
         new AreaPicker(view, [instruction, owner](const QImage& image) {
-            const QString file = workFolder() + "/LibertyBoard-selection.png";
+            const QString file = workFolder() + "/MasterBoard-selection.png";
 
             if (!image.save(file, "PNG"))
             {

@@ -33,17 +33,17 @@ BEGIN
 
         BEGIN
 
-            VALUE "CompanyName",      "LibertyBoard\000"
+            VALUE "CompanyName",      "Master Board\000"
 
-            VALUE "FileDescription",  "LibertyBoard - pizarra y lector PDF (version modificada de OpenBoard)\000"
+            VALUE "FileDescription",  "Master Board - pizarra y lector PDF (version modificada de OpenBoard)\000"
 
             VALUE "FileVersion",      UBVERSION
 
-            VALUE "LegalCopyright",   "LibertyBoard, basado en OpenBoard (c) Open Education Foundation y colaboradores. GPLv3\000"
+            VALUE "LegalCopyright",   "Master Board, basado en OpenBoard (c) Open Education Foundation y colaboradores. GPLv3\000"
 
-            VALUE "OriginalFilename", "LibertyBoard.exe\000"
+            VALUE "OriginalFilename", "MasterBoard.exe\000"
 
-            VALUE "ProductName",      "LibertyBoard\000"
+            VALUE "ProductName",      "Master Board\000"
 
             VALUE "ProductVersion",   UBVERSION
 

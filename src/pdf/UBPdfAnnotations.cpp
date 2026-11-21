@@ -170,7 +170,7 @@ bool UBPdfAnnotations::write(const QString& pdfFile, const QList<Mark>& marks)
             annotation->add("Rect", numbers(xref, { onPdf.x() - half, onPdf.y() - half, onPdf.x() + half, onPdf.y() + half }));
             annotation->add("F", Object(4)); // printed
             annotation->add("M", Object(pdfDate(mark.date)));
-            annotation->add("T", Object(pdfText(QStringLiteral("LibertyBoard"))));
+            annotation->add("T", Object(pdfText(QStringLiteral("Master Board"))));
 
             if (mark.file.isEmpty())
             {

@@ -1,7 +1,7 @@
 # German and French, page by page in the order of pages_es_en.py:
 # (title, intro, [items], tip)
 DE = [
- ('Willkommen bei LibertyBoard',
+ ('Willkommen bei Master Board',
   'Eine Tafel und ein PDF-Leser zum Schreiben, Zeichnen, Präsentieren und Lernen. Diese Anleitung zeigt jedes Werkzeug: Wähle ein Thema im Verzeichnis rechts.',
   ['Oben sind die <b>Menüs</b>: Start (öffnen, speichern, drucken), Modus (Tafel, Doppeltafel, Desktop), Bearbeiten, Werkzeuge, Anpassen und Über.',
    'Darunter die <b>Optionsleiste</b>: Sie zeigt die Optionen des gewählten Werkzeugs.',
@@ -97,7 +97,7 @@ DE = [
    '<b>Bildschirmfoto speichern</b>: speichert die Tafel als Bild im Ordner Bilder.'],
   'Im Desktop-Modus fügt Anhängen Hyperlinks ein.'),
  ('Vorlesen',
-  'LibertyBoard liest den Text mit den Stimmen von Windows.',
+  'Master Board liest den Text mit den Stimmen von Windows.',
   ['<b>Vom Anfang</b>: liest die Seite und dann die folgenden.',
    '<b>Ausgewählter Text</b>: ein Rechteck über den Text ziehen; er wird gelb markiert.',
    '<b>Ab dem Klick</b>: liest ab dem angeklickten Wort.',
@@ -106,7 +106,7 @@ DE = [
  ('KI',
   'ChatGPT, Claude, Gemini, Copilot und andere KIs nutzen, ohne die Tafel zu verlassen.',
   ['Aktionen: <b>Zusammenfassung, Übersetzung, Bild erstellen, Hintergrund entfernen, Generatives Löschen und Transkribieren</b>.',
-   'Sie wählen <b>einen Teil der Seite</b> oder <b>das ganze PDF</b>; LibertyBoard hängt es an, schreibt die Anweisung und sendet sie.',
+   'Sie wählen <b>einen Teil der Seite</b> oder <b>das ganze PDF</b>; Master Board hängt es an, schreibt die Anweisung und sendet sie.',
    'Die Seite der KI öffnet sich daneben, Ihre Sitzung bleibt erhalten; die Liste oben wechselt die KI.',
    'Die Antwort kommt zurück durch Ziehen auf die Seite, mit Rechtsklick → <b>Auf die Seite legen</b> oder durch Herunterladen.',
    'Sind die kostenlosen Nutzungen verbraucht, bietet eine Meldung eine andere KI an. Die KIs stehen unter <b>Einstellungen → KI</b>.'],
@@ -128,7 +128,7 @@ DE = [
    'Ein <b>farbiger Rand</b> erinnert an den Desktop-Modus (Einstellungen).'],
   'Die Leiste steht senkrecht am linken und rechten Rand und waagrecht oben oder unten.'),
  ('Anpassen und Tastenkürzel',
-  'LibertyBoard nach Ihrem Geschmack.',
+  'Master Board nach Ihrem Geschmack.',
   ['<b>Werkzeuge</b>: alle Werkzeuge, auch die aus der Leiste entfernten.',
    '<b>Anpassen</b>: Haken Sie die gewünschten Schaltflächen an, auf dem Desktop und auf der Tafel; das Menü bleibt dabei offen.',
    '<b>Elemente verschieben</b>: Schaltflächen durch Ziehen ordnen; <b>Anwenden</b> zeigt die Reihenfolge, ohne das Fenster zu schließen.',
@@ -145,7 +145,7 @@ DE = [
 ]
 
 FR = [
- ('Bienvenue dans LibertyBoard',
+ ('Bienvenue dans Master Board',
   'Un tableau et un lecteur de PDF pour écrire, dessiner, présenter et étudier. Ce guide montre chaque outil : choisissez un thème dans l’index à droite.',
   ['En haut, les <b>menus</b> : Accueil (ouvrir, enregistrer, imprimer), Mode (tableau, double tableau, bureau), Édition, Outils, Personnaliser et À propos.',
    'Dessous, la <b>barre d’options</b> : elle montre les options de l’outil choisi.',
@@ -241,7 +241,7 @@ FR = [
    '<b>Enregistrer une capture</b> : enregistre le tableau en image dans le dossier Images.'],
   'En mode bureau, Joindre met des hyperliens.'),
  ('Lecture à voix haute',
-  'LibertyBoard lit le texte avec les voix de Windows.',
+  'Master Board lit le texte avec les voix de Windows.',
   ['<b>Depuis le début</b> : lit la page puis les suivantes.',
    '<b>Texte sélectionné</b> : tracez un rectangle sur le texte à lire ; il est marqué en jaune.',
    '<b>Depuis le clic</b> : lit à partir du mot touché.',
@@ -250,7 +250,7 @@ FR = [
  ('IA',
   'Utilisez ChatGPT, Claude, Gemini, Copilot et d’autres IA sans quitter le tableau.',
   ['Actions : <b>Résumé, Traduction, Créer une image, Supprimer l’arrière-plan, Effacement génératif et Transcrire</b>.',
-   'Vous choisissez <b>une partie de la page</b> ou <b>tout le PDF</b> ; LibertyBoard le joint, écrit l’instruction et l’envoie.',
+   'Vous choisissez <b>une partie de la page</b> ou <b>tout le PDF</b> ; Master Board le joint, écrit l’instruction et l’envoie.',
    'La page de l’IA s’ouvre sur le côté, avec votre session gardée ; la liste du haut change d’IA.',
    'La réponse revient en la faisant glisser sur la page, par clic droit → <b>Mettre sur la page</b>, ou en la téléchargeant.',
    'Quand les utilisations gratuites sont épuisées, un message propose une autre IA. Les IA se règlent dans <b>Préférences → IA</b>.'],
@@ -272,7 +272,7 @@ FR = [
    'Une <b>bordure de couleur</b> rappelle que vous êtes en mode bureau (Préférences).'],
   'La palette est verticale sur les bords gauche et droit, et horizontale en haut ou en bas.'),
  ('Personnaliser et raccourcis',
-  'LibertyBoard à votre façon.',
+  'Master Board à votre façon.',
   ['<b>Outils</b> : tous les outils, même ceux retirés de la palette.',
    '<b>Personnaliser</b> : cochez les boutons à afficher, sur le bureau et sur le tableau ; le menu reste ouvert pendant que vous cochez.',
    '<b>Déplacer les éléments</b> : ordonnez les boutons en les faisant glisser ; <b>Appliquer</b> montre l’ordre sans fermer la fenêtre.',

@@ -335,7 +335,7 @@ void UBMainMenu::createMenus()
     aboutMenu->addAction(creatorAction);
     aboutMenu->addSeparator();
 
-    auto gitHubAction = new QAction(QIcon(":/images/toolbar/github.svg"), tr("LibertyBoard on GitHub"), mMainWindow);
+    auto gitHubAction = new QAction(QIcon(":/images/toolbar/github.svg"), tr("Master Board on GitHub"), mMainWindow);
     gitHubAction->setObjectName("actionLbGitHub");
     connect(gitHubAction, &QAction::triggered, this, []() {
         QDesktopServices::openUrl(QUrl("https://github.com/inversorchileno/LibertyBoard"));
@@ -368,18 +368,18 @@ void UBMainMenu::showCreator()
     logo->setAlignment(Qt::AlignTop | Qt::AlignHCenter);
 
     const QStringList paragraphs = {
-        tr("LibertyBoard was created by Luis, known on YouTube as «Inversor Chileno»."),
+        tr("Master Board was created by Luis, known on YouTube as «Inversor Chileno»."),
         tr("It was born from a simple idea: to have in a single program what used to be spread over many different tools. "
            "Taking OpenBoard, a free digital whiteboard, as a base, I added the reading and annotation of PDFs, templates, "
            "shapes, stamps, emojis and GIFs, reading aloud and dictation, artificial intelligence and much more."),
         tr("It is for students, teachers, workers, content creators and, in general, for everyone who wants a multifunctional "
            "PDF and whiteboard tool."),
-        tr("The curious thing is that I know nothing about writing code. I built LibertyBoard with the help of Claude, an "
+        tr("The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an "
            "artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you "
            "know how to write them in a good prompt, you too can create what you imagine."),
     };
 
-    QString html = "<h2>LibertyBoard</h2>";
+    QString html = "<h2>Master Board</h2>";
 
     for (const QString& paragraph : paragraphs)
     {

@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 12
+# Master Board, compilación 12
 
 **Etapa 5: menús, guardar, actualización, zoom, notas de colores e idiomas** (compilaciones 9 a 13)
 
@@ -11,4 +11,4 @@
 - Triángulos de opciones en la barra del escritorio.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

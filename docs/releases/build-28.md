@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 28
+# Master Board, compilación 28
 
 **Guía, Creador e IA mejorada**
 
@@ -10,4 +10,4 @@
 - Sello «Tu PNG».
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

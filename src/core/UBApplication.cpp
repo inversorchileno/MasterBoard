@@ -111,6 +111,8 @@ UBApplication::UBApplication(const QString &id, int &argc, char **argv) : Single
     setOrganizationName("LibertyBoard");
     setOrganizationDomain("github.com/inversorchileno");
     setApplicationName("LibertyBoard");
+    // The name shown; the one above keeps the folders of the documents and the settings.
+    setApplicationDisplayName("Master Board");
 
     // The theme "as the system" follows the choice of the system, noted
     // before LibertyBoard puts its own.

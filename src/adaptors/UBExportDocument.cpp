@@ -113,7 +113,7 @@ QString UBExportDocument::exportExtention()
 
 QString UBExportDocument::exportName()
 {
-    return tr("Export to LibertyBoard Format");
+    return tr("Export to Master Board Format");
 }
 
 bool UBExportDocument::associatedActionactionAvailableFor(const QModelIndex &selectedIndex)

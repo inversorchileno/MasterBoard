@@ -84,7 +84,7 @@ UBDesktopPalette::UBDesktopPalette(QWidget *parent, UBRightPalette* _rightPalett
 {
     QList<QAction*> actions;
 
-    mActionUniboard = new QAction(QIcon(":/images/toolbar/board.png"), tr("Show LibertyBoard"), this);
+    mActionUniboard = new QAction(QIcon(":/images/toolbar/board.png"), tr("Show Master Board"), this);
     connect(mActionUniboard, SIGNAL(triggered()), this, SIGNAL(uniboardClick()));
     actions << mActionUniboard;
 

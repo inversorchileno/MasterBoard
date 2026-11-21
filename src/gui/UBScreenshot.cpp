@@ -31,7 +31,7 @@
 
 QString UBScreenshot::save(const QPixmap& screenshot)
 {
-    const QString folder = QStandardPaths::writableLocation(QStandardPaths::PicturesLocation) + "/LibertyBoard";
+    const QString folder = QStandardPaths::writableLocation(QStandardPaths::PicturesLocation) + "/Master Board";
     QDir().mkpath(folder);
     const QString filename = folder + "/" + tr("Screenshot") + " "
                              + QDateTime::currentDateTime().toString("yyyy-MM-dd HH-mm-ss") + ".png";

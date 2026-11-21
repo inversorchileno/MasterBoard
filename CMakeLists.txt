@@ -32,7 +32,7 @@ include(cmake/Version.cmake)
 
 project(openboard
     VERSION ${VERSION_NUMBER}
-    DESCRIPTION "LibertyBoard is a whiteboard and PDF annotation app. It is a modified version of OpenBoard (GPLv3), which was forked from Open-Sankore and Uniboard."
+    DESCRIPTION "Master Board is a whiteboard and PDF annotation app. It is a modified version of OpenBoard (GPLv3), which was forked from Open-Sankore and Uniboard."
     HOMEPAGE_URL "https://github.com/inversorchileno/LibertyBoard"
     LANGUAGES CXX
 )
@@ -119,7 +119,7 @@ if(APPLE)
     configure_file(resources/macx/LibertyBoard.Info.plist.in ${PROJECT_BINARY_DIR}/Info.plist @ONLY)
     set_target_properties(${PROJECT_NAME} PROPERTIES
         MACOSX_BUNDLE TRUE
-        OUTPUT_NAME LibertyBoard
+        OUTPUT_NAME MasterBoard
         MACOSX_BUNDLE_INFO_PLIST ${PROJECT_BINARY_DIR}/Info.plist
     )
     target_compile_definitions(${PROJECT_NAME} PRIVATE Q_WS_MACX)
@@ -269,7 +269,7 @@ install(FILES     ${OPENBOARD_MIMEICON_FILE}    DESTINATION ${CMAKE_INSTALL_DATA
 include(InstallRequiredSystemLibraries)
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
 set(CPACK_PACKAGE_VERSION "${VERSION}")
-set(CPACK_PACKAGE_CONTACT "LibertyBoard")
+set(CPACK_PACKAGE_CONTACT "Master Board")
 set(CPACK_STRIP_FILES TRUE)
 
 # Debian specific settings

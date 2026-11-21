@@ -1,8 +1,8 @@
-# LibertyBoard, compilación 15
+# Master Board, compilación 15
 
 **Etapa 7: logo nuevo, íconos a color, scroll continuo y pantalla completa**
 
-- Logo nuevo de LibertyBoard e íconos a color que muestran el color elegido.
+- Logo nuevo de Master Board e íconos a color que muestran el color elegido.
 - Pantalla completa (F11).
 - Barra de desplazamiento del documento en el borde derecho.
 - Scroll continuo: la página anterior y la siguiente se ven pegadas a la actual.
@@ -10,4 +10,4 @@
 - Las barras se achican cuando la pantalla no alcanza.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

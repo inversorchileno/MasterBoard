@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 27
+# Master Board, compilación 27
 
 **Versión 4 de las mejoras**
 
@@ -9,4 +9,4 @@
 - Las pestañas se reordenan arrastrándolas; la ventana de GIFs recuerda las cookies.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

@@ -488,7 +488,7 @@ QString UBShortcutsDialog::refusal(QAction* action, const QKeySequence& shortcut
 
     if (shortcut == QKeySequence(Qt::CTRL | Qt::Key_A))
     {
-        return tr("LibertyBoard uses it to select all the text of a text box.");
+        return tr("Master Board uses it to select all the text of a text box.");
     }
 
     // Alt and a letter opens a menu.
@@ -502,7 +502,7 @@ QString UBShortcutsDialog::refusal(QAction* action, const QKeySequence& shortcut
             {
                 if (QKeySequence::mnemonic(menuAction->text()) == shortcut)
                 {
-                    return tr("LibertyBoard uses it to open the menu «%1».").arg(nameOf(menuAction));
+                    return tr("Master Board uses it to open the menu «%1».").arg(nameOf(menuAction));
                 }
             }
         }
@@ -510,7 +510,7 @@ QString UBShortcutsDialog::refusal(QAction* action, const QKeySequence& shortcut
 
     if (QAction* user = userOf(shortcut, action))
     {
-        return tr("LibertyBoard already uses it for «%1». Remove it there first.").arg(nameOf(user));
+        return tr("Master Board already uses it for «%1». Remove it there first.").arg(nameOf(user));
     }
 
     return QString();
@@ -688,7 +688,7 @@ void UBShortcutsDialog::restoreCurrent()
     {
         QMessageBox::warning(this, tr("Shortcut not possible"),
                              tr("%1 can not be used: %2").arg(defaultOf(action).toString(QKeySequence::NativeText),
-                                                            tr("LibertyBoard already uses it for «%1». Remove it there first.")
+                                                            tr("Master Board already uses it for «%1». Remove it there first.")
                                                             .arg(nameOf(user))));
         return;
     }

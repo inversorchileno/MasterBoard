@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 26
+# Master Board, compilación 26
 
 **Ajustes de la Versión 3**
 
@@ -7,4 +7,4 @@
 - En un PDF el candado dice «Bloquear PDF».
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

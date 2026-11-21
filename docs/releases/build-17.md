@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 17
+# Master Board, compilación 17
 
 **Lector de PDF completo**
 
@@ -12,4 +12,4 @@
 - Las notas y los adjuntos quedan como comentarios y adjuntos dentro del PDF guardado.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

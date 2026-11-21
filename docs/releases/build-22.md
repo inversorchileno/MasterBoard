@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 22
+# Master Board, compilación 22
 
 **Observaciones a la Versión 2**
 
@@ -9,4 +9,4 @@
 - Herramienta Leer en voz alta en la barra; dictado en español de Chile.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

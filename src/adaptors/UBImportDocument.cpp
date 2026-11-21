@@ -70,7 +70,7 @@ QStringList UBImportDocument::supportedExtentions()
 
 QString UBImportDocument::importFileFilter()
 {
-    return tr("LibertyBoard (*.ubz)");
+    return tr("Master Board (*.ubz)");
 }
 
 

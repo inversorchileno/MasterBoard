@@ -368,7 +368,7 @@ void UBPodcastController::start()
             }
             else
             {
-                videoFileName = mPodcastRecordingPath + "/" + tr("LibertyBoard Cast") + "." + mVideoEncoder->videoFileExtension();
+                videoFileName = mPodcastRecordingPath + "/" + tr("Master Board Cast") + "." + mVideoEncoder->videoFileExtension();
             }
 
             videoFileName = UBFileSystemUtils::nextAvailableFileName(videoFileName, " ");

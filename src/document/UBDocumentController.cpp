@@ -2075,7 +2075,7 @@ void UBDocumentController::showBrokenDocumentWarning()
     }
 
     const QString supportEmail = settings ? settings->supportEmail->get().toString() : QString();
-    QString messageText = tr("LibertyBoard could not recover this file. Please delete it or contact your administrator for help");
+    QString messageText = tr("Master Board could not recover this file. Please delete it or contact your administrator for help");
     if (!supportEmail.isEmpty())
     {
         messageText.append(QString(" (%1)").arg(supportEmail));

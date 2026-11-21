@@ -203,7 +203,7 @@ void UBPreferencesController::addLanguageChoice()
     languages->setCurrentIndex(currentIndex);
     languages->setMinimumWidth(240);
 
-    auto hint = new QLabel(tr("The new language is used the next time LibertyBoard starts."), group);
+    auto hint = new QLabel(tr("The new language is used the next time Master Board starts."), group);
 
     layout->addWidget(languages);
     layout->addWidget(hint, 1);
@@ -404,7 +404,7 @@ QWidget* UBPreferencesController::themeChoice()
     layout->addLayout(row);
 
     auto hint = new QLabel(tr("The colors of the menu bar, of the options of the tools and of the zoom. "
-                              "The new theme is used the next time LibertyBoard starts."), group);
+                              "The new theme is used the next time Master Board starts."), group);
     hint->setWordWrap(true);
     hint->setObjectName("hint");
     layout->addWidget(hint);
@@ -523,7 +523,7 @@ void UBPreferencesController::buildCategories()
     ui->internetGroupBox->setTitle(tr("Internet"));
 
     QWidget* updates = ui->softwareUpdateGroupBox;
-    auto updatesHint = new QLabel(tr("LibertyBoard %1. To look for a new version now: About > Update.")
+    auto updatesHint = new QLabel(tr("Master Board %1. To look for a new version now: About > Update.")
                                       .arg(UBGitHubUpdater::currentVersionText()), updates);
     updatesHint->setObjectName("hint");
     updatesHint->setWordWrap(true);
@@ -563,7 +563,7 @@ void UBPreferencesController::buildCategories()
         { QString(), tr("AI"), tr("Artificial intelligence"), { mAiPage } },
         { ":/images/toolbar/web.png", tr("Network"), tr("Network"), { ui->internetGroupBox } },
         { ":/images/toolbar/updates.png", tr("Update"), tr("Update"), { updates } },
-        { ":/images/toolbar/tip.png", tr("About"), tr("About LibertyBoard"), { ui->aboutTab } },
+        { ":/images/toolbar/tip.png", tr("About"), tr("About Master Board"), { ui->aboutTab } },
     };
 
     for (const auto& category : list)

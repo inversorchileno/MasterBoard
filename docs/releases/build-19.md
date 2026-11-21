@@ -1,4 +1,4 @@
-# LibertyBoard, compilación 19
+# Master Board, compilación 19
 
 **Impresión, OCR y pestañas**
 
@@ -7,4 +7,4 @@
 - Índice y Buscar se cierran con un segundo clic; el lazo también copia texto.
 
 ---
-Descarga `LibertyBoard-windows.zip`, descomprímelo y abre `LibertyBoard.exe`, o actualiza desde **Acerca → Actualización**.
+Descarga el archivo `.zip` de Windows, descomprímelo y abre el programa, o actualiza desde **Acerca → Actualización**.

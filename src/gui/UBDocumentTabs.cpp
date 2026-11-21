@@ -559,7 +559,7 @@ void UBDocumentTabs::offerRecovery()
     }
 
     const auto answer = QMessageBox::question(window(), tr("Recover documents"),
-        tr("LibertyBoard stopped without closing. Open again the %1 documents that were open?").arg(documents.size()));
+        tr("Master Board stopped without closing. Open again the %1 documents that were open?").arg(documents.size()));
 
     if (answer == QMessageBox::Yes)
     {
