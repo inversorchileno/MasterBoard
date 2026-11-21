@@ -73,7 +73,12 @@ Solo se pide la primera vez. LibertyBoard guarda sus documentos y su configuraci
 
 ### Plantillas
 - **Estilo plantilla**: color de la hoja, cuadrícula o líneas y 21 **plantillas** (calendarios diario, semanal, mensual y anual que se arman solos, listas, notas Cornell, pentagrama, papel milimetrado, plan de clase, mapa mental, guion gráfico…), en español, inglés, alemán, francés, chino y japonés.
+- Color y opacidad de las líneas de la cuadrícula, del rayado y de los puntos.
 - Tamaño de página/lienzo personalizado, para seguir dibujando cuando la hoja se llena.
+
+### Medir
+- **Mediciones**: distancia, perímetro y área, en la pizarra y en el escritorio, en milímetros, centímetros, metros, kilómetros, pulgadas, pies, yardas o millas.
+- Se dibuja una vez una línea de referencia de 1 unidad; en la pizarra el zoom no cambia las medidas.
 
 ### Inteligencia artificial
 - Herramienta **IA** con **Resumen, Traducción, Crear imagen, Quitar fondo, Borrado generativo** y **Transcribir audio**.
@@ -88,9 +93,10 @@ Solo se pide la primera vez. LibertyBoard guarda sus documentos y su configuraci
 
 ### A tu manera
 - Menú **Herramientas** con todas las herramientas.
-- Menú **Personalización**: elige qué botones se ven en la pizarra y en el escritorio, y su orden con **Mover elementos**.
+- Menú **Personalización**: elige qué botones se ven en la pizarra y en el escritorio, su orden con **Mover elementos** y su **Estilo barra** (colores, opacidad y esquinas de cuadradas a redondas).
+- **Preferencias** ordenadas por categorías, con **Tema** oscuro, blanco, gris o igual que Windows.
 - **Acerca → Atajos**: todos los atajos de teclado, que se pueden cambiar, con aviso si chocan con Windows o con el programa.
-- **Consejos y trucos** (F1): una guía con imágenes de cada herramienta.
+- **Consejos y trucos** (F1): una guía con imágenes de cada herramienta y un índice para ir a cualquier tema.
 - 33 idiomas.
 
 ## Compilar desde el código

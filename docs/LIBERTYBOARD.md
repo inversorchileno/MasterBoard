@@ -298,6 +298,27 @@ Luis revisó la compilación 21 y entregó «observaciones_V2.docx» con 15 punt
 - **Menú Acerca:** sin «Abrir tutorial». **Consejos y trucos** (F1) es ahora una guía de 19 páginas con capturas de cada herramienta, en español, inglés, alemán, francés, japonés y chino (los demás idiomas, en inglés). Las páginas se generan con `tools/guide/gen.py` desde los textos de `tools/guide/pages_*.py`; las imágenes están en `resources/startupHints/assets/guide` (tomadas en español). La ventana de consejos mide 1000 × 760. **Creador** (Ctrl+Mayús+F2): texto aprobado por Luis sobre quién hizo LibertyBoard y cómo, traducido a los 33 idiomas; el enlace a su video se agregará cuando lo publique.
 - **Después de la compilación 28:** arreglo de la barra de páginas (al arrastrarla, cada valor centraba la vista en el centro leído de la vista, que redondea medio píxel siempre hacia el mismo lado: la página se corría a la derecha hasta salir de la pantalla; ahora solo cambia la altura y se aplica el último valor cada 30 ms). La ventana de GIFs se ubica como el panel de IA (`UBAiPanel::sidePlace`), también dentro de la capa del escritorio. Edición sin «Leer y dictar» (queda Ctrl+Mayús+L). Creador sin el párrafo de la licencia. Preferencias → Acerca de: descripción de LibertyBoard, actualización del software y los botones «Traductores» y «Licencias», que despliegan los créditos y los avisos legales (GPLv3, copyright de OpenBoard y de las bibliotecas de terceros). README con todas las funciones y notas de cada versión en `docs/releases`.
 
+## macOS y Linux (compilación 30)
+
+- `.github/workflows/linux-macos-build.yml` compila en cada push (salvo cambios solo de documentos) y, en `master`, adjunta los archivos a la release que publica la compilación de Windows del mismo commit (`attach-to-release.sh`).
+- **Linux:** Ubuntu 24.04, AppImage con linuxdeploy (`LIBERTYBOARD_RELOCATABLE`), y se comprueba que abre.
+- **macOS:** dos trabajos, `apple-silicon` (macos-15, Qt y bibliotecas de Homebrew) e `intel` (macos-15-intel, Qt oficial 6.8.3 con aqtinstall y bibliotecas de conda-forge, porque Homebrew ya no trae paquetes listos para Intel y los compila durante horas). En los dos se compilan QuaZip 1.4 y **poppler 24.02** (la versión de Linux: la de Homebrew, 26, tiene otra interfaz y pide C++20). `fix-macos-libraries.sh` lleva dentro de la app las bibliotecas que macdeployqt deja apuntando a Homebrew (el ayudante de QtWebEngine), y un paso falla la compilación si alguna sigue apuntando a carpetas de la máquina. FFmpeg 8 ya no tiene `AVCodec::sample_fmts` (se usa `avcodec_get_supported_config`).
+- Sin firma de Apple ni de Microsoft: la primera vez cada sistema muestra un aviso, explicado en el README.
+
+## Versión 2.0 (mejoras finales, sin compilar aún)
+
+Pedidas en el Word «mejoras_finales».
+
+- **Versión 2.0** (`version.txt`): Acerca → Actualización empieza siempre con «Estás usando LibertyBoard 2.0 (compilación N).», haya o no una nueva; Preferencias → Acerca de también la muestra. La actualización compara el número de compilación, no la versión.
+- **Preferencias como PDF-XChange:** categorías con ícono a la izquierda (General, Apariencia, Lápiz y barra de herramientas, Pantallas y escritorio, Documentos y PDF, IA, Red, Actualización, Acerca de) y su página a la derecha, con título y secciones que se desplazan (`UBPreferencesController::buildCategories`, sobre los widgets de `preferences.ui`). Aceptar, Aplicar y Cancelar: Cancelar, Esc y la X devuelven los ajustes de cuando se abrió la ventana o del último Aplicar (instantánea de todos los `UBSetting`). La sección de la posición de la barra de herramientas se llama «Barra de herramientas» y la de la barra de arriba «Barra de opciones». Sin pestañas Traductores ni Cuadrícula; las licencias quedan tras el botón **Referencias**.
+- **Tema** (Apariencia): oscuro (por defecto), blanco, gris (claro con letras negras) o igual que Windows/el sistema. `UBTheme` cambia los colores de las hojas de estilo oscuras y de los íconos dibujados de la barra de menú, la barra de opciones, las pestañas de documentos, la página actual y el zoom; se aplica al volver a abrir LibertyBoard.
+- **Color de las líneas** de la cuadrícula, del rayado y de los puntos, con su opacidad, en Estilo plantilla → Hoja (para hoja clara u oscura, según la página).
+- **Personalización → Estilo barra** (`UBBarStyle`): color interior, color del borde, opacidad y esquinas de cuadradas a redondas de las barras de herramientas de la pizarra y del escritorio, al instante; Cancelar vuelve atrás y Restaurar pone el gris de siempre.
+- **Mover elementos** con **Aplicar**: el orden se ve al instante sin cerrar; Cancelar después de Aplicar vuelve al orden de cuando se abrió.
+- **Podcast y Multipantalla** salen de Inicio: van al final del menú Herramientas y como botones arriba a la derecha, a la izquierda de Bloquear lienzo; no se ofrecen en las barras.
+- **Consejos y trucos** en una ventana propia (sin el marco gris de OpenBoard): barra de título con X, la página a la izquierda y el **índice** de las páginas a la derecha; 20 páginas, con una nueva de Mediciones.
+- **Mediciones** (`UBMeasureTool`, `UBStylusTool::Measure`, `actionMeasure`, Ctrl+Mayús+D), en la pizarra y en el escritorio: Distancia, Perímetro y Área. La primera vez la ventana pide la unidad (mm, cm, m, km, in, ft, yd, mi) y una línea de 1 unidad; luego Distancia se arrastra, Perímetro y Área se marcan con un clic en cada esquina y doble clic (o Enter) en la última. La ventana se mueve, tiene Reiniciar y X; elegir de nuevo la opción activa también cierra. Con otra herramienta la ventana conserva la última medida y las líneas se van. En la pizarra la referencia está en coordenadas de la página (el zoom no cambia las medidas). En el escritorio la unidad se elige dentro de la ventana (un diálogo aparte no recibe los clics) y la capa de las líneas queda bajo la barra. Probado: 3,00 cm, 4,00 cm² y 8,00 cm con una referencia de 100 px, también con zoom.
+
 ## Forma de trabajo
 
 - El dueño es **Luis** (Chile), analista financiero, sin experiencia en programación. Habla en español; se le responde en español, claro y sin jerga. Usa Windows 11, pantalla ancha (unos 2540 px) y lápiz digital.
@@ -305,7 +326,7 @@ Luis revisó la compilación 21 y entregó «observaciones_V2.docx» con 15 punt
 - Antes de cada push: compilar en Linux y probar lo visible en la aplicación real, con capturas. Al terminar, decirle qué se probó y qué no, y qué debe revisar él en Windows.
 - Push a `master` = nueva versión para él. Se le avisa del número de compilación y que actualice con **Acerca → Actualización**.
 - Commits en inglés con el formato `tipo: resumen` y un cuerpo que explica qué se hizo y en qué se probó (ver `CODING_STYLE.md`). Nunca usar sus documentos reales para pruebas.
-- Respetar la GPLv3: se mantienen los encabezados de copyright y la mención "versión modificada de OpenBoard".
+- Respetar la GPLv3: se mantienen los encabezados de copyright del código, los archivos `LICENSE` y `COPYRIGHT`, y los avisos legales (GPLv3, copyright de OpenBoard y de las bibliotecas) en Preferencias → Acerca de → **Referencias**.
 
 ## Pruebas en Linux
 
