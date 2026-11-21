@@ -533,7 +533,9 @@ void UBPreferencesController::buildCategories()
     updates->setMaximumHeight(QWIDGETSIZE_MAX);
 
     // The choices of the toolbar one under the other, to fit the width.
-    auto toolbar = new QGroupBox(ui->toolbarGroupBox->title(), mPreferencesWindow);
+    // "Toolbar" is the name of the palette of the tools; this one is the bar of their options.
+    auto toolbar = new QGroupBox(tr("Options bar"), mPreferencesWindow);
+    ui->stylusPaletteGroupBox->setTitle(tr("Toolbar"));
     auto toolbarLayout = new QVBoxLayout(toolbar);
     toolbarLayout->addWidget(ui->toolbarAtTopRadioButton);
     toolbarLayout->addWidget(ui->toolbarAtBottomRadioButton);
@@ -551,7 +553,7 @@ void UBPreferencesController::buildCategories()
           { mLanguageGroup, ui->modeGroupBox, ui->keyboardGroupBox } },
         { ":/images/color.svg", tr("Appearance"), tr("Appearance"),
           { themeChoice(), toolbar } },
-        { ":/images/toolbar/stylus.png", tr("Pen and palette"), tr("Pen and palette"),
+        { ":/images/toolbar/stylus.png", tr("Pen and toolbar"), tr("Pen and toolbar"),
           { mPressureGroup, ui->stylusPaletteGroupBox } },
         { ":/images/toolbar/display.png", tr("Screens and desktop"), tr("Screens and desktop"),
           { mBorderGroup, ui->multiDisplayGroupBox } },
