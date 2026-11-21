@@ -365,6 +365,10 @@ void UBSettings::init()
                                              "DeepSeek|https://chat.deepseek.com/", "Grok|https://grok.com/", "Le Chat|https://chat.mistral.ai/", "Perplexity|https://www.perplexity.ai/" }));
     aiCurrentService = new UBSetting(this, "Board", "LibertyBoardAiCurrentService", 0);
     appTheme = new UBSetting(this, "App", "LibertyBoardTheme", "dark");
+    barInnerColor = new UBSetting(this, "App", "LibertyBoardBarInnerColor", "#323232");
+    barOuterColor = new UBSetting(this, "App", "LibertyBoardBarOuterColor", "#aaaaaa");
+    barOpacity = new UBSetting(this, "App", "LibertyBoardBarOpacity", 100);
+    barRoundness = new UBSetting(this, "App", "LibertyBoardBarRoundness", 40);
     weekStartsOnSunday = new UBSetting(this, "Board", "LibertyBoardWeekStartsOnSunday", false);
     emojiChoice = new UBSetting(this, "Board", "LibertyBoardEmoji", QString());
     emojiSize = new UBSetting(this, "Board", "LibertyBoardEmojiSize", 80);

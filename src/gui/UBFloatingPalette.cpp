@@ -37,6 +37,7 @@
 #include "core/UBSettings.h"
 
 #include "core/memcheck.h"
+#include "gui/UBBarStyle.h"
 
 UBFloatingPalette::UBFloatingPalette(Qt::Corner position, QWidget *parent)
     : QWidget(parent, parent ? Qt::Widget : Qt::Tool | (Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint | Qt::X11BypassWindowManagerHint))
@@ -270,6 +271,13 @@ void UBFloatingPalette::showEvent(QShowEvent *)
 void UBFloatingPalette::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
+
+    if (isBar())
+    {
+        UBBarStyle::paint(painter, rect(), border());
+        return;
+    }
+
     painter.setRenderHint(QPainter::Antialiasing);
     painter.setPen(Qt::NoPen);
     painter.setBrush(mBackgroundBrush);

@@ -82,6 +82,9 @@ class UBFloatingPalette : public QWidget
 
         virtual int radius();
         virtual int border();
+
+        /** @brief A tool palette, painted in the style of Customize > Bar style. */
+        virtual bool isBar() const { return false; }
         virtual int gripSize();
 
         QBrush mBackgroundBrush;

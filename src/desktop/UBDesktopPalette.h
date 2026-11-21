@@ -48,6 +48,11 @@ class UBDesktopPalette : public UBActionPalette
         virtual ~UBDesktopPalette();
 
         void disappearForCapture();
+
+    protected:
+        bool isBar() const override { return true; }
+
+    public:
         void appear();
         QPoint buttonPos(QAction* action);
 

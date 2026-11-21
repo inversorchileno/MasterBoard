@@ -25,6 +25,7 @@ HEADERS +=  \
     src/gui/UBShortcutsDialog.h \
     src/gui/UBAiPanel.h \
     src/gui/UBTheme.h \
+    src/gui/UBBarStyle.h \
     src/gui/UBDocumentTabs.h \
     src/gui/UBNoteToolIcon.h \
     src/gui/UBCommentPopup.h \
@@ -106,6 +107,7 @@ SOURCES +=  \
     src/gui/UBShortcutsDialog.cpp \
     src/gui/UBAiPanel.cpp \
     src/gui/UBTheme.cpp \
+    src/gui/UBBarStyle.cpp \
     src/gui/UBDocumentTabs.cpp \
     src/gui/UBNoteToolIcon.cpp \
     src/gui/UBCommentPopup.cpp \

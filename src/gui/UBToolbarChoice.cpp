@@ -43,6 +43,7 @@
 #include "core/UBSettings.h"
 #include "gui/UBMainWindow.h"
 #include "gui/UBActionPalette.h"
+#include "gui/UBBarStyle.h"
 #include "gui/UBShortcutsDialog.h"
 
 namespace
@@ -502,4 +503,8 @@ void UBToolbarChoice::fillCustomizeMenu(QMenu* menu)
     menu->addSeparator();
     QAction* move = menu->addAction(tr("Move items..."));
     QObject::connect(move, &QAction::triggered, menu, [menu]() { openOrderWindow(menu->parentWidget() ? menu->parentWidget()->window() : nullptr); });
+
+    // The colors, the opacity and the corners of the palettes.
+    QAction* style = menu->addAction(tr("Bar style..."));
+    QObject::connect(style, &QAction::triggered, menu, [menu]() { UBBarStyle::openWindow(menu->parentWidget() ? menu->parentWidget()->window() : nullptr); });
 }

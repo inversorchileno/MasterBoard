@@ -49,6 +49,11 @@ class UBStylusPalette : public UBActionPalette
         static int edge();
         static void setEdge(int edge);
 
+    protected:
+        bool isBar() const override { return true; }
+
+    public:
+
         /** @brief The board view, beside the pages sidebar, in the coordinates of the parent. */
         QRect boardArea() const;
 

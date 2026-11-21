@@ -49,6 +49,7 @@
 #include "gui/UBToolbarChoice.h"
 
 #include "core/memcheck.h"
+#include "gui/UBBarStyle.h"
 
 static const QString sHorizontalKey = QStringLiteral("Desktop/LibertyBoardPaletteHorizontal");
 static const QString sEdgeKey = QStringLiteral("Desktop/LibertyBoardPaletteEdge");
@@ -293,12 +294,7 @@ void UBDesktopPalette::paintEvent(QPaintEvent* event)
 
     {
         QPainter painter(this);
-        painter.setRenderHint(QPainter::Antialiasing);
-        painter.setPen(Qt::NoPen);
-        painter.setBrush(QColor(170, 170, 170));
-        painter.drawRoundedRect(bar, radius(), radius());
-        painter.setBrush(mBackgroundBrush);
-        painter.drawRoundedRect(bar.adjusted(border(), border(), -border(), -border()), radius(), radius());
+        UBBarStyle::paint(painter, bar, border());
     }
 
     // A small red triangle pointing to the border: a click minimizes the palette there.
