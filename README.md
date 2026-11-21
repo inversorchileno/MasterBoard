@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/libertyboard-logo.png" alt="Master Board" width="160">
+  <img src="docs/images/masterboard-logo.png" alt="Master Board" width="160">
 </p>
 
 <h1 align="center">Master Board</h1>

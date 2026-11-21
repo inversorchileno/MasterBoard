@@ -2,8 +2,8 @@
 
 /* Application Icon */
 
-IDI_ICON1               ICON    DISCARDABLE     "LibertyBoard.ico"
-IDI_ICON2               ICON    DISCARDABLE     "LibertyBoardDoc.ico"
+IDI_ICON1               ICON    DISCARDABLE     "MasterBoard.ico"
+IDI_ICON2               ICON    DISCARDABLE     "MasterBoardDoc.ico"
 
 /* Version Info */
 

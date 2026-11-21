@@ -27,7 +27,7 @@ DefaultGroupName=OpenBoard
 
 OutputDir={#ProjectRoot}\install\win32\
 OutputBaseFilename=OpenBoard
-SetupIconFile={#ProjectRoot}\resources\win\LibertyBoard.ico
+SetupIconFile={#ProjectRoot}\resources\win\MasterBoard.ico
 Compression=lzma
 SolidCompression=yes
 
