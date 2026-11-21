@@ -2677,7 +2677,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <source>The document &apos;%1&apos; has been generated with a newer version of Master Board (%2). By opening it, you may lose some information. Do you want to proceed?</source>
-        <translation type="vanished">Dokument &apos;%1&apos; bol vytvorený v novšej verzii LibertyBoardu (%2). Ak ho otvoríte v tejto, aktuálnej verzii, môže dôjsť k strate údajov. Chcete napriek tomu pokračovať?</translation>
+        <translation type="vanished">Dokument &apos;%1&apos; bol vytvorený v novšej verzii Master Boardu (%2). Ak ho otvoríte v tejto, aktuálnej verzii, môže dôjsť k strate údajov. Chcete napriek tomu pokračovať?</translation>
     </message>
     <message numerus="yes">
         <location line="+667"/>
@@ -4972,7 +4972,7 @@ Dá sa to urobiť aj neskôr cez Domov &gt; Rozpoznať text.</translation>
     </message>
     <message>
         <source>You can always access the Master Board Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current Master Board documents.</source>
-        <translation type="vanished">Nahrávanie dokumentov môžete kedykoľvek spustiť z karty O programe na paneli Predvoľby. Pozor, ak ste už nahrali dáta z Open-Sankoré, môžete ich spúšťať ako dokumenty vytvorené v LibertyBoarde.</translation>
+        <translation type="vanished">Nahrávanie dokumentov môžete kedykoľvek spustiť z karty O programe na paneli Predvoľby. Pozor, ak ste už nahrali dáta z Open-Sankoré, môžete ich spúšťať ako dokumenty vytvorené v Master Boarde.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -4984,7 +4984,7 @@ Dá sa to urobiť aj neskôr cez Domov &gt; Rozpoznať text.</translation>
     </message>
     <message>
         <source>Open-Sankoré documents are present on your computer. It is possible to import them to Master Board by pressing the “Proceed” button to launch the importer application.</source>
-        <translation type="vanished">Vo vašom počítači sa nachádzajú dokumenty Open-Sankoré. Do LibertyBoardu ich môžete nahrať stlačením tlačidla Pokračovať, ktorým sa spustí aplikácia na nahrávanie.</translation>
+        <translation type="vanished">Vo vašom počítači sa nachádzajú dokumenty Open-Sankoré. Do Master Boardu ich môžete nahrať stlačením tlačidla Pokračovať, ktorým sa spustí aplikácia na nahrávanie.</translation>
     </message>
 </context>
 <context>
@@ -5448,7 +5448,7 @@ Dynamická šírka</translation>
         <location line="-28"/>
         <source>Master Board Cast</source>
         <translatorcomment>Názov súboru podcastu</translatorcomment>
-        <translation>Film LibertyBoardu</translation>
+        <translation>Film Master Boardu</translation>
     </message>
 </context>
 <context>
@@ -7661,7 +7661,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
         <source>Master Board Documents</source>
-        <translation>Dokumenty LibertyBoardu</translation>
+        <translation>Dokumenty Master Boardu</translation>
     </message>
     <message>
         <location line="+64"/>

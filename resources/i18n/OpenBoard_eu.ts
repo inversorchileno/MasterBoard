@@ -2795,7 +2795,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     </message>
     <message>
         <source>The document &apos;%1&apos; has been generated with a newer version of Master Board (%2). By opening it, you may lose some information. Do you want to proceed?</source>
-        <translation type="vanished">&apos;%1&apos; dokumentua LibertyBoarden bertsio berriago batekin (%2) sortua da. Irekitzean baliteke informazioa galtzea. Jarraitu nahi duzu?</translation>
+        <translation type="vanished">&apos;%1&apos; dokumentua Master Board-en bertsio berriago batekin (%2) sortua da. Irekitzean baliteke informazioa galtzea. Jarraitu nahi duzu?</translation>
     </message>
     <message>
         <location line="-262"/>
@@ -5141,7 +5141,7 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
     </message>
     <message>
         <source>Open-Sankoré documents are present on your computer. It is possible to import them to Master Board by pressing the “Proceed” button to launch the importer application.</source>
-        <translation type="vanished">Open-Sankoré dokumentuak daude zure ordenagailuan. LibertyBoardera inportatu daitezke inportazio-aplikazioa irekitzeko &quot;Jarraitu&quot; botoia sakatuz. </translation>
+        <translation type="vanished">Open-Sankoré dokumentuak daude zure ordenagailuan. Master Board-era inportatu daitezke inportazio-aplikazioa irekitzeko &quot;Jarraitu&quot; botoia sakatuz. </translation>
     </message>
     <message>
         <source>Show this panel next time</source>

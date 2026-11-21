@@ -2717,7 +2717,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <source>The document &apos;%1&apos; has been generated with a newer version of Master Board (%2). By opening it, you may lose some information. Do you want to proceed?</source>
-        <translation type="vanished">Dokument „%1” je generiran s novijom verzijom LibertyBoarda (%2). Otvaranjem dokumenta ćeš možda izgubiti neke informacije. Želiš li nastaviti?</translation>
+        <translation type="vanished">Dokument „%1” je generiran s novijom verzijom Master Boarda (%2). Otvaranjem dokumenta ćeš možda izgubiti neke informacije. Želiš li nastaviti?</translation>
     </message>
     <message>
         <location line="+289"/>
@@ -3643,14 +3643,14 @@ Open its page to download it?</source>
     <message>
         <location line="+16"/>
         <source>You have the latest version of Master Board.</source>
-        <translation>Imaš najnoviju verziju LibertyBoarda.</translation>
+        <translation>Imaš najnoviju verziju Master Boarda.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>A new version of Master Board is available (build %1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation>Dostupna je nova verzija LibertyBoarda (izgradnja %1).
+        <translation>Dostupna je nova verzija Master Boarda (izgradnja %1).
 
 Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i ponovno otvara.</translation>
     </message>
@@ -4590,7 +4590,7 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
     </message>
     <message>
         <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
-        <translation type="vanished">Zapisuje ono što se govori u snimci; stiže s umjetnom inteligencijom LibertyBoarda</translation>
+        <translation type="vanished">Zapisuje ono što se govori u snimci; stiže s umjetnom inteligencijom Master Boarda</translation>
     </message>
     <message>
         <location line="-241"/>
@@ -5540,7 +5540,7 @@ Dinamična širina</translation>
     <message>
         <location line="+40"/>
         <source>The new language is used the next time Master Board starts.</source>
-        <translation>Novi jezik koristi se pri sljedećem pokretanju LibertyBoarda.</translation>
+        <translation>Novi jezik koristi se pri sljedećem pokretanju Master Boarda.</translation>
     </message>
     <message>
         <location line="+19"/>

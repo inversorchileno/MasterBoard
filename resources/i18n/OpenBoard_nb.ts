@@ -4505,7 +4505,7 @@ Laste ned og installere nå? Master Board lagrer dokumentene dine, lukkes og åp
     </message>
     <message>
         <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
-        <translation type="vanished">Skriver det som sies i et opptak; kommer med LibertyBoards KI</translation>
+        <translation type="vanished">Skriver det som sies i et opptak; kommer med Master Boards KI</translation>
     </message>
     <message>
         <location line="-241"/>

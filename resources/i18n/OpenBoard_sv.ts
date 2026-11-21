@@ -4504,7 +4504,7 @@ Ladda ner och installera nu? Master Board sparar dina dokument, stängs och öpp
     </message>
     <message>
         <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
-        <translation type="vanished">Skriver det som sägs i en inspelning; kommer med LibertyBoards AI</translation>
+        <translation type="vanished">Skriver det som sägs i en inspelning; kommer med Master Boards AI</translation>
     </message>
     <message>
         <location line="-241"/>

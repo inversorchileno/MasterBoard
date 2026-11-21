@@ -1229,7 +1229,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="-319"/>
         <source>Quit Master Board</source>
-        <translation>Kilépés az LibertyBoardból</translation>
+        <translation>Kilépés az Master Board-ból</translation>
     </message>
     <message>
         <location line="+1679"/>
@@ -3393,7 +3393,7 @@ Do you want to continue?</source>
         <location line="-56"/>
         <location line="+14"/>
         <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation>Úgy tűnik, hogy az LibertyBoardba importált eredeti PDF érvénytelen, és nem egyesíthető a megjegyzésekkel. Kérjük, javítsa meg, majd importálja újra az LibertyBoardba. A teljes exportálási hiba elkerülése érdekében az aktuális exportálás az eredeti PDF oldalainak részletes (súlyos) képeivel történik.</translation>
+        <translation>Úgy tűnik, hogy az Master Board-ba importált eredeti PDF érvénytelen, és nem egyesíthető a megjegyzésekkel. Kérjük, javítsa meg, majd importálja újra az Master Board-ba. A teljes exportálási hiba elkerülése érdekében az aktuális exportálás az eredeti PDF oldalainak részletes (súlyos) képeivel történik.</translation>
     </message>
 </context>
 <context>
@@ -4537,7 +4537,7 @@ Letölti és telepíti most? A Master Board menti a dokumentumait, bezárul, maj
     <message>
         <location line="+8"/>
         <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
-        <translation>A LibertyBoardot Luis készítette, akit a YouTube-on „Inversor Chileno” néven ismernek.</translation>
+        <translation>A Master Board-ot Luis készítette, akit a YouTube-on „Inversor Chileno” néven ismernek.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4552,7 +4552,7 @@ Letölti és telepíti most? A Master Board menti a dokumentumait, bezárul, maj
     <message>
         <location line="+2"/>
         <source>The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
-        <translation>Az érdekes az, hogy egyáltalán nem tudok programozni. A LibertyBoardot Claude, egy mesterséges intelligencia segítségével építettem: én hoztam az ötleteket, Claude pedig programmá alakította őket. Ha világosak az ötleteid, és jól meg tudod fogalmazni őket egy promptban, te is létrehozhatod, amit elképzelsz.</translation>
+        <translation>Az érdekes az, hogy egyáltalán nem tudok programozni. A Master Board-ot Claude, egy mesterséges intelligencia segítségével építettem: én hoztam az ötleteket, Claude pedig programmá alakította őket. Ha világosak az ötleteid, és jól meg tudod fogalmazni őket egy promptban, te is létrehozhatod, amit elképzelsz.</translation>
     </message>
     <message>
         <source>Master Board is free software (GPLv3 license), like OpenBoard.</source>
@@ -5065,7 +5065,7 @@ Később is megteheti: Kezdőlap &gt; Szöveg felismerése.</translation>
     </message>
     <message>
         <source>Open-Sankoré documents are present on your computer. It is possible to import them to Master Board by pressing the “Proceed” button to launch the importer application.</source>
-        <translation type="vanished">Open-Sankoré dokumentumok vannak a számítógépén. Importálásuk az LibertyBoardba, a &quot;FOLYTATÁS&quot; gombra kattintva, az elinduló importáló alkalmazással lehetséges.</translation>
+        <translation type="vanished">Open-Sankoré dokumentumok vannak a számítógépén. Importálásuk az Master Board-ba, a &quot;FOLYTATÁS&quot; gombra kattintva, az elinduló importáló alkalmazással lehetséges.</translation>
     </message>
 </context>
 <context>

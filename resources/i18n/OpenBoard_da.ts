@@ -4503,7 +4503,7 @@ Hent og installér nu? Master Board gemmer dine dokumenter, lukker og åbner ige
     </message>
     <message>
         <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
-        <translation type="vanished">Skriver det, der siges i en optagelse; kommer med LibertyBoards AI</translation>
+        <translation type="vanished">Skriver det, der siges i en optagelse; kommer med Master Boards AI</translation>
     </message>
     <message>
         <location line="-241"/>
