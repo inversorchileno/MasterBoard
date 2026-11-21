@@ -338,7 +338,7 @@ void UBMainMenu::createMenus()
     auto gitHubAction = new QAction(QIcon(":/images/toolbar/github.svg"), tr("Master Board on GitHub"), mMainWindow);
     gitHubAction->setObjectName("actionLbGitHub");
     connect(gitHubAction, &QAction::triggered, this, []() {
-        QDesktopServices::openUrl(QUrl("https://github.com/inversorchileno/LibertyBoard"));
+        QDesktopServices::openUrl(QUrl("https://github.com/inversorchileno/MasterBoard"));
     });
     aboutMenu->addAction(gitHubAction);
 

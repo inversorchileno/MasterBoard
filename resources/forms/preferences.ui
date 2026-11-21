@@ -3223,7 +3223,7 @@ hr { height: 1px; border-width: 0; }
 &lt;p style=&quot;font-size:11pt; color:#555555;&quot;&gt;Pizarra digital y lector PDF con anotaciones a mano alzada.&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;
 &lt;p&gt;Master Board es un programa para leer y anotar documentos PDF con lápiz, presentar con puntero láser y dibujar sobre el escritorio. Incluye paneles de herramientas, formas, resaltador, notas y miniaturas de páginas.&lt;/p&gt;
-&lt;p&gt;Código fuente de Master Board: &lt;a href=&quot;https://github.com/inversorchileno/LibertyBoard&quot;&gt;github.com/inversorchileno/LibertyBoard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Código fuente de Master Board: &lt;a href=&quot;https://github.com/inversorchileno/MasterBoard&quot;&gt;github.com/inversorchileno/MasterBoard&lt;/a&gt;&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="openExternalLinks">

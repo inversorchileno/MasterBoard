@@ -16,7 +16,7 @@ Lo creó Luis, conocido en YouTube como «Inversor Chileno». Luis no programa: 
 
 ## Descargar
 
-Abre la sección **[Releases](https://github.com/inversorchileno/LibertyBoard/releases/latest)** y descarga el archivo de tu sistema:
+Abre la sección **[Releases](https://github.com/inversorchileno/MasterBoard/releases/latest)** y descarga el archivo de tu sistema:
 
 | Sistema | Archivo | Cómo abrirlo |
 |---|---|---|
