@@ -5749,7 +5749,7 @@ Dynamische Breite</translation>
     <message>
         <location line="+3"/>
         <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
-        <translation>LibertyBoard %1. Um jetzt nach einer neuen Version zu suchen: Info → Aktualisierung.</translation>
+        <translation>LibertyBoard %1. Um jetzt nach einer neuen Version zu suchen: Über → Aktualisierung.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -5804,7 +5804,7 @@ Dynamische Breite</translation>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation>Info</translation>
+        <translation>Über</translation>
     </message>
     <message>
         <location line="+0"/>

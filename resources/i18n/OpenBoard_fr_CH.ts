@@ -5765,7 +5765,7 @@ Largeur dynamique</translation>
     <message>
         <location line="+3"/>
         <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
-        <translation>LibertyBoard %1. Pour chercher une nouvelle version maintenant : À propos → Mise à jour.</translation>
+        <translation>LibertyBoard %1. Pour chercher une nouvelle version maintenant : À propos → Mettre à jour.</translation>
     </message>
     <message>
         <location line="+12"/>
