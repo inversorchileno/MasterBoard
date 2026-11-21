@@ -70,6 +70,7 @@
 #include "gui/UBSearchBar.h"
 #include "gui/UBShortcutsDialog.h"
 #include "gui/UBToolOptionsBar.h"
+#include "gui/UBTheme.h"
 
 UBMainMenu::UBMainMenu(UBMainWindow* mainWindow)
     : QObject(mainWindow)
@@ -97,9 +98,9 @@ UBMainMenu::UBMainMenu(UBMainWindow* mainWindow)
     const QString toolBarStyle = "QToolBar { background: #20242b; border: none; spacing: 2px; }"
                                  "QToolBar QToolButton { color: #e8e8e8; }"
                                  "QToolBar QToolButton:disabled { color: #6b7383; }";
-    mMainWindow->boardToolBar->setStyleSheet(toolBarStyle);
-    mMainWindow->documentToolBar->setStyleSheet(toolBarStyle);
-    mMainWindow->webToolBar->setStyleSheet(toolBarStyle);
+    mMainWindow->boardToolBar->setStyleSheet(UBTheme::style(toolBarStyle));
+    mMainWindow->documentToolBar->setStyleSheet(UBTheme::style(toolBarStyle));
+    mMainWindow->webToolBar->setStyleSheet(UBTheme::style(toolBarStyle));
 
     // Once the palettes are made too: a shortcut for each function.
     QTimer::singleShot(0, this, [this]() { UBShortcutsDialog::setup(mMainWindow); });
@@ -350,10 +351,10 @@ void UBMainMenu::createMenus()
     aboutMenu->addAction(mMainWindow->actionCheckUpdate);
 
     // The same dark gray as the tool palettes.
-    menuBar->setStyleSheet(
+    menuBar->setStyleSheet(UBTheme::style(
         "QMenuBar { background: #323232; color: #f0f0f0; }"
         "QMenuBar::item { padding: 4px 10px 2px 10px; background: transparent; }"
-        "QMenuBar::item:selected { background: #4a4a4a; }");
+        "QMenuBar::item:selected { background: #4a4a4a; }"));
 }
 
 void UBMainMenu::showCreator()
@@ -448,13 +449,13 @@ void UBMainMenu::createCornerButtons()
     layout->setContentsMargins(0, 0, 4, 0);
     layout->setSpacing(4);
 
-    const QString buttonStyle = "QToolButton { color: #f0f0f0; background: transparent; border: none; padding: 2px 8px; }"
-                                "QToolButton:hover { background: #4a4a4a; }";
+    const QString buttonStyle = UBTheme::style("QToolButton { color: #f0f0f0; background: transparent; border: none; padding: 2px 8px; }"
+                                               "QToolButton:hover { background: #4a4a4a; }");
 
     // "Saved", for a few seconds after each save.
     // Its place is kept, so that the buttons beside it do not move.
     mSavedNotice = new QLabel(corner);
-    mSavedNotice->setStyleSheet("QLabel { color: #8fe3a0; font-weight: bold; padding: 0 10px; }");
+    mSavedNotice->setStyleSheet(UBTheme::style("QLabel { color: #8fe3a0; font-weight: bold; padding: 0 10px; }"));
     mSavedNotice->setAlignment(Qt::AlignCenter);
     QFont bold = mSavedNotice->font();
     bold.setBold(true);
@@ -464,7 +465,7 @@ void UBMainMenu::createCornerButtons()
 
     // Finds a text in the PDF shown on the board.
     auto searchBar = new UBSearchBar(mMainWindow);
-    auto searchAction = new QAction(QIcon(":/images/toolbar/search.svg"), tr("Search..."), mMainWindow);
+    auto searchAction = new QAction(UBTheme::icon(":/images/toolbar/search.svg"), tr("Search..."), mMainWindow);
     searchAction->setObjectName("actionLbSearch");
     searchAction->setShortcut(QKeySequence::Find);
     // Ctrl+F is for the search, as in other programs, not for the selector.
@@ -759,8 +760,8 @@ void UBMainMenu::createDocumentTabs()
     mDocumentTabsToolBar->toggleViewAction()->setVisible(false);
     mDocumentTabsToolBar->setContextMenuPolicy(Qt::PreventContextMenu);
     // A thin white line under the tabs parts them from the options of the tools.
-    mDocumentTabsToolBar->setStyleSheet("QToolBar { background: #20242b; border: none; border-bottom: 1px solid #e8e8e8;"
-                                        " padding: 0px; margin: 0px; spacing: 0px; }");
+    mDocumentTabsToolBar->setStyleSheet(UBTheme::style("QToolBar { background: #20242b; border: none; border-bottom: 1px solid #e8e8e8;"
+                                                       " padding: 0px; margin: 0px; spacing: 0px; }"));
     mDocumentTabsToolBar->addWidget(mDocumentTabs);
 
     // In full screen the menu is hidden: the way back is at the right of the tabs.
@@ -771,8 +772,8 @@ void UBMainMenu::createDocumentTabs()
     auto exitFullScreen = new QToolButton(mDocumentTabsToolBar);
     exitFullScreen->setText(tr("Exit full screen"));
     exitFullScreen->setToolTip(tr("Back to the window, with the menu (F11)"));
-    exitFullScreen->setStyleSheet("QToolButton { color: #f0f0f0; background: #3a404b; border: none; border-radius: 3px; padding: 2px 10px; margin: 1px 4px; }"
-                                  "QToolButton:hover { background: #4a5260; }");
+    exitFullScreen->setStyleSheet(UBTheme::style("QToolButton { color: #f0f0f0; background: #3a404b; border: none; border-radius: 3px; padding: 2px 10px; margin: 1px 4px; }"
+                                                 "QToolButton:hover { background: #4a5260; }"));
     exitFullScreen->setFixedHeight(22);
     exitFullScreen->setToolButtonStyle(Qt::ToolButtonTextOnly);
     mExitFullScreenAction = mDocumentTabsToolBar->addWidget(exitFullScreen);

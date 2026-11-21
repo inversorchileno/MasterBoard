@@ -45,13 +45,14 @@
 #include <QtMath>
 
 #include "core/UB.h"
+#include "gui/UBTheme.h"
 
 static constexpr int sSwatchSize = 24;
 static constexpr int sSliderSteps = 1000;
 
 QString toolOptionsStyleSheet()
 {
-    return QStringLiteral(
+    return UBTheme::style(QStringLiteral(
         "UBToolOptionsPanel { background: #20242b; }"
         "QLabel { color: #e8e8e8; background: transparent; }"
         "QLabel#title { font-weight: bold; font-size: 15px; }"
@@ -67,7 +68,7 @@ QString toolOptionsStyleSheet()
         "QSlider::sub-page:horizontal { background: #f0f0f0; border-radius: 2px; }"
         "QSlider::handle:horizontal { background: #ffffff; width: 16px; height: 16px; margin: -6px 0; border-radius: 8px; }"
         "QCheckBox { color: #e8e8e8; }"
-        "QFontComboBox { min-width: 140px; }");
+        "QFontComboBox { min-width: 140px; }"));
 }
 
 static QIcon eyedropperIcon()
@@ -898,7 +899,7 @@ static QIcon shapeIcon(int kind)
 
     QPainter painter(&pixmap);
     painter.setRenderHint(QPainter::Antialiasing);
-    painter.setPen(QPen(QColor("#e8e8e8"), 1.4, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin));
+    painter.setPen(QPen(UBTheme::color("#e8e8e8"), 1.4, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin));
     painter.setBrush(Qt::NoBrush);
 
     const QPolygonF outline = UBShapeGeometry::outline(kind, QRectF(2.5, 3.5, 15, 13));
@@ -926,6 +927,7 @@ UBShapeChoice::UBShapeChoice(QWidget* parent)
                                          "border-radius: 3px; padding: 0px; margin: 0px; }"
                                          "QToolButton:hover { border-color: #8a8f99; }"
                                          "QToolButton:checked { background: rgba(255, 255, 255, 60); border-color: #e8e8e8; }");
+    const QString themed = UBTheme::style(style);
 
     for (int kind : UBShapeGeometry::shapeKinds())
     {
@@ -934,7 +936,7 @@ UBShapeChoice::UBShapeChoice(QWidget* parent)
         button->setIconSize(QSize(20, 20));
         button->setFixedSize(22, 22);
         button->setCheckable(true);
-        button->setStyleSheet(style);
+        button->setStyleSheet(themed);
         mGroup->addButton(button, kind);
     }
 
@@ -1095,10 +1097,10 @@ QIcon optionIcon(UBOptionIcon kind)
         case UBOptionIcon::Magnifier:
         {
             // A magnifying glass.
-            painter.setPen(QPen(QColor("#e8e8e8"), 2.2));
+            painter.setPen(QPen(UBTheme::color("#e8e8e8"), 2.2));
             painter.setBrush(QColor(91, 141, 239, 90));
             painter.drawEllipse(QPointF(21, 12), 7.5, 7.5);
-            painter.setPen(QPen(QColor("#e8e8e8"), 3.5, Qt::SolidLine, Qt::RoundCap));
+            painter.setPen(QPen(UBTheme::color("#e8e8e8"), 3.5, Qt::SolidLine, Qt::RoundCap));
             painter.drawLine(QPointF(26.5, 17.5), QPointF(32, 23));
             break;
         }
@@ -1220,7 +1222,7 @@ QIcon optionIcon(UBOptionIcon kind)
         case UBOptionIcon::ReadFromClick:
         {
             // A page with lines of text; what is read is in blue.
-            const QColor page("#e8e8e8");
+            const QColor page = UBTheme::color("#e8e8e8");
             const QColor line("#8a8f99");
             painter.setPen(QPen(page, 1.2));
             painter.setBrush(Qt::NoBrush);
@@ -1273,7 +1275,7 @@ QIcon optionIcon(UBOptionIcon kind)
         case UBOptionIcon::NextPage:
         {
             // The usual signs of players.
-            const QColor sign("#e8e8e8");
+            const QColor sign = UBTheme::color("#e8e8e8");
             painter.setPen(Qt::NoPen);
             painter.setBrush(sign);
 
@@ -1302,7 +1304,7 @@ QIcon optionIcon(UBOptionIcon kind)
         case UBOptionIcon::Numbers:
         {
             // Three lines with a box, a bullet or a number before each.
-            const QColor sign("#e8e8e8");
+            const QColor sign = UBTheme::color("#e8e8e8");
 
             for (int i = 0; i < 3; ++i)
             {
@@ -1343,7 +1345,7 @@ QIcon optionIcon(UBOptionIcon kind)
         case UBOptionIcon::Table:
         {
             // A grid of three rows and three columns, its first row grey.
-            const QColor sign("#e8e8e8");
+            const QColor sign = UBTheme::color("#e8e8e8");
             const QRectF grid(13, 4, 22, 20);
             painter.setPen(Qt::NoPen);
             painter.setBrush(QColor(232, 232, 232, 90));
@@ -1365,7 +1367,7 @@ QIcon optionIcon(UBOptionIcon kind)
         case UBOptionIcon::SelectLasso:
         {
             // What is selected, in a dashed line, and the pointer that selects.
-            painter.setPen(QPen(QColor("#e8e8e8"), 1.5, Qt::DashLine));
+            painter.setPen(QPen(UBTheme::color("#e8e8e8"), 1.5, Qt::DashLine));
             painter.setBrush(QColor(91, 141, 239, 60));
 
             if (kind == UBOptionIcon::SelectArrow)
@@ -1391,7 +1393,7 @@ QIcon optionIcon(UBOptionIcon kind)
         case UBOptionIcon::AiSummary:
         {
             // A page of many lines, and beside it its few main lines.
-            const QColor sign("#e8e8e8");
+            const QColor sign = UBTheme::color("#e8e8e8");
             painter.setPen(QPen(sign, 1.4));
             painter.setBrush(Qt::NoBrush);
             painter.drawRect(QRectF(7, 3, 15, 22));
@@ -1418,7 +1420,7 @@ QIcon optionIcon(UBOptionIcon kind)
             font.setBold(true);
             font.setPixelSize(15);
             painter.setFont(font);
-            painter.setPen(QColor("#e8e8e8"));
+            painter.setPen(UBTheme::color("#e8e8e8"));
             painter.drawText(QRectF(4, 3, 16, 20), Qt::AlignCenter, "A");
             painter.setPen(QColor("#7ab8ff"));
             painter.drawText(QRectF(28, 7, 17, 20), Qt::AlignCenter, QString::fromUtf8("文"));
@@ -1433,7 +1435,7 @@ QIcon optionIcon(UBOptionIcon kind)
         {
             // A picture with mountains and a sun, being made.
             const QRectF frame(10, 4, 26, 20);
-            painter.setPen(QPen(QColor("#e8e8e8"), 1.4));
+            painter.setPen(QPen(UBTheme::color("#e8e8e8"), 1.4));
             painter.setBrush(Qt::NoBrush);
             painter.drawRect(frame);
             QPainterPath mountains;
@@ -1475,7 +1477,7 @@ QIcon optionIcon(UBOptionIcon kind)
         case UBOptionIcon::AiErase:
         {
             // An eraser that leaves the place as if nothing had been there.
-            painter.setPen(QPen(QColor("#e8e8e8"), 1.2, Qt::DashLine));
+            painter.setPen(QPen(UBTheme::color("#e8e8e8"), 1.2, Qt::DashLine));
             painter.setBrush(Qt::NoBrush);
             painter.drawRect(QRectF(6, 12, 14, 12));
             painter.save();
@@ -1505,7 +1507,7 @@ QIcon optionIcon(UBOptionIcon kind)
             painter.drawLine(QPointF(24, 14), QPointF(29, 14));
             painter.drawLine(QPointF(27, 12), QPointF(29, 14));
             painter.drawLine(QPointF(27, 16), QPointF(29, 14));
-            painter.setPen(QPen(QColor("#e8e8e8"), 1.8, Qt::SolidLine, Qt::RoundCap));
+            painter.setPen(QPen(UBTheme::color("#e8e8e8"), 1.8, Qt::SolidLine, Qt::RoundCap));
             painter.drawLine(QPointF(33, 8), QPointF(44, 8));
             painter.drawLine(QPointF(33, 13), QPointF(44, 13));
             painter.drawLine(QPointF(33, 18), QPointF(40, 18));
@@ -1518,7 +1520,7 @@ QIcon optionIcon(UBOptionIcon kind)
             painter.setPen(Qt::NoPen);
             painter.setBrush(mic);
             painter.drawRoundedRect(QRectF(20, 2, 8, 15), 4, 4);
-            painter.setPen(QPen(QColor("#e8e8e8"), 1.8, Qt::SolidLine, Qt::RoundCap));
+            painter.setPen(QPen(UBTheme::color("#e8e8e8"), 1.8, Qt::SolidLine, Qt::RoundCap));
             painter.setBrush(Qt::NoBrush);
             painter.drawArc(QRectF(16, 5, 16, 15), 180 * 16, 180 * 16);
             painter.drawLine(QPointF(24, 20), QPointF(24, 24));
@@ -1592,7 +1594,7 @@ static QIcon pictureIcon(UBPictureChoice::Kind kind, int index)
     QPainter painter(&pixmap);
     painter.setRenderHint(QPainter::Antialiasing);
 
-    QPen pen(QColor("#e8e8e8"), 2, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
+    QPen pen(UBTheme::color("#e8e8e8"), 2, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
 
     switch (kind)
     {

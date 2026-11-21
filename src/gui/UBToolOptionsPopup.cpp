@@ -27,6 +27,7 @@
 
 #include "core/UB.h"
 #include "gui/UBToolOptionsPanel.h"
+#include "gui/UBTheme.h"
 
 static constexpr int sGap = 8;
 
@@ -34,7 +35,7 @@ UBToolOptionsPopup::UBToolOptionsPopup(QWidget* parent)
     : QFrame(parent, Qt::Popup | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint | Qt::NoDropShadowWindowHint)
 {
     setObjectName("toolOptionsPopup");
-    setStyleSheet("QFrame#toolOptionsPopup { background: #20242b; border: 1px solid #3a404b; }");
+    setStyleSheet(UBTheme::style("QFrame#toolOptionsPopup { background: #20242b; border: 1px solid #3a404b; }"));
 
     mLayout = new QVBoxLayout(this);
     mLayout->setContentsMargins(1, 1, 1, 1);

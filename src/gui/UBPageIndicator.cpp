@@ -33,13 +33,14 @@
 #include "core/UBApplication.h"
 #include "document/UBDocumentContainer.h"
 #include "document/UBDocumentProxy.h"
+#include "gui/UBTheme.h"
 
 UBPageIndicator::UBPageIndicator(QWidget* parent)
     : QWidget(parent)
 {
     setObjectName("pageIndicator");
-    setStyleSheet("QLineEdit { background: #111317; color: #f0f0f0; border: 1px solid #3a404b; border-radius: 4px; padding: 0px 4px; }"
-                  "QLabel { color: #e8e8e8; background: transparent; }");
+    setStyleSheet(UBTheme::style("QLineEdit { background: #111317; color: #f0f0f0; border: 1px solid #3a404b; border-radius: 4px; padding: 0px 4px; }"
+                                 "QLabel { color: #e8e8e8; background: transparent; }"));
 
     mPage = new QLineEdit(this);
     mPage->setAlignment(Qt::AlignRight);
@@ -65,7 +66,7 @@ UBPageIndicator::UBPageIndicator(QWidget* parent)
         button->setIconSize(QSize(19, 19));
         button->setFixedSize(24, 21);
         button->setAutoRaise(true);
-        button->setStyleSheet("QToolButton { border: none; padding: 0px; } QToolButton:hover { background: #3a404b; border-radius: 3px; }");
+        button->setStyleSheet(UBTheme::style("QToolButton { border: none; padding: 0px; } QToolButton:hover { background: #3a404b; border-radius: 3px; }"));
     }
 
     // Written under the arrows like the names under the buttons beside it.

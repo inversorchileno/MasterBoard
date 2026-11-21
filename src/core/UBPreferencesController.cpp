@@ -33,6 +33,11 @@
 #include "frameworks/UBPlatformUtils.h"
 
 #include <QButtonGroup>
+#include <QDialogButtonBox>
+#include <QKeyEvent>
+#include <QListWidget>
+#include <QScrollArea>
+#include <QStackedWidget>
 #include <QCheckBox>
 #include <QColorDialog>
 #include <QSpinBox>
@@ -55,6 +60,7 @@
 #include "gui/UBCircleFrame.h"
 
 #include "core/UBSetting.h"
+#include "gui/UBMainWindow.h"
 #include "core/UBApplicationController.h"
 #include "core/UBDisplayManager.h"
 
@@ -92,7 +98,21 @@ UBPreferencesDialog::~UBPreferencesDialog()
 
 void UBPreferencesDialog::closeEvent(QCloseEvent* e)
 {
-    e->accept();
+    // As Cancel: the settings changed since the window opened, or since Apply, are given back.
+    e->ignore();
+    reject();
+}
+
+void UBPreferencesDialog::keyPressEvent(QKeyEvent* e)
+{
+    // Enter in a field does not close the window.
+    if (e->key() == Qt::Key_Return || e->key() == Qt::Key_Enter)
+    {
+        e->accept();
+        return;
+    }
+
+    QDialog::keyPressEvent(e);
 }
 
 
@@ -139,6 +159,7 @@ void UBPreferencesController::addLanguageChoice()
 {
     // First option of the Display tab, above the other settings.
     auto group = new QGroupBox(tr("Language"), mPreferencesUI->displayTab);
+    mLanguageGroup = group;
     auto layout = new QHBoxLayout(group);
 
     auto languages = new QComboBox(group);
@@ -205,6 +226,7 @@ void UBPreferencesController::simplifyTabs()
 
     // Pressure sensitivity of the pen and the marker, under the language.
     auto pressure = new QGroupBox(tr("Pressure of the pen"), mPreferencesUI->displayTab);
+    mPressureGroup = pressure;
     auto pressureLayout = new QVBoxLayout(pressure);
     pressureLayout->addWidget(mPenProperties->pressureSensitiveCheckBox);
     pressureLayout->addWidget(mMarkerProperties->pressureSensitiveCheckBox);
@@ -212,7 +234,8 @@ void UBPreferencesController::simplifyTabs()
     QGridLayout* displayLayout = mPreferencesUI->gridLayout_3;
     displayLayout->removeWidget(mPreferencesUI->scrollArea);
     displayLayout->addWidget(pressure, 1, 0);
-    displayLayout->addWidget(desktopBorderChoice(), 2, 0);
+    mBorderGroup = desktopBorderChoice();
+    displayLayout->addWidget(mBorderGroup, 2, 0);
     displayLayout->addWidget(mPreferencesUI->scrollArea, 3, 0);
 
     tabs->removeTab(tabs->indexOf(mPreferencesUI->penTab));
@@ -256,7 +279,8 @@ void UBPreferencesController::simplifyTabs()
         });
     }
 
-    tabs->insertTab(1, aiChoice(), tr("AI"));
+    mAiPage = aiChoice();
+    tabs->insertTab(1, mAiPage, tr("AI"));
 }
 
 QWidget* UBPreferencesController::aiChoice()
@@ -342,6 +366,257 @@ QWidget* UBPreferencesController::aiChoice()
     });
 
     return page;
+}
+
+QWidget* UBPreferencesController::themeChoice()
+{
+    // The colors of the menu bar, of the options of the tools and of the zoom.
+    auto group = new QGroupBox(tr("Theme"), mPreferencesWindow);
+    auto layout = new QVBoxLayout(group);
+    auto choices = new QButtonGroup(group);
+
+#ifdef Q_OS_WIN
+    const QString system = tr("Same as Windows");
+#else
+    const QString system = tr("Same as the system");
+#endif
+
+    const QList<QPair<QString, QString>> themes = {
+        { "system", system },
+        { "dark", tr("Dark") },
+        { "white", tr("White") },
+        { "grey", tr("Grey") },
+    };
+
+    const QString current = UBSettings::settings()->appTheme->get().toString();
+    auto row = new QHBoxLayout();
+
+    for (const auto& theme : themes)
+    {
+        auto choice = new QRadioButton(theme.second, group);
+        choice->setProperty("theme", theme.first);
+        choice->setChecked(theme.first == current);
+        choices->addButton(choice);
+        row->addWidget(choice);
+    }
+
+    row->addStretch(1);
+    layout->addLayout(row);
+
+    auto hint = new QLabel(tr("The colors of the menu bar, of the options of the tools and of the zoom. "
+                              "The new theme is used the next time LibertyBoard starts."), group);
+    hint->setWordWrap(true);
+    hint->setObjectName("hint");
+    layout->addWidget(hint);
+
+    connect(choices, &QButtonGroup::buttonClicked, this, [](QAbstractButton* button) {
+        UBSettings::settings()->appTheme->set(button->property("theme").toString());
+    });
+
+    // The choice follows the setting, also when Cancel gives it back.
+    connect(UBSettings::settings()->appTheme, &UBSetting::changed, group, [choices](const QVariant& value) {
+        for (QAbstractButton* button : choices->buttons())
+        {
+            button->setChecked(button->property("theme").toString() == value.toString());
+        }
+    });
+
+    return group;
+}
+
+QWidget* UBPreferencesController::categoryPage(const QIcon& icon, const QString& title, const QList<QWidget*>& sections)
+{
+    // The title of the category with its icon, then its sections, which scroll.
+    auto page = new QWidget(mPreferencesWindow);
+    auto layout = new QVBoxLayout(page);
+    layout->setContentsMargins(0, 0, 0, 0);
+    layout->setSpacing(6);
+
+    auto header = new QWidget(page);
+    header->setObjectName("categoryHeader");
+    auto headerLayout = new QHBoxLayout(header);
+    headerLayout->setContentsMargins(10, 6, 10, 6);
+    auto iconLabel = new QLabel(header);
+    iconLabel->setPixmap(icon.pixmap(28, 28));
+    auto titleLabel = new QLabel(title, header);
+    titleLabel->setObjectName("categoryTitle");
+    headerLayout->addStretch(1);
+    headerLayout->addWidget(iconLabel);
+    headerLayout->addWidget(titleLabel);
+    headerLayout->addStretch(1);
+    layout->addWidget(header);
+
+    auto scroll = new QScrollArea(page);
+    scroll->setWidgetResizable(true);
+    scroll->setFrameShape(QFrame::NoFrame);
+    scroll->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    auto content = new QWidget(scroll);
+    content->setObjectName("categoryContent");
+    auto contentLayout = new QVBoxLayout(content);
+    contentLayout->setContentsMargins(6, 4, 10, 4);
+    contentLayout->setSpacing(10);
+
+    for (QWidget* section : sections)
+    {
+        if (section)
+        {
+            section->setParent(content);
+            section->show();
+            contentLayout->addWidget(section);
+        }
+    }
+
+    contentLayout->addStretch(1);
+    scroll->setWidget(content);
+    layout->addWidget(scroll, 1);
+    return page;
+}
+
+void UBPreferencesController::buildCategories()
+{
+    Ui::preferencesDialog* ui = mPreferencesUI;
+
+    // The tabs and the version above them give their place to the categories.
+    ui->mainTabWidget->hide();
+    ui->versionLabel->hide();
+    ui->closeButton->hide();
+
+    auto body = new QWidget(mPreferencesWindow);
+    auto bodyLayout = new QHBoxLayout(body);
+    bodyLayout->setContentsMargins(0, 0, 0, 0);
+    bodyLayout->setSpacing(8);
+
+    auto left = new QFrame(body);
+    left->setObjectName("categoryFrame");
+    auto leftLayout = new QVBoxLayout(left);
+    leftLayout->setContentsMargins(4, 4, 4, 4);
+    auto leftTitle = new QLabel(tr("Categories"), left);
+    leftTitle->setObjectName("categoryTitle");
+    leftTitle->setAlignment(Qt::AlignCenter);
+    leftLayout->addWidget(leftTitle);
+
+    auto categories = new QListWidget(left);
+    categories->setObjectName("categories");
+    categories->setIconSize(QSize(22, 22));
+    categories->setFixedWidth(230);
+    leftLayout->addWidget(categories, 1);
+
+    auto right = new QFrame(body);
+    right->setObjectName("categoryFrame");
+    auto rightLayout = new QVBoxLayout(right);
+    rightLayout->setContentsMargins(4, 4, 4, 4);
+    auto pages = new QStackedWidget(right);
+    rightLayout->addWidget(pages);
+
+    bodyLayout->addWidget(left);
+    bodyLayout->addWidget(right, 1);
+
+    // The page About: the version, the text, and the references at the bottom.
+    auto version = new QLabel(tr("Version %1").arg(UBGitHubUpdater::currentVersionText()), ui->aboutTab);
+    version->setObjectName("version");
+    ui->verticalLayout_2->insertWidget(0, version);
+    ui->aboutTab->setObjectName("aboutPage");
+
+    QWidget* network = ui->networkTab;
+    network->setObjectName("networkPage");
+    ui->internetGroupBox->setTitle(tr("Internet"));
+
+    QWidget* updates = ui->softwareUpdateGroupBox;
+    auto updatesHint = new QLabel(tr("LibertyBoard %1. To look for a new version now: About > Update.")
+                                      .arg(UBGitHubUpdater::currentVersionText()), updates);
+    updatesHint->setObjectName("hint");
+    updatesHint->setWordWrap(true);
+    auto updatesLayout = new QVBoxLayout(updates);
+    updatesLayout->addWidget(ui->checkSoftwareUpdateAtLaunchCheckBox);
+    updatesLayout->addWidget(updatesHint);
+    updates->setMinimumHeight(0);
+    updates->setMaximumHeight(QWIDGETSIZE_MAX);
+
+    // The choices of the toolbar one under the other, to fit the width.
+    auto toolbar = new QGroupBox(ui->toolbarGroupBox->title(), mPreferencesWindow);
+    auto toolbarLayout = new QVBoxLayout(toolbar);
+    toolbarLayout->addWidget(ui->toolbarAtTopRadioButton);
+    toolbarLayout->addWidget(ui->toolbarAtBottomRadioButton);
+    toolbarLayout->addWidget(ui->toolbarDisplayTextCheckBox);
+    ui->toolbarGroupBox->hide();
+
+    const struct
+    {
+        QString icon;
+        QString name;
+        QString title;
+        QList<QWidget*> sections;
+    } list[] = {
+        { ":/images/toolbar/settings.png", tr("General"), tr("General settings"),
+          { mLanguageGroup, ui->modeGroupBox, ui->keyboardGroupBox } },
+        { ":/images/color.svg", tr("Appearance"), tr("Appearance"),
+          { themeChoice(), toolbar } },
+        { ":/images/toolbar/stylus.png", tr("Pen and palette"), tr("Pen and palette"),
+          { mPressureGroup, ui->stylusPaletteGroupBox } },
+        { ":/images/toolbar/display.png", tr("Screens and desktop"), tr("Screens and desktop"),
+          { mBorderGroup, ui->multiDisplayGroupBox } },
+        { ":/images/toolbar/pdf.png", tr("Documents and PDF"), tr("Documents and PDF"),
+          { ui->documentsGroupBox, ui->PDFGroupBox } },
+        { QString(), tr("AI"), tr("Artificial intelligence"), { mAiPage } },
+        { ":/images/toolbar/web.png", tr("Network"), tr("Network"), { ui->internetGroupBox } },
+        { ":/images/toolbar/updates.png", tr("Update"), tr("Update"), { updates } },
+        { ":/images/toolbar/tip.png", tr("About"), tr("About LibertyBoard"), { ui->aboutTab } },
+    };
+
+    for (const auto& category : list)
+    {
+        const QIcon icon = category.icon.isEmpty() ? UBApplication::mainWindow->actionAi->icon() : QIcon(category.icon);
+        new QListWidgetItem(icon, category.name, categories);
+        pages->addWidget(categoryPage(icon, category.title, category.sections));
+    }
+
+    connect(categories, &QListWidget::currentRowChanged, pages, &QStackedWidget::setCurrentIndex);
+    categories->setCurrentRow(0);
+
+    auto grid = qobject_cast<QGridLayout*>(mPreferencesWindow->layout());
+    grid->addWidget(body, 2, 0);
+    grid->setRowStretch(2, 1);
+
+    // Accept, Apply and Cancel at the bottom right.
+    auto buttons = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Apply | QDialogButtonBox::Cancel, mPreferencesWindow);
+    ui->horizontalLayout->addWidget(buttons);
+    connect(buttons, &QDialogButtonBox::accepted, this, &UBPreferencesController::close);
+    connect(buttons, &QDialogButtonBox::rejected, mPreferencesWindow, &QDialog::reject);
+    connect(buttons->button(QDialogButtonBox::Apply), &QPushButton::clicked, this, &UBPreferencesController::applyChanges);
+    connect(mPreferencesWindow, &QDialog::rejected, this, &UBPreferencesController::restoreSnapshot);
+
+    // The default settings are those of the general categories.
+    disconnect(ui->defaultSettingsButton, nullptr, this, nullptr);
+    connect(ui->defaultSettingsButton, &QPushButton::released, this, [this]() {
+        mPreferencesUI->mainTabWidget->setCurrentWidget(mPreferencesUI->displayTab);
+        defaultSettings();
+    });
+
+    mPreferencesWindow->resize(980, 640);
+    mPreferencesWindow->setStyleSheet(
+        "QDialog { background: #e9ebee; }"
+        "QFrame#categoryFrame { background: #f6f7f9; border: 1px solid #c9ced6; border-radius: 4px; }"
+        "QLabel#categoryTitle { color: #1d3557; font-size: 17px; background: transparent; }"
+        "QWidget#categoryHeader { background: transparent; }"
+        "QListWidget#categories { background: #ffffff; border: 1px solid #d6b85a; font-size: 14px; outline: none; }"
+        "QListWidget#categories::item { padding: 4px 2px; color: #111111; }"
+        "QListWidget#categories::item:selected { background: #cfe2fb; border: 1px solid #7fa7dd; color: #111111; }"
+        "QScrollArea, QWidget#categoryContent, QWidget#aboutPage, QWidget#networkPage { background: #f6f7f9; }"
+        "QGroupBox { background: #eceef1; border: 1px solid #d3d7dd; border-radius: 4px; margin-top: 26px;"
+        " padding: 10px 8px 8px 8px; color: #111111; font-weight: normal; }"
+        "QGroupBox::title { subcontrol-origin: margin; subcontrol-position: top left; left: 6px; top: 4px;"
+        " padding: 0 2px; color: #1d3557; }"
+        "QLabel, QCheckBox, QRadioButton { color: #111111; background: transparent; }"
+        "QLabel#hint { color: #5b6472; }"
+        "QCheckBox::indicator, QRadioButton::indicator { width: 14px; height: 14px; border: 1px solid #7a8496; background: #ffffff; }"
+        "QCheckBox::indicator { border-radius: 3px; }"
+        "QRadioButton::indicator { border-radius: 8px; }"
+        "QCheckBox::indicator:checked { background: #2f5fa8; border-color: #2f5fa8; image: url(:/images/checkmark.svg); }"
+        "QRadioButton::indicator:checked { background: qradialgradient(cx: 0.5, cy: 0.5, radius: 0.5, fx: 0.5, fy: 0.5,"
+        " stop: 0 #2f5fa8, stop: 0.45 #2f5fa8, stop: 0.55 #ffffff, stop: 1 #ffffff); border-color: #2f5fa8; }"
+        "QCheckBox::indicator:disabled, QRadioButton::indicator:disabled { background: #e3e5e8; border-color: #b5bcc7; }"
+        "QLabel#version { color: #1d3557; font-size: 15px; font-weight: bold; padding: 4px 0; }"
+        "QLabel:disabled, QCheckBox:disabled, QRadioButton:disabled, QGroupBox:disabled { color: #8a8a8a; }");
 }
 
 QWidget* UBPreferencesController::desktopBorderChoice()
@@ -445,8 +720,50 @@ void UBPreferencesController::adjustScreensPreferences()
 void UBPreferencesController::show()
 {
     init();
+    takeSnapshot();
 
     mPreferencesWindow->exec();
+}
+
+void UBPreferencesController::takeSnapshot()
+{
+    mSnapshot.clear();
+
+    for (UBSetting* setting : UBSettings::settings()->findChildren<UBSetting*>())
+    {
+        mSnapshot.insert(setting, setting->get());
+    }
+}
+
+void UBPreferencesController::restoreSnapshot()
+{
+    bool changed = false;
+
+    for (auto it = mSnapshot.cbegin(); it != mSnapshot.cend(); ++it)
+    {
+        if (it.key()->get() != it.value())
+        {
+            it.key()->set(it.value());
+            changed = true;
+        }
+    }
+
+    if (changed)
+    {
+        // What follows its setting only when it is chosen.
+        UBApplication::boardController->paletteManager()->placeStylusPalette(UBStylusPalette::edge());
+        UBApplication::documentController->refreshDateColumns();
+        init();
+    }
+}
+
+void UBPreferencesController::applyChanges()
+{
+    UBSettings::settings()->webHomePage->set(mPreferencesUI->webHomePage->text());
+    UBSettings::settings()->setProxyUsername(mPreferencesUI->proxyUsername->text());
+    UBSettings::settings()->setProxyPassword(mPreferencesUI->proxyPassword->text());
+    UBSettings::settings()->save();
+    takeSnapshot();
 }
 
 void UBPreferencesController::wire()
@@ -613,6 +930,7 @@ void UBPreferencesController::wire()
     // The pen, marker and laser settings are in the options of each tool;
     // only the pressure sensitivity stays here, in the General tab.
     simplifyTabs();
+    buildCategories();
 
     // about tab
     connect(mPreferencesUI->checkSoftwareUpdateAtLaunchCheckBox, SIGNAL(clicked(bool)), settings->appEnableAutomaticSoftwareUpdates, SLOT(setBool(bool)));
@@ -680,13 +998,7 @@ void UBPreferencesController::init()
 
 void UBPreferencesController::close()
 {
-    //web
-    QString homePage = mPreferencesUI->webHomePage->text();
-
-    UBSettings::settings()->webHomePage->set(homePage);
-    UBSettings::settings()->setProxyUsername(mPreferencesUI->proxyUsername->text());
-    UBSettings::settings()->setProxyPassword(mPreferencesUI->proxyPassword->text());
-
+    applyChanges();
     mPreferencesWindow->accept();
 }
 

@@ -59,6 +59,7 @@ public:
 
 protected:
     void closeEvent(QCloseEvent* e);
+    void keyPressEvent(QKeyEvent* e);
     UBPreferencesController *mPreferencesController;
 };
 
@@ -90,6 +91,12 @@ class UBPreferencesController : public QObject
         UBColorPicker* mLightBackgroundGridColorPicker;
         QString mScreenConfigurationPath;
 
+        QWidget* mLanguageGroup{nullptr};
+        QWidget* mPressureGroup{nullptr};
+        QWidget* mBorderGroup{nullptr};
+        QWidget* mAiPage{nullptr};
+        QHash<class UBSetting*, QVariant> mSnapshot;
+
     protected slots:
 
         void close();
@@ -114,7 +121,17 @@ class UBPreferencesController : public QObject
         /** @brief The choices of the border shown around the screen in desktop mode. */
         QWidget* desktopBorderChoice();
         QWidget* aiChoice();
+        QWidget* themeChoice();
         void simplifyTabs();
+
+        /** @brief The categories at the left, each with its page at the right, as in PDF-XChange. */
+        void buildCategories();
+        QWidget* categoryPage(const QIcon& icon, const QString& title, const QList<QWidget*>& sections);
+
+        /** @brief The settings when the window opens or after Apply, given back by Cancel. */
+        void takeSnapshot();
+        void restoreSnapshot();
+        void applyChanges();
 
     private:
         static qreal sSliderRatio;

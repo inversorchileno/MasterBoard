@@ -364,6 +364,7 @@ void UBSettings::init()
                                              "Gemini|https://gemini.google.com/app", "Copilot|https://copilot.microsoft.com/",
                                              "DeepSeek|https://chat.deepseek.com/", "Grok|https://grok.com/", "Le Chat|https://chat.mistral.ai/", "Perplexity|https://www.perplexity.ai/" }));
     aiCurrentService = new UBSetting(this, "Board", "LibertyBoardAiCurrentService", 0);
+    appTheme = new UBSetting(this, "App", "LibertyBoardTheme", "dark");
     weekStartsOnSunday = new UBSetting(this, "Board", "LibertyBoardWeekStartsOnSunday", false);
     emojiChoice = new UBSetting(this, "Board", "LibertyBoardEmoji", QString());
     emojiSize = new UBSetting(this, "Board", "LibertyBoardEmojiSize", 80);

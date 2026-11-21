@@ -63,6 +63,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     UBShortcutsDialog.h
     UBAiPanel.cpp
     UBAiPanel.h
+    UBTheme.cpp
+    UBTheme.h
     UBDocumentTabs.cpp
     UBDocumentTabs.h
     UBNoteToolIcon.cpp

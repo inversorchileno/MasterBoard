@@ -72,6 +72,7 @@
 #include "gui/UBMainMenu.h"
 
 #include "core/memcheck.h"
+#include "gui/UBTheme.h"
 
 QPointer<QUndoStack> UBApplication::undoStack;
 
@@ -110,6 +111,10 @@ UBApplication::UBApplication(const QString &id, int &argc, char **argv) : Single
     setOrganizationName("LibertyBoard");
     setOrganizationDomain("github.com/inversorchileno");
     setApplicationName("LibertyBoard");
+
+    // The theme "as the system" follows the choice of the system, noted
+    // before LibertyBoard puts its own.
+    UBTheme::noteSystemScheme();
 
 #if (QT_VERSION >= QT_VERSION_CHECK(6, 8, 0))
     // The style sheets of LibertyBoard are made for a light theme: the dark

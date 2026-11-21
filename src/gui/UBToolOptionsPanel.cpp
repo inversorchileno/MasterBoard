@@ -59,6 +59,7 @@
 #include "gui/UBTextBoxes.h"
 #include "gui/UBReadAloud.h"
 #include <QTimer>
+#include "gui/UBTheme.h"
 
 // Width of the eraser on screen for each point of its size
 static constexpr qreal sEraserPixelsPerPoint = 3.0;
@@ -629,6 +630,7 @@ UBEmojiOptionsPanel::UBEmojiOptionsPanel(QWidget* parent)
         button->setStyleSheet("QToolButton { background: transparent; border: 1px solid transparent; border-radius: 3px; "
                               "padding: 0px; margin: 0px; }"
                               "QToolButton:checked { background: rgba(255, 255, 255, 60); border-color: #e8e8e8; }");
+        button->setStyleSheet(UBTheme::style(button->styleSheet()));
         mEmojiButtons->addButton(button);
     }
 
@@ -1730,9 +1732,9 @@ UBCommentOptionsPanel::UBCommentOptionsPanel(QWidget* parent)
         button->setIconSize(QSize(30, 30));
         button->setText(text);
         button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
-        button->setStyleSheet("QToolButton { color: #e8e8e8; background: transparent; border: none; padding: 2px 6px; }"
-                              "QToolButton:hover { background: #3a404b; border-radius: 4px; }"
-                              "QToolButton:checked { background: #4a5260; border-radius: 4px; }");
+        button->setStyleSheet(UBTheme::style("QToolButton { color: #e8e8e8; background: transparent; border: none; padding: 2px 6px; }"
+                                             "QToolButton:hover { background: #3a404b; border-radius: 4px; }"
+                                             "QToolButton:checked { background: #4a5260; border-radius: 4px; }"));
         row->addWidget(button);
         Q_UNUSED(this)
         return button;

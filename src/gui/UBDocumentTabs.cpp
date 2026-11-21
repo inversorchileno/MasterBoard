@@ -41,6 +41,7 @@
 #include "document/UBDocumentController.h"
 #include "document/UBDocumentProxy.h"
 #include "domain/UBGraphicsScene.h"
+#include "gui/UBTheme.h"
 
 static const QString sRunningKey = QStringLiteral("App/LibertyBoardRunning");
 static const QString sSessionKey = QStringLiteral("App/LibertyBoardSession");
@@ -50,14 +51,14 @@ UBDocumentTabs::UBDocumentTabs(QWidget* parent)
     , mSaver(new UBBoardSaver(this))
 {
     setObjectName("documentTabs");
-    setStyleSheet(
+    setStyleSheet(UBTheme::style(
         "#documentTabs { background: #20242b; }"
         "QTabBar::tab { background: #323842; color: #d8d8d8; padding: 3px 10px 5px 10px; margin-right: 2px; margin-top: 2px; margin-bottom: 0px;"
         " border-top-left-radius: 4px; border-top-right-radius: 4px; min-width: 120px; max-width: 320px; }"
         "QTabBar::tab:selected { background: #f6d77a; color: #111111; }"
         "QTabBar::tab:hover:!selected { background: #444b57; }"
         "QToolButton { color: #f0f0f0; background: transparent; border: none; font-size: 15px; padding: 0 8px; }"
-        "QToolButton:hover { background: #444b57; }");
+        "QToolButton:hover { background: #444b57; }"));
 
     mTabBar = new QTabBar(this);
     mTabBar->setTabsClosable(true);

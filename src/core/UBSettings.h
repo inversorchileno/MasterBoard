@@ -374,6 +374,7 @@ class UBSettings : public QObject
         UBSetting* desktopToolOrder;   // the same for the desktop palette
         UBSetting* aiServices;         // the AI of the AI panel, as "name|address"
         UBSetting* aiCurrentService;   // the index of the AI shown last
+        UBSetting* appTheme;           // the colors of the bars: "system", "dark", "white" or "grey"
         UBSetting* shapeKind;          // the shape drawn by the shapes tool (UBShapeKind)
         UBSetting* readFrom;           // where the voice tool reads from: the start, a rectangle or a click (UBReadFrom)
 

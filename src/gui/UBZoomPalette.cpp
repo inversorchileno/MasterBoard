@@ -39,6 +39,7 @@
 #include "core/UB.h"
 #include "core/UBApplication.h"
 #include "core/UBSettings.h"
+#include "gui/UBTheme.h"
 
 static const int sMinimumPercent = 10;
 
@@ -46,12 +47,12 @@ UBZoomPalette::UBZoomPalette(QWidget* parent)
     : UBFloatingPalette(Qt::BottomRightCorner, parent)
     , mBoardController(UBApplication::boardController)
 {
-    setBackgroundBrush(QBrush(UBSettings::opaquePaletteColor));
-    setStyleSheet("QToolButton { color: #f0f0f0; background: transparent; border: none; border-radius: 4px;"
+    setBackgroundBrush(QBrush(UBTheme::color(UBSettings::opaquePaletteColor.name())));
+    setStyleSheet(UBTheme::style("QToolButton { color: #f0f0f0; background: transparent; border: none; border-radius: 4px;"
                   " font-size: 18px; font-weight: bold; min-width: 28px; min-height: 28px; }"
                   "QToolButton:hover { background: #4a4a4a; }"
                   "QLineEdit { color: #f0f0f0; background: #1e1e1e; border: 1px solid #555555; border-radius: 4px;"
-                  " font-size: 13px; padding: 2px 4px; }");
+                  " font-size: 13px; padding: 2px 4px; }"));
 
     auto layout = new QHBoxLayout(this);
     layout->setContentsMargins(border() + 6, border() + 4, border() + 6, border() + 4);

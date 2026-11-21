@@ -29,6 +29,7 @@
 #include "core/UBApplication.h"
 #include "document/UBDocumentProxy.h"
 #include "gui/UBMainWindow.h"
+#include "gui/UBTheme.h"
 
 UBPageButtons::UBPageButtons(QWidget* parent)
     : QWidget(parent)
@@ -42,9 +43,9 @@ UBPageButtons::UBPageButtons(QWidget* parent)
         button->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
         button->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
         button->setFixedHeight(24);
-        button->setStyleSheet("QToolButton { color: #e8e8e8; background: transparent; border: none; padding: 1px 4px; text-align: left; }"
-                              "QToolButton:hover { background: #3a404b; border-radius: 3px; }"
-                              "QToolButton:disabled { color: #6b7383; }");
+        button->setStyleSheet(UBTheme::style("QToolButton { color: #e8e8e8; background: transparent; border: none; padding: 1px 4px; text-align: left; }"
+                                             "QToolButton:hover { background: #3a404b; border-radius: 3px; }"
+                                             "QToolButton:disabled { color: #6b7383; }"));
         return button;
     };
 
