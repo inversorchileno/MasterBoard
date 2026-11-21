@@ -89,6 +89,7 @@ UBDrawingController::UBDrawingController(QObject * parent)
         { UBApplication::mainWindow->actionStamp, UBStylusTool::Stamp },
         { UBApplication::mainWindow->actionEmoji, UBStylusTool::Emoji },
         { UBApplication::mainWindow->actionAi, UBStylusTool::Ai },
+        { UBApplication::mainWindow->actionMeasure, UBStylusTool::Measure },
         { UBApplication::mainWindow->actionComment, UBStylusTool::Comment },
         { UBApplication::mainWindow->actionAttachment, UBStylusTool::Attachment },
         { UBApplication::mainWindow->actionSound, UBStylusTool::Sound },
@@ -131,7 +132,8 @@ int UBDrawingController::latestDrawingTool()
 bool UBDrawingController::worksOnLockedCanvas(int tool)
 {
     return tool == UBStylusTool::Pointer || tool == UBStylusTool::Hand || tool == UBStylusTool::Selector
-            || tool == UBStylusTool::Spotlight || tool == UBStylusTool::Voice || tool == UBStylusTool::Ai;
+            || tool == UBStylusTool::Spotlight || tool == UBStylusTool::Voice || tool == UBStylusTool::Ai
+            || tool == UBStylusTool::Measure;
 }
 
 void UBDrawingController::setCanvasLocked(bool locked)
@@ -243,6 +245,8 @@ void UBDrawingController::setStylusTool(int tool)
             UBApplication::mainWindow->actionEmoji->setChecked(true);
         else if (mStylusTool == UBStylusTool::Ai)
             UBApplication::mainWindow->actionAi->setChecked(true);
+        else if (mStylusTool == UBStylusTool::Measure)
+            UBApplication::mainWindow->actionMeasure->setChecked(true);
         else if (mStylusTool == UBStylusTool::Comment)
             UBApplication::mainWindow->actionComment->setChecked(true);
         else if (mStylusTool == UBStylusTool::Attachment)

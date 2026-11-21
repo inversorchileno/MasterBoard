@@ -110,6 +110,7 @@ namespace
             { "actionRectangle", "Ctrl+Shift+R" },
             { "actionBoardScreenshot", "Ctrl+Shift+C" },
             { "actionAi", "F9" },
+            { "actionMeasure", "Ctrl+Shift+D" },
             { "actionLbTranscribe", "Ctrl+F11" },
             { "actionDesktopScreenshot", "Ctrl+Shift+X" },
             { "actionDesktopClear", "Ctrl+Shift+Backspace" },

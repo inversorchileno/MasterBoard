@@ -88,7 +88,8 @@ struct UBStylusTool
         Spotlight,  // darkens the screen but around the pointer, or magnifies under it
         Voice,      // reads the page aloud
         Emoji,      // puts an emoji or a GIF on the page
-        Ai          // its options give a part of the page, or all, to an AI on the web
+        Ai,         // its options give a part of the page, or all, to an AI on the web
+        Measure     // measures distances, perimeters and areas
     };
 };
 

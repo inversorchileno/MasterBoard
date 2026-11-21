@@ -368,6 +368,10 @@
         <file>images/libpalette/home.png</file>
         <file>images/toolbar/updates.png</file>
         <file>images/checkmark.svg</file>
+        <file>images/stylusPalette/measure.svg</file>
+        <file>images/measure/distance.svg</file>
+        <file>images/measure/perimeter.svg</file>
+        <file>images/measure/area.svg</file>
         <file>images/paletteLibrary.png</file>
         <file>images/paletteNavigator.png</file>
         <file>images/toolbar/display.png</file>

@@ -256,6 +256,19 @@ private:
     int mColumns{3};
 };
 
+/** @brief Options of the measurements: distance, perimeter and area; the one in use chosen again ends them. */
+class UBMeasureOptionsPanel : public UBToolOptionsPanel
+{
+    Q_OBJECT
+
+public:
+    explicit UBMeasureOptionsPanel(QWidget* parent = nullptr);
+    void refresh() override;
+
+private:
+    QList<QToolButton*> mButtons;
+};
+
 /** @brief Options of the read aloud tool: where to read from, play, pause, stop and next page. */
 class UBVoiceOptionsPanel : public UBToolOptionsPanel
 {

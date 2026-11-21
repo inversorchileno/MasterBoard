@@ -65,6 +65,7 @@
 #include "desktop/UBDesktopFrame.h"
 
 #include "core/memcheck.h"
+#include "gui/UBMeasureTool.h"
 
 UBDesktopAnnotationController::UBDesktopAnnotationController(QObject *parent, UBRightPalette* rightPalette)
         : QObject(parent)
@@ -503,6 +504,7 @@ int UBDesktopAnnotationController::toolOf(QAction* action) const
         { mainWindow->actionSpotlight, UBStylusTool::Spotlight },
         { mainWindow->actionAttachment, UBStylusTool::Attachment },
         { mainWindow->actionAi, UBStylusTool::Ai },
+        { mainWindow->actionMeasure, UBStylusTool::Measure },
     };
 
     return tools.value(action, -1);
@@ -536,8 +538,8 @@ void UBDesktopAnnotationController::toolButtonPressed()
         return;
     }
 
-    // The AI does nothing by itself: its options open at once.
-    if (tool == UBStylusTool::Ai)
+    // The AI and the measurements do nothing by themselves: their options open at once.
+    if (tool == UBStylusTool::Ai || tool == UBStylusTool::Measure)
     {
         mbArrowClicked = true;
         toolButtonReleased();
@@ -728,7 +730,7 @@ void UBDesktopAnnotationController::updateMask(bool bTransparent)
 
         // The panel of the AI, inside this layer, keeps its clicks.
         // So does the window of the GIFs.
-        for (const QRect& side : { UBAiPanel::desktopArea(), UBGifWindow::desktopArea() })
+        for (const QRect& side : { UBAiPanel::desktopArea(), UBGifWindow::desktopArea(), UBMeasureTool::desktopArea() })
         {
             if (!side.isNull())
             {

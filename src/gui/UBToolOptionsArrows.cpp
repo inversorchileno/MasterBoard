@@ -52,7 +52,7 @@ namespace
         UBMainWindow* w = UBApplication::mainWindow;
         return { w->actionPen, w->actionEraser, w->actionMarker, w->actionPointer, w->actionSpotlight, w->actionHighlight,
                  w->actionNote, w->actionStamp, w->actionEmoji, w->actionAttachment, w->actionUnderline, w->actionText, w->actionLine, w->actionArrowShape,
-                 w->actionRectangle, w->actionEllipse, w->actionAi };
+                 w->actionRectangle, w->actionEllipse, w->actionAi, w->actionMeasure };
     }
 
     QIcon plainIcon(QAction* action)

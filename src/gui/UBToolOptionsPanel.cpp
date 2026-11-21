@@ -60,6 +60,7 @@
 #include "gui/UBReadAloud.h"
 #include <QTimer>
 #include "gui/UBTheme.h"
+#include "gui/UBMeasureTool.h"
 
 // Width of the eraser on screen for each point of its size
 static constexpr qreal sEraserPixelsPerPoint = 3.0;
@@ -157,6 +158,8 @@ UBToolOptionsPanel* UBToolOptionsPanel::create(int tool, QWidget* parent)
             return new UBEmojiOptionsPanel(parent);
         case UBStylusTool::Ai:
             return new UBAiOptionsPanel(parent);
+        case UBStylusTool::Measure:
+            return new UBMeasureOptionsPanel(parent);
         case UBStylusTool::Comment:
             return new UBCommentOptionsPanel(parent);
         case UBStylusTool::Selector:
@@ -834,6 +837,67 @@ void UBAiOptionsPanel::refresh()
     // No transcription on the desktop: there is no page to write it on.
     mTranscribe->setHidden(UBApplication::applicationController->isShowingDesktop());
     placeTiles(mColumns);
+}
+
+UBMeasureOptionsPanel::UBMeasureOptionsPanel(QWidget* parent)
+    : UBToolOptionsPanel(tr("Measurements"), parent)
+{
+    const QList<std::tuple<UBMeasureTool::Mode, QString, QString, QString>> modes = {
+        { UBMeasureTool::Mode::Distance, tr("Distance"), ":/images/measure/distance.svg",
+          tr("The length of a line dragged from one end to the other") },
+        { UBMeasureTool::Mode::Perimeter, tr("Perimeter"), ":/images/measure/perimeter.svg",
+          tr("The length around a shape: a click at each corner, a double click at the last one") },
+        { UBMeasureTool::Mode::Area, tr("Area"), ":/images/measure/area.svg",
+          tr("The surface of a shape: a click at each corner, a double click at the last one") },
+    };
+
+    auto tiles = new QWidget(this);
+    auto layout = new QHBoxLayout(tiles);
+    layout->setContentsMargins(0, 0, 0, 0);
+    layout->setSpacing(4);
+
+    for (const auto& mode : modes)
+    {
+        auto button = new QToolButton(tiles);
+        button->setText(std::get<1>(mode));
+        button->setIcon(QIcon(std::get<2>(mode)));
+        button->setIconSize(QSize(28, 28));
+        button->setToolTip(std::get<3>(mode));
+        button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
+        button->setCheckable(true);
+        button->setFocusPolicy(Qt::NoFocus);
+        button->setFixedWidth(84);
+        button->setProperty("mode", int(std::get<0>(mode)));
+        layout->addWidget(button);
+        mButtons << button;
+
+        const UBMeasureTool::Mode chosen = std::get<0>(mode);
+
+        connect(button, &QToolButton::clicked, this, [this, chosen]() {
+            // On the desktop the options are in a window of their own: it goes.
+            if (auto popup = qobject_cast<UBToolOptionsPopup*>(window()))
+            {
+                popup->hide();
+            }
+
+            UBMeasureTool::instance()->choose(chosen);
+            refresh();
+        });
+    }
+
+    connect(UBMeasureTool::instance(), &UBMeasureTool::modeChanged, this, &UBMeasureOptionsPanel::refresh);
+    addRow(tiles);
+    refresh();
+}
+
+void UBMeasureOptionsPanel::refresh()
+{
+    const int mode = int(UBMeasureTool::instance()->mode());
+
+    for (QToolButton* button : std::as_const(mButtons))
+    {
+        button->setChecked(button->property("mode").toInt() == mode);
+    }
 }
 
 UBVoiceOptionsPanel::UBVoiceOptionsPanel(QWidget* parent)

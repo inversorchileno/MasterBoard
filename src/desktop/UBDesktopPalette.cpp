@@ -72,7 +72,8 @@ QList<QAction*> UBDesktopPalette::toolActions()
              mainWindow->actionPointer, mainWindow->actionSpotlight, mainWindow->actionHighlight, mainWindow->actionSelector,
              mainWindow->actionNote, mainWindow->actionStamp, mainWindow->actionEmoji, mainWindow->actionAttachment,
              mainWindow->actionUnderline, mainWindow->actionText,
-             mainWindow->actionArrowShape, mainWindow->actionRectangle, mainWindow->actionAi };
+             mainWindow->actionArrowShape, mainWindow->actionRectangle, mainWindow->actionAi,
+             mainWindow->actionMeasure };
 }
 
 UBDesktopPalette::UBDesktopPalette(QWidget *parent, UBRightPalette* _rightPalette)

@@ -85,6 +85,7 @@ UBStylusPalette::UBStylusPalette(QWidget *parent, Qt::Orientation orient)
 
     // The AI: its options are what to give to an AI on the web.
     actions << UBApplication::mainWindow->actionAi;
+    actions << UBApplication::mainWindow->actionMeasure;
 
     // Saves the board as it is seen, without the palettes, in one click.
     mScreenshotAction = new QAction(QIcon(":/images/stylusPalette/screenshot.svg"), tr("Save a screenshot"), this);

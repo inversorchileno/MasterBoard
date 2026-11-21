@@ -1689,6 +1689,21 @@
     <string>Summary, translation, images and more with an AI on the web</string>
    </property>
   </action>
+  <action name="actionMeasure">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../OpenBoard.qrc">
+     <normaloff>:/images/stylusPalette/measure.svg</normaloff>:/images/stylusPalette/measure.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Measurements</string>
+   </property>
+   <property name="toolTip">
+    <string>Distance, perimeter and area, with a reference drawn on the screen</string>
+   </property>
+  </action>
   <action name="actionSpotlight">
    <property name="checkable">
     <bool>true</bool>
