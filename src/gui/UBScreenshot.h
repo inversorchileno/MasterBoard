@@ -39,7 +39,7 @@ class UBScreenshot : public QObject
 
 public:
     /**
-     * @brief Saves the picture in Pictures/LibertyBoard with the date and
+     * @brief Saves the picture in Pictures/Master Board with the date and
      * time in its name. Returns the message to show to the user.
      */
     static QString save(const QPixmap& screenshot);

@@ -95,7 +95,7 @@ UBDocumentTabs::UBDocumentTabs(QWidget* parent)
         connect(UBApplication::undoStack.data(), &QUndoStack::indexChanged, this, &UBDocumentTabs::onUndoStackChanged);
     }
 
-    // Set while LibertyBoard runs: still set at the next start, it stopped without closing.
+    // Set while Master Board runs: still set at the next start, it stopped without closing.
     UBSettings* settings = UBSettings::settings();
     mStoppedUnexpectedly = settings->value(sRunningKey, false).toBool();
     settings->setValue(sRunningKey, true);

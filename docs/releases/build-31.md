@@ -2,6 +2,7 @@
 
 **Versión 2.0**
 
+- **Nuevo nombre y logo:** el programa se llama ahora **Master Board**. Tus documentos, tu configuración y tus sesiones de IA siguen igual, y los accesos directos de antes siguen funcionando.
 - **Mediciones:** nueva herramienta para medir distancia, perímetro y área, en la pizarra y en el escritorio, en unidades métricas o imperiales, con una línea de referencia dibujada en la pantalla.
 - **Preferencias** nuevas, ordenadas por categorías a la izquierda, con Aceptar, Aplicar y Cancelar.
 - **Tema** de las barras: oscuro, blanco, gris o igual que Windows.

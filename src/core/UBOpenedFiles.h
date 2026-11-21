@@ -30,7 +30,7 @@
 class UBDocumentProxy;
 
 /**
- * @brief The files opened in LibertyBoard and the documents they became:
+ * @brief The files opened in Master Board and the documents they became:
  * opening a PDF again shows the document worked on, with its annotations,
  * as long as the file was not changed by another program. Also the list
  * of the recent files of the Home menu.

@@ -37,7 +37,7 @@ static const QString sCurrentKey = QStringLiteral("Board/LibertyBoardStamp");
 // The picture of the custom stamp, for this session only.
 static QString sCustomFile;
 
-// Marks the stamps among the pictures of a page, while LibertyBoard runs.
+// Marks the stamps among the pictures of a page, while Master Board runs.
 static constexpr int sStampDataKey = 0x5354414d;
 static bool sRemoving = false;
 
@@ -75,7 +75,7 @@ QList<UBStamps::Standard> UBStamps::standards()
 
 bool UBStamps::isSpanish()
 {
-    // The language of LibertyBoard: the one chosen in the preferences, or the one of the system.
+    // The language of Master Board: the one chosen in the preferences, or the one of the system.
     QString language = UBSettings::settings()->appPreferredLanguage->get().toString();
 
     if (language.isEmpty())

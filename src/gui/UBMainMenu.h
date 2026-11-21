@@ -58,7 +58,7 @@ private:
     void createMenus();
     void setupDocumentShortcuts();
 
-    /** @brief About, Creator: who made LibertyBoard, and how. */
+    /** @brief About, Creator: who made Master Board, and how. */
     void showCreator();
     void arrangeBoardToolBar();
     void createCornerButtons();

@@ -402,7 +402,7 @@ namespace
 )JS";
 
     // A picture of the page of the AI, only readable in the page: it is
-    // read there and kept for LibertyBoard to take.
+    // read there and kept for Master Board to take.
     const char* const sFetchScript = R"JS(
 (function (address) {
     window.__libertyBoardPicture = null;

@@ -679,7 +679,7 @@ void UBBoardPaletteManager::changeMode(eUBDockPaletteWidgetMode newMode, bool is
     mRightPalette->switchMode(newMode);
     mLeftPalette->switchMode(newMode);
 
-    // LibertyBoard shows neither the page thumbnails nor the library on the
+    // Master Board shows neither the page thumbnails nor the library on the
     // sides: the tool options take the right side of the board.
     const bool rightPaletteVisible = false;
     const bool leftPaletteVisible = false;

@@ -50,7 +50,7 @@ void UBTheme::noteSystemScheme()
 
 UBTheme::Kind UBTheme::kind()
 {
-    // Read once: the bars keep their colors until LibertyBoard starts again.
+    // Read once: the bars keep their colors until Master Board starts again.
     static const Kind theme = []() {
         const QString chosen = UBSettings::settings()->appTheme->get().toString();
 

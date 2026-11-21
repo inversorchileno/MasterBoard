@@ -542,7 +542,7 @@ void UBSvgSubsetAdaptor::UBSvgSubsetReader::processElement()
 
             mScene->setBackground(darkBackground, bg);
 
-            // A color chosen for the page, written by LibertyBoard only.
+            // A color chosen for the page, written by Master Board only.
             auto ubBackgroundColor = mXmlReader.attributes().value(mNamespaceUri, "background-color");
 
             if (!ubBackgroundColor.isNull())

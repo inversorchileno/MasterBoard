@@ -241,7 +241,7 @@ void UBSettings::init()
     documentSizes.insert(DocumentSizeRatio::Ratio16_9, QSize((960 / 9 * 16), 960)); // 1.77
 
     // Its own key, so that the choice made in OpenBoard, which shares this
-    // configuration, does not move the LibertyBoard toolbar.
+    // configuration, does not move the Master Board toolbar.
     appToolBarPositionedAtTop = new UBSetting(this, "App", "LibertyBoardToolBarAtTop", true);
     appToolBarDisplayText = new UBSetting(this, "App", "ToolBarDisplayText", true);
     appEnableAutomaticSoftwareUpdates = new UBSetting(this, "App", "EnableAutomaticSoftwareUpdates", false);

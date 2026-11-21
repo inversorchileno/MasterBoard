@@ -128,7 +128,7 @@ void UBBackgroundPalette::init()
     updateLayout();
 }
 
-// The language of LibertyBoard: the one chosen in the preferences, or the one of the system.
+// The language of Master Board: the one chosen in the preferences, or the one of the system.
 static QString applicationLanguage()
 {
     const QString language = UBSettings::settings()->appPreferredLanguage->get().toString();

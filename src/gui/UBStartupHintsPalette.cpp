@@ -136,7 +136,7 @@ UBStartupHintsPalette::~UBStartupHintsPalette()
 
 void UBStartupHintsPalette::fillIndex()
 {
-    // The pages in the language of LibertyBoard, else in English.
+    // The pages in the language of Master Board, else in English.
     QString language = UBSettings::settings()->appPreferredLanguage->get().toString();
 
     if (language.isEmpty())

@@ -1965,7 +1965,7 @@ void UBBoardController::applyPageTemplate(UBPageTemplates::Template pageTemplate
         addScene();
     }
 
-    // The words of the templates follow the language of LibertyBoard.
+    // The words of the templates follow the language of Master Board.
     QString language = UBSettings::settings()->appPreferredLanguage->get().toString();
 
     if (language.isEmpty())

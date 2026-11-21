@@ -109,7 +109,7 @@ QPixmap UBSpotlight::pictureUnder(const QRect& area) const
     }
 
     // Where the system cannot leave this window out of the picture, the
-    // windows of LibertyBoard under it are taken.
+    // windows of Master Board under it are taken.
     const QRect global = area.translated(geometry().topLeft());
 
     for (QWidget* window : QApplication::topLevelWidgets())

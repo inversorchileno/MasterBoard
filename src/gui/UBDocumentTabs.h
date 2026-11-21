@@ -83,7 +83,7 @@ public:
     void setShowHandler(std::function<bool(const std::shared_ptr<UBDocumentProxy>&)> handler);
 
     /**
-     * @brief After LibertyBoard stopped without closing, offers to open again
+     * @brief After Master Board stopped without closing, offers to open again
      * the documents that were in the tabs. Their content is saved as they
      * are worked on.
      */
@@ -126,7 +126,7 @@ private:
     bool isBlank(const OpenDocument& open) const;
     void updateTabText(int index);
 
-    /** Remembers the tabs, to open them again after LibertyBoard stops without closing. */
+    /** Remembers the tabs, to open them again after Master Board stops without closing. */
     void saveSession() const;
 
     void onActiveSceneChanged();

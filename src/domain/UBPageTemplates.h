@@ -32,10 +32,10 @@
 class QPainter;
 
 /**
- * @brief The page templates of LibertyBoard, like those of note-taking
+ * @brief The page templates of Master Board, like those of note-taking
  * applications: lists, planners, calendars, notes and class sheets.
  *
- * Each template is drawn by LibertyBoard itself on the size of the page,
+ * Each template is drawn by Master Board itself on the size of the page,
  * in neutral greys over a transparent background, so that it shows on any
  * page color. The calendars and planners are built for the date given:
  * the days fall on their real weekdays, every year. Their words are in
@@ -76,7 +76,7 @@ public:
 
     /**
      * @brief The words of the templates for this language code of
-     * LibertyBoard: "es", "de", "fr", "zh", "ja" or else English.
+     * Master Board: "es", "de", "fr", "zh", "ja" or else English.
      */
     explicit UBPageTemplates(const QString& language);
 

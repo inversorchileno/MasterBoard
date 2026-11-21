@@ -115,11 +115,11 @@ UBApplication::UBApplication(const QString &id, int &argc, char **argv) : Single
     setApplicationDisplayName("Master Board");
 
     // The theme "as the system" follows the choice of the system, noted
-    // before LibertyBoard puts its own.
+    // before Master Board puts its own.
     UBTheme::noteSystemScheme();
 
 #if (QT_VERSION >= QT_VERSION_CHECK(6, 8, 0))
-    // The style sheets of LibertyBoard are made for a light theme: the dark
+    // The style sheets of Master Board are made for a light theme: the dark
     // mode of Windows would put dark text on dark backgrounds.
     QGuiApplication::styleHints()->setColorScheme(Qt::ColorScheme::Light);
 #endif
@@ -416,7 +416,7 @@ int UBApplication::exec(const QString& pFileToImport)
     mPreferencesController = new UBPreferencesController(mainWindow);
 
     connect(mainWindow->actionPreferences, SIGNAL(triggered()), mPreferencesController, SLOT(show()));
-    // The update check of LibertyBoard is connected by UBMainMenu.
+    // The update check of Master Board is connected by UBMainMenu.
 
 
     toolBarPositionChanged(UBSettings::settings()->appToolBarPositionedAtTop->get());

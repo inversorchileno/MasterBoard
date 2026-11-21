@@ -328,7 +328,7 @@ void UBMainMenu::createMenus()
     connect(shortcutsAction, &QAction::triggered, this, [this]() { UBShortcutsDialog::open(mMainWindow); });
     aboutMenu->addAction(shortcutsAction);
 
-    // Who made LibertyBoard, and how.
+    // Who made Master Board, and how.
     auto creatorAction = new QAction(QIcon(":/images/OpenBoard.png"), tr("Creator"), mMainWindow);
     creatorAction->setObjectName("actionLbCreator");
     connect(creatorAction, &QAction::triggered, this, &UBMainMenu::showCreator);
@@ -342,7 +342,7 @@ void UBMainMenu::createMenus()
     });
     aboutMenu->addAction(gitHubAction);
 
-    // Replaces the update check of OpenBoard by the one of LibertyBoard.
+    // Replaces the update check of OpenBoard by the one of Master Board.
     mMainWindow->actionCheckUpdate->disconnect();
     mMainWindow->actionCheckUpdate->setText(tr("Update"));
     mMainWindow->actionCheckUpdate->setToolTip(tr("Download and install the latest version from GitHub"));

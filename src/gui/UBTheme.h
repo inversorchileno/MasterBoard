@@ -28,13 +28,13 @@
 #include <QString>
 
 /**
- * @brief The colors of the bars of LibertyBoard: the menu bar, the options
+ * @brief The colors of the bars of Master Board: the menu bar, the options
  * of the tools at the top, the document tabs and the zoom.
  *
  * The style sheets are written with the colors of the dark theme; style()
  * and color() give the same colors in the theme chosen in the preferences:
  * dark, white, grey, or the one of the system (dark or white). The theme is
- * read once: a new choice is used the next time LibertyBoard starts.
+ * read once: a new choice is used the next time Master Board starts.
  */
 class UBTheme
 {
@@ -46,7 +46,7 @@ public:
         Grey
     };
 
-    /** @brief Notes whether the system uses a dark theme, before LibertyBoard sets its own. */
+    /** @brief Notes whether the system uses a dark theme, before Master Board sets its own. */
     static void noteSystemScheme();
 
     /** @brief The theme in use. */

@@ -31,14 +31,14 @@ class QProgressDialog;
 class QWidget;
 
 /**
- * @brief Looks for a newer LibertyBoard on GitHub, downloads it and installs
+ * @brief Looks for a newer Master Board on GitHub, downloads it and installs
  * it over the current one.
  *
  * Every Windows build on GitHub is published as a release named
  * "build-<number>" with a zip of the program. The number of the running
  * build is compiled in as LIBERTYBOARD_BUILD. Installing is done by a small
- * script which waits until LibertyBoard is closed, copies the new files over
- * the program folder and starts LibertyBoard again.
+ * script which waits until Master Board is closed, copies the new files over
+ * the program folder and starts Master Board again.
  */
 class UBGitHubUpdater : public QObject
 {

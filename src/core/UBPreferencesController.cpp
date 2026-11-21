@@ -1020,7 +1020,7 @@ void UBPreferencesController::defaultSettings()
 
         defaultValue = settings->appToolBarDisplayText->reset().toBool();
         mPreferencesUI->toolbarDisplayTextCheckBox->setChecked(defaultValue);
-        // At the right, vertical, as LibertyBoard starts.
+        // At the right, vertical, as Master Board starts.
         UBApplication::boardController->paletteManager()->placeStylusPalette(Qt::RightEdge);
         mPaletteEdges->button(Qt::RightEdge)->setChecked(true);
         mPreferencesUI->startModeComboBox->setCurrentIndex(0);

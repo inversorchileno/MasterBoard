@@ -37,10 +37,10 @@ class QTreeWidgetItem;
 class UBKeyCatcher;
 
 /**
- * @brief The list of the keyboard shortcuts of LibertyBoard, opened from
+ * @brief The list of the keyboard shortcuts of Master Board, opened from
  * About, Shortcuts: every function of the menus and of the tool palettes,
  * with its shortcut, which can be changed. A shortcut that Windows or
- * LibertyBoard already uses is refused with a message.
+ * Master Board already uses is refused with a message.
  */
 class UBShortcutsDialog : public QDialog
 {

@@ -62,7 +62,7 @@ namespace
     }
 
     /*
-     * The shortcuts given by LibertyBoard to the functions that have none.
+     * The shortcuts given by Master Board to the functions that have none.
      * Ctrl + Shift and the F keys: Ctrl + Alt is Alt Gr on many keyboards,
      * and Alt + Shift changes the language of the keyboard on Windows.
      */
@@ -238,7 +238,7 @@ void UBShortcutsDialog::adopt(const QList<QAction*>& actions)
 
         action->setProperty(sAdoptedProperty, true);
 
-        // A function without shortcut gets one of LibertyBoard, if it is free.
+        // A function without shortcut gets one of Master Board, if it is free.
         const QKeySequence invented(inventedShortcuts().value(action->objectName()), QKeySequence::PortableText);
 
         if (action->shortcuts().isEmpty() && !invented.isEmpty() && !userOf(invented, action))
@@ -444,7 +444,7 @@ QString UBShortcutsDialog::refusal(QAction* action, const QKeySequence& shortcut
         return tr("the Windows key is kept by Windows for its own shortcuts.");
     }
 
-    // Shortcuts of Windows itself, which never reach LibertyBoard.
+    // Shortcuts of Windows itself, which never reach Master Board.
     const QList<QPair<QKeySequence, QString>> windowsShortcuts = {
         { QKeySequence(Qt::ALT | Qt::Key_Tab), tr("Windows uses it to change between the open windows.") },
         { QKeySequence(Qt::ALT | Qt::SHIFT | Qt::Key_Tab), tr("Windows uses it to change between the open windows.") },

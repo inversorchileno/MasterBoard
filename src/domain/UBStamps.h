@@ -34,7 +34,7 @@ class QGraphicsItem;
  * @brief The stamps put on a page with the stamp tool: standard ones, like
  * "Approved" or "Draft", and a custom one made from a picture of the user.
  *
- * The standard stamps are in English, and in Spanish when LibertyBoard is
+ * The standard stamps are in English, and in Spanish when Master Board is
  * in Spanish. A stamp is a picture with a transparent background, so that
  * the page shows around its frame and its letters.
  */
@@ -70,7 +70,7 @@ public:
 
     /**
      * @brief The picture file of the custom stamp, empty until one is
-     * chosen: it is chosen again each time LibertyBoard starts.
+     * chosen: it is chosen again each time Master Board starts.
      */
     static QString customFile();
     static void setCustomFile(const QString& file);

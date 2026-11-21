@@ -28,7 +28,7 @@ VERSION_RC = $$replace(VERSION_RC, "b", "176") # 0xB0
 VERSION_RC = $$replace(VERSION_RC, "rc", "192" ) # 0xC0
 VERSION_RC = $$replace(VERSION_RC, "r", "240") # 0xF0
 
-# Number of the GitHub build, for the update check of LibertyBoard.
+# Number of the GitHub build, for the update check of Master Board.
 LIBERTYBOARD_BUILD_NUMBER = $$(LIBERTYBOARD_BUILD)
 !isEmpty(LIBERTYBOARD_BUILD_NUMBER): DEFINES += LIBERTYBOARD_BUILD=$$LIBERTYBOARD_BUILD_NUMBER
 

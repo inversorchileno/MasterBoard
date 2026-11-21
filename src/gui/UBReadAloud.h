@@ -40,7 +40,7 @@ class UBReadAloud : public QObject
     Q_OBJECT
 
 public:
-    /** @brief The one voice of LibertyBoard. */
+    /** @brief The one voice of Master Board. */
     static UBReadAloud* instance();
 
     bool isReading() const;

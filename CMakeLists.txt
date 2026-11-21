@@ -116,7 +116,7 @@ add_executable(${PROJECT_NAME})
 if(APPLE)
     enable_language(OBJCXX)
     set(LIBERTYBOARD_BUNDLE_VERSION "${VERSION}")
-    configure_file(resources/macx/LibertyBoard.Info.plist.in ${PROJECT_BINARY_DIR}/Info.plist @ONLY)
+    configure_file(resources/macx/MasterBoard.Info.plist.in ${PROJECT_BINARY_DIR}/Info.plist @ONLY)
     set_target_properties(${PROJECT_NAME} PROPERTIES
         MACOSX_BUNDLE TRUE
         OUTPUT_NAME MasterBoard
