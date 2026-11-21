@@ -498,7 +498,8 @@ void UBPreferencesController::buildCategories()
     auto categories = new QListWidget(left);
     categories->setObjectName("categories");
     categories->setIconSize(QSize(22, 22));
-    categories->setFixedWidth(230);
+    categories->setFixedWidth(260);
+    categories->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     leftLayout->addWidget(categories, 1);
 
     auto right = new QFrame(body);
