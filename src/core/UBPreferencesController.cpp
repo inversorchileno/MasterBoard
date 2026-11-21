@@ -216,6 +216,8 @@ void UBPreferencesController::simplifyTabs()
     displayLayout->addWidget(mPreferencesUI->scrollArea, 3, 0);
 
     tabs->removeTab(tabs->indexOf(mPreferencesUI->penTab));
+    // The color of the lines of the page is in Template style.
+    tabs->removeTab(tabs->indexOf(mPreferencesUI->gridTab));
     tabs->removeTab(tabs->indexOf(mPreferencesUI->markerTab));
 
     // The licenses in the About tab, behind a small button at its bottom:

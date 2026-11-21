@@ -4,6 +4,8 @@
 #include <QDateEdit>
 #include <QGridLayout>
 #include <QPainter>
+#include <QGraphicsView>
+#include <QSlider>
 
 #include "domain/UBPageTemplates.h"
 #include "frameworks/UBPlatformUtils.h"
@@ -67,6 +69,7 @@ void UBBackgroundPalette::init()
     patternsLayout->setContentsMargins(0, 0, 0, 0);
     patternsLayout->addLayout(mTopLayout);
     patternsLayout->addLayout(mBottomLayout);
+    patternsLayout->addLayout(createLineColor());
     mVLayout->addWidget(mPatterns);
 
     mTemplates = createTemplates();
@@ -221,6 +224,78 @@ void UBBackgroundPalette::drawTemplatePictures()
     }
 }
 
+QLayout* UBBackgroundPalette::createLineColor()
+{
+    // The color and the opacity of the lines of the grid, of the ruled page
+    // and of the dots: for a light page, or for a dark one, as the current page.
+    auto row = new QHBoxLayout();
+    mLineColorLabel = new QLabel(tr("Color of the lines"), this);
+    mLineColorLabel->setStyleSheet("QLabel { color : white; }");
+
+    const QList<QColor> colors = { QColor("#A5E1FF"), QColor("#C0C0C0"), QColor("#808080"), QColor("#000000"),
+                                   QColor("#ffffff"), QColor("#93c5fd"), QColor("#86efac"), QColor("#fca5a5"),
+                                   QColor("#fcd34d") };
+    mLineColors = new UBColorSwatches(colors, false, this);
+    mLineColors->hideOtherColorButton();
+
+    mLineOpacityLabel = new QLabel(tr("Opacity"), this);
+    mLineOpacityLabel->setStyleSheet("QLabel { color : white; }");
+    mLineOpacity = new QSlider(Qt::Horizontal, this);
+    mLineOpacity->setRange(10, 100);
+    mLineOpacity->setFixedWidth(120);
+
+    row->addSpacing(16);
+    row->addWidget(mLineColorLabel);
+    row->addWidget(mLineColors);
+    row->addSpacing(16);
+    row->addWidget(mLineOpacityLabel);
+    row->addWidget(mLineOpacity);
+    row->addStretch(1);
+
+    auto apply = [this]() {
+        QColor color = mLineColors->currentColor();
+
+        if (!color.isValid())
+        {
+            return;
+        }
+
+        color.setAlpha(mLineOpacity->value() * 255 / 100);
+        lineColorSetting()->set(color.name(QColor::HexArgb));
+
+        if (UBApplication::boardController->activeScene())
+        {
+            // The views keep their background in a cache.
+            for (QGraphicsView* view : UBApplication::boardController->activeScene()->views())
+            {
+                view->resetCachedContent();
+            }
+        }
+    };
+
+    connect(mLineColors, &UBColorSwatches::colorChosen, this, apply);
+    connect(mLineOpacity, &QSlider::valueChanged, this, apply);
+
+    return row;
+}
+
+UBSetting* UBBackgroundPalette::lineColorSetting()
+{
+    UBSettings* settings = UBSettings::settings();
+    const auto scene = UBApplication::boardController->activeScene();
+    return scene && scene->isDarkBackground() ? settings->boardCrossColorDarkBackground
+                                               : settings->boardCrossColorLightBackground;
+}
+
+void UBBackgroundPalette::showLineColor()
+{
+    const QColor color(lineColorSetting()->get().toString());
+    const QSignalBlocker colorBlocker(mLineColors);
+    const QSignalBlocker opacityBlocker(mLineOpacity);
+    mLineColors->setCurrentColor(QColor(color.red(), color.green(), color.blue()));
+    mLineOpacity->setValue(qMax(10, color.alpha() * 100 / 255));
+}
+
 void UBBackgroundPalette::showTemplates(bool shown)
 {
     mPatterns->setVisible(!shown);
@@ -347,6 +422,12 @@ void UBBackgroundPalette::backgroundChanged()
     mSliderLabel->setStyleSheet("QLabel { color : white; }");
     mIntermediateLinesLabel->setStyleSheet("QLabel { color : white; }");
     mPageColors->setCurrentColor(UBApplication::boardController->activeScene()->backgroundColor());
+
+    // A dark page has its own color of the lines.
+    if (mLineColors)
+    {
+        showLineColor();
+    }
 }
 
 void UBBackgroundPalette::refresh()

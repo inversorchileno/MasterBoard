@@ -391,26 +391,55 @@ void UBToolbarChoice::openOrderWindow(QWidget* parent)
         lists[palette] = list;
     }
 
-    auto buttons = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel, &dialog);
-    layout->addWidget(buttons);
-    QObject::connect(buttons, &QDialogButtonBox::accepted, &dialog, &QDialog::accept);
-    QObject::connect(buttons, &QDialogButtonBox::rejected, &dialog, &QDialog::reject);
-
-    if (dialog.exec() != QDialog::Accepted)
-    {
-        return;
-    }
+    // The order when the window opens, given back by Cancel after Apply.
+    QMap<Palette, QList<QAction*>> before;
 
     for (auto it = lists.cbegin(); it != lists.cend(); ++it)
     {
-        QList<QAction*> order;
-
-        for (int i = 0; i < it.value()->count(); ++i)
+        for (QAction* action : orderedActions(it.key()))
         {
-            order << qobject_cast<QAction*>(it.value()->item(i)->data(Qt::UserRole).value<QObject*>());
+            if (isShown(it.key(), action))
+            {
+                before[it.key()] << action;
+            }
         }
+    }
 
-        setShownOrder(it.key(), order);
+    auto applyLists = [&lists]() {
+        for (auto it = lists.cbegin(); it != lists.cend(); ++it)
+        {
+            QList<QAction*> order;
+
+            for (int i = 0; i < it.value()->count(); ++i)
+            {
+                order << qobject_cast<QAction*>(it.value()->item(i)->data(Qt::UserRole).value<QObject*>());
+            }
+
+            setShownOrder(it.key(), order);
+        }
+    };
+
+    bool applied = false;
+    auto buttons = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Apply | QDialogButtonBox::Cancel, &dialog);
+    layout->addWidget(buttons);
+    QObject::connect(buttons, &QDialogButtonBox::accepted, &dialog, &QDialog::accept);
+    QObject::connect(buttons, &QDialogButtonBox::rejected, &dialog, &QDialog::reject);
+    QObject::connect(buttons->button(QDialogButtonBox::Apply), &QPushButton::clicked, &dialog, [&applyLists, &applied]() {
+        // The palettes take the order at once; the window stays open.
+        applyLists();
+        applied = true;
+    });
+
+    if (dialog.exec() == QDialog::Accepted)
+    {
+        applyLists();
+    }
+    else if (applied)
+    {
+        for (auto it = before.cbegin(); it != before.cend(); ++it)
+        {
+            setShownOrder(it.key(), it.value());
+        }
     }
 }
 

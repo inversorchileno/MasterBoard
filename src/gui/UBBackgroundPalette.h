@@ -11,6 +11,7 @@ class QCheckBox;
 class QDateEdit;
 class QToolButton;
 class UBColorSwatches;
+class UBSetting;
 class UBSegmentedChoice;
 
 class UBBackgroundPalette : public UBActionPalette
@@ -45,6 +46,11 @@ class UBBackgroundPalette : public UBActionPalette
         QWidget* createTemplates();
         void drawTemplatePictures();
         void showTemplates(bool shown);
+        QLayout* createLineColor();
+
+        /** @brief The setting of the color of the lines for the background of the page: light or dark. */
+        static UBSetting* lineColorSetting();
+        void showLineColor();
 
 
         QVBoxLayout* mVLayout;
@@ -61,6 +67,11 @@ class UBBackgroundPalette : public UBActionPalette
         QDateEdit* mTemplateDate{nullptr};
         QCheckBox* mSundayFirst{nullptr};
         QMap<UBPageTemplates::Template, QToolButton*> mTemplateButtons;
+
+        UBColorSwatches* mLineColors{nullptr};
+        QSlider* mLineOpacity{nullptr};
+        QLabel* mLineColorLabel{nullptr};
+        QLabel* mLineOpacityLabel{nullptr};
 
         QSlider* mSlider;
         QLabel* mSliderLabel;
