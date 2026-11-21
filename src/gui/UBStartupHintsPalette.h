@@ -29,16 +29,18 @@
 #ifndef UBSTARTUPTIPSPALETTE_H
 #define UBSTARTUPTIPSPALETTE_H
 
-class QCheckBox;
-class QVBoxLayout;
-class QHBoxLayout;
-
-#include <QWebEngineView>
+#include <QStringList>
 
 #include "UBFloatingPalette.h"
-#include "api/UBWidgetUniboardAPI.h"
-#include "domain/UBWebEngineView.h"
 
+class QCheckBox;
+class QListWidget;
+class UBWebEngineView;
+
+/**
+ * @brief The guide of Tips and tricks: a page with pictures at the left,
+ * and the index of the pages at the right to go to any of them.
+ */
 class UBStartupHintsPalette : public UBFloatingPalette
 {
     Q_OBJECT;
@@ -46,24 +48,18 @@ public:
     UBStartupHintsPalette(QWidget *parent = 0);
     ~UBStartupHintsPalette();
 
-
-signals:
-
-public slots:
-
 protected:
     virtual void paintEvent(QPaintEvent *event);
-    virtual void mouseReleaseEvent(QMouseEvent * event);
     virtual void showEvent(QShowEvent *event);
 
 private:
-    void close();
+    void fillIndex();
     int border();
-    QCheckBox* mShowNextTime;
-    QVBoxLayout* mLayout;
-    QHBoxLayout* mButtonLayout;
-    UBWidgetUniboardAPI *mpSankoreAPI;
-    UBWebEngineView* mpWebView;
+
+    QCheckBox* mShowNextTime{nullptr};
+    QListWidget* mIndex{nullptr};
+    UBWebEngineView* mpWebView{nullptr};
+    QStringList mPages;
 
 private slots:
     void onShowNextTimeStateChanged(int state);

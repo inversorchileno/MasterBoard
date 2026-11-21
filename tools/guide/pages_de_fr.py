@@ -2,7 +2,7 @@
 # (title, intro, [items], tip)
 DE = [
  ('Willkommen bei LibertyBoard',
-  'Eine Tafel und ein PDF-Leser zum Schreiben, Zeichnen, Präsentieren und Lernen. Diese Anleitung zeigt jedes Werkzeug: Mit den Pfeilen unten geht es weiter.',
+  'Eine Tafel und ein PDF-Leser zum Schreiben, Zeichnen, Präsentieren und Lernen. Diese Anleitung zeigt jedes Werkzeug: Wähle ein Thema im Verzeichnis rechts.',
   ['Oben sind die <b>Menüs</b>: Start (öffnen, speichern, drucken), Modus (Tafel, Doppeltafel, Desktop), Bearbeiten, Werkzeuge, Anpassen und Über.',
    'Darunter die <b>Optionsleiste</b>: Sie zeigt die Optionen des gewählten Werkzeugs.',
    'Rechts die <b>Werkzeugleiste</b>, links die <b>Seiten</b> des Dokuments.',
@@ -138,7 +138,7 @@ DE = [
 
 FR = [
  ('Bienvenue dans LibertyBoard',
-  'Un tableau et un lecteur de PDF pour écrire, dessiner, présenter et étudier. Ce guide montre chaque outil : utilisez les flèches en bas pour avancer.',
+  'Un tableau et un lecteur de PDF pour écrire, dessiner, présenter et étudier. Ce guide montre chaque outil : choisissez un thème dans l’index à droite.',
   ['En haut, les <b>menus</b> : Accueil (ouvrir, enregistrer, imprimer), Mode (tableau, double tableau, bureau), Édition, Outils, Personnaliser et À propos.',
    'Dessous, la <b>barre d’options</b> : elle montre les options de l’outil choisi.',
    'À droite, la <b>palette d’outils</b> ; à gauche, les <b>pages</b> du document.',
