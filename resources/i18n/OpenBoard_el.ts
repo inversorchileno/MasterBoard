@@ -553,12 +553,12 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="+12"/>
-        <location line="+664"/>
+        <location line="+679"/>
         <source>Erase Annotations</source>
         <translation>Σβήσιμο σχολίων</translation>
     </message>
     <message>
-        <location line="-652"/>
+        <location line="-667"/>
         <source>Clear Page</source>
         <translation>Καθαρισμός σελίδας</translation>
     </message>
@@ -641,7 +641,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Τοποθέτηση σφραγίδας στη σελίδα</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+59"/>
         <source>Spotlight</source>
         <translation>Προβολέας</translation>
     </message>
@@ -709,7 +709,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-1769"/>
+        <location line="-1784"/>
         <location line="+18"/>
         <location line="+15"/>
         <location line="+987"/>
@@ -1019,6 +1019,16 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+12"/>
+        <source>Measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Distance, perimeter and area, with a reference drawn on the screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+29"/>
         <source>Read aloud</source>
         <translation type="unfinished">Ανάγνωση φωναχτά</translation>
@@ -1205,7 +1215,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Εμφάνιση στην Οθόνη</translation>
     </message>
     <message>
-        <location line="-1995"/>
+        <location line="-2010"/>
         <location line="+686"/>
         <location line="+3"/>
         <source>LibertyBoard</source>
@@ -1217,7 +1227,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Εξοδος από το LibertyBoard</translation>
     </message>
     <message>
-        <location line="+1664"/>
+        <location line="+1679"/>
         <source>Hide LibertyBoard</source>
         <translation>Απόκρυψη του LibertyBoard</translation>
     </message>
@@ -1242,7 +1252,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Αφαίρεση παρασκηνίου</translation>
     </message>
     <message>
-        <location line="-872"/>
+        <location line="-887"/>
         <location line="+6"/>
         <source>Ruled Light Background</source>
         <translation>Γραμμές σε ανοιχτόχρωμο παρασκήνιο</translation>
@@ -1259,7 +1269,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Επιλέξτε και τροποποιήστε αντικείμενα</translation>
     </message>
     <message>
-        <location line="+607"/>
+        <location line="+622"/>
         <source>Interact with items</source>
         <translation>Αλληλεπιδράστε με στοιχεία</translation>
     </message>
@@ -1280,7 +1290,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Επαναφορά μεγέθους πλέγματος</translation>
     </message>
     <message>
-        <location line="-1701"/>
+        <location line="-1716"/>
         <source>Small Eraser</source>
         <translation>Μικρή γόμα</translation>
     </message>
@@ -1315,7 +1325,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Χρώμα 5</translation>
     </message>
     <message>
-        <location line="+1594"/>
+        <location line="+1609"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
         <translation>Σχεδίαση ενδιάμεσων γραμμών πλέγματος</translation>
@@ -1329,7 +1339,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Λήψη στιγμιότυπου διαδικτυακού περιεχομένου</translation>
     </message>
     <message>
-        <location line="-1758"/>
+        <location line="-1773"/>
         <source>Template style</source>
         <translation>Στυλ προτύπου</translation>
     </message>
@@ -1416,7 +1426,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Γραμμές Seyes σε σκουρόχρωμο παρασκήνιο</translation>
     </message>
     <message>
-        <location line="+588"/>
+        <location line="+603"/>
         <source>Import one or more pages (supported formats : jpg, png, svg, ubz, pdf)</source>
         <translation>Εισαγωγή μιας ή περισσότερων σελίδων (υποστηριζόμενες μορφές : jpg, png, svg, ubz, pdf)</translation>
     </message>
@@ -1550,6 +1560,46 @@ Do you wish to override the security check and continue ?   </source>
         <source>Each quick note becomes a picture of the note on its page, with its date and text. The notes can no longer be edited. Merge the %1 quick notes?</source>
         <translation>Κάθε γρήγορη σημείωση γίνεται εικόνα της σημείωσης στη σελίδα της, με ημερομηνία και κείμενο. Οι σημειώσεις δεν θα μπορούν πλέον να επεξεργαστούν. Συγχώνευση των %1 γρήγορων σημειώσεων;</translation>
     </message>
+    <message>
+        <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
+        <source>Bar style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Color inside</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Color of the edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Διαφάνεια</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Corners</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Square</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Round</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -1592,7 +1642,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+723"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+728"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1932,7 +1982,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">Βίντεο</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+388"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -1970,7 +2020,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAttachmentOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+150"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+211"/>
         <source>Insert file</source>
         <translation>Εισαγωγή αρχείου</translation>
     </message>
@@ -2003,7 +2053,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+57"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
         <source>Page</source>
         <translation type="unfinished">Σελίδα</translation>
     </message>
@@ -2013,7 +2063,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+24"/>
         <source>Page color</source>
         <translation>Χρώμα φύλλου</translation>
     </message>
@@ -2056,6 +2106,16 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>Color of the lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Διαφάνεια</translation>
     </message>
 </context>
 <context>
@@ -2249,7 +2309,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2242"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
         <source>That page is not in the document any more.</source>
         <translation>Αυτή η σελίδα δεν υπάρχει πια στο έγγραφο.</translation>
     </message>
@@ -2319,7 +2379,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBColorSwatches</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsWidgets.cpp" line="+153"/>
+        <location filename="../../src/gui/UBToolOptionsWidgets.cpp" line="+154"/>
         <source>No color</source>
         <translation>Χωρίς χρώμα</translation>
     </message>
@@ -2413,7 +2473,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBDesktopPalette</name>
     <message>
-        <location filename="../../src/desktop/UBDesktopPalette.cpp" line="+90"/>
+        <location filename="../../src/desktop/UBDesktopPalette.cpp" line="+92"/>
         <source>Save a screenshot</source>
         <translation>Αποθήκευση στιγμιότυπου οθόνης</translation>
     </message>
@@ -2448,7 +2508,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Εμφάνιση της εργαλειοθήκης</translation>
     </message>
     <message>
-        <location line="+366"/>
+        <location line="+361"/>
         <source>Show Board on Secondary Screen</source>
         <translation>Εμφάνιση του Πίνακα στη δευτερεύουσα οθόνη</translation>
     </message>
@@ -2458,7 +2518,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Εμφάνιση της Επιφάνειας Εργασίας στη δευτερεύουσα οθόνη</translation>
     </message>
     <message>
-        <location line="-424"/>
+        <location line="-419"/>
         <source>Show LibertyBoard</source>
         <translation>Εμφάνιση LibertyBoard</translation>
     </message>
@@ -2863,7 +2923,7 @@ Providing a new name will create a new document.</source>
         <translation type="vanished">Νέο έγγραφο</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBDocumentTabs.cpp" line="+75"/>
+        <location filename="../../src/gui/UBDocumentTabs.cpp" line="+76"/>
         <source>New board</source>
         <translation>Νέος πίνακας</translation>
     </message>
@@ -3060,7 +3120,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEmojiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1142"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1204"/>
         <source>Emojis and GIFs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3080,7 +3140,7 @@ Do you want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3102,7 +3162,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEraserOptionsPanel</name>
     <message>
-        <location line="-282"/>
+        <location line="-283"/>
         <source>Eraser</source>
         <translation>Γόμα</translation>
     </message>
@@ -3484,7 +3544,17 @@ Do you want to continue?</source>
 <context>
     <name>UBGitHubUpdater</name>
     <message>
-        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+81"/>
+        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+85"/>
+        <source>%1 (build %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>You are using LibertyBoard %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>Looking for a new version...</source>
         <translation>Αναζήτηση νέας έκδοσης...</translation>
     </message>
@@ -4041,7 +4111,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
 <context>
     <name>UBKeyCatcher</name>
     <message>
-        <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+727"/>
+        <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4233,13 +4303,13 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation type="vanished">Μέγεθος σελίδας</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+140"/>
-        <location line="+92"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+141"/>
+        <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
     </message>
     <message>
-        <location line="-76"/>
+        <location line="-75"/>
         <source>&amp;Home</source>
         <translation>&amp;Αρχική</translation>
     </message>
@@ -4257,7 +4327,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation>Άνοιγμα/Εισαγωγή</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+78"/>
         <source>&amp;Mode</source>
         <translation>&amp;Λειτουργία</translation>
     </message>
@@ -4272,13 +4342,13 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation>Κλείσιμο εγγράφου</translation>
     </message>
     <message>
-        <location line="-118"/>
-        <location line="+161"/>
+        <location line="-117"/>
+        <location line="+160"/>
         <source>Page/canvas size</source>
         <translation>Μέγεθος σελίδας/καμβά</translation>
     </message>
     <message>
-        <location line="-120"/>
+        <location line="-119"/>
         <source>New board</source>
         <translation>Νέος πίνακας</translation>
     </message>
@@ -4333,7 +4403,12 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation>Διαβάζει το κείμενο των σαρωμένων σελίδων, ώστε να μπορεί να αναζητηθεί και να αντιγραφεί</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+8"/>
+        <source>Multiscreen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Double board</source>
         <translation>Διπλός πίνακας</translation>
     </message>
@@ -4483,12 +4558,12 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+114"/>
-        <location line="+398"/>
+        <location line="+409"/>
         <source>Saved</source>
         <translation>Αποθηκεύτηκε</translation>
     </message>
     <message>
-        <location line="-392"/>
+        <location line="-403"/>
         <source>Search...</source>
         <translation>Αναζήτηση...</translation>
     </message>
@@ -4525,7 +4600,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation>Ξεκλείδωμα καμβά</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+30"/>
         <source>Hide or show the toolbar</source>
         <translation>Απόκρυψη ή εμφάνιση της γραμμής εργαλείων</translation>
     </message>
@@ -4599,6 +4674,153 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <location line="+1"/>
         <source> %</source>
         <translation> %</translation>
+    </message>
+</context>
+<context>
+    <name>UBMeasureOptionsPanel</name>
+    <message>
+        <location line="+406"/>
+        <source>Measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The length of a line dragged from one end to the other</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Perimeter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The length around a shape: a click at each corner, a double click at the last one</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The surface of a shape: a click at each corner, a double click at the last one</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UBMeasureTool</name>
+    <message>
+        <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
+        <source>End the measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Metric</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Imperial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>millimeter (mm)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>centimeter (cm)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>meter (m)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>kilometer (km)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>inch (in)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>foot (ft)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>yard (yd)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>mile (mi)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Continue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Restart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Choose the unit and draw the reference again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+419"/>
+        <source>Distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Drag from one end to the other.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Perimeter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+4"/>
+        <source>Click at each corner; double click at the last one.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Draw a line that measures 1 %1: it is the reference of the measures.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4690,7 +4912,7 @@ Do you want to ignore these errors for this host?</source>
 <context>
     <name>UBNoteOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1335"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+983"/>
         <source>Note</source>
         <translation>Σημείωση</translation>
     </message>
@@ -4799,7 +5021,7 @@ It can also be done later with Home &gt; Recognize text.</source>
         <translation type="vanished">Διαγραφή της σελίδας που εμφανίζεται</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBPageButtons.cpp" line="+52"/>
+        <location filename="../../src/gui/UBPageButtons.cpp" line="+53"/>
         <source>Add page</source>
         <translation>Προσθήκη σελίδας</translation>
     </message>
@@ -4950,7 +5172,7 @@ It can also be done later with Home &gt; Recognize text.</source>
 <context>
     <name>UBPageIndicator</name>
     <message>
-        <location filename="../../src/gui/UBPageIndicator.cpp" line="+49"/>
+        <location filename="../../src/gui/UBPageIndicator.cpp" line="+50"/>
         <source>Type a page number and press Enter</source>
         <translation>Πληκτρολογήστε αριθμό σελίδας και πατήστε Enter</translation>
     </message>
@@ -5011,7 +5233,7 @@ It can also be done later with Home &gt; Recognize text.</source>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1498"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1560"/>
         <source>Pen</source>
         <translation>Πένα</translation>
     </message>
@@ -5245,12 +5467,12 @@ Dynamic width</source>
 <context>
     <name>UBPreferencesController</name>
     <message>
-        <location filename="../../src/core/UBPreferencesController.cpp" line="+141"/>
+        <location filename="../../src/core/UBPreferencesController.cpp" line="+161"/>
         <source>Language</source>
         <translation>Γλώσσα</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <source>Language of the system</source>
         <translation>Γλώσσα του συστήματος</translation>
     </message>
@@ -5261,31 +5483,28 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+19"/>
+        <location line="+327"/>
         <source>General</source>
         <translation>Γενικά</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-324"/>
         <source>Pressure of the pen</source>
         <translation>Πίεση γραφίδας</translation>
     </message>
     <message>
-        <location line="+26"/>
-        <source>Translators</source>
+        <location line="+30"/>
+        <source>References</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Licenses</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+24"/>
+        <location line="+25"/>
+        <location line="+279"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-270"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5315,7 +5534,123 @@ Dynamic width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+34"/>
+        <source>Theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Same as Windows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Same as the system</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Dark</source>
+        <translation type="unfinished">Σκουρόχρωμο</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>White</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Grey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+87"/>
+        <source>Categories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <location line="+262"/>
+        <source>Version %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-255"/>
+        <source>Internet</source>
+        <translation type="unfinished">Διαδίκτυο</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Options bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Toolbar</source>
+        <translation type="unfinished">Εργαλειοθήκη</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>General settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Appearance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Pen and toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Screens and desktop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Documents and PDF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Artificial intelligence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Network</source>
+        <translation type="unfinished">Δίκτυο</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Update</source>
+        <translation type="unfinished">Ενημέρωση</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>About</source>
+        <translation type="unfinished">Σχετικά</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>About LibertyBoard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+64"/>
         <source>Border in desktop mode</source>
         <translation>Περίγραμμα σε λειτουργία επιφάνειας εργασίας</translation>
     </message>
@@ -5341,17 +5676,15 @@ Dynamic width</source>
         <translation> px</translation>
     </message>
     <message>
-        <location line="+88"/>
         <source>version: </source>
-        <translation>έκδοση: </translation>
+        <translation type="vanished">έκδοση: </translation>
     </message>
     <message>
-        <location line="+1"/>
         <source> (build %1)</source>
-        <translation> (έκδοση %1)</translation>
+        <translation type="vanished"> (έκδοση %1)</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+179"/>
         <source>Top</source>
         <translation>Επάνω</translation>
     </message>
@@ -5380,7 +5713,7 @@ Dynamic width</source>
         <translation type="vanished">Δείκτης λέιζερ</translation>
     </message>
     <message>
-        <location line="-188"/>
+        <location line="-229"/>
         <source>Use all available displays</source>
         <translation>Χρήση όλων των διαθέσιμων οθονών</translation>
     </message>
@@ -5690,7 +6023,7 @@ Dynamic width</source>
 <context>
     <name>UBSelectorOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1372"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1434"/>
         <source>Select</source>
         <translation>Επιλογή</translation>
     </message>
@@ -5731,7 +6064,7 @@ Dynamic width</source>
 <context>
     <name>UBSettings</name>
     <message>
-        <location filename="../../src/core/UBSettings.cpp" line="+1155"/>
+        <location filename="../../src/core/UBSettings.cpp" line="+1160"/>
         <source>My Movies</source>
         <translation>Οι ταινίες μου</translation>
     </message>
@@ -6416,7 +6749,22 @@ Dynamic width</source>
 <context>
     <name>UBStartupHintsPalette</name>
     <message>
-        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+68"/>
+        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
+        <source>Tips and tricks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Close</source>
+        <translation type="unfinished">Κλείσιμο</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Index</source>
+        <translation type="unfinished">Περιεχόμενα</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Visible next time</source>
         <translation>Εμφάνιση την επόμενη φορά</translation>
     </message>
@@ -6424,7 +6772,7 @@ Dynamic width</source>
 <context>
     <name>UBStylusPalette</name>
     <message>
-        <location filename="../../src/gui/UBStylusPalette.cpp" line="+90"/>
+        <location filename="../../src/gui/UBStylusPalette.cpp" line="+91"/>
         <source>Save a screenshot</source>
         <translation>Αποθήκευση στιγμιότυπου οθόνης</translation>
     </message>
@@ -6603,7 +6951,7 @@ Dynamic width</source>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1206"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1268"/>
         <source>Color</source>
         <translation>Χρώμα</translation>
     </message>
@@ -6611,7 +6959,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+64"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6637,18 +6985,18 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+9"/>
-        <location line="+129"/>
+        <location line="+163"/>
         <source>Desktop</source>
         <translation type="unfinished">Επιφάνεια εργασίας</translation>
     </message>
     <message>
-        <location line="-129"/>
-        <location line="+130"/>
+        <location line="-163"/>
+        <location line="+164"/>
         <source>Board / PDF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-155"/>
         <source>Back to the board: always first</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6668,8 +7016,13 @@ Dynamic width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+120"/>
+        <location line="+154"/>
         <source>Move items...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Bar style...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6796,7 +7149,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">Υπαγόρευση</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+620"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+682"/>
         <source>Read aloud</source>
         <translation type="unfinished">Ανάγνωση φωναχτά</translation>
     </message>
@@ -7012,7 +7365,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">%1 x</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBZoomPalette.cpp" line="+62"/>
+        <location filename="../../src/gui/UBZoomPalette.cpp" line="+63"/>
         <source>Zoom Out</source>
         <translation>Σμίκρυνση</translation>
     </message>
@@ -7416,7 +7769,7 @@ p, li { white-space: pre-wrap; }
         <translation>Σχετικά</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+37"/>
         <source>Software Update</source>
         <translation>Ενημέρωση λογισμικού</translation>
     </message>
@@ -7426,7 +7779,7 @@ p, li { white-space: pre-wrap; }
         <translation>Ελεγχος για ενημέρωση του λογισμικού κατά το άνοιγμα της εφαρμογής</translation>
     </message>
     <message>
-        <location line="-2285"/>
+        <location line="-2280"/>
         <source>Internet</source>
         <translation>Διαδίκτυο</translation>
     </message>

@@ -742,12 +742,12 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="+9"/>
-        <location line="+664"/>
+        <location line="+679"/>
         <source>Erase Annotations</source>
         <translation>注釈を消去</translation>
     </message>
     <message>
-        <location line="-661"/>
+        <location line="-676"/>
         <source>Erase All Annotations</source>
         <translation>全注釈を消去</translation>
     </message>
@@ -840,7 +840,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>ページにスタンプを押す</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+59"/>
         <source>Spotlight</source>
         <translation>スポットライト</translation>
     </message>
@@ -902,7 +902,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">Ctrl+I </translation>
     </message>
     <message>
-        <location line="-746"/>
+        <location line="-761"/>
         <source>Erase Annotation</source>
         <translation>注釈を消去</translation>
     </message>
@@ -1005,6 +1005,16 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
         <translation>Web上のAIで要約、翻訳、画像など</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Measurements</source>
+        <translation>計測</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Distance, perimeter and area, with a reference drawn on the screen</source>
+        <translation>画面に描いた基準で距離、周囲の長さ、面積を測ります</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1203,7 +1213,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Ctrl+H </translation>
     </message>
     <message>
-        <location line="-2040"/>
+        <location line="-2055"/>
         <location line="+686"/>
         <location line="+3"/>
         <source>LibertyBoard</source>
@@ -1215,7 +1225,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Open-Sankoreを終了</translation>
     </message>
     <message>
-        <location line="+1664"/>
+        <location line="+1679"/>
         <source>Hide LibertyBoard</source>
         <translation>LibertyBoardを隠す</translation>
     </message>
@@ -1245,7 +1255,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>背景を削除する</translation>
     </message>
     <message>
-        <location line="-872"/>
+        <location line="-887"/>
         <location line="+6"/>
         <source>Ruled Light Background</source>
         <translation type="unfinished"></translation>
@@ -1257,7 +1267,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+799"/>
+        <location line="+814"/>
         <source>Open Tutorial</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1273,7 +1283,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-1701"/>
+        <location line="-1716"/>
         <source>Small Eraser</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1308,7 +1318,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1594"/>
+        <location line="+1609"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
         <translation type="unfinished"></translation>
@@ -1322,7 +1332,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-1758"/>
+        <location line="-1773"/>
         <source>Template style</source>
         <translation>テンプレートのスタイル</translation>
     </message>
@@ -1414,7 +1424,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+490"/>
+        <location line="+505"/>
         <source>Import one or more pages (supported formats : jpg, png, svg, ubz, pdf)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1540,6 +1550,46 @@ Do you wish to override the security check and continue ?   </source>
         <source>Content is not supported in destination format.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
+        <source>Bar style</source>
+        <translation>バーのスタイル</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
+        <translation>ボードとデスクトップのツールバーのスタイルです。バーはすぐに変わります。</translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Color inside</source>
+        <translation>内側の色</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Color of the edge</source>
+        <translation>縁の色</translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Opacity</source>
+        <translation>不透明度</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Corners</source>
+        <translation>角</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Square</source>
+        <translation>四角</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Round</source>
+        <translation>丸</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -1582,7 +1632,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+723"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+728"/>
         <source>AI</source>
         <translation>AI</translation>
     </message>
@@ -1950,7 +2000,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">ポッドキャスト </translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+388"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -1988,7 +2038,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAttachmentOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+150"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+211"/>
         <source>Insert file</source>
         <translation>ファイルを挿入</translation>
     </message>
@@ -2021,7 +2071,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+57"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
         <source>Page</source>
         <translation>ページ</translation>
     </message>
@@ -2031,7 +2081,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>テンプレート</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+24"/>
         <source>Page color</source>
         <translation>用紙の色</translation>
     </message>
@@ -2074,6 +2124,16 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
         <translation>PDFのページでは、テンプレートはその後の新しいページに置かれます。</translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>Color of the lines</source>
+        <translation>線の色</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Opacity</source>
+        <translation>不透明度</translation>
     </message>
 </context>
 <context>
@@ -2267,7 +2327,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2242"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
         <source>That page is not in the document any more.</source>
         <translation>そのページはもう文書にありません。</translation>
     </message>
@@ -2337,7 +2397,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBColorSwatches</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsWidgets.cpp" line="+153"/>
+        <location filename="../../src/gui/UBToolOptionsWidgets.cpp" line="+154"/>
         <source>No color</source>
         <translation>色なし</translation>
     </message>
@@ -2431,7 +2491,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBDesktopPalette</name>
     <message>
-        <location filename="../../src/desktop/UBDesktopPalette.cpp" line="+90"/>
+        <location filename="../../src/desktop/UBDesktopPalette.cpp" line="+92"/>
         <source>Save a screenshot</source>
         <translation>スクリーンショットを保存</translation>
     </message>
@@ -2466,7 +2526,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>スタイラスパレットを表示</translation>
     </message>
     <message>
-        <location line="+366"/>
+        <location line="+361"/>
         <source>Show Board on Secondary Screen</source>
         <translation>サブスクリーンにボードを表示 </translation>
     </message>
@@ -2476,7 +2536,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>サブスクリーンにデスクトップを表示 </translation>
     </message>
     <message>
-        <location line="-424"/>
+        <location line="-419"/>
         <source>Show LibertyBoard</source>
         <translation>LibertyBoard を表示</translation>
     </message>
@@ -2862,7 +2922,7 @@ Providing a new name will create a new document.</source>
         <translation type="vanished">新規文書</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBDocumentTabs.cpp" line="+75"/>
+        <location filename="../../src/gui/UBDocumentTabs.cpp" line="+76"/>
         <source>New board</source>
         <translation>新しいボード</translation>
     </message>
@@ -3050,7 +3110,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEmojiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1142"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1204"/>
         <source>Emojis and GIFs</source>
         <translation>絵文字とGIF</translation>
     </message>
@@ -3070,7 +3130,7 @@ Do you want to continue?</source>
         <translation>GIF：アカウントなしで、ボードの横に klipy.com のページを開きます。そこからGIFをページにドラッグします。もう一度 GIF をクリックすると閉じます。</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
         <translation>GIF のウィンドウから GIF をページへドラッグしてください。</translation>
     </message>
@@ -3148,7 +3208,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEraserOptionsPanel</name>
     <message>
-        <location line="-282"/>
+        <location line="-283"/>
         <source>Eraser</source>
         <translation>消しゴム</translation>
     </message>
@@ -3530,7 +3590,17 @@ Do you want to continue?</source>
 <context>
     <name>UBGitHubUpdater</name>
     <message>
-        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+81"/>
+        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+85"/>
+        <source>%1 (build %2)</source>
+        <translation>%1(ビルド %2)</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>You are using LibertyBoard %1.</source>
+        <translation>LibertyBoard %1 を使用しています。</translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>Looking for a new version...</source>
         <translation>新しいバージョンを確認中...</translation>
     </message>
@@ -4089,7 +4159,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
 <context>
     <name>UBKeyCatcher</name>
     <message>
-        <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+727"/>
+        <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
         <translation>ここをクリックして新しいショートカットのキーを押してください</translation>
     </message>
@@ -4281,13 +4351,13 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation type="vanished">ページサイズ</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+140"/>
-        <location line="+92"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+141"/>
+        <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
     </message>
     <message>
-        <location line="-76"/>
+        <location line="-75"/>
         <source>&amp;Home</source>
         <translation>ホーム(&amp;H)</translation>
     </message>
@@ -4305,7 +4375,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation>開く/インポート</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+78"/>
         <source>&amp;Mode</source>
         <translation>モード(&amp;M)</translation>
     </message>
@@ -4320,13 +4390,13 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation>ドキュメントを閉じる</translation>
     </message>
     <message>
-        <location line="-118"/>
-        <location line="+161"/>
+        <location line="-117"/>
+        <location line="+160"/>
         <source>Page/canvas size</source>
         <translation>ページ/キャンバスのサイズ</translation>
     </message>
     <message>
-        <location line="-120"/>
+        <location line="-119"/>
         <source>New board</source>
         <translation>新しいボード</translation>
     </message>
@@ -4381,7 +4451,12 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation>スキャンしたページのテキストを読み取り、検索やコピーができるようにします</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+8"/>
+        <source>Multiscreen</source>
+        <translation>マルチスクリーン</translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Double board</source>
         <translation>ダブルボード</translation>
     </message>
@@ -4539,12 +4614,12 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+114"/>
-        <location line="+398"/>
+        <location line="+409"/>
         <source>Saved</source>
         <translation>保存しました</translation>
     </message>
     <message>
-        <location line="-392"/>
+        <location line="-403"/>
         <source>Search...</source>
         <translation>検索...</translation>
     </message>
@@ -4581,7 +4656,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation>キャンバスのロックを解除</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+30"/>
         <source>Hide or show the toolbar</source>
         <translation>ツールバーの表示/非表示</translation>
     </message>
@@ -4655,6 +4730,153 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <location line="+1"/>
         <source> %</source>
         <translation> %</translation>
+    </message>
+</context>
+<context>
+    <name>UBMeasureOptionsPanel</name>
+    <message>
+        <location line="+406"/>
+        <source>Measurements</source>
+        <translation>計測</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Distance</source>
+        <translation>距離</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The length of a line dragged from one end to the other</source>
+        <translation>端から端までドラッグした線の長さ</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Perimeter</source>
+        <translation>周囲の長さ</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The length around a shape: a click at each corner, a double click at the last one</source>
+        <translation>図形の周りの長さ:各角でクリックし、最後の角でダブルクリック</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Area</source>
+        <translation>面積</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The surface of a shape: a click at each corner, a double click at the last one</source>
+        <translation>図形の面積:各角でクリックし、最後の角でダブルクリック</translation>
+    </message>
+</context>
+<context>
+    <name>UBMeasureTool</name>
+    <message>
+        <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
+        <source>End the measurements</source>
+        <translation>計測を終了</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
+        <translation>単位を選んでください。次に、その単位で 1 の長さの線を描いてください。その線を基準に計測します。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Metric</source>
+        <translation>メートル法</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Imperial</source>
+        <translation>ヤード・ポンド法</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>millimeter (mm)</source>
+        <translation>ミリメートル (mm)</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>centimeter (cm)</source>
+        <translation>センチメートル (cm)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>meter (m)</source>
+        <translation>メートル (m)</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>kilometer (km)</source>
+        <translation>キロメートル (km)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>inch (in)</source>
+        <translation>インチ (in)</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>foot (ft)</source>
+        <translation>フィート (ft)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>yard (yd)</source>
+        <translation>ヤード (yd)</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>mile (mi)</source>
+        <translation>マイル (mi)</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Continue</source>
+        <translation>続ける</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Restart</source>
+        <translation>やり直す</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Choose the unit and draw the reference again</source>
+        <translation>単位を選び、基準をもう一度描きます</translation>
+    </message>
+    <message>
+        <location line="+419"/>
+        <source>Distance</source>
+        <translation>距離</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Drag from one end to the other.</source>
+        <translation>端から端までドラッグしてください。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Perimeter</source>
+        <translation>周囲の長さ</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+4"/>
+        <source>Click at each corner; double click at the last one.</source>
+        <translation>各角でクリックし、最後の角でダブルクリックしてください。</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Area</source>
+        <translation>面積</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Draw a line that measures 1 %1: it is the reference of the measures.</source>
+        <translation>1 %1 の長さの線を描いてください。これが計測の基準になります。</translation>
     </message>
 </context>
 <context>
@@ -4747,7 +4969,7 @@ Do you want to ignore these errors for this host?</source>
 <context>
     <name>UBNoteOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1335"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+983"/>
         <source>Note</source>
         <translation>メモ</translation>
     </message>
@@ -4836,7 +5058,7 @@ It can also be done later with Home &gt; Recognize text.</source>
         <translation type="vanished">表示中のページを削除</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBPageButtons.cpp" line="+52"/>
+        <location filename="../../src/gui/UBPageButtons.cpp" line="+53"/>
         <source>Add page</source>
         <translation>ページを追加</translation>
     </message>
@@ -4987,7 +5209,7 @@ It can also be done later with Home &gt; Recognize text.</source>
 <context>
     <name>UBPageIndicator</name>
     <message>
-        <location filename="../../src/gui/UBPageIndicator.cpp" line="+49"/>
+        <location filename="../../src/gui/UBPageIndicator.cpp" line="+50"/>
         <source>Type a page number and press Enter</source>
         <translation>ページ番号を入力して Enter キーを押してください</translation>
     </message>
@@ -5048,7 +5270,7 @@ It can also be done later with Home &gt; Recognize text.</source>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1498"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1560"/>
         <source>Pen</source>
         <translation>ペン </translation>
     </message>
@@ -5282,12 +5504,12 @@ Dynamic width</source>
 <context>
     <name>UBPreferencesController</name>
     <message>
-        <location filename="../../src/core/UBPreferencesController.cpp" line="+141"/>
+        <location filename="../../src/core/UBPreferencesController.cpp" line="+161"/>
         <source>Language</source>
         <translation>言語</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <source>Language of the system</source>
         <translation>システムの言語</translation>
     </message>
@@ -5298,31 +5520,36 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+19"/>
+        <location line="+327"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-324"/>
         <source>Pressure of the pen</source>
         <translation>ペンの筆圧</translation>
     </message>
     <message>
-        <location line="+26"/>
         <source>Translators</source>
-        <translation>翻訳者</translation>
+        <translation type="vanished">翻訳者</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Licenses</source>
-        <translation>ライセンス</translation>
+        <translation type="vanished">ライセンス</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+30"/>
+        <source>References</source>
+        <translation>参照</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+279"/>
         <source>AI</source>
         <translation>AI</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-270"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation>AIパネルに表示できるAI。名前とページのアドレスを入力してください。最初のものが最初に表示されます。</translation>
     </message>
@@ -5352,7 +5579,123 @@ Dynamic width</source>
         <translation>初期リスト</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+34"/>
+        <source>Theme</source>
+        <translation>テーマ</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Same as Windows</source>
+        <translation>Windows と同じ</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Same as the system</source>
+        <translation>システムと同じ</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Dark</source>
+        <translation>ダーク</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>White</source>
+        <translation>ホワイト</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Grey</source>
+        <translation>グレー</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
+        <translation>メニューバー、ツールのオプション、ズームの色です。新しいテーマは次に LibertyBoard を起動したときに使われます。</translation>
+    </message>
+    <message>
+        <location line="+87"/>
+        <source>Categories</source>
+        <translation>カテゴリ</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <location line="+262"/>
+        <source>Version %1</source>
+        <translation>バージョン %1</translation>
+    </message>
+    <message>
+        <location line="-255"/>
+        <source>Internet</source>
+        <translation>インターネット</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
+        <translation>LibertyBoard %1。今すぐ新しいバージョンを探すには:情報 → 更新。</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Options bar</source>
+        <translation>オプションバー</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Toolbar</source>
+        <translation>ツールバー</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>General settings</source>
+        <translation>一般設定</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Appearance</source>
+        <translation>外観</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Pen and toolbar</source>
+        <translation>ペンとツールバー</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Screens and desktop</source>
+        <translation>画面とデスクトップ</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Documents and PDF</source>
+        <translation>文書と PDF</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Artificial intelligence</source>
+        <translation>人工知能</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Network</source>
+        <translation>ネットワーク</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Update</source>
+        <translation>更新</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>About</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>About LibertyBoard</source>
+        <translation>LibertyBoard について</translation>
+    </message>
+    <message>
+        <location line="+64"/>
         <source>Border in desktop mode</source>
         <translation>デスクトップモードの枠</translation>
     </message>
@@ -5378,17 +5721,15 @@ Dynamic width</source>
         <translation> px</translation>
     </message>
     <message>
-        <location line="+88"/>
         <source>version: </source>
-        <translation>バージョン: </translation>
+        <translation type="vanished">バージョン: </translation>
     </message>
     <message>
-        <location line="+1"/>
         <source> (build %1)</source>
-        <translation> (ビルド %1)</translation>
+        <translation type="vanished"> (ビルド %1)</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+179"/>
         <source>Top</source>
         <translation>上</translation>
     </message>
@@ -5417,7 +5758,7 @@ Dynamic width</source>
         <translation type="vanished">レーザーポインター</translation>
     </message>
     <message>
-        <location line="-188"/>
+        <location line="-229"/>
         <source>Use all available displays</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5727,7 +6068,7 @@ Dynamic width</source>
 <context>
     <name>UBSelectorOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1372"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1434"/>
         <source>Select</source>
         <translation>選択</translation>
     </message>
@@ -5768,7 +6109,7 @@ Dynamic width</source>
 <context>
     <name>UBSettings</name>
     <message>
-        <location filename="../../src/core/UBSettings.cpp" line="+1155"/>
+        <location filename="../../src/core/UBSettings.cpp" line="+1160"/>
         <source>My Movies</source>
         <translation>マイ・ムービー </translation>
     </message>
@@ -6457,7 +6798,22 @@ Dynamic width</source>
 <context>
     <name>UBStartupHintsPalette</name>
     <message>
-        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+68"/>
+        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
+        <source>Tips and tricks</source>
+        <translation>ヒントとコツ</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Index</source>
+        <translation>目次</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Visible next time</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6473,7 +6829,7 @@ Dynamic width</source>
         <translation type="vanished">Web上のAIで要約、翻訳、画像など</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBStylusPalette.cpp" line="+90"/>
+        <location filename="../../src/gui/UBStylusPalette.cpp" line="+91"/>
         <source>Save a screenshot</source>
         <translation>スクリーンショットを保存</translation>
     </message>
@@ -6648,7 +7004,7 @@ Dynamic width</source>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1206"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1268"/>
         <source>Color</source>
         <translation>色</translation>
     </message>
@@ -6656,7 +7012,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+64"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
         <source>Spotlight / Magnifier</source>
         <translation>スポットライト / 拡大鏡</translation>
     </message>
@@ -6682,18 +7038,18 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+9"/>
-        <location line="+129"/>
+        <location line="+163"/>
         <source>Desktop</source>
         <translation>デスクトップ</translation>
     </message>
     <message>
-        <location line="-129"/>
-        <location line="+130"/>
+        <location line="-163"/>
+        <location line="+164"/>
         <source>Board / PDF</source>
         <translation>ボード / PDF</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-155"/>
         <source>Back to the board: always first</source>
         <translation>ボードに戻る:常に先頭</translation>
     </message>
@@ -6713,9 +7069,14 @@ Dynamic width</source>
         <translation>元の順序</translation>
     </message>
     <message>
-        <location line="+120"/>
+        <location line="+154"/>
         <source>Move items...</source>
         <translation>項目を移動...</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Bar style...</source>
+        <translation>バーのスタイル...</translation>
     </message>
 </context>
 <context>
@@ -6841,7 +7202,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">音声入力</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+620"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+682"/>
         <source>Read aloud</source>
         <translation>読み上げ</translation>
     </message>
@@ -7057,7 +7418,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">%1 x </translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBZoomPalette.cpp" line="+62"/>
+        <location filename="../../src/gui/UBZoomPalette.cpp" line="+63"/>
         <source>Zoom Out</source>
         <translation>ズームアウト</translation>
     </message>
@@ -7481,7 +7842,7 @@ p, li { white-space: pre-wrap; }
         <translation>情報</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+37"/>
         <source>Software Update</source>
         <translation>ソフトウェア更新</translation>
     </message>
@@ -7491,7 +7852,7 @@ p, li { white-space: pre-wrap; }
         <translation>起動時にソフトウェア更新をチェックする </translation>
     </message>
     <message>
-        <location line="-2166"/>
+        <location line="-2161"/>
         <source>Licences</source>
         <translation>ライセンス</translation>
     </message>

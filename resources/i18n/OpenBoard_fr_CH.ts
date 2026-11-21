@@ -274,7 +274,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Zoomer en arrière</translation>
     </message>
     <message>
-        <location line="+274"/>
+        <location line="+289"/>
         <source>Text</source>
         <translation>Texte</translation>
     </message>
@@ -341,7 +341,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Montrer sur l&apos;écran de projection</translation>
     </message>
     <message>
-        <location line="-1705"/>
+        <location line="-1720"/>
         <source>Ctrl+D</source>
         <translation>Ctrl+D</translation>
     </message>
@@ -629,12 +629,12 @@ Voulez-vous continuer quand-même ?   </translation>
     </message>
     <message>
         <location line="+9"/>
-        <location line="+664"/>
+        <location line="+679"/>
         <source>Erase Annotations</source>
         <translation>Effacer les annotations</translation>
     </message>
     <message>
-        <location line="-661"/>
+        <location line="-676"/>
         <source>Erase All Annotations</source>
         <translation>Effacer toutes les annotations</translation>
     </message>
@@ -786,7 +786,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Apposer un tampon sur la page</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+59"/>
         <source>Spotlight</source>
         <translation>Projecteur</translation>
     </message>
@@ -967,7 +967,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation type="vanished">Importer une simulation eduMedia</translation>
     </message>
     <message>
-        <location line="-1128"/>
+        <location line="-1143"/>
         <source>Del</source>
         <translation>Supprimer</translation>
     </message>
@@ -1201,7 +1201,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Quitter LibertyBoard</translation>
     </message>
     <message>
-        <location line="+1664"/>
+        <location line="+1679"/>
         <source>Hide LibertyBoard</source>
         <translation>Cacher LibertyBoard</translation>
     </message>
@@ -1242,7 +1242,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Ouvrir la page Web des tutoriels</translation>
     </message>
     <message>
-        <location line="-884"/>
+        <location line="-899"/>
         <location line="+6"/>
         <source>Ruled Light Background</source>
         <translation>Fond ligné clair</translation>
@@ -1254,13 +1254,13 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Fond ligné foncé</translation>
     </message>
     <message>
-        <location line="+811"/>
+        <location line="+826"/>
         <location line="+3"/>
         <source>Reset grid size</source>
         <translation>Réinitialiser la taille du quadrillage</translation>
     </message>
     <message>
-        <location line="-1701"/>
+        <location line="-1716"/>
         <source>Small Eraser</source>
         <translation>Gomme fine</translation>
     </message>
@@ -1295,7 +1295,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Couleur 5</translation>
     </message>
     <message>
-        <location line="+1594"/>
+        <location line="+1609"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
         <translation>Dessiner des lignes intermédiaires</translation>
@@ -1309,7 +1309,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Capturer du contenu web</translation>
     </message>
     <message>
-        <location line="-1661"/>
+        <location line="-1676"/>
         <source>Documents Mode</source>
         <translation>Mode Documents</translation>
     </message>
@@ -1409,6 +1409,16 @@ Voulez-vous continuer quand-même ?   </translation>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
         <translation>Résumé, traduction, images et plus avec une IA sur le web</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Measurements</source>
+        <translation>Mesures</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Distance, perimeter and area, with a reference drawn on the screen</source>
+        <translation>Distance, périmètre et aire, avec une référence dessinée à l’écran</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1559,6 +1569,46 @@ Voulez-vous continuer quand-même ?   </translation>
         <source>Each quick note becomes a picture of the note on its page, with its date and text. The notes can no longer be edited. Merge the %1 quick notes?</source>
         <translation>Chaque note rapide devient une image de la note sur sa page, avec sa date et son texte. Les notes ne pourront plus être modifiées. Fusionner les %1 notes rapides ?</translation>
     </message>
+    <message>
+        <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
+        <source>Bar style</source>
+        <translation>Style de la barre</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
+        <translation>Le style des barres d’outils, sur le tableau et sur le bureau. Les barres changent aussitôt.</translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Color inside</source>
+        <translation>Couleur intérieure</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Color of the edge</source>
+        <translation>Couleur du bord</translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Opacity</source>
+        <translation>Opacité</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Corners</source>
+        <translation>Coins</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Square</source>
+        <translation>Carré</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Round</source>
+        <translation>Rond</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -1601,7 +1651,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+723"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+728"/>
         <source>AI</source>
         <translation>IA</translation>
     </message>
@@ -1969,7 +2019,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation type="vanished">Capture Vidéo</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+388"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -2007,7 +2057,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBAttachmentOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+150"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+211"/>
         <source>Insert file</source>
         <translation>Insérer un fichier</translation>
     </message>
@@ -2040,7 +2090,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+57"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
         <source>Page</source>
         <translation>Page</translation>
     </message>
@@ -2050,7 +2100,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Modèles</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+24"/>
         <source>Page color</source>
         <translation>Couleur de la page</translation>
     </message>
@@ -2093,6 +2143,16 @@ Voulez-vous continuer quand-même ?   </translation>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
         <translation>Sur une page d&apos;un PDF, le modèle va sur une nouvelle page après elle.</translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>Color of the lines</source>
+        <translation>Couleur des lignes</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Opacity</source>
+        <translation>Opacité</translation>
     </message>
 </context>
 <context>
@@ -2293,7 +2353,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2242"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
         <source>That page is not in the document any more.</source>
         <translation>Cette page n&apos;est plus dans le document.</translation>
     </message>
@@ -2363,7 +2423,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBColorSwatches</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsWidgets.cpp" line="+153"/>
+        <location filename="../../src/gui/UBToolOptionsWidgets.cpp" line="+154"/>
         <source>No color</source>
         <translation>Aucune couleur</translation>
     </message>
@@ -2457,7 +2517,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBDesktopPalette</name>
     <message>
-        <location filename="../../src/desktop/UBDesktopPalette.cpp" line="+90"/>
+        <location filename="../../src/desktop/UBDesktopPalette.cpp" line="+92"/>
         <source>Save a screenshot</source>
         <translation>Enregistrer une capture d&apos;écran</translation>
     </message>
@@ -2492,7 +2552,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Afficher la barre d&apos;outils du stylet</translation>
     </message>
     <message>
-        <location line="+366"/>
+        <location line="+361"/>
         <source>Show Board on Secondary Screen</source>
         <translation>Afficher le tableau sur l&apos;écran secondaire</translation>
     </message>
@@ -2502,7 +2562,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Afficher le bureau sur l&apos;écran secondaire</translation>
     </message>
     <message>
-        <location line="-424"/>
+        <location line="-419"/>
         <source>Show LibertyBoard</source>
         <translation>Afficher LibertyBoard</translation>
     </message>
@@ -2936,7 +2996,7 @@ Un nouveau nom vous permettra de conserver l&apos;ancien document.</translation>
         <translation type="vanished">Nouveau document</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBDocumentTabs.cpp" line="+75"/>
+        <location filename="../../src/gui/UBDocumentTabs.cpp" line="+76"/>
         <source>New board</source>
         <translation>Nouveau tableau</translation>
     </message>
@@ -3149,7 +3209,7 @@ Voulez-vous continuer ?</translation>
 <context>
     <name>UBEmojiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1142"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1204"/>
         <source>Emojis and GIFs</source>
         <translation>Emojis et GIF</translation>
     </message>
@@ -3169,7 +3229,7 @@ Voulez-vous continuer ?</translation>
         <translation>GIF : ouvre la page de klipy.com à côté du tableau, sans compte ; glissez un GIF de celle-ci sur la page. Un second clic sur GIF la ferme.</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
         <translation>Faites glisser un GIF de la fenêtre des GIF sur la page.</translation>
     </message>
@@ -3247,7 +3307,7 @@ Voulez-vous continuer ?</translation>
 <context>
     <name>UBEraserOptionsPanel</name>
     <message>
-        <location line="-282"/>
+        <location line="-283"/>
         <source>Eraser</source>
         <translation>Gomme</translation>
     </message>
@@ -3631,7 +3691,17 @@ Voulez-vous continuer ?</translation>
 <context>
     <name>UBGitHubUpdater</name>
     <message>
-        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+81"/>
+        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+85"/>
+        <source>%1 (build %2)</source>
+        <translation>%1 (build %2)</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>You are using LibertyBoard %1.</source>
+        <translation>Vous utilisez LibertyBoard %1.</translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>Looking for a new version...</source>
         <translation>Recherche d&apos;une nouvelle version...</translation>
     </message>
@@ -4190,7 +4260,7 @@ La télécharger et l&apos;installer maintenant ? LibertyBoard enregistre vos do
 <context>
     <name>UBKeyCatcher</name>
     <message>
-        <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+727"/>
+        <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
         <translation>Cliquez ici et appuyez sur les touches du nouveau raccourci</translation>
     </message>
@@ -4382,13 +4452,13 @@ La télécharger et l&apos;installer maintenant ? LibertyBoard enregistre vos do
         <translation type="vanished">Taille de la page</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+140"/>
-        <location line="+92"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+141"/>
+        <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
     </message>
     <message>
-        <location line="-76"/>
+        <location line="-75"/>
         <source>&amp;Home</source>
         <translation>&amp;Accueil</translation>
     </message>
@@ -4406,7 +4476,7 @@ La télécharger et l&apos;installer maintenant ? LibertyBoard enregistre vos do
         <translation>Ouvrir/Importer</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+78"/>
         <source>&amp;Mode</source>
         <translation>&amp;Mode</translation>
     </message>
@@ -4421,13 +4491,13 @@ La télécharger et l&apos;installer maintenant ? LibertyBoard enregistre vos do
         <translation>Fermer le document</translation>
     </message>
     <message>
-        <location line="-118"/>
-        <location line="+161"/>
+        <location line="-117"/>
+        <location line="+160"/>
         <source>Page/canvas size</source>
         <translation>Taille de la page/du canevas</translation>
     </message>
     <message>
-        <location line="-120"/>
+        <location line="-119"/>
         <source>New board</source>
         <translation>Nouveau tableau</translation>
     </message>
@@ -4482,7 +4552,12 @@ La télécharger et l&apos;installer maintenant ? LibertyBoard enregistre vos do
         <translation>Lit le texte des pages numérisées, pour pouvoir le chercher et le copier</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+8"/>
+        <source>Multiscreen</source>
+        <translation>Multi-écran</translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Double board</source>
         <translation>Double tableau</translation>
     </message>
@@ -4640,12 +4715,12 @@ La télécharger et l&apos;installer maintenant ? LibertyBoard enregistre vos do
     </message>
     <message>
         <location line="+114"/>
-        <location line="+398"/>
+        <location line="+409"/>
         <source>Saved</source>
         <translation>Enregistré</translation>
     </message>
     <message>
-        <location line="-392"/>
+        <location line="-403"/>
         <source>Search...</source>
         <translation>Rechercher...</translation>
     </message>
@@ -4682,7 +4757,7 @@ La télécharger et l&apos;installer maintenant ? LibertyBoard enregistre vos do
         <translation>Déverrouiller le canevas</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+30"/>
         <source>Hide or show the toolbar</source>
         <translation>Masquer ou afficher la barre d&apos;outils</translation>
     </message>
@@ -4756,6 +4831,153 @@ La télécharger et l&apos;installer maintenant ? LibertyBoard enregistre vos do
         <location line="+1"/>
         <source> %</source>
         <translation> %</translation>
+    </message>
+</context>
+<context>
+    <name>UBMeasureOptionsPanel</name>
+    <message>
+        <location line="+406"/>
+        <source>Measurements</source>
+        <translation>Mesures</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Distance</source>
+        <translation>Distance</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The length of a line dragged from one end to the other</source>
+        <translation>La longueur d’une ligne tirée d’un bout à l’autre</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Perimeter</source>
+        <translation>Périmètre</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The length around a shape: a click at each corner, a double click at the last one</source>
+        <translation>La longueur autour d’une forme : un clic à chaque coin, un double-clic au dernier</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Area</source>
+        <translation>Aire</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The surface of a shape: a click at each corner, a double click at the last one</source>
+        <translation>La surface d’une forme : un clic à chaque coin, un double-clic au dernier</translation>
+    </message>
+</context>
+<context>
+    <name>UBMeasureTool</name>
+    <message>
+        <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
+        <source>End the measurements</source>
+        <translation>Terminer les mesures</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
+        <translation>Choisissez l’unité. Puis tracez une ligne qui mesure 1 de cette unité : les mesures se font avec cette référence.</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Metric</source>
+        <translation>Métrique</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Imperial</source>
+        <translation>Impérial</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>millimeter (mm)</source>
+        <translation>millimètre (mm)</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>centimeter (cm)</source>
+        <translation>centimètre (cm)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>meter (m)</source>
+        <translation>mètre (m)</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>kilometer (km)</source>
+        <translation>kilomètre (km)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>inch (in)</source>
+        <translation>pouce (in)</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>foot (ft)</source>
+        <translation>pied (ft)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>yard (yd)</source>
+        <translation>yard (yd)</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>mile (mi)</source>
+        <translation>mile (mi)</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Continue</source>
+        <translation>Continuer</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Restart</source>
+        <translation>Recommencer</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Choose the unit and draw the reference again</source>
+        <translation>Choisir l’unité et tracer à nouveau la référence</translation>
+    </message>
+    <message>
+        <location line="+419"/>
+        <source>Distance</source>
+        <translation>Distance</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Drag from one end to the other.</source>
+        <translation>Faites glisser d’un bout à l’autre.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Perimeter</source>
+        <translation>Périmètre</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+4"/>
+        <source>Click at each corner; double click at the last one.</source>
+        <translation>Cliquez à chaque coin ; double-cliquez au dernier.</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Area</source>
+        <translation>Aire</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Draw a line that measures 1 %1: it is the reference of the measures.</source>
+        <translation>Tracez une ligne qui mesure 1 %1 : c’est la référence des mesures.</translation>
     </message>
 </context>
 <context>
@@ -4847,7 +5069,7 @@ Voulez-vous ignorer les erreurs pour ce serveur ?</translation>
 <context>
     <name>UBNoteOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1335"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+983"/>
         <source>Note</source>
         <translation>Note</translation>
     </message>
@@ -4956,7 +5178,7 @@ On peut aussi le faire plus tard avec Accueil &gt; Reconnaître le texte.</trans
         <translation type="vanished">Supprimer la page affichée</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBPageButtons.cpp" line="+52"/>
+        <location filename="../../src/gui/UBPageButtons.cpp" line="+53"/>
         <source>Add page</source>
         <translation>Ajouter une page</translation>
     </message>
@@ -5107,7 +5329,7 @@ On peut aussi le faire plus tard avec Accueil &gt; Reconnaître le texte.</trans
 <context>
     <name>UBPageIndicator</name>
     <message>
-        <location filename="../../src/gui/UBPageIndicator.cpp" line="+49"/>
+        <location filename="../../src/gui/UBPageIndicator.cpp" line="+50"/>
         <source>Type a page number and press Enter</source>
         <translation>Saisissez un numéro de page et appuyez sur Entrée</translation>
     </message>
@@ -5168,7 +5390,7 @@ On peut aussi le faire plus tard avec Accueil &gt; Reconnaître le texte.</trans
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1498"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1560"/>
         <source>Pen</source>
         <translation>Stylo</translation>
     </message>
@@ -5406,22 +5628,21 @@ Largeur dynamique</translation>
 <context>
     <name>UBPreferencesController</name>
     <message>
-        <location filename="../../src/core/UBPreferencesController.cpp" line="+603"/>
+        <location filename="../../src/core/UBPreferencesController.cpp" line="+922"/>
         <source>Marker is pressure sensitive</source>
         <translation>Stylet sensible à la pression</translation>
     </message>
     <message>
-        <location line="-146"/>
         <source>version: </source>
-        <translation>version : </translation>
+        <translation type="vanished">version : </translation>
     </message>
     <message>
-        <location line="-316"/>
+        <location line="-761"/>
         <source>Language</source>
         <translation>Langue</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <source>Language of the system</source>
         <translation>Langue du système</translation>
     </message>
@@ -5432,31 +5653,36 @@ Largeur dynamique</translation>
     </message>
     <message>
         <location line="+19"/>
+        <location line="+327"/>
         <source>General</source>
         <translation>Général</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-324"/>
         <source>Pressure of the pen</source>
         <translation>Pression du stylet</translation>
     </message>
     <message>
-        <location line="+26"/>
         <source>Translators</source>
-        <translation>Traducteurs</translation>
+        <translation type="vanished">Traducteurs</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Licenses</source>
-        <translation>Licences</translation>
+        <translation type="vanished">Licences</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+30"/>
+        <source>References</source>
+        <translation>Références</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+279"/>
         <source>AI</source>
         <translation>IA</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-270"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation>Les IA que le panneau d&apos;IA peut afficher. Écrivez un nom et l&apos;adresse de sa page ; la première est affichée la première fois.</translation>
     </message>
@@ -5486,7 +5712,123 @@ Largeur dynamique</translation>
         <translation>Liste d&apos;origine</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+34"/>
+        <source>Theme</source>
+        <translation>Thème</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Same as Windows</source>
+        <translation>Comme Windows</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Same as the system</source>
+        <translation>Comme le système</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Dark</source>
+        <translation>Sombre</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>White</source>
+        <translation>Blanc</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Grey</source>
+        <translation>Gris</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
+        <translation>Les couleurs de la barre de menus, des options des outils et du zoom. Le nouveau thème s’applique au prochain démarrage de LibertyBoard.</translation>
+    </message>
+    <message>
+        <location line="+87"/>
+        <source>Categories</source>
+        <translation>Catégories</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <location line="+262"/>
+        <source>Version %1</source>
+        <translation>Version %1</translation>
+    </message>
+    <message>
+        <location line="-255"/>
+        <source>Internet</source>
+        <translation>Internet</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
+        <translation>LibertyBoard %1. Pour chercher une nouvelle version maintenant : À propos → Mise à jour.</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Options bar</source>
+        <translation>Barre d’options</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Toolbar</source>
+        <translation>Barre d’outils</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>General settings</source>
+        <translation>Paramètres généraux</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Appearance</source>
+        <translation>Apparence</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Pen and toolbar</source>
+        <translation>Stylo et barre d’outils</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Screens and desktop</source>
+        <translation>Écrans et bureau</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Documents and PDF</source>
+        <translation>Documents et PDF</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Artificial intelligence</source>
+        <translation>Intelligence artificielle</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Network</source>
+        <translation>Réseau</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Update</source>
+        <translation>Mise à jour</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>About</source>
+        <translation>À propos</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>About LibertyBoard</source>
+        <translation>À propos de LibertyBoard</translation>
+    </message>
+    <message>
+        <location line="+64"/>
         <source>Border in desktop mode</source>
         <translation>Bordure en mode bureau</translation>
     </message>
@@ -5517,12 +5859,11 @@ Largeur dynamique</translation>
         <translation>Utiliser tous les écrans disponibles</translation>
     </message>
     <message>
-        <location line="+43"/>
         <source> (build %1)</source>
-        <translation> (version %1)</translation>
+        <translation type="vanished"> (version %1)</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+133"/>
         <source>Top</source>
         <translation>En haut</translation>
     </message>
@@ -5851,7 +6192,7 @@ Largeur dynamique</translation>
 <context>
     <name>UBSelectorOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1372"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1434"/>
         <source>Select</source>
         <translation>Sélectionner</translation>
     </message>
@@ -5892,7 +6233,7 @@ Largeur dynamique</translation>
 <context>
     <name>UBSettings</name>
     <message>
-        <location filename="../../src/core/UBSettings.cpp" line="+1155"/>
+        <location filename="../../src/core/UBSettings.cpp" line="+1160"/>
         <source>My Movies</source>
         <translation>Mes films</translation>
     </message>
@@ -6581,7 +6922,22 @@ Largeur dynamique</translation>
 <context>
     <name>UBStartupHintsPalette</name>
     <message>
-        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+68"/>
+        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
+        <source>Tips and tricks</source>
+        <translation>Astuces</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Close</source>
+        <translation>Fermer</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Index</source>
+        <translation>Index</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Visible next time</source>
         <translation>Visible la prochaine fois</translation>
     </message>
@@ -6597,7 +6953,7 @@ Largeur dynamique</translation>
         <translation type="vanished">Résumé, traduction, images et plus avec une IA sur le web</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBStylusPalette.cpp" line="+90"/>
+        <location filename="../../src/gui/UBStylusPalette.cpp" line="+91"/>
         <source>Save a screenshot</source>
         <translation>Enregistrer une capture d&apos;écran</translation>
     </message>
@@ -6780,7 +7136,7 @@ Largeur dynamique</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1206"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1268"/>
         <source>Color</source>
         <translation>Couleur</translation>
     </message>
@@ -6788,7 +7144,7 @@ Largeur dynamique</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+64"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
         <source>Spotlight / Magnifier</source>
         <translation>Projecteur / Loupe</translation>
     </message>
@@ -6814,18 +7170,18 @@ Largeur dynamique</translation>
     </message>
     <message>
         <location line="+9"/>
-        <location line="+129"/>
+        <location line="+163"/>
         <source>Desktop</source>
         <translation>Bureau</translation>
     </message>
     <message>
-        <location line="-129"/>
-        <location line="+130"/>
+        <location line="-163"/>
+        <location line="+164"/>
         <source>Board / PDF</source>
         <translation>Tableau / PDF</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-155"/>
         <source>Back to the board: always first</source>
         <translation>Retour au tableau : toujours en premier</translation>
     </message>
@@ -6845,9 +7201,14 @@ Largeur dynamique</translation>
         <translation>Ordre d&apos;origine</translation>
     </message>
     <message>
-        <location line="+120"/>
+        <location line="+154"/>
         <source>Move items...</source>
         <translation>Déplacer les éléments...</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Bar style...</source>
+        <translation>Style de la barre...</translation>
     </message>
 </context>
 <context>
@@ -6973,7 +7334,7 @@ Veuillez redémarrer l&apos;application pour accéder aux documents mis à jour.
         <translation type="vanished">Dicter</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+620"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+682"/>
         <source>Read aloud</source>
         <translation>Lire à voix haute</translation>
     </message>
@@ -7189,7 +7550,7 @@ Veuillez redémarrer l&apos;application pour accéder aux documents mis à jour.
         <translation type="vanished">%1 x</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBZoomPalette.cpp" line="+62"/>
+        <location filename="../../src/gui/UBZoomPalette.cpp" line="+63"/>
         <source>Zoom Out</source>
         <translation>Zoomer en arrière</translation>
     </message>
@@ -7573,7 +7934,7 @@ p, li { white-space: pre-wrap; }
         <translation>Afficher les textes sous les boutons</translation>
     </message>
     <message>
-        <location line="+2881"/>
+        <location line="+2876"/>
         <source>Software Update</source>
         <translation>Mise à jour du logiciel</translation>
     </message>
@@ -7583,7 +7944,7 @@ p, li { white-space: pre-wrap; }
         <translation>Vérifier la mise à jour au lancement</translation>
     </message>
     <message>
-        <location line="-2285"/>
+        <location line="-2280"/>
         <source>Internet</source>
         <translation>Internet</translation>
     </message>
