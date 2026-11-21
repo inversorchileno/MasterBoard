@@ -218,8 +218,8 @@ void UBPreferencesController::simplifyTabs()
     tabs->removeTab(tabs->indexOf(mPreferencesUI->penTab));
     tabs->removeTab(tabs->indexOf(mPreferencesUI->markerTab));
 
-    // The translators and the licenses in the About tab, each behind a
-    // small button at its bottom: out of the way, but there.
+    // The licenses in the About tab, behind a small button at its bottom:
+    // out of the way, but there.
     QWidget* licenses = mPreferencesUI->thirdPartyLicence;
     tabs->removeTab(tabs->indexOf(licenses));
     tabs->removeTab(tabs->indexOf(mPreferencesUI->creditsTab));
@@ -230,8 +230,7 @@ void UBPreferencesController::simplifyTabs()
     about->addLayout(buttons);
 
     const QList<QPair<QString, QWidget*>> hidden = {
-        { tr("Translators"), mPreferencesUI->textBrowser },
-        { tr("Licenses"), licenses },
+        { tr("References"), licenses },
     };
 
     for (const auto& part : hidden)
@@ -454,8 +453,7 @@ void UBPreferencesController::wire()
 
     // main tab
     mPreferencesUI->mainTabWidget->setCurrentWidget(mPreferencesUI->displayTab);
-    mPreferencesUI->versionLabel->setText(tr("version: ") + UBApplication::applicationVersion()
-                                          + (UBGitHubUpdater::currentBuild() > 0 ? tr(" (build %1)").arg(UBGitHubUpdater::currentBuild()) : QString()));
+    mPreferencesUI->versionLabel->setText(tr("Version %1").arg(UBGitHubUpdater::currentVersionText()));
 
     connect(mPreferencesUI->closeButton, SIGNAL(released()), this, SLOT(close()));
     connect(mPreferencesUI->defaultSettingsButton, SIGNAL(released()), this, SLOT(defaultSettings()));

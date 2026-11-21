@@ -70,6 +70,30 @@ int UBGitHubUpdater::currentBuild()
     return LIBERTYBOARD_BUILD;
 }
 
+QString UBGitHubUpdater::currentVersionText()
+{
+    // 2.0.0 is shown as 2.0.
+    QString version = QCoreApplication::applicationVersion();
+
+    if (version.count('.') == 2 && version.endsWith(".0"))
+    {
+        version.chop(2);
+    }
+
+    if (currentBuild() > 0)
+    {
+        return tr("%1 (build %2)").arg(version).arg(currentBuild());
+    }
+
+    return version;
+}
+
+/** @brief The first line of the messages of the update: the version in use. */
+static QString inUse()
+{
+    return UBGitHubUpdater::tr("You are using LibertyBoard %1.").arg(UBGitHubUpdater::currentVersionText()) + "\n\n";
+}
+
 void UBGitHubUpdater::checkForUpdate()
 {
     if (mBusy)
@@ -96,7 +120,7 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
     {
         mBusy = false;
         QMessageBox::warning(mDialogParent, tr("Update"),
-                             tr("LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again."));
+                             inUse() + tr("LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again."));
         return;
     }
 
@@ -130,7 +154,7 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
     {
         mBusy = false;
         const auto open = QMessageBox::question(mDialogParent, tr("Update"),
-            tr("A new version of LibertyBoard is available (build %1).\n\nOpen its page to download it?").arg(build),
+            inUse() + tr("A new version of LibertyBoard is available (build %1).\n\nOpen its page to download it?").arg(build),
             QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 
         if (open == QMessageBox::Yes)
@@ -146,12 +170,12 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
     {
         mBusy = false;
         QMessageBox::information(mDialogParent, tr("Update"),
-                                 tr("You have the latest version of LibertyBoard."));
+                                 inUse() + tr("You have the latest version of LibertyBoard."));
         return;
     }
 
     const auto answer = QMessageBox::question(mDialogParent, tr("Update"),
-        tr("A new version of LibertyBoard is available (build %1).\n\n"
+        inUse() + tr("A new version of LibertyBoard is available (build %1).\n\n"
            "Download and install it now? LibertyBoard saves your documents, closes and opens again.").arg(build),
         QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 

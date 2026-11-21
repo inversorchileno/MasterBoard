@@ -50,6 +50,9 @@ public:
     /** @brief The number of the running build, 0 when built outside of GitHub. */
     static int currentBuild();
 
+    /** @brief The version in use, as "2.0 (build 31)", for the user. */
+    static QString currentVersionText();
+
 public slots:
     void checkForUpdate();
 
