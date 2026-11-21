@@ -1216,23 +1216,23 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-2055"/>
         <location line="+686"/>
         <location line="+3"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="-319"/>
-        <source>Quit LibertyBoard</source>
+        <source>Quit Master Board</source>
         <translation>Open-Sankoreを終了</translation>
     </message>
     <message>
         <location line="+1679"/>
-        <source>Hide LibertyBoard</source>
-        <translation>LibertyBoardを隠す</translation>
+        <source>Hide Master Board</source>
+        <translation>Master Boardを隠す</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Hide LibertyBoard Application</source>
-        <translation>LibertyBoardを隠す</translation>
+        <source>Hide Master Board Application</source>
+        <translation>Master Boardを隠す</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2000,7 +2000,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">ポッドキャスト </translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -2537,8 +2537,8 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-419"/>
-        <source>Show LibertyBoard</source>
-        <translation>LibertyBoard を表示</translation>
+        <source>Show Master Board</source>
+        <translation>Master Board を表示</translation>
     </message>
 </context>
 <context>
@@ -2616,7 +2616,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-1250"/>
-        <source>LibertyBoard could not recover this file. Please delete it or contact your administrator for help</source>
+        <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2958,8 +2958,8 @@ Providing a new name will create a new document.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>LibertyBoard stopped without closing. Open again the %1 documents that were open?</source>
-        <translation>LibertyBoard が正しく終了しませんでした。開いていた %1 個の文書をもう一度開きますか?</translation>
+        <source>Master Board stopped without closing. Open again the %1 documents that were open?</source>
+        <translation>Master Board が正しく終了しませんでした。開いていた %1 個の文書をもう一度開きますか?</translation>
     </message>
 </context>
 <context>
@@ -3318,8 +3318,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Export to LibertyBoard Format</source>
-        <translation>LibertyBoard 形式でエクスポート</translation>
+        <source>Export to Master Board Format</source>
+        <translation>Master Board 形式でエクスポート</translation>
     </message>
 </context>
 <context>
@@ -3353,8 +3353,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+46"/>
-        <source>Export to LibertyBoard UBX Format</source>
-        <translation>LibertyBoard UBX 形式でエクスポート</translation>
+        <source>Export to Master Board UBX Format</source>
+        <translation>Master Board UBX 形式でエクスポート</translation>
     </message>
 </context>
 <context>
@@ -3372,7 +3372,7 @@ Do you want to continue?</source>
     <message>
         <location line="-56"/>
         <location line="+14"/>
-        <source>The original PDF imported in LibertyBoard seems not valid and could not be merged with your annotations. Please repair it and then reimport it in LibertyBoard. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
+        <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3596,8 +3596,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>You are using LibertyBoard %1.</source>
-        <translation>LibertyBoard %1 を使用しています。</translation>
+        <source>You are using Master Board %1.</source>
+        <translation>Master Board %1 を使用しています。</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3619,31 +3619,31 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-184"/>
-        <source>LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
+        <source>Master Board could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
         <translation>新しいバージョンを確認するために GitHub に接続できませんでした。インターネット接続を確認して、もう一度お試しください。</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
-        <translation>LibertyBoard の新しいバージョンがあります(ビルド %1)。
+        <translation>Master Board の新しいバージョンがあります(ビルド %1)。
 
 ダウンロードのためにそのページを開きますか?</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>You have the latest version of LibertyBoard.</source>
-        <translation>LibertyBoard は最新バージョンです。</translation>
+        <source>You have the latest version of Master Board.</source>
+        <translation>Master Board は最新バージョンです。</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
-Download and install it now? LibertyBoard saves your documents, closes and opens again.</source>
-        <translation>LibertyBoard の新しいバージョンがあります (ビルド %1)。
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>Master Board の新しいバージョンがあります (ビルド %1)。
 
-今すぐダウンロードしてインストールしますか? LibertyBoard はドキュメントを保存して終了し、再び起動します。</translation>
+今すぐダウンロードしてインストールしますか? Master Board はドキュメントを保存して終了し、再び起動します。</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3667,8 +3667,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+21"/>
-        <source>LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
-        <translation>LibertyBoard はこのフォルダー内のファイルを置き換えられません。ダウンロードページを開きます。新しいバージョンを現在のものの上に展開してください。</translation>
+        <source>Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
+        <translation>Master Board はこのフォルダー内のファイルを置き換えられません。ダウンロードページを開きます。新しいバージョンを現在のものの上に展開してください。</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -4093,8 +4093,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="-142"/>
-        <source>LibertyBoard (*.ubz)</source>
-        <translation>LibertyBoard (*.ubz)</translation>
+        <source>Master Board (*.ubz)</source>
+        <translation>Master Board (*.ubz)</translation>
     </message>
 </context>
 <context>
@@ -4526,8 +4526,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+8"/>
-        <source>LibertyBoard was created by Luis, known on YouTube as «Inversor Chileno».</source>
-        <translation>LibertyBoard は、YouTube で「Inversor Chileno」として知られる Luis が作りました。</translation>
+        <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
+        <translation>Master Board は、YouTube で「Inversor Chileno」として知られる Luis が作りました。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4541,12 +4541,12 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+2"/>
-        <source>The curious thing is that I know nothing about writing code. I built LibertyBoard with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
-        <translation>面白いのは、私がコードの書き方をまったく知らないことです。LibertyBoard は人工知能の Claude の助けを借りて作りました。私がアイデアを出し、Claude がそれをプログラムにしました。アイデアがはっきりしていて、それを良いプロンプトに書ければ、あなたも想像したものを作れます。</translation>
+        <source>The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
+        <translation>面白いのは、私がコードの書き方をまったく知らないことです。Master Board は人工知能の Claude の助けを借りて作りました。私がアイデアを出し、Claude がそれをプログラムにしました。アイデアがはっきりしていて、それを良いプロンプトに書ければ、あなたも想像したものを作れます。</translation>
     </message>
     <message>
-        <source>LibertyBoard is free software (GPLv3 license), like OpenBoard.</source>
-        <translation type="vanished">LibertyBoard は OpenBoard と同じく、自由ソフトウェア(GPLv3 ライセンス)です。</translation>
+        <source>Master Board is free software (GPLv3 license), like OpenBoard.</source>
+        <translation type="vanished">Master Board は OpenBoard と同じく、自由ソフトウェア(GPLv3 ライセンス)です。</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -4584,8 +4584,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation type="vanished">音声を文字起こし (AI で提供予定)</translation>
     </message>
     <message>
-        <source>Writes what is said in a recording; it will come with the AI of LibertyBoard</source>
-        <translation type="vanished">録音で話されたことを書き起こします。LibertyBoard の AI で提供予定です</translation>
+        <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
+        <translation type="vanished">録音で話されたことを書き起こします。Master Board の AI で提供予定です</translation>
     </message>
     <message>
         <location line="-241"/>
@@ -4599,8 +4599,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+18"/>
-        <source>LibertyBoard on GitHub</source>
-        <translation>GitHub の LibertyBoard</translation>
+        <source>Master Board on GitHub</source>
+        <translation>GitHub の Master Board</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -5376,7 +5376,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>LibertyBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5497,8 +5497,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="-575"/>
-        <source>LibertyBoard Cast</source>
-        <translation>LibertyBoard Cast</translation>
+        <source>Master Board Cast</source>
+        <translation>Master Board Cast</translation>
     </message>
 </context>
 <context>
@@ -5515,17 +5515,17 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>The new language is used the next time LibertyBoard starts.</source>
-        <translation>新しい言語は次回 LibertyBoard を起動したときに使われます。</translation>
+        <source>The new language is used the next time Master Board starts.</source>
+        <translation>新しい言語は次回 Master Board を起動したときに使われます。</translation>
     </message>
     <message>
         <location line="+19"/>
-        <location line="+327"/>
+        <location line="+328"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
     <message>
-        <location line="-324"/>
+        <location line="-325"/>
         <source>Pressure of the pen</source>
         <translation>ペンの筆圧</translation>
     </message>
@@ -5544,12 +5544,12 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+25"/>
-        <location line="+279"/>
+        <location line="+280"/>
         <source>AI</source>
         <translation>AI</translation>
     </message>
     <message>
-        <location line="-270"/>
+        <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation>AIパネルに表示できるAI。名前とページのアドレスを入力してください。最初のものが最初に表示されます。</translation>
     </message>
@@ -5610,8 +5610,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
-        <translation>メニューバー、ツールのオプション、ズームの色です。新しいテーマは次に LibertyBoard を起動したときに使われます。</translation>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
+        <translation>メニューバー、ツールのオプション、ズームの色です。新しいテーマは次に Master Board を起動したときに使われます。</translation>
     </message>
     <message>
         <location line="+87"/>
@@ -5619,7 +5619,7 @@ Dynamic width</source>
         <translation>カテゴリ</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+23"/>
         <location line="+262"/>
         <source>Version %1</source>
         <translation>バージョン %1</translation>
@@ -5631,8 +5631,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
-        <translation>LibertyBoard %1。今すぐ新しいバージョンを探すには:情報 → 更新。</translation>
+        <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
+        <translation>Master Board %1。今すぐ新しいバージョンを探すには:情報 → 更新。</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -5691,8 +5691,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>About LibertyBoard</source>
-        <translation>LibertyBoard について</translation>
+        <source>About Master Board</source>
+        <translation>Master Board について</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -6602,19 +6602,19 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+5"/>
-        <source>LibertyBoard uses it to select all the text of a text box.</source>
-        <translation>LibertyBoard がテキストボックスの全文選択に使います。</translation>
+        <source>Master Board uses it to select all the text of a text box.</source>
+        <translation>Master Board がテキストボックスの全文選択に使います。</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>LibertyBoard uses it to open the menu «%1».</source>
-        <translation>LibertyBoard がメニュー「%1」を開くのに使います。</translation>
+        <source>Master Board uses it to open the menu «%1».</source>
+        <translation>Master Board がメニュー「%1」を開くのに使います。</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
-        <source>LibertyBoard already uses it for «%1». Remove it there first.</source>
-        <translation>LibertyBoard はすでに「%1」に使っています。先にそちらから削除してください。</translation>
+        <source>Master Board already uses it for «%1». Remove it there first.</source>
+        <translation>Master Board はすでに「%1」に使っています。先にそちらから削除してください。</translation>
     </message>
     <message>
         <location line="-130"/>
@@ -7622,8 +7622,8 @@ Do you want to reload the page ?</source>
     </message>
     <message>
         <location line="-43"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -7725,8 +7725,8 @@ p, li { white-space: pre-wrap; }
     <name>documents</name>
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
-        <source>LibertyBoard Documents</source>
-        <translation>LibertyBoard ドキュメント</translation>
+        <source>Master Board Documents</source>
+        <translation>Master Board ドキュメント</translation>
     </message>
     <message>
         <location line="+64"/>

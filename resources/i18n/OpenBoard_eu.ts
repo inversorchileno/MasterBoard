@@ -265,8 +265,8 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <location filename="../forms/mainWindow.ui" line="+14"/>
         <location line="+686"/>
         <location line="+3"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="-660"/>
@@ -405,8 +405,8 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Quit LibertyBoard</source>
-        <translation>Itxi LibertyBoard</translation>
+        <source>Quit Master Board</source>
+        <translation>Itxi Master Board</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1322,13 +1322,13 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Hide LibertyBoard</source>
-        <translation>Ezkutatu LibertyBoard</translation>
+        <source>Hide Master Board</source>
+        <translation>Ezkutatu Master Board</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Hide LibertyBoard Application</source>
-        <translation>Ezkutatu LibertyBoard aplikazioa</translation>
+        <source>Hide Master Board Application</source>
+        <translation>Ezkutatu Master Board aplikazioa</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2096,7 +2096,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation type="vanished">Podcasta</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -2592,8 +2592,8 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <name>UBDesktopPalette</name>
     <message>
         <location filename="../../src/desktop/UBDesktopPalette.cpp" line="+87"/>
-        <source>Show LibertyBoard</source>
-        <translation>Erakutsi LibertyBoard</translation>
+        <source>Show Master Board</source>
+        <translation>Erakutsi Master Board</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2794,7 +2794,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation type="vanished">Ireki dokumentua</translation>
     </message>
     <message>
-        <source>The document &apos;%1&apos; has been generated with a newer version of LibertyBoard (%2). By opening it, you may lose some information. Do you want to proceed?</source>
+        <source>The document &apos;%1&apos; has been generated with a newer version of Master Board (%2). By opening it, you may lose some information. Do you want to proceed?</source>
         <translation type="vanished">&apos;%1&apos; dokumentua LibertyBoarden bertsio berriago batekin (%2) sortua da. Irekitzean baliteke informazioa galtzea. Jarraitu nahi duzu?</translation>
     </message>
     <message>
@@ -2842,7 +2842,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     </message>
     <message>
         <location line="-1336"/>
-        <source>LibertyBoard could not recover this file. Please delete it or contact your administrator for help</source>
+        <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3125,8 +3125,8 @@ Izen berria ematean dokumentu berri bat sortuko da.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>LibertyBoard stopped without closing. Open again the %1 documents that were open?</source>
-        <translation>LibertyBoard itxi gabe gelditu da. Irekita zeuden %1 dokumentuak berriro ireki?</translation>
+        <source>Master Board stopped without closing. Open again the %1 documents that were open?</source>
+        <translation>Master Board itxi gabe gelditu da. Irekita zeuden %1 dokumentuak berriro ireki?</translation>
     </message>
 </context>
 <context>
@@ -3418,8 +3418,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Export to LibertyBoard Format</source>
-        <translation>Esportatu LibertyBoard formatura</translation>
+        <source>Export to Master Board Format</source>
+        <translation>Esportatu Master Board formatura</translation>
     </message>
 </context>
 <context>
@@ -3453,8 +3453,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+46"/>
-        <source>Export to LibertyBoard UBX Format</source>
-        <translation>Esportatu LibertyBoard UBX formatura</translation>
+        <source>Export to Master Board UBX Format</source>
+        <translation>Esportatu Master Board UBX formatura</translation>
     </message>
 </context>
 <context>
@@ -3472,8 +3472,8 @@ Do you want to continue?</source>
     <message>
         <location line="-56"/>
         <location line="+14"/>
-        <source>The original PDF imported in LibertyBoard seems not valid and could not be merged with your annotations. Please repair it and then reimport it in LibertyBoard. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation type="unfinished">LibertyBoard-en inportatutako jatorrizko PDFa ez da baliozkoa eta ezin izan da zure oharretara batu. Mesedez, konpondu eta gero berriro inportatu LibertyBoard-en. Uneko esportazioa jatorrizko PDFaren orrien irudi zehatzekin (astunekin) egingo da horren ordez, esportazio hutsegite osoa ekiditeko.</translation>
+        <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
+        <translation type="unfinished">Master Board-en inportatutako jatorrizko PDFa ez da baliozkoa eta ezin izan da zure oharretara batu. Mesedez, konpondu eta gero berriro inportatu Master Board-en. Uneko esportazioa jatorrizko PDFaren orrien irudi zehatzekin (astunekin) egingo da horren ordez, esportazio hutsegite osoa ekiditeko.</translation>
     </message>
 </context>
 <context>
@@ -3704,7 +3704,7 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>You are using LibertyBoard %1.</source>
+        <source>You are using Master Board %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3727,29 +3727,29 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-184"/>
-        <source>LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
-        <translation>LibertyBoard-ek ezin izan du GitHub-ekin konektatu bertsio berri bat bilatzeko. Egiaztatu interneteko konexioa eta saiatu berriro.</translation>
+        <source>Master Board could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
+        <translation>Master Board-ek ezin izan du GitHub-ekin konektatu bertsio berri bat bilatzeko. Egiaztatu interneteko konexioa eta saiatu berriro.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>You have the latest version of LibertyBoard.</source>
-        <translation>LibertyBoard-en azken bertsioa duzu.</translation>
+        <source>You have the latest version of Master Board.</source>
+        <translation>Master Board-en azken bertsioa duzu.</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
-Download and install it now? LibertyBoard saves your documents, closes and opens again.</source>
-        <translation>LibertyBoard-en bertsio berri bat dago (%1. konpilazioa).
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>Master Board-en bertsio berri bat dago (%1. konpilazioa).
 
-Orain deskargatu eta instalatu? LibertyBoard-ek zure dokumentuak gordeko ditu, itxi eta berriro irekiko da.</translation>
+Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, itxi eta berriro irekiko da.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3773,8 +3773,8 @@ Orain deskargatu eta instalatu? LibertyBoard-ek zure dokumentuak gordeko ditu, i
     </message>
     <message>
         <location line="+21"/>
-        <source>LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
-        <translation>LibertyBoard-ek ezin ditu bere fitxategiak karpeta honetan ordeztu. Deskarga-orria irekiko da: deskonprimitu bertsio berria unekoaren gainean.</translation>
+        <source>Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
+        <translation>Master Board-ek ezin ditu bere fitxategiak karpeta honetan ordeztu. Deskarga-orria irekiko da: deskonprimitu bertsio berria unekoaren gainean.</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -4184,7 +4184,7 @@ Orain deskargatu eta instalatu? LibertyBoard-ek zure dokumentuak gordeko ditu, i
     <name>UBImportDocument</name>
     <message>
         <location filename="../../src/adaptors/UBImportDocument.cpp" line="+73"/>
-        <source>LibertyBoard (*.ubz)</source>
+        <source>Master Board (*.ubz)</source>
         <translation>OPenBoard (*.ubz)</translation>
     </message>
     <message>
@@ -4628,8 +4628,8 @@ Orain deskargatu eta instalatu? LibertyBoard-ek zure dokumentuak gordeko ditu, i
     </message>
     <message>
         <location line="+8"/>
-        <source>LibertyBoard was created by Luis, known on YouTube as «Inversor Chileno».</source>
-        <translation>LibertyBoard Luisek sortu zuen, YouTuben «Inversor Chileno» izenez ezaguna.</translation>
+        <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
+        <translation>Master Board Luisek sortu zuen, YouTuben «Inversor Chileno» izenez ezaguna.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4643,12 +4643,12 @@ Orain deskargatu eta instalatu? LibertyBoard-ek zure dokumentuak gordeko ditu, i
     </message>
     <message>
         <location line="+2"/>
-        <source>The curious thing is that I know nothing about writing code. I built LibertyBoard with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
-        <translation>Bitxia da ez dakidala ezer kodea idazten. LibertyBoard Clauderen laguntzaz eraiki nuen, adimen artifizial bat: nik ideiak jartzen nituen eta Claudek programa bihurtzen zituen. Zure ideiak argi badituzu eta prompt on batean idazten badakizu, zuk ere irudikatzen duzuna sor dezakezu.</translation>
+        <source>The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
+        <translation>Bitxia da ez dakidala ezer kodea idazten. Master Board Clauderen laguntzaz eraiki nuen, adimen artifizial bat: nik ideiak jartzen nituen eta Claudek programa bihurtzen zituen. Zure ideiak argi badituzu eta prompt on batean idazten badakizu, zuk ere irudikatzen duzuna sor dezakezu.</translation>
     </message>
     <message>
-        <source>LibertyBoard is free software (GPLv3 license), like OpenBoard.</source>
-        <translation type="vanished">LibertyBoard software librea da (GPLv3 lizentzia), OpenBoard bezala.</translation>
+        <source>Master Board is free software (GPLv3 license), like OpenBoard.</source>
+        <translation type="vanished">Master Board software librea da (GPLv3 lizentzia), OpenBoard bezala.</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -4686,8 +4686,8 @@ Orain deskargatu eta instalatu? LibertyBoard-ek zure dokumentuak gordeko ditu, i
         <translation type="vanished">Transkribatu audio bat (AArekin iritsiko da)</translation>
     </message>
     <message>
-        <source>Writes what is said in a recording; it will come with the AI of LibertyBoard</source>
-        <translation type="vanished">Grabazio batean esaten dena idazten du; LibertyBoard-en AArekin iritsiko da</translation>
+        <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
+        <translation type="vanished">Grabazio batean esaten dena idazten du; Master Board-en AArekin iritsiko da</translation>
     </message>
     <message>
         <location line="-241"/>
@@ -4701,8 +4701,8 @@ Orain deskargatu eta instalatu? LibertyBoard-ek zure dokumentuak gordeko ditu, i
     </message>
     <message>
         <location line="+18"/>
-        <source>LibertyBoard on GitHub</source>
-        <translation>LibertyBoard GitHub-en</translation>
+        <source>Master Board on GitHub</source>
+        <translation>Master Board GitHub-en</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -5140,7 +5140,7 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
         <translation type="vanished">Open-Sankore dokumentuak antzemanda</translation>
     </message>
     <message>
-        <source>Open-Sankoré documents are present on your computer. It is possible to import them to LibertyBoard by pressing the “Proceed” button to launch the importer application.</source>
+        <source>Open-Sankoré documents are present on your computer. It is possible to import them to Master Board by pressing the “Proceed” button to launch the importer application.</source>
         <translation type="vanished">Open-Sankoré dokumentuak daude zure ordenagailuan. LibertyBoardera inportatu daitezke inportazio-aplikazioa irekitzeko &quot;Jarraitu&quot; botoia sakatuz. </translation>
     </message>
     <message>
@@ -5148,8 +5148,8 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
         <translation type="vanished">Erakutsi panel hau hurrengoan</translation>
     </message>
     <message>
-        <source>You can always access the LibertyBoard Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current LibertyBoard documents.</source>
-        <translation type="vanished">Beti ere OPenBoard dokumentuak inportatzailea atzi dezakezu Ezarpenen paneleko Honi buruz fitxan. Kontuz, jada Open-Sankore datuak inportatu badituzu oraingo LibertyBoard dokumentuak gal ditzakezu.</translation>
+        <source>You can always access the Master Board Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current Master Board documents.</source>
+        <translation type="vanished">Beti ere OPenBoard dokumentuak inportatzailea atzi dezakezu Ezarpenen paneleko Honi buruz fitxan. Kontuz, jada Open-Sankore datuak inportatu badituzu oraingo Master Board dokumentuak gal ditzakezu.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -5511,8 +5511,8 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>LibertyBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation type="unfinished">LibertyBoard-ek &apos;%1&apos; dokumentu-biltegirako sarbidea galdu du. Zoritxarrez aplikazioa itxi egin behar da datuen hondamena saihesteko. Azken aldaketak ere gal daitezke.</translation>
+        <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <translation type="unfinished">Master Board-ek &apos;%1&apos; dokumentu-biltegirako sarbidea galdu du. Zoritxarrez aplikazioa itxi egin behar da datuen hondamena saihesteko. Azken aldaketak ere gal daitezke.</translation>
     </message>
 </context>
 <context>
@@ -5622,8 +5622,8 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="-575"/>
-        <source>LibertyBoard Cast</source>
-        <translation>LibertyBoard Cast</translation>
+        <source>Master Board Cast</source>
+        <translation>Master Board Cast</translation>
     </message>
 </context>
 <context>
@@ -5640,17 +5640,17 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>The new language is used the next time LibertyBoard starts.</source>
-        <translation>Hizkuntza berria LibertyBoard abiarazten den hurrengo aldian erabiliko da.</translation>
+        <source>The new language is used the next time Master Board starts.</source>
+        <translation>Hizkuntza berria Master Board abiarazten den hurrengo aldian erabiliko da.</translation>
     </message>
     <message>
         <location line="+19"/>
-        <location line="+327"/>
+        <location line="+328"/>
         <source>General</source>
         <translation>Orokorra</translation>
     </message>
     <message>
-        <location line="-324"/>
+        <location line="-325"/>
         <source>Pressure of the pen</source>
         <translation>Arkatzaren presioa</translation>
     </message>
@@ -5661,12 +5661,12 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+25"/>
-        <location line="+279"/>
+        <location line="+280"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-270"/>
+        <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5727,7 +5727,7 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5736,7 +5736,7 @@ Zabalera dinamikoa</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+23"/>
         <location line="+262"/>
         <source>Version %1</source>
         <translation type="unfinished"></translation>
@@ -5748,7 +5748,7 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
+        <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5808,7 +5808,7 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>About LibertyBoard</source>
+        <source>About Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6749,18 +6749,18 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>LibertyBoard uses it to select all the text of a text box.</source>
+        <source>Master Board uses it to select all the text of a text box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>LibertyBoard uses it to open the menu «%1».</source>
+        <source>Master Board uses it to open the menu «%1».</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
-        <source>LibertyBoard already uses it for «%1». Remove it there first.</source>
+        <source>Master Board already uses it for «%1». Remove it there first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7657,8 +7657,8 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
 <context>
     <name>WBWebPage</name>
     <message>
-        <source>Download PDF Document: would you prefer to download the PDF file or add it to the current LibertyBoard document?</source>
-        <translation type="vanished">Deskargatu PDF dokumentua: nahiago duzu PDF dokumentua deskargatzea edo uneko LibertyBoard dokumentuan gehitzea?</translation>
+        <source>Download PDF Document: would you prefer to download the PDF file or add it to the current Master Board document?</source>
+        <translation type="vanished">Deskargatu PDF dokumentua: nahiago duzu PDF dokumentua deskargatzea edo uneko Master Board dokumentuan gehitzea?</translation>
     </message>
     <message>
         <source>Download</source>
@@ -7833,8 +7833,8 @@ Orria berriro kargatu nahi duzu?</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -7963,8 +7963,8 @@ p, li { white-space: pre-wrap; }
     <name>documents</name>
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
-        <source>LibertyBoard Documents</source>
-        <translation>LibertyBoard dokumentuak</translation>
+        <source>Master Board Documents</source>
+        <translation>Master Board dokumentuak</translation>
     </message>
     <message>
         <location line="+64"/>

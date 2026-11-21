@@ -394,8 +394,8 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="+869"/>
-        <source>Hide LibertyBoard Application</source>
-        <translation>Schovať aplikáciu LibertyBoard</translation>
+        <source>Hide Master Board Application</source>
+        <translation>Schovať aplikáciu Master Board</translation>
     </message>
     <message>
         <source>Import an External Page</source>
@@ -410,8 +410,8 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-607"/>
         <location line="+686"/>
         <location line="+3"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="+675"/>
@@ -582,8 +582,8 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="+205"/>
-        <source>Quit LibertyBoard</source>
-        <translation>Skončiť LibertyBoard</translation>
+        <source>Quit Master Board</source>
+        <translation>Skončiť Master Board</translation>
     </message>
     <message>
         <location line="+676"/>
@@ -657,8 +657,8 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="+173"/>
-        <source>Hide LibertyBoard</source>
-        <translation>Schovať LibertyBoard</translation>
+        <source>Hide Master Board</source>
+        <translation>Schovať Master Board</translation>
     </message>
     <message>
         <location line="-709"/>
@@ -1979,7 +1979,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">Veľkosť stránky</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -2516,8 +2516,8 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-417"/>
-        <source>Show LibertyBoard</source>
-        <translation>Zobraziť LibertyBoard</translation>
+        <source>Show Master Board</source>
+        <translation>Zobraziť Master Board</translation>
     </message>
 </context>
 <context>
@@ -2619,7 +2619,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-1336"/>
-        <source>LibertyBoard could not recover this file. Please delete it or contact your administrator for help</source>
+        <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2676,7 +2676,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Dokumenty bez názvu</translation>
     </message>
     <message>
-        <source>The document &apos;%1&apos; has been generated with a newer version of LibertyBoard (%2). By opening it, you may lose some information. Do you want to proceed?</source>
+        <source>The document &apos;%1&apos; has been generated with a newer version of Master Board (%2). By opening it, you may lose some information. Do you want to proceed?</source>
         <translation type="vanished">Dokument &apos;%1&apos; bol vytvorený v novšej verzii LibertyBoardu (%2). Ak ho otvoríte v tejto, aktuálnej verzii, môže dôjsť k strate údajov. Chcete napriek tomu pokračovať?</translation>
     </message>
     <message numerus="yes">
@@ -2947,8 +2947,8 @@ Providing a new name will create a new document.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>LibertyBoard stopped without closing. Open again the %1 documents that were open?</source>
-        <translation>LibertyBoard sa zastavil bez zatvorenia. Znova otvoriť %1 dokumentov, ktoré boli otvorené?</translation>
+        <source>Master Board stopped without closing. Open again the %1 documents that were open?</source>
+        <translation>Master Board sa zastavil bez zatvorenia. Znova otvoriť %1 dokumentov, ktoré boli otvorené?</translation>
     </message>
 </context>
 <context>
@@ -3257,8 +3257,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Export to LibertyBoard Format</source>
-        <translation>Exportovať do formátu LibertyBoard</translation>
+        <source>Export to Master Board Format</source>
+        <translation>Exportovať do formátu Master Board</translation>
     </message>
 </context>
 <context>
@@ -3292,8 +3292,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+46"/>
-        <source>Export to LibertyBoard UBX Format</source>
-        <translation>Exportovať do formátu LibertyBoard UBX</translation>
+        <source>Export to Master Board UBX Format</source>
+        <translation>Exportovať do formátu Master Board UBX</translation>
     </message>
 </context>
 <context>
@@ -3311,7 +3311,7 @@ Do you want to continue?</source>
     <message>
         <location line="-56"/>
         <location line="+14"/>
-        <source>The original PDF imported in LibertyBoard seems not valid and could not be merged with your annotations. Please repair it and then reimport it in LibertyBoard. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
+        <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3535,7 +3535,7 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>You are using LibertyBoard %1.</source>
+        <source>You are using Master Board %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3558,29 +3558,29 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-184"/>
-        <source>LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
-        <translation>LibertyBoard sa nemohol pripojiť ku GitHubu a vyhľadať novú verziu. Skontrolujte pripojenie na internet a skúste to znova.</translation>
+        <source>Master Board could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
+        <translation>Master Board sa nemohol pripojiť ku GitHubu a vyhľadať novú verziu. Skontrolujte pripojenie na internet a skúste to znova.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>You have the latest version of LibertyBoard.</source>
-        <translation>Máte najnovšiu verziu LibertyBoard.</translation>
+        <source>You have the latest version of Master Board.</source>
+        <translation>Máte najnovšiu verziu Master Board.</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
-Download and install it now? LibertyBoard saves your documents, closes and opens again.</source>
-        <translation>Je k dispozícii nová verzia LibertyBoard (zostavenie %1).
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>Je k dispozícii nová verzia Master Board (zostavenie %1).
 
-Stiahnuť a nainštalovať teraz? LibertyBoard uloží vaše dokumenty, zavrie sa a znova otvorí.</translation>
+Stiahnuť a nainštalovať teraz? Master Board uloží vaše dokumenty, zavrie sa a znova otvorí.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3604,8 +3604,8 @@ Stiahnuť a nainštalovať teraz? LibertyBoard uloží vaše dokumenty, zavrie s
     </message>
     <message>
         <location line="+21"/>
-        <source>LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
-        <translation>LibertyBoard nemôže v tomto priečinku nahradiť svoje súbory. Otvorí sa stránka na stiahnutie: rozbaľte novú verziu cez súčasnú.</translation>
+        <source>Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
+        <translation>Master Board nemôže v tomto priečinku nahradiť svoje súbory. Otvorí sa stránka na stiahnutie: rozbaľte novú verziu cez súčasnú.</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -4030,8 +4030,8 @@ Stiahnuť a nainštalovať teraz? LibertyBoard uloží vaše dokumenty, zavrie s
     </message>
     <message>
         <location line="-148"/>
-        <source>LibertyBoard (*.ubz)</source>
-        <translation>LibertyBoard (*.ubz)</translation>
+        <source>Master Board (*.ubz)</source>
+        <translation>Master Board (*.ubz)</translation>
     </message>
 </context>
 <context>
@@ -4455,8 +4455,8 @@ Stiahnuť a nainštalovať teraz? LibertyBoard uloží vaše dokumenty, zavrie s
     </message>
     <message>
         <location line="+8"/>
-        <source>LibertyBoard was created by Luis, known on YouTube as «Inversor Chileno».</source>
-        <translation>LibertyBoard vytvoril Luis, na YouTube známy ako „Inversor Chileno“.</translation>
+        <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
+        <translation>Master Board vytvoril Luis, na YouTube známy ako „Inversor Chileno“.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4470,12 +4470,12 @@ Stiahnuť a nainštalovať teraz? LibertyBoard uloží vaše dokumenty, zavrie s
     </message>
     <message>
         <location line="+2"/>
-        <source>The curious thing is that I know nothing about writing code. I built LibertyBoard with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
-        <translation>Zaujímavé je, že vôbec neviem písať kód. LibertyBoard som postavil s pomocou Claude, umelej inteligencie: ja som prinášal nápady a Claude ich menil na program. Ak máte jasné nápady a viete ich napísať do dobrého promptu, aj vy môžete vytvoriť to, čo si predstavujete.</translation>
+        <source>The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
+        <translation>Zaujímavé je, že vôbec neviem písať kód. Master Board som postavil s pomocou Claude, umelej inteligencie: ja som prinášal nápady a Claude ich menil na program. Ak máte jasné nápady a viete ich napísať do dobrého promptu, aj vy môžete vytvoriť to, čo si predstavujete.</translation>
     </message>
     <message>
-        <source>LibertyBoard is free software (GPLv3 license), like OpenBoard.</source>
-        <translation type="vanished">LibertyBoard je slobodný softvér (licencia GPLv3), rovnako ako OpenBoard.</translation>
+        <source>Master Board is free software (GPLv3 license), like OpenBoard.</source>
+        <translation type="vanished">Master Board je slobodný softvér (licencia GPLv3), rovnako ako OpenBoard.</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -4513,8 +4513,8 @@ Stiahnuť a nainštalovať teraz? LibertyBoard uloží vaše dokumenty, zavrie s
         <translation type="vanished">Prepísať nahrávku (príde s AI)</translation>
     </message>
     <message>
-        <source>Writes what is said in a recording; it will come with the AI of LibertyBoard</source>
-        <translation type="vanished">Zapíše, čo sa hovorí v nahrávke; príde s AI LibertyBoard</translation>
+        <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
+        <translation type="vanished">Zapíše, čo sa hovorí v nahrávke; príde s AI Master Board</translation>
     </message>
     <message>
         <location line="-241"/>
@@ -4528,8 +4528,8 @@ Stiahnuť a nainštalovať teraz? LibertyBoard uloží vaše dokumenty, zavrie s
     </message>
     <message>
         <location line="+18"/>
-        <source>LibertyBoard on GitHub</source>
-        <translation>LibertyBoard na GitHube</translation>
+        <source>Master Board on GitHub</source>
+        <translation>Master Board na GitHube</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -4971,7 +4971,7 @@ Dá sa to urobiť aj neskôr cez Domov &gt; Rozpoznať text.</translation>
         <translation type="vanished">Tento panel zobraziť aj nabudúce</translation>
     </message>
     <message>
-        <source>You can always access the LibertyBoard Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current LibertyBoard documents.</source>
+        <source>You can always access the Master Board Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current Master Board documents.</source>
         <translation type="vanished">Nahrávanie dokumentov môžete kedykoľvek spustiť z karty O programe na paneli Predvoľby. Pozor, ak ste už nahrali dáta z Open-Sankoré, môžete ich spúšťať ako dokumenty vytvorené v LibertyBoarde.</translation>
     </message>
     <message>
@@ -4983,7 +4983,7 @@ Dá sa to urobiť aj neskôr cez Domov &gt; Rozpoznať text.</translation>
         <translation type="vanished">Pokračovať</translation>
     </message>
     <message>
-        <source>Open-Sankoré documents are present on your computer. It is possible to import them to LibertyBoard by pressing the “Proceed” button to launch the importer application.</source>
+        <source>Open-Sankoré documents are present on your computer. It is possible to import them to Master Board by pressing the “Proceed” button to launch the importer application.</source>
         <translation type="vanished">Vo vašom počítači sa nachádzajú dokumenty Open-Sankoré. Do LibertyBoardu ich môžete nahrať stlačením tlačidla Pokračovať, ktorým sa spustí aplikácia na nahrávanie.</translation>
     </message>
 </context>
@@ -5324,7 +5324,7 @@ Dynamická šírka</translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>LibertyBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5446,7 +5446,7 @@ Dynamická šírka</translation>
     </message>
     <message>
         <location line="-28"/>
-        <source>LibertyBoard Cast</source>
+        <source>Master Board Cast</source>
         <translatorcomment>Názov súboru podcastu</translatorcomment>
         <translation>Film LibertyBoardu</translation>
     </message>
@@ -5465,17 +5465,17 @@ Dynamická šírka</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>The new language is used the next time LibertyBoard starts.</source>
-        <translation>Nový jazyk sa použije pri ďalšom spustení LibertyBoard.</translation>
+        <source>The new language is used the next time Master Board starts.</source>
+        <translation>Nový jazyk sa použije pri ďalšom spustení Master Board.</translation>
     </message>
     <message>
         <location line="+19"/>
-        <location line="+327"/>
+        <location line="+328"/>
         <source>General</source>
         <translation>Všeobecné</translation>
     </message>
     <message>
-        <location line="-324"/>
+        <location line="-325"/>
         <source>Pressure of the pen</source>
         <translation>Prítlak pera</translation>
     </message>
@@ -5486,12 +5486,12 @@ Dynamická šírka</translation>
     </message>
     <message>
         <location line="+25"/>
-        <location line="+279"/>
+        <location line="+280"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-270"/>
+        <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5552,7 +5552,7 @@ Dynamická šírka</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5561,7 +5561,7 @@ Dynamická šírka</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+23"/>
         <location line="+262"/>
         <source>Version %1</source>
         <translation type="unfinished"></translation>
@@ -5573,7 +5573,7 @@ Dynamická šírka</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
+        <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5633,7 +5633,7 @@ Dynamická šírka</translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>About LibertyBoard</source>
+        <source>About Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6540,18 +6540,18 @@ Dynamická šírka</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>LibertyBoard uses it to select all the text of a text box.</source>
+        <source>Master Board uses it to select all the text of a text box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>LibertyBoard uses it to open the menu «%1».</source>
+        <source>Master Board uses it to open the menu «%1».</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
-        <source>LibertyBoard already uses it for «%1». Remove it there first.</source>
+        <source>Master Board already uses it for «%1». Remove it there first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7566,8 +7566,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-57"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="+84"/>
@@ -7660,7 +7660,7 @@ p, li { white-space: pre-wrap; }
     <name>documents</name>
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
-        <source>LibertyBoard Documents</source>
+        <source>Master Board Documents</source>
         <translation>Dokumenty LibertyBoardu</translation>
     </message>
     <message>

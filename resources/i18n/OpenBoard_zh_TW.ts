@@ -1221,23 +1221,23 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-1064"/>
         <location line="+686"/>
         <location line="+3"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="-319"/>
-        <source>Quit LibertyBoard</source>
-        <translation>退出 LibertyBoard</translation>
+        <source>Quit Master Board</source>
+        <translation>退出 Master Board</translation>
     </message>
     <message>
         <location line="+1679"/>
-        <source>Hide LibertyBoard</source>
-        <translation>隱藏 LibertyBoard</translation>
+        <source>Hide Master Board</source>
+        <translation>隱藏 Master Board</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Hide LibertyBoard Application</source>
-        <translation>隱藏 LibertyBoard 應用程式</translation>
+        <source>Hide Master Board Application</source>
+        <translation>隱藏 Master Board 應用程式</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2004,7 +2004,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">Podcast</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -2548,8 +2548,8 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-419"/>
-        <source>Show LibertyBoard</source>
-        <translation>顯示 LibertyBoard</translation>
+        <source>Show Master Board</source>
+        <translation>顯示 Master Board</translation>
     </message>
 </context>
 <context>
@@ -2627,7 +2627,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-1250"/>
-        <source>LibertyBoard could not recover this file. Please delete it or contact your administrator for help</source>
+        <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2724,8 +2724,8 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">您確定要刪除所選項目嗎？</translation>
     </message>
     <message>
-        <source>The document &apos;%1&apos; has been generated with a newer version of LibertyBoard (%2). By opening it, you may lose some information. Do you want to proceed?</source>
-        <translation type="vanished">檔案 &apos;%1&apos; 是由新版的 LibertyBoard (%2) 建立的。開啟後可能會遺失資料。您確定要繼續嗎？</translation>
+        <source>The document &apos;%1&apos; has been generated with a newer version of Master Board (%2). By opening it, you may lose some information. Do you want to proceed?</source>
+        <translation type="vanished">檔案 &apos;%1&apos; 是由新版的 Master Board (%2) 建立的。開啟後可能會遺失資料。您確定要繼續嗎？</translation>
     </message>
     <message>
         <source>Title page</source>
@@ -2989,8 +2989,8 @@ Providing a new name will create a new document.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>LibertyBoard stopped without closing. Open again the %1 documents that were open?</source>
-        <translation>LibertyBoard 未正常關閉。要重新開啟先前開啟的 %1 份文件嗎？</translation>
+        <source>Master Board stopped without closing. Open again the %1 documents that were open?</source>
+        <translation>Master Board 未正常關閉。要重新開啟先前開啟的 %1 份文件嗎？</translation>
     </message>
 </context>
 <context>
@@ -3357,8 +3357,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Export to LibertyBoard Format</source>
-        <translation>以 LibertyBoard 格式匯出</translation>
+        <source>Export to Master Board Format</source>
+        <translation>以 Master Board 格式匯出</translation>
     </message>
 </context>
 <context>
@@ -3392,8 +3392,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+50"/>
-        <source>Export to LibertyBoard UBX Format</source>
-        <translation>以 LibertyBoard UBX 格式匯出</translation>
+        <source>Export to Master Board UBX Format</source>
+        <translation>以 Master Board UBX 格式匯出</translation>
     </message>
 </context>
 <context>
@@ -3411,7 +3411,7 @@ Do you want to continue?</source>
     <message>
         <location line="-56"/>
         <location line="+14"/>
-        <source>The original PDF imported in LibertyBoard seems not valid and could not be merged with your annotations. Please repair it and then reimport it in LibertyBoard. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
+        <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3635,8 +3635,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>You are using LibertyBoard %1.</source>
-        <translation>你正在使用 LibertyBoard %1。</translation>
+        <source>You are using Master Board %1.</source>
+        <translation>你正在使用 Master Board %1。</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3658,31 +3658,31 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-184"/>
-        <source>LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
-        <translation>LibertyBoard 無法連線到 GitHub 尋找新版本。請檢查網路連線後再試一次。</translation>
+        <source>Master Board could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
+        <translation>Master Board 無法連線到 GitHub 尋找新版本。請檢查網路連線後再試一次。</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
-        <translation>LibertyBoard 有新版本（組建 %1）。
+        <translation>Master Board 有新版本（組建 %1）。
 
 開啟其頁面下載嗎？</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>You have the latest version of LibertyBoard.</source>
-        <translation>您使用的是最新版本的 LibertyBoard。</translation>
+        <source>You have the latest version of Master Board.</source>
+        <translation>您使用的是最新版本的 Master Board。</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
-Download and install it now? LibertyBoard saves your documents, closes and opens again.</source>
-        <translation>LibertyBoard 有新版本可用 (版本 %1)。
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>Master Board 有新版本可用 (版本 %1)。
 
-現在下載並安裝嗎?LibertyBoard 會儲存您的文件,關閉後重新開啟。</translation>
+現在下載並安裝嗎?Master Board 會儲存您的文件,關閉後重新開啟。</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3706,8 +3706,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+21"/>
-        <source>LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
-        <translation>LibertyBoard 無法取代此資料夾中的檔案。將開啟下載頁面:請將新版本解壓縮覆蓋目前版本。</translation>
+        <source>Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
+        <translation>Master Board 無法取代此資料夾中的檔案。將開啟下載頁面:請將新版本解壓縮覆蓋目前版本。</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -4132,8 +4132,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="-142"/>
-        <source>LibertyBoard (*.ubz)</source>
-        <translation>LibertyBoard (*.ubz)</translation>
+        <source>Master Board (*.ubz)</source>
+        <translation>Master Board (*.ubz)</translation>
     </message>
 </context>
 <context>
@@ -4565,8 +4565,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+8"/>
-        <source>LibertyBoard was created by Luis, known on YouTube as «Inversor Chileno».</source>
-        <translation>LibertyBoard 由 Luis 創作，他在 YouTube 上以「Inversor Chileno」為人所知。</translation>
+        <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
+        <translation>Master Board 由 Luis 創作，他在 YouTube 上以「Inversor Chileno」為人所知。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4580,12 +4580,12 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+2"/>
-        <source>The curious thing is that I know nothing about writing code. I built LibertyBoard with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
-        <translation>有趣的是，我完全不會寫程式碼。我是在人工智慧 Claude 的幫助下打造 LibertyBoard 的：我提出想法，Claude 把它們變成程式。只要你的想法清楚，並且會把它們寫成好的提示詞，你也能創造出你想像的東西。</translation>
+        <source>The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
+        <translation>有趣的是，我完全不會寫程式碼。我是在人工智慧 Claude 的幫助下打造 Master Board 的：我提出想法，Claude 把它們變成程式。只要你的想法清楚，並且會把它們寫成好的提示詞，你也能創造出你想像的東西。</translation>
     </message>
     <message>
-        <source>LibertyBoard is free software (GPLv3 license), like OpenBoard.</source>
-        <translation type="vanished">LibertyBoard 和 OpenBoard 一樣，是自由軟體（GPLv3 授權）。</translation>
+        <source>Master Board is free software (GPLv3 license), like OpenBoard.</source>
+        <translation type="vanished">Master Board 和 OpenBoard 一樣，是自由軟體（GPLv3 授權）。</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -4623,8 +4623,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation type="vanished">轉寫音訊（將隨 AI 推出）</translation>
     </message>
     <message>
-        <source>Writes what is said in a recording; it will come with the AI of LibertyBoard</source>
-        <translation type="vanished">寫出錄音中所說的內容；將隨 LibertyBoard 的 AI 推出</translation>
+        <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
+        <translation type="vanished">寫出錄音中所說的內容；將隨 Master Board 的 AI 推出</translation>
     </message>
     <message>
         <location line="-241"/>
@@ -4638,8 +4638,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+18"/>
-        <source>LibertyBoard on GitHub</source>
-        <translation>GitHub 上的 LibertyBoard</translation>
+        <source>Master Board on GitHub</source>
+        <translation>GitHub 上的 Master Board</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -5412,7 +5412,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>LibertyBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5533,8 +5533,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="-575"/>
-        <source>LibertyBoard Cast</source>
-        <translation>LibertyBoard Cast</translation>
+        <source>Master Board Cast</source>
+        <translation>Master Board Cast</translation>
     </message>
 </context>
 <context>
@@ -5551,17 +5551,17 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>The new language is used the next time LibertyBoard starts.</source>
-        <translation>新語言將在下次啟動 LibertyBoard 時使用。</translation>
+        <source>The new language is used the next time Master Board starts.</source>
+        <translation>新語言將在下次啟動 Master Board 時使用。</translation>
     </message>
     <message>
         <location line="+19"/>
-        <location line="+327"/>
+        <location line="+328"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
     <message>
-        <location line="-324"/>
+        <location line="-325"/>
         <source>Pressure of the pen</source>
         <translation>筆壓</translation>
     </message>
@@ -5580,12 +5580,12 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+25"/>
-        <location line="+279"/>
+        <location line="+280"/>
         <source>AI</source>
         <translation>AI</translation>
     </message>
     <message>
-        <location line="-270"/>
+        <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation>AI面板可以顯示的AI。輸入名稱和其頁面網址；第一個會在首次時顯示。</translation>
     </message>
@@ -5646,8 +5646,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
-        <translation>選單列、工具選項和縮放的顏色。新主題將在下次啟動 LibertyBoard 時生效。</translation>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
+        <translation>選單列、工具選項和縮放的顏色。新主題將在下次啟動 Master Board 時生效。</translation>
     </message>
     <message>
         <location line="+87"/>
@@ -5655,7 +5655,7 @@ Dynamic width</source>
         <translation>類別</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+23"/>
         <location line="+262"/>
         <source>Version %1</source>
         <translation>版本 %1</translation>
@@ -5667,8 +5667,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
-        <translation>LibertyBoard %1。立即尋找新版本：關於 → 更新。</translation>
+        <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
+        <translation>Master Board %1。立即尋找新版本：關於 → 更新。</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -5727,8 +5727,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>About LibertyBoard</source>
-        <translation>關於 LibertyBoard</translation>
+        <source>About Master Board</source>
+        <translation>關於 Master Board</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -6638,19 +6638,19 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+5"/>
-        <source>LibertyBoard uses it to select all the text of a text box.</source>
-        <translation>LibertyBoard 用它選取文字方塊中的全部文字。</translation>
+        <source>Master Board uses it to select all the text of a text box.</source>
+        <translation>Master Board 用它選取文字方塊中的全部文字。</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>LibertyBoard uses it to open the menu «%1».</source>
-        <translation>LibertyBoard 用它開啟「%1」選單。</translation>
+        <source>Master Board uses it to open the menu «%1».</source>
+        <translation>Master Board 用它開啟「%1」選單。</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
-        <source>LibertyBoard already uses it for «%1». Remove it there first.</source>
-        <translation>LibertyBoard 已將它用於「%1」。請先從那裡移除。</translation>
+        <source>Master Board already uses it for «%1». Remove it there first.</source>
+        <translation>Master Board 已將它用於「%1」。請先從那裡移除。</translation>
     </message>
     <message>
         <location line="-130"/>
@@ -7664,8 +7664,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-57"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="+84"/>
@@ -7758,8 +7758,8 @@ p, li { white-space: pre-wrap; }
     <name>documents</name>
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
-        <source>LibertyBoard Documents</source>
-        <translation>LibertyBoard 文件</translation>
+        <source>Master Board Documents</source>
+        <translation>Master Board 文件</translation>
     </message>
     <message>
         <location line="+64"/>

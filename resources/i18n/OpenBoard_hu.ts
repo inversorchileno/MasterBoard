@@ -1223,23 +1223,23 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <location line="-2010"/>
         <location line="+686"/>
         <location line="+3"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="-319"/>
-        <source>Quit LibertyBoard</source>
+        <source>Quit Master Board</source>
         <translation>Kilépés az LibertyBoardból</translation>
     </message>
     <message>
         <location line="+1679"/>
-        <source>Hide LibertyBoard</source>
-        <translation>LibertyBoard elrejtése</translation>
+        <source>Hide Master Board</source>
+        <translation>Master Board elrejtése</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Hide LibertyBoard Application</source>
-        <translation>LibertyBoard alkalmazás elrejtése</translation>
+        <source>Hide Master Board Application</source>
+        <translation>Master Board alkalmazás elrejtése</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -1982,7 +1982,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <translation type="vanished">Podcast</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -2526,8 +2526,8 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     </message>
     <message>
         <location line="-419"/>
-        <source>Show LibertyBoard</source>
-        <translation>LibertyBoard megjelenítése</translation>
+        <source>Show Master Board</source>
+        <translation>Master Board megjelenítése</translation>
     </message>
 </context>
 <context>
@@ -2645,7 +2645,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     </message>
     <message>
         <location line="-1250"/>
-        <source>LibertyBoard could not recover this file. Please delete it or contact your administrator for help</source>
+        <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2730,8 +2730,8 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <translation>Névtelen dokumentumok</translation>
     </message>
     <message>
-        <source>The document &apos;%1&apos; has been generated with a newer version of LibertyBoard (%2). By opening it, you may lose some information. Do you want to proceed?</source>
-        <translation type="vanished">A(z) „%1” dokumentum az LibertyBoard újabb verziójával (%2) készült. Megnyitásával néhány információ elveszhet. Szeretné folytatni?</translation>
+        <source>The document &apos;%1&apos; has been generated with a newer version of Master Board (%2). By opening it, you may lose some information. Do you want to proceed?</source>
+        <translation type="vanished">A(z) „%1” dokumentum az Master Board újabb verziójával (%2) készült. Megnyitásával néhány információ elveszhet. Szeretné folytatni?</translation>
     </message>
     <message>
         <source>Are you sure you want to remove all selected documents?</source>
@@ -3025,8 +3025,8 @@ Ennek a névnek a megtartása helyettesíti a dokumentumot.
     </message>
     <message>
         <location line="+1"/>
-        <source>LibertyBoard stopped without closing. Open again the %1 documents that were open?</source>
-        <translation>A LibertyBoard bezárás nélkül leállt. Újra megnyitja a(z) %1 megnyitott dokumentumot?</translation>
+        <source>Master Board stopped without closing. Open again the %1 documents that were open?</source>
+        <translation>A Master Board bezárás nélkül leállt. Újra megnyitja a(z) %1 megnyitott dokumentumot?</translation>
     </message>
 </context>
 <context>
@@ -3338,8 +3338,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Export to LibertyBoard Format</source>
-        <translation>Exportálás LibertyBoard formátumba</translation>
+        <source>Export to Master Board Format</source>
+        <translation>Exportálás Master Board formátumba</translation>
     </message>
 </context>
 <context>
@@ -3373,8 +3373,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+46"/>
-        <source>Export to LibertyBoard UBX Format</source>
-        <translation>Exportálás LibertyBoard UBX-formátumként</translation>
+        <source>Export to Master Board UBX Format</source>
+        <translation>Exportálás Master Board UBX-formátumként</translation>
     </message>
 </context>
 <context>
@@ -3392,7 +3392,7 @@ Do you want to continue?</source>
     <message>
         <location line="-56"/>
         <location line="+14"/>
-        <source>The original PDF imported in LibertyBoard seems not valid and could not be merged with your annotations. Please repair it and then reimport it in LibertyBoard. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
+        <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
         <translation>Úgy tűnik, hogy az LibertyBoardba importált eredeti PDF érvénytelen, és nem egyesíthető a megjegyzésekkel. Kérjük, javítsa meg, majd importálja újra az LibertyBoardba. A teljes exportálási hiba elkerülése érdekében az aktuális exportálás az eredeti PDF oldalainak részletes (súlyos) képeivel történik.</translation>
     </message>
 </context>
@@ -3616,7 +3616,7 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>You are using LibertyBoard %1.</source>
+        <source>You are using Master Board %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3639,29 +3639,29 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-184"/>
-        <source>LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
-        <translation>A LibertyBoard nem érte el a GitHubot új verzió kereséséhez. Ellenőrizze az internetkapcsolatot, és próbálja újra.</translation>
+        <source>Master Board could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
+        <translation>A Master Board nem érte el a GitHubot új verzió kereséséhez. Ellenőrizze az internetkapcsolatot, és próbálja újra.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>You have the latest version of LibertyBoard.</source>
-        <translation>Önnél a LibertyBoard legújabb verziója van.</translation>
+        <source>You have the latest version of Master Board.</source>
+        <translation>Önnél a Master Board legújabb verziója van.</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
-Download and install it now? LibertyBoard saves your documents, closes and opens again.</source>
-        <translation>Elérhető a LibertyBoard új verziója (%1. build).
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>Elérhető a Master Board új verziója (%1. build).
 
-Letölti és telepíti most? A LibertyBoard menti a dokumentumait, bezárul, majd újra megnyílik.</translation>
+Letölti és telepíti most? A Master Board menti a dokumentumait, bezárul, majd újra megnyílik.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3685,8 +3685,8 @@ Letölti és telepíti most? A LibertyBoard menti a dokumentumait, bezárul, maj
     </message>
     <message>
         <location line="+21"/>
-        <source>LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
-        <translation>A LibertyBoard nem tudja lecserélni a fájljait ebben a mappában. Megnyílik a letöltési oldal: csomagolja ki az új verziót a jelenlegi fölé.</translation>
+        <source>Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
+        <translation>A Master Board nem tudja lecserélni a fájljait ebben a mappában. Megnyílik a letöltési oldal: csomagolja ki az új verziót a jelenlegi fölé.</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -4111,8 +4111,8 @@ Letölti és telepíti most? A LibertyBoard menti a dokumentumait, bezárul, maj
     </message>
     <message>
         <location line="-142"/>
-        <source>LibertyBoard (*.ubz)</source>
-        <translation>LibertyBoard (*.ubz)</translation>
+        <source>Master Board (*.ubz)</source>
+        <translation>Master Board (*.ubz)</translation>
     </message>
 </context>
 <context>
@@ -4120,7 +4120,7 @@ Letölti és telepíti most? A LibertyBoard menti a dokumentumait, bezárul, maj
     <message>
         <location filename="../../src/adaptors/UBImportDocumentSetAdaptor.cpp" line="+71"/>
         <source>Openboard (set of documents) (*.ubx)</source>
-        <translation>LibertyBoard (dokumentumkészlet) (*.ubx)</translation>
+        <translation>Master Board (dokumentumkészlet) (*.ubx)</translation>
     </message>
 </context>
 <context>
@@ -4536,7 +4536,7 @@ Letölti és telepíti most? A LibertyBoard menti a dokumentumait, bezárul, maj
     </message>
     <message>
         <location line="+8"/>
-        <source>LibertyBoard was created by Luis, known on YouTube as «Inversor Chileno».</source>
+        <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
         <translation>A LibertyBoardot Luis készítette, akit a YouTube-on „Inversor Chileno” néven ismernek.</translation>
     </message>
     <message>
@@ -4551,12 +4551,12 @@ Letölti és telepíti most? A LibertyBoard menti a dokumentumait, bezárul, maj
     </message>
     <message>
         <location line="+2"/>
-        <source>The curious thing is that I know nothing about writing code. I built LibertyBoard with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
+        <source>The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
         <translation>Az érdekes az, hogy egyáltalán nem tudok programozni. A LibertyBoardot Claude, egy mesterséges intelligencia segítségével építettem: én hoztam az ötleteket, Claude pedig programmá alakította őket. Ha világosak az ötleteid, és jól meg tudod fogalmazni őket egy promptban, te is létrehozhatod, amit elképzelsz.</translation>
     </message>
     <message>
-        <source>LibertyBoard is free software (GPLv3 license), like OpenBoard.</source>
-        <translation type="vanished">A LibertyBoard szabad szoftver (GPLv3 licenc), akárcsak az OpenBoard.</translation>
+        <source>Master Board is free software (GPLv3 license), like OpenBoard.</source>
+        <translation type="vanished">A Master Board szabad szoftver (GPLv3 licenc), akárcsak az OpenBoard.</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -4594,8 +4594,8 @@ Letölti és telepíti most? A LibertyBoard menti a dokumentumait, bezárul, maj
         <translation type="vanished">Hangfelvétel átírása (az MI-vel érkezik)</translation>
     </message>
     <message>
-        <source>Writes what is said in a recording; it will come with the AI of LibertyBoard</source>
-        <translation type="vanished">Leírja, ami egy felvételen elhangzik; a LibertyBoard MI-jével érkezik</translation>
+        <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
+        <translation type="vanished">Leírja, ami egy felvételen elhangzik; a Master Board MI-jével érkezik</translation>
     </message>
     <message>
         <location line="-241"/>
@@ -4609,8 +4609,8 @@ Letölti és telepíti most? A LibertyBoard menti a dokumentumait, bezárul, maj
     </message>
     <message>
         <location line="+18"/>
-        <source>LibertyBoard on GitHub</source>
-        <translation>LibertyBoard a GitHubon</translation>
+        <source>Master Board on GitHub</source>
+        <translation>Master Board a GitHubon</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -5052,8 +5052,8 @@ Később is megteheti: Kezdőlap &gt; Szöveg felismerése.</translation>
         <translation type="vanished">Ezen ablak megjelenítése a következő alkalommal</translation>
     </message>
     <message>
-        <source>You can always access the LibertyBoard Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current LibertyBoard documents.</source>
-        <translation type="vanished">Mindig elérheti az LibertyBoard Importálót a Tulajdonságok panelen a Rólunk fülön. Figyelem, ha már importálta az Open-Sankoré adatait, elveszítheti az aktuális LibertyBoard dokuemntumait.</translation>
+        <source>You can always access the Master Board Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current Master Board documents.</source>
+        <translation type="vanished">Mindig elérheti az Master Board Importálót a Tulajdonságok panelen a Rólunk fülön. Figyelem, ha már importálta az Open-Sankoré adatait, elveszítheti az aktuális Master Board dokuemntumait.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -5064,7 +5064,7 @@ Később is megteheti: Kezdőlap &gt; Szöveg felismerése.</translation>
         <translation type="vanished">Folytatás</translation>
     </message>
     <message>
-        <source>Open-Sankoré documents are present on your computer. It is possible to import them to LibertyBoard by pressing the “Proceed” button to launch the importer application.</source>
+        <source>Open-Sankoré documents are present on your computer. It is possible to import them to Master Board by pressing the “Proceed” button to launch the importer application.</source>
         <translation type="vanished">Open-Sankoré dokumentumok vannak a számítógépén. Importálásuk az LibertyBoardba, a &quot;FOLYTATÁS&quot; gombra kattintva, az elinduló importáló alkalmazással lehetséges.</translation>
     </message>
 </context>
@@ -5413,8 +5413,8 @@ Dinamikus szélesség</translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>LibertyBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation>Az LibertyBoard elvesztette a hozzáférést a(z) „%1” dokumentumtárához. Sajnos az alkalmazást le kell állítani az adatvesztés elkerülése érdekében. A legújabb változások is elveszhetnek.</translation>
+        <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <translation>Az Master Board elvesztette a hozzáférést a(z) „%1” dokumentumtárához. Sajnos az alkalmazást le kell állítani az adatvesztés elkerülése érdekében. A legújabb változások is elveszhetnek.</translation>
     </message>
     <message>
         <location line="-247"/>
@@ -5534,8 +5534,8 @@ Dinamikus szélesség</translation>
     </message>
     <message>
         <location line="-575"/>
-        <source>LibertyBoard Cast</source>
-        <translation>LibertyBoard cast</translation>
+        <source>Master Board Cast</source>
+        <translation>Master Board cast</translation>
     </message>
 </context>
 <context>
@@ -5552,17 +5552,17 @@ Dinamikus szélesség</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>The new language is used the next time LibertyBoard starts.</source>
-        <translation>Az új nyelv a LibertyBoard következő indításakor lép életbe.</translation>
+        <source>The new language is used the next time Master Board starts.</source>
+        <translation>Az új nyelv a Master Board következő indításakor lép életbe.</translation>
     </message>
     <message>
         <location line="+19"/>
-        <location line="+327"/>
+        <location line="+328"/>
         <source>General</source>
         <translation>Általános</translation>
     </message>
     <message>
-        <location line="-324"/>
+        <location line="-325"/>
         <source>Pressure of the pen</source>
         <translation>Tollnyomás</translation>
     </message>
@@ -5573,12 +5573,12 @@ Dinamikus szélesség</translation>
     </message>
     <message>
         <location line="+25"/>
-        <location line="+279"/>
+        <location line="+280"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-270"/>
+        <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5639,7 +5639,7 @@ Dinamikus szélesség</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5648,7 +5648,7 @@ Dinamikus szélesség</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+23"/>
         <location line="+262"/>
         <source>Version %1</source>
         <translation type="unfinished"></translation>
@@ -5660,7 +5660,7 @@ Dinamikus szélesség</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
+        <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5720,7 +5720,7 @@ Dinamikus szélesség</translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>About LibertyBoard</source>
+        <source>About Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6627,18 +6627,18 @@ Dinamikus szélesség</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>LibertyBoard uses it to select all the text of a text box.</source>
+        <source>Master Board uses it to select all the text of a text box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>LibertyBoard uses it to open the menu «%1».</source>
+        <source>Master Board uses it to open the menu «%1».</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
-        <source>LibertyBoard already uses it for «%1». Remove it there first.</source>
+        <source>Master Board already uses it for «%1». Remove it there first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7661,8 +7661,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-84"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
 </context>
 <context>
@@ -7750,8 +7750,8 @@ p, li { white-space: pre-wrap; }
     <name>documents</name>
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
-        <source>LibertyBoard Documents</source>
-        <translation>LibertyBoard Dokumentumok</translation>
+        <source>Master Board Documents</source>
+        <translation>Master Board Dokumentumok</translation>
     </message>
     <message>
         <location line="+64"/>

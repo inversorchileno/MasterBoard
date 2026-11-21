@@ -1218,23 +1218,23 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-2010"/>
         <location line="+686"/>
         <location line="+3"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="-319"/>
-        <source>Quit LibertyBoard</source>
-        <translation>Εξοδος από το LibertyBoard</translation>
+        <source>Quit Master Board</source>
+        <translation>Εξοδος από το Master Board</translation>
     </message>
     <message>
         <location line="+1679"/>
-        <source>Hide LibertyBoard</source>
-        <translation>Απόκρυψη του LibertyBoard</translation>
+        <source>Hide Master Board</source>
+        <translation>Απόκρυψη του Master Board</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Hide LibertyBoard Application</source>
-        <translation>Απόκρυψη της εφαρμογής LibertyBoard</translation>
+        <source>Hide Master Board Application</source>
+        <translation>Απόκρυψη της εφαρμογής Master Board</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -1982,7 +1982,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">Βίντεο</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -2519,8 +2519,8 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-419"/>
-        <source>Show LibertyBoard</source>
-        <translation>Εμφάνιση LibertyBoard</translation>
+        <source>Show Master Board</source>
+        <translation>Εμφάνιση Master Board</translation>
     </message>
 </context>
 <context>
@@ -2598,7 +2598,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-1250"/>
-        <source>LibertyBoard could not recover this file. Please delete it or contact your administrator for help</source>
+        <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2688,8 +2688,8 @@ Do you wish to override the security check and continue ?   </source>
         </translation>
     </message>
     <message>
-        <source>The document &apos;%1&apos; has been generated with a newer version of LibertyBoard (%2). By opening it, you may lose some information. Do you want to proceed?</source>
-        <translation type="vanished">Το έγγραφο &apos;%1&apos; έχει δημιουργηθεί με μια νεότερη έκδοση του LibertyBoard (%2). Αν το ανοίξετε, μπορεί να χάσετε κάποιες πληροφορίες. Θέλετε να συνεχίσετε;</translation>
+        <source>The document &apos;%1&apos; has been generated with a newer version of Master Board (%2). By opening it, you may lose some information. Do you want to proceed?</source>
+        <translation type="vanished">Το έγγραφο &apos;%1&apos; έχει δημιουργηθεί με μια νεότερη έκδοση του Master Board (%2). Αν το ανοίξετε, μπορεί να χάσετε κάποιες πληροφορίες. Θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
         <source>Title page</source>
@@ -2959,8 +2959,8 @@ Providing a new name will create a new document.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>LibertyBoard stopped without closing. Open again the %1 documents that were open?</source>
-        <translation>Το LibertyBoard σταμάτησε χωρίς να κλείσει. Να ανοίξουν ξανά τα %1 έγγραφα που ήταν ανοιχτά;</translation>
+        <source>Master Board stopped without closing. Open again the %1 documents that were open?</source>
+        <translation>Το Master Board σταμάτησε χωρίς να κλείσει. Να ανοίξουν ξανά τα %1 έγγραφα που ήταν ανοιχτά;</translation>
     </message>
 </context>
 <context>
@@ -3272,8 +3272,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Export to LibertyBoard Format</source>
-        <translation>Εξαγωγή σε μορφή LibertyBoard</translation>
+        <source>Export to Master Board Format</source>
+        <translation>Εξαγωγή σε μορφή Master Board</translation>
     </message>
 </context>
 <context>
@@ -3307,8 +3307,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+46"/>
-        <source>Export to LibertyBoard UBX Format</source>
-        <translation>Εξαγωγή σε μορφή LibertyBoard UBX</translation>
+        <source>Export to Master Board UBX Format</source>
+        <translation>Εξαγωγή σε μορφή Master Board UBX</translation>
     </message>
 </context>
 <context>
@@ -3326,8 +3326,8 @@ Do you want to continue?</source>
     <message>
         <location line="-56"/>
         <location line="+14"/>
-        <source>The original PDF imported in LibertyBoard seems not valid and could not be merged with your annotations. Please repair it and then reimport it in LibertyBoard. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation>Το αρχικό PDF που εισήχθη στο LibertyBoard δεν φαίνεται έγκυρο και δεν ήταν δυνατή η συγχώνευσή του με τους σχολιασμούς σας. Παρακαλώ διορθώστε το και ύστερα εισάγετέ το ξανά στο LibertyBoard. Η τρέχουσα εξαγωγή θα γίνει με (εξαιρετικά) λεπτομερείς εικόνες των σελίδων του αρχικού PDF, για να αποφευχθεί η πλήρης αποτυχία εξαγωγής.</translation>
+        <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
+        <translation>Το αρχικό PDF που εισήχθη στο Master Board δεν φαίνεται έγκυρο και δεν ήταν δυνατή η συγχώνευσή του με τους σχολιασμούς σας. Παρακαλώ διορθώστε το και ύστερα εισάγετέ το ξανά στο Master Board. Η τρέχουσα εξαγωγή θα γίνει με (εξαιρετικά) λεπτομερείς εικόνες των σελίδων του αρχικού PDF, για να αποφευχθεί η πλήρης αποτυχία εξαγωγής.</translation>
     </message>
 </context>
 <context>
@@ -3550,7 +3550,7 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>You are using LibertyBoard %1.</source>
+        <source>You are using Master Board %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3573,29 +3573,29 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-184"/>
-        <source>LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
-        <translation>Το LibertyBoard δεν μπόρεσε να συνδεθεί στο GitHub για να αναζητήσει νέα έκδοση. Ελέγξτε τη σύνδεση στο διαδίκτυο και δοκιμάστε ξανά.</translation>
+        <source>Master Board could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
+        <translation>Το Master Board δεν μπόρεσε να συνδεθεί στο GitHub για να αναζητήσει νέα έκδοση. Ελέγξτε τη σύνδεση στο διαδίκτυο και δοκιμάστε ξανά.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>You have the latest version of LibertyBoard.</source>
-        <translation>Έχετε την τελευταία έκδοση του LibertyBoard.</translation>
+        <source>You have the latest version of Master Board.</source>
+        <translation>Έχετε την τελευταία έκδοση του Master Board.</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
-Download and install it now? LibertyBoard saves your documents, closes and opens again.</source>
-        <translation>Υπάρχει νέα έκδοση του LibertyBoard (έκδοση %1).
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>Υπάρχει νέα έκδοση του Master Board (έκδοση %1).
 
-Λήψη και εγκατάσταση τώρα; Το LibertyBoard αποθηκεύει τα έγγραφά σας, κλείνει και ανοίγει ξανά.</translation>
+Λήψη και εγκατάσταση τώρα; Το Master Board αποθηκεύει τα έγγραφά σας, κλείνει και ανοίγει ξανά.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3619,8 +3619,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+21"/>
-        <source>LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
-        <translation>Το LibertyBoard δεν μπορεί να αντικαταστήσει τα αρχεία του σε αυτόν τον φάκελο. Ανοίγει η σελίδα λήψης: αποσυμπιέστε τη νέα έκδοση πάνω στην τρέχουσα.</translation>
+        <source>Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
+        <translation>Το Master Board δεν μπορεί να αντικαταστήσει τα αρχεία του σε αυτόν τον φάκελο. Ανοίγει η σελίδα λήψης: αποσυμπιέστε τη νέα έκδοση πάνω στην τρέχουσα.</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -4045,8 +4045,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="-142"/>
-        <source>LibertyBoard (*.ubz)</source>
-        <translation>LibertyBoard (*.ubz)</translation>
+        <source>Master Board (*.ubz)</source>
+        <translation>Master Board (*.ubz)</translation>
     </message>
 </context>
 <context>
@@ -4470,8 +4470,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+8"/>
-        <source>LibertyBoard was created by Luis, known on YouTube as «Inversor Chileno».</source>
-        <translation>Το LibertyBoard δημιουργήθηκε από τον Luis, γνωστό στο YouTube ως «Inversor Chileno».</translation>
+        <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
+        <translation>Το Master Board δημιουργήθηκε από τον Luis, γνωστό στο YouTube ως «Inversor Chileno».</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4485,12 +4485,12 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+2"/>
-        <source>The curious thing is that I know nothing about writing code. I built LibertyBoard with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
-        <translation>Το περίεργο είναι ότι δεν ξέρω τίποτα από γράψιμο κώδικα. Έφτιαξα το LibertyBoard με τη βοήθεια του Claude, μιας τεχνητής νοημοσύνης: εγώ έφερνα τις ιδέες και ο Claude τις έκανε πρόγραμμα. Αν οι ιδέες σας είναι ξεκάθαρες και ξέρετε να τις γράψετε σε ένα καλό prompt, μπορείτε κι εσείς να δημιουργήσετε ό,τι φαντάζεστε.</translation>
+        <source>The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
+        <translation>Το περίεργο είναι ότι δεν ξέρω τίποτα από γράψιμο κώδικα. Έφτιαξα το Master Board με τη βοήθεια του Claude, μιας τεχνητής νοημοσύνης: εγώ έφερνα τις ιδέες και ο Claude τις έκανε πρόγραμμα. Αν οι ιδέες σας είναι ξεκάθαρες και ξέρετε να τις γράψετε σε ένα καλό prompt, μπορείτε κι εσείς να δημιουργήσετε ό,τι φαντάζεστε.</translation>
     </message>
     <message>
-        <source>LibertyBoard is free software (GPLv3 license), like OpenBoard.</source>
-        <translation type="vanished">Το LibertyBoard είναι ελεύθερο λογισμικό (άδεια GPLv3), όπως και το OpenBoard.</translation>
+        <source>Master Board is free software (GPLv3 license), like OpenBoard.</source>
+        <translation type="vanished">Το Master Board είναι ελεύθερο λογισμικό (άδεια GPLv3), όπως και το OpenBoard.</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -4528,8 +4528,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation type="vanished">Απομαγνητοφώνηση ήχου (θα έρθει με την ΤΝ)</translation>
     </message>
     <message>
-        <source>Writes what is said in a recording; it will come with the AI of LibertyBoard</source>
-        <translation type="vanished">Γράφει ό,τι λέγεται σε μια ηχογράφηση· θα έρθει με την ΤΝ του LibertyBoard</translation>
+        <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
+        <translation type="vanished">Γράφει ό,τι λέγεται σε μια ηχογράφηση· θα έρθει με την ΤΝ του Master Board</translation>
     </message>
     <message>
         <location line="-241"/>
@@ -4543,8 +4543,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+18"/>
-        <source>LibertyBoard on GitHub</source>
-        <translation>Το LibertyBoard στο GitHub</translation>
+        <source>Master Board on GitHub</source>
+        <translation>Το Master Board στο GitHub</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -4986,16 +4986,16 @@ It can also be done later with Home &gt; Recognize text.</source>
         <translation type="vanished">Εντοπίστηκαν έγγραφα Open-Sankore</translation>
     </message>
     <message>
-        <source>Open-Sankoré documents are present on your computer. It is possible to import them to LibertyBoard by pressing the “Proceed” button to launch the importer application.</source>
-        <translation type="vanished">Υπάρχουν έγγραφα Open-Sankoré στον υπολογιστή σας. Είναι δυνατή η εισαγωγή τους στο LibertyBoard πατώντας το κουμπί “Συνέχεια” για να ξεκινήσει η εφαρμογή importer.</translation>
+        <source>Open-Sankoré documents are present on your computer. It is possible to import them to Master Board by pressing the “Proceed” button to launch the importer application.</source>
+        <translation type="vanished">Υπάρχουν έγγραφα Open-Sankoré στον υπολογιστή σας. Είναι δυνατή η εισαγωγή τους στο Master Board πατώντας το κουμπί “Συνέχεια” για να ξεκινήσει η εφαρμογή importer.</translation>
     </message>
     <message>
         <source>Show this panel next time</source>
         <translation type="vanished">Εμφάνιση την επόμενη φορά</translation>
     </message>
     <message>
-        <source>You can always access the LibertyBoard Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current LibertyBoard documents.</source>
-        <translation type="vanished">Μπορείτε πάντα να έχετε πρόσβαση στο LibertyBoard Document Importer μέσω του πίνακα Προτιμήσεις στην καρτέλα Πληροφορίες. Προειδοποίηση, εάν έχετε ήδη εισάγει τα δεδομένα Open-Sankore σας, ενδέχεται να χάσετε τα τρέχοντα έγγραφα LibertyBoard.</translation>
+        <source>You can always access the Master Board Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current Master Board documents.</source>
+        <translation type="vanished">Μπορείτε πάντα να έχετε πρόσβαση στο Master Board Document Importer μέσω του πίνακα Προτιμήσεις στην καρτέλα Πληροφορίες. Προειδοποίηση, εάν έχετε ήδη εισάγει τα δεδομένα Open-Sankore σας, ενδέχεται να χάσετε τα τρέχοντα έγγραφα Master Board.</translation>
     </message>
     <message>
         <source>Proceed</source>
@@ -5339,8 +5339,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>LibertyBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation>Το LibertyBoard έχασε την πρόσβαση στο αποθετήριο εγγράφων &apos;%1&apos;. Δυστυχώς, η εφαρμογή πρέπει να τερματιστεί για να αποφευχθεί η καταστροφή των δεδομένων. Οι τελευταίες αλλαγές μπορεί επίσης να χαθούν.</translation>
+        <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <translation>Το Master Board έχασε την πρόσβαση στο αποθετήριο εγγράφων &apos;%1&apos;. Δυστυχώς, η εφαρμογή πρέπει να τερματιστεί για να αποφευχθεί η καταστροφή των δεδομένων. Οι τελευταίες αλλαγές μπορεί επίσης να χαθούν.</translation>
     </message>
     <message>
         <location line="-247"/>
@@ -5460,8 +5460,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="-575"/>
-        <source>LibertyBoard Cast</source>
-        <translation>LibertyBoard Cast</translation>
+        <source>Master Board Cast</source>
+        <translation>Master Board Cast</translation>
     </message>
 </context>
 <context>
@@ -5478,17 +5478,17 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>The new language is used the next time LibertyBoard starts.</source>
-        <translation>Η νέα γλώσσα θα χρησιμοποιηθεί την επόμενη φορά που θα ξεκινήσει το LibertyBoard.</translation>
+        <source>The new language is used the next time Master Board starts.</source>
+        <translation>Η νέα γλώσσα θα χρησιμοποιηθεί την επόμενη φορά που θα ξεκινήσει το Master Board.</translation>
     </message>
     <message>
         <location line="+19"/>
-        <location line="+327"/>
+        <location line="+328"/>
         <source>General</source>
         <translation>Γενικά</translation>
     </message>
     <message>
-        <location line="-324"/>
+        <location line="-325"/>
         <source>Pressure of the pen</source>
         <translation>Πίεση γραφίδας</translation>
     </message>
@@ -5499,12 +5499,12 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+25"/>
-        <location line="+279"/>
+        <location line="+280"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-270"/>
+        <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5565,7 +5565,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5574,7 +5574,7 @@ Dynamic width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+23"/>
         <location line="+262"/>
         <source>Version %1</source>
         <translation type="unfinished"></translation>
@@ -5586,7 +5586,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
+        <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5646,7 +5646,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>About LibertyBoard</source>
+        <source>About Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6553,18 +6553,18 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+5"/>
-        <source>LibertyBoard uses it to select all the text of a text box.</source>
+        <source>Master Board uses it to select all the text of a text box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>LibertyBoard uses it to open the menu «%1».</source>
+        <source>Master Board uses it to open the menu «%1».</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
-        <source>LibertyBoard already uses it for «%1». Remove it there first.</source>
+        <source>Master Board already uses it for «%1». Remove it there first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7583,8 +7583,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-57"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="+84"/>
@@ -7677,8 +7677,8 @@ p, li { white-space: pre-wrap; }
     <name>documents</name>
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
-        <source>LibertyBoard Documents</source>
-        <translation>Εγγραφα LibertyBoard</translation>
+        <source>Master Board Documents</source>
+        <translation>Εγγραφα Master Board</translation>
     </message>
     <message>
         <location line="+64"/>

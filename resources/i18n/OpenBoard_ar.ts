@@ -1216,22 +1216,22 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-2055"/>
         <location line="+686"/>
         <location line="+3"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="-319"/>
-        <source>Quit LibertyBoard</source>
+        <source>Quit Master Board</source>
         <translation>مغادرة فتح Sankoré</translation>
     </message>
     <message>
         <location line="+1679"/>
-        <source>Hide LibertyBoard</source>
+        <source>Hide Master Board</source>
         <translation>إخفاء فتح Sankoré</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Hide LibertyBoard Application</source>
+        <source>Hide Master Board Application</source>
         <translation>إخفاء تطبيق فتح Sankoré</translation>
     </message>
     <message>
@@ -1976,7 +1976,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">بودكاست</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+393"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
         <location line="+48"/>
         <location line="+221"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
@@ -2514,8 +2514,8 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-419"/>
-        <source>Show LibertyBoard</source>
-        <translation>إظهار LibertyBoard</translation>
+        <source>Show Master Board</source>
+        <translation>إظهار Master Board</translation>
     </message>
 </context>
 <context>
@@ -2593,7 +2593,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-1250"/>
-        <source>LibertyBoard could not recover this file. Please delete it or contact your administrator for help</source>
+        <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2944,8 +2944,8 @@ Providing a new name will create a new document.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>LibertyBoard stopped without closing. Open again the %1 documents that were open?</source>
-        <translation>توقف LibertyBoard دون أن يُغلق. هل تريد فتح المستندات الـ %1 التي كانت مفتوحة مرة أخرى؟</translation>
+        <source>Master Board stopped without closing. Open again the %1 documents that were open?</source>
+        <translation>توقف Master Board دون أن يُغلق. هل تريد فتح المستندات الـ %1 التي كانت مفتوحة مرة أخرى؟</translation>
     </message>
 </context>
 <context>
@@ -3263,8 +3263,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Export to LibertyBoard Format</source>
-        <translation>تصدير بتنسيق LibertyBoard</translation>
+        <source>Export to Master Board Format</source>
+        <translation>تصدير بتنسيق Master Board</translation>
     </message>
 </context>
 <context>
@@ -3298,8 +3298,8 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+62"/>
-        <source>Export to LibertyBoard UBX Format</source>
-        <translation>تصدير بتنسيق LibertyBoard UBX</translation>
+        <source>Export to Master Board UBX Format</source>
+        <translation>تصدير بتنسيق Master Board UBX</translation>
     </message>
 </context>
 <context>
@@ -3317,7 +3317,7 @@ Do you want to continue?</source>
     <message>
         <location line="-56"/>
         <location line="+14"/>
-        <source>The original PDF imported in LibertyBoard seems not valid and could not be merged with your annotations. Please repair it and then reimport it in LibertyBoard. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
+        <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3541,7 +3541,7 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>You are using LibertyBoard %1.</source>
+        <source>You are using Master Board %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3564,29 +3564,29 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-184"/>
-        <source>LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
-        <translation>تعذّر على LibertyBoard الاتصال بـ GitHub للبحث عن إصدار جديد. تحقق من الاتصال بالإنترنت وحاول مجددًا.</translation>
+        <source>Master Board could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
+        <translation>تعذّر على Master Board الاتصال بـ GitHub للبحث عن إصدار جديد. تحقق من الاتصال بالإنترنت وحاول مجددًا.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>You have the latest version of LibertyBoard.</source>
-        <translation>لديك أحدث إصدار من LibertyBoard.</translation>
+        <source>You have the latest version of Master Board.</source>
+        <translation>لديك أحدث إصدار من Master Board.</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
-Download and install it now? LibertyBoard saves your documents, closes and opens again.</source>
-        <translation>يتوفر إصدار جديد من LibertyBoard (الإصدار %1).
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>يتوفر إصدار جديد من Master Board (الإصدار %1).
 
-هل تريد تنزيله وتثبيته الآن؟ سيحفظ LibertyBoard مستنداتك ثم يُغلق ويُفتح من جديد.</translation>
+هل تريد تنزيله وتثبيته الآن؟ سيحفظ Master Board مستنداتك ثم يُغلق ويُفتح من جديد.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3610,8 +3610,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+21"/>
-        <source>LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
-        <translation>لا يمكن لـ LibertyBoard استبدال ملفاته في هذا المجلد. ستُفتح صفحة التنزيل: فك ضغط الإصدار الجديد فوق الإصدار الحالي.</translation>
+        <source>Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
+        <translation>لا يمكن لـ Master Board استبدال ملفاته في هذا المجلد. ستُفتح صفحة التنزيل: فك ضغط الإصدار الجديد فوق الإصدار الحالي.</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -4036,8 +4036,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="-142"/>
-        <source>LibertyBoard (*.ubz)</source>
-        <translation>LibertyBoard (*.ubz)</translation>
+        <source>Master Board (*.ubz)</source>
+        <translation>Master Board (*.ubz)</translation>
     </message>
 </context>
 <context>
@@ -4461,8 +4461,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+8"/>
-        <source>LibertyBoard was created by Luis, known on YouTube as «Inversor Chileno».</source>
-        <translation>أنشأ لويس، المعروف على يوتيوب باسم «Inversor Chileno»، برنامج LibertyBoard.</translation>
+        <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
+        <translation>أنشأ لويس، المعروف على يوتيوب باسم «Inversor Chileno»، برنامج Master Board.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4476,12 +4476,12 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+2"/>
-        <source>The curious thing is that I know nothing about writing code. I built LibertyBoard with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
-        <translation>الطريف أنني لا أعرف شيئًا عن كتابة الشيفرة. بنيت LibertyBoard بمساعدة Claude، وهو ذكاء اصطناعي: كنت أقدّم الأفكار وكان Claude يحوّلها إلى برنامج. إذا كانت أفكارك واضحة وكنت تعرف كيف تكتبها في موجّه جيد، فبإمكانك أنت أيضًا أن تصنع ما تتخيله.</translation>
+        <source>The curious thing is that I know nothing about writing code. I built Master Board with the help of Claude, an artificial intelligence: I brought the ideas and Claude turned them into a program. If your ideas are clear and you know how to write them in a good prompt, you too can create what you imagine.</source>
+        <translation>الطريف أنني لا أعرف شيئًا عن كتابة الشيفرة. بنيت Master Board بمساعدة Claude، وهو ذكاء اصطناعي: كنت أقدّم الأفكار وكان Claude يحوّلها إلى برنامج. إذا كانت أفكارك واضحة وكنت تعرف كيف تكتبها في موجّه جيد، فبإمكانك أنت أيضًا أن تصنع ما تتخيله.</translation>
     </message>
     <message>
-        <source>LibertyBoard is free software (GPLv3 license), like OpenBoard.</source>
-        <translation type="vanished">LibertyBoard برنامج حر (رخصة GPLv3)، مثل OpenBoard.</translation>
+        <source>Master Board is free software (GPLv3 license), like OpenBoard.</source>
+        <translation type="vanished">Master Board برنامج حر (رخصة GPLv3)، مثل OpenBoard.</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -4519,8 +4519,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
         <translation type="vanished">تفريغ تسجيل صوتي (سيأتي مع الذكاء الاصطناعي)</translation>
     </message>
     <message>
-        <source>Writes what is said in a recording; it will come with the AI of LibertyBoard</source>
-        <translation type="vanished">يكتب ما يُقال في تسجيل؛ سيأتي مع الذكاء الاصطناعي في LibertyBoard</translation>
+        <source>Writes what is said in a recording; it will come with the AI of Master Board</source>
+        <translation type="vanished">يكتب ما يُقال في تسجيل؛ سيأتي مع الذكاء الاصطناعي في Master Board</translation>
     </message>
     <message>
         <location line="-241"/>
@@ -4534,8 +4534,8 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+18"/>
-        <source>LibertyBoard on GitHub</source>
-        <translation>LibertyBoard على GitHub</translation>
+        <source>Master Board on GitHub</source>
+        <translation>Master Board على GitHub</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -5304,7 +5304,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>LibertyBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5425,8 +5425,8 @@ Dynamic width</source>
     </message>
     <message>
         <location line="-575"/>
-        <source>LibertyBoard Cast</source>
-        <translation>LibertyBoard Cast</translation>
+        <source>Master Board Cast</source>
+        <translation>Master Board Cast</translation>
     </message>
 </context>
 <context>
@@ -5443,17 +5443,17 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>The new language is used the next time LibertyBoard starts.</source>
-        <translation>تُستخدم اللغة الجديدة عند تشغيل LibertyBoard في المرة القادمة.</translation>
+        <source>The new language is used the next time Master Board starts.</source>
+        <translation>تُستخدم اللغة الجديدة عند تشغيل Master Board في المرة القادمة.</translation>
     </message>
     <message>
         <location line="+19"/>
-        <location line="+327"/>
+        <location line="+328"/>
         <source>General</source>
         <translation>عام</translation>
     </message>
     <message>
-        <location line="-324"/>
+        <location line="-325"/>
         <source>Pressure of the pen</source>
         <translation>ضغط القلم</translation>
     </message>
@@ -5464,12 +5464,12 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+25"/>
-        <location line="+279"/>
+        <location line="+280"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-270"/>
+        <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5530,7 +5530,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time LibertyBoard starts.</source>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5539,7 +5539,7 @@ Dynamic width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+23"/>
         <location line="+262"/>
         <source>Version %1</source>
         <translation type="unfinished"></translation>
@@ -5551,7 +5551,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>LibertyBoard %1. To look for a new version now: About &gt; Update.</source>
+        <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5611,7 +5611,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>About LibertyBoard</source>
+        <source>About Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6518,18 +6518,18 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+5"/>
-        <source>LibertyBoard uses it to select all the text of a text box.</source>
+        <source>Master Board uses it to select all the text of a text box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>LibertyBoard uses it to open the menu «%1».</source>
+        <source>Master Board uses it to open the menu «%1».</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
-        <source>LibertyBoard already uses it for «%1». Remove it there first.</source>
+        <source>Master Board already uses it for «%1». Remove it there first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7545,8 +7545,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-57"/>
-        <source>LibertyBoard</source>
-        <translation>LibertyBoard</translation>
+        <source>Master Board</source>
+        <translation>Master Board</translation>
     </message>
     <message>
         <location line="+84"/>
@@ -7639,8 +7639,8 @@ p, li { white-space: pre-wrap; }
     <name>documents</name>
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
-        <source>LibertyBoard Documents</source>
-        <translation>مستندات LibertyBoard</translation>
+        <source>Master Board Documents</source>
+        <translation>مستندات Master Board</translation>
     </message>
     <message>
         <location line="+64"/>

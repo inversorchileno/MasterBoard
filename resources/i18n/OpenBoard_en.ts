@@ -164,7 +164,7 @@ Do you wish to override the security check and continue ?   </source>
         <location filename="../forms/mainWindow.ui" line="+14"/>
         <location line="+686"/>
         <location line="+3"/>
-        <source>LibertyBoard</source>
+        <source>Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -298,7 +298,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Quit LibertyBoard</source>
+        <source>Quit Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1115,12 +1115,12 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="+9"/>
-        <source>Hide LibertyBoard</source>
+        <source>Hide Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Hide LibertyBoard Application</source>
+        <source>Hide Master Board Application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1735,7 +1735,7 @@ Do you wish to override the security check and continue ?   </source>
     <name>UBDesktopPalette</name>
     <message>
         <location filename="../../src/desktop/UBDesktopPalette.cpp" line="+69"/>
-        <source>Show LibertyBoard</source>
+        <source>Show Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1908,7 +1908,7 @@ Do you wish to override the security check and continue ?   </source>
     </message>
     <message>
         <location line="-587"/>
-        <source>LibertyBoard could not recover this file. Please delete it or contact your administrator for help</source>
+        <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2385,7 +2385,7 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Export to LibertyBoard Format</source>
+        <source>Export to Master Board Format</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2420,7 +2420,7 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+46"/>
-        <source>Export to LibertyBoard UBX Format</source>
+        <source>Export to Master Board UBX Format</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2439,7 +2439,7 @@ Do you want to continue?</source>
     <message>
         <location line="-50"/>
         <location line="+14"/>
-        <source>The original PDF imported in LibertyBoard seems not valid and could not be merged with your annotations. Please repair it and then reimport it in LibertyBoard. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
+        <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2662,19 +2662,19 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-164"/>
-        <source>LibertyBoard could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
+        <source>Master Board could not reach GitHub to look for a new version. Check the internet connection and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>You have the latest version of LibertyBoard.</source>
+        <source>You have the latest version of Master Board.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>A new version of LibertyBoard is available (build %1).
+        <source>A new version of Master Board is available (build %1).
 
-Download and install it now? LibertyBoard saves your documents, closes and opens again.</source>
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2699,7 +2699,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+21"/>
-        <source>LibertyBoard cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
+        <source>Master Board cannot replace its own files in this folder. The download page opens: unzip the new version over the current one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2963,7 +2963,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     <name>UBImportDocument</name>
     <message>
         <location filename="../../src/adaptors/UBImportDocument.cpp" line="+73"/>
-        <source>LibertyBoard (*.ubz)</source>
+        <source>Master Board (*.ubz)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3175,7 +3175,7 @@ Download and install it now? LibertyBoard saves your documents, closes and opens
     </message>
     <message>
         <location line="+5"/>
-        <source>LibertyBoard on GitHub</source>
+        <source>Master Board on GitHub</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3445,7 +3445,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>LibertyBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3496,7 +3496,7 @@ Dynamic width</source>
     <name>UBPodcastController</name>
     <message>
         <location filename="../../src/podcast/UBPodcastController.cpp" line="+371"/>
-        <source>LibertyBoard Cast</source>
+        <source>Master Board Cast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3584,7 +3584,7 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>The new language is used the next time LibertyBoard starts.</source>
+        <source>The new language is used the next time Master Board starts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4568,7 +4568,7 @@ Do you want to reload the page ?</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>LibertyBoard</source>
+        <source>Master Board</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4686,7 +4686,7 @@ p, li { white-space: pre-wrap; }
     <name>documents</name>
     <message>
         <location filename="../forms/documents.ui" line="+26"/>
-        <source>LibertyBoard Documents</source>
+        <source>Master Board Documents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
