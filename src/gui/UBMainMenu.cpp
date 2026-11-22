@@ -481,6 +481,8 @@ QAction* UBMainMenu::darkModeAction()
     if (!action)
     {
         action = new QAction(moonIcon(), tr("Dark mode"), UBApplication::mainWindow);
+        // Named, so that it gets a shortcut in About > Shortcuts.
+        action->setObjectName("actionLbDarkMode");
         action->setCheckable(true);
         action->setChecked(UBBoardView::isDarkMode());
         action->setToolTip(tr("Shows the pages with their colors inverted, to read at night without glare"));

@@ -74,6 +74,7 @@ namespace
             { "actionLbOcr", "Ctrl+Shift+Y" },
             { "actionMultiScreen", "Ctrl+F3" },
             { "actionPodcast", "Ctrl+F6" },
+            { "actionPreferences", "Ctrl+," },
             // Mode
             { "actionLbSingleBoard", "Ctrl+1" },
             { "actionLbDualBoard", "Ctrl+2" },
@@ -83,6 +84,7 @@ namespace
             { "actionRegularPageSize", "Ctrl+F9" },
             { "actionCustomPageSize", "Ctrl+F10" },
             { "actionLbDictate", "F8" },
+            { "actionLbCanvasRulers", "Ctrl+F7" },
             // About
             { "actionLbShortcuts", "Ctrl+F1" },
             { "actionLbCreator", "Ctrl+Shift+F2" },
@@ -92,6 +94,7 @@ namespace
             // Beside the menus
             { "actionLbOutline", "F7" },
             { "actionLbLock", "Ctrl+Shift+B" },
+            { "actionLbDarkMode", "Ctrl+Shift+F3" },
             // Tools
             { "actionPen", "Ctrl+Shift+P" },
             { "actionSpotlight", "Ctrl+Shift+F" },
@@ -110,7 +113,7 @@ namespace
             { "actionRectangle", "Ctrl+Shift+R" },
             { "actionBoardScreenshot", "Ctrl+Shift+C" },
             { "actionAi", "F9" },
-            { "actionMeasure", "Ctrl+Shift+D" },
+            { "actionMeasure", "Ctrl+F5" }, // Ctrl+Shift+D duplicates the selection, Ctrl+Shift+L reads aloud
             { "actionLbTranscribe", "Ctrl+F11" },
             { "actionDesktopScreenshot", "Ctrl+Shift+X" },
             { "actionDesktopClear", "Ctrl+Shift+Backspace" },
