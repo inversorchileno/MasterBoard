@@ -309,7 +309,7 @@ Luis revisó la compilación 21 y entregó «observaciones_V2.docx» con 15 punt
 
 - Pedido por Luis después de la compilación 30: el programa se llama **Master Board** en todo lo que se ve (título, menús, mensajes en los 33 idiomas, guía, README, notas de las versiones y títulos de las releases, que la compilación de Windows renombra) y tendrá un logo nuevo.
 - **Se mantienen a propósito los nombres internos**, que no se ven: `setOrganizationName`/`setApplicationName("LibertyBoard")` deciden la carpeta de los documentos y de la configuración (cambiarlos haría parecer perdidos los documentos de Luis); las claves de configuración `LibertyBoard...`, los perfiles web `LibertyBoardAi`/`LibertyBoardGifs` (sesiones de las IA y de Klipy), la marca de las plantillas (`LibertyBoard page template`), el identificador de macOS y la dirección del repositorio. El nombre mostrado viene de `setApplicationDisplayName("Master Board")`.
-- Archivos: `MasterBoard.exe`, `MasterBoard-windows.zip`, `MasterBoard.app` en `MasterBoard-macos-*.dmg`, `MasterBoard-linux-x86_64.AppImage`. El zip de Windows lleva además una copia `LibertyBoard.exe`: los accesos directos de Luis apuntan a ella, y la actualización de las versiones anteriores, que reabre `LibertyBoard.exe` tras copiar los archivos, abre así la versión nueva.
+- Archivos: `MasterBoard.exe`, `MasterBoard-windows.zip`, `MasterBoard.app` en `MasterBoard-macos-*.dmg`, `MasterBoard-linux-x86_64.AppImage`. La compilación 31 traía además una copia `LibertyBoard.exe` para los accesos directos antiguos; desde la 32 no se incluye (Luis parte de cero) y Master Board borra la que quede en su carpeta al iniciar.
 - Las notas antiguas ya no nombran los archivos de entonces (`.zip` de Windows, `.dmg`, `.AppImage`).
 
 ## Versión 2.0 (mejoras finales, sin compilar aún)
@@ -325,6 +325,17 @@ Pedidas en el Word «mejoras_finales».
 - **Podcast y Multipantalla** salen de Inicio: van al final del menú Herramientas y como botones arriba a la derecha, a la izquierda de Bloquear lienzo; no se ofrecen en las barras.
 - **Consejos y trucos** en una ventana propia (sin el marco gris de OpenBoard): barra de título con X, la página a la izquierda y el **índice** de las páginas a la derecha; 20 páginas, con una nueva de Mediciones.
 - **Mediciones** (`UBMeasureTool`, `UBStylusTool::Measure`, `actionMeasure`, Ctrl+Mayús+D), en la pizarra y en el escritorio: Distancia, Perímetro y Área. La primera vez la ventana pide la unidad (mm, cm, m, km, in, ft, yd, mi) y una línea de 1 unidad; luego Distancia se arrastra, Perímetro y Área se marcan con un clic en cada esquina y doble clic (o Enter) en la última. La ventana se mueve, tiene Reiniciar y X; elegir de nuevo la opción activa también cierra. Con otra herramienta la ventana conserva la última medida y las líneas se van. En la pizarra la referencia está en coordenadas de la página (el zoom no cambia las medidas). En el escritorio la unidad se elige dentro de la ventana (un diálogo aparte no recibe los clics) y la capa de las líneas queda bajo la barra. Probado: 3,00 cm, 4,00 cm² y 8,00 cm con una referencia de 100 px, también con zoom.
+
+## Últimas mejoras (V2.32, sin compilar aún)
+
+Pedidas en el documento «ultimas_mejoras_ahora_si».
+
+- **Versión V2.N:** `UBGitHubUpdater::versionText` da «V» + versión mayor (`version.txt`) + «.» + número de compilación (V2.31, V2.32…), en la actualización, las Preferencias, los títulos de las releases (la compilación de Windows los pone: V1.N hasta la 30, V2.N desde la 31) y las notas.
+- **Barras de opciones en columnas:** en la barra de arriba cada `UBValueSlider` es una columna (nombre, valor, barra) mediante `setStacked`; el título de sección que la precede pasa a ser su nombre (propiedad `captioned` para que no reaparezca al cambiar de modo). Se agregó «Tamaño» a los grosores sin nombre y «Opacidad» en el lápiz; el marcador decía «Avanzado».
+- **Mediciones:** referencia y distancia con dos clics; **Finalizar medida** (igual que Enter) mientras se dibuja un perímetro o área; **Modificar** después, para arrastrar las esquinas, y se termina con Enter o Finalizar medida.
+- **Medidas en lienzo** (`UBCanvasRulers`, Edición): reglas de 24 px sobre la vista, en píxeles de la página desde su esquina superior izquierda (`-ancho/2, -alto/2` en la escena, o la del PDF); el paso rotulado es el menor de 5, 10, 20, 50, 100… que deja al menos 50 px de pantalla.
+- **Tema:** al aceptar o aplicar un tema distinto del de inicio (`UBTheme::chosenAtStart`), un aviso y `UBApplication::restart`, que cierra como Salir y vuelve a abrir el programa con un ayudante que espera a que termine (PowerShell en Windows, `sh` en Linux y macOS, el AppImage si corre desde uno). Cambiar todo al instante no era seguro: muchos colores e íconos se fijan al crear cada parte.
+- **Guía del programa** (antes Consejos y trucos) y **Sobre Master Board** (antes Creador), al final del menú Acerca.
 
 ## Forma de trabajo
 

@@ -78,7 +78,8 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 
 ### Medir
 - **Mediciones**: distancia, perímetro y área, en la pizarra y en el escritorio, en milímetros, centímetros, metros, kilómetros, pulgadas, pies, yardas o millas.
-- Se dibuja una vez una línea de referencia de 1 unidad; en la pizarra el zoom no cambia las medidas.
+- Se marca una vez una línea de referencia de 1 unidad con dos clics; en la pizarra el zoom no cambia las medidas, y las esquinas de un perímetro o un área se pueden **modificar**.
+- **Medidas en lienzo** (menú Edición): reglas en píxeles arriba y a la izquierda de la página, que se ajustan al zoom.
 
 ### Inteligencia artificial
 - Herramienta **IA** con **Resumen, Traducción, Crear imagen, Quitar fondo, Borrado generativo** y **Transcribir audio**.
@@ -94,7 +95,7 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 ### A tu manera
 - Menú **Herramientas** con todas las herramientas.
 - Menú **Personalización**: elige qué botones se ven en la pizarra y en el escritorio, su orden con **Mover elementos** y su **Estilo barra** (colores, opacidad y esquinas de cuadradas a redondas).
-- **Preferencias** ordenadas por categorías, con **Tema** oscuro, blanco, gris o igual que Windows.
+- **Preferencias** ordenadas por categorías, con **Tema** oscuro, blanco, gris o igual que Windows (el programa se reinicia solo para aplicarlo).
 - **Acerca → Atajos**: todos los atajos de teclado, que se pueden cambiar, con aviso si chocan con Windows o con el programa.
 - **Guía del programa** (F1): una guía con imágenes de cada herramienta y un índice para ir a cualquier tema.
 - 33 idiomas.
