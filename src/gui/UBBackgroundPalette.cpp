@@ -6,6 +6,7 @@
 #include <QPainter>
 #include <QGraphicsView>
 #include <QFrame>
+#include "gui/UBTheme.h"
 #include <QSlider>
 
 #include "board/UBBoardController.h"
@@ -119,26 +120,6 @@ namespace
                          "QToolButton#template { background: transparent; border: 1px solid transparent; }"
                          "QToolButton#template:hover { border-color: #8c96a5; background: #ffffff; }"
                          + sliderStyle("#cfd4dc", "#2563eb", "#ffffff") };
-            case 2: // Dark with a yellow accent, as Master Board's own buttons
-                return { QColor("#2b2d31"),
-                         "QLabel { color: #f2f2f2; } QLabel#hint { color: #b4b9c2; } QCheckBox { color: #f2f2f2; }"
-                         "QFrame#separator { background: #45484f; }"
-                         "QToolButton { background: #3a3d44; color: #f2f2f2; border: 1px solid #4a4e57; border-radius: 8px; padding: 4px 8px; }"
-                         "QToolButton:hover { border-color: #f6c343; }"
-                         "QToolButton:checked { background: #f6c343; color: #1d1d1d; border: 2px solid #f6c343; }"
-                         "QToolButton#template { background: transparent; border: 1px solid transparent; }"
-                         "QToolButton#template:hover { border-color: #f6c343; background: #3a3d44; }"
-                         + sliderStyle("#55585f", "#f6c343", "#f6c343") };
-            case 3: // Night blue
-                return { QColor("#1e2a3b"),
-                         "QLabel { color: #e2e8f0; } QLabel#hint { color: #9fb0c6; } QCheckBox { color: #e2e8f0; }"
-                         "QFrame#separator { background: #33435a; }"
-                         "QToolButton { background: #2a3a50; color: #e2e8f0; border: 1px solid #3b4d66; border-radius: 10px; padding: 4px 8px; }"
-                         "QToolButton:hover { border-color: #7aa2ff; }"
-                         "QToolButton:checked { background: #2f6fed; color: #ffffff; border: 2px solid #9cc0ff; }"
-                         "QToolButton#template { background: transparent; border: 1px solid transparent; }"
-                         "QToolButton#template:hover { border-color: #7aa2ff; background: #2a3a50; }"
-                         + sliderStyle("#3b4d66", "#7aa2ff", "#ffffff") };
             default: // Graphite, as the bar of the options
                 return { QColor("#20242b"),
                          "QLabel { color: #e8e8e8; } QLabel#hint { color: #9aa3b2; } QCheckBox { color: #e8e8e8; }"
@@ -155,7 +136,8 @@ namespace
 
 void UBBackgroundPalette::applyLook()
 {
-    const Look chosen = look(qEnvironmentVariableIntValue("MB_BGLOOK"));
+    // Light with the white and the grey themes, graphite with the dark one.
+    const Look chosen = look(UBTheme::kind() == UBTheme::Kind::Dark ? 0 : 1);
     setBackgroundBrush(chosen.background);
     // The small round buttons keep their own picture, without a tile.
     setStyleSheet(chosen.styleSheet + "QToolButton#icon, QToolButton#icon:checked, QToolButton#icon:hover "
@@ -177,6 +159,7 @@ void UBBackgroundPalette::init()
     mButtons.clear();
 
     mVLayout = new QVBoxLayout(this);
+    mVLayout->setSpacing(12);
     mTopLayout = new QHBoxLayout();
     mBottomLayout = new QHBoxLayout();
 
@@ -194,6 +177,8 @@ void UBBackgroundPalette::init()
     mPatterns = new QWidget(this);
     auto patternsLayout = new QVBoxLayout(mPatterns);
     patternsLayout->setContentsMargins(0, 0, 0, 0);
+    // The rows a little apart, to read them easily.
+    patternsLayout->setSpacing(12);
     patternsLayout->addLayout(mTopLayout);
     patternsLayout->addLayout(mBottomLayout);
     patternsLayout->addLayout(createLineColor());
@@ -204,12 +189,12 @@ void UBBackgroundPalette::init()
     mVLayout->addWidget(mTemplates);
 
     // Some room and a thin line before the scroll direction, apart from the page.
-    mVLayout->addSpacing(8);
+    mVLayout->addSpacing(10);
     auto separator = new QFrame(this);
     separator->setObjectName("separator");
     separator->setFixedHeight(1);
     mVLayout->addWidget(separator);
-    mVLayout->addSpacing(6);
+    mVLayout->addSpacing(8);
     mVLayout->addLayout(createPageFlow());
 
     // Fully opaque, so that the page under it does not show through.
