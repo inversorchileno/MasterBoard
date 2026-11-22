@@ -868,6 +868,25 @@ void UBPreferencesController::wire()
     mPreferencesUI->gridLayout_5->addWidget(mAutoHideBars, 2, 0);
     mPreferencesUI->gridLayout_5->addWidget(mHideEffect, 2, 1);
 
+    // How long the pointer stays away before the bars hide.
+    auto delayRow = new QWidget(mPreferencesUI->horizontalChoice->parentWidget());
+    auto delayLayout = new QHBoxLayout(delayRow);
+    delayLayout->setContentsMargins(0, 0, 0, 0);
+    mHideDelay = new QComboBox(delayRow);
+
+    for (int milliseconds : UBBarStyle::hideDelays())
+    {
+        mHideDelay->addItem(UBBarStyle::hideDelayName(milliseconds), milliseconds);
+    }
+
+    delayLayout->addWidget(new QLabel(tr("Wait before hiding"), delayRow));
+    delayLayout->addWidget(mHideDelay);
+    delayLayout->addStretch(1);
+    mPreferencesUI->gridLayout_5->addWidget(delayRow, 3, 0, 1, 2);
+    connect(mHideDelay, qOverload<int>(&QComboBox::currentIndexChanged), this, [this](int index) {
+        UBBarStyle::setHideDelay(mHideDelay->itemData(index).toInt());
+    });
+
     connect(mAutoHideBars, &QCheckBox::clicked, this, [this](bool on) {
         if (on && !UBBarStyle::askHideEffect(mPreferencesWindow))
         {
@@ -877,6 +896,7 @@ void UBPreferencesController::wire()
 
         mHideEffect->setCurrentIndex(int(UBBarStyle::hideEffect()));
         mHideEffect->setEnabled(on);
+        mHideDelay->setEnabled(on);
         UBBarStyle::setAutoHide(on);
     });
     connect(mHideEffect, qOverload<int>(&QComboBox::currentIndexChanged), this, [](int index) {
@@ -1032,6 +1052,11 @@ void UBPreferencesController::init()
         mHideEffect->setCurrentIndex(int(UBBarStyle::hideEffect()));
     }
     mHideEffect->setEnabled(UBBarStyle::autoHide());
+    {
+        const QSignalBlocker blocker(mHideDelay);
+        mHideDelay->setCurrentIndex(qMax(0, mHideDelay->findData(UBBarStyle::hideDelay())));
+    }
+    mHideDelay->setEnabled(UBBarStyle::autoHide());
 
     // pen tab
     mPenProperties->fineSlider->setValue(settings->boardPenFineWidth->get().toDouble() * sSliderRatio);
@@ -1078,6 +1103,7 @@ void UBPreferencesController::defaultSettings()
         UBBarStyle::setAutoHide(false);
         mAutoHideBars->setChecked(false);
         mHideEffect->setEnabled(false);
+        mHideDelay->setEnabled(false);
         mPreferencesUI->startModeComboBox->setCurrentIndex(0);
 
         mPreferencesUI->useSystemOSKCheckBox->setChecked(settings->useSystemOnScreenKeyboard->reset().toBool());

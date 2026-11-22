@@ -91,6 +91,7 @@ class UBPreferencesController : public QObject
         QButtonGroup* mPaletteEdges{nullptr};
         QCheckBox* mAutoHideBars{nullptr};
         QComboBox* mHideEffect{nullptr};
+        QComboBox* mHideDelay{nullptr};
         UBColorPicker* mDarkBackgroundGridColorPicker;
         UBColorPicker* mLightBackgroundGridColorPicker;
         QString mScreenConfigurationPath;

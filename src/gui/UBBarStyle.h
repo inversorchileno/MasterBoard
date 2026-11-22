@@ -23,7 +23,9 @@
 
 #pragma once
 
+#include <QList>
 #include <QRectF>
+#include <QString>
 
 class QPainter;
 class QWidget;
@@ -59,6 +61,14 @@ public:
     enum class HideEffect { Slide = 0, Fade = 1 };
     static HideEffect hideEffect();
     static void setHideEffect(HideEffect effect);
+
+    /** @brief How long the pointer stays away before a bar hides, in milliseconds: 500 to 10000. */
+    static int hideDelay();
+    static void setHideDelay(int milliseconds);
+
+    /** @brief The choices of that time: half a second, then 1 to 10 seconds. */
+    static QList<int> hideDelays();
+    static QString hideDelayName(int milliseconds);
 
     /**
      * @brief Asks how the palettes should hide, when the automatic hiding

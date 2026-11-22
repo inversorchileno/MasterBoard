@@ -31,6 +31,7 @@
 #include <QCursor>
 #include <QDateTime>
 #include <QGraphicsOpacityEffect>
+#include <QLocale>
 #include <QMessageBox>
 #include <QPointer>
 #include <QPropertyAnimation>
@@ -59,6 +60,7 @@
 
 static const QString sAutoHideKey = QStringLiteral("App/LibertyBoardBarAutoHide");
 static const QString sHideEffectKey = QStringLiteral("App/LibertyBoardBarHideEffect");
+static const QString sHideDelayKey = QStringLiteral("App/LibertyBoardBarHideDelay");
 
 void UBBarStyle::paint(QPainter& painter, const QRectF& bar, int edge)
 {
@@ -142,6 +144,33 @@ UBBarStyle::HideEffect UBBarStyle::hideEffect()
 void UBBarStyle::setHideEffect(HideEffect effect)
 {
     UBSettings::settings()->setValue(sHideEffectKey, int(effect));
+}
+
+int UBBarStyle::hideDelay()
+{
+    return qBound(500, UBSettings::settings()->value(sHideDelayKey, 1000).toInt(), 10000);
+}
+
+void UBBarStyle::setHideDelay(int milliseconds)
+{
+    UBSettings::settings()->setValue(sHideDelayKey, qBound(500, milliseconds, 10000));
+}
+
+QList<int> UBBarStyle::hideDelays()
+{
+    QList<int> delays = { 500 };
+
+    for (int seconds = 1; seconds <= 10; ++seconds)
+    {
+        delays << seconds * 1000;
+    }
+
+    return delays;
+}
+
+QString UBBarStyle::hideDelayName(int milliseconds)
+{
+    return QObject::tr("%1 s").arg(QLocale().toString(milliseconds / 1000.0, 'g', 2));
 }
 
 bool UBBarStyle::askHideEffect(QWidget* parent)
@@ -409,7 +438,7 @@ namespace
             {
                 watched.outsideSince = now;
             }
-            else if (now - watched.outsideSince > 900)
+            else if (now - watched.outsideSince >= UBBarStyle::hideDelay())
             {
                 hidePalette(watched);
             }
@@ -446,6 +475,7 @@ void UBBarStyle::openWindow(QWidget* parent)
     const int edgeBefore = edge();
     const bool autoHideBefore = autoHide();
     const HideEffect effectBefore = hideEffect();
+    const int delayBefore = hideDelay();
 
     QDialog dialog(parent);
     dialog.setWindowTitle(QObject::tr("Bar style"));
@@ -563,12 +593,28 @@ void UBBarStyle::openWindow(QWidget* parent)
     effect->addItem(QObject::tr("Fade out"), int(HideEffect::Fade));
     effect->setCurrentIndex(int(effectBefore));
     effect->setEnabled(autoHideBefore);
+    auto delay = new QComboBox(hiding);
+    delay->setToolTip(QObject::tr("Wait before hiding"));
+
+    for (int milliseconds : hideDelays())
+    {
+        delay->addItem(hideDelayName(milliseconds), milliseconds);
+    }
+
+    delay->setCurrentIndex(qMax(0, delay->findData(delayBefore)));
+    delay->setEnabled(autoHideBefore);
     hidingLayout->addWidget(hide);
     hidingLayout->addWidget(effect);
+    hidingLayout->addWidget(new QLabel(QObject::tr("Wait before hiding"), hiding));
+    hidingLayout->addWidget(delay);
     hidingLayout->addStretch(1);
     grid->addWidget(hiding, 5, 1);
 
-    QObject::connect(hide, &QCheckBox::clicked, &dialog, [&dialog, hide, effect](bool on) {
+    QObject::connect(delay, qOverload<int>(&QComboBox::currentIndexChanged), &dialog, [delay](int index) {
+        setHideDelay(delay->itemData(index).toInt());
+    });
+
+    QObject::connect(hide, &QCheckBox::clicked, &dialog, [&dialog, hide, effect, delay](bool on) {
         if (on && !askHideEffect(&dialog))
         {
             hide->setChecked(false);
@@ -577,6 +623,7 @@ void UBBarStyle::openWindow(QWidget* parent)
 
         effect->setCurrentIndex(int(hideEffect()));
         effect->setEnabled(on);
+        delay->setEnabled(on);
         setAutoHide(on);
     });
     QObject::connect(effect, qOverload<int>(&QComboBox::currentIndexChanged), &dialog, [](int index) {
@@ -607,6 +654,7 @@ void UBBarStyle::openWindow(QWidget* parent)
     settings->barRoundness->set(roundnessBefore);
     setAutoHide(autoHideBefore);
     setHideEffect(effectBefore);
+    setHideDelay(delayBefore);
 
     if (edge() != edgeBefore)
     {
