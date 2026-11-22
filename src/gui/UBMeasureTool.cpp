@@ -205,10 +205,20 @@ namespace
             });
 
             auto bottom = new QHBoxLayout();
+            mFinish = new QPushButton(UBMeasureTool::tr("Finish measure"), this);
+            mFinish->setToolTip(UBMeasureTool::tr("Ends the shape at its last corner, as Enter does"));
+            mFinish->setCursor(Qt::ArrowCursor);
+            mFinish->hide();
+            mModify = new QPushButton(UBMeasureTool::tr("Modify"), this);
+            mModify->setToolTip(UBMeasureTool::tr("Move the corners of the shape; Enter or Finish measure ends"));
+            mModify->setCursor(Qt::ArrowCursor);
+            mModify->hide();
             mRestart = new QPushButton(UBMeasureTool::tr("Restart"), this);
             mRestart->setToolTip(UBMeasureTool::tr("Choose the unit and draw the reference again"));
             mRestart->setCursor(Qt::ArrowCursor);
+            bottom->addWidget(mFinish);
             bottom->addStretch(1);
+            bottom->addWidget(mModify);
             bottom->addWidget(mRestart);
             layout->addLayout(bottom);
 
@@ -241,6 +251,8 @@ namespace
             mValue->hide();
             mHint->hide();
             mRestart->hide();
+            mFinish->hide();
+            mModify->hide();
             mUnits->show();
             adjustSize();
             QFrame::show();
@@ -252,8 +264,17 @@ namespace
             return mUnits->isVisible();
         }
 
+        /** @brief Shows Finish measure and Modify when they apply. */
+        void setActions(bool finish, bool modify)
+        {
+            mFinish->setVisible(finish && !mUnits->isVisible());
+            mModify->setVisible(modify && !mUnits->isVisible());
+        }
+
         QToolButton* mClose{nullptr};
         QPushButton* mRestart{nullptr};
+        QPushButton* mFinish{nullptr};
+        QPushButton* mModify{nullptr};
 
     protected:
         void mousePressEvent(QMouseEvent* event) override
@@ -336,6 +357,7 @@ namespace
         void setCalibrating(bool calibrating)
         {
             mCalibrating = calibrating;
+            mEditing = false;
             mPoints.clear();
             mFinished = false;
             showMeasure();
@@ -344,6 +366,7 @@ namespace
         void setMode(UBMeasureTool::Mode mode)
         {
             mMode = mode;
+            mEditing = false;
             mPoints.clear();
             mFinished = false;
             showMeasure();
@@ -362,6 +385,11 @@ namespace
             return view ? QPointF(view->mapFromScene(point)) : point;
         }
 
+        bool isLine() const
+        {
+            return mCalibrating || mMode == UBMeasureTool::Mode::Distance;
+        }
+
         void mousePressEvent(QMouseEvent* event) override
         {
             if (event->button() != Qt::LeftButton)
@@ -378,12 +406,35 @@ namespace
 
             const QPointF point = toPoint(event->position());
 
-            if (mCalibrating || mMode == UBMeasureTool::Mode::Distance)
+            if (mEditing)
             {
-                // A line: pressed at one end, released at the other.
-                mPoints = { point, point };
-                mFinished = false;
-                mDragging = true;
+                // The corner under the pointer follows it until released.
+                mGrabbed = -1;
+
+                for (int i = 0; i < mPoints.size(); ++i)
+                {
+                    if (QLineF(toScreen(mPoints.at(i)), event->position()).length() <= 12)
+                    {
+                        mGrabbed = i;
+                    }
+                }
+
+                return;
+            }
+
+            if (isLine())
+            {
+                // A line: a click at its start, a click at its end.
+                if (mPoints.isEmpty() || mFinished)
+                {
+                    mPoints = { point, point };
+                    mFinished = false;
+                }
+                else
+                {
+                    mPoints.last() = point;
+                    finishLine();
+                }
             }
             else
             {
@@ -408,7 +459,19 @@ namespace
 
         void mouseMoveEvent(QMouseEvent* event) override
         {
-            if (!mPoints.isEmpty() && !mFinished && (mDragging || !(mCalibrating || mMode == UBMeasureTool::Mode::Distance)))
+            if (mEditing)
+            {
+                if (mGrabbed >= 0 && (event->buttons() & Qt::LeftButton))
+                {
+                    mPoints[mGrabbed] = toPoint(event->position());
+                    showMeasure();
+                    update();
+                }
+
+                return;
+            }
+
+            if (!mPoints.isEmpty() && !mFinished)
             {
                 mPoints.last() = toPoint(event->position());
                 showMeasure();
@@ -416,42 +479,14 @@ namespace
             }
         }
 
-        void mouseReleaseEvent(QMouseEvent* event) override
+        void mouseReleaseEvent(QMouseEvent*) override
         {
-            if (!mDragging)
-            {
-                return;
-            }
-
-            mDragging = false;
-            mPoints.last() = toPoint(event->position());
-            mFinished = true;
-
-            if (mCalibrating)
-            {
-                const qreal length = QLineF(mPoints.first(), mPoints.last()).length();
-
-                if (QLineF(toScreen(mPoints.first()), toScreen(mPoints.last())).length() < 8)
-                {
-                    mPoints.clear();
-                    mFinished = false;
-                }
-                else
-                {
-                    reference(mDesktop).points = length;
-                    mCalibrating = false;
-                    mPoints.clear();
-                    mFinished = false;
-                }
-            }
-
-            showMeasure();
-            update();
+            mGrabbed = -1;
         }
 
         void mouseDoubleClickEvent(QMouseEvent* event) override
         {
-            if (mCalibrating || mMode == UBMeasureTool::Mode::Distance)
+            if (mEditing || isLine())
             {
                 mousePressEvent(event);
                 return;
@@ -470,26 +505,78 @@ namespace
 
         void keyPressEvent(QKeyEvent* event) override
         {
-            if (event->key() == Qt::Key_Escape)
+            if (event->key() == Qt::Key_Escape && !mEditing)
             {
                 mPoints.clear();
                 mFinished = false;
-                mDragging = false;
                 showMeasure();
                 update();
                 return;
             }
 
-            if ((event->key() == Qt::Key_Return || event->key() == Qt::Key_Enter) && mPoints.size() > 2)
+            if (event->key() == Qt::Key_Return || event->key() == Qt::Key_Enter)
             {
-                mPoints.removeLast();
-                mFinished = true;
-                showMeasure();
-                update();
+                finish();
                 return;
             }
 
             QWidget::keyPressEvent(event);
+        }
+
+    public:
+        /** @brief Ends the shape, as Enter and Finish measure do, or the changes of its corners. */
+        void finish()
+        {
+            if (mEditing)
+            {
+                mEditing = false;
+                setCursor(Qt::CrossCursor);
+            }
+            else if (!isLine() && !mFinished && mPoints.size() > 2)
+            {
+                // Without the corner that follows the pointer.
+                mPoints.removeLast();
+                mFinished = true;
+            }
+
+            showMeasure();
+            update();
+        }
+
+        /** @brief The corners of the finished shape can be moved. */
+        void startEditing()
+        {
+            if (!isLine() && mFinished && mPoints.size() > 1)
+            {
+                mEditing = true;
+                setCursor(Qt::PointingHandCursor);
+                setFocus();
+                showMeasure();
+                update();
+            }
+        }
+
+    protected:
+        void finishLine()
+        {
+            mFinished = true;
+
+            if (!mCalibrating)
+            {
+                return;
+            }
+
+            // A reference too short to be meant is drawn again.
+            const qreal length = QLineF(mPoints.first(), mPoints.last()).length();
+
+            if (QLineF(toScreen(mPoints.first()), toScreen(mPoints.last())).length() >= 8)
+            {
+                reference(mDesktop).points = length;
+                mCalibrating = false;
+            }
+
+            mPoints.clear();
+            mFinished = false;
         }
 
         void wheelEvent(QWheelEvent* event) override
@@ -626,7 +713,7 @@ namespace
             {
             case UBMeasureTool::Mode::Distance:
                 title = UBMeasureTool::tr("Distance");
-                hint = UBMeasureTool::tr("Drag from one end to the other.");
+                hint = UBMeasureTool::tr("Click at the start and at the end.");
                 break;
             case UBMeasureTool::Mode::Perimeter:
                 title = UBMeasureTool::tr("Perimeter");
@@ -640,8 +727,10 @@ namespace
 
             if (mCalibrating)
             {
-                hint = UBMeasureTool::tr("Draw a line that measures 1 %1: it is the reference of the measures.").arg(unit.unit);
+                hint = UBMeasureTool::tr("Click at the start and at the end of a line that measures 1 %1: "
+                                         "it is the reference of the measures.").arg(unit.unit);
                 sWindow->show(title, QString(), hint);
+                sWindow->setActions(false, false);
                 return;
             }
 
@@ -652,14 +741,25 @@ namespace
                 value = QString("— %1").arg(mMode == UBMeasureTool::Mode::Area ? unit.unit + "²" : unit.unit);
             }
 
-            sWindow->show(title, value, mFinished ? QString() : hint);
+            if (mEditing)
+            {
+                hint = UBMeasureTool::tr("Drag the corners; Enter or Finish measure ends.");
+            }
+
+            sWindow->show(title, value, mFinished && !mEditing ? QString() : hint);
+
+            // Finish measure while a shape is drawn or changed, Modify once it is done.
+            const bool shape = !isLine();
+            sWindow->setActions(shape && (mEditing || (!mFinished && mPoints.size() > 2)),
+                                shape && mFinished && !mEditing);
         }
 
         bool mDesktop{false};
         UBMeasureTool::Mode mMode{UBMeasureTool::Mode::Distance};
         bool mCalibrating{false};
-        bool mDragging{false};
         bool mFinished{false};
+        bool mEditing{false};
+        int mGrabbed{-1};
         QList<QPointF> mPoints;
     };
 
@@ -717,6 +817,18 @@ void UBMeasureTool::choose(Mode mode)
         sWindow->move(mDesktop ? parent->width() - 330 : 20, 20);
         connect(sWindow->mClose, &QToolButton::clicked, this, &UBMeasureTool::close);
         connect(sWindow->mRestart, &QPushButton::clicked, this, &UBMeasureTool::restart);
+        connect(sWindow->mFinish, &QPushButton::clicked, this, []() {
+            if (sLayer)
+            {
+                sLayer->finish();
+            }
+        });
+        connect(sWindow->mModify, &QPushButton::clicked, this, []() {
+            if (sLayer)
+            {
+                sLayer->startEditing();
+            }
+        });
         sWindow->QFrame::show();
     }
 
