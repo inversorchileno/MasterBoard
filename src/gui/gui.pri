@@ -27,6 +27,7 @@ HEADERS +=  \
     src/gui/UBTheme.h \
     src/gui/UBBarStyle.h \
     src/gui/UBMeasureTool.h \
+    src/gui/UBCanvasRulers.h \
     src/gui/UBDocumentTabs.h \
     src/gui/UBNoteToolIcon.h \
     src/gui/UBCommentPopup.h \
@@ -110,6 +111,7 @@ SOURCES +=  \
     src/gui/UBTheme.cpp \
     src/gui/UBBarStyle.cpp \
     src/gui/UBMeasureTool.cpp \
+    src/gui/UBCanvasRulers.cpp \
     src/gui/UBDocumentTabs.cpp \
     src/gui/UBNoteToolIcon.cpp \
     src/gui/UBCommentPopup.cpp \

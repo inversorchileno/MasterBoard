@@ -45,6 +45,7 @@
 #include "board/UBBoardSaver.h"
 #include "board/UBDrawingController.h"
 #include "board/UBDualBoard.h"
+#include "gui/UBCanvasRulers.h"
 #include "core/UBApplication.h"
 #include "core/UBApplicationController.h"
 #include "core/UBOpenedFiles.h"
@@ -283,6 +284,16 @@ void UBMainMenu::createMenus()
     // Any size, always: also a bigger canvas to go on drawing.
     mMainWindow->actionCustomPageSize->setEnabled(true);
     mMainWindow->actionCustomPageSize->setText(tr("Custom size..."));
+    // Rulers in pixels at the top and at the left of the page.
+    auto rulersAction = new QAction(QIcon(":/images/stylusPalette/measure.svg"), tr("Canvas measurements"), mMainWindow);
+    rulersAction->setObjectName("actionLbCanvasRulers");
+    rulersAction->setCheckable(true);
+    rulersAction->setToolTip(tr("Rulers in pixels at the top and at the left of the page, from 0 at its top left corner"));
+    connect(rulersAction, &QAction::toggled, this, [](bool shown) { UBCanvasRulers::setShown(shown); });
+    editMenu->addAction(rulersAction);
+    editMenu->addSeparator();
+    QTimer::singleShot(0, rulersAction, [rulersAction]() { rulersAction->setChecked(UBCanvasRulers::isShown()); });
+
     editMenu->addAction(mMainWindow->actionCut);
     editMenu->addAction(mMainWindow->actionCopy);
     editMenu->addAction(mMainWindow->actionPaste);

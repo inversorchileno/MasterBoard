@@ -69,6 +69,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     UBBarStyle.h
     UBMeasureTool.cpp
     UBMeasureTool.h
+    UBCanvasRulers.cpp
+    UBCanvasRulers.h
     UBDocumentTabs.cpp
     UBDocumentTabs.h
     UBNoteToolIcon.cpp
