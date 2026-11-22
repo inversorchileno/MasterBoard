@@ -23,10 +23,13 @@
 #include "UBThumbnail.h"
 
 #include <QGraphicsPixmapItem>
+#include <QPainterPath>
+#include <QtMath>
 #include <QSvgRenderer>
 
 #include "board/UBDrawingController.h"
 #include "document/UBDocument.h"
+#include "document/UBPageFavorites.h"
 #include "domain/UBGraphicsScene.h"
 #include "gui/UBThumbnailArranger.h"
 #include "gui/UBThumbnailScene.h"
@@ -264,6 +267,56 @@ void UBThumbnail::hoverLeaveEvent(QGraphicsSceneHoverEvent* event)
     QGraphicsRectItem::hoverLeaveEvent(event);
 }
 
+// The star of a favorite page, at the top right corner of its thumbnail.
+static QRectF starRect(const QGraphicsPixmapItem* pixmapItem)
+{
+    const QRectF picture = pixmapItem->mapRectToParent(pixmapItem->boundingRect());
+    const qreal size = UBThumbnailUI::ICONSIZE;
+    return QRectF(picture.right() - size, picture.top(), size, size);
+}
+
+static QPainterPath starPath(const QRectF& rect)
+{
+    QPainterPath star;
+    const QPointF center = rect.center();
+    const qreal outer = rect.width() * 0.45;
+    const qreal inner = outer * 0.45;
+
+    for (int i = 0; i < 10; ++i)
+    {
+        const qreal radius = i % 2 == 0 ? outer : inner;
+        const qreal angle = qDegreesToRadians(-90.0 + i * 36.0);
+        const QPointF point(center.x() + radius * qCos(angle), center.y() + radius * qSin(angle));
+
+        if (i == 0)
+        {
+            star.moveTo(point);
+        }
+        else
+        {
+            star.lineTo(point);
+        }
+    }
+
+    star.closeSubpath();
+    return star;
+}
+
+// The buttons and the star can be used: not in the thumbnails of the Documents mode.
+static bool buttonsEnabled(QGraphicsScene* scene)
+{
+    auto thumbnailScene = dynamic_cast<UBThumbnailScene*>(scene);
+    return thumbnailScene && thumbnailScene->currentThumbnailArranger()
+           && thumbnailScene->currentThumbnailArranger()->isUIEnabled();
+}
+
+bool UBThumbnail::isFavorite() const
+{
+    auto thumbnailScene = dynamic_cast<UBThumbnailScene*>(scene());
+    return thumbnailScene && thumbnailScene->document()
+           && UBPageFavorites::isFavorite(thumbnailScene->document()->proxy(), mIndex);
+}
+
 void UBThumbnail::mousePressEvent(QGraphicsSceneMouseEvent* event)
 {
     auto thumbnailScene = dynamic_cast<UBThumbnailScene*>(scene());
@@ -271,6 +324,27 @@ void UBThumbnail::mousePressEvent(QGraphicsSceneMouseEvent* event)
     if (thumbnailScene)
     {
         using namespace UBThumbnailUI;
+
+        // The star marks or unmarks the page as a favorite.
+        if (!buttonsEnabled(scene()))
+        {
+            event->ignore();
+            return;
+        }
+
+        if (starRect(mPixmapItem).contains(event->pos()) && thumbnailScene->document())
+        {
+            UBPageFavorites::setFavorite(thumbnailScene->document()->proxy(), mIndex, !isFavorite());
+            update();
+            return;
+        }
+
+        // The buttons are shown on the current page, or under the pointer.
+        if (!mEditable && !isSelected())
+        {
+            event->ignore();
+            return;
+        }
 
         const auto p = event->pos() - mPixmapItem->pos();
 
@@ -300,8 +374,23 @@ void UBThumbnail::paint(QPainter* painter, const QStyleOptionGraphicsItem* optio
         painter->drawRect(selectionRect);
     }
 
-    // paint the buttons
-    if (mEditable)
+    // The star: full for a favorite page; empty on the current page or under the pointer, to mark it.
+    const bool favorite = isFavorite();
+    const bool buttons = buttonsEnabled(scene()) && (mEditable || isSelected());
+
+    if (favorite || buttons)
+    {
+        const QPainterPath star = starPath(starRect(mPixmapItem));
+        painter->save();
+        painter->setRenderHint(QPainter::Antialiasing);
+        painter->setPen(QPen(QColor(favorite ? "#b7791f" : "#6b7280"), 1.5));
+        painter->setBrush(favorite ? QColor("#f6c945") : QColor(255, 255, 255, 200));
+        painter->drawPath(star);
+        painter->restore();
+    }
+
+    // paint the buttons: delete and duplicate, on the current page or under the pointer
+    if (buttons)
     {
         using namespace UBThumbnailUI; //should be reworked so icons' scale adapts to what's needed
         const UBThumbnailUIIcon& closeThumbnailIcon = *UBThumbnailUI::getIcon(mDeletable ? "close" : "closeDisabled");

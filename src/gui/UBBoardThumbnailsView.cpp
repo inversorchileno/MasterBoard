@@ -47,6 +47,7 @@
 #include "core/UBPersistenceManager.h"
 
 #include "document/UBDocument.h"
+#include "document/UBPageFavorites.h"
 
 #include "gui/UBThumbnail.h"
 #include "gui/UBThumbnailArranger.h"
@@ -68,6 +69,9 @@ UBBoardThumbnailsView::UBBoardThumbnailsView(QWidget *parent, const char *name)
     setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);
     setFrameShadow(QFrame::Plain);
 
+    // A few pages, as the favorites, start at the top.
+    setAlignment(Qt::AlignHCenter | Qt::AlignTop);
+
     mThumbnailWidth = width() - 2*mMargin;
 
     mLongPressTimer.setInterval(mLongPressInterval);
@@ -86,6 +90,36 @@ UBBoardThumbnailsView::UBBoardThumbnailsView(QWidget *parent, const char *name)
     connect(UBApplication::boardController, &UBDocumentContainer::documentSet, this, [this](std::shared_ptr<UBDocumentProxy> proxy){
         setDocument(UBDocument::getDocument(proxy));
     });
+
+    // A star added or taken away changes the list of the favorites.
+    connect(UBPageFavorites::instance(), &UBPageFavorites::changed, this, [this](std::shared_ptr<UBDocumentProxy> proxy) {
+        if (mDocument && mDocument->proxy() == proxy)
+        {
+            if (mFavoritesOnly)
+            {
+                applyFavoritesFilter();
+            }
+
+            viewport()->update();
+        }
+    });
+}
+
+void UBBoardThumbnailsView::setFavoritesOnly(bool only)
+{
+    mFavoritesOnly = only;
+    applyFavoritesFilter();
+}
+
+void UBBoardThumbnailsView::applyFavoritesFilter()
+{
+    if (!mDocument)
+    {
+        return;
+    }
+
+    mDocument->thumbnailScene()->setPageFilter(UBPageFavorites::favorites(mDocument->proxy()), mFavoritesOnly);
+    viewport()->update();
 }
 
 void UBBoardThumbnailsView::setDocument(std::shared_ptr<UBDocument> document)
@@ -95,7 +129,7 @@ void UBBoardThumbnailsView::setDocument(std::shared_ptr<UBDocument> document)
     {
         auto thumbnailScene = document->thumbnailScene();
         setScene(thumbnailScene);
-        thumbnailScene->arrangeThumbnails();
+        thumbnailScene->setPageFilter(UBPageFavorites::favorites(document->proxy()), mFavoritesOnly);
     }
     else
     {

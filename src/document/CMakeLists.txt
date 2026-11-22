@@ -1,6 +1,8 @@
 target_sources(${PROJECT_NAME} PRIVATE
     UBDocument.cpp
     UBDocument.h
+    UBPageFavorites.cpp
+    UBPageFavorites.h
     UBDocumentContainer.cpp
     UBDocumentContainer.h
     UBDocumentController.cpp

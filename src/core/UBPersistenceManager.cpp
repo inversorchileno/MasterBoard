@@ -27,6 +27,7 @@
 
 
 #include "UBPersistenceManager.h"
+#include "document/UBPageFavorites.h"
 #include "gui/UBMainWindow.h"
 
 #include <QtXml>
@@ -846,6 +847,8 @@ void UBPersistenceManager::deleteDocumentScenes(std::shared_ptr<UBDocumentProxy>
 
         }
     }
+
+    UBPageFavorites::pagesDeleted(proxy, compactedIndexes);
 }
 
 
@@ -870,6 +873,7 @@ void UBPersistenceManager::duplicateDocumentScene(std::shared_ptr<UBDocumentProx
     }
 
     copyPage(proxy, index , index + 1);
+    UBPageFavorites::pageInserted(proxy, index + 1);
 
     //TODO: write a proper way to handle object on disk
     scene = loadDocumentScene(proxy, index + 1);
@@ -973,6 +977,7 @@ void UBPersistenceManager::copyDocumentScene(std::shared_ptr<UBDocumentProxy> fr
                 QUrl::fromLocalFile(to->persistencePath()), toIndex);
 
     to->incPageCount();
+    UBPageFavorites::pageInserted(to, toIndex);
 
     QString thumbTmp(from->persistencePath() + UBFileSystemUtils::digitFileFormat("/page%1.thumbnail.jpg", fromIndex));
     QString thumbTo(to->persistencePath() + UBFileSystemUtils::digitFileFormat("/page%1.thumbnail.jpg", toIndex));
@@ -1007,6 +1012,7 @@ std::shared_ptr<UBGraphicsScene> UBPersistenceManager::createDocumentSceneAt(std
     newScene->setBackgroundGridSize(UBSettings::settings()->crossSize);
 
     proxy->incPageCount();
+    UBPageFavorites::pageInserted(proxy, index);
 
     persistDocumentScene(proxy, newScene, index);
 
@@ -1030,6 +1036,7 @@ void UBPersistenceManager::insertDocumentSceneAt(std::shared_ptr<UBDocumentProxy
     mSceneCache.insert(proxy, index, scene);
 
     proxy->incPageCount();
+    UBPageFavorites::pageInserted(proxy, index);
 
     if (persist)
     {
@@ -1082,6 +1089,7 @@ void UBPersistenceManager::moveSceneToIndex(std::shared_ptr<UBDocumentProxy> pro
     thumb.rename(proxy->persistencePath() + UBFileSystemUtils::digitFileFormat("/page%1.thumbnail.jpg", target));
 
     mSceneCache.moveScene(proxy, source, target);
+    UBPageFavorites::pageMoved(proxy, source, target);
 }
 
 

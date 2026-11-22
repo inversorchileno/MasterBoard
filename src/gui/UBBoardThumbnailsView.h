@@ -48,6 +48,9 @@ class UBBoardThumbnailsView : public UBThumbnailsView
 public:
     UBBoardThumbnailsView(QWidget* parent=0, const char* name="UBBoardThumbnailsView");
 
+    /** @brief Shows only the favorite pages, or all of them. */
+    void setFavoritesOnly(bool only);
+
     void setDocument(std::shared_ptr<UBDocument> document);
 
 public slots:
@@ -83,6 +86,9 @@ signals:
     void moveThumbnailRequired(int from, int to);
 
 private:
+    void applyFavoritesFilter();
+    bool mFavoritesOnly{false};
+
     std::shared_ptr<UBDocument> mDocument;
 
     int mThumbnailWidth;

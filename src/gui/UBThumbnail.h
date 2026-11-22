@@ -62,6 +62,9 @@ public:
 
     static double heightForWidth(double width);
 
+    /** @brief The page is a favorite of its document, marked with a star. */
+    bool isFavorite() const;
+
 protected:
     virtual QVariant itemChange(GraphicsItemChange change, const QVariant& value) override;
     virtual void hoverEnterEvent(QGraphicsSceneHoverEvent* event) override;

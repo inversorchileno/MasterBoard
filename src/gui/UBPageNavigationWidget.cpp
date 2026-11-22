@@ -32,6 +32,7 @@
 
 #include "board/UBBoardController.h"
 #include "globals/UBGlobals.h"
+#include "gui/UBToolOptionsWidgets.h"
 
 #include "core/memcheck.h"
 
@@ -60,8 +61,18 @@ UBPageNavigationWidget::UBPageNavigationWidget(QWidget *parent, const char *name
     mLayout = new QVBoxLayout(this);
     setLayout(mLayout);
 
+    // All the pages, or only the favorites, marked with the star of their thumbnail.
+    auto filter = new UBSegmentedChoice({ tr("All"), tr("Favorites") }, this);
+    filter->setChoice(0);
+    filter->setStyleSheet("QToolButton { color: #e5e7eb; background: #3a3f47; border: 1px solid #555b66; border-radius: 4px; padding: 3px 8px; }"
+                          "QToolButton:checked { background: #f6d77a; color: #111111; border-color: #f6d77a; }");
+    filter->setToolTip(tr("Show all the pages, or only the favorite pages, marked with the star of their thumbnail"));
+    mLayout->addWidget(filter, 0);
+
     mNavigator = new UBBoardThumbnailsView(this);
     mLayout->addWidget(mNavigator, 1);
+
+    connect(filter, &UBSegmentedChoice::choiceChanged, this, [this](int choice) { mNavigator->setFavoritesOnly(choice == 1); });
 
     mHLayout = new QHBoxLayout();
     mLayout->addLayout(mHLayout, 0);

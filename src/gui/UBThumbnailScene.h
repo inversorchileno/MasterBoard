@@ -55,10 +55,15 @@ public:
     // thumbnail management
     void createThumbnails(int startIndex = 0);
     void arrangeThumbnails(int fromIndex = 0, int toIndex = -1);
+
+    /** @brief Shows only these pages, as the favorites, or all of them again. */
+    void setPageFilter(const QList<int>& pages, bool filtered);
+    bool isFiltered() const { return mFiltered; }
     void hightlightItem(int index, bool only = false, bool selected = true);
     int thumbnailCount() const;
     UBThumbnail* thumbnailAt(int index);
     UBThumbnail* lastSelectedThumbnail() const;
+    UBThumbnailArranger* currentThumbnailArranger();
 
 protected:
     // only to be called from UBDocument
@@ -70,7 +75,6 @@ protected:
 
 private:
     friend class UBThumbnail;
-    UBThumbnailArranger* currentThumbnailArranger();
     void loadNextThumbnail();
     void renumberThumbnails(int fromIndex = 0, int toIndex = -1) const;
 
@@ -80,4 +84,6 @@ private:
     int mThumbnailWidth{UBSettings::defaultThumbnailWidth};
     UBBackgroundLoader* mLoader{nullptr};
     UBThumbnail* mLastSelectedThumbnail{nullptr};
+    QList<int> mFilterPages;
+    bool mFiltered{false};
 };

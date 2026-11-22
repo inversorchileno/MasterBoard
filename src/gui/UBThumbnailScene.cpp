@@ -56,6 +56,13 @@ void UBThumbnailScene::arrangeThumbnails(int fromIndex, int toIndex)
         toIndex = mThumbnailItems.size();
     }
 
+    // Only some pages shown: each one takes the place after the previous one shown.
+    if (mFiltered)
+    {
+        fromIndex = 0;
+        toIndex = mThumbnailItems.size();
+    }
+
     if (toIndex <= fromIndex || fromIndex >= mThumbnailItems.size())
     {
         // nothing to do
@@ -67,7 +74,19 @@ void UBThumbnailScene::arrangeThumbnails(int fromIndex, int toIndex)
     const auto availableViewWidth = thumbnailArranger->availableViewWidth();
 
     const int nbColumns = thumbnailArranger->columnCount();
-    const int nbRows = ((mThumbnailItems.size() - 1) / nbColumns) + 1;
+    int shownCount = mThumbnailItems.size();
+
+    if (mFiltered)
+    {
+        shownCount = 0;
+
+        for (int i = 0; i < mThumbnailItems.size(); ++i)
+        {
+            shownCount += mFilterPages.contains(i) ? 1 : 0;
+        }
+    }
+
+    const int nbRows = shownCount > 0 ? ((shownCount - 1) / nbColumns) + 1 : 0;
 
     const auto thumbnailHeight = UBThumbnail::heightForWidth(thumbnailWidth);
     const QSizeF thumbnailSize{thumbnailWidth, thumbnailHeight};
@@ -83,6 +102,17 @@ void UBThumbnailScene::arrangeThumbnails(int fromIndex, int toIndex)
     for (int i = fromIndex; i < toIndex; ++i)
     {
         auto thumbnail = mThumbnailItems.at(i);
+        const bool shown = !mFiltered || mFilterPages.contains(i);
+
+        if (thumbnail)
+        {
+            thumbnail->setVisible(shown);
+        }
+
+        if (!shown)
+        {
+            continue;
+        }
 
         if (thumbnail)
         {
@@ -110,10 +140,17 @@ void UBThumbnailScene::arrangeThumbnails(int fromIndex, int toIndex)
     auto view = thumbnailArranger->thumbnailView();
 
     // adjust the viewport of the view
-    const QSizeF sceneSize{availableViewWidth, nbRows * thumbnailHeight + (nbRows - 1) * spacing.height()};
+    const QSizeF sceneSize{availableViewWidth, qMax(0.0, nbRows * thumbnailHeight + (nbRows - 1) * spacing.height())};
     const QRectF sceneRect{{}, sceneSize.grownBy(margins)};
 
     view->setSceneRect(sceneRect);
+}
+
+void UBThumbnailScene::setPageFilter(const QList<int>& pages, bool filtered)
+{
+    mFilterPages = pages;
+    mFiltered = filtered;
+    arrangeThumbnails();
 }
 
 void UBThumbnailScene::hightlightItem(int index, bool only, bool selected)
