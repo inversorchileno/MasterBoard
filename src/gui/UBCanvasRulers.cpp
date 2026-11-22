@@ -29,11 +29,13 @@
 #include <QtMath>
 
 #include "board/UBBoardController.h"
+#include "board/UBBoardPaletteManager.h"
 #include "board/UBBoardView.h"
 #include "core/UBApplication.h"
 #include "core/UBSettings.h"
 #include "domain/UBGraphicsPDFItem.h"
 #include "domain/UBGraphicsScene.h"
+#include "gui/UBStylusPalette.h"
 
 static const QString sShownKey = QStringLiteral("Board/LibertyBoardCanvasRulers");
 static constexpr int sThickness = 24;
@@ -59,6 +61,16 @@ void UBCanvasRulers::setShown(bool shown)
             ruler->setVisible(shown);
         }
     }
+
+    if (UBBoardPaletteManager* palettes = UBApplication::boardController->paletteManager())
+    {
+        palettes->placeZoomPalette();
+    }
+}
+
+int UBCanvasRulers::thickness()
+{
+    return sThickness;
 }
 
 bool UBCanvasRulers::isShown()
@@ -88,14 +100,46 @@ UBCanvasRulers::UBCanvasRulers(Qt::Orientation orientation, QGraphicsView* view)
 void UBCanvasRulers::place()
 {
     QWidget* area = parentWidget();
+    const bool horizontal = mOrientation == Qt::Horizontal;
 
-    if (mOrientation == Qt::Horizontal)
+    // At the top and at the left, unless the toolbar is there: then at the
+    // bottom or at the right, so that it never covers the rulers.
+    const QRect near = horizontal ? QRect(0, 0, area->width(), sThickness) : QRect(0, 0, sThickness, area->height());
+    bool far = false;
+    UBBoardPaletteManager* palettes = UBApplication::boardController->paletteManager();
+    UBStylusPalette* toolbar = palettes ? palettes->stylusPalette() : nullptr;
+
+    if (toolbar && toolbar->isVisible())
     {
-        setGeometry(0, 0, area->width(), sThickness);
+        // Only a toolbar along that edge: one standing at the right only
+        // touches the end of the ruler at the top.
+        const QRect onScreen(toolbar->mapToGlobal(QPoint(0, 0)), toolbar->size());
+        const QRect band(area->mapToGlobal(near.topLeft()), near.size());
+        const QRect board(area->mapToGlobal(QPoint(0, 0)), area->size());
+        const bool lying = horizontal ? onScreen.width() > onScreen.height() : onScreen.height() > onScreen.width();
+        const bool nearSide = horizontal ? onScreen.center().y() < board.center().y()
+                                         : onScreen.center().x() < board.center().x();
+        far = lying && nearSide && band.intersects(onScreen);
+    }
+
+    if (far != mFar)
+    {
+        mFar = far;
+        update();
+
+        if (palettes)
+        {
+            palettes->placeZoomPalette();
+        }
+    }
+
+    if (horizontal)
+    {
+        setGeometry(0, far ? area->height() - sThickness : 0, area->width(), sThickness);
     }
     else
     {
-        setGeometry(0, 0, sThickness, area->height());
+        setGeometry(far ? area->width() - sThickness : 0, 0, sThickness, area->height());
     }
 
     raise();
@@ -132,13 +176,16 @@ void UBCanvasRulers::paintEvent(QPaintEvent*)
 
     const bool horizontal = mOrientation == Qt::Horizontal;
 
+    // The line and the ticks are on the side of the page.
     if (horizontal)
     {
-        painter.drawLine(0, height() - 1, width(), height() - 1);
+        const int y = mFar ? 0 : height() - 1;
+        painter.drawLine(0, y, width(), y);
     }
     else
     {
-        painter.drawLine(width() - 1, 0, width() - 1, height());
+        const int x = mFar ? 0 : width() - 1;
+        painter.drawLine(x, 0, x, height());
     }
 
     // Pixels of the screen for one pixel of the page.
@@ -185,22 +232,36 @@ void UBCanvasRulers::paintEvent(QPaintEvent*)
 
         if (horizontal)
         {
-            painter.drawLine(position, height() - length, position, height() - 1);
+            if (mFar)
+            {
+                painter.drawLine(position, 0, position, length - 1);
+            }
+            else
+            {
+                painter.drawLine(position, height() - length, position, height() - 1);
+            }
 
             if (major)
             {
-                painter.drawText(QRect(position + 2, 1, 60, 12), Qt::AlignLeft | Qt::AlignTop, QString::number(value));
+                painter.drawText(QRect(position + 2, mFar ? height() - 13 : 1, 60, 12), Qt::AlignLeft | Qt::AlignTop, QString::number(value));
             }
         }
         else
         {
-            painter.drawLine(width() - length, position, width() - 1, position);
+            if (mFar)
+            {
+                painter.drawLine(0, position, length - 1, position);
+            }
+            else
+            {
+                painter.drawLine(width() - length, position, width() - 1, position);
+            }
 
             if (major)
             {
                 // Written upward, as on the rulers of the PDF readers.
                 painter.save();
-                painter.translate(11, position - 2);
+                painter.translate(mFar ? width() - 3 : 11, position - 2);
                 painter.rotate(-90);
                 painter.drawText(QRect(0, -10, 60, 12), Qt::AlignLeft | Qt::AlignTop, QString::number(value));
                 painter.restore();

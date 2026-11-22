@@ -32,6 +32,7 @@ class QGraphicsView;
  * @brief The rulers of Edit > Canvas measurements: at the top and at the
  * left of the board, in pixels of the page or of the PDF, from 0 at its
  * top left corner. Their steps follow the zoom, from 5 to 1000 pixels.
+ * A ruler goes to the other side when the toolbar is over it.
  */
 class UBCanvasRulers : public QWidget
 {
@@ -41,6 +42,9 @@ public:
     /** @brief Shows or hides the rulers over the board, and remembers it. */
     static void setShown(bool shown);
     static bool isShown();
+
+    /** @brief The width of a ruler, in pixels. */
+    static int thickness();
 
 protected:
     void paintEvent(QPaintEvent* event) override;
@@ -53,5 +57,8 @@ private:
     void place();
 
     Qt::Orientation mOrientation;
+
+    /** @brief At the bottom or at the right, when the toolbar is at the top or at the left. */
+    bool mFar{false};
     QPointer<QGraphicsView> mView;
 };

@@ -461,9 +461,10 @@ void UBMainMenu::createCornerButtons()
     auto corner = new QWidget(mMainWindow->menuBar());
     auto layout = new QHBoxLayout(corner);
     layout->setContentsMargins(0, 0, 4, 0);
-    layout->setSpacing(4);
+    // Half the space there was between the buttons.
+    layout->setSpacing(2);
 
-    const QString buttonStyle = UBTheme::style("QToolButton { color: #f0f0f0; background: transparent; border: none; padding: 2px 8px; }"
+    const QString buttonStyle = UBTheme::style("QToolButton { color: #f0f0f0; background: transparent; border: none; padding: 2px 4px; }"
                                                "QToolButton:hover { background: #4a4a4a; }");
 
     // "Saved", for a few seconds after each save.

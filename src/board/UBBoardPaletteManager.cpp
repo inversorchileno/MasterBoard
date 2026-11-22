@@ -47,6 +47,7 @@
 #include "gui/UBKeyboardPalette.h"
 #include "gui/UBToolWidget.h"
 #include "gui/UBZoomPalette.h"
+#include "gui/UBCanvasRulers.h"
 #include "gui/UBWebToolsPalette.h"
 #include "gui/UBActionPalette.h"
 #include "gui/UBBackgroundPalette.h"
@@ -1034,8 +1035,22 @@ void UBBoardPaletteManager::placeZoomPalette()
         return;
     }
 
-    const QRect area = mStylusPalette ? mStylusPalette->boardArea() : mContainer->rect();
+    QRect area = mStylusPalette ? mStylusPalette->boardArea() : mContainer->rect();
     const QRect avoid = (mStylusPalette && mStylusPalette->isVisible()) ? mStylusPalette->geometry() : QRect();
+
+    // The rulers of the canvas go at the right or at the bottom when the
+    // toolbar is at the left or at the top: the box stays clear of them.
+    if (UBCanvasRulers::isShown() && mStylusPalette && mStylusPalette->isVisible())
+    {
+        if (UBStylusPalette::edge() == Qt::LeftEdge)
+        {
+            area.setRight(area.right() - UBCanvasRulers::thickness());
+        }
+        else if (UBStylusPalette::edge() == Qt::TopEdge)
+        {
+            area.setBottom(area.bottom() - UBCanvasRulers::thickness());
+        }
+    }
 
     mZoomPalette->placeIn(area, avoid);
     mZoomPalette->refreshPalette();

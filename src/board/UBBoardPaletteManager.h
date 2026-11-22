@@ -94,6 +94,9 @@ class UBBoardPaletteManager : public QObject
         void startDownloads();
         void stopDownloads();
 
+        /** @brief Puts the zoom box in its corner, beside the toolbar and the rulers. */
+        void placeZoomPalette();
+
     public slots:
 
         void activeSceneChanged();
@@ -199,7 +202,6 @@ class UBBoardPaletteManager : public QObject
         void handButtonReleased();
 
         void changeStylusPaletteOrientation(QVariant var);
-        void placeZoomPalette();
         void saveBoardScreenshot();
 };
 

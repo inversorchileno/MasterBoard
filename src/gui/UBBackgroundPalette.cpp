@@ -459,6 +459,12 @@ void UBBackgroundPalette::showEvent(QShowEvent* event)
 {
     backgroundChanged();
 
+    // The scroll direction may have been chosen in the Customize menu.
+    if (mPageFlow)
+    {
+        mPageFlow->setChoice(UBBoardView::pageFlow());
+    }
+
     mSlider->setValue(UBApplication::boardController->activeScene()->backgroundGridSize());
     connect(mSlider, SIGNAL(valueChanged(int)),
             this, SLOT(sliderValueChanged(int)));

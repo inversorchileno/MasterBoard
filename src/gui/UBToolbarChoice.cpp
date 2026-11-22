@@ -23,6 +23,7 @@
 #include "UBToolbarChoice.h"
 
 #include <QAction>
+#include <QActionGroup>
 #include <QDialog>
 #include <QDialogButtonBox>
 #include <QListWidget>
@@ -39,6 +40,8 @@
 #include <QMouseEvent>
 #include <QPointer>
 
+#include "board/UBBoardController.h"
+#include "board/UBBoardView.h"
 #include "core/UBApplication.h"
 #include "core/UBSettings.h"
 #include "gui/UBMainWindow.h"
@@ -507,4 +510,23 @@ void UBToolbarChoice::fillCustomizeMenu(QMenu* menu)
     // The colors, the opacity and the corners of the palettes.
     QAction* style = menu->addAction(tr("Bar style..."));
     QObject::connect(style, &QAction::triggered, menu, [menu]() { UBBarStyle::openWindow(menu->parentWidget() ? menu->parentWidget()->window() : nullptr); });
+
+    // How the pages follow each other, also chosen in Template style.
+    QMenu* flow = menu->addMenu(tr("Scroll direction"));
+    auto group = new QActionGroup(flow);
+    const QStringList names = { tr("Vertical"), tr("Horizontal"), tr("Horizontal in 2 pages") };
+
+    for (int i = 0; i < names.size(); ++i)
+    {
+        QAction* choice = flow->addAction(names.at(i));
+        choice->setCheckable(true);
+        choice->setChecked(UBBoardView::pageFlow() == i);
+        group->addAction(choice);
+        QObject::connect(choice, &QAction::triggered, flow, [i]() {
+            if (UBBoardView* view = UBApplication::boardController->controlView())
+            {
+                view->setPageFlow(UBBoardView::PageFlow(i));
+            }
+        });
+    }
 }
