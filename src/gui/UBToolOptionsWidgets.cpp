@@ -56,7 +56,7 @@ QString toolOptionsStyleSheet()
         "UBToolOptionsPanel { background: #20242b; }"
         "QLabel { color: #e8e8e8; background: transparent; }"
         "QLabel#title { font-weight: bold; font-size: 15px; }"
-        "QLabel#section { color: #9aa3b2; }"
+        "QLabel#section, QLabel#caption { color: #9aa3b2; }"
         "QToolButton { background: #2c313a; color: #e8e8e8; border: 1px solid #3a404b; border-radius: 6px; padding: 4px; }"
         "QToolButton:hover { border-color: #6b7383; }"
         "QToolButton:checked { background: #3d4452; border: 2px solid #f0f0f0; }"
@@ -439,52 +439,33 @@ void UBValueSlider::setSliderWidth(int width)
     mSlider->setFixedWidth(width);
 }
 
-void UBValueSlider::setStacked(const QString& caption, bool valueAbove)
+void UBValueSlider::setStacked(const QString& caption)
 {
     delete layout();
 
-    auto grid = new QGridLayout(this);
-    grid->setContentsMargins(0, 0, 0, 0);
-    grid->setHorizontalSpacing(8);
-    grid->setVerticalSpacing(0);
+    // In a column, to take little width in the toolbar: the caption, the
+    // value under it, and the slider at the bottom.
+    auto column = new QVBoxLayout(this);
+    column->setContentsMargins(0, 0, 0, 0);
+    column->setSpacing(1);
 
-    if (valueAbove)
+    if (!caption.isEmpty())
     {
-        // The caption and the value above the slider.
-        if (!caption.isEmpty())
-        {
-            auto label = new QLabel(caption, this);
-            label->setObjectName("section");
-            grid->addWidget(label, 0, 0, Qt::AlignLeft | Qt::AlignVCenter);
-        }
-
-        grid->addWidget(mValueBox, 0, 1, Qt::AlignRight | Qt::AlignVCenter);
-        grid->addWidget(mSlider, 1, 0, 1, 2);
-    }
-    else
-    {
-        // The caption above, the slider and its value side by side under it.
-        if (!caption.isEmpty())
-        {
-            auto label = new QLabel(caption, this);
-            label->setObjectName("section");
-            grid->addWidget(label, 0, 0, 1, 2, Qt::AlignLeft | Qt::AlignBottom);
-        }
-
-        grid->addWidget(mSlider, 1, 0, Qt::AlignVCenter);
-        grid->addWidget(mValueBox, 1, 1, Qt::AlignVCenter);
+        auto label = new QLabel(caption, this);
+        label->setObjectName("caption");
+        column->addWidget(label, 0, Qt::AlignLeft);
     }
 
-    grid->setColumnStretch(0, 1);
+    column->addWidget(mValueBox, 0, Qt::AlignLeft);
+    column->addWidget(mSlider);
 
-    mValueBox->setFixedHeight(22);
-    mSlider->setFixedHeight(20);
+    mValueBox->setFixedHeight(20);
+    mSlider->setFixedHeight(16);
+    mSlider->setMinimumWidth(96);
+    mSlider->setMaximumWidth(120);
 
-    // As tall as the caption and the slider, centered in the toolbar.
-    setSizePolicy(sizePolicy().horizontalPolicy(), QSizePolicy::Fixed);
-    setFixedHeight(44);
-    mSlider->setMinimumWidth(130);
-    mSlider->setMaximumWidth(QWIDGETSIZE_MAX);
+    setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
+    setFixedHeight(caption.isEmpty() ? 40 : 58);
 }
 
 int UBValueSlider::positionOf(qreal value) const

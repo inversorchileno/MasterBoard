@@ -66,12 +66,6 @@ protected:
     /** @brief Called by setHorizontal() for the changes a panel needs to fit in the toolbar. */
     virtual void layOutForToolbar() {}
 
-    /** @brief True when the toolbar shows captions and values above the sliders, to save room. */
-    virtual bool stacksSlidersInToolbar() const { return false; }
-
-    /** @brief Whether the stacked sliders have their value above them, with the caption, rather than beside them. */
-    virtual bool stacksValuesAboveSliders() const { return false; }
-
     void addRow(QWidget* widget);
     void addSection(const QString& title);
 
@@ -142,7 +136,6 @@ public:
     void refresh() override;
 
 protected:
-    bool stacksSlidersInToolbar() const override { return true; }
     void layOutForToolbar() override;
 
 private:
@@ -169,8 +162,6 @@ public:
 
 protected:
     void layOutForToolbar() override;
-    bool stacksSlidersInToolbar() const override;
-    bool stacksValuesAboveSliders() const override { return true; }
 
 private:
     void showColorTarget(int target);

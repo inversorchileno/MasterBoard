@@ -225,9 +225,9 @@ void UBToolOptionsPanel::setHorizontal()
         }
     }
 
-    if (stacksSlidersInToolbar())
     {
-        // A section title just before a slider becomes its caption.
+        // Each slider in a column, to take little width: its section title
+        // as its caption, its value under it and the slider at the bottom.
         QLabel* section = nullptr;
 
         for (int i = 0; i < mLayout->count(); ++i)
@@ -236,11 +236,13 @@ void UBToolOptionsPanel::setHorizontal()
 
             if (auto slider = qobject_cast<UBValueSlider*>(widget))
             {
-                slider->setStacked(section ? section->text() : QString(), stacksValuesAboveSliders());
+                slider->setStacked(section ? section->text() : QString());
 
                 if (section)
                 {
+                    // Its caption takes its place, also when the panel shows it again.
                     section->hide();
+                    section->setProperty("captioned", true);
                 }
             }
 
@@ -287,6 +289,7 @@ UBPenOptionsPanel::UBPenOptionsPanel(QWidget* parent)
                                "Calligraphy pen: smooth and even. Pencil: thin and dark, with grain. Marker: wide, with a felt texture."));
     addRow(mStrokeType);
 
+    addSection(tr("Size"));
     mWidth = new UBValueSlider({ 1, 2, 3, 6, 10, 50 }, tr(" pt"), 1, this);
     addRow(mWidth);
 
@@ -294,6 +297,7 @@ UBPenOptionsPanel::UBPenOptionsPanel(QWidget* parent)
     mColors = new UBColorSwatches(penColors(), false, this);
     addRow(mColors);
 
+    addSection(tr("Opacity"));
     mOpacity = new UBValueSlider(opacityMarks(), tr(" %"), 0, this);
     addRow(mOpacity);
 
@@ -374,6 +378,7 @@ UBEraserOptionsPanel::UBEraserOptionsPanel(QWidget* parent)
     mMode->setToolTip(tr("Whole: erases every stroke the eraser touches. Partial: erases only where the eraser passes."));
     addRow(mMode);
 
+    addSection(tr("Size"));
     mSize = new UBValueSlider({ 1, 2, 3, 6, 10, 50 }, tr(" pt"), 0, this);
     addRow(mSize);
 
@@ -425,6 +430,7 @@ UBMarkerOptionsPanel::UBMarkerOptionsPanel(QWidget* parent)
     mColors = new UBColorSwatches(markerColors(), false, this);
     addRow(mColors);
 
+    addSection(tr("Size"));
     mWidth = new UBValueSlider({ 20, 30, 40, 50, 80, 100 }, tr(" pt"), 0, this);
     addRow(mWidth);
 
@@ -433,7 +439,7 @@ UBMarkerOptionsPanel::UBMarkerOptionsPanel(QWidget* parent)
     mTip->setToolTip(tr("Round: the stroke has round ends. Straight: like a highlighter, wide across the lines of text, with straight ends."));
     addRow(mTip);
 
-    addSection(tr("Advanced"));
+    addSection(tr("Opacity"));
     mOpacity = new UBValueSlider(opacityMarks(), tr(" %"), 0, this);
     addRow(mOpacity);
 
@@ -494,6 +500,7 @@ UBLaserOptionsPanel::UBLaserOptionsPanel(QWidget* parent)
                          "Follow: follows the mouse without a click, its trail fading with the times below."));
     addRow(mMode);
 
+    addSection(tr("Size"));
     mWidth = new UBValueSlider({ 0.5, 1, 2, 4, 8, 16, 64 }, tr(" pt"), 1, this);
     addRow(mWidth);
 
@@ -719,7 +726,7 @@ void UBEmojiOptionsPanel::showGifs(bool shown)
     // The emojis, or the hint to drag the GIFs.
     mMode->setChoice(shown ? 1 : 0);
     mEmojis->setVisible(!shown);
-    mSizeTitle->setVisible(!shown);
+    mSizeTitle->setVisible(!shown && !mSizeTitle->property("captioned").toBool());
     mSize->setVisible(!shown);
     mDragHint->setVisible(shown);
 }
@@ -1088,9 +1095,9 @@ void UBSpotlightOptionsPanel::showModeOptions()
 {
     // The darkness is for the spotlight, the zoom for the magnifier.
     const bool magnifier = UBSettings::settings()->spotlightMode->get().toInt() == 1;
-    mDarknessTitle->setVisible(!magnifier);
+    mDarknessTitle->setVisible(!magnifier && !mDarknessTitle->property("captioned").toBool());
     mDarkness->setVisible(!magnifier);
-    mZoomTitle->setVisible(magnifier);
+    mZoomTitle->setVisible(magnifier && !mZoomTitle->property("captioned").toBool());
     mZoom->setVisible(magnifier);
 }
 
@@ -1158,6 +1165,7 @@ UBShapeOptionsPanel::UBShapeOptionsPanel(int tool, QWidget* parent)
     }
     else
     {
+        addSection(tr("Size"));
         mWidth = new UBValueSlider({ 1, 2, 3, 6, 10, 50 }, tr(" pt"), 1, this);
     }
 
@@ -1316,10 +1324,6 @@ void UBShapeOptionsPanel::refresh()
     }
 }
 
-bool UBShapeOptionsPanel::stacksSlidersInToolbar() const
-{
-    return mTool == UBStylusTool::Rectangle;
-}
 
 void UBShapeOptionsPanel::layOutForToolbar()
 {
@@ -1392,6 +1396,7 @@ UBTextOptionsPanel::UBTextOptionsPanel(QWidget* parent)
     mFont = new QFontComboBox(this);
     addRow(mFont);
 
+    addSection(tr("Size"));
     mSize = new UBValueSlider({ 8, 12, 16, 24, 36, 48, 72 }, tr(" pt"), 0, this);
     addRow(mSize);
 

@@ -100,11 +100,10 @@ public:
     void setSliderWidth(int width);
 
     /**
-     * @brief Puts the caption above the slider, so that the slider takes
-     * less room in the toolbar: the value beside the slider, or above it
-     * with the caption.
+     * @brief Puts the caption, the value and the slider one under the other,
+     * so that the slider takes little width in the toolbar.
      */
-    void setStacked(const QString& caption, bool valueAbove = false);
+    void setStacked(const QString& caption);
 
 signals:
     void valueChanged(qreal value);
