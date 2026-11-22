@@ -1596,6 +1596,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>Круглий</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Розташування</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Угорі</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Унизу</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ліворуч</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Праворуч</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Автоматично приховувати</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Зсувати до свого краю</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Згасати</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Як має приховуватися панель? Вона повертається так само, коли вказівник наближається до її краю.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5869,6 +5905,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Використовувати всі доступні дисплеї</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Автоматично приховувати</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Зсувати до свого краю</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Згасати</translation>
     </message>
 </context>
 <context>

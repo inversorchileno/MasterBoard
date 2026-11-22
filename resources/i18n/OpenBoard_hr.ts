@@ -1649,6 +1649,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>Okruglo</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Položaj</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Gore</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Dolje</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Lijevo</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Desno</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automatski sakrij</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Klizanje prema svojoj strani</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Blijeđenje</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Kako se traka treba sakrivati? Vraća se na isti način kad se pokazivač približi njezinoj strani.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5943,6 +5979,18 @@ Dinamična širina</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Koristi sve dostupne zaslone</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automatski sakrij</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Klizanje prema svojoj strani</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Blijeđenje</translation>
     </message>
 </context>
 <context>

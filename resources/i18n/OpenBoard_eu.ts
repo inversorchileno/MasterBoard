@@ -1718,6 +1718,42 @@ Segurtasun-egiaztapena saltatu eta jarraitu nahi duzu?   </translation>
         <source>Round</source>
         <translation>Biribila</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Kokapena</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Goian</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Behean</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ezkerrean</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Eskuinean</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Ezkutatu automatikoki</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Irristatu bere alderantz</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Desagertu pixkanaka</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Nola ezkutatu behar da barra? Era berean itzultzen da erakuslea bere aldera hurbiltzen denean.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6050,6 +6086,18 @@ Zabalera dinamikoa</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Erabili erabilgarri dauden pantaila guztiak</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Ezkutatu automatikoki</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Irristatu bere alderantz</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Desagertu pixkanaka</translation>
     </message>
 </context>
 <context>

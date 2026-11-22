@@ -1596,6 +1596,42 @@ Vil du hoppe over sikkerhetskontrollen og fortsette?   </translation>
         <source>Round</source>
         <translation>Rund</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Plassering</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Øverst</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Nederst</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Venstre</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Høyre</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Skjul automatisk</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Gli mot sin side</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Ton ut</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Hvordan skal linjen skjules? Den kommer tilbake på samme måte når pekeren nærmer seg siden dens.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5834,6 +5870,18 @@ Dynamisk bredde</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Bruk alle tilgjengelige skjermer</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Skjul automatisk</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Gli mot sin side</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Ton ut</translation>
     </message>
 </context>
 <context>

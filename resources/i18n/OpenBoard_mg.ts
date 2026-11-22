@@ -1596,6 +1596,42 @@ Tianao hodinganina ve ny fanamarinana fiarovana ary hotohizana?   </translation>
         <source>Round</source>
         <translation>Boribory</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Toerana</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Ambony</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ambany</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ankavia</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Ankavanana</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Afeno ho azy</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Ahodina mankany amin’ny sisiny</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Manjavona tsikelikely</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Ahoana no hanafenana ny bara? Miverina toy izany koa izy rehefa manakaiky ny sisiny ny tondro.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5834,6 +5870,18 @@ Sakany miova</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Ampiasao ny fampisehoana rehetra misy</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Afeno ho azy</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Ahodina mankany amin’ny sisiny</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Manjavona tsikelikely</translation>
     </message>
 </context>
 <context>

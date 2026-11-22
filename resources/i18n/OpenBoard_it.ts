@@ -1616,6 +1616,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>Rotondo</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Posizione</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>In alto</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>In basso</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>A sinistra</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>A destra</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Nascondi automaticamente</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Scorri verso il suo lato</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Dissolvenza</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Come deve nascondersi la barra? Ritorna allo stesso modo quando il puntatore si avvicina al suo lato.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5938,6 +5974,18 @@ Larghezza dinamica</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Utlizzare tutti gli schermi</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Nascondi automaticamente</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Scorri verso il suo lato</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Dissolvenza</translation>
     </message>
 </context>
 <context>

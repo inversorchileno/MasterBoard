@@ -1608,6 +1608,42 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <source>Round</source>
         <translation>Kerek</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Fent</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Lent</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Balra</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Jobbra</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automatikus elrejtés</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Kicsúszás az oldala felé</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Elhalványulás</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Hogyan rejtőzzön el a sáv? Ugyanígy tér vissza, amikor a mutató az oldalához közelít.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5961,6 +5997,18 @@ Dinamikus szélesség</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Az összes elérhető kijelző használata</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automatikus elrejtés</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Kicsúszás az oldala felé</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Elhalványulás</translation>
     </message>
 </context>
 <context>

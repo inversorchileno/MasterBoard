@@ -1608,6 +1608,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>Στρογγυλό</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Θέση</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Πάνω</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Κάτω</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Αριστερά</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Δεξιά</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Αυτόματη απόκρυψη</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Ολίσθηση προς την πλευρά της</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Σβήσιμο</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Πώς να κρύβεται η γραμμή; Επιστρέφει με τον ίδιο τρόπο όταν ο δείκτης πλησιάζει την πλευρά της.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5888,6 +5924,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Χρήση όλων των διαθέσιμων οθονών</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Αυτόματη απόκρυψη</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Ολίσθηση προς την πλευρά της</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Σβήσιμο</translation>
     </message>
 </context>
 <context>

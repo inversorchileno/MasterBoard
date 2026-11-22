@@ -1596,6 +1596,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>둥글게</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>위</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>아래</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>왼쪽</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>오른쪽</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>자동으로 숨기기</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>가장자리로 밀어내기</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>서서히 사라지기</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>막대를 어떻게 숨길까요? 포인터가 그쪽 가장자리에 가까워지면 같은 방식으로 다시 나타납니다.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5843,6 +5879,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>사용 가능한 모든 디스플레이 사용</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>자동으로 숨기기</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>가장자리로 밀어내기</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>서서히 사라지기</translation>
     </message>
 </context>
 <context>

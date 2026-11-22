@@ -1617,6 +1617,42 @@ Voulez-vous continuer quand-même ?   </translation>
         <source>Round</source>
         <translation>Rond</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Emplacement</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>En haut</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>En bas</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>À gauche</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>À droite</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Masquer automatiquement</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Glisser vers son côté</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Fondu</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Comment la barre doit-elle se masquer ? Elle revient de la même façon quand le pointeur s’approche de son côté.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6082,6 +6118,18 @@ Largeur dynamique</translation>
     <message>
         <source>Laser pointer</source>
         <translation type="vanished">Pointeur laser</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Masquer automatiquement</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Glisser vers son côté</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Fondu</translation>
     </message>
 </context>
 <context>

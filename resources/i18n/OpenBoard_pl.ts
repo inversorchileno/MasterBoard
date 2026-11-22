@@ -1599,6 +1599,42 @@ Czy pominąć kontrolę bezpieczeństwa i kontynuować?   </translation>
         <source>Round</source>
         <translation>Okrągły</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Położenie</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Na górze</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Na dole</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Po lewej</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Po prawej</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Ukrywaj automatycznie</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Wysuń do swojej krawędzi</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Zanikanie</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Jak pasek ma się ukrywać? Wraca w ten sam sposób, gdy wskaźnik zbliży się do jego krawędzi.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5896,6 +5932,18 @@ Dynamiczna szerokość</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Używaj wszystkich dostępnych wyświetlaczy</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Ukrywaj automatycznie</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Wysuń do swojej krawędzi</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Zanikanie</translation>
     </message>
 </context>
 <context>

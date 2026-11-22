@@ -1616,6 +1616,42 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <source>Round</source>
         <translation>Rund</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Position</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Oben</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Unten</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Rechts</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automatisch ausblenden</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Zur Seite gleiten</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Ausblenden</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Wie soll sich die Leiste ausblenden? Sie kommt auf dieselbe Weise zurück, wenn der Zeiger ihrer Seite nahe kommt.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6075,6 +6111,18 @@ Dynamische Breite</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Alle verfügbaren Bildschirme nutzen</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automatisch ausblenden</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Zur Seite gleiten</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Ausblenden</translation>
     </message>
 </context>
 <context>

@@ -1597,6 +1597,42 @@ Chcete přeskočit bezpečnostní kontrolu a pokračovat?   </translation>
         <source>Round</source>
         <translation>Kulatý</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Umístění</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Nahoře</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Dole</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Vlevo</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Vpravo</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automaticky skrývat</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Vysunout ke své straně</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Vyblednout</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Jak se má lišta skrývat? Vrátí se stejným způsobem, když se ukazatel přiblíží k její straně.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5843,6 +5879,18 @@ Dynamická šířka</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Použít všechny dostupné displeje</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automaticky skrývat</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Vysunout ke své straně</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Vyblednout</translation>
     </message>
 </context>
 <context>

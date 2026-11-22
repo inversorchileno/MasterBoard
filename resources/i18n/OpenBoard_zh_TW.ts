@@ -1596,6 +1596,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>圓形</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>頂端</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>底端</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>左側</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>右側</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>自動隱藏</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>滑向其所在邊</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>淡出</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>工具列應如何隱藏？指標靠近其所在邊時，會以同樣的方式重新出現。</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5997,6 +6033,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>使用所有可用的顯示器</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>自動隱藏</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>滑向其所在邊</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>淡出</translation>
     </message>
 </context>
 <context>

@@ -1608,6 +1608,42 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
         <source>Round</source>
         <translation>Yuvarlak</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Konum</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Üst</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Alt</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Sol</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Sağ</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Otomatik gizle</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Kenarına doğru kaydır</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Soldur</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Çubuk nasıl gizlensin? İşaretçi kenarına yaklaştığında aynı şekilde geri gelir.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5886,6 +5922,18 @@ Dinamik kalınlık</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Tüm kullanılabilir ekranları kullan</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Otomatik gizle</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Kenarına doğru kaydır</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Soldur</translation>
     </message>
 </context>
 <context>

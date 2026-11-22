@@ -1592,6 +1592,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>丸</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>上</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>下</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>自動的に隠す</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>端へスライド</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>フェードアウト</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>バーをどのように隠しますか？ポインターがその端に近づくと同じ方法で戻ります。</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5955,6 +5991,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>利用可能なすべてのディスプレイを使う</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>自動的に隠す</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>端へスライド</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>フェードアウト</translation>
     </message>
 </context>
 <context>

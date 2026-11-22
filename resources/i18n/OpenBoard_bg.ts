@@ -1596,6 +1596,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>Кръгло</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Позиция</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Горе</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Долу</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ляво</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Дясно</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Автоматично скриване</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Плъзгане към страната си</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Избледняване</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Как да се скрива лентата? Връща се по същия начин, когато показалецът наближи страната ѝ.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5831,6 +5867,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Използвай всички налични дисплеи</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Автоматично скриване</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Плъзгане към страната си</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Избледняване</translation>
     </message>
 </context>
 <context>

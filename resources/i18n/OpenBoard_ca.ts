@@ -1596,6 +1596,42 @@ Voleu ometre la comprovació de seguretat i continuar?   </translation>
         <source>Round</source>
         <translation>Rodó</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Ubicació</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>A dalt</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>A baix</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Esquerra</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Dreta</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Amaga automàticament</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Lliscar cap al seu costat</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Esvair</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Com s’ha d’amagar la barra? Torna de la mateixa manera quan el punter s’acosta al seu costat.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5846,6 +5882,18 @@ Amplada dinàmica</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Fes servir totes les pantalles disponibles</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Amaga automàticament</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Lliscar cap al seu costat</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Esvair</translation>
     </message>
 </context>
 <context>

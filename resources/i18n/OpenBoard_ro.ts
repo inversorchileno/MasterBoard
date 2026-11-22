@@ -1596,6 +1596,42 @@ Doriți să treceți peste verificarea de securitate și să continuați?   </tr
         <source>Round</source>
         <translation>Rotund</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Poziție</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Sus</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Jos</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Stânga</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Dreapta</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Ascundere automată</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Glisare spre marginea sa</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Estompare</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Cum să se ascundă bara? Revine la fel când indicatorul se apropie de marginea ei.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5834,6 +5870,18 @@ Lățime dinamică</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Folosește toate afișajele disponibile</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Ascundere automată</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Glisare spre marginea sa</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Estompare</translation>
     </message>
 </context>
 <context>

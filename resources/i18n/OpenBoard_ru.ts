@@ -1596,6 +1596,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>Круглый</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Расположение</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Сверху</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Снизу</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Слева</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Справа</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Скрывать автоматически</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Сдвигать к своему краю</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Растворять</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Как должна скрываться панель? Она возвращается так же, когда указатель приближается к её краю.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5889,6 +5925,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Использовать все доступные дисплеи</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Скрывать автоматически</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Сдвигать к своему краю</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Растворять</translation>
     </message>
 </context>
 <context>

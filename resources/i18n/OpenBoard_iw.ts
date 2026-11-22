@@ -1597,6 +1597,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>עגול</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>מיקום</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>למעלה</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>למטה</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>שמאל</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>ימין</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>הסתרה אוטומטית</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>החלקה לכיוון הצד שלו</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>דהייה</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>איך הסרגל צריך להיעלם? הוא חוזר באותה דרך כשהמצביע מתקרב לצד שלו.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5834,6 +5870,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>שימוש בכל התצוגות הזמינות</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>הסתרה אוטומטית</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>החלקה לכיוון הצד שלו</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>דהייה</translation>
     </message>
 </context>
 <context>

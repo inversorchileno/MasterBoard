@@ -1596,6 +1596,42 @@ Vill du hoppa över säkerhetskontrollen och fortsätta?   </translation>
         <source>Round</source>
         <translation>Rund</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Placering</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Överst</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Nederst</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Vänster</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Höger</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Dölj automatiskt</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Glid mot sin kant</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Tona ut</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Hur ska fältet döljas? Det kommer tillbaka på samma sätt när pekaren närmar sig dess kant.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5839,6 +5875,18 @@ Dynamisk bredd</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Använd alla tillgängliga skärmar</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Dölj automatiskt</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Glid mot sin kant</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Tona ut</translation>
     </message>
 </context>
 <context>

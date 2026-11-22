@@ -1592,6 +1592,42 @@ Wil je de beveiligingscontrole overslaan en doorgaan?   </translation>
         <source>Round</source>
         <translation>Rond</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>Locatie</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Boven</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Onder</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>Rechts</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automatisch verbergen</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Naar de rand schuiven</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Vervagen</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>Hoe moet de balk verdwijnen? Hij komt op dezelfde manier terug als de aanwijzer bij zijn rand komt.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5824,6 +5860,18 @@ Dynamische breedte</translation>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Alle beschikbare beeldschermen gebruiken</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>Automatisch verbergen</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>Naar de rand schuiven</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>Vervagen</translation>
     </message>
 </context>
 <context>

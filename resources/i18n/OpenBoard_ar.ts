@@ -1596,6 +1596,42 @@ Do you wish to override the security check and continue ?   </source>
         <source>Round</source>
         <translation>دائري</translation>
     </message>
+    <message>
+        <source>Location</source>
+        <translation>الموقع</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>أعلى</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>أسفل</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>يسار</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>يمين</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>إخفاء تلقائي</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>انزلاق نحو جانبه</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>تلاشٍ</translation>
+    </message>
+    <message>
+        <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
+        <translation>كيف يجب أن يختفي الشريط؟ يعود بالطريقة نفسها عندما يقترب المؤشر من جانبه.</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5849,6 +5885,18 @@ Dynamic width</source>
         <location line="-246"/>
         <source>Use all available displays</source>
         <translation>استخدام كل الشاشات المتاحة</translation>
+    </message>
+    <message>
+        <source>Hide automatically</source>
+        <translation>إخفاء تلقائي</translation>
+    </message>
+    <message>
+        <source>Slide toward its side</source>
+        <translation>انزلاق نحو جانبه</translation>
+    </message>
+    <message>
+        <source>Fade out</source>
+        <translation>تلاشٍ</translation>
     </message>
 </context>
 <context>
