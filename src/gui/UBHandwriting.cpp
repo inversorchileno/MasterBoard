@@ -22,8 +22,9 @@
 
 
 
-#ifdef Q_OS_WIN
+#ifdef _WIN32
 // The handwriting recognition of Windows, through its runtime (C++/WinRT).
+// _WIN32 rather than Q_OS_WIN: no header of Qt is read yet here.
 #ifndef NOMINMAX
 #define NOMINMAX
 #endif
