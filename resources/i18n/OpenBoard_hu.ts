@@ -570,7 +570,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+6"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location line="+150"/>
@@ -701,22 +701,22 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+98"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Programismertető</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>A programismertető megnyitása</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Illesztés a rácshoz</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Snap to grid and angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Illesztés rácshoz és szöghöz</translation>
     </message>
     <message>
         <location line="-1784"/>
@@ -1011,37 +1011,37 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+3"/>
         <source>Draw shapes: rectangles, ellipses, lines, polylines, arrows, stars, speech bubbles…</source>
-        <translation type="unfinished"></translation>
+        <translation>Alakzatok rajzolása: téglalapok, ellipszisek, vonalak, törött vonalak, nyilak, csillagok, szövegbuborékok…</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojik és GIF-ek</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Put an emoji or a GIF on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Emoji vagy GIF elhelyezése az oldalon</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>MI</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
-        <translation type="unfinished"></translation>
+        <translation>Összefoglaló, fordítás, képek és más egy webes MI-vel</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mérések</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance, perimeter and area, with a reference drawn on the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Távolság, kerület és terület, a képernyőre rajzolt viszonyítással</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1051,7 +1051,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+3"/>
         <source>Read the page aloud, from its start, from a word clicked or a rectangle dragged on the text</source>
-        <translation type="unfinished"></translation>
+        <translation>Az oldal felolvasása az elejétől, egy kattintott szótól vagy a szövegre húzott téglalapból</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -1460,7 +1460,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="-3"/>
         <source>Favorite</source>
-        <translation type="unfinished"></translation>
+        <translation>Kedvenc</translation>
     </message>
 </context>
 <context>
@@ -1528,7 +1528,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+46"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Általános</translation>
     </message>
     <message>
         <location filename="../../src/board/UBComments.cpp" line="+153"/>
@@ -1571,22 +1571,22 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
         <source>Bar style</source>
-        <translation type="unfinished"></translation>
+        <translation>Sáv stílusa</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az eszközpaletták stílusa a táblán és az asztalon. A paletták azonnal megváltoznak.</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Color inside</source>
-        <translation type="unfinished"></translation>
+        <translation>Belső szín</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Color of the edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Szegély színe</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1596,17 +1596,17 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+2"/>
         <source>Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Sarkok</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>Négyzet</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerek</translation>
     </message>
 </context>
 <context>
@@ -1652,77 +1652,77 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>MI</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Összefoglaló</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, summarized by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Az oldal egy része vagy egésze, az MI összefoglalójában</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordítás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, translated by the AI into the language chosen</source>
-        <translation type="unfinished"></translation>
+        <translation>Az oldal egy része vagy egésze, az MI fordításában a választott nyelvre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Create image</source>
-        <translation type="unfinished"></translation>
+        <translation>Kép készítése</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>An image made by the AI from what you write</source>
-        <translation type="unfinished"></translation>
+        <translation>Kép, amelyet az MI készít abból, amit ír</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove background</source>
-        <translation type="unfinished"></translation>
+        <translation>Háttér eltávolítása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A picture without its background, made by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Háttér nélküli kép, az MI készítette</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erase</source>
-        <translation type="unfinished"></translation>
+        <translation>Generatív törlés</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Something erased from a picture by the AI, as if it had never been there</source>
-        <translation type="unfinished"></translation>
+        <translation>Valami, amit az MI törölt egy képről, mintha ott sem lett volna</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Leírás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Asks for an audio and gives it to the AI, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangot kér és az MI-nek adja, amely leírja, ami elhangzik</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>MI megnyitása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Opens or closes the page of the AI at the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Megnyitja vagy bezárja az MI oldalát jobbra</translation>
     </message>
 </context>
 <context>
@@ -1730,202 +1730,202 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location filename="../../src/gui/UBAiPanel.cpp" line="+164"/>
         <source>Drag over the part of the page to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Húzza végig az oldal MI-nek szánt részén. Esc: mégse.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag over the part of the screen to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Húzza végig a képernyő MI-nek szánt részén. Esc: mégse.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordítás</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Detect it</source>
-        <translation type="unfinished"></translation>
+        <translation>Felismerés</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Write or choose the languages:</source>
-        <translation type="unfinished"></translation>
+        <translation>Írja be vagy válassza ki a nyelveket:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Feladó:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Címzett:</translation>
     </message>
     <message>
         <location line="+171"/>
         <source>Put the picture on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>A kép elhelyezése az asztalon</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the picture on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>A kép elhelyezése az oldalon</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Put the text on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>A szöveg elhelyezése az asztalon</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the text on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>A szöveg elhelyezése az oldalon</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The AI shown; the addresses are in the preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>A megjelenített MI; a címek a beállításokban vannak</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Close the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>MI bezárása</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>AI:</source>
-        <translation type="unfinished"></translation>
+        <translation>MI:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Copy instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>Utasítás másolása</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copies the instruction again, to paste it with Ctrl+V in the box of the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Újra kimásolja az utasítást, hogy Ctrl+V-vel beilleszthesse az MI mezőjébe</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Paste on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Beillesztés az oldalra</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Paste on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Beillesztés az asztalra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Puts on the page what was copied in the AI: a text, or a picture with its right click, Copy image. The right click on a picture or a selected text of the AI can also put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az oldalra teszi, amit az MI-ben másolt: szöveget, vagy képet a jobb kattintás Kép másolása parancsával. Az MI képére vagy kijelölt szövegére való jobb kattintás is odateheti.</translation>
     </message>
     <message>
         <location line="+405"/>
         <source>Right click on a picture or a text of the AI to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattintson jobb gombbal az MI képére vagy szövegére, hogy az asztalra tegye.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag a text or a picture of the AI to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Húzza az MI szövegét vagy képét az oldalra, vagy kattintson rá jobb gombbal, hogy oda tegye.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Right click on the answer to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az utasítás be van írva az MI-be és ki is van másolva: a Ctrl+V beilleszti. Kattintson jobb gombbal a válaszra, hogy az asztalra tegye.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Drag the answer to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az utasítás be van írva az MI-be és ki is van másolva: a Ctrl+V beilleszti. Húzza a választ az oldalra, vagy kattintson rá jobb gombbal, hogy oda tegye.</translation>
     </message>
     <message>
         <location line="+305"/>
         <source>The picture could not be taken from the AI: right click on it and choose to put it on the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem sikerült átvenni a képet az MI-től: kattintson rá jobb gombbal, és válassza az oldalra helyezést.</translation>
     </message>
     <message>
         <location line="-675"/>
         <source>Drag to make the panel wider</source>
-        <translation type="unfinished"></translation>
+        <translation>Húzza a panel szélesítéséhez</translation>
     </message>
     <message>
         <location line="+129"/>
         <source>The picture of the AI is on the page; it is also in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Az MI képe az oldalon van; a(z) %1 helyen is megtalálható</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Downloaded: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Letöltve: %1</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>Create an image</source>
-        <translation type="unfinished"></translation>
+        <translation>Kép készítése</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Generatív törlés</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Describe the image to create:</source>
-        <translation type="unfinished"></translation>
+        <translation>Írja le a készítendő képet:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>What should the AI erase from the picture?</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit töröljön az MI a képből?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Summarize the attached document in clear words: first the main idea in two or three sentences, then the important points as a list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Foglalja össze a csatolt dokumentumot érthetően: előbb a fő gondolat két-három mondatban, aztán a fontos pontok listában.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Translate the text of the attached file into %1. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordítsa le a csatolt fájl szövegét %1 nyelvre. Tartsa meg a sorrendet és a címeket, és csak a fordítást adja meg.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translate the text of the attached file from %1 into %2. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordítsa le a csatolt fájl szövegét %1 nyelvről %2 nyelvre. Tartsa meg a sorrendet és a címeket, és csak a fordítást adja meg.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Create an image: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kép készítése: %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the background of the attached image and give me the result as a PNG image with a transparent background, of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Távolítsa el a csatolt kép hátterét, és adja meg az eredményt átlátszó hátterű, azonos méretű PNG-ként.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>In the attached image, erase this: %1. Fill its place so that it looks natural, as if it had never been there, and give me the result as an image of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>A csatolt képen törölje ezt: %1. Töltse ki a helyét természetesen, mintha ott sem lett volna, és adja meg az eredményt azonos méretű képként.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Transcribe the attached audio word by word. When several people speak, mark who speaks. Give only the text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Írja le a csatolt hangot szóról szóra. Ha többen beszélnek, jelölje, ki beszél. Csak a szöveget adja meg.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Audio to transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Leírandó hang</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1934,49 +1934,49 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <location line="+17"/>
         <location line="+139"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>MI</translation>
     </message>
     <message>
         <location line="-169"/>
         <source>What should be given to the AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit kapjon az MI?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Az oldal egy része</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The whole page</source>
-        <translation type="unfinished"></translation>
+        <translation>A teljes oldal</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The whole PDF or board</source>
-        <translation type="unfinished"></translation>
+        <translation>A teljes PDF vagy tábla</translation>
     </message>
     <message>
         <location line="-14"/>
         <location line="+25"/>
         <location line="+17"/>
         <source>The file for the AI could not be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az MI-nek szánt fájl nem készült el.</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>If the AI did not take the file, drag it from here to the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha az MI nem vette át a fájlt, húzza innen az MI-hez</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>It seems that the free uses of %1 are over for now. Do the same with another AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Úgy tűnik, a(z) %1 ingyenes használata most elfogyott. Ugyanezt egy másik MI-vel?</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Stay here</source>
-        <translation type="unfinished"></translation>
+        <translation>Maradás itt</translation>
     </message>
 </context>
 <context>
@@ -2068,7 +2068,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+0"/>
         <source>Templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Sablonok</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2088,37 +2088,37 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+43"/>
         <source>Date of the calendars</source>
-        <translation type="unfinished"></translation>
+        <translation>Naptárak dátuma</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The calendars and planners are made for this day, its week, its month or its year</source>
-        <translation type="unfinished"></translation>
+        <translation>A naptárak és tervezők erre a napra, a hetére, a hónapjára vagy az évére készülnek</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Weeks start on Sunday</source>
-        <translation type="unfinished"></translation>
+        <translation>A hét vasárnappal kezdődik</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The calendars start their weeks on Monday, or on Sunday when this is ticked</source>
-        <translation type="unfinished"></translation>
+        <translation>A naptárak hétfővel kezdik a hetet, vagy vasárnappal, ha ez be van jelölve</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>%1, for the date chosen above</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, a fent választott dátumra</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Egy PDF oldalán a sablon egy utána következő új oldalra kerül.</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalak színe</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2128,7 +2128,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+45"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Görgetési irány</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2143,17 +2143,17 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Vízszintesen 2 oldalanként</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Függőlegesen 2 oldalanként</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Az oldalak egymás alatt, egymás mellett, vagy kettesével, mint egy nyitott füzet</translation>
     </message>
 </context>
 <context>
@@ -2216,7 +2216,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+402"/>
         <source>The GIF could not be found on its page. Try another one.</source>
-        <translation type="unfinished"></translation>
+        <translation>A GIF nem található az oldalán. Próbáljon egy másikat.</translation>
     </message>
     <message>
         <location line="+200"/>
@@ -2573,12 +2573,12 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location filename="../../src/gui/UBDictation.cpp" line="+83"/>
         <source>Dictate</source>
-        <translation type="unfinished">Diktálás</translation>
+        <translation>Diktálás</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
-        <translation type="unfinished">A rendszer diktálása itt nem érhető el. Windowsban nyomja meg a Windows + H billentyűt egy szövegben.</translation>
+        <translation>A rendszer diktálása itt nem érhető el. Windowson nyomja le a Windows + H billentyűt egy szövegben.</translation>
     </message>
 </context>
 <context>
@@ -2612,13 +2612,13 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <location line="+12"/>
         <location line="+856"/>
         <source>Opening document in Board. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentum megnyitása a táblán. Kérem, várjon...</translation>
     </message>
     <message>
         <location line="-850"/>
         <location line="+856"/>
         <source>Document opened successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>A dokumentum megnyílt</translation>
     </message>
     <message>
         <location line="-802"/>
@@ -2684,17 +2684,17 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="-1250"/>
         <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
-        <translation type="unfinished"></translation>
+        <translation>A Master Board nem tudta helyreállítani ezt a fájlt. Törölje, vagy kérjen segítséget a rendszergazdától</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Broken document</source>
-        <translation type="unfinished"></translation>
+        <translation>Sérült dokumentum</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mutassa újra</translation>
     </message>
     <message>
         <location line="+1161"/>
@@ -2939,7 +2939,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+85"/>
         <source>Creating %1 pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 oldal létrehozása. Kérem, várjon...</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -3132,7 +3132,7 @@ Ennek a névnek a megtartása helyettesíti a dokumentumot.
     <message>
         <location filename="../../src/document/UBDocumentVersionConverter.cpp" line="+69"/>
         <source>This document was created using OpenBoard 1.8</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a dokumentum az OpenBoard 1.8-cal készült</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3141,7 +3141,11 @@ Ennek a névnek a megtartása helyettesíti a dokumentumot.
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a dokumentum az OpenBoard 1.8-cal készült, és a tartalmát átszervezték. Erősen ajánljuk az OpenBoard 1.8-as verzióra frissítését.
+
+Ha folytatja, a dokumentum átalakul, hogy kompatibilis legyen az 1.7.7-es verzióval. Ez néhány percig tarthat. Továbbra is megnyithatja az OpenBoard 1.8-ban, de akkor újra 1.8-as formátumra alakul.
+
+Folytatja?</translation>
     </message>
 </context>
 <context>
@@ -3226,27 +3230,27 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojik és GIF-ek</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojik</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF-ek</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>GIFs: opens the page of klipy.com beside the board, without an account; drag a GIF from it to the page. A second click on GIFs closes it.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF-ek: fiók nélkül megnyitja a klipy.com oldalát a tábla mellett; húzzon onnan egy GIF-et az oldalra. Egy újabb kattintás a GIF-ekre bezárja.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Húzzon egy GIF-et a GIF-ablakból az oldalra.</translation>
     </message>
     <message>
         <source>Save</source>
@@ -3255,7 +3259,7 @@ Do you want to continue?</source>
     <message>
         <location line="+5"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3288,7 +3292,7 @@ Do you want to continue?</source>
     <message>
         <location line="+3"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3642,12 +3646,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBGifWindow.cpp" line="+66"/>
         <source>GIFs of klipy.com: drag one to the page</source>
-        <translation type="unfinished"></translation>
+        <translation>A klipy.com GIF-jei: húzzon egyet az oldalra</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close the GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF-ek bezárása</translation>
     </message>
 </context>
 <context>
@@ -3655,7 +3659,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Master Board %1 verzióját használja.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3698,14 +3702,18 @@ Letölti és telepíti most? A Master Board menti a dokumentumait, bezárul, maj
         <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Elérhető a Master Board új verziója (%1).
+
+Megnyitja a letöltési oldalát?</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Elérhető a Master Board új verziója (%1).
+
+Letölti és telepíti most? A Master Board menti a dokumentumokat, bezárul és újra megnyílik.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3827,12 +3835,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+14"/>
         <source>Layer up</source>
-        <translation type="unfinished"></translation>
+        <translation>Réteg fel</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Layer down</source>
-        <translation type="unfinished"></translation>
+        <translation>Réteg le</translation>
     </message>
 </context>
 <context>
@@ -3877,7 +3885,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/tools/UBGraphicsProtractor.cpp" line="+535"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>pontos mozgatáshoz használja a nyílbillentyűket</translation>
     </message>
 </context>
 <context>
@@ -3886,7 +3894,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsRuler.cpp" line="+167"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>pontos mozgatáshoz használja a nyílbillentyűket</translation>
     </message>
 </context>
 <context>
@@ -3944,87 +3952,87 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+393"/>
         <source>Insert a table...</source>
-        <translation type="unfinished"></translation>
+        <translation>Táblázat beszúrása...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Add a row</source>
-        <translation type="unfinished"></translation>
+        <translation>Sor hozzáadása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a column</source>
-        <translation type="unfinished"></translation>
+        <translation>Oszlop hozzáadása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the row</source>
-        <translation type="unfinished"></translation>
+        <translation>Sor eltávolítása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the column</source>
-        <translation type="unfinished"></translation>
+        <translation>Oszlop eltávolítása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Columns as wide</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyforma széles oszlopok</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Table style</source>
-        <translation type="unfinished"></translation>
+        <translation>Táblázatstílus</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Highlight the header row</source>
-        <translation type="unfinished"></translation>
+        <translation>Fejlécsor kiemelése</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Highlight the first column</source>
-        <translation type="unfinished"></translation>
+        <translation>Első oszlop kiemelése</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>All the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Minden vonal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Horizontal lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vízszintes vonalak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Outer lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Külső vonalak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalak nélkül</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Color of the lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalak színe...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalak színe</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Width of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalvastagság</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Thin</source>
-        <translation type="unfinished"></translation>
+        <translation>Vékony</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4034,32 +4042,32 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Vastag</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Very thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagyon vastag</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Color of the cells...</source>
-        <translation type="unfinished"></translation>
+        <translation>Cellák színe...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Cellák színe</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No color in the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs szín a cellákban</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the table</source>
-        <translation type="unfinished"></translation>
+        <translation>Táblázat eltávolítása</translation>
     </message>
 </context>
 <context>
@@ -4068,7 +4076,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsTriangle.cpp" line="+449"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>pontos mozgatáshoz használja a nyílbillentyűket</translation>
     </message>
 </context>
 <context>
@@ -4105,7 +4113,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
         <source>Convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Kézírás átalakítása</translation>
     </message>
 </context>
 <context>
@@ -4198,7 +4206,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+6"/>
         <source>Importing %1 PDF pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 PDF-oldal importálása. Kérem, várjon...</translation>
     </message>
     <message>
         <source>Importing page %1 of %2</source>
@@ -4231,17 +4239,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattintson ide és nyomja le az új billentyűparancsot</translation>
     </message>
     <message>
         <location line="+91"/>
         <source>Press the keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyomja le a billentyűket...</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Click here and press the keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattintson ide és nyomja le a billentyűket</translation>
     </message>
 </context>
 <context>
@@ -4283,7 +4291,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4528,7 +4536,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Multiscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Több képernyő</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -4548,12 +4556,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+2"/>
         <source>Canvas measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mérések a vásznon</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixeles vonalzók az oldal tetején és bal oldalán, a bal felső saroktól 0-tól</translation>
     </message>
     <message>
         <source>Read and dictate</source>
@@ -4583,17 +4591,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+21"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Eszközök</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Testreszabás</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Billentyűparancsok</translation>
     </message>
     <message>
         <source>Creator</source>
@@ -4633,18 +4641,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="-7"/>
         <location line="+40"/>
         <source>Unlock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF feloldása</translation>
     </message>
     <message>
         <location line="-40"/>
         <location line="+40"/>
         <source>Lock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF zárolása</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Lock the PDF: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF zárolása: semmi sem rajzolható, írható, kiemelhető, kijelölhető, mozgatható vagy törölhető; a lézermutató és a kéz működik</translation>
     </message>
     <message>
         <source>Dictate</source>
@@ -4691,17 +4699,17 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+8"/>
         <location line="+15"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>A Master Board névjegye</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Dark mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Sötét mód</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Shows the pages with their colors inverted, to read at night without glare</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordított színekkel mutatja az oldalakat, hogy éjjel vakítás nélkül olvasson</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -4795,7 +4803,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+10"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4837,37 +4845,37 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+407"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mérések</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Távolság</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length of a line dragged from one end to the other</source>
-        <translation type="unfinished"></translation>
+        <translation>Egy vonal hossza, amelyet egyik végétől a másikig húzott</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerület</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length around a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Egy alakzat körüli hossz: kattintás minden sarokra, dupla kattintás az utolsón</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Terület</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The surface of a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Egy alakzat területe: kattintás minden sarokra, dupla kattintás az utolsón</translation>
     </message>
 </context>
 <context>
@@ -4875,133 +4883,133 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
         <source>End the measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mérések befejezése</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a mértékegységet. Aztán rajzoljon egy 1 egység hosszú vonalat: a mérések ehhez viszonyulnak.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Metric</source>
-        <translation type="unfinished"></translation>
+        <translation>Metrikus</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imperial</source>
-        <translation type="unfinished"></translation>
+        <translation>Angolszász</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>millimeter (mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>milliméter (mm)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>centimeter (cm)</source>
-        <translation type="unfinished"></translation>
+        <translation>centiméter (cm)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>meter (m)</source>
-        <translation type="unfinished"></translation>
+        <translation>méter (m)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>kilometer (km)</source>
-        <translation type="unfinished"></translation>
+        <translation>kilométer (km)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>inch (in)</source>
-        <translation type="unfinished"></translation>
+        <translation>hüvelyk (in)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>foot (ft)</source>
-        <translation type="unfinished"></translation>
+        <translation>láb (ft)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>yard (yd)</source>
-        <translation type="unfinished"></translation>
+        <translation>yard (yd)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>mile (mi)</source>
-        <translation type="unfinished"></translation>
+        <translation>mérföld (mi)</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Folytatás</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Finish measure</source>
-        <translation type="unfinished"></translation>
+        <translation>Mérés befejezése</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ends the shape at its last corner, as Enter does</source>
-        <translation type="unfinished"></translation>
+        <translation>Az utolsó sarokban befejezi az alakzatot, mint az Enter</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Módosítás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move the corners of the shape; Enter or Finish measure ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Mozgassa az alakzat sarkait; Enter vagy Mérés befejezése lezárja</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Újraindítás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose the unit and draw the reference again</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a mértékegységet, és rajzolja újra a viszonyítást</translation>
     </message>
     <message>
         <location line="+498"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Távolság</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Click at the start and at the end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattintson a kezdetére és a végére.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattintson egy 1 %1 hosszú vonal elejére és végére: ez a mérések viszonyítása.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Drag the corners; Enter or Finish measure ends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Húzza a sarkokat; Enter vagy Mérés befejezése lezárja.</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerület</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+4"/>
         <source>Click at each corner; double click at the last one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattintson minden sarokra; az utolsón dupla kattintás.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Terület</translation>
     </message>
 </context>
 <context>
@@ -5378,7 +5386,7 @@ Később is megteheti: Kezdőlap &gt; Szöveg felismerése.</translation>
     <message>
         <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Összes</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5388,7 +5396,7 @@ Később is megteheti: Kezdőlap &gt; Szöveg felismerése.</translation>
     <message>
         <location line="+4"/>
         <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>Az összes oldal, vagy csak a kedvencek mutatása, amelyeket a bélyegkép csillaga jelöl</translation>
     </message>
 </context>
 <context>
@@ -5487,7 +5495,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5522,17 +5530,17 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+8"/>
         <source>Recognize and convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Kézírás felismerése és átalakítása</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Röviddel azután, hogy a toll megáll, az írt szavak azonos méretű és színű szövegdobozzá válnak.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only on Windows, which reads the handwriting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Csak Windowson, amely felismeri a kézírást.</translation>
     </message>
     <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
@@ -5544,12 +5552,12 @@ Dinamikus szélesség</translation>
     <message>
         <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lekérve - %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Broken - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sérült - %1</translation>
     </message>
     <message>
         <location line="+468"/>
@@ -5727,23 +5735,23 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+30"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Hivatkozások</translation>
     </message>
     <message>
         <location line="+25"/>
         <location line="+280"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>MI</translation>
     </message>
     <message>
         <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az MI-panelen megjeleníthető MI-k. Írjon be egy nevet és az oldal címét; az első jelenik meg elsőként.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Név</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5763,23 +5771,23 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+1"/>
         <source>Default list</source>
-        <translation type="unfinished"></translation>
+        <translation>Alapértelmezett lista</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+403"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Téma</translation>
     </message>
     <message>
         <location line="-398"/>
         <source>Same as Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Mint a Windows</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Same as the system</source>
-        <translation type="unfinished"></translation>
+        <translation>Mint a rendszer</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5789,27 +5797,27 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+1"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehér</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Grey</source>
-        <translation type="unfinished"></translation>
+        <translation>Szürke</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>A menüsor, az eszközbeállítások és a nagyítás színei. Új téma megjelenítéséhez a Master Board magától újraindul.</translation>
     </message>
     <message>
         <location line="+372"/>
         <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Master Board újraindul, hogy megmutassa az új témát. Előbb menti a dokumentumokat.</translation>
     </message>
     <message>
         <location line="-285"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategóriák</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -5819,12 +5827,12 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+3"/>
         <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1. Új verzió kereséséhez most: Névjegy &gt; Frissítés.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Options bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítássáv</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5834,32 +5842,32 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+14"/>
         <source>General settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Általános beállítások</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Megjelenés</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pen and toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Toll és eszköztár</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Screens and desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Képernyők és asztal</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Documents and PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentumok és PDF</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Artificial intelligence</source>
-        <translation type="unfinished"></translation>
+        <translation>Mesterséges intelligencia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5879,7 +5887,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+0"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>A Master Board névjegye</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -6267,7 +6275,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+2"/>
         <source>Arrow: select with a rectangle. Lasso: select by drawing a free line around the objects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyíl: kijelölés téglalappal. Lasszó: kijelölés az objektumok köré rajzolt szabad vonallal.</translation>
     </message>
     <message>
         <source>Select with a rectangle again</source>
@@ -6335,7 +6343,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+18"/>
         <source>The shape to draw. The polyline: a click for each corner, any key to end it, Escape to drop it.</source>
-        <translation type="unfinished"></translation>
+        <translation>A rajzolandó alakzat. Törött vonal: sarkonként egy kattintás, bármely billentyű befejezi, Esc elveti.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6361,7 +6369,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="-1"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -6438,7 +6446,7 @@ Dinamikus szélesség</translation>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+74"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Általános</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -6455,12 +6463,12 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+2"/>
         <source>Lines and colours</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalak és színek</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Háttér</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -6470,82 +6478,82 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+23"/>
         <source>First scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Első jelenet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show first scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Első jelenet mutatása</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Utolsó jelenet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Utolsó jelenet mutatása</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Zoom reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagyítás visszaállítása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom factor</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagyítás visszaállítása</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll left</source>
-        <translation type="unfinished"></translation>
+        <translation>Görgetés balra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page left</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapozás balra</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll right</source>
-        <translation type="unfinished"></translation>
+        <translation>Görgetés jobbra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page right</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapozás jobbra</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll up</source>
-        <translation type="unfinished"></translation>
+        <translation>Görgetés fel</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page up</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapozás fel</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll down</source>
-        <translation type="unfinished"></translation>
+        <translation>Görgetés le</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page down</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapozás le</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Built-in (not editable)</source>
-        <translation type="unfinished"></translation>
+        <translation>Beépített (nem szerkeszthető)</translation>
     </message>
     <message>
         <location line="+173"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Parancs</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6555,17 +6563,17 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+3"/>
         <source>Key Sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>Billentyűkombináció</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Egérgomb</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tablet Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Táblagép gombja</translation>
     </message>
     <message>
         <location line="+151"/>
@@ -6583,7 +6591,7 @@ Dinamikus szélesség</translation>
         <location line="+1"/>
         <source>Middle</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Közép</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6601,7 +6609,7 @@ Dinamikus szélesség</translation>
         <location line="+1"/>
         <source>Task</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Feladat</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6627,7 +6635,7 @@ Dinamikus szélesség</translation>
         <location line="+1"/>
         <source>Extra</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Extra</translation>
     </message>
 </context>
 <context>
@@ -6635,37 +6643,37 @@ Dinamikus szélesség</translation>
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="-667"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Billentyűparancsok</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Choose a function, press the new keys in the box below and click Assign.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válasszon funkciót, nyomja le az új billentyűket a lenti mezőben, és kattintson a Hozzárendelés gombra.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Search a function...</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkció keresése...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkció</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Billentyűparancs</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>New shortcut:</source>
-        <translation type="unfinished"></translation>
+        <translation>Új billentyűparancs:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Hozzárendelés</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6675,53 +6683,53 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+1"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Alapértelmezett</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Gives back the shortcut that this function had at first</source>
-        <translation type="unfinished"></translation>
+        <translation>Visszaállítja ennek a funkciónak az eredeti billentyűparancsát</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+508"/>
         <source>Restore all</source>
-        <translation type="unfinished"></translation>
+        <translation>Összes visszaállítása</translation>
     </message>
     <message>
         <location line="-507"/>
         <source>Gives back the first shortcuts to all the functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Visszaállítja minden funkció eredeti billentyűparancsát</translation>
     </message>
     <message>
         <location line="+152"/>
         <source>Buttons beside the menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Gombok a menük mellett</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Tools of the board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Tábla / PDF eszközei</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tools of the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Asztali eszközök</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pages and board</source>
-        <translation type="unfinished"></translation>
+        <translation>Oldalak és tábla</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>no keys were pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>nem nyomott le billentyűt.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>the Windows key is kept by Windows for its own shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>a Windows billentyűt a Windows saját parancsaira tartja fenn.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6730,32 +6738,32 @@ Dinamikus szélesség</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to change between the open windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Windows ezzel vált a nyitott ablakok között.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to close the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Windows ezzel zárja be az ablakot.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Windows ezzel nyitja meg az ablak menüjét.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Start menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Windows ezzel nyitja meg a Start menüt.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Task Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Windows ezzel nyitja meg a Feladatkezelőt.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open its security screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Windows ezzel nyitja meg a biztonsági képernyőt.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6763,12 +6771,12 @@ Dinamikus szélesség</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Windows ezzel készít képernyőképet.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the right click.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Windows ezzel nyitja meg a jobb kattintás menüjét.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6776,70 +6784,70 @@ Dinamikus szélesség</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>on many computers it turns the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>sok számítógépen ez elforgatja a képernyőt.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>this key is used to write, to move or to delete. Add Ctrl or Alt, or choose a key from F1 to F12.</source>
-        <translation type="unfinished"></translation>
+        <translation>ez a billentyű írásra, mozgatásra vagy törlésre szolgál. Adjon hozzá Ctrl-t vagy Alt-ot, vagy válasszon F1–F12 közül.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Ctrl + Alt works as Alt Gr, which writes signs such as @, # or €.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Ctrl + Alt úgy működik, mint az Alt Gr, amely @, # vagy € jeleket ír.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Master Board uses it to select all the text of a text box.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Master Board ezzel jelöli ki egy szövegdoboz teljes szövegét.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Master Board uses it to open the menu «%1».</source>
-        <translation type="unfinished"></translation>
+        <translation>A Master Board ezzel nyitja meg a(z) «%1» menüt.</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
         <source>Master Board already uses it for «%1». Remove it there first.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Master Board már használja ehhez: «%1». Előbb ott távolítsa el.</translation>
     </message>
     <message>
         <location line="-130"/>
         <source>Fixed keys (can not be changed)</source>
-        <translation type="unfinished"></translation>
+        <translation>Rögzített billentyűk (nem módosíthatók)</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Choose a function in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válasszon funkciót a listából.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1: no shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: nincs billentyűparancs</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+37"/>
         <source>Shortcut not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>A billentyűparancs nem lehetséges</translation>
     </message>
     <message>
         <location line="-36"/>
         <location line="+37"/>
         <source>%1 can not be used: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 nem használható: %2</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Give back the first shortcuts to all the functions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Visszaállítja minden funkció eredeti billentyűparancsát?</translation>
     </message>
 </context>
 <context>
@@ -6988,7 +6996,7 @@ Dinamikus szélesség</translation>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Programismertető</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -7011,7 +7019,7 @@ Dinamikus szélesség</translation>
     <message>
         <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7044,27 +7052,27 @@ Dinamikus szélesség</translation>
     <message>
         <location filename="../../src/gui/UBTextBoxes.cpp" line="+120"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Táblázat</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many rows and columns?</source>
-        <translation type="unfinished"></translation>
+        <translation>Hány sor és oszlop?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Rows</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorok</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Oszlopok</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Beszúrás</translation>
     </message>
 </context>
 <context>
@@ -7077,7 +7085,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+7"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7112,57 +7120,57 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+7"/>
         <source>Checklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Ellenőrzőlista</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bullets</source>
-        <translation type="unfinished"></translation>
+        <translation>Felsorolás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Számozás</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Puts the lines of the text box being written in a list, or takes them out of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Listába teszi az épp írt szövegdoboz sorait, vagy kiveszi őket onnan</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Click in a text box first, then on the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Először kattintson egy szövegdobozba, aztán a listára.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Táblázat</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks how many rows and columns, then puts a table in the text box being written, or in a new one</source>
-        <translation type="unfinished"></translation>
+        <translation>Megkérdezi a sorok és oszlopok számát, és táblázatot tesz az épp írt vagy egy új szövegdobozba</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dictate</source>
-        <translation type="unfinished">Diktálás</translation>
+        <translation>Diktálás</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Makes a text box and writes in it what you say (the dictation of Windows, Windows + H). In a text box, the microphone left of F does the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>Szövegdobozt készít, és beleírja, amit mond (a Windows diktálása, Windows + H). Szövegdobozban az F bal oldali mikrofonja ugyanezt teszi.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Leírás</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks for an audio and gives it to an AI on the web, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangot kér és egy webes MI-nek adja, amely leírja, ami elhangzik</translation>
     </message>
 </context>
 <context>
@@ -7180,7 +7188,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+48"/>
         <source>Loading thumbnails (%1 pages)</source>
-        <translation type="unfinished"></translation>
+        <translation>Bélyegképek betöltése (%1 oldal)</translation>
     </message>
     <message>
         <source>Loading thumbnail (%1/%2)</source>
@@ -7216,27 +7224,27 @@ Dinamikus szélesség</translation>
     <message>
         <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Reflektor / Nagyító</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attach file / Hyperlink</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájl csatolása / Hivatkozás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Selector: arrow / lasso</source>
-        <translation type="unfinished"></translation>
+        <translation>Kijelölés: nyíl / lasszó</translation>
     </message>
     <message>
         <location line="+234"/>
         <source>Move items</source>
-        <translation type="unfinished"></translation>
+        <translation>Elemek áthelyezése</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Drag the tools up or down, or use the buttons. Only the tools shown in the palette are listed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Húzza fel vagy le az eszközöket, vagy használja a gombokat. Csak a palettán látható eszközök szerepelnek.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -7248,42 +7256,42 @@ Dinamikus szélesség</translation>
         <location line="-163"/>
         <location line="+164"/>
         <source>Board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Tábla / PDF</translation>
     </message>
     <message>
         <location line="-155"/>
         <source>Back to the board: always first</source>
-        <translation type="unfinished"></translation>
+        <translation>Vissza a táblához: mindig első</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Le</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Original order</source>
-        <translation type="unfinished"></translation>
+        <translation>Eredeti sorrend</translation>
     </message>
     <message>
         <location line="+154"/>
         <source>Move items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Elemek áthelyezése...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sáv stílusa...</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Görgetési irány</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7298,12 +7306,12 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Vízszintesen 2 oldalanként</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Függőlegesen 2 oldalanként</translation>
     </message>
 </context>
 <context>
@@ -7445,12 +7453,12 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+0"/>
         <source>From the click</source>
-        <translation type="unfinished"></translation>
+        <translation>A kattintástól</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it. From the click: click on a word to read from it, then the next pages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az elejétől: felolvassa a látható oldalt, aztán a következőket. Kijelölt szöveg: húzzon téglalapot a szövegre a felolvasáshoz. A kattintástól: kattintson egy szóra, hogy onnan olvassa, aztán a következő oldalakat.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7470,7 +7478,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+1"/>
         <source>Next page</source>
-        <translation type="unfinished"></translation>
+        <translation>Következő oldal</translation>
     </message>
     <message>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it.</source>
@@ -7634,7 +7642,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
-        <translation type="unfinished"></translation>
+        <translation>Elérte a legalsó réteget</translation>
     </message>
 </context>
 <context>

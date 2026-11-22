@@ -570,7 +570,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+6"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location line="+150"/>
@@ -701,22 +701,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+98"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Οδηγός προγράμματος</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα του οδηγού προγράμματος</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Ευθυγράμμιση στο πλέγμα</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Snap to grid and angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Ευθυγράμμιση σε πλέγμα και γωνία</translation>
     </message>
     <message>
         <location line="-1784"/>
@@ -1006,37 +1006,37 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Draw shapes: rectangles, ellipses, lines, polylines, arrows, stars, speech bubbles…</source>
-        <translation type="unfinished"></translation>
+        <translation>Σχεδίαση σχημάτων: ορθογώνια, ελλείψεις, γραμμές, πολυγραμμές, βέλη, αστέρια, συννεφάκια…</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emoji και GIF</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Put an emoji or a GIF on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Τοποθέτηση emoji ή GIF στη σελίδα</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>ΤΝ</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
-        <translation type="unfinished"></translation>
+        <translation>Περίληψη, μετάφραση, εικόνες και άλλα με μια ΤΝ στον ιστό</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετρήσεις</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance, perimeter and area, with a reference drawn on the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Απόσταση, περίμετρος και εμβαδόν, με αναφορά σχεδιασμένη στην οθόνη</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1046,7 +1046,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Read the page aloud, from its start, from a word clicked or a rectangle dragged on the text</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανάγνωση της σελίδας φωναχτά, από την αρχή, από λέξη που πατήθηκε ή από ορθογώνιο πάνω στο κείμενο</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -1528,7 +1528,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+46"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Κοινά</translation>
     </message>
     <message>
         <location filename="../../src/board/UBComments.cpp" line="+153"/>
@@ -1571,22 +1571,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
         <source>Bar style</source>
-        <translation type="unfinished"></translation>
+        <translation>Στυλ γραμμής</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το στυλ των παλετών εργαλείων, στον πίνακα και στην επιφάνεια εργασίας. Οι παλέτες αλλάζουν αμέσως.</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Color inside</source>
-        <translation type="unfinished"></translation>
+        <translation>Εσωτερικό χρώμα</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Color of the edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρώμα περιγράμματος</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1596,17 +1596,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+2"/>
         <source>Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Γωνίες</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>Τετράγωνο</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>Στρογγυλό</translation>
     </message>
 </context>
 <context>
@@ -1652,77 +1652,77 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>ΤΝ</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Περίληψη</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, summarized by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέρος της σελίδας, ή όλη, σε περίληψη από την ΤΝ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετάφραση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, translated by the AI into the language chosen</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέρος της σελίδας, ή όλη, μεταφρασμένο από την ΤΝ στη γλώσσα που επιλέχθηκε</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Create image</source>
-        <translation type="unfinished"></translation>
+        <translation>Δημιουργία εικόνας</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>An image made by the AI from what you write</source>
-        <translation type="unfinished"></translation>
+        <translation>Μια εικόνα που φτιάχνει η ΤΝ από ό,τι γράφετε</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove background</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση φόντου</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A picture without its background, made by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Μια εικόνα χωρίς φόντο, από την ΤΝ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erase</source>
-        <translation type="unfinished"></translation>
+        <translation>Δημιουργική διαγραφή</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Something erased from a picture by the AI, as if it had never been there</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάτι που έσβησε η ΤΝ από μια εικόνα, σαν να μην υπήρξε ποτέ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Απομαγνητοφώνηση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Asks for an audio and gives it to the AI, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Ζητά έναν ήχο και τον δίνει στην ΤΝ, που γράφει ό,τι λέγεται</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα ΤΝ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Opens or closes the page of the AI at the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανοίγει ή κλείνει τη σελίδα της ΤΝ στα δεξιά</translation>
     </message>
 </context>
 <context>
@@ -1730,202 +1730,202 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBAiPanel.cpp" line="+164"/>
         <source>Drag over the part of the page to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύρετε πάνω από το μέρος της σελίδας για την ΤΝ. Esc: ακύρωση.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag over the part of the screen to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύρετε πάνω από το μέρος της οθόνης για την ΤΝ. Esc: ακύρωση.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετάφραση</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Detect it</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανίχνευση</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Write or choose the languages:</source>
-        <translation type="unfinished"></translation>
+        <translation>Γράψτε ή επιλέξτε τις γλώσσες:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Από:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Προς:</translation>
     </message>
     <message>
         <location line="+171"/>
         <source>Put the picture on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Τοποθέτηση εικόνας στην επιφάνεια εργασίας</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the picture on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Τοποθέτηση εικόνας στη σελίδα</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Put the text on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Τοποθέτηση κειμένου στην επιφάνεια εργασίας</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the text on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Τοποθέτηση κειμένου στη σελίδα</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The AI shown; the addresses are in the preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Η ΤΝ που εμφανίζεται· οι διευθύνσεις είναι στις προτιμήσεις</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Close the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο ΤΝ</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>AI:</source>
-        <translation type="unfinished"></translation>
+        <translation>ΤΝ:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Copy instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντιγραφή οδηγίας</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copies the instruction again, to paste it with Ctrl+V in the box of the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντιγράφει ξανά την οδηγία, για επικόλληση με Ctrl+V στο πλαίσιο της ΤΝ</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Paste on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Επικόλληση στη σελίδα</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Paste on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Επικόλληση στην επιφάνεια εργασίας</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Puts on the page what was copied in the AI: a text, or a picture with its right click, Copy image. The right click on a picture or a selected text of the AI can also put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Βάζει στη σελίδα ό,τι αντιγράφηκε στην ΤΝ: ένα κείμενο, ή μια εικόνα με δεξί κλικ, Αντιγραφή εικόνας. Το δεξί κλικ σε εικόνα ή επιλεγμένο κείμενο της ΤΝ μπορεί επίσης να το βάλει εκεί.</translation>
     </message>
     <message>
         <location line="+405"/>
         <source>Right click on a picture or a text of the AI to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάντε δεξί κλικ σε εικόνα ή κείμενο της ΤΝ για να το βάλετε στην επιφάνεια εργασίας.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag a text or a picture of the AI to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύρετε κείμενο ή εικόνα της ΤΝ στη σελίδα, ή κάντε δεξί κλικ για να το βάλετε εκεί.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Right click on the answer to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η οδηγία γράφτηκε στην ΤΝ και αντιγράφηκε: το Ctrl+V την επικολλά. Κάντε δεξί κλικ στην απάντηση για να μπει στην επιφάνεια εργασίας.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Drag the answer to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η οδηγία γράφτηκε στην ΤΝ και αντιγράφηκε: το Ctrl+V την επικολλά. Σύρετε την απάντηση στη σελίδα, ή κάντε δεξί κλικ για να μπει εκεί.</translation>
     </message>
     <message>
         <location line="+305"/>
         <source>The picture could not be taken from the AI: right click on it and choose to put it on the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν ήταν δυνατή η λήψη της εικόνας από την ΤΝ: κάντε δεξί κλικ πάνω της και επιλέξτε να μπει στη σελίδα.</translation>
     </message>
     <message>
         <location line="-675"/>
         <source>Drag to make the panel wider</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύρετε για να φαρδύνει το πλαίσιο</translation>
     </message>
     <message>
         <location line="+129"/>
         <source>The picture of the AI is on the page; it is also in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Η εικόνα της ΤΝ είναι στη σελίδα· είναι και στο %1</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Downloaded: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Λήφθηκε: %1</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>Create an image</source>
-        <translation type="unfinished"></translation>
+        <translation>Δημιουργία εικόνας</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Δημιουργική διαγραφή</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Describe the image to create:</source>
-        <translation type="unfinished"></translation>
+        <translation>Περιγράψτε την εικόνα που θα δημιουργηθεί:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>What should the AI erase from the picture?</source>
-        <translation type="unfinished"></translation>
+        <translation>Τι να σβήσει η ΤΝ από την εικόνα;</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Summarize the attached document in clear words: first the main idea in two or three sentences, then the important points as a list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάντε περίληψη του συνημμένου εγγράφου με απλά λόγια: πρώτα η κύρια ιδέα σε δύο ή τρεις προτάσεις, μετά τα σημαντικά σημεία σε λίστα.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Translate the text of the attached file into %1. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μεταφράστε το κείμενο του συνημμένου αρχείου στα %1. Κρατήστε τη σειρά και τους τίτλους, και δώστε μόνο τη μετάφραση.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translate the text of the attached file from %1 into %2. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μεταφράστε το κείμενο του συνημμένου αρχείου από τα %1 στα %2. Κρατήστε τη σειρά και τους τίτλους, και δώστε μόνο τη μετάφραση.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Create an image: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Δημιουργία εικόνας: %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the background of the attached image and give me the result as a PNG image with a transparent background, of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαιρέστε το φόντο της συνημμένης εικόνας και δώστε μου το αποτέλεσμα ως PNG με διαφανές φόντο, ίδιου μεγέθους.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>In the attached image, erase this: %1. Fill its place so that it looks natural, as if it had never been there, and give me the result as an image of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Στη συνημμένη εικόνα σβήστε αυτό: %1. Γεμίστε τη θέση του φυσικά, σαν να μην υπήρξε ποτέ, και δώστε μου το αποτέλεσμα ως εικόνα ίδιου μεγέθους.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Transcribe the attached audio word by word. When several people speak, mark who speaks. Give only the text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Απομαγνητοφωνήστε τον συνημμένο ήχο λέξη προς λέξη. Όταν μιλούν πολλοί, σημειώστε ποιος μιλά. Δώστε μόνο το κείμενο.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Audio to transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Ήχος για απομαγνητοφώνηση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Ήχος</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1934,49 +1934,49 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+17"/>
         <location line="+139"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>ΤΝ</translation>
     </message>
     <message>
         <location line="-169"/>
         <source>What should be given to the AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Τι να δοθεί στην ΤΝ;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέρος της σελίδας</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The whole page</source>
-        <translation type="unfinished"></translation>
+        <translation>Ολόκληρη η σελίδα</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The whole PDF or board</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλο το PDF ή ο πίνακας</translation>
     </message>
     <message>
         <location line="-14"/>
         <location line="+25"/>
         <location line="+17"/>
         <source>The file for the AI could not be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν ήταν δυνατή η δημιουργία αρχείου για την ΤΝ.</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>If the AI did not take the file, drag it from here to the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν η ΤΝ δεν πήρε το αρχείο, σύρετέ το από εδώ στην ΤΝ</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>It seems that the free uses of %1 are over for now. Do the same with another AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Φαίνεται ότι οι δωρεάν χρήσεις του %1 τελείωσαν προς το παρόν. Να γίνει το ίδιο με άλλη ΤΝ;</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Stay here</source>
-        <translation type="unfinished"></translation>
+        <translation>Παραμονή εδώ</translation>
     </message>
 </context>
 <context>
@@ -2068,7 +2068,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Πρότυπα</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2088,37 +2088,37 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+43"/>
         <source>Date of the calendars</source>
-        <translation type="unfinished"></translation>
+        <translation>Ημερομηνία ημερολογίων</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The calendars and planners are made for this day, its week, its month or its year</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα ημερολόγια και τα πλάνα γίνονται για αυτή την ημέρα, την εβδομάδα, τον μήνα ή το έτος της</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Weeks start on Sunday</source>
-        <translation type="unfinished"></translation>
+        <translation>Η εβδομάδα ξεκινά Κυριακή</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The calendars start their weeks on Monday, or on Sunday when this is ticked</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα ημερολόγια ξεκινούν την εβδομάδα Δευτέρα, ή Κυριακή αν είναι επιλεγμένο</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>%1, for the date chosen above</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, για την ημερομηνία που επιλέχθηκε πάνω</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σε σελίδα PDF, το πρότυπο μπαίνει σε νέα σελίδα μετά από αυτήν.</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρώμα γραμμών</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2128,7 +2128,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+45"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Κατεύθυνση κύλισης</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2143,17 +2143,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Οριζόντια ανά 2 σελίδες</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάθετα ανά 2 σελίδες</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Οι σελίδες η μία κάτω από την άλλη, η μία δίπλα στην άλλη, ή ανά δύο σαν ανοιχτό τετράδιο</translation>
     </message>
 </context>
 <context>
@@ -2216,7 +2216,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+402"/>
         <source>The GIF could not be found on its page. Try another one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν βρέθηκε το GIF στη σελίδα του. Δοκιμάστε άλλο.</translation>
     </message>
     <message>
         <location line="+200"/>
@@ -2566,12 +2566,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBDictation.cpp" line="+83"/>
         <source>Dictate</source>
-        <translation type="unfinished">Υπαγόρευση</translation>
+        <translation>Υπαγόρευση</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
-        <translation type="unfinished">Η υπαγόρευση του συστήματος δεν είναι διαθέσιμη εδώ. Στα Windows πατήστε Windows + H σε ένα κείμενο.</translation>
+        <translation>Η υπαγόρευση του συστήματος δεν είναι διαθέσιμη εδώ. Στα Windows πατήστε Windows + H σε ένα κείμενο.</translation>
     </message>
 </context>
 <context>
@@ -2605,13 +2605,13 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+12"/>
         <location line="+856"/>
         <source>Opening document in Board. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα εγγράφου στον πίνακα. Περιμένετε...</translation>
     </message>
     <message>
         <location line="-850"/>
         <location line="+856"/>
         <source>Document opened successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Το έγγραφο άνοιξε</translation>
     </message>
     <message>
         <location line="-802"/>
@@ -2637,17 +2637,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1250"/>
         <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
-        <translation type="unfinished"></translation>
+        <translation>Το Master Board δεν μπόρεσε να ανακτήσει αυτό το αρχείο. Διαγράψτε το ή ζητήστε βοήθεια από τον διαχειριστή</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Broken document</source>
-        <translation type="unfinished"></translation>
+        <translation>Κατεστραμμένο έγγραφο</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>Να μην εμφανιστεί ξανά</translation>
     </message>
     <message>
         <location line="+1161"/>
@@ -2873,7 +2873,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+85"/>
         <source>Creating %1 pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Δημιουργία %1 σελίδων. Περιμένετε...</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -3061,7 +3061,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentVersionConverter.cpp" line="+69"/>
         <source>This document was created using OpenBoard 1.8</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό το έγγραφο δημιουργήθηκε με το OpenBoard 1.8</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3070,7 +3070,11 @@ Providing a new name will create a new document.</source>
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό το έγγραφο δημιουργήθηκε με το OpenBoard 1.8 και το περιεχόμενό του αναδιοργανώθηκε. Συνιστούμε έντονα την ενημέρωση του OpenBoard στην έκδοση 1.8.
+
+Αν συνεχίσετε, το έγγραφο θα μετατραπεί ώστε να είναι συμβατό με την έκδοση 1.7.7. Αυτό μπορεί να πάρει λίγα λεπτά. Θα μπορείτε ακόμα να το ανοίξετε στο OpenBoard 1.8, αλλά τότε θα μετατραπεί ξανά στη μορφή 1.8.
+
+Θέλετε να συνεχίσετε;</translation>
     </message>
 </context>
 <context>
@@ -3141,7 +3145,8 @@ Do you want to continue?</source>
         <location line="+92"/>
         <source>Application name can`t contain any of the following characters:<byte value="xd"/>
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Το όνομα της εφαρμογής δεν μπορεί να περιέχει κανέναν από τους χαρακτήρες:&lt;byte value=&quot;xd&quot;/&gt;
+</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -3160,27 +3165,27 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emoji και GIF</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>Emoji</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>GIFs: opens the page of klipy.com beside the board, without an account; drag a GIF from it to the page. A second click on GIFs closes it.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF: ανοίγει τη σελίδα του klipy.com δίπλα στον πίνακα, χωρίς λογαριασμό· σύρετε ένα GIF από εκεί στη σελίδα. Ένα δεύτερο κλικ στο GIF την κλείνει.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύρετε ένα GIF από το παράθυρο GIF στη σελίδα.</translation>
     </message>
     <message>
         <source>Save</source>
@@ -3189,7 +3194,7 @@ Do you want to continue?</source>
     <message>
         <location line="+5"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3222,7 +3227,7 @@ Do you want to continue?</source>
     <message>
         <location line="+3"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3576,12 +3581,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBGifWindow.cpp" line="+66"/>
         <source>GIFs of klipy.com: drag one to the page</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF του klipy.com: σύρετε ένα στη σελίδα</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close the GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο GIF</translation>
     </message>
 </context>
 <context>
@@ -3589,7 +3594,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρησιμοποιείτε το Master Board %1.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3632,14 +3637,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Υπάρχει νέα έκδοση του Master Board (%1).
+
+Άνοιγμα της σελίδας της για λήψη;</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Υπάρχει νέα έκδοση του Master Board (%1).
+
+Λήψη και εγκατάσταση τώρα; Το Master Board αποθηκεύει τα έγγραφα, κλείνει και ανοίγει ξανά.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3811,7 +3820,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/tools/UBGraphicsProtractor.cpp" line="+535"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>χρησιμοποιήστε τα βέλη για ακριβή μετακίνηση</translation>
     </message>
 </context>
 <context>
@@ -3820,7 +3829,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsRuler.cpp" line="+167"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>χρησιμοποιήστε τα βέλη για ακριβή μετακίνηση</translation>
     </message>
 </context>
 <context>
@@ -3878,87 +3887,87 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+393"/>
         <source>Insert a table...</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισαγωγή πίνακα...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Add a row</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη γραμμής</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a column</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη στήλης</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the row</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση γραμμής</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the column</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση στήλης</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Columns as wide</source>
-        <translation type="unfinished"></translation>
+        <translation>Στήλες ίδιου πλάτους</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Table style</source>
-        <translation type="unfinished"></translation>
+        <translation>Στυλ πίνακα</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Highlight the header row</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισήμανση γραμμής κεφαλίδας</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Highlight the first column</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισήμανση πρώτης στήλης</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>All the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλες οι γραμμές</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Horizontal lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Οριζόντιες γραμμές</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Outer lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Εξωτερικές γραμμές</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Χωρίς γραμμές</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Color of the lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρώμα γραμμών...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρώμα γραμμών</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Width of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Πάχος γραμμών</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Thin</source>
-        <translation type="unfinished"></translation>
+        <translation>Λεπτό</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3968,32 +3977,32 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Χοντρό</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Very thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Πολύ χοντρό</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Color of the cells...</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρώμα κελιών...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρώμα κελιών</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No color in the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Χωρίς χρώμα στα κελιά</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the table</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση πίνακα</translation>
     </message>
 </context>
 <context>
@@ -4002,7 +4011,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsTriangle.cpp" line="+449"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>χρησιμοποιήστε τα βέλη για ακριβή μετακίνηση</translation>
     </message>
 </context>
 <context>
@@ -4039,7 +4048,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
         <source>Convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετατροπή χειρόγραφου</translation>
     </message>
 </context>
 <context>
@@ -4132,7 +4141,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+6"/>
         <source>Importing %1 PDF pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισαγωγή %1 σελίδων PDF. Περιμένετε...</translation>
     </message>
     <message>
         <source>Importing page %1 of %2</source>
@@ -4165,17 +4174,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάντε κλικ εδώ και πατήστε τα πλήκτρα της νέας συντόμευσης</translation>
     </message>
     <message>
         <location line="+91"/>
         <source>Press the keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Πατήστε τα πλήκτρα...</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Click here and press the keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάντε κλικ εδώ και πατήστε τα πλήκτρα</translation>
     </message>
 </context>
 <context>
@@ -4217,7 +4226,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4462,7 +4471,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Multiscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Πολλαπλές οθόνες</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -4482,12 +4491,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+2"/>
         <source>Canvas measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετρήσεις στον καμβά</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
-        <translation type="unfinished"></translation>
+        <translation>Χάρακες σε pixel πάνω και αριστερά της σελίδας, από το 0 στην πάνω αριστερή γωνία</translation>
     </message>
     <message>
         <source>Read and dictate</source>
@@ -4517,17 +4526,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+21"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Εργαλεία</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Προσαρμογή</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Συντομεύσεις</translation>
     </message>
     <message>
         <source>Creator</source>
@@ -4567,18 +4576,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="-7"/>
         <location line="+40"/>
         <source>Unlock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Ξεκλείδωμα PDF</translation>
     </message>
     <message>
         <location line="-40"/>
         <location line="+40"/>
         <source>Lock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείδωμα PDF</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Lock the PDF: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείδωμα PDF: τίποτα δεν μπορεί να σχεδιαστεί, να γραφτεί, να επισημανθεί, να επιλεγεί, να μετακινηθεί ή να διαγραφεί· ο δείκτης λέιζερ και το χέρι λειτουργούν</translation>
     </message>
     <message>
         <source>Dictate</source>
@@ -4625,17 +4634,17 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+8"/>
         <location line="+15"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Σχετικά με το Master Board</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Dark mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Σκοτεινή λειτουργία</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Shows the pages with their colors inverted, to read at night without glare</source>
-        <translation type="unfinished"></translation>
+        <translation>Δείχνει τις σελίδες με αντεστραμμένα χρώματα, για ανάγνωση τη νύχτα χωρίς θάμπωμα</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -4729,7 +4738,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+10"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4771,37 +4780,37 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+407"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετρήσεις</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Απόσταση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length of a line dragged from one end to the other</source>
-        <translation type="unfinished"></translation>
+        <translation>Το μήκος μιας γραμμής που σύρθηκε από άκρη σε άκρη</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Περίμετρος</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length around a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Το μήκος γύρω από ένα σχήμα: ένα κλικ σε κάθε γωνία, διπλό κλικ στην τελευταία</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμβαδόν</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The surface of a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Το εμβαδόν ενός σχήματος: ένα κλικ σε κάθε γωνία, διπλό κλικ στην τελευταία</translation>
     </message>
 </context>
 <context>
@@ -4809,133 +4818,133 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
         <source>End the measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Τέλος μετρήσεων</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλέξτε μονάδα. Μετά σχεδιάστε μια γραμμή που μετρά 1 από αυτή τη μονάδα: οι μετρήσεις γίνονται με αυτή την αναφορά.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Metric</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετρικό</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imperial</source>
-        <translation type="unfinished"></translation>
+        <translation>Αγγλοσαξονικό</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>millimeter (mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>χιλιοστό (mm)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>centimeter (cm)</source>
-        <translation type="unfinished"></translation>
+        <translation>εκατοστό (cm)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>meter (m)</source>
-        <translation type="unfinished"></translation>
+        <translation>μέτρο (m)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>kilometer (km)</source>
-        <translation type="unfinished"></translation>
+        <translation>χιλιόμετρο (km)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>inch (in)</source>
-        <translation type="unfinished"></translation>
+        <translation>ίντσα (in)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>foot (ft)</source>
-        <translation type="unfinished"></translation>
+        <translation>πόδι (ft)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>yard (yd)</source>
-        <translation type="unfinished"></translation>
+        <translation>γιάρδα (yd)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>mile (mi)</source>
-        <translation type="unfinished"></translation>
+        <translation>μίλι (mi)</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνέχεια</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Finish measure</source>
-        <translation type="unfinished"></translation>
+        <translation>Τέλος μέτρησης</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ends the shape at its last corner, as Enter does</source>
-        <translation type="unfinished"></translation>
+        <translation>Τελειώνει το σχήμα στην τελευταία γωνία, όπως το Enter</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Τροποποίηση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move the corners of the shape; Enter or Finish measure ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετακινήστε τις γωνίες του σχήματος· Enter ή Τέλος μέτρησης για ολοκλήρωση</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Επανεκκίνηση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose the unit and draw the reference again</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλέξτε μονάδα και σχεδιάστε ξανά την αναφορά</translation>
     </message>
     <message>
         <location line="+498"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Απόσταση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Click at the start and at the end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάντε κλικ στην αρχή και στο τέλος.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάντε κλικ στην αρχή και στο τέλος μιας γραμμής που μετρά 1 %1: είναι η αναφορά των μετρήσεων.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Drag the corners; Enter or Finish measure ends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύρετε τις γωνίες· Enter ή Τέλος μέτρησης για ολοκλήρωση.</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Περίμετρος</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+4"/>
         <source>Click at each corner; double click at the last one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάντε κλικ σε κάθε γωνία· διπλό κλικ στην τελευταία.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμβαδόν</translation>
     </message>
 </context>
 <context>
@@ -5312,7 +5321,7 @@ It can also be done later with Home &gt; Recognize text.</source>
     <message>
         <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλες</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5322,7 +5331,7 @@ It can also be done later with Home &gt; Recognize text.</source>
     <message>
         <location line="+4"/>
         <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση όλων των σελίδων, ή μόνο των αγαπημένων, με το αστέρι της μικρογραφίας</translation>
     </message>
 </context>
 <context>
@@ -5421,7 +5430,7 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5456,17 +5465,17 @@ Dynamic width</source>
     <message>
         <location line="+8"/>
         <source>Recognize and convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναγνώριση και μετατροπή χειρόγραφου</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Λίγο αφού σταματήσει η πένα, οι γραμμένες λέξεις γίνονται πλαίσιο κειμένου ίδιου μεγέθους και χρώματος.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only on Windows, which reads the handwriting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μόνο στα Windows, που διαβάζουν το χειρόγραφο.</translation>
     </message>
     <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
@@ -5478,12 +5487,12 @@ Dynamic width</source>
     <message>
         <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανακτήθηκε - %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Broken - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Κατεστραμμένο - %1</translation>
     </message>
     <message>
         <location line="+468"/>
@@ -5653,23 +5662,23 @@ Dynamic width</source>
     <message>
         <location line="+30"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναφορές</translation>
     </message>
     <message>
         <location line="+25"/>
         <location line="+280"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>ΤΝ</translation>
     </message>
     <message>
         <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Οι ΤΝ που μπορεί να δείξει το πλαίσιο ΤΝ. Γράψτε ένα όνομα και τη διεύθυνση της σελίδας· η πρώτη εμφανίζεται την πρώτη φορά.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5689,23 +5698,23 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Default list</source>
-        <translation type="unfinished"></translation>
+        <translation>Προεπιλεγμένη λίστα</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+403"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέμα</translation>
     </message>
     <message>
         <location line="-398"/>
         <source>Same as Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Όπως τα Windows</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Same as the system</source>
-        <translation type="unfinished"></translation>
+        <translation>Όπως το σύστημα</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5715,27 +5724,27 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>Λευκό</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Grey</source>
-        <translation type="unfinished"></translation>
+        <translation>Γκρι</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα χρώματα της γραμμής μενού, των επιλογών των εργαλείων και του ζουμ. Για να δείξει νέο θέμα, το Master Board κάνει επανεκκίνηση μόνο του.</translation>
     </message>
     <message>
         <location line="+372"/>
         <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το Master Board θα κάνει επανεκκίνηση για να δείξει το νέο θέμα. Πρώτα αποθηκεύονται τα έγγραφα.</translation>
     </message>
     <message>
         <location line="-285"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Κατηγορίες</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -5745,12 +5754,12 @@ Dynamic width</source>
     <message>
         <location line="+3"/>
         <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1. Για αναζήτηση νέας έκδοσης τώρα: Σχετικά &gt; Ενημέρωση.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Options bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Γραμμή επιλογών</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5760,32 +5769,32 @@ Dynamic width</source>
     <message>
         <location line="+14"/>
         <source>General settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Γενικές ρυθμίσεις</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pen and toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Πένα και γραμμή εργαλείων</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Screens and desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Οθόνες και επιφάνεια εργασίας</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Documents and PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Έγγραφα και PDF</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Artificial intelligence</source>
-        <translation type="unfinished"></translation>
+        <translation>Τεχνητή νοημοσύνη</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5805,7 +5814,7 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Σχετικά με το Master Board</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -6193,7 +6202,7 @@ Dynamic width</source>
     <message>
         <location line="+2"/>
         <source>Arrow: select with a rectangle. Lasso: select by drawing a free line around the objects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Βέλος: επιλογή με ορθογώνιο. Λάσο: επιλογή σχεδιάζοντας ελεύθερη γραμμή γύρω από τα αντικείμενα.</translation>
     </message>
     <message>
         <source>Select with a rectangle again</source>
@@ -6261,7 +6270,7 @@ Dynamic width</source>
     <message>
         <location line="+18"/>
         <source>The shape to draw. The polyline: a click for each corner, any key to end it, Escape to drop it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το σχήμα προς σχεδίαση. Η πολυγραμμή: ένα κλικ για κάθε γωνία, οποιοδήποτε πλήκτρο για τέλος, Esc για ακύρωση.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6287,7 +6296,7 @@ Dynamic width</source>
     <message>
         <location line="-1"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -6364,7 +6373,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+74"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Κοινά</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -6381,12 +6390,12 @@ Dynamic width</source>
     <message>
         <location line="+2"/>
         <source>Lines and colours</source>
-        <translation type="unfinished"></translation>
+        <translation>Γραμμές και χρώματα</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Φόντο</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -6396,82 +6405,82 @@ Dynamic width</source>
     <message>
         <location line="+23"/>
         <source>First scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Πρώτη σκηνή</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show first scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση πρώτης σκηνής</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Τελευταία σκηνή</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση τελευταίας σκηνής</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Zoom reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφορά ζουμ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom factor</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφορά συντελεστή ζουμ</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll left</source>
-        <translation type="unfinished"></translation>
+        <translation>Κύλιση αριστερά</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page left</source>
-        <translation type="unfinished"></translation>
+        <translation>Σελίδα αριστερά</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll right</source>
-        <translation type="unfinished"></translation>
+        <translation>Κύλιση δεξιά</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page right</source>
-        <translation type="unfinished"></translation>
+        <translation>Σελίδα δεξιά</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll up</source>
-        <translation type="unfinished"></translation>
+        <translation>Κύλιση πάνω</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page up</source>
-        <translation type="unfinished"></translation>
+        <translation>Σελίδα πάνω</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll down</source>
-        <translation type="unfinished"></translation>
+        <translation>Κύλιση κάτω</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page down</source>
-        <translation type="unfinished"></translation>
+        <translation>Σελίδα κάτω</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Built-in (not editable)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενσωματωμένο (μη επεξεργάσιμο)</translation>
     </message>
     <message>
         <location line="+173"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Εντολή</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6481,17 +6490,17 @@ Dynamic width</source>
     <message>
         <location line="+3"/>
         <source>Key Sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνδυασμός πλήκτρων</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Κουμπί ποντικιού</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tablet Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Κουμπί γραφίδας</translation>
     </message>
     <message>
         <location line="+151"/>
@@ -6509,7 +6518,7 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Middle</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Μέση</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6527,7 +6536,7 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Task</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Εργασία</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6553,7 +6562,7 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Extra</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Πολύ χοντρό</translation>
     </message>
 </context>
 <context>
@@ -6561,37 +6570,37 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="-667"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Συντομεύσεις</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Choose a function, press the new keys in the box below and click Assign.</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλέξτε λειτουργία, πατήστε τα νέα πλήκτρα στο πλαίσιο από κάτω και κάντε κλικ στην Ανάθεση.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Search a function...</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναζήτηση λειτουργίας...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Λειτουργία</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Συντόμευση</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>New shortcut:</source>
-        <translation type="unfinished"></translation>
+        <translation>Νέα συντόμευση:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανάθεση</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6601,53 +6610,53 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Προεπιλογή</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Gives back the shortcut that this function had at first</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφέρει την αρχική συντόμευση αυτής της λειτουργίας</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+508"/>
         <source>Restore all</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφορά όλων</translation>
     </message>
     <message>
         <location line="-507"/>
         <source>Gives back the first shortcuts to all the functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφέρει τις αρχικές συντομεύσεις σε όλες τις λειτουργίες</translation>
     </message>
     <message>
         <location line="+152"/>
         <source>Buttons beside the menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Κουμπιά δίπλα στα μενού</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Tools of the board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Εργαλεία πίνακα / PDF</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tools of the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Εργαλεία επιφάνειας εργασίας</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pages and board</source>
-        <translation type="unfinished"></translation>
+        <translation>Σελίδες και πίνακας</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>no keys were pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>δεν πατήθηκαν πλήκτρα.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>the Windows key is kept by Windows for its own shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>το πλήκτρο Windows δεσμεύεται από τα Windows για τις δικές τους συντομεύσεις.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6656,32 +6665,32 @@ Dynamic width</source>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to change between the open windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα Windows το χρησιμοποιούν για εναλλαγή ανάμεσα στα ανοιχτά παράθυρα.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to close the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα Windows το χρησιμοποιούν για κλείσιμο παραθύρου.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα Windows το χρησιμοποιούν για το μενού του παραθύρου.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Start menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα Windows το χρησιμοποιούν για το μενού Έναρξη.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Task Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα Windows το χρησιμοποιούν για τη Διαχείριση εργασιών.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open its security screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα Windows το χρησιμοποιούν για την οθόνη ασφαλείας.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6689,12 +6698,12 @@ Dynamic width</source>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα Windows το χρησιμοποιούν για στιγμιότυπα οθόνης.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the right click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα Windows το χρησιμοποιούν για το μενού του δεξιού κλικ.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6702,70 +6711,70 @@ Dynamic width</source>
         <location line="+1"/>
         <location line="+1"/>
         <source>on many computers it turns the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>σε πολλούς υπολογιστές περιστρέφει την οθόνη.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>this key is used to write, to move or to delete. Add Ctrl or Alt, or choose a key from F1 to F12.</source>
-        <translation type="unfinished"></translation>
+        <translation>αυτό το πλήκτρο χρησιμεύει για γραφή, μετακίνηση ή διαγραφή. Προσθέστε Ctrl ή Alt, ή επιλέξτε πλήκτρο από F1 έως F12.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Ctrl + Alt works as Alt Gr, which writes signs such as @, # or €.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το Ctrl + Alt λειτουργεί ως Alt Gr, που γράφει σύμβολα όπως @, # ή €.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Master Board uses it to select all the text of a text box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το Master Board το χρησιμοποιεί για επιλογή όλου του κειμένου ενός πλαισίου.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Master Board uses it to open the menu «%1».</source>
-        <translation type="unfinished"></translation>
+        <translation>Το Master Board το χρησιμοποιεί για το μενού «%1».</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
         <source>Master Board already uses it for «%1». Remove it there first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το Master Board το χρησιμοποιεί ήδη για «%1». Αφαιρέστε το πρώτα από εκεί.</translation>
     </message>
     <message>
         <location line="-130"/>
         <source>Fixed keys (can not be changed)</source>
-        <translation type="unfinished"></translation>
+        <translation>Σταθερά πλήκτρα (δεν αλλάζουν)</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Choose a function in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλέξτε μια λειτουργία στη λίστα.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1: no shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: χωρίς συντόμευση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+37"/>
         <source>Shortcut not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Η συντόμευση δεν είναι δυνατή</translation>
     </message>
     <message>
         <location line="-36"/>
         <location line="+37"/>
         <source>%1 can not be used: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Το %1 δεν μπορεί να χρησιμοποιηθεί: %2</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Give back the first shortcuts to all the functions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφορά των αρχικών συντομεύσεων σε όλες τις λειτουργίες;</translation>
     </message>
 </context>
 <context>
@@ -6914,7 +6923,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Οδηγός προγράμματος</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6937,7 +6946,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6970,27 +6979,27 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBTextBoxes.cpp" line="+120"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Πίνακας</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many rows and columns?</source>
-        <translation type="unfinished"></translation>
+        <translation>Πόσες γραμμές και στήλες;</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Rows</source>
-        <translation type="unfinished"></translation>
+        <translation>Γραμμές</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Στήλες</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισαγωγή</translation>
     </message>
 </context>
 <context>
@@ -7003,7 +7012,7 @@ Dynamic width</source>
     <message>
         <location line="+7"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7038,57 +7047,57 @@ Dynamic width</source>
     <message>
         <location line="+7"/>
         <source>Checklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Λίστα ελέγχου</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bullets</source>
-        <translation type="unfinished"></translation>
+        <translation>Κουκκίδες</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Αρίθμηση</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Puts the lines of the text box being written in a list, or takes them out of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Βάζει σε λίστα τις γραμμές του πλαισίου κειμένου που γράφεται, ή τις βγάζει</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Click in a text box first, then on the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάντε κλικ πρώτα σε πλαίσιο κειμένου και μετά στη λίστα.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Πίνακας</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks how many rows and columns, then puts a table in the text box being written, or in a new one</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρωτά πόσες γραμμές και στήλες και βάζει πίνακα στο πλαίσιο κειμένου που γράφεται ή σε νέο</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dictate</source>
-        <translation type="unfinished">Υπαγόρευση</translation>
+        <translation>Υπαγόρευση</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Makes a text box and writes in it what you say (the dictation of Windows, Windows + H). In a text box, the microphone left of F does the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δημιουργεί πλαίσιο κειμένου και γράφει μέσα ό,τι λέτε (υπαγόρευση των Windows, Windows + H). Σε πλαίσιο κειμένου, το μικρόφωνο αριστερά του F κάνει το ίδιο.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Απομαγνητοφώνηση</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks for an audio and gives it to an AI on the web, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Ζητά έναν ήχο και τον δίνει σε μια ΤΝ στον ιστό, που γράφει ό,τι λέγεται</translation>
     </message>
 </context>
 <context>
@@ -7106,7 +7115,7 @@ Dynamic width</source>
     <message>
         <location line="+48"/>
         <source>Loading thumbnails (%1 pages)</source>
-        <translation type="unfinished"></translation>
+        <translation>Φόρτωση μικρογραφιών (%1 σελίδες)</translation>
     </message>
     <message>
         <source>Loading thumbnail (%1/%2)</source>
@@ -7142,27 +7151,27 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Προβολέας / Μεγεθυντικός φακός</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attach file / Hyperlink</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισύναψη αρχείου / Υπερσύνδεσμος</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Selector: arrow / lasso</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλογέας: βέλος / λάσο</translation>
     </message>
     <message>
         <location line="+234"/>
         <source>Move items</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετακίνηση στοιχείων</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Drag the tools up or down, or use the buttons. Only the tools shown in the palette are listed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύρετε τα εργαλεία πάνω ή κάτω, ή χρησιμοποιήστε τα κουμπιά. Εμφανίζονται μόνο τα εργαλεία της παλέτας.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -7174,42 +7183,42 @@ Dynamic width</source>
         <location line="-163"/>
         <location line="+164"/>
         <source>Board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Πίνακας / PDF</translation>
     </message>
     <message>
         <location line="-155"/>
         <source>Back to the board: always first</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιστροφή στον πίνακα: πάντα πρώτο</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Πάνω</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάτω</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Original order</source>
-        <translation type="unfinished"></translation>
+        <translation>Αρχική σειρά</translation>
     </message>
     <message>
         <location line="+154"/>
         <source>Move items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετακίνηση στοιχείων...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
-        <translation type="unfinished"></translation>
+        <translation>Στυλ γραμμής...</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Κατεύθυνση κύλισης</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7224,12 +7233,12 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Οριζόντια ανά 2 σελίδες</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάθετα ανά 2 σελίδες</translation>
     </message>
 </context>
 <context>
@@ -7372,12 +7381,12 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+0"/>
         <source>From the click</source>
-        <translation type="unfinished"></translation>
+        <translation>Από το κλικ</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it. From the click: click on a word to read from it, then the next pages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Από την αρχή: διαβάζει την εμφανιζόμενη σελίδα και μετά τις επόμενες. Επιλεγμένο κείμενο: σύρετε ορθογώνιο πάνω στο κείμενο για ανάγνωση. Από το κλικ: πατήστε μια λέξη για ανάγνωση από εκεί, μετά τις επόμενες σελίδες.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7397,7 +7406,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+1"/>
         <source>Next page</source>
-        <translation type="unfinished"></translation>
+        <translation>Επόμενη σελίδα</translation>
     </message>
     <message>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it.</source>
@@ -7561,7 +7570,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
-        <translation type="unfinished"></translation>
+        <translation>Έφτασε το κατώτερο επίπεδο</translation>
     </message>
 </context>
 <context>
