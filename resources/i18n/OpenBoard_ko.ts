@@ -14,12 +14,12 @@
     <message>
         <location filename="../../src/web/simplebrowser/browserwindow.cpp" line="+151"/>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>탐색</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Show downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 보기</translation>
     </message>
 </context>
 <context>
@@ -32,19 +32,21 @@
     <message>
         <location line="+12"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>아이콘</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>If you wish so, you may continue with an unverified certificate. Accepting an unverified certificate mean you may not be connected with the host you tried to connect to.
 
 Do you wish to override the security check and continue ?   </source>
-        <translation type="unfinished"></translation>
+        <translation>원하면 확인되지 않은 인증서로 계속할 수 있습니다. 확인되지 않은 인증서를 받아들이면 연결하려던 호스트가 아닐 수 있습니다.
+
+보안 검사를 건너뛰고 계속할까요?   </translation>
     </message>
 </context>
 <context>
@@ -52,12 +54,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.ui" line="+14"/>
         <source>Downloads</source>
-        <translation type="unfinished">다운로드</translation>
+        <translation>다운로드</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>No downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 없음</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.cpp" line="+82"/>
@@ -71,68 +73,68 @@ Do you wish to override the security check and continue ?   </source>
         <location filename="../../src/web/simplebrowser/downloadwidget.ui" line="+31"/>
         <location line="+40"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadwidget.cpp" line="+87"/>
         <location line="+40"/>
         <source>Open file</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 열기</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>%L1 B</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 B</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 KiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 KiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 MiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 MiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 GiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 GiB</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>%p% - %1 of %2 downloaded - %3/s</source>
-        <translation type="unfinished"></translation>
+        <translation>%p% - %2 중 %1 다운로드 - %3/초</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>unknown size - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>크기 모름 - %1 다운로드 - %2/초</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>completed - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>완료됨 - %1 다운로드 - %2/초</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>cancelled - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>취소됨 - %1 다운로드 - %2/초</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>interrupted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>중단됨: %1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Stop downloading</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 중지</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>목록에서 제거</translation>
     </message>
 </context>
 <context>
@@ -890,22 +892,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+383"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>프로그램 안내서</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>프로그램 안내서 열기</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>격자에 맞추기</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Snap to grid and angle</source>
-        <translation type="unfinished"></translation>
+        <translation>격자와 각도에 맞추기</translation>
     </message>
     <message>
         <source>Ctrl+I</source>
@@ -989,42 +991,42 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">도형</translation>
+        <translation>도형</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Draw shapes: rectangles, ellipses, lines, polylines, arrows, stars, speech bubbles…</source>
-        <translation type="unfinished"></translation>
+        <translation>도형 그리기: 사각형, 타원, 선, 꺾은선, 화살표, 별, 말풍선…</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>이모지와 GIF</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Put an emoji or a GIF on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지에 이모지나 GIF 놓기</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
-        <translation type="unfinished"></translation>
+        <translation>웹의 AI로 요약, 번역, 이미지 등</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>측정</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance, perimeter and area, with a reference drawn on the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>화면에 그린 기준으로 재는 거리, 둘레, 넓이</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1034,7 +1036,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Read the page aloud, from its start, from a word clicked or a rectangle dragged on the text</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지를 소리 내어 읽기: 처음부터, 클릭한 단어부터, 또는 텍스트 위에 끈 사각형</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -1252,86 +1254,86 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Interact with items</source>
-        <translation type="unfinished">항목과 상호 작용</translation>
+        <translation>항목과 상호작용</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Erase Background</source>
-        <translation type="unfinished">배경 지우기</translation>
+        <translation>배경 지우기</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the backgound</source>
-        <translation type="unfinished">배경 제거</translation>
+        <translation>배경 제거</translation>
     </message>
     <message>
         <location line="-887"/>
         <location line="+6"/>
         <source>Ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>줄 공책 (밝은 배경)</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>줄 공책 (어두운 배경)</translation>
     </message>
     <message>
         <location line="+814"/>
         <source>Open Tutorial</source>
-        <translation type="unfinished"></translation>
+        <translation>자습서 열기</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the tutorial web page</source>
-        <translation type="unfinished"></translation>
+        <translation>자습서 웹 페이지 열기</translation>
     </message>
     <message>
         <location line="+9"/>
         <location line="+3"/>
         <source>Reset grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>격자 크기 초기화</translation>
     </message>
     <message>
         <location line="-1716"/>
         <source>Small Eraser</source>
-        <translation type="unfinished"></translation>
+        <translation>작은 지우개</translation>
     </message>
     <message>
         <location line="+45"/>
         <location line="+3"/>
         <source>Color 1</source>
-        <translation type="unfinished"></translation>
+        <translation>색 1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 2</source>
-        <translation type="unfinished"></translation>
+        <translation>색 2</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 3</source>
-        <translation type="unfinished"></translation>
+        <translation>색 3</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 4</source>
-        <translation type="unfinished"></translation>
+        <translation>색 4</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 5</source>
-        <translation type="unfinished"></translation>
+        <translation>색 5</translation>
     </message>
     <message>
         <location line="+1609"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>격자 중간선 그리기</translation>
     </message>
     <message>
         <location line="-184"/>
@@ -1339,7 +1341,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+13"/>
         <location line="+3"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>웹 콘텐츠 캡처</translation>
     </message>
     <message>
         <location line="-1773"/>
@@ -1354,42 +1356,42 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+94"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 모드</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Web Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>웹 모드</translation>
     </message>
     <message>
         <location line="+140"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>Board Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>보드 모드</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1404,39 +1406,39 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+70"/>
         <source>Desktop</source>
-        <translation type="unfinished">바탕 화면</translation>
+        <translation>바탕 화면</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Desktop Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>바탕 화면 모드</translation>
     </message>
     <message>
         <location line="+182"/>
         <source>Add to document</source>
-        <translation type="unfinished"></translation>
+        <translation>문서에 추가</translation>
     </message>
     <message>
         <location line="+318"/>
         <location line="+6"/>
         <source>Seyes ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Seyes 줄 공책 (밝은 배경)</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Seyes ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Seyes 줄 공책 (어두운 배경)</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location line="+505"/>
         <source>Import one or more pages (supported formats : jpg, png, svg, ubz, pdf)</source>
-        <translation type="unfinished"></translation>
+        <translation>한 페이지 이상 가져오기 (지원 형식: jpg, png, svg, ubz, pdf)</translation>
     </message>
     <message>
         <source>Add to favorites</source>
@@ -1445,12 +1447,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+239"/>
         <source>Add Document to favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>문서를 즐겨찾기에 추가</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Favorite</source>
-        <translation type="unfinished"></translation>
+        <translation>즐겨찾기</translation>
     </message>
 </context>
 <context>
@@ -1473,12 +1475,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-36"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>아이콘</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>정보</translation>
     </message>
 </context>
 <context>
@@ -1486,12 +1488,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../plugins/cffadaptor/src/UBCFFAdaptor.cpp" line="+1181"/>
         <source>Element ID = </source>
-        <translation type="unfinished">요소 ID = </translation>
+        <translation>요소 ID = </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Content is not supported in destination format.</source>
-        <translation type="unfinished">대상 형식으로 지원되지 않는 콘텐츠입니다.</translation>
+        <translation>대상 형식에서 지원하지 않는 내용입니다.</translation>
     </message>
     <message>
         <source>Remove Page</source>
@@ -1504,17 +1506,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/adaptors/UBSvgSubsetAdaptor.cpp" line="+252"/>
         <source>Loading scene (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>장면 불러오는 중 (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBSceneCache.cpp" line="+243"/>
         <source>Moving cached scenes (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>캐시된 장면 이동 중 (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+46"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>일반</translation>
     </message>
     <message>
         <location filename="../../src/board/UBComments.cpp" line="+153"/>
@@ -1557,22 +1559,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
         <source>Bar style</source>
-        <translation type="unfinished"></translation>
+        <translation>막대 스타일</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
-        <translation type="unfinished"></translation>
+        <translation>보드와 바탕 화면에서 도구 팔레트의 스타일. 팔레트가 바로 바뀝니다.</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Color inside</source>
-        <translation type="unfinished"></translation>
+        <translation>안쪽 색</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Color of the edge</source>
-        <translation type="unfinished"></translation>
+        <translation>테두리 색</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1582,17 +1584,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+2"/>
         <source>Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>모서리</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>정사각형</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>둥글게</translation>
     </message>
 </context>
 <context>
@@ -1638,77 +1640,77 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>요약</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, summarized by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI가 요약한 페이지의 일부 또는 전체</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>번역</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, translated by the AI into the language chosen</source>
-        <translation type="unfinished"></translation>
+        <translation>AI가 고른 언어로 번역한 페이지의 일부 또는 전체</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Create image</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 만들기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>An image made by the AI from what you write</source>
-        <translation type="unfinished"></translation>
+        <translation>쓴 내용으로 AI가 만든 이미지</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove background</source>
-        <translation type="unfinished"></translation>
+        <translation>배경 제거</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A picture without its background, made by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI가 배경을 없앤 그림</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erase</source>
-        <translation type="unfinished"></translation>
+        <translation>생성형 지우기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Something erased from a picture by the AI, as if it had never been there</source>
-        <translation type="unfinished"></translation>
+        <translation>AI가 그림에서 지운 것, 처음부터 없었던 것처럼</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>받아 적기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Asks for an audio and gives it to the AI, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오를 받아 AI에 주면 말한 내용을 적습니다</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI 열기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Opens or closes the page of the AI at the right</source>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽의 AI 페이지를 열거나 닫습니다</translation>
     </message>
 </context>
 <context>
@@ -1716,202 +1718,202 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBAiPanel.cpp" line="+164"/>
         <source>Drag over the part of the page to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>AI에 줄 페이지 부분을 끄세요. Esc: 취소.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag over the part of the screen to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>AI에 줄 화면 부분을 끄세요. Esc: 취소.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>번역</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Detect it</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 감지</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Write or choose the languages:</source>
-        <translation type="unfinished"></translation>
+        <translation>언어를 입력하거나 고르세요:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>보낸 사람:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>받는 사람:</translation>
     </message>
     <message>
         <location line="+171"/>
         <source>Put the picture on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>그림을 바탕 화면에 놓기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the picture on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>그림을 페이지에 놓기</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Put the text on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트를 바탕 화면에 놓기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the text on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트를 페이지에 놓기</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The AI shown; the addresses are in the preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>표시되는 AI입니다. 주소는 환경 설정에 있습니다</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Close the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI 닫기</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>AI:</source>
-        <translation type="unfinished"></translation>
+        <translation>AI:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Copy instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>지시문 복사</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copies the instruction again, to paste it with Ctrl+V in the box of the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V로 AI 입력란에 붙여넣도록 지시문을 다시 복사합니다</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Paste on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지에 붙여넣기</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Paste on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>바탕 화면에 붙여넣기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Puts on the page what was copied in the AI: a text, or a picture with its right click, Copy image. The right click on a picture or a selected text of the AI can also put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>AI에서 복사한 것을 페이지에 놓습니다: 텍스트, 또는 오른쪽 클릭의 이미지 복사로 복사한 그림. AI의 그림이나 선택한 텍스트를 오른쪽 클릭해도 그곳에 놓을 수 있습니다.</translation>
     </message>
     <message>
         <location line="+405"/>
         <source>Right click on a picture or a text of the AI to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>AI의 그림이나 텍스트를 오른쪽 클릭해 바탕 화면에 놓으세요.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag a text or a picture of the AI to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>AI의 텍스트나 그림을 페이지로 끌어오거나, 오른쪽 클릭해 그곳에 놓으세요.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Right click on the answer to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>지시문이 AI에 쓰이고 복사도 되었습니다: Ctrl+V로 붙여넣습니다. 답을 오른쪽 클릭하면 바탕 화면에 놓을 수 있습니다.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Drag the answer to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>지시문이 AI에 쓰이고 복사도 되었습니다: Ctrl+V로 붙여넣습니다. 답을 페이지로 끌어오거나 오른쪽 클릭해 그곳에 놓으세요.</translation>
     </message>
     <message>
         <location line="+305"/>
         <source>The picture could not be taken from the AI: right click on it and choose to put it on the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>AI에서 그림을 가져올 수 없습니다: 그림을 오른쪽 클릭해 페이지에 놓기를 고르세요.</translation>
     </message>
     <message>
         <location line="-675"/>
         <source>Drag to make the panel wider</source>
-        <translation type="unfinished"></translation>
+        <translation>끌어서 패널을 넓히기</translation>
     </message>
     <message>
         <location line="+129"/>
         <source>The picture of the AI is on the page; it is also in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>AI의 그림이 페이지에 있습니다. %1에도 있습니다</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Downloaded: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드됨: %1</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>Create an image</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 만들기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erasing</source>
-        <translation type="unfinished"></translation>
+        <translation>생성형 지우기</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Describe the image to create:</source>
-        <translation type="unfinished"></translation>
+        <translation>만들 이미지를 설명하세요:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>What should the AI erase from the picture?</source>
-        <translation type="unfinished"></translation>
+        <translation>AI가 그림에서 무엇을 지울까요?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Summarize the attached document in clear words: first the main idea in two or three sentences, then the important points as a list.</source>
-        <translation type="unfinished"></translation>
+        <translation>첨부한 문서를 쉬운 말로 요약해 주세요: 먼저 핵심을 두세 문장으로, 그다음 중요한 점을 목록으로.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Translate the text of the attached file into %1. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>첨부 파일의 텍스트를 %1(으)로 번역해 주세요. 순서와 제목을 지키고 번역만 주세요.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translate the text of the attached file from %1 into %2. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>첨부 파일의 텍스트를 %1에서 %2(으)로 번역해 주세요. 순서와 제목을 지키고 번역만 주세요.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Create an image: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 만들기: %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the background of the attached image and give me the result as a PNG image with a transparent background, of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>첨부한 이미지의 배경을 없애고, 같은 크기의 투명 배경 PNG 이미지로 결과를 주세요.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>In the attached image, erase this: %1. Fill its place so that it looks natural, as if it had never been there, and give me the result as an image of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>첨부한 이미지에서 이것을 지워 주세요: %1. 처음부터 없었던 것처럼 자연스럽게 채우고, 같은 크기의 이미지로 결과를 주세요.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Transcribe the attached audio word by word. When several people speak, mark who speaks. Give only the text.</source>
-        <translation type="unfinished"></translation>
+        <translation>첨부한 오디오를 한 단어씩 받아 적어 주세요. 여러 사람이 말하면 누가 말하는지 표시하세요. 텍스트만 주세요.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Audio to transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>받아 적을 오디오</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1920,49 +1922,49 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+17"/>
         <location line="+139"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location line="-169"/>
         <source>What should be given to the AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>AI에 무엇을 줄까요?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지의 일부</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The whole page</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지 전체</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The whole PDF or board</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF 또는 보드 전체</translation>
     </message>
     <message>
         <location line="-14"/>
         <location line="+25"/>
         <location line="+17"/>
         <source>The file for the AI could not be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>AI용 파일을 만들 수 없습니다.</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>If the AI did not take the file, drag it from here to the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI가 파일을 받지 않았다면 여기서 AI로 끌어오세요</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>It seems that the free uses of %1 are over for now. Do the same with another AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1의 무료 사용량이 지금은 끝난 것 같습니다. 다른 AI로 같은 작업을 할까요?</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Stay here</source>
-        <translation type="unfinished"></translation>
+        <translation>여기 머물기</translation>
     </message>
 </context>
 <context>
@@ -1980,7 +1982,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+48"/>
         <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
-        <translation type="unfinished"></translation>
+        <translation>UBX 파일은 바로 열 수 없습니다. 문서 모드에서 가져오세요</translation>
     </message>
 </context>
 <context>
@@ -2054,7 +2056,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Templates</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2064,47 +2066,47 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+19"/>
         <source>Grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>격자 크기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>격자 중간선 그리기</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Date of the calendars</source>
-        <translation type="unfinished"></translation>
+        <translation>달력 날짜</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The calendars and planners are made for this day, its week, its month or its year</source>
-        <translation type="unfinished"></translation>
+        <translation>달력과 일정표는 이날, 그 주, 그 달 또는 그해에 맞춰 만들어집니다</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Weeks start on Sunday</source>
-        <translation type="unfinished"></translation>
+        <translation>한 주를 일요일부터 시작</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The calendars start their weeks on Monday, or on Sunday when this is ticked</source>
-        <translation type="unfinished"></translation>
+        <translation>달력의 한 주는 월요일부터, 체크하면 일요일부터 시작합니다</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>%1, for the date chosen above</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (위에서 고른 날짜)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF 페이지에서는 템플릿이 그 뒤의 새 페이지에 들어갑니다.</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>선 색</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2114,7 +2116,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+45"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>스크롤 방향</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2129,17 +2131,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>가로 2페이지</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>세로 2페이지</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지를 위아래로, 옆으로, 또는 펼친 공책처럼 두 장씩</translation>
     </message>
 </context>
 <context>
@@ -2202,7 +2204,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+402"/>
         <source>The GIF could not be found on its page. Try another one.</source>
-        <translation type="unfinished"></translation>
+        <translation>해당 페이지에서 GIF를 찾을 수 없습니다. 다른 것을 시도하세요.</translation>
     </message>
     <message>
         <location line="+200"/>
@@ -2217,7 +2219,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-2070"/>
         <source>Page %1 deleted</source>
-        <translation type="unfinished">%1페이지 삭제됨</translation>
+        <translation>%1 페이지를 삭제했습니다</translation>
     </message>
     <message>
         <location line="+506"/>
@@ -2225,32 +2227,32 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+1080"/>
         <location line="+36"/>
         <source>Add file operation failed: file copying error</source>
-        <translation type="unfinished">파일 추가 작업 실패: 파일을 복사하는 도중 오류 발생</translation>
+        <translation>파일 추가 실패: 파일 복사 오류</translation>
     </message>
     <message>
         <location line="-2490"/>
         <source>Group</source>
-        <translation type="unfinished">그룹화</translation>
+        <translation>그룹</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ungroup</source>
-        <translation type="unfinished">그룹 해제</translation>
+        <translation>그룹 해제</translation>
     </message>
     <message>
         <location line="+377"/>
         <source>Saving document...</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 저장 중...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Document has just been saved...</source>
-        <translation type="unfinished"></translation>
+        <translation>문서를 방금 저장했습니다...</translation>
     </message>
     <message>
         <location line="+427"/>
         <source>Deleting page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 페이지 삭제 중</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -2260,12 +2262,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+1282"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>제목 없음</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Could not find document.</source>
-        <translation type="unfinished"></translation>
+        <translation>문서를 찾을 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -2278,7 +2280,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-5"/>
         <source>CapturedImage</source>
-        <translation type="unfinished">캡처한 이미지</translation>
+        <translation>CapturedImage</translation>
     </message>
 </context>
 <context>
@@ -2364,12 +2366,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>보드용인가요, 위젯용인가요?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you trying to drop the object(s) inside the widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>개체를 위젯 안에 놓으려는 건가요?</translation>
     </message>
 </context>
 <context>
@@ -2552,12 +2554,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBDictation.cpp" line="+83"/>
         <source>Dictate</source>
-        <translation type="unfinished">받아쓰기</translation>
+        <translation>받아쓰기</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
-        <translation type="unfinished">여기서는 시스템 받아쓰기를 사용할 수 없습니다. Windows에서는 텍스트 안에서 Windows + H를 누르세요.</translation>
+        <translation>여기서는 시스템 받아쓰기를 쓸 수 없습니다. Windows에서는 텍스트 안에서 Windows + H를 누르세요.</translation>
     </message>
 </context>
 <context>
@@ -2591,13 +2593,13 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+12"/>
         <location line="+856"/>
         <source>Opening document in Board. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>보드에서 문서를 여는 중입니다. 기다려 주세요...</translation>
     </message>
     <message>
         <location line="-850"/>
         <location line="+856"/>
         <source>Document opened successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>문서를 열었습니다</translation>
     </message>
     <message>
         <location line="-802"/>
@@ -2623,17 +2625,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1250"/>
         <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board가 이 파일을 복구할 수 없습니다. 삭제하거나 관리자에게 도움을 요청하세요</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Broken document</source>
-        <translation type="unfinished"></translation>
+        <translation>손상된 문서</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 표시 안 함</translation>
     </message>
     <message>
         <location line="+1161"/>
@@ -2695,125 +2697,125 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-311"/>
         <source>Folder does not contain any image files</source>
-        <translation type="unfinished">폴더에 이미지 파일이 없습니다</translation>
+        <translation>폴더에 이미지 파일이 없습니다</translation>
     </message>
     <message>
         <location line="-1350"/>
         <source>Untitled Documents</source>
-        <translation type="unfinished">무제 문서</translation>
+        <translation>제목 없는 문서</translation>
     </message>
     <message numerus="yes">
         <location line="+667"/>
         <source>duplicated %1 page</source>
         <comment>duplicated %1 pages</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 페이지를 복제했습니다</numerusform>
         </translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Complete deletion of %1 documents/folders</source>
-        <translation type="unfinished"></translation>
+        <translation>문서/폴더 %1개 완전 삭제</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete %1 documents and/or folders. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>문서/폴더 %1개를 영구 삭제하려고 합니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Complete deletion of folder &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더 &quot;%1&quot; 완전 삭제</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete folder &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더 &quot;%1&quot;을(를) 영구 삭제하려고 합니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Complete deletion of document &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 &quot;%1&quot; 완전 삭제</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete document &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 &quot;%1&quot;을(를) 영구 삭제하려고 합니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Emptying My Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>내 문서 비우는 중</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the folder &quot;My Documents&quot;. All your documents will be moved to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;내 문서&quot; 폴더를 완전히 비우려고 합니다. 모든 문서가 휴지통으로 이동합니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Emptying Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>휴지통 비우는 중</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the trash. All documents and folders in it will be permanently deleted. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>휴지통을 완전히 비우려고 합니다. 안에 있는 모든 문서와 폴더가 영구 삭제됩니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Moving %1 elements to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>요소 %1개를 휴지통으로 이동 중</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move %1 documents and/or folders to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>문서/폴더 %1개를 휴지통으로 옮기려고 합니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Move folder &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더 &quot;%1&quot;을(를) 휴지통으로 이동</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move folder &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더 &quot;%1&quot;을(를) 휴지통으로 옮기려고 합니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Move document &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 &quot;%1&quot;을(를) 휴지통으로 이동</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move document &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 &quot;%1&quot;을(를) 휴지통으로 옮기려고 합니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+352"/>
         <source>Open Supported File(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>지원되는 파일 열기</translation>
     </message>
     <message>
         <location filename="../../src/document/UBDocument.cpp" line="+64"/>
         <source>Moving %1 pages of the document &quot;%2&quot; to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 &quot;%2&quot;의 %1 페이지를 휴지통으로 이동</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>You are about to move %1 pages of the document &quot;%2&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 &quot;%2&quot;의 %1 페이지를 휴지통으로 옮기려고 합니다. 계속할까요?</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Remove page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 페이지 삭제</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to remove page %1 of the document &quot;%2&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 &quot;%2&quot;의 %1 페이지를 삭제하려고 합니다. 계속할까요?</translation>
     </message>
 </context>
 <context>
@@ -2846,7 +2848,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+85"/>
         <source>Creating %1 pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 페이지를 만드는 중입니다. 기다려 주세요...</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -2856,7 +2858,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-53"/>
         <source>Inserting page %1 of %2</source>
-        <translation type="unfinished">%1/%2페이지 삽입 중</translation>
+        <translation>%2 중 %1 페이지 삽입 중</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -2866,12 +2868,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+71"/>
         <source>Import of file %1 successful.</source>
-        <translation type="unfinished">%1 파일 가져오기 완료.</translation>
+        <translation>파일 %1을(를) 가져왔습니다.</translation>
     </message>
     <message>
         <location line="-50"/>
         <source>Importing file %1</source>
-        <translation type="unfinished">%1 파일 가져오는 중</translation>
+        <translation>파일 %1 가져오는 중</translation>
     </message>
 </context>
 <context>
@@ -2895,14 +2897,16 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1"/>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>바꾸기</translation>
     </message>
     <message>
         <location line="+80"/>
         <source>The name %1 is allready used.
 Keeping this name will replace the document.
 Providing a new name will create a new document.</source>
-        <translation type="unfinished"></translation>
+        <translation>이름 %1은(는) 이미 쓰고 있습니다.
+이 이름을 두면 문서가 바뀝니다.
+새 이름을 주면 새 문서가 만들어집니다.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -2912,17 +2916,17 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="+29"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 바꾸기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>건너뛰기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip all</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 건너뛰기</translation>
     </message>
 </context>
 <context>
@@ -2982,7 +2986,7 @@ Providing a new name will create a new document.</source>
     <message numerus="yes">
         <location line="+383"/>
         <source>%1 pages copied</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform variants="yes">
                 <lengthvariant>%1 페이지 복사됨</lengthvariant>
                 <lengthvariant></lengthvariant>
@@ -2992,7 +2996,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="-387"/>
         <source>My documents</source>
-        <translation type="unfinished"></translation>
+        <translation>내 문서</translation>
     </message>
 </context>
 <context>
@@ -3000,7 +3004,7 @@ Providing a new name will create a new document.</source>
     <message numerus="yes">
         <location line="+1328"/>
         <source>%1 pages copied</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform variants="yes">
                 <lengthvariant>%1 페이지 복사됨</lengthvariant>
                 <lengthvariant></lengthvariant>
@@ -3038,7 +3042,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentVersionConverter.cpp" line="+69"/>
         <source>This document was created using OpenBoard 1.8</source>
-        <translation type="unfinished"></translation>
+        <translation>이 문서는 OpenBoard 1.8로 만들어졌습니다</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3047,7 +3051,11 @@ Providing a new name will create a new document.</source>
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>이 문서는 OpenBoard 1.8로 만들어졌고 내용이 재구성되었습니다. OpenBoard를 1.8 버전으로 업데이트하기를 강력히 권합니다.
+
+계속하면 문서가 1.7.7 버전과 호환되도록 변환됩니다. 몇 분 걸릴 수 있습니다. OpenBoard 1.8에서도 열 수 있지만, 그때 다시 1.8 형식으로 변환됩니다.
+
+계속할까요?</translation>
     </message>
 </context>
 <context>
@@ -3055,7 +3063,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBDownloadWidget.cpp" line="+55"/>
         <source>Downloading files</source>
-        <translation type="unfinished">파일 다운로드 중</translation>
+        <translation>파일 다운로드 중</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -3123,7 +3131,8 @@ Do you want to continue?</source>
         <location line="-71"/>
         <source>Application name can`t contain any of the following characters:<byte value="xd"/>
 </source>
-        <translation type="unfinished"></translation>
+        <translation>응용 프로그램 이름에는 다음 문자를 쓸 수 없습니다:&lt;byte value=&quot;xd&quot;/&gt;
+</translation>
     </message>
 </context>
 <context>
@@ -3131,27 +3140,27 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>이모지와 GIF</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>이모지</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>GIFs: opens the page of klipy.com beside the board, without an account; drag a GIF from it to the page. A second click on GIFs closes it.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF: 계정 없이 보드 옆에 klipy.com 페이지를 엽니다. 거기서 GIF를 페이지로 끌어오세요. GIF를 한 번 더 클릭하면 닫힙니다.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF 창에서 GIF를 페이지로 끌어오세요.</translation>
     </message>
     <message>
         <source>Save</source>
@@ -3160,7 +3169,7 @@ Do you want to continue?</source>
     <message>
         <location line="+5"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3193,7 +3202,7 @@ Do you want to continue?</source>
     <message>
         <location line="+3"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3211,7 +3220,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportAdaptor.cpp" line="+171"/>
         <source>Warnings during export was appeared</source>
-        <translation type="unfinished">내보내는 도중 경고가 나타났습니다</translation>
+        <translation>내보내는 중 경고가 있었습니다</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -3226,17 +3235,17 @@ Do you want to continue?</source>
     <message>
         <location line="-16"/>
         <source>Export failed</source>
-        <translation type="unfinished"></translation>
+        <translation>내보내기 실패</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unable to export to the selected location. You do not have the permissions necessary to save the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 위치로 내보낼 수 없습니다. 파일을 저장할 권한이 없습니다.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Export failed: location not writable</source>
-        <translation type="unfinished"></translation>
+        <translation>내보내기 실패: 쓸 수 없는 위치</translation>
     </message>
 </context>
 <context>
@@ -3244,12 +3253,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportCFF.cpp" line="+53"/>
         <source>Export to IWB</source>
-        <translation type="unfinished">IWB로 내보내기</translation>
+        <translation>IWB로 내보내기</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Export as IWB File</source>
-        <translation type="unfinished">IWB 파일로 내보내기</translation>
+        <translation>IWB 파일로 내보내기</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3311,13 +3320,13 @@ Do you want to continue?</source>
         <location line="-32"/>
         <location line="+9"/>
         <source>Failed to export...</source>
-        <translation type="unfinished"></translation>
+        <translation>내보내기 실패...</translation>
     </message>
     <message>
         <location line="-6"/>
         <location line="+13"/>
         <source>Export as UBX File</source>
-        <translation type="unfinished"></translation>
+        <translation>UBX 파일로 내보내기</translation>
     </message>
     <message>
         <location line="+62"/>
@@ -3341,7 +3350,7 @@ Do you want to continue?</source>
         <location line="-56"/>
         <location line="+14"/>
         <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board로 가져온 원본 PDF가 올바르지 않아 주석과 합칠 수 없습니다. 고친 뒤 Master Board로 다시 가져오세요. 이번 내보내기는 완전한 실패를 피하려고 원본 PDF 페이지를 자세한(용량이 큰) 이미지로 만들어 진행합니다.</translation>
     </message>
 </context>
 <context>
@@ -3400,17 +3409,17 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBFeaturesWidget.cpp" line="+902"/>
         <source>Add to page</source>
-        <translation type="unfinished">페이지에 추가</translation>
+        <translation>페이지에 추가</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Add to library</source>
-        <translation type="unfinished">라이브러리에 추가</translation>
+        <translation>라이브러리에 추가</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Object informations</source>
-        <translation type="unfinished">객체 정보</translation>
+        <translation>개체 정보</translation>
     </message>
 </context>
 <context>
@@ -3418,12 +3427,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBFeaturesActionBar.cpp" line="+71"/>
         <source>Add to favorites</source>
-        <translation type="unfinished">즐겨찾기에 추가</translation>
+        <translation>즐겨찾기에 추가</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Share</source>
-        <translation type="unfinished">공유</translation>
+        <translation>공유</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3438,22 +3447,22 @@ Do you want to continue?</source>
     <message>
         <location line="+1"/>
         <source>Back to folder</source>
-        <translation type="unfinished">폴더로 돌아가기</translation>
+        <translation>폴더로 돌아가기</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>Remove from favorites</source>
-        <translation type="unfinished">즐겨찾기에서 제거</translation>
+        <translation>즐겨찾기에서 제거</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Create new folder</source>
-        <translation type="unfinished">새 폴더 만들기</translation>
+        <translation>새 폴더 만들기</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Rescan file system</source>
-        <translation type="unfinished">파일 시스템 다시 스캔</translation>
+        <translation>파일 시스템 다시 검색</translation>
     </message>
 </context>
 <context>
@@ -3462,47 +3471,47 @@ Do you want to continue?</source>
         <location filename="../../src/board/UBFeaturesController.cpp" line="+915"/>
         <location line="+129"/>
         <source>ImportedImage</source>
-        <translation type="unfinished">가져온 이미지</translation>
+        <translation>ImportedImage</translation>
     </message>
     <message>
         <location line="-707"/>
         <source>Audios</source>
-        <translation type="unfinished">오디오</translation>
+        <translation>오디오</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Movies</source>
-        <translation type="unfinished">동영상</translation>
+        <translation>동영상</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pictures</source>
-        <translation type="unfinished">사진</translation>
+        <translation>그림</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Interactivities</source>
-        <translation type="unfinished">대화형 작업</translation>
+        <translation>상호작용</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Applications</source>
-        <translation type="unfinished">응용 프로그램</translation>
+        <translation>응용 프로그램</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Shapes</source>
-        <translation type="unfinished">도형</translation>
+        <translation>도형</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Favorites</source>
-        <translation type="unfinished">즐겨찾기</translation>
+        <translation>즐겨찾기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Web search</source>
-        <translation type="unfinished">웹 검색</translation>
+        <translation>웹 검색</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3521,7 +3530,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBFeaturesWidget.cpp" line="-254"/>
         <source>Accept</source>
-        <translation type="unfinished">적용</translation>
+        <translation>수락</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3531,7 +3540,7 @@ Do you want to continue?</source>
     <message>
         <location line="+1"/>
         <source>Enter a new folder name</source>
-        <translation type="unfinished">새 폴더 이름 입력</translation>
+        <translation>새 폴더 이름 입력</translation>
     </message>
 </context>
 <context>
@@ -3539,7 +3548,7 @@ Do you want to continue?</source>
     <message>
         <location line="+103"/>
         <source>Loading </source>
-        <translation type="unfinished">불러오는 중</translation>
+        <translation>불러오는 중 </translation>
     </message>
 </context>
 <context>
@@ -3547,12 +3556,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBGifWindow.cpp" line="+66"/>
         <source>GIFs of klipy.com: drag one to the page</source>
-        <translation type="unfinished"></translation>
+        <translation>klipy.com의 GIF: 하나를 페이지로 끌어오세요</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close the GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF 닫기</translation>
     </message>
 </context>
 <context>
@@ -3560,7 +3569,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1을(를) 사용 중입니다.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3603,14 +3612,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board 새 버전이 있습니다(%1).
+
+다운로드 페이지를 열까요?</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board 새 버전이 있습니다(%1).
+
+지금 다운로드해 설치할까요? Master Board가 문서를 저장하고 닫은 뒤 다시 엽니다.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3671,7 +3684,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>선택하면 확장 화면에서 숨기기</translation>
     </message>
 </context>
 <context>
@@ -3712,17 +3725,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+16"/>
         <source>Set as background</source>
-        <translation type="unfinished">배경으로 지정</translation>
+        <translation>배경으로 설정</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>웹 검사기</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>선택하면 확장 화면에서 숨기기</translation>
     </message>
     <message>
         <location line="-599"/>
@@ -3732,12 +3745,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+14"/>
         <source>Layer up</source>
-        <translation type="unfinished"></translation>
+        <translation>한 단계 앞으로</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Layer down</source>
-        <translation type="unfinished"></translation>
+        <translation>한 단계 뒤로</translation>
     </message>
 </context>
 <context>
@@ -3745,23 +3758,23 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsMediaItem.cpp" line="+490"/>
         <source>Media resource couldn&apos;t be resolved</source>
-        <translation type="unfinished"></translation>
+        <translation>미디어 리소스를 찾을 수 없음</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unsupported media format</source>
-        <translation type="unfinished"></translation>
+        <translation>지원하지 않는 미디어 형식</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Media playback service not found</source>
-        <translation type="unfinished"></translation>
+        <translation>미디어 재생 서비스를 찾을 수 없음</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+3"/>
         <source>Media error: </source>
-        <translation type="unfinished"></translation>
+        <translation>미디어 오류: </translation>
     </message>
 </context>
 <context>
@@ -3782,7 +3795,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/tools/UBGraphicsProtractor.cpp" line="+535"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>정확히 옮기려면 화살표 키를 쓰세요</translation>
     </message>
 </context>
 <context>
@@ -3791,7 +3804,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsRuler.cpp" line="+167"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>정확히 옮기려면 화살표 키를 쓰세요</translation>
     </message>
 </context>
 <context>
@@ -3844,92 +3857,92 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+134"/>
         <source>Editable</source>
-        <translation type="unfinished">편집 가능</translation>
+        <translation>편집 가능</translation>
     </message>
     <message>
         <location line="+393"/>
         <source>Insert a table...</source>
-        <translation type="unfinished"></translation>
+        <translation>표 삽입...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Add a row</source>
-        <translation type="unfinished"></translation>
+        <translation>행 추가</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a column</source>
-        <translation type="unfinished"></translation>
+        <translation>열 추가</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the row</source>
-        <translation type="unfinished"></translation>
+        <translation>행 삭제</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the column</source>
-        <translation type="unfinished"></translation>
+        <translation>열 삭제</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Columns as wide</source>
-        <translation type="unfinished"></translation>
+        <translation>열 너비 같게</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Table style</source>
-        <translation type="unfinished"></translation>
+        <translation>표 스타일</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Highlight the header row</source>
-        <translation type="unfinished"></translation>
+        <translation>머리글 행 강조</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Highlight the first column</source>
-        <translation type="unfinished"></translation>
+        <translation>첫 열 강조</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>All the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 선</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Horizontal lines</source>
-        <translation type="unfinished"></translation>
+        <translation>가로줄</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Outer lines</source>
-        <translation type="unfinished"></translation>
+        <translation>바깥쪽 선</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No lines</source>
-        <translation type="unfinished"></translation>
+        <translation>선 없음</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Color of the lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>선 색...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>선 색</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Width of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>선 굵기</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Thin</source>
-        <translation type="unfinished"></translation>
+        <translation>가늘게</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3939,32 +3952,32 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Thick</source>
-        <translation type="unfinished"></translation>
+        <translation>굵게</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Very thick</source>
-        <translation type="unfinished"></translation>
+        <translation>매우 굵게</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Color of the cells...</source>
-        <translation type="unfinished"></translation>
+        <translation>셀 색...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>셀 색</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No color in the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>셀에 색 없음</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the table</source>
-        <translation type="unfinished"></translation>
+        <translation>표 삭제</translation>
     </message>
 </context>
 <context>
@@ -3973,7 +3986,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsTriangle.cpp" line="+449"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>정확히 옮기려면 화살표 키를 쓰세요</translation>
     </message>
 </context>
 <context>
@@ -3989,7 +4002,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-411"/>
         <source>Loading ...</source>
-        <translation type="unfinished">불러오는 중 ...</translation>
+        <translation>불러오는 중...</translation>
     </message>
 </context>
 <context>
@@ -4010,7 +4023,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
         <source>Convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>손글씨 변환</translation>
     </message>
 </context>
 <context>
@@ -4077,7 +4090,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/adaptors/UBImportDocumentSetAdaptor.cpp" line="+71"/>
         <source>Openboard (set of documents) (*.ubx)</source>
-        <translation type="unfinished"></translation>
+        <translation>Openboard (문서 묶음) (*.ubx)</translation>
     </message>
 </context>
 <context>
@@ -4103,7 +4116,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+6"/>
         <source>Importing %1 PDF pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF %1 페이지를 가져오는 중입니다. 기다려 주세요...</translation>
     </message>
     <message>
         <source>Importing page %1 of %2</source>
@@ -4136,17 +4149,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>여기를 클릭하고 새 단축키를 누르세요</translation>
     </message>
     <message>
         <location line="+91"/>
         <source>Press the keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>키를 누르세요...</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Click here and press the keys</source>
-        <translation type="unfinished"></translation>
+        <translation>여기를 클릭하고 키를 누르세요</translation>
     </message>
 </context>
 <context>
@@ -4155,7 +4168,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/gui/UBKeyboardPalette_linux.cpp" line="+173"/>
         <location filename="../../src/gui/UBKeyboardPalette_win.cpp" line="+87"/>
         <source>Enter</source>
-        <translation type="unfinished">입력</translation>
+        <translation>Enter</translation>
     </message>
 </context>
 <context>
@@ -4188,7 +4201,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4433,7 +4446,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Multiscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>다중 화면</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -4453,12 +4466,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+2"/>
         <source>Canvas measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>캔버스 눈금</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지 위쪽과 왼쪽에 픽셀 눈금자, 왼쪽 위 모서리가 0입니다</translation>
     </message>
     <message>
         <source>Read and dictate</source>
@@ -4488,17 +4501,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+21"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>도구(&amp;T)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 지정(&amp;C)</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>단축키</translation>
     </message>
     <message>
         <source>Creator</source>
@@ -4538,18 +4551,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="-7"/>
         <location line="+40"/>
         <source>Unlock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF 잠금 해제</translation>
     </message>
     <message>
         <location line="-40"/>
         <location line="+40"/>
         <source>Lock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF 잠금</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Lock the PDF: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF 잠금: 그리기, 쓰기, 강조, 선택, 이동, 삭제를 할 수 없습니다. 레이저 포인터와 손 도구는 됩니다</translation>
     </message>
     <message>
         <source>Dictate</source>
@@ -4596,17 +4609,17 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+8"/>
         <location line="+15"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board 정보</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Dark mode</source>
-        <translation type="unfinished"></translation>
+        <translation>다크 모드</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Shows the pages with their colors inverted, to read at night without glare</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지 색을 반전해 보여 주어 밤에도 눈부시지 않게 읽습니다</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -4700,7 +4713,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+10"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4742,37 +4755,37 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+407"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>측정</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>거리</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length of a line dragged from one end to the other</source>
-        <translation type="unfinished"></translation>
+        <translation>한쪽 끝에서 다른 끝까지 끈 선의 길이</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>둘레</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length around a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>도형의 둘레: 모서리마다 클릭, 마지막에서 두 번 클릭</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>넓이</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The surface of a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>도형의 넓이: 모서리마다 클릭, 마지막에서 두 번 클릭</translation>
     </message>
 </context>
 <context>
@@ -4780,133 +4793,133 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
         <source>End the measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>측정 끝내기</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>단위를 고르세요. 그다음 그 단위로 1인 선을 그리세요: 그 기준으로 잽니다.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Metric</source>
-        <translation type="unfinished"></translation>
+        <translation>미터법</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imperial</source>
-        <translation type="unfinished"></translation>
+        <translation>야드파운드법</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>millimeter (mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>밀리미터 (mm)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>centimeter (cm)</source>
-        <translation type="unfinished"></translation>
+        <translation>센티미터 (cm)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>meter (m)</source>
-        <translation type="unfinished"></translation>
+        <translation>미터 (m)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>kilometer (km)</source>
-        <translation type="unfinished"></translation>
+        <translation>킬로미터 (km)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>inch (in)</source>
-        <translation type="unfinished"></translation>
+        <translation>인치 (in)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>foot (ft)</source>
-        <translation type="unfinished"></translation>
+        <translation>피트 (ft)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>yard (yd)</source>
-        <translation type="unfinished"></translation>
+        <translation>야드 (yd)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>mile (mi)</source>
-        <translation type="unfinished"></translation>
+        <translation>마일 (mi)</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>계속</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Finish measure</source>
-        <translation type="unfinished"></translation>
+        <translation>측정 마치기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ends the shape at its last corner, as Enter does</source>
-        <translation type="unfinished"></translation>
+        <translation>Enter처럼 마지막 모서리에서 도형을 끝냅니다</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>수정</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move the corners of the shape; Enter or Finish measure ends</source>
-        <translation type="unfinished"></translation>
+        <translation>도형의 모서리를 옮기세요. Enter 또는 측정 마치기로 끝냅니다</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 시작</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose the unit and draw the reference again</source>
-        <translation type="unfinished"></translation>
+        <translation>단위를 고르고 기준을 다시 그리세요</translation>
     </message>
     <message>
         <location line="+498"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>거리</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Click at the start and at the end.</source>
-        <translation type="unfinished"></translation>
+        <translation>시작점과 끝점을 클릭하세요.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation type="unfinished"></translation>
+        <translation>길이가 1 %1인 선의 시작점과 끝점을 클릭하세요: 측정의 기준이 됩니다.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Drag the corners; Enter or Finish measure ends.</source>
-        <translation type="unfinished"></translation>
+        <translation>모서리를 끄세요. Enter 또는 측정 마치기로 끝냅니다.</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>둘레</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+4"/>
         <source>Click at each corner; double click at the last one.</source>
-        <translation type="unfinished"></translation>
+        <translation>각 모서리를 클릭하고 마지막에서 두 번 클릭하세요.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>넓이</translation>
     </message>
 </context>
 <context>
@@ -5263,17 +5276,17 @@ It can also be done later with Home &gt; Recognize text.</source>
     <message>
         <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>모두</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">즐겨찾기</translation>
+        <translation>즐겨찾기</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 페이지 또는 미리보기의 별표로 표시한 즐겨찾기 페이지만 보기</translation>
     </message>
 </context>
 <context>
@@ -5372,7 +5385,7 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5407,17 +5420,17 @@ Dynamic width</source>
     <message>
         <location line="+8"/>
         <source>Recognize and convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>손글씨 인식 및 변환</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
-        <translation type="unfinished"></translation>
+        <translation>펜을 멈추고 잠시 뒤 쓴 글자가 같은 크기와 색의 텍스트 상자로 바뀝니다.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only on Windows, which reads the handwriting.</source>
-        <translation type="unfinished"></translation>
+        <translation>손글씨를 읽는 Windows에서만 쓸 수 있습니다.</translation>
     </message>
     <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
@@ -5429,12 +5442,12 @@ Dynamic width</source>
     <message>
         <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>가져옴 - %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Broken - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>손상됨 - %1</translation>
     </message>
     <message>
         <location line="+468"/>
@@ -5449,17 +5462,17 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board가 문서 저장소 &apos;%1&apos;에 접근할 수 없게 되었습니다. 데이터 손상을 막기 위해 프로그램을 종료해야 합니다. 최근 변경 내용이 사라질 수도 있습니다.</translation>
     </message>
     <message>
         <location line="-247"/>
         <source>Renaming pages (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지 이름 바꾸는 중 (%1/%2)</translation>
     </message>
     <message>
         <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 문서를 가져오는 중 (찾음: %1)</translation>
     </message>
 </context>
 <context>
@@ -5468,31 +5481,31 @@ Dynamic width</source>
         <location filename="../../src/frameworks/UBPlatformUtils_linux.cpp" line="+469"/>
         <location filename="../../src/frameworks/UBPlatformUtils_win.cpp" line="+429"/>
         <source>English</source>
-        <translation type="unfinished">영어</translation>
+        <translation>영어</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../src/frameworks/UBPlatformUtils_win.cpp" line="+1"/>
         <source>Russian</source>
-        <translation type="unfinished">러시아어</translation>
+        <translation>러시아어</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../src/frameworks/UBPlatformUtils_win.cpp" line="+3"/>
         <source>German</source>
-        <translation type="unfinished">독일어</translation>
+        <translation>독일어</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../src/frameworks/UBPlatformUtils_win.cpp" line="-2"/>
         <source>French</source>
-        <translation type="unfinished">프랑스어</translation>
+        <translation>프랑스어</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../src/frameworks/UBPlatformUtils_win.cpp" line="+1"/>
         <source>Swiss French</source>
-        <translation type="unfinished">스위스 프랑스어</translation>
+        <translation>스위스 프랑스어</translation>
     </message>
 </context>
 <context>
@@ -5515,7 +5528,7 @@ Dynamic width</source>
     <message>
         <location line="+151"/>
         <source>on your desktop ...</source>
-        <translation type="unfinished">바탕 화면에 ...</translation>
+        <translation>바탕 화면에서 ...</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -5604,23 +5617,23 @@ Dynamic width</source>
     <message>
         <location line="+30"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>참고 자료</translation>
     </message>
     <message>
         <location line="+25"/>
         <location line="+280"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
-        <translation type="unfinished"></translation>
+        <translation>AI 패널이 보여 줄 수 있는 AI. 이름과 페이지 주소를 쓰세요. 처음에는 첫 번째 것이 보입니다.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5640,23 +5653,23 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Default list</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 목록</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+403"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>테마</translation>
     </message>
     <message>
         <location line="-398"/>
         <source>Same as Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows와 같게</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Same as the system</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템과 같게</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5666,27 +5679,27 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>흰색</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Grey</source>
-        <translation type="unfinished"></translation>
+        <translation>회색</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>메뉴 막대, 도구 옵션, 확대/축소의 색. 새 테마를 보여 주려고 Master Board가 스스로 다시 시작합니다.</translation>
     </message>
     <message>
         <location line="+372"/>
         <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
-        <translation type="unfinished"></translation>
+        <translation>새 테마를 보여 주려고 Master Board가 다시 시작합니다. 먼저 문서를 저장합니다.</translation>
     </message>
     <message>
         <location line="-285"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>범주</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -5696,12 +5709,12 @@ Dynamic width</source>
     <message>
         <location line="+3"/>
         <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1. 지금 새 버전을 찾으려면: 정보 &gt; 업데이트.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Options bar</source>
-        <translation type="unfinished"></translation>
+        <translation>옵션 막대</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5711,32 +5724,32 @@ Dynamic width</source>
     <message>
         <location line="+14"/>
         <source>General settings</source>
-        <translation type="unfinished"></translation>
+        <translation>일반 설정</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>모양</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pen and toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>펜과 도구 막대</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Screens and desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>화면과 바탕 화면</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Documents and PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>문서와 PDF</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Artificial intelligence</source>
-        <translation type="unfinished"></translation>
+        <translation>인공지능</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5756,7 +5769,7 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board 정보</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -5824,7 +5837,7 @@ Dynamic width</source>
     <message>
         <location line="-246"/>
         <source>Use all available displays</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능한 모든 디스플레이 사용</translation>
     </message>
 </context>
 <context>
@@ -6144,7 +6157,7 @@ Dynamic width</source>
     <message>
         <location line="+2"/>
         <source>Arrow: select with a rectangle. Lasso: select by drawing a free line around the objects.</source>
-        <translation type="unfinished"></translation>
+        <translation>화살표: 사각형으로 선택. 올가미: 개체 둘레에 자유선을 그려 선택.</translation>
     </message>
     <message>
         <source>Select with a rectangle again</source>
@@ -6187,7 +6200,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">도형</translation>
+        <translation>도형</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6212,7 +6225,7 @@ Dynamic width</source>
     <message>
         <location line="+18"/>
         <source>The shape to draw. The polyline: a click for each corner, any key to end it, Escape to drop it.</source>
-        <translation type="unfinished"></translation>
+        <translation>그릴 도형. 꺾은선: 모서리마다 클릭, 아무 키나 눌러 끝내고 Esc로 취소.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6238,7 +6251,7 @@ Dynamic width</source>
     <message>
         <location line="-1"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -6315,7 +6328,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+74"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>일반</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -6332,12 +6345,12 @@ Dynamic width</source>
     <message>
         <location line="+2"/>
         <source>Lines and colours</source>
-        <translation type="unfinished"></translation>
+        <translation>선과 색</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>배경</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -6347,82 +6360,82 @@ Dynamic width</source>
     <message>
         <location line="+23"/>
         <source>First scene</source>
-        <translation type="unfinished"></translation>
+        <translation>첫 장면</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show first scene</source>
-        <translation type="unfinished"></translation>
+        <translation>첫 장면 보기</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>마지막 장면</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>마지막 장면 보기</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Zoom reset</source>
-        <translation type="unfinished"></translation>
+        <translation>확대/축소 초기화</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom factor</source>
-        <translation type="unfinished"></translation>
+        <translation>확대 배율 초기화</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll left</source>
-        <translation type="unfinished"></translation>
+        <translation>왼쪽으로 스크롤</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page left</source>
-        <translation type="unfinished"></translation>
+        <translation>한 페이지 왼쪽으로</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll right</source>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽으로 스크롤</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page right</source>
-        <translation type="unfinished"></translation>
+        <translation>한 페이지 오른쪽으로</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll up</source>
-        <translation type="unfinished"></translation>
+        <translation>위로 스크롤</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page up</source>
-        <translation type="unfinished"></translation>
+        <translation>한 페이지 위로</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll down</source>
-        <translation type="unfinished"></translation>
+        <translation>아래로 스크롤</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page down</source>
-        <translation type="unfinished"></translation>
+        <translation>한 페이지 아래로</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Built-in (not editable)</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 제공 (편집 불가)</translation>
     </message>
     <message>
         <location line="+173"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>명령</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6432,17 +6445,17 @@ Dynamic width</source>
     <message>
         <location line="+3"/>
         <source>Key Sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>키 조합</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 버튼</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tablet Button</source>
-        <translation type="unfinished"></translation>
+        <translation>태블릿 버튼</translation>
     </message>
     <message>
         <location line="+151"/>
@@ -6460,7 +6473,7 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Middle</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>가운데</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6478,7 +6491,7 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Task</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>작업</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6504,7 +6517,7 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Extra</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>아주 굵게</translation>
     </message>
 </context>
 <context>
@@ -6512,37 +6525,37 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="-667"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>단축키</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Choose a function, press the new keys in the box below and click Assign.</source>
-        <translation type="unfinished"></translation>
+        <translation>기능을 고르고 아래 상자에서 새 키를 누른 뒤 지정을 클릭하세요.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Search a function...</source>
-        <translation type="unfinished"></translation>
+        <translation>기능 검색...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>기능</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>단축키</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>New shortcut:</source>
-        <translation type="unfinished"></translation>
+        <translation>새 단축키:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>지정</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6552,53 +6565,53 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Gives back the shortcut that this function had at first</source>
-        <translation type="unfinished"></translation>
+        <translation>이 기능의 처음 단축키로 되돌립니다</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+508"/>
         <source>Restore all</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 복원</translation>
     </message>
     <message>
         <location line="-507"/>
         <source>Gives back the first shortcuts to all the functions</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 기능의 단축키를 처음으로 되돌립니다</translation>
     </message>
     <message>
         <location line="+152"/>
         <source>Buttons beside the menus</source>
-        <translation type="unfinished"></translation>
+        <translation>메뉴 옆의 버튼</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Tools of the board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>보드 / PDF 도구</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tools of the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>바탕 화면 도구</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pages and board</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지와 보드</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>no keys were pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>눌린 키가 없습니다.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>the Windows key is kept by Windows for its own shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows 키는 Windows가 자체 단축키용으로 씁니다.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6607,32 +6620,32 @@ Dynamic width</source>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to change between the open windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows가 열린 창 사이를 바꿀 때 씁니다.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to close the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows가 창을 닫을 때 씁니다.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows가 창 메뉴를 열 때 씁니다.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Start menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows가 시작 메뉴를 열 때 씁니다.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Task Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows가 작업 관리자를 열 때 씁니다.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open its security screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows가 보안 화면을 열 때 씁니다.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6640,12 +6653,12 @@ Dynamic width</source>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows가 화면 캡처에 씁니다.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the right click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows가 오른쪽 클릭 메뉴를 열 때 씁니다.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6653,70 +6666,70 @@ Dynamic width</source>
         <location line="+1"/>
         <location line="+1"/>
         <source>on many computers it turns the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>많은 컴퓨터에서 화면을 회전합니다.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>this key is used to write, to move or to delete. Add Ctrl or Alt, or choose a key from F1 to F12.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 키는 입력, 이동, 삭제에 쓰입니다. Ctrl이나 Alt를 더하거나 F1~F12 중에서 고르세요.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Ctrl + Alt works as Alt Gr, which writes signs such as @, # or €.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl + Alt는 @, #, € 같은 기호를 쓰는 Alt Gr처럼 동작합니다.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Master Board uses it to select all the text of a text box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board가 텍스트 상자의 모든 텍스트를 선택할 때 씁니다.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Master Board uses it to open the menu «%1».</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board가 메뉴 «%1»을(를) 열 때 씁니다.</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
         <source>Master Board already uses it for «%1». Remove it there first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board가 이미 «%1»에 씁니다. 먼저 그곳에서 지우세요.</translation>
     </message>
     <message>
         <location line="-130"/>
         <source>Fixed keys (can not be changed)</source>
-        <translation type="unfinished"></translation>
+        <translation>고정된 키 (바꿀 수 없음)</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Choose a function in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>목록에서 기능을 고르세요.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1: no shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: 단축키 없음</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+37"/>
         <source>Shortcut not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>단축키를 쓸 수 없음</translation>
     </message>
     <message>
         <location line="-36"/>
         <location line="+37"/>
         <source>%1 can not be used: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1을(를) 사용할 수 없음: %2</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Give back the first shortcuts to all the functions?</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 기능의 단축키를 처음으로 되돌릴까요?</translation>
     </message>
 </context>
 <context>
@@ -6865,7 +6878,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>프로그램 안내서</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6880,7 +6893,7 @@ Dynamic width</source>
     <message>
         <location line="+13"/>
         <source>Visible next time</source>
-        <translation type="unfinished"></translation>
+        <translation>다음에도 표시</translation>
     </message>
 </context>
 <context>
@@ -6888,7 +6901,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6921,27 +6934,27 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBTextBoxes.cpp" line="+120"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>표</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many rows and columns?</source>
-        <translation type="unfinished"></translation>
+        <translation>몇 행 몇 열로 할까요?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Rows</source>
-        <translation type="unfinished"></translation>
+        <translation>행</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>열</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>삽입</translation>
     </message>
 </context>
 <context>
@@ -6954,7 +6967,7 @@ Dynamic width</source>
     <message>
         <location line="+7"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6989,57 +7002,57 @@ Dynamic width</source>
     <message>
         <location line="+7"/>
         <source>Checklist</source>
-        <translation type="unfinished"></translation>
+        <translation>체크리스트</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bullets</source>
-        <translation type="unfinished"></translation>
+        <translation>글머리 기호</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>번호</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Puts the lines of the text box being written in a list, or takes them out of it</source>
-        <translation type="unfinished"></translation>
+        <translation>쓰고 있는 텍스트 상자의 줄을 목록으로 만들거나 목록에서 뺍니다</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Click in a text box first, then on the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>먼저 텍스트 상자를 클릭한 뒤 목록을 클릭하세요.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>표</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks how many rows and columns, then puts a table in the text box being written, or in a new one</source>
-        <translation type="unfinished"></translation>
+        <translation>행과 열 수를 묻고, 쓰고 있는 텍스트 상자나 새 상자에 표를 넣습니다</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dictate</source>
-        <translation type="unfinished">받아쓰기</translation>
+        <translation>받아쓰기</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Makes a text box and writes in it what you say (the dictation of Windows, Windows + H). In a text box, the microphone left of F does the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 상자를 만들고 말한 내용을 적습니다(Windows 받아쓰기, Windows + H). 텍스트 상자에서는 F 왼쪽의 마이크로도 같은 일을 합니다.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>받아 적기</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks for an audio and gives it to an AI on the web, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오를 받아 웹의 AI에 주면 말한 내용을 적습니다</translation>
     </message>
 </context>
 <context>
@@ -7047,7 +7060,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/adaptors/UBThumbnailAdaptor.cpp" line="+74"/>
         <source>Generating preview thumbnails ...</source>
-        <translation type="unfinished">미리보기 썸네일 생성 중 ...</translation>
+        <translation>미리보기 축소판 만드는 중 ...</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -7057,7 +7070,7 @@ Dynamic width</source>
     <message>
         <location line="+48"/>
         <source>Loading thumbnails (%1 pages)</source>
-        <translation type="unfinished"></translation>
+        <translation>미리보기 불러오는 중 (%1 페이지)</translation>
     </message>
 </context>
 <context>
@@ -7065,7 +7078,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBThumbnailTextItem.cpp" line="+74"/>
         <source>Page %0</source>
-        <translation type="unfinished">%0 페이지</translation>
+        <translation>%0 페이지</translation>
     </message>
 </context>
 <context>
@@ -7089,74 +7102,74 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
-        <translation type="unfinished"></translation>
+        <translation>스포트라이트 / 돋보기</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attach file / Hyperlink</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 첨부 / 하이퍼링크</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Selector: arrow / lasso</source>
-        <translation type="unfinished"></translation>
+        <translation>선택: 화살표 / 올가미</translation>
     </message>
     <message>
         <location line="+234"/>
         <source>Move items</source>
-        <translation type="unfinished"></translation>
+        <translation>항목 이동</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Drag the tools up or down, or use the buttons. Only the tools shown in the palette are listed.</source>
-        <translation type="unfinished"></translation>
+        <translation>도구를 위아래로 끌거나 버튼을 쓰세요. 팔레트에 보이는 도구만 나열됩니다.</translation>
     </message>
     <message>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">바탕 화면</translation>
+        <translation>바탕 화면</translation>
     </message>
     <message>
         <location line="-163"/>
         <location line="+164"/>
         <source>Board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>보드 / PDF</translation>
     </message>
     <message>
         <location line="-155"/>
         <source>Back to the board: always first</source>
-        <translation type="unfinished"></translation>
+        <translation>보드로 돌아가기: 항상 맨 앞</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>위</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>아래</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Original order</source>
-        <translation type="unfinished"></translation>
+        <translation>원래 순서</translation>
     </message>
     <message>
         <location line="+154"/>
         <source>Move items...</source>
-        <translation type="unfinished"></translation>
+        <translation>항목 이동...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
-        <translation type="unfinished"></translation>
+        <translation>막대 스타일...</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>스크롤 방향</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7171,12 +7184,12 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>가로 2페이지</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>세로 2페이지</translation>
     </message>
 </context>
 <context>
@@ -7219,7 +7232,7 @@ Dynamic width</source>
     <message>
         <location line="-40"/>
         <source>Axes</source>
-        <translation type="unfinished"></translation>
+        <translation>축</translation>
     </message>
 </context>
 <context>
@@ -7237,7 +7250,7 @@ Dynamic width</source>
     <message>
         <location line="+7"/>
         <source>Backup path: </source>
-        <translation type="unfinished">백업 경로: </translation>
+        <translation>백업 경로: </translation>
     </message>
     <message>
         <location line="+6"/>
@@ -7284,7 +7297,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="-92"/>
         <source>Remind me later</source>
-        <translation type="unfinished">나중에 알림</translation>
+        <translation>나중에 알림</translation>
     </message>
 </context>
 <context>
@@ -7319,12 +7332,12 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+0"/>
         <source>From the click</source>
-        <translation type="unfinished"></translation>
+        <translation>클릭한 곳부터</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it. From the click: click on a word to read from it, then the next pages.</source>
-        <translation type="unfinished"></translation>
+        <translation>처음부터: 보이는 페이지를 읽고 다음 페이지로 이어갑니다. 선택한 텍스트: 텍스트 위에 사각형을 끌어 읽습니다. 클릭한 곳부터: 단어를 클릭하면 거기서부터 읽고 다음 페이지로 이어갑니다.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7344,7 +7357,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+1"/>
         <source>Next page</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 페이지</translation>
     </message>
     <message>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it.</source>
@@ -7404,7 +7417,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/domain/UBWebEngineView.cpp" line="+109"/>
         <source>Open Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>웹 검사기 열기</translation>
     </message>
 </context>
 <context>
@@ -7508,7 +7521,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
-        <translation type="unfinished"></translation>
+        <translation>가장 아래 단계입니다</translation>
     </message>
 </context>
 <context>
@@ -7567,63 +7580,63 @@ Please reboot the application to access the updated documents.</source>
         <location line="+17"/>
         <location line="+4"/>
         <source>Certificate Error</source>
-        <translation type="unfinished"></translation>
+        <translation>인증서 오류</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%2의 &quot;%1&quot;에 대한 사용자 이름과 암호를 입력하세요</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Allow %1 to access your location information?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1이(가) 위치 정보에 접근하도록 허용할까요?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1이(가) 마이크에 접근하도록 허용할까요?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1이(가) 웹캠에 접근하도록 허용할까요?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone and webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1이(가) 마이크와 웹캠에 접근하도록 허용할까요?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to lock your mouse cursor?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1이(가) 마우스 포인터를 잠그도록 허용할까요?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1이(가) 바탕 화면 동영상을 캡처하도록 허용할까요?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture audio and video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1이(가) 바탕 화면의 소리와 동영상을 캡처하도록 허용할까요?</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+47"/>
         <source>Permission Request</source>
-        <translation type="unfinished"></translation>
+        <translation>권한 요청</translation>
     </message>
     <message>
         <location line="-19"/>
         <source>Connect to proxy &quot;%1&quot; using:</source>
-        <translation type="unfinished"></translation>
+        <translation>프록시 &quot;%1&quot;에 연결할 방법:</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Allow %1 to open all %2 links?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1이(가) %2 링크를 모두 열도록 허용할까요?</translation>
     </message>
 </context>
 <context>
@@ -7631,43 +7644,44 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/web/simplebrowser/webview.cpp" line="+107"/>
         <source>Render process normal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>렌더링 프로세스가 정상 종료됨</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process abnormal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>렌더링 프로세스가 비정상 종료됨</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>렌더링 프로세스가 충돌함</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process killed</source>
-        <translation type="unfinished"></translation>
+        <translation>렌더링 프로세스가 강제 종료됨</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Render process exited with code: %1
 Do you want to reload the page ?</source>
-        <translation type="unfinished"></translation>
+        <translation>렌더링 프로세스가 코드 %1로 종료되었습니다
+페이지를 새로 고칠까요?</translation>
     </message>
     <message>
         <location line="+121"/>
         <source>Open Web Inspector in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>새 창에서 웹 검사기 열기</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Inspect element</source>
-        <translation type="unfinished"></translation>
+        <translation>요소 검사</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Add to board</source>
-        <translation type="unfinished"></translation>
+        <translation>보드에 추가</translation>
     </message>
 </context>
 <context>
@@ -7675,12 +7689,12 @@ Do you want to reload the page ?</source>
     <message>
         <location filename="../../src/pdf/XPDFRenderer.cpp" line="+346"/>
         <source>Processing...</source>
-        <translation type="unfinished"></translation>
+        <translation>처리 중...</translation>
     </message>
     <message>
         <location line="-265"/>
         <source>an error occured while trying to open the PDF file</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF 파일을 여는 중 오류가 발생했습니다</translation>
     </message>
 </context>
 <context>
@@ -7741,7 +7755,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+84"/>
         <source>Restore credentials on reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>재부팅 시 자격 증명 복원</translation>
     </message>
 </context>
 <context>
@@ -7789,12 +7803,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+451"/>
         <source>Show preview circle from</source>
-        <translation type="unfinished"></translation>
+        <translation>미리보기 원을 표시할 크기</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>px</source>
-        <translation type="unfinished"></translation>
+        <translation>px</translation>
     </message>
 </context>
 <context>
@@ -7835,22 +7849,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+64"/>
         <source>Creation date</source>
-        <translation type="unfinished"></translation>
+        <translation>만든 날짜</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Update date</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 날짜</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Alphabetical order</source>
-        <translation type="unfinished"></translation>
+        <translation>가나다순</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Sort Order</source>
-        <translation type="unfinished"></translation>
+        <translation>정렬 순서</translation>
     </message>
 </context>
 <context>
@@ -7973,12 +7987,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-325"/>
         <source>Show internal web page content on secondary screen or projector</source>
-        <translation type="unfinished">보조 화면 또는 프로젝터에 내부 웹 페이지 콘텐츠 표시</translation>
+        <translation>내부 웹 페이지 내용을 보조 화면이나 프로젝터에 표시</translation>
     </message>
     <message>
         <location line="-36"/>
         <source>Multi display</source>
-        <translation type="unfinished">다중 디스플레이</translation>
+        <translation>다중 디스플레이</translation>
     </message>
     <message>
         <source>Swap control display and view display</source>
@@ -7987,12 +8001,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-74"/>
         <source>Mode</source>
-        <translation type="unfinished">모드</translation>
+        <translation>모드</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Mode to start in:</source>
-        <translation type="unfinished">시작할 모드:</translation>
+        <translation>시작할 때의 모드:</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -8002,22 +8016,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+5"/>
         <source>Desktop</source>
-        <translation type="unfinished">바탕 화면</translation>
+        <translation>바탕 화면</translation>
     </message>
     <message>
         <location line="+462"/>
         <source>Proxy User:</source>
-        <translation type="unfinished">프록시 사용자:</translation>
+        <translation>프록시 사용자:</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Pass:</source>
-        <translation type="unfinished">패스:</translation>
+        <translation>암호:</translation>
     </message>
     <message>
         <location line="+2056"/>
         <source>Credits</source>
-        <translation type="unfinished">Credits</translation>
+        <translation>제작진</translation>
     </message>
     <message>
         <location line="-2289"/>
@@ -8038,52 +8052,52 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-493"/>
         <source>Built-in virtual keyboard button size:</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 제공 가상 키보드 버튼 크기:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use system keyboard (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템 키보드 사용 (권장)</translation>
     </message>
     <message>
         <location line="+459"/>
         <source>Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>격자</translation>
     </message>
     <message>
         <location line="-406"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>문서 모드</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Display date column on alphabetical sort</source>
-        <translation type="unfinished"></translation>
+        <translation>가나다순 정렬 시 날짜 열 표시</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Empty trash for documents older than</source>
-        <translation type="unfinished"></translation>
+        <translation>다음보다 오래된 문서의 휴지통 비우기</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>days</source>
-        <translation type="unfinished"></translation>
+        <translation>일</translation>
     </message>
     <message>
         <location line="-170"/>
         <source>PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Export background grid</source>
-        <translation type="unfinished"></translation>
+        <translation>배경 격자 내보내기</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Export background color</source>
-        <translation type="unfinished"></translation>
+        <translation>배경 색 내보내기</translation>
     </message>
     <message>
         <location line="+420"/>
@@ -8093,7 +8107,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+61"/>
         <source>List of screens used for Control, Display and Previous pages</source>
-        <translation type="unfinished"></translation>
+        <translation>제어, 표시, 이전 페이지에 쓰는 화면 목록</translation>
     </message>
 </context>
 <context>
@@ -8124,12 +8138,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-91"/>
         <source>Select a content to capture</source>
-        <translation type="unfinished"></translation>
+        <translation>캡처할 내용을 선택하세요</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>웹 콘텐츠 캡처</translation>
     </message>
 </context>
 </TS>
