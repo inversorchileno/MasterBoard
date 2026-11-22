@@ -358,6 +358,15 @@ Pedidas por Luis al revisar la V2.32 («puntos 1, 2 y 3»).
 
 Probado en Linux con capturas: los 4 modos de desplazamiento, modo oscuro, favoritas (también después de reiniciar y de duplicar), color/tamaño/opacidad con deshacer, el corte entre hojas y el flujo del manuscrito con el reconocedor de prueba. No se pudo probar aquí: el reconocimiento real en Windows, el lápiz en la hoja de al lado con el lápiz digital, ni PDFs en los modos horizontales.
 
+## Mejoras pequeñas después de la V2.35 (sin compilar aún)
+
+- Barras de opciones: el nombre y el valor de cada deslizador van centrados sobre él. Los círculos de colores no se estiran (`UBColorSwatches::setThreeRows` con tamaño fijo): ya no queda un hueco después de ellos, por ejemplo en Subrayar.
+- Rotulador: la línea de muestra dibuja la punta elegida (`UBStrokePreview::setChiselTip`: punta plana inclinada -65°, con extremos rectos).
+- Sellos en la barra: **Tu PNG** y un botón **Sellos** que abre todos los demás en una ventana debajo (4 columnas) y muestra el sello elegido; antes la fila no cabía y solo se podía deslizar con pantalla táctil.
+- Agregar sonido: la barra dice «Haz clic en la página para grabar.».
+- Bloquear lienzo/PDF ocupa solo el ancho de su nombre: el espacio hasta Índice es igual al de los demás botones.
+- Miniaturas: la estrella de favorita va abajo a la derecha (en las páginas angostas de un PDF chocaba con Borrar y Duplicar); los tres dicen qué hacen al pasar el mouse.
+
 ## Forma de trabajo
 
 - El dueño es **Luis** (Chile), analista financiero, sin experiencia en programación. Habla en español; se le responde en español, claro y sin jerga. Usa Windows 11, pantalla ancha (unos 2540 px) y lápiz digital.
