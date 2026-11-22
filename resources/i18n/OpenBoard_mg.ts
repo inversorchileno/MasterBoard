@@ -1632,6 +1632,14 @@ Tianao hodinganina ve ny fanamarinana fiarovana ary hotohizana?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Ahoana no hanafenana ny bara? Miverina toy izany koa izy rehefa manakaiky ny sisiny ny tondro.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Miandry alohan’ny hanafenana</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5882,6 +5890,10 @@ Sakany miova</translation>
     <message>
         <source>Fade out</source>
         <translation>Manjavona tsikelikely</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Miandry alohan’ny hanafenana</translation>
     </message>
 </context>
 <context>

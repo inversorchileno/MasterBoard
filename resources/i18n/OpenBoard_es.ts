@@ -1640,6 +1640,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>¿Cómo debe ocultarse la barra? Vuelve de la misma forma cuando el mouse se acerca a su lado.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Esperar antes de ocultar</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6087,6 +6095,10 @@ Ancho dinámico</translation>
     <message>
         <source>Fade out</source>
         <translation>Desvanecer</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Esperar antes de ocultar</translation>
     </message>
 </context>
 <context>

@@ -1685,6 +1685,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Kako se traka treba sakrivati? Vraća se na isti način kad se pokazivač približi njezinoj strani.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Čekaj prije sakrivanja</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5991,6 +5999,10 @@ Dinamična širina</translation>
     <message>
         <source>Fade out</source>
         <translation>Blijeđenje</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Čekaj prije sakrivanja</translation>
     </message>
 </context>
 <context>

@@ -1644,6 +1644,14 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Hogyan rejtőzzön el a sáv? Ugyanígy tér vissza, amikor a mutató az oldalához közelít.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Várakozás elrejtés előtt</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6009,6 +6017,10 @@ Dinamikus szélesség</translation>
     <message>
         <source>Fade out</source>
         <translation>Elhalványulás</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Várakozás elrejtés előtt</translation>
     </message>
 </context>
 <context>

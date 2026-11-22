@@ -1632,6 +1632,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>막대를 어떻게 숨길까요? 포인터가 그쪽 가장자리에 가까워지면 같은 방식으로 다시 나타납니다.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>숨기기 전 대기 시간</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1초</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5891,6 +5899,10 @@ Dynamic width</source>
     <message>
         <source>Fade out</source>
         <translation>서서히 사라지기</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>숨기기 전 대기 시간</translation>
     </message>
 </context>
 <context>

@@ -1635,6 +1635,14 @@ Chcete preskočiť bezpečnostnú kontrolu a pokračovať?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Ako sa má lišta skrývať? Vráti sa rovnakým spôsobom, keď sa ukazovateľ priblíži k jej strane.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Čakať pred skrytím</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5919,6 +5927,10 @@ Dynamická šírka</translation>
     <message>
         <source>Fade out</source>
         <translation>Vyblednúť</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Čakať pred skrytím</translation>
     </message>
 </context>
 <context>

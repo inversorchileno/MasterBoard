@@ -1652,6 +1652,14 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Wie soll sich die Leiste ausblenden? Sie kommt auf dieselbe Weise zurück, wenn der Zeiger ihrer Seite nahe kommt.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Warten vor dem Ausblenden</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6123,6 +6131,10 @@ Dynamische Breite</translation>
     <message>
         <source>Fade out</source>
         <translation>Ausblenden</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Warten vor dem Ausblenden</translation>
     </message>
 </context>
 <context>

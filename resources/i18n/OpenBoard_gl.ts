@@ -1632,6 +1632,14 @@ Quere omitir a comprobación de seguranza e continuar?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Como debe agocharse a barra? Volve do mesmo xeito cando o punteiro se achega ao seu lado.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Agardar antes de agochar</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5931,6 +5939,10 @@ Largura dinámica</translation>
     <message>
         <source>Fade out</source>
         <translation>Esvaecer</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Agardar antes de agochar</translation>
     </message>
 </context>
 <context>

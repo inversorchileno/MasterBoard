@@ -1653,6 +1653,14 @@ Voulez-vous continuer quand-même ?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Comment la barre doit-elle se masquer ? Elle revient de la même façon quand le pointeur s’approche de son côté.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Attendre avant de masquer</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6130,6 +6138,10 @@ Largeur dynamique</translation>
     <message>
         <source>Fade out</source>
         <translation>Fondu</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Attendre avant de masquer</translation>
     </message>
 </context>
 <context>

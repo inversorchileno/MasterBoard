@@ -1632,6 +1632,14 @@ Doriți să treceți peste verificarea de securitate și să continuați?   </tr
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Cum să se ascundă bara? Revine la fel când indicatorul se apropie de marginea ei.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Așteptare înainte de ascundere</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5882,6 +5890,10 @@ Lățime dinamică</translation>
     <message>
         <source>Fade out</source>
         <translation>Estompare</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Așteptare înainte de ascundere</translation>
     </message>
 </context>
 <context>

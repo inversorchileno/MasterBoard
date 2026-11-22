@@ -1632,6 +1632,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>工具列應如何隱藏？指標靠近其所在邊時，會以同樣的方式重新出現。</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>隱藏前等待</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 秒</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6045,6 +6053,10 @@ Dynamic width</source>
     <message>
         <source>Fade out</source>
         <translation>淡出</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>隱藏前等待</translation>
     </message>
 </context>
 <context>

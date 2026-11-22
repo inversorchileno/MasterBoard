@@ -1644,6 +1644,14 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Çubuk nasıl gizlensin? İşaretçi kenarına yaklaştığında aynı şekilde geri gelir.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Gizlemeden önce bekle</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5934,6 +5942,10 @@ Dinamik kalınlık</translation>
     <message>
         <source>Fade out</source>
         <translation>Soldur</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Gizlemeden önce bekle</translation>
     </message>
 </context>
 <context>

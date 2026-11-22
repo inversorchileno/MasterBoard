@@ -1632,6 +1632,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Як має приховуватися панель? Вона повертається так само, коли вказівник наближається до її краю.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Чекати перед приховуванням</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 с</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5917,6 +5925,10 @@ Dynamic width</source>
     <message>
         <source>Fade out</source>
         <translation>Згасати</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Чекати перед приховуванням</translation>
     </message>
 </context>
 <context>

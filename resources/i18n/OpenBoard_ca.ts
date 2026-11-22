@@ -1632,6 +1632,14 @@ Voleu ometre la comprovació de seguretat i continuar?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Com s’ha d’amagar la barra? Torna de la mateixa manera quan el punter s’acosta al seu costat.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Espera abans d’amagar</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5894,6 +5902,10 @@ Amplada dinàmica</translation>
     <message>
         <source>Fade out</source>
         <translation>Esvair</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Espera abans d’amagar</translation>
     </message>
 </context>
 <context>

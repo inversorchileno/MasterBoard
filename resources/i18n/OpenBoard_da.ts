@@ -1632,6 +1632,14 @@ Vil du springe sikkerhedskontrollen over og fortsætte?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Hvordan skal bjælken skjules? Den kommer tilbage på samme måde, når markøren nærmer sig dens side.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Vent før skjul</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5886,6 +5894,10 @@ Dynamisk bredde</translation>
     <message>
         <source>Fade out</source>
         <translation>Fade ud</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Vent før skjul</translation>
     </message>
 </context>
 <context>

@@ -1633,6 +1633,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>איך הסרגל צריך להיעלם? הוא חוזר באותה דרך כשהמצביע מתקרב לצד שלו.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>המתנה לפני הסתרה</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 ש׳</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5882,6 +5890,10 @@ Dynamic width</source>
     <message>
         <source>Fade out</source>
         <translation>דהייה</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>המתנה לפני הסתרה</translation>
     </message>
 </context>
 <context>

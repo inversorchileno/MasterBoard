@@ -1628,6 +1628,14 @@ Wil je de beveiligingscontrole overslaan en doorgaan?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Hoe moet de balk verdwijnen? Hij komt op dezelfde manier terug als de aanwijzer bij zijn rand komt.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Wachten voor verbergen</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5872,6 +5880,10 @@ Dynamische breedte</translation>
     <message>
         <source>Fade out</source>
         <translation>Vervagen</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Wachten voor verbergen</translation>
     </message>
 </context>
 <context>

@@ -1635,6 +1635,14 @@ Czy pominąć kontrolę bezpieczeństwa i kontynuować?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Jak pasek ma się ukrywać? Wraca w ten sam sposób, gdy wskaźnik zbliży się do jego krawędzi.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Czekaj przed ukryciem</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5944,6 +5952,10 @@ Dynamiczna szerokość</translation>
     <message>
         <source>Fade out</source>
         <translation>Zanikanie</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Czekaj przed ukryciem</translation>
     </message>
 </context>
 <context>

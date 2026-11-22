@@ -1754,6 +1754,14 @@ Segurtasun-egiaztapena saltatu eta jarraitu nahi duzu?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Nola ezkutatu behar da barra? Era berean itzultzen da erakuslea bere aldera hurbiltzen denean.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Itxaron ezkutatu aurretik</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6098,6 +6106,10 @@ Zabalera dinamikoa</translation>
     <message>
         <source>Fade out</source>
         <translation>Desagertu pixkanaka</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Itxaron ezkutatu aurretik</translation>
     </message>
 </context>
 <context>

@@ -1628,6 +1628,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>バーをどのように隠しますか？ポインターがその端に近づくと同じ方法で戻ります。</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>隠すまでの時間</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 秒</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -6003,6 +6011,10 @@ Dynamic width</source>
     <message>
         <source>Fade out</source>
         <translation>フェードアウト</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>隠すまでの時間</translation>
     </message>
 </context>
 <context>

@@ -1632,6 +1632,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>كيف يجب أن يختفي الشريط؟ يعود بالطريقة نفسها عندما يقترب المؤشر من جانبه.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>الانتظار قبل الإخفاء</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 ث</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5897,6 +5905,10 @@ Dynamic width</source>
     <message>
         <source>Fade out</source>
         <translation>تلاشٍ</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>الانتظار قبل الإخفاء</translation>
     </message>
 </context>
 <context>

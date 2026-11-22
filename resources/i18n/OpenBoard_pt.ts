@@ -1634,6 +1634,14 @@ Deseja ignorar a verificação de segurança e continuar?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Como deve a barra ocultar-se? Volta da mesma forma quando o ponteiro se aproxima do seu lado.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Esperar antes de ocultar</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5909,6 +5917,10 @@ Largura dinâmica</translation>
     <message>
         <source>Fade out</source>
         <translation>Desvanecer</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Esperar antes de ocultar</translation>
     </message>
 </context>
 <context>

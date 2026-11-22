@@ -1644,6 +1644,14 @@ Do you wish to override the security check and continue ?   </source>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Πώς να κρύβεται η γραμμή; Επιστρέφει με τον ίδιο τρόπο όταν ο δείκτης πλησιάζει την πλευρά της.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Αναμονή πριν την απόκρυψη</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 δ</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5936,6 +5944,10 @@ Dynamic width</source>
     <message>
         <source>Fade out</source>
         <translation>Σβήσιμο</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Αναμονή πριν την απόκρυψη</translation>
     </message>
 </context>
 <context>

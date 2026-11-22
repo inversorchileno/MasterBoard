@@ -1632,6 +1632,14 @@ Vill du hoppa över säkerhetskontrollen och fortsätta?   </translation>
         <source>How should the bar hide itself? It comes back the same way when the pointer goes near its side.</source>
         <translation>Hur ska fältet döljas? Det kommer tillbaka på samma sätt när pekaren närmar sig dess kant.</translation>
     </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Vänta innan döljning</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
 </context>
 <context>
     <name>TabWidget</name>
@@ -5887,6 +5895,10 @@ Dynamisk bredd</translation>
     <message>
         <source>Fade out</source>
         <translation>Tona ut</translation>
+    </message>
+    <message>
+        <source>Wait before hiding</source>
+        <translation>Vänta innan döljning</translation>
     </message>
 </context>
 <context>
