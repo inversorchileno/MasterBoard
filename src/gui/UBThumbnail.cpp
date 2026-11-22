@@ -267,12 +267,13 @@ void UBThumbnail::hoverLeaveEvent(QGraphicsSceneHoverEvent* event)
     QGraphicsRectItem::hoverLeaveEvent(event);
 }
 
-// The star of a favorite page, at the top right corner of its thumbnail.
+// The star of a favorite page, at the bottom right corner of its thumbnail:
+// away from the buttons at the top, also on a narrow page of a PDF.
 static QRectF starRect(const QGraphicsPixmapItem* pixmapItem)
 {
     const QRectF picture = pixmapItem->mapRectToParent(pixmapItem->boundingRect());
     const qreal size = UBThumbnailUI::ICONSIZE;
-    return QRectF(picture.right() - size, picture.top(), size, size);
+    return QRectF(picture.right() - size, picture.bottom() - size, size, size);
 }
 
 static QPainterPath starPath(const QRectF& rect)
@@ -308,6 +309,37 @@ static bool buttonsEnabled(QGraphicsScene* scene)
     auto thumbnailScene = dynamic_cast<UBThumbnailScene*>(scene);
     return thumbnailScene && thumbnailScene->currentThumbnailArranger()
            && thumbnailScene->currentThumbnailArranger()->isUIEnabled();
+}
+
+void UBThumbnail::hoverMoveEvent(QGraphicsSceneHoverEvent* event)
+{
+    // Each button says what it does.
+    QString tip;
+
+    if (buttonsEnabled(scene()))
+    {
+        const auto p = event->pos() - mPixmapItem->pos();
+
+        if (starRect(mPixmapItem).contains(event->pos()))
+        {
+            tip = isFavorite() ? tr("Remove from favorites") : tr("Add to favorites");
+        }
+        else if (UBThumbnailUI::getIcon("close")->triggered(p))
+        {
+            tip = tr("Delete the page");
+        }
+        else if (UBThumbnailUI::getIcon("duplicate")->triggered(p))
+        {
+            tip = tr("Duplicate the page");
+        }
+    }
+
+    if (toolTip() != tip)
+    {
+        setToolTip(tip);
+    }
+
+    QGraphicsRectItem::hoverMoveEvent(event);
 }
 
 bool UBThumbnail::isFavorite() const

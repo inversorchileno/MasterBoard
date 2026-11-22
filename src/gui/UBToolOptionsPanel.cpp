@@ -26,10 +26,12 @@
 #include <QCheckBox>
 #include <QFileDialog>
 #include <QFontComboBox>
+#include <QFrame>
 #include <QGraphicsOpacityEffect>
 #include <QGridLayout>
 #include <QPainter>
 #include <QPainterPath>
+#include <QScreen>
 #include <QStandardPaths>
 #include <QHBoxLayout>
 #include <QLabel>
@@ -478,8 +480,9 @@ UBMarkerOptionsPanel::UBMarkerOptionsPanel(QWidget* parent)
         UBDrawingController::drawingController()->setMarkerAlpha(opacity / 100);
         updatePreview();
     });
-    connect(mTip, &UBSegmentedChoice::choiceChanged, this, [settings](int tip) {
+    connect(mTip, &UBSegmentedChoice::choiceChanged, this, [this, settings](int tip) {
         settings->markerChiselTip->set(tip == 1);
+        updatePreview();
     });
 
     refresh();
@@ -500,6 +503,7 @@ void UBMarkerOptionsPanel::updatePreview()
 {
     // Shown thinner than drawn so that the preview stays readable.
     mPreview->setStroke(mColors->currentColor(), mWidth->value() / 4, mOpacity->value() / 100, false);
+    mPreview->setChiselTip(mTip->choice() == 1);
 }
 
 // ---------------------------------------------------------------------------
@@ -1651,21 +1655,87 @@ void UBStampOptionsPanel::refresh()
     }
 
     mStamps.first()->setIcon(iconFor(0));
+
+    if (mStampsButton)
+    {
+        // Stamps shows the stamp chosen among them, and is marked while one is.
+        const bool chosenThere = !removing && !UBStamps::isCustom(current);
+        mStampsButton->setIcon(iconFor(chosenThere ? current : 1));
+        mStampsButton->setChecked(chosenThere);
+    }
 }
 
 void UBStampOptionsPanel::layOutForToolbar()
 {
-    // One row of small pictures, their names as tooltips.
-    for (int i = 0; i < mStamps.size(); ++i)
+    // Two buttons, so that the toolbar does not need to scroll: Your PNG,
+    // and Stamps, which opens all the others in a window under it.
+    const QSize small(72, 24);
+    mGallery->setSpacing(3);
+
+    // Remove is alone in its header there: no empty room before it.
+    mRemove->parentWidget()->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Preferred);
+
+    QToolButton* custom = mStamps.first();
+    custom->setToolButtonStyle(Qt::ToolButtonIconOnly);
+    custom->setIconSize(small);
+
+    mStampsButton = new QToolButton(this);
+    mStampsButton->setText(tr("Stamps"));
+    mStampsButton->setToolTip(tr("All the stamps"));
+    mStampsButton->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
+    mStampsButton->setIconSize(small);
+    mStampsButton->setCheckable(true);
+    mStampsButton->setFocusPolicy(Qt::NoFocus);
+    mStampsButton->setStyleSheet("QToolButton { background: #ffffff; color: #222222; border: 1px solid #c9ced6; border-radius: 4px; padding: 2px 6px; }"
+                                 "QToolButton:hover { border-color: #f6c343; }"
+                                 "QToolButton:checked { background: #fff4cf; border: 2px solid #f6c343; }");
+    mGallery->addWidget(mStampsButton, 0, 1);
+
+    mStampsPopup = new QFrame(this, Qt::Popup);
+    mStampsPopup->setStyleSheet("QFrame { background: #2c313a; border: 1px solid #4a5160; }");
+    auto grid = new QGridLayout(mStampsPopup);
+    grid->setContentsMargins(6, 6, 6, 6);
+    grid->setSpacing(6);
+
+    const int columns = 4;
+
+    for (int i = 1; i < mStamps.size(); ++i)
     {
         QToolButton* button = mStamps.at(i);
         mGallery->removeWidget(button);
-        mGallery->addWidget(button, 0, i);
+        button->setParent(mStampsPopup);
         button->setToolButtonStyle(Qt::ToolButtonIconOnly);
-        button->setIconSize(QSize(72, 24));
+        button->setIconSize(QSize(120, 40));
+        grid->addWidget(button, (i - 1) / columns, (i - 1) % columns);
+
+        // Chosen: the window closes.
+        connect(button, &QToolButton::clicked, mStampsPopup, &QWidget::hide);
     }
 
-    mGallery->setSpacing(3);
+    connect(mStampsButton, &QToolButton::clicked, this, [this]() {
+        // Its look follows the chosen stamp, not the click.
+        refresh();
+        mStampsPopup->adjustSize();
+
+        // Under the button, kept inside the screen.
+        QPoint at = mStampsButton->mapToGlobal(QPoint(0, mStampsButton->height()));
+
+        if (QScreen* screen = mStampsButton->screen())
+        {
+            const QRect area = screen->availableGeometry();
+            at.setX(qBound(area.left(), at.x(), area.right() - mStampsPopup->width()));
+
+            if (at.y() + mStampsPopup->height() > area.bottom())
+            {
+                at.setY(mStampsButton->mapToGlobal(QPoint(0, 0)).y() - mStampsPopup->height());
+            }
+        }
+
+        mStampsPopup->move(at);
+        mStampsPopup->show();
+    });
+
+    refresh();
 }
 
 void UBStampOptionsPanel::choose(int index)

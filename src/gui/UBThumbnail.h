@@ -22,6 +22,7 @@
 
 #pragma once
 
+#include <QCoreApplication>
 #include <QGraphicsRectItem>
 
 // forward
@@ -39,6 +40,8 @@ class UBThumbnailTextItem;
  */
 class UBThumbnail : public QGraphicsRectItem
 {
+    Q_DECLARE_TR_FUNCTIONS(UBThumbnail)
+
 public:
     UBThumbnail();
 
@@ -68,6 +71,7 @@ public:
 protected:
     virtual QVariant itemChange(GraphicsItemChange change, const QVariant& value) override;
     virtual void hoverEnterEvent(QGraphicsSceneHoverEvent* event) override;
+    virtual void hoverMoveEvent(QGraphicsSceneHoverEvent* event) override;
     virtual void hoverLeaveEvent(QGraphicsSceneHoverEvent* event) override;
     virtual void mousePressEvent(QGraphicsSceneMouseEvent* event) override;
     virtual void paint(QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget) override;

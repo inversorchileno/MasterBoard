@@ -29,6 +29,7 @@ class QButtonGroup;
 class QCheckBox;
 class QGridLayout;
 class QFontComboBox;
+class QFrame;
 class QLabel;
 class QToolButton;
 class QVBoxLayout;
@@ -334,6 +335,8 @@ private:
     QToolButton* mRemove{nullptr};
     QList<QToolButton*> mStamps;
     QGridLayout* mGallery{nullptr};
+    QToolButton* mStampsButton{nullptr}; // in the toolbar: opens all the stamps
+    QFrame* mStampsPopup{nullptr};
 };
 
 /** @brief The selector: a rectangle or a lasso, the other one offered by a button. */

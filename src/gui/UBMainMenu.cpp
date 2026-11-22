@@ -626,16 +626,8 @@ void UBMainMenu::createCornerButtons()
     lockButton->setStyleSheet(buttonStyle);
     layout->insertWidget(layout->indexOf(outlineButton), lockButton);
 
-    // Room for the longest of its names.
-    int widest = 0;
-
-    for (const QString& name : { tr("Unlock canvas"), tr("Lock canvas"), tr("Unlock PDF"), tr("Lock PDF") })
-    {
-        lockAction->setText(name);
-        widest = qMax(widest, lockButton->sizeHint().width());
-    }
-
-    lockButton->setMinimumWidth(widest);
+    // As wide as its name, so that the space beside it is the same as
+    // between the other buttons.
     updateLockText();
 
     // The podcast and the screens, left of the lock: not in the palettes.

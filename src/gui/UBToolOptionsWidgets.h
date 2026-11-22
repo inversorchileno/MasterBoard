@@ -286,6 +286,9 @@ public:
     /** @brief Draws the stroke as a basic, pro or calligraphy pen does, see UBPenStrokeType. */
     void setStrokeType(int type);
 
+    /** @brief Draws the stroke as the straight tip of the marker leaves it: flat, with straight ends. */
+    void setChiselTip(bool chisel);
+
 protected:
     void paintEvent(QPaintEvent* event) override;
 
@@ -295,6 +298,7 @@ private:
     qreal mOpacity{1};
     bool mGlow{false};
     int mStrokeType{0};
+    bool mChiselTip{false};
 };
 
 /** @brief The style sheet shared by the tool option panels. */

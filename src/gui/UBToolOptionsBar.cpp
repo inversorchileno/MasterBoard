@@ -92,6 +92,10 @@ void UBToolOptionsBar::showTool(int tool)
         mCurrentPanel = nullptr;
     }
 
+    // A tool without options says what to do with it, when it is not obvious.
+    mNoOptions->setText(panelTool == UBStylusTool::Sound ? tr("Click on the page to record.")
+                                                         : tr("This tool has no options."));
+
     if (!UBToolOptionsPopup::hasOptions(panelTool))
     {
         mNoOptions->show();

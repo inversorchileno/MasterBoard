@@ -285,6 +285,9 @@ void UBColorSwatches::setThreeRows()
 
     delete layout();
 
+    // As wide as the circles: no empty room beside them in the toolbar.
+    setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
+
     auto grid = new QGridLayout(this);
     grid->setContentsMargins(0, 0, 0, 0);
     grid->setHorizontalSpacing(1);
@@ -453,10 +456,10 @@ void UBValueSlider::setStacked(const QString& caption)
     {
         auto label = new QLabel(caption, this);
         label->setObjectName("caption");
-        column->addWidget(label, 0, Qt::AlignLeft);
+        column->addWidget(label, 0, Qt::AlignHCenter);
     }
 
-    column->addWidget(mValueBox, 0, Qt::AlignLeft);
+    column->addWidget(mValueBox, 0, Qt::AlignHCenter);
     column->addWidget(mSlider);
 
     mValueBox->setFixedHeight(20);
@@ -1786,6 +1789,31 @@ void UBStrokePreview::paintEvent(QPaintEvent* event)
 
     color.setAlphaF(mOpacity);
 
+    if (mChiselTip)
+    {
+        // A flat nib slanted as the marker draws it (UBGraphicsScene: -65
+        // degrees), swept along the wave: wide across it, straight ends.
+        const qreal angle = qDegreesToRadians(-65.0);
+        const QPointF nib(std::cos(angle) * penWidth / 2, std::sin(angle) * penWidth / 2);
+        const int samples = 64;
+        QPainterPath swept;
+        swept.setFillRule(Qt::WindingFill);
+        QPointF previous = wave.pointAtPercent(0);
+
+        for (int i = 1; i <= samples; ++i)
+        {
+            const QPointF point = wave.pointAtPercent(qreal(i) / samples);
+            swept.addPolygon(QPolygonF({ previous + nib, previous - nib, point - nib, point + nib }));
+            swept.closeSubpath();
+            previous = point;
+        }
+
+        painter.setPen(Qt::NoPen);
+        painter.setBrush(color);
+        painter.drawPath(swept.simplified());
+        return;
+    }
+
     if (mStrokeType == UBPenStrokeType::Pencil)
     {
         color.setAlphaF(mOpacity * 0.75);
@@ -1801,6 +1829,12 @@ void UBStrokePreview::paintEvent(QPaintEvent* event)
         // At least a few pixels wide, so that the change of width shows.
         drawStroke(painter, wave, qMax(penWidth, 4.0), mStrokeType, color);
     }
+}
+
+void UBStrokePreview::setChiselTip(bool chisel)
+{
+    mChiselTip = chisel;
+    update();
 }
 
 QIcon optionIcon(const QString& picture)
