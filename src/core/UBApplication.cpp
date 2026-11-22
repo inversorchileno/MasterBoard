@@ -72,6 +72,8 @@
 #include "gui/UBMainMenu.h"
 
 #include <QDir>
+#include <QFileInfo>
+#include <QTimer>
 #include <QProcess>
 
 #include "core/memcheck.h"
@@ -337,8 +339,24 @@ void UBApplication::setupTranslators(QStringList args)
     qDebug() << "Running application in:" << language;
 }
 
+/** @brief The program of the versions called LibertyBoard, left in the folder of Master Board, goes. */
+static void removeOldProgram()
+{
+#ifdef Q_OS_WIN
+    const QFileInfo running(QCoreApplication::applicationFilePath());
+
+    if (running.fileName().compare("LibertyBoard.exe", Qt::CaseInsensitive) != 0)
+    {
+        QFile::remove(running.absolutePath() + "/LibertyBoard.exe");
+    }
+#endif
+}
+
 int UBApplication::exec(const QString& pFileToImport)
 {
+    // A few seconds after the start, once nothing uses it any more.
+    QTimer::singleShot(5000, qApp, &removeOldProgram);
+
     QPixmapCache::setCacheLimit(1024 * 100);
 
     displayManager = new UBDisplayManager(staticMemoryCleaner);

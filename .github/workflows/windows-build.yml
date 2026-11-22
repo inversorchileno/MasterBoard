@@ -73,9 +73,6 @@ jobs:
         run: |
           set PRODUCT=build\win32\release\product
           windeployqt --release --compiler-runtime --no-system-d3d-compiler %PRODUCT%\MasterBoard.exe || exit /b 1
-          rem The name of before, for the shortcuts and for the update of the versions called LibertyBoard,
-          rem which open LibertyBoard.exe again after copying the new files.
-          copy /y %PRODUCT%\MasterBoard.exe %PRODUCT%\LibertyBoard.exe || exit /b 1
           xcopy /y /q ..\OpenBoard-ThirdParty\poppler\bin\*.dll %PRODUCT%\ || exit /b 1
           xcopy /y /q ..\OpenBoard-ThirdParty\openssl\openssl-3.0.15-win64\bin\*.dll %PRODUCT%\ || exit /b 1
           xcopy /y /q ..\OpenBoard-ThirdParty\zlib\1.2.11\bin\zlib.dll %PRODUCT%\ || exit /b 1
