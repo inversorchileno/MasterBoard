@@ -14,12 +14,12 @@
     <message>
         <location filename="../../src/web/simplebrowser/browserwindow.cpp" line="+151"/>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Navegació</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Show downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra les baixades</translation>
     </message>
 </context>
 <context>
@@ -32,19 +32,21 @@
     <message>
         <location line="+12"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Icona</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Error</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>If you wish so, you may continue with an unverified certificate. Accepting an unverified certificate mean you may not be connected with the host you tried to connect to.
 
 Do you wish to override the security check and continue ?   </source>
-        <translation type="unfinished"></translation>
+        <translation>Si voleu, podeu continuar amb un certificat no verificat. Acceptar un certificat no verificat vol dir que potser no esteu connectat a l&apos;amfitrió al qual volíeu connectar-vos.
+
+Voleu ometre la comprovació de seguretat i continuar?   </translation>
     </message>
 </context>
 <context>
@@ -52,12 +54,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.ui" line="+14"/>
         <source>Downloads</source>
-        <translation type="unfinished">Baixades</translation>
+        <translation>Baixades</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>No downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>Cap baixada</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.cpp" line="+82"/>
@@ -71,68 +73,68 @@ Do you wish to override the security check and continue ?   </source>
         <location filename="../../src/web/simplebrowser/downloadwidget.ui" line="+31"/>
         <location line="+40"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadwidget.cpp" line="+87"/>
         <location line="+40"/>
         <source>Open file</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre un fitxer</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>%L1 B</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 B</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 KiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 KiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 MiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 MiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 GiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 GiB</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>%p% - %1 of %2 downloaded - %3/s</source>
-        <translation type="unfinished"></translation>
+        <translation>%p% - %1 de %2 baixats - %3/s</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>unknown size - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>mida desconeguda - %1 baixats - %2/s</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>completed - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>completat - %1 baixats - %2/s</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>cancelled - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>cancel·lat - %1 baixats - %2/s</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>interrupted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>interromput: %1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Stop downloading</source>
-        <translation type="unfinished"></translation>
+        <translation>Atura la baixada</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Treu de la llista</translation>
     </message>
 </context>
 <context>
@@ -926,22 +928,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+383"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Guia del programa</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre la guia del programa</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajusta a la quadrícula</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Snap to grid and angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajusta a la quadrícula i a l&apos;angle</translation>
     </message>
     <message>
         <source>Ctrl+I</source>
@@ -1064,7 +1066,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+753"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location line="+112"/>
@@ -1099,37 +1101,37 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Draw shapes: rectangles, ellipses, lines, polylines, arrows, stars, speech bubbles…</source>
-        <translation type="unfinished"></translation>
+        <translation>Dibuixa formes: rectangles, el·lipses, línies, polilínies, fletxes, estrelles, bafarades…</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojis i GIF</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Put an emoji or a GIF on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Posa un emoji o un GIF a la pàgina</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>IA</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
-        <translation type="unfinished"></translation>
+        <translation>Resum, traducció, imatges i més amb una IA al web</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mesures</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance, perimeter and area, with a reference drawn on the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Distància, perímetre i àrea, amb una referència dibuixada a la pantalla</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1139,7 +1141,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Read the page aloud, from its start, from a word clicked or a rectangle dragged on the text</source>
-        <translation type="unfinished"></translation>
+        <translation>Llegeix la pàgina en veu alta, des de l&apos;inici, des d&apos;una paraula clicada o des d&apos;un rectangle arrossegat sobre el text</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -1293,70 +1295,70 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-887"/>
         <location line="+6"/>
         <source>Ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Pautat amb fons clar</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Pautat amb fons fosc</translation>
     </message>
     <message>
         <location line="+814"/>
         <source>Open Tutorial</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre el tutorial</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the tutorial web page</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre la pàgina web del tutorial</translation>
     </message>
     <message>
         <location line="+9"/>
         <location line="+3"/>
         <source>Reset grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>Restableix la mida de la quadrícula</translation>
     </message>
     <message>
         <location line="-1716"/>
         <source>Small Eraser</source>
-        <translation type="unfinished"></translation>
+        <translation>Goma petita</translation>
     </message>
     <message>
         <location line="+45"/>
         <location line="+3"/>
         <source>Color 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Color 1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Color 2</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Color 3</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Color 4</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 5</source>
-        <translation type="unfinished"></translation>
+        <translation>Color 5</translation>
     </message>
     <message>
         <location line="+1609"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Dibuixa línies intermèdies de la quadrícula</translation>
     </message>
     <message>
         <location line="-184"/>
@@ -1364,47 +1366,47 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+13"/>
         <location line="+3"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Captura contingut web</translation>
     </message>
     <message>
         <location line="-1676"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode documents</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Web Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode web</translation>
     </message>
     <message>
         <location line="+140"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>Board Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode pissarra</translation>
     </message>
     <message>
         <location line="+93"/>
@@ -1414,29 +1416,29 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Desktop Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode escriptori</translation>
     </message>
     <message>
         <location line="+182"/>
         <source>Add to document</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix al document</translation>
     </message>
     <message>
         <location line="+318"/>
         <location line="+6"/>
         <source>Seyes ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Pautat Seyes amb fons clar</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Seyes ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Pautat Seyes amb fons fosc</translation>
     </message>
     <message>
         <location line="+603"/>
         <source>Import one or more pages (supported formats : jpg, png, svg, ubz, pdf)</source>
-        <translation type="unfinished"></translation>
+        <translation>Importa una o més pàgines (formats: jpg, png, svg, ubz, pdf)</translation>
     </message>
     <message>
         <source>Add to favorites</source>
@@ -1445,12 +1447,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+239"/>
         <source>Add Document to favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix el document als preferits</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Favorite</source>
-        <translation type="unfinished"></translation>
+        <translation>Preferit</translation>
     </message>
 </context>
 <context>
@@ -1473,12 +1475,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-36"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Icona</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Informació</translation>
     </message>
 </context>
 <context>
@@ -1504,17 +1506,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/adaptors/UBSvgSubsetAdaptor.cpp" line="+252"/>
         <source>Loading scene (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està carregant l&apos;escena (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBSceneCache.cpp" line="+243"/>
         <source>Moving cached scenes (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan movent escenes de la memòria cau (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+46"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Comú</translation>
     </message>
     <message>
         <location filename="../../src/board/UBComments.cpp" line="+153"/>
@@ -1557,22 +1559,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
         <source>Bar style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estil de la barra</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;estil de les paletes d&apos;eines, a la pissarra i a l&apos;escriptori. Les paletes canvien de seguida.</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Color inside</source>
-        <translation type="unfinished"></translation>
+        <translation>Color interior</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Color of the edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de la vora</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1582,17 +1584,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+2"/>
         <source>Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Cantonades</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>Quadrat</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodó</translation>
     </message>
 </context>
 <context>
@@ -1638,77 +1640,77 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>IA</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Resum</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, summarized by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Una part de la pàgina, o tota, resumida per la IA</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Traducció</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, translated by the AI into the language chosen</source>
-        <translation type="unfinished"></translation>
+        <translation>Una part de la pàgina, o tota, traduïda per la IA a l&apos;idioma triat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Create image</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea una imatge</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>An image made by the AI from what you write</source>
-        <translation type="unfinished"></translation>
+        <translation>Una imatge feta per la IA a partir del que escriviu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove background</source>
-        <translation type="unfinished"></translation>
+        <translation>Treu el fons</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A picture without its background, made by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Una imatge sense fons, feta per la IA</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erase</source>
-        <translation type="unfinished"></translation>
+        <translation>Esborrat generatiu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Something erased from a picture by the AI, as if it had never been there</source>
-        <translation type="unfinished"></translation>
+        <translation>Una cosa esborrada d&apos;una imatge per la IA, com si mai hi hagués estat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Transcriu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Asks for an audio and gives it to the AI, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Demana un àudio i el dona a la IA, que escriu el que es diu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre la IA</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Opens or closes the page of the AI at the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre o tanca la pàgina de la IA a la dreta</translation>
     </message>
 </context>
 <context>
@@ -1716,202 +1718,202 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBAiPanel.cpp" line="+164"/>
         <source>Drag over the part of the page to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrossegueu per sobre de la part de la pàgina per a la IA. Esc: cancel·la.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag over the part of the screen to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrossegueu per sobre de la part de la pantalla per a la IA. Esc: cancel·la.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Traducció</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Detect it</source>
-        <translation type="unfinished"></translation>
+        <translation>Detecta-ho</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Write or choose the languages:</source>
-        <translation type="unfinished"></translation>
+        <translation>Escriviu o trieu els idiomes:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>De:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Per a:</translation>
     </message>
     <message>
         <location line="+171"/>
         <source>Put the picture on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Posa la imatge a l&apos;escriptori</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the picture on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Posa la imatge a la pàgina</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Put the text on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Posa el text a l&apos;escriptori</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the text on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Posa el text a la pàgina</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The AI shown; the addresses are in the preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>La IA que es mostra; les adreces són a les preferències</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Close the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanca la IA</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>AI:</source>
-        <translation type="unfinished"></translation>
+        <translation>IA:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Copy instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia la instrucció</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copies the instruction again, to paste it with Ctrl+V in the box of the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Torna a copiar la instrucció, per enganxar-la amb Ctrl+V al quadre de la IA</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Paste on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Enganxa a la pàgina</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Paste on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Enganxa a l&apos;escriptori</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Puts on the page what was copied in the AI: a text, or a picture with its right click, Copy image. The right click on a picture or a selected text of the AI can also put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Posa a la pàgina el que s&apos;ha copiat a la IA: un text, o una imatge amb el clic dret, Copia la imatge. El clic dret en una imatge o un text seleccionat de la IA també ho pot posar allà.</translation>
     </message>
     <message>
         <location line="+405"/>
         <source>Right click on a picture or a text of the AI to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Feu clic dret en una imatge o un text de la IA per posar-lo a l&apos;escriptori.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag a text or a picture of the AI to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrossegueu un text o una imatge de la IA a la pàgina, o feu-hi clic dret per posar-lo allà.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Right click on the answer to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>La instrucció és escrita a la IA i també copiada: Ctrl+V l&apos;enganxa. Feu clic dret a la resposta per posar-la a l&apos;escriptori.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Drag the answer to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>La instrucció és escrita a la IA i també copiada: Ctrl+V l&apos;enganxa. Arrossegueu la resposta a la pàgina, o feu-hi clic dret per posar-la allà.</translation>
     </message>
     <message>
         <location line="+305"/>
         <source>The picture could not be taken from the AI: right click on it and choose to put it on the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut agafar la imatge de la IA: feu-hi clic dret i trieu posar-la a la pàgina.</translation>
     </message>
     <message>
         <location line="-675"/>
         <source>Drag to make the panel wider</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrossegueu per eixamplar el plafó</translation>
     </message>
     <message>
         <location line="+129"/>
         <source>The picture of the AI is on the page; it is also in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>La imatge de la IA és a la pàgina; també és a %1</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Downloaded: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixat: %1</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>Create an image</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea una imatge</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Esborrat generatiu</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Describe the image to create:</source>
-        <translation type="unfinished"></translation>
+        <translation>Descriviu la imatge que voleu crear:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>What should the AI erase from the picture?</source>
-        <translation type="unfinished"></translation>
+        <translation>Què ha d&apos;esborrar la IA de la imatge?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Summarize the attached document in clear words: first the main idea in two or three sentences, then the important points as a list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Resumiu el document adjunt amb paraules clares: primer la idea principal en dues o tres frases, després els punts importants en una llista.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Translate the text of the attached file into %1. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduïu el text del fitxer adjunt al %1. Mantingueu l&apos;ordre i els títols, i doneu només la traducció.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translate the text of the attached file from %1 into %2. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduïu el text del fitxer adjunt del %1 al %2. Mantingueu l&apos;ordre i els títols, i doneu només la traducció.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Create an image: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea una imatge: %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the background of the attached image and give me the result as a PNG image with a transparent background, of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Traieu el fons de la imatge adjunta i doneu-me el resultat com a imatge PNG amb fons transparent, de la mateixa mida.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>In the attached image, erase this: %1. Fill its place so that it looks natural, as if it had never been there, and give me the result as an image of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>A la imatge adjunta, esborreu això: %1. Ompliu-ne el lloc de manera natural, com si mai hi hagués estat, i doneu-me el resultat com a imatge de la mateixa mida.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Transcribe the attached audio word by word. When several people speak, mark who speaks. Give only the text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Transcriviu l&apos;àudio adjunt paraula per paraula. Quan parlin diverses persones, indiqueu qui parla. Doneu només el text.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Audio to transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Àudio per transcriure</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Àudio</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1920,49 +1922,49 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+17"/>
         <location line="+139"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>IA</translation>
     </message>
     <message>
         <location line="-169"/>
         <source>What should be given to the AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Què cal donar a la IA?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Una part de la pàgina</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The whole page</source>
-        <translation type="unfinished"></translation>
+        <translation>La pàgina sencera</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The whole PDF or board</source>
-        <translation type="unfinished"></translation>
+        <translation>Tot el PDF o la pissarra</translation>
     </message>
     <message>
         <location line="-14"/>
         <location line="+25"/>
         <location line="+17"/>
         <source>The file for the AI could not be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut crear el fitxer per a la IA.</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>If the AI did not take the file, drag it from here to the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Si la IA no ha agafat el fitxer, arrossegueu-lo d&apos;aquí a la IA</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>It seems that the free uses of %1 are over for now. Do the same with another AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sembla que els usos gratuïts de %1 s&apos;han acabat de moment. Voleu fer el mateix amb una altra IA?</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Stay here</source>
-        <translation type="unfinished"></translation>
+        <translation>Queda&apos;t aquí</translation>
     </message>
 </context>
 <context>
@@ -1980,7 +1982,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+48"/>
         <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot obrir directament el fitxer UBX. Importeu-lo al mode Documents</translation>
     </message>
 </context>
 <context>
@@ -2054,7 +2056,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Plantilles</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2064,47 +2066,47 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+19"/>
         <source>Grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida de la quadrícula</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Dibuixa línies intermèdies de la quadrícula</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Date of the calendars</source>
-        <translation type="unfinished"></translation>
+        <translation>Data dels calendaris</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The calendars and planners are made for this day, its week, its month or its year</source>
-        <translation type="unfinished"></translation>
+        <translation>Els calendaris i les agendes es fan per a aquest dia, la seva setmana, el seu mes o el seu any</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Weeks start on Sunday</source>
-        <translation type="unfinished"></translation>
+        <translation>Les setmanes comencen en diumenge</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The calendars start their weeks on Monday, or on Sunday when this is ticked</source>
-        <translation type="unfinished"></translation>
+        <translation>Els calendaris comencen les setmanes en dilluns, o en diumenge si està marcat</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>%1, for the date chosen above</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, per a la data triada a dalt</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
-        <translation type="unfinished"></translation>
+        <translation>En una pàgina d&apos;un PDF, la plantilla va a una pàgina nova després.</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de les línies</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2114,7 +2116,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+45"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Direcció de desplaçament</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2129,17 +2131,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Horitzontal de 2 en 2 pàgines</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertical de 2 en 2 pàgines</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Les pàgines una sota l&apos;altra, una al costat de l&apos;altra, o de dues en dues com un quadern obert</translation>
     </message>
 </context>
 <context>
@@ -2197,7 +2199,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+402"/>
         <source>The GIF could not be found on its page. Try another one.</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha trobat el GIF a la seva pàgina. Proveu-ne un altre.</translation>
     </message>
     <message>
         <location line="+200"/>
@@ -2260,12 +2262,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+1282"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Sense títol</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Could not find document.</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha trobat el document.</translation>
     </message>
 </context>
 <context>
@@ -2364,12 +2366,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>És per a la pissarra o per al giny?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you trying to drop the object(s) inside the widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu intentant deixar els objectes dins del giny?</translation>
     </message>
 </context>
 <context>
@@ -2552,12 +2554,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBDictation.cpp" line="+83"/>
         <source>Dictate</source>
-        <translation type="unfinished">Dicta</translation>
+        <translation>Dicta</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
-        <translation type="unfinished">El dictat del sistema no està disponible aquí. A Windows, premeu Windows + H en un text.</translation>
+        <translation>El dictat del sistema no està disponible aquí. A Windows, premeu Windows + H en un text.</translation>
     </message>
 </context>
 <context>
@@ -2591,13 +2593,13 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+12"/>
         <location line="+856"/>
         <source>Opening document in Board. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està obrint el document a la pissarra. Espereu...</translation>
     </message>
     <message>
         <location line="-850"/>
         <location line="+856"/>
         <source>Document opened successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha obert el document</translation>
     </message>
     <message>
         <location line="-802"/>
@@ -2623,17 +2625,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1250"/>
         <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board no ha pogut recuperar aquest fitxer. Suprimiu-lo o demaneu ajuda a l&apos;administrador</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Broken document</source>
-        <translation type="unfinished"></translation>
+        <translation>Document malmès</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>No ho tornis a mostrar</translation>
     </message>
     <message>
         <location line="+1161"/>
@@ -2706,9 +2708,9 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+667"/>
         <source>duplicated %1 page</source>
         <comment>duplicated %1 pages</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 pàgina duplicada</numerusform>
+            <numerusform>%1 pàgina duplicada</numerusform>
         </translation>
     </message>
     <message>
@@ -2718,107 +2720,107 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+57"/>
         <source>Complete deletion of %1 documents/folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Supressió completa de %1 documents/carpetes</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete %1 documents and/or folders. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de suprimir definitivament %1 documents i/o carpetes. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Complete deletion of folder &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Supressió completa de la carpeta &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete folder &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de suprimir definitivament la carpeta &quot;%1&quot;. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Complete deletion of document &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Supressió completa del document &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete document &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de suprimir definitivament el document &quot;%1&quot;. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Emptying My Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan buidant Els meus documents</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the folder &quot;My Documents&quot;. All your documents will be moved to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de buidar del tot la carpeta &quot;Els meus documents&quot;. Tots els documents aniran a la paperera. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Emptying Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està buidant la paperera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the trash. All documents and folders in it will be permanently deleted. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de buidar del tot la paperera. Tots els documents i carpetes que hi ha se suprimiran definitivament. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Moving %1 elements to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan movent %1 elements a la paperera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move %1 documents and/or folders to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de moure %1 documents i/o carpetes a la paperera. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Move folder &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou la carpeta &quot;%1&quot; a la paperera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move folder &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de moure la carpeta &quot;%1&quot; a la paperera. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Move document &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou el document &quot;%1&quot; a la paperera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move document &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de moure el document &quot;%1&quot; a la paperera. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+352"/>
         <source>Open Supported File(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre fitxers compatibles</translation>
     </message>
     <message>
         <location filename="../../src/document/UBDocument.cpp" line="+64"/>
         <source>Moving %1 pages of the document &quot;%2&quot; to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan movent %1 pàgines del document &quot;%2&quot; a la paperera</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>You are about to move %1 pages of the document &quot;%2&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt de moure %1 pàgines del document &quot;%2&quot; a la paperera. N&apos;esteu segur?</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Remove page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Elimina la pàgina %1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to remove page %1 of the document &quot;%2&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu a punt d&apos;eliminar la pàgina %1 del document &quot;%2&quot;. N&apos;esteu segur?</translation>
     </message>
 </context>
 <context>
@@ -2851,7 +2853,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+85"/>
         <source>Creating %1 pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan creant %1 pàgines. Espereu...</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -2900,14 +2902,16 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1"/>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Substitueix</translation>
     </message>
     <message>
         <location line="+80"/>
         <source>The name %1 is allready used.
 Keeping this name will replace the document.
 Providing a new name will create a new document.</source>
-        <translation type="unfinished"></translation>
+        <translation>El nom %1 ja es fa servir.
+Si el manteniu, el document se substituirà.
+Amb un nom nou es crearà un document nou.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -2917,17 +2921,17 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="+29"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>Substitueix-ho tot</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Omet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip all</source>
-        <translation type="unfinished"></translation>
+        <translation>Omet-ho tot</translation>
     </message>
 </context>
 <context>
@@ -3041,7 +3045,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentVersionConverter.cpp" line="+69"/>
         <source>This document was created using OpenBoard 1.8</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquest document es va crear amb OpenBoard 1.8</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3050,7 +3054,11 @@ Providing a new name will create a new document.</source>
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquest document es va crear amb OpenBoard 1.8 i el seu contingut s&apos;ha reorganitzat. Us recomanem molt que actualitzeu OpenBoard a la versió 1.8.
+
+Si continueu, el document es convertirà perquè sigui compatible amb la versió 1.7.7. Pot trigar uns minuts. El podreu obrir igualment a OpenBoard 1.8, però llavors es tornarà a convertir al format 1.8.
+
+Voleu continuar?</translation>
     </message>
 </context>
 <context>
@@ -3126,7 +3134,8 @@ Do you want to continue?</source>
         <location line="-71"/>
         <source>Application name can`t contain any of the following characters:<byte value="xd"/>
 </source>
-        <translation type="unfinished"></translation>
+        <translation>El nom de l&apos;aplicació no pot contenir cap d&apos;aquests caràcters:&lt;byte value=&quot;xd&quot;/&gt;
+</translation>
     </message>
 </context>
 <context>
@@ -3134,27 +3143,27 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojis i GIF</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojis</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>GIFs: opens the page of klipy.com beside the board, without an account; drag a GIF from it to the page. A second click on GIFs closes it.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF: obre la pàgina de klipy.com al costat de la pissarra, sense compte; arrossegueu-ne un GIF a la pàgina. Un segon clic a GIF la tanca.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrossegueu un GIF de la finestra dels GIF a la pàgina.</translation>
     </message>
     <message>
         <source>Save</source>
@@ -3163,7 +3172,7 @@ Do you want to continue?</source>
     <message>
         <location line="+5"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3196,7 +3205,7 @@ Do you want to continue?</source>
     <message>
         <location line="+3"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3229,17 +3238,17 @@ Do you want to continue?</source>
     <message>
         <location line="-16"/>
         <source>Export failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha fallat l&apos;exportació</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unable to export to the selected location. You do not have the permissions necessary to save the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot exportar a la ubicació triada. No teniu els permisos per desar el fitxer.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Export failed: location not writable</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha fallat l&apos;exportació: la ubicació no es pot escriure</translation>
     </message>
 </context>
 <context>
@@ -3314,13 +3323,13 @@ Do you want to continue?</source>
         <location line="-32"/>
         <location line="+9"/>
         <source>Failed to export...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha fallat l&apos;exportació...</translation>
     </message>
     <message>
         <location line="-6"/>
         <location line="+13"/>
         <source>Export as UBX File</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporta com a fitxer UBX</translation>
     </message>
     <message>
         <location line="+62"/>
@@ -3344,7 +3353,7 @@ Do you want to continue?</source>
         <location line="-56"/>
         <location line="+14"/>
         <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>El PDF original importat a Master Board sembla que no és vàlid i no s&apos;ha pogut combinar amb les anotacions. Repareu-lo i torneu-lo a importar a Master Board. Aquesta exportació es farà amb imatges detallades (pesants) de les pàgines del PDF original, per evitar una fallada completa.</translation>
     </message>
 </context>
 <context>
@@ -3550,12 +3559,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBGifWindow.cpp" line="+66"/>
         <source>GIFs of klipy.com: drag one to the page</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF de klipy.com: arrossegueu-ne un a la pàgina</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close the GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanca els GIF</translation>
     </message>
 </context>
 <context>
@@ -3563,7 +3572,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esteu fent servir Master Board %1.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3606,14 +3615,18 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
         <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Hi ha una versió nova de Master Board (%1).
+
+Voleu obrir-ne la pàgina per baixar-la?</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hi ha una versió nova de Master Board (%1).
+
+La voleu baixar i instal·lar ara? Master Board desa els documents, es tanca i es torna a obrir.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3674,7 +3687,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Amaga a la pantalla estesa quan se selecciona</translation>
     </message>
 </context>
 <context>
@@ -3715,17 +3728,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+16"/>
         <source>Set as background</source>
-        <translation type="unfinished">Estableix com a fons</translation>
+        <translation>Estableix com a fons</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>Inspector web</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Amaga a la pantalla estesa quan se selecciona</translation>
     </message>
     <message>
         <location line="-599"/>
@@ -3735,12 +3748,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+14"/>
         <source>Layer up</source>
-        <translation type="unfinished"></translation>
+        <translation>Puja una capa</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Layer down</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixa una capa</translation>
     </message>
 </context>
 <context>
@@ -3748,23 +3761,23 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsMediaItem.cpp" line="+490"/>
         <source>Media resource couldn&apos;t be resolved</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut trobar el recurs multimèdia</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unsupported media format</source>
-        <translation type="unfinished"></translation>
+        <translation>Format multimèdia no admès</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Media playback service not found</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha trobat el servei de reproducció multimèdia</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+3"/>
         <source>Media error: </source>
-        <translation type="unfinished"></translation>
+        <translation>Error multimèdia: </translation>
     </message>
 </context>
 <context>
@@ -3785,7 +3798,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/tools/UBGraphicsProtractor.cpp" line="+535"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>feu servir les fletxes per a moviments precisos</translation>
     </message>
 </context>
 <context>
@@ -3794,7 +3807,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsRuler.cpp" line="+167"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>feu servir les fletxes per a moviments precisos</translation>
     </message>
 </context>
 <context>
@@ -3852,87 +3865,87 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+393"/>
         <source>Insert a table...</source>
-        <translation type="unfinished"></translation>
+        <translation>Insereix una taula...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Add a row</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix una fila</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a column</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix una columna</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the row</source>
-        <translation type="unfinished"></translation>
+        <translation>Elimina la fila</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the column</source>
-        <translation type="unfinished"></translation>
+        <translation>Elimina la columna</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Columns as wide</source>
-        <translation type="unfinished"></translation>
+        <translation>Columnes de la mateixa amplada</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Table style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estil de taula</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Highlight the header row</source>
-        <translation type="unfinished"></translation>
+        <translation>Destaca la fila de capçalera</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Highlight the first column</source>
-        <translation type="unfinished"></translation>
+        <translation>Destaca la primera columna</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>All the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Totes les línies</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Horizontal lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Línies horitzontals</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Outer lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Línies exteriors</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Sense línies</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Color of the lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de les línies...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de les línies</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Width of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Gruix de les línies</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Thin</source>
-        <translation type="unfinished"></translation>
+        <translation>Prim</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3942,32 +3955,32 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Gruixut</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Very thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Molt gruixut</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Color of the cells...</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de les cel·les...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de les cel·les</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No color in the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Sense color a les cel·les</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the table</source>
-        <translation type="unfinished"></translation>
+        <translation>Elimina la taula</translation>
     </message>
 </context>
 <context>
@@ -3976,7 +3989,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsTriangle.cpp" line="+449"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>feu servir les fletxes per a moviments precisos</translation>
     </message>
 </context>
 <context>
@@ -4013,7 +4026,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
         <source>Convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Converteix l&apos;escriptura a mà</translation>
     </message>
 </context>
 <context>
@@ -4080,7 +4093,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/adaptors/UBImportDocumentSetAdaptor.cpp" line="+71"/>
         <source>Openboard (set of documents) (*.ubx)</source>
-        <translation type="unfinished"></translation>
+        <translation>Openboard (conjunt de documents) (*.ubx)</translation>
     </message>
 </context>
 <context>
@@ -4106,7 +4119,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+6"/>
         <source>Importing %1 PDF pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan important %1 pàgines del PDF. Espereu...</translation>
     </message>
     <message>
         <source>Importing page %1 of %2</source>
@@ -4139,17 +4152,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Feu clic aquí i premeu les tecles de la drecera nova</translation>
     </message>
     <message>
         <location line="+91"/>
         <source>Press the keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Premeu les tecles...</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Click here and press the keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Feu clic aquí i premeu les tecles</translation>
     </message>
 </context>
 <context>
@@ -4191,7 +4204,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4436,7 +4449,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Multiscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Multipantalla</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -4456,12 +4469,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+2"/>
         <source>Canvas measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mesures al llenç</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
-        <translation type="unfinished"></translation>
+        <translation>Regles en píxels a dalt i a l&apos;esquerra de la pàgina, des del 0 a la cantonada superior esquerra</translation>
     </message>
     <message>
         <source>Read and dictate</source>
@@ -4491,17 +4504,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+21"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Eines</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Personalitza</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Dreceres</translation>
     </message>
     <message>
         <source>Creator</source>
@@ -4541,18 +4554,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="-7"/>
         <location line="+40"/>
         <source>Unlock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Desbloqueja el PDF</translation>
     </message>
     <message>
         <location line="-40"/>
         <location line="+40"/>
         <source>Lock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloqueja el PDF</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Lock the PDF: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloqueja el PDF: no es pot dibuixar, escriure, destacar, seleccionar, moure ni suprimir res; el punter làser i la mà continuen funcionant</translation>
     </message>
     <message>
         <source>Dictate</source>
@@ -4599,17 +4612,17 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+8"/>
         <location line="+15"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Quant a Master Board</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Dark mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode fosc</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Shows the pages with their colors inverted, to read at night without glare</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra les pàgines amb els colors invertits, per llegir de nit sense enlluernar</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -4703,7 +4716,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+10"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4745,37 +4758,37 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+407"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mesures</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Distància</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length of a line dragged from one end to the other</source>
-        <translation type="unfinished"></translation>
+        <translation>La llargada d&apos;una línia arrossegada d&apos;un extrem a l&apos;altre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Perímetre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length around a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>La llargada al voltant d&apos;una forma: un clic a cada cantonada, doble clic a l&apos;última</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Àrea</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The surface of a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>La superfície d&apos;una forma: un clic a cada cantonada, doble clic a l&apos;última</translation>
     </message>
 </context>
 <context>
@@ -4783,133 +4796,133 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
         <source>End the measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Acaba les mesures</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trieu la unitat. Després dibuixeu una línia que faci 1 d&apos;aquesta unitat: les mesures es fan amb aquesta referència.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Metric</source>
-        <translation type="unfinished"></translation>
+        <translation>Mètric</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imperial</source>
-        <translation type="unfinished"></translation>
+        <translation>Imperial</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>millimeter (mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>mil·límetre (mm)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>centimeter (cm)</source>
-        <translation type="unfinished"></translation>
+        <translation>centímetre (cm)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>meter (m)</source>
-        <translation type="unfinished"></translation>
+        <translation>metre (m)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>kilometer (km)</source>
-        <translation type="unfinished"></translation>
+        <translation>quilòmetre (km)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>inch (in)</source>
-        <translation type="unfinished"></translation>
+        <translation>polzada (in)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>foot (ft)</source>
-        <translation type="unfinished"></translation>
+        <translation>peu (ft)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>yard (yd)</source>
-        <translation type="unfinished"></translation>
+        <translation>iarda (yd)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>mile (mi)</source>
-        <translation type="unfinished"></translation>
+        <translation>milla (mi)</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Continua</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Finish measure</source>
-        <translation type="unfinished"></translation>
+        <translation>Acaba la mesura</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ends the shape at its last corner, as Enter does</source>
-        <translation type="unfinished"></translation>
+        <translation>Acaba la forma a l&apos;última cantonada, com Retorn</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Modifica</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move the corners of the shape; Enter or Finish measure ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Moveu les cantonades de la forma; Retorn o Acaba la mesura per acabar</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Reinicia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose the unit and draw the reference again</source>
-        <translation type="unfinished"></translation>
+        <translation>Trieu la unitat i torneu a dibuixar la referència</translation>
     </message>
     <message>
         <location line="+498"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Distància</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Click at the start and at the end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Feu clic a l&apos;inici i al final.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation type="unfinished"></translation>
+        <translation>Feu clic a l&apos;inici i al final d&apos;una línia que fa 1 %1: és la referència de les mesures.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Drag the corners; Enter or Finish measure ends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrossegueu les cantonades; Retorn o Acaba la mesura per acabar.</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Perímetre</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+4"/>
         <source>Click at each corner; double click at the last one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Feu clic a cada cantonada; doble clic a l&apos;última.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Àrea</translation>
     </message>
 </context>
 <context>
@@ -5266,7 +5279,7 @@ També es pot fer després amb Inici &gt; Reconeix el text.</translation>
     <message>
         <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Totes</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5276,7 +5289,7 @@ També es pot fer després amb Inici &gt; Reconeix el text.</translation>
     <message>
         <location line="+4"/>
         <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra totes les pàgines, o només les preferides, marcades amb l&apos;estrella de la miniatura</translation>
     </message>
 </context>
 <context>
@@ -5375,7 +5388,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5410,17 +5423,17 @@ Amplada dinàmica</translation>
     <message>
         <location line="+8"/>
         <source>Recognize and convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Reconeix i converteix l&apos;escriptura a mà</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Un moment després que el llapis s&apos;aturi, les paraules escrites es converteixen en un quadre de text de la mateixa mida i color.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only on Windows, which reads the handwriting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Només a Windows, que llegeix l&apos;escriptura a mà.</translation>
     </message>
     <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
@@ -5432,12 +5445,12 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Recuperat - %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Broken - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Malmès - %1</translation>
     </message>
     <message>
         <location line="+468"/>
@@ -5452,17 +5465,17 @@ Amplada dinàmica</translation>
     <message>
         <location line="+0"/>
         <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board ha perdut l&apos;accés al dipòsit de documents &apos;%1&apos;. Malauradament l&apos;aplicació s&apos;ha de tancar per evitar danys a les dades. També es poden perdre els darrers canvis.</translation>
     </message>
     <message>
         <location line="-247"/>
         <source>Renaming pages (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan reanomenant les pàgines (%1/%2)</translation>
     </message>
     <message>
         <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan recuperant tots els documents (trobats: %1)</translation>
     </message>
 </context>
 <context>
@@ -5607,23 +5620,23 @@ Amplada dinàmica</translation>
     <message>
         <location line="+30"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Referències</translation>
     </message>
     <message>
         <location line="+25"/>
         <location line="+280"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>IA</translation>
     </message>
     <message>
         <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les IA que pot mostrar el plafó d&apos;IA. Escriviu un nom i l&apos;adreça de la seva pàgina; la primera es mostra la primera vegada.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5643,23 +5656,23 @@ Amplada dinàmica</translation>
     <message>
         <location line="+1"/>
         <source>Default list</source>
-        <translation type="unfinished"></translation>
+        <translation>Llista per defecte</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+403"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <location line="-398"/>
         <source>Same as Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Igual que Windows</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Same as the system</source>
-        <translation type="unfinished"></translation>
+        <translation>Igual que el sistema</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5669,27 +5682,27 @@ Amplada dinàmica</translation>
     <message>
         <location line="+1"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>Blanc</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Grey</source>
-        <translation type="unfinished"></translation>
+        <translation>Gris</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>Els colors de la barra de menús, de les opcions de les eines i del zoom. Per mostrar un tema nou, Master Board es reinicia sol.</translation>
     </message>
     <message>
         <location line="+372"/>
         <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board es reiniciarà per mostrar el tema nou. Primer es desen els documents.</translation>
     </message>
     <message>
         <location line="-285"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Categories</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -5699,12 +5712,12 @@ Amplada dinàmica</translation>
     <message>
         <location line="+3"/>
         <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1. Per cercar ara una versió nova: Quant a &gt; Actualitza.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Options bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra d&apos;opcions</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5714,32 +5727,32 @@ Amplada dinàmica</translation>
     <message>
         <location line="+14"/>
         <source>General settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Configuració general</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Aparença</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pen and toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Bolígraf i barra d&apos;eines</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Screens and desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantalles i escriptori</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Documents and PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Documents i PDF</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Artificial intelligence</source>
-        <translation type="unfinished"></translation>
+        <translation>Intel·ligència artificial</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5759,7 +5772,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+0"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Quant a Master Board</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -5827,7 +5840,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="-246"/>
         <source>Use all available displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir totes les pantalles disponibles</translation>
     </message>
 </context>
 <context>
@@ -6147,7 +6160,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+2"/>
         <source>Arrow: select with a rectangle. Lasso: select by drawing a free line around the objects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fletxa: selecciona amb un rectangle. Llaç: selecciona dibuixant una línia lliure al voltant dels objectes.</translation>
     </message>
     <message>
         <source>Select with a rectangle again</source>
@@ -6215,7 +6228,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+18"/>
         <source>The shape to draw. The polyline: a click for each corner, any key to end it, Escape to drop it.</source>
-        <translation type="unfinished"></translation>
+        <translation>La forma que es dibuixa. La polilínia: un clic per cada cantonada, qualsevol tecla per acabar, Esc per descartar.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6241,7 +6254,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="-1"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -6318,7 +6331,7 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+74"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Comú</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -6335,12 +6348,12 @@ Amplada dinàmica</translation>
     <message>
         <location line="+2"/>
         <source>Lines and colours</source>
-        <translation type="unfinished"></translation>
+        <translation>Línies i colors</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Fons</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -6350,82 +6363,82 @@ Amplada dinàmica</translation>
     <message>
         <location line="+23"/>
         <source>First scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Primera escena</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show first scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra la primera escena</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Última escena</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra l&apos;última escena</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Zoom reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Restableix el zoom</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom factor</source>
-        <translation type="unfinished"></translation>
+        <translation>Restableix el factor de zoom</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll left</source>
-        <translation type="unfinished"></translation>
+        <translation>Desplaça a l&apos;esquerra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page left</source>
-        <translation type="unfinished"></translation>
+        <translation>Pàgina a l&apos;esquerra</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll right</source>
-        <translation type="unfinished"></translation>
+        <translation>Desplaça a la dreta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page right</source>
-        <translation type="unfinished"></translation>
+        <translation>Pàgina a la dreta</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll up</source>
-        <translation type="unfinished"></translation>
+        <translation>Desplaça amunt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page up</source>
-        <translation type="unfinished"></translation>
+        <translation>Pàgina amunt</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll down</source>
-        <translation type="unfinished"></translation>
+        <translation>Desplaça avall</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page down</source>
-        <translation type="unfinished"></translation>
+        <translation>Pàgina avall</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Built-in (not editable)</source>
-        <translation type="unfinished"></translation>
+        <translation>Integrada (no editable)</translation>
     </message>
     <message>
         <location line="+173"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordre</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6435,17 +6448,17 @@ Amplada dinàmica</translation>
     <message>
         <location line="+3"/>
         <source>Key Sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>Seqüència de tecles</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Botó del ratolí</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tablet Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Botó de la tauleta</translation>
     </message>
     <message>
         <location line="+151"/>
@@ -6463,7 +6476,7 @@ Amplada dinàmica</translation>
         <location line="+1"/>
         <source>Middle</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mig</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6481,7 +6494,7 @@ Amplada dinàmica</translation>
         <location line="+1"/>
         <source>Task</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tasca</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6507,7 +6520,7 @@ Amplada dinàmica</translation>
         <location line="+1"/>
         <source>Extra</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Extra</translation>
     </message>
 </context>
 <context>
@@ -6515,37 +6528,37 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="-667"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Dreceres</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Choose a function, press the new keys in the box below and click Assign.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trieu una funció, premeu les tecles noves al quadre de sota i feu clic a Assigna.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Search a function...</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca una funció...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funció</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Drecera</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>New shortcut:</source>
-        <translation type="unfinished"></translation>
+        <translation>Drecera nova:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Assigna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6555,53 +6568,53 @@ Amplada dinàmica</translation>
     <message>
         <location line="+1"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Per defecte</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Gives back the shortcut that this function had at first</source>
-        <translation type="unfinished"></translation>
+        <translation>Torna la drecera inicial d&apos;aquesta funció</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+508"/>
         <source>Restore all</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaura-ho tot</translation>
     </message>
     <message>
         <location line="-507"/>
         <source>Gives back the first shortcuts to all the functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Torna les dreceres inicials a totes les funcions</translation>
     </message>
     <message>
         <location line="+152"/>
         <source>Buttons beside the menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Botons al costat dels menús</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Tools of the board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Eines de la pissarra / PDF</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tools of the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Eines de l&apos;escriptori</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pages and board</source>
-        <translation type="unfinished"></translation>
+        <translation>Pàgines i pissarra</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>no keys were pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>no s&apos;ha premut cap tecla.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>the Windows key is kept by Windows for its own shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows reserva la tecla Windows per a les seves dreceres.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6610,32 +6623,32 @@ Amplada dinàmica</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to change between the open windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows la fa servir per canviar entre les finestres obertes.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to close the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows la fa servir per tancar la finestra.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows la fa servir per obrir el menú de la finestra.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Start menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows la fa servir per obrir el menú Inici.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Task Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows la fa servir per obrir el Gestor de tasques.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open its security screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows la fa servir per obrir la pantalla de seguretat.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6643,12 +6656,12 @@ Amplada dinàmica</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows la fa servir per a captures de pantalla.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the right click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows la fa servir per obrir el menú del clic dret.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6656,70 +6669,70 @@ Amplada dinàmica</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>on many computers it turns the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>en molts ordinadors fa girar la pantalla.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>this key is used to write, to move or to delete. Add Ctrl or Alt, or choose a key from F1 to F12.</source>
-        <translation type="unfinished"></translation>
+        <translation>aquesta tecla serveix per escriure, moure o esborrar. Afegiu-hi Ctrl o Alt, o trieu una tecla de F1 a F12.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Ctrl + Alt works as Alt Gr, which writes signs such as @, # or €.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl + Alt funciona com Alt Gr, que escriu signes com @, # o €.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Master Board uses it to select all the text of a text box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board la fa servir per seleccionar tot el text d&apos;un quadre de text.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Master Board uses it to open the menu «%1».</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board la fa servir per obrir el menú «%1».</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
         <source>Master Board already uses it for «%1». Remove it there first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board ja la fa servir per a «%1». Traieu-la d&apos;allà primer.</translation>
     </message>
     <message>
         <location line="-130"/>
         <source>Fixed keys (can not be changed)</source>
-        <translation type="unfinished"></translation>
+        <translation>Tecles fixes (no es poden canviar)</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Choose a function in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trieu una funció de la llista.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1: no shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: sense drecera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+37"/>
         <source>Shortcut not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Drecera no possible</translation>
     </message>
     <message>
         <location line="-36"/>
         <location line="+37"/>
         <source>%1 can not be used: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot fer servir %1: %2</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Give back the first shortcuts to all the functions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu tornar les dreceres inicials a totes les funcions?</translation>
     </message>
 </context>
 <context>
@@ -6868,7 +6881,7 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Guia del programa</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6883,7 +6896,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+13"/>
         <source>Visible next time</source>
-        <translation type="unfinished"></translation>
+        <translation>Visible la propera vegada</translation>
     </message>
 </context>
 <context>
@@ -6891,7 +6904,7 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6917,27 +6930,27 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/gui/UBTextBoxes.cpp" line="+120"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Taula</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many rows and columns?</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantes files i columnes?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Rows</source>
-        <translation type="unfinished"></translation>
+        <translation>Files</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Columnes</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Insereix</translation>
     </message>
 </context>
 <context>
@@ -6950,7 +6963,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+7"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6985,57 +6998,57 @@ Amplada dinàmica</translation>
     <message>
         <location line="+7"/>
         <source>Checklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Llista de comprovació</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bullets</source>
-        <translation type="unfinished"></translation>
+        <translation>Pics</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Números</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Puts the lines of the text box being written in a list, or takes them out of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Posa en una llista les línies del quadre de text que s&apos;escriu, o les en treu</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Click in a text box first, then on the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Feu clic primer en un quadre de text i després a la llista.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Taula</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks how many rows and columns, then puts a table in the text box being written, or in a new one</source>
-        <translation type="unfinished"></translation>
+        <translation>Demana quantes files i columnes i posa una taula al quadre de text que s&apos;escriu, o en un de nou</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dictate</source>
-        <translation type="unfinished">Dicta</translation>
+        <translation>Dicta</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Makes a text box and writes in it what you say (the dictation of Windows, Windows + H). In a text box, the microphone left of F does the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea un quadre de text i hi escriu el que dieu (el dictat de Windows, Windows + H). En un quadre de text, el micròfon a l&apos;esquerra de la F fa el mateix.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Transcriu</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks for an audio and gives it to an AI on the web, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Demana un àudio i el dona a una IA al web, que escriu el que es diu</translation>
     </message>
 </context>
 <context>
@@ -7053,7 +7066,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+48"/>
         <source>Loading thumbnails (%1 pages)</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan carregant les miniatures (%1 pàgines)</translation>
     </message>
 </context>
 <context>
@@ -7061,7 +7074,7 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/gui/UBThumbnailTextItem.cpp" line="+74"/>
         <source>Page %0</source>
-        <translation type="unfinished">Pàgina %0</translation>
+        <translation>Pàgina %0</translation>
     </message>
 </context>
 <context>
@@ -7085,27 +7098,27 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Focus / Lupa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attach file / Hyperlink</source>
-        <translation type="unfinished"></translation>
+        <translation>Adjunta un fitxer / Enllaç</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Selector: arrow / lasso</source>
-        <translation type="unfinished"></translation>
+        <translation>Selector: fletxa / llaç</translation>
     </message>
     <message>
         <location line="+234"/>
         <source>Move items</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou elements</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Drag the tools up or down, or use the buttons. Only the tools shown in the palette are listed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrossegueu les eines amunt o avall, o feu servir els botons. Només surten les eines que es mostren a la paleta.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -7117,42 +7130,42 @@ Amplada dinàmica</translation>
         <location line="-163"/>
         <location line="+164"/>
         <source>Board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Pissarra / PDF</translation>
     </message>
     <message>
         <location line="-155"/>
         <source>Back to the board: always first</source>
-        <translation type="unfinished"></translation>
+        <translation>Torna a la pissarra: sempre primer</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Amunt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Avall</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Original order</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordre original</translation>
     </message>
     <message>
         <location line="+154"/>
         <source>Move items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou elements...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
-        <translation type="unfinished"></translation>
+        <translation>Estil de la barra...</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Direcció de desplaçament</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7167,12 +7180,12 @@ Amplada dinàmica</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Horitzontal de 2 en 2 pàgines</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertical de 2 en 2 pàgines</translation>
     </message>
 </context>
 <context>
@@ -7215,7 +7228,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="-40"/>
         <source>Axes</source>
-        <translation type="unfinished"></translation>
+        <translation>Eixos</translation>
     </message>
 </context>
 <context>
@@ -7315,12 +7328,12 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
     <message>
         <location line="+0"/>
         <source>From the click</source>
-        <translation type="unfinished"></translation>
+        <translation>Des del clic</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it. From the click: click on a word to read from it, then the next pages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Des de l&apos;inici: llegeix la pàgina mostrada i després les següents. Text seleccionat: arrossegueu un rectangle sobre el text per llegir-lo. Des del clic: feu clic en una paraula per llegir des d&apos;allà, i després les pàgines següents.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7340,7 +7353,7 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
     <message>
         <location line="+1"/>
         <source>Next page</source>
-        <translation type="unfinished"></translation>
+        <translation>Pàgina següent</translation>
     </message>
     <message>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it.</source>
@@ -7400,7 +7413,7 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
     <message>
         <location filename="../../src/domain/UBWebEngineView.cpp" line="+109"/>
         <source>Open Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre l&apos;inspector web</translation>
     </message>
 </context>
 <context>
@@ -7504,7 +7517,7 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
     <message>
         <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha arribat a la capa més baixa</translation>
     </message>
 </context>
 <context>
@@ -7563,63 +7576,63 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
         <location line="+17"/>
         <location line="+4"/>
         <source>Certificate Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Error de certificat</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Introduïu usuari i contrasenya per a &quot;%1&quot; a %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Allow %1 to access your location information?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu permetre que %1 accedeixi a la ubicació?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu permetre que %1 accedeixi al micròfon?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu permetre que %1 accedeixi a la càmera web?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone and webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu permetre que %1 accedeixi al micròfon i a la càmera web?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to lock your mouse cursor?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu permetre que %1 bloquegi el punter del ratolí?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu permetre que %1 capturi el vídeo de l&apos;escriptori?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture audio and video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu permetre que %1 capturi l&apos;àudio i el vídeo de l&apos;escriptori?</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+47"/>
         <source>Permission Request</source>
-        <translation type="unfinished"></translation>
+        <translation>Sol·licitud de permís</translation>
     </message>
     <message>
         <location line="-19"/>
         <source>Connect to proxy &quot;%1&quot; using:</source>
-        <translation type="unfinished"></translation>
+        <translation>Connecta al servidor intermediari &quot;%1&quot; amb:</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Allow %1 to open all %2 links?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu permetre que %1 obri tots els enllaços %2?</translation>
     </message>
 </context>
 <context>
@@ -7627,43 +7640,44 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
     <message>
         <location filename="../../src/web/simplebrowser/webview.cpp" line="+107"/>
         <source>Render process normal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortida normal del procés de renderització</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process abnormal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortida anòmala del procés de renderització</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>El procés de renderització ha fallat</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process killed</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha aturat el procés de renderització</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Render process exited with code: %1
 Do you want to reload the page ?</source>
-        <translation type="unfinished"></translation>
+        <translation>El procés de renderització ha sortit amb el codi: %1
+Voleu recarregar la pàgina?</translation>
     </message>
     <message>
         <location line="+121"/>
         <source>Open Web Inspector in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre l&apos;inspector web en una finestra nova</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Inspect element</source>
-        <translation type="unfinished"></translation>
+        <translation>Inspecciona l&apos;element</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Add to board</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix a la pissarra</translation>
     </message>
 </context>
 <context>
@@ -7671,12 +7685,12 @@ Do you want to reload the page ?</source>
     <message>
         <location filename="../../src/pdf/XPDFRenderer.cpp" line="+346"/>
         <source>Processing...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està processant...</translation>
     </message>
     <message>
         <location line="-265"/>
         <source>an error occured while trying to open the PDF file</source>
-        <translation type="unfinished"></translation>
+        <translation>s&apos;ha produït un error en obrir el fitxer PDF</translation>
     </message>
 </context>
 <context>
@@ -7737,7 +7751,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+84"/>
         <source>Restore credentials on reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaura les credencials en reiniciar</translation>
     </message>
 </context>
 <context>
@@ -7785,12 +7799,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+451"/>
         <source>Show preview circle from</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra el cercle de previsualització a partir de</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>px</source>
-        <translation type="unfinished"></translation>
+        <translation>px</translation>
     </message>
 </context>
 <context>
@@ -7831,22 +7845,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+64"/>
         <source>Creation date</source>
-        <translation type="unfinished"></translation>
+        <translation>Data de creació</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Update date</source>
-        <translation type="unfinished"></translation>
+        <translation>Data d&apos;actualització</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Alphabetical order</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordre alfabètic</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Sort Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenació</translation>
     </message>
 </context>
 <context>
@@ -8034,52 +8048,52 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-493"/>
         <source>Built-in virtual keyboard button size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida dels botons del teclat virtual integrat:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use system keyboard (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir el teclat del sistema (recomanat)</translation>
     </message>
     <message>
         <location line="+459"/>
         <source>Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Quadrícula</translation>
     </message>
     <message>
         <location line="-406"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode documents</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Display date column on alphabetical sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra la columna de data en l&apos;ordre alfabètic</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Empty trash for documents older than</source>
-        <translation type="unfinished"></translation>
+        <translation>Buida la paperera dels documents més antics que</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>days</source>
-        <translation type="unfinished"></translation>
+        <translation>dies</translation>
     </message>
     <message>
         <location line="-170"/>
         <source>PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Export background grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporta la quadrícula del fons</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Export background color</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporta el color de fons</translation>
     </message>
     <message>
         <location line="+420"/>
@@ -8089,7 +8103,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+61"/>
         <source>List of screens used for Control, Display and Previous pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Llista de pantalles per al control, la visualització i les pàgines anteriors</translation>
     </message>
 </context>
 <context>
@@ -8120,12 +8134,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-91"/>
         <source>Select a content to capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu un contingut per capturar</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Captura contingut web</translation>
     </message>
 </context>
 </TS>
