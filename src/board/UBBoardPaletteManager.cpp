@@ -31,6 +31,7 @@
 
 #include "board/UBBoardView.h"
 #include "gui/UBDocumentScrollBar.h"
+#include "gui/UBStrokeStylePanel.h"
 #include "gui/UBScreenshot.h"
 
 #include "frameworks/UBPlatformUtils.h"
@@ -253,6 +254,9 @@ void UBBoardPaletteManager::setupPalettes()
     // The scroll bar of the document, at the right edge of the board.
     UBBoardView* view = UBApplication::boardController->controlView();
     mDocumentScrollBar = new UBDocumentScrollBar(view, view->parentWidget());
+
+    // Color, size and opacity of the lines selected on the board.
+    UBStrokeStylePanel::install(view);
     connect(view, &UBBoardView::resized, mDocumentScrollBar, &UBDocumentScrollBar::placeBesideView);
 
     mZoomPalette = new UBZoomPalette(mContainer);

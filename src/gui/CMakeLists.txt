@@ -71,6 +71,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     UBMeasureTool.h
     UBCanvasRulers.cpp
     UBCanvasRulers.h
+    UBStrokeStylePanel.cpp
+    UBStrokeStylePanel.h
     UBDocumentTabs.cpp
     UBDocumentTabs.h
     UBNoteToolIcon.cpp
