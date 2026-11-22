@@ -5383,7 +5383,7 @@ Később is megteheti: Kezdőlap &gt; Szöveg felismerése.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Kedvencek</translation>
+        <translation>Kedvencek</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7016,7 +7016,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Átlátszatlanság</translation>
+        <translation>Átlátszatlanság</translation>
     </message>
 </context>
 <context>

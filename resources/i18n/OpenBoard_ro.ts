@@ -5259,7 +5259,7 @@ Se poate face și mai târziu cu Acasă &gt; Recunoaște textul.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Favorite</translation>
+        <translation>Favorite</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6884,7 +6884,7 @@ Lățime dinamică</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitate</translation>
+        <translation>Opacitate</translation>
     </message>
 </context>
 <context>

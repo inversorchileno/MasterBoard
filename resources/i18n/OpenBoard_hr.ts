@@ -5370,7 +5370,7 @@ To se može učiniti i kasnije putem Početna &gt; Prepoznaj tekst.</translation
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Favoriti</translation>
+        <translation>Favoriti</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6995,7 +6995,7 @@ Dinamična širina</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Neprozirnost</translation>
+        <translation>Neprozirnost</translation>
     </message>
 </context>
 <context>

@@ -5310,7 +5310,7 @@ Tamén se pode facer despois con Inicio &gt; Recoñecer texto.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Favoritos</translation>
+        <translation>Favoritos</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6935,7 +6935,7 @@ Largura dinámica</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacidade</translation>
+        <translation>Opacidade</translation>
     </message>
 </context>
 <context>

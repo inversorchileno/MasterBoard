@@ -5317,7 +5317,7 @@ It can also be done later with Home &gt; Recognize text.</source>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Αγαπημένα</translation>
+        <translation>Αγαπημένα</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6942,7 +6942,7 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Διαφάνεια</translation>
+        <translation>Διαφάνεια</translation>
     </message>
 </context>
 <context>

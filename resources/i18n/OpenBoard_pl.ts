@@ -5323,7 +5323,7 @@ Można to też zrobić później: Start &gt; Rozpoznaj tekst.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Ulubione</translation>
+        <translation>Ulubione</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6948,7 +6948,7 @@ Dynamiczna szerokość</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Nieprzezroczystość</translation>
+        <translation>Nieprzezroczystość</translation>
     </message>
 </context>
 <context>

@@ -6874,7 +6874,7 @@ Dynamische breedte</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">lichtondoorlatendheid</translation>
+        <translation>lichtondoorlatendheid</translation>
     </message>
 </context>
 <context>

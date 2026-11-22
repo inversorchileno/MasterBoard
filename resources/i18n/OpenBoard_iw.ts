@@ -5259,7 +5259,7 @@ It can also be done later with Home &gt; Recognize text.</source>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">מועדפים</translation>
+        <translation>מועדפים</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6884,7 +6884,7 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">אטימות</translation>
+        <translation>אטימות</translation>
     </message>
 </context>
 <context>

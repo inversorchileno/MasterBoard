@@ -5259,7 +5259,7 @@ Azo atao any aoriana ihany koa amin&apos;ny Fandraisana &gt; Fantaro ny lahatsor
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Tena tiana</translation>
+        <translation>Tena tiana</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6884,7 +6884,7 @@ Sakany miova</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Hateviny</translation>
+        <translation>Hateviny</translation>
     </message>
 </context>
 <context>

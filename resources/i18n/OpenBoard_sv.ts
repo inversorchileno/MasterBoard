@@ -5264,7 +5264,7 @@ Det går också senare med Start &gt; Känn igen text.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Favoriter</translation>
+        <translation>Favoriter</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6889,7 +6889,7 @@ Dynamisk bredd</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Genomskinlighet</translation>
+        <translation>Genomskinlighet</translation>
     </message>
 </context>
 <context>

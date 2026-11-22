@@ -5271,7 +5271,7 @@ També es pot fer després amb Inici &gt; Reconeix el text.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Preferits</translation>
+        <translation>Preferits</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6896,7 +6896,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitat</translation>
+        <translation>Opacitat</translation>
     </message>
 </context>
 <context>

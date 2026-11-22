@@ -5312,7 +5312,7 @@ Bu daha sonra Giriş &gt; Metni tanı ile de yapılabilir.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Sık kullanılanlar</translation>
+        <translation>Sık kullanılanlar</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6940,7 +6940,7 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Matlık</translation>
+        <translation>Matlık</translation>
     </message>
 </context>
 <context>

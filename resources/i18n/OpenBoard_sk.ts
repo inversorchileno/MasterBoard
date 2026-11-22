@@ -5294,7 +5294,7 @@ Dá sa to urobiť aj neskôr cez Domov &gt; Rozpoznať text.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Obľúbené</translation>
+        <translation>Obľúbené</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6921,7 +6921,7 @@ Dynamická šírka</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Priehľadnosť</translation>
+        <translation>Priehľadnosť</translation>
     </message>
 </context>
 <context>

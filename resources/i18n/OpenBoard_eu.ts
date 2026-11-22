@@ -5475,7 +5475,7 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Gogokoak</translation>
+        <translation>Gogokoak</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7138,7 +7138,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opakotasuna</translation>
+        <translation>Opakotasuna</translation>
     </message>
 </context>
 <context>

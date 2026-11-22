@@ -5259,7 +5259,7 @@ Det kan også gjøres senere med Hjem &gt; Gjenkjenn tekst.</translation>
     <message>
         <location line="+0"/>
         <source>Favorites</source>
-        <translation type="unfinished">Favoritter</translation>
+        <translation>Favoritter</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6884,7 +6884,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Ugjennomsiktig</translation>
+        <translation>Ugjennomsiktig</translation>
     </message>
 </context>
 <context>
