@@ -46,12 +46,15 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 
 ### Escribir y dibujar
 - **Bolígrafo** con cinco puntas: lápiz pasta, pluma fuente, pluma caligráfica, lápiz grafito y marcador; sensible a la presión del lápiz digital.
+- **Reconocer y convertir texto manuscrito** (en Windows): lo que escribes con el bolígrafo se vuelve un cuadro de texto del mismo tamaño y color.
 - **Colores**: 15 a un clic, rueda para cualquier color y **cuentagotas** para tomar un color de la pantalla; grosor y opacidad.
 - **Reconocer formas**: un círculo, rectángulo, triángulo o línea dibujados a mano quedan perfectos.
 - **Marcador** de punta circular o recta, como un destacador.
 - **Borrador** entero (borra el trazo completo) o parcial.
 - **Formas**: 20 formas (línea, polilínea, elipse, rectángulo, triángulos, rombo, flechas de bloque, estrellas, globos de diálogo, nube) con borde, relleno, estilo de línea y opacidad.
 - **Flecha** con estilos de línea, puntas y flecha cónica.
+- **Cambiar color, tamaño y opacidad** de trazos, formas y flechas ya dibujados: se eligen con la flecha o el lazo.
+- Un trazo que pasa a la hoja de al lado queda cortado, cada parte en su hoja.
 - **Texto** con fuente, tamaño, negrita, cursiva y color; casillas para marcar, viñetas, números y **tablas**.
 - **Notas** de colores, **notas rápidas**, **sellos** (Aprobado, Confidencial, Borrador… y tu propio PNG), **emojis** y **GIF animados** de klipy.com.
 - **Adjuntar archivos**, **hipervínculos** y **sonidos** grabados con tu voz.
@@ -73,7 +76,7 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 
 ### Plantillas
 - **Estilo plantilla**: color de la hoja, cuadrícula o líneas y 21 **plantillas** (calendarios diario, semanal, mensual y anual que se arman solos, listas, notas Cornell, pentagrama, papel milimetrado, plan de clase, mapa mental, guion gráfico…), en español, inglés, alemán, francés, chino y japonés.
-- **Dirección de desplazamiento** (en Estilo plantilla): hojas una debajo de la otra, una al lado de la otra, o de a dos como un cuaderno abierto.
+- **Dirección de desplazamiento** (en Estilo plantilla y en Personalización): vertical, vertical en 2 páginas, horizontal u horizontal en 2 páginas (como un cuaderno abierto).
 - Color y opacidad de las líneas de la cuadrícula, del rayado y de los puntos.
 - Tamaño de página/lienzo personalizado, para seguir dibujando cuando la hoja se llena.
 
@@ -96,6 +99,8 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 ### A tu manera
 - Menú **Herramientas** con todas las herramientas.
 - Menú **Personalización**: elige qué botones se ven en la pizarra y en el escritorio, su orden con **Mover elementos** y su **Estilo barra** (colores, opacidad y esquinas de cuadradas a redondas).
+- **Panel de páginas** con botones para borrar y duplicar cada página, **páginas favoritas** marcadas con una estrella y un filtro Todo / Favoritas.
+- **Modo oscuro**: invierte los colores de las páginas para leer de noche (botón arriba a la derecha y en Personalización).
 - **Preferencias** ordenadas por categorías, con **Tema** oscuro, blanco, gris o igual que Windows (el programa se reinicia solo para aplicarlo).
 - **Acerca → Atajos**: todos los atajos de teclado, que se pueden cambiar, con aviso si chocan con Windows o con el programa.
 - **Guía del programa** (F1): una guía con imágenes de cada herramienta y un índice para ir a cualquier tema.

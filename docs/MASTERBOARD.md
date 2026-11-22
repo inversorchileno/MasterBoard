@@ -339,6 +339,23 @@ Pedidas en el documento «ultimas_mejoras_ahora_si».
 - **Rayado entre hojas:** las hojas vecinas se ubican según la hoja (`pageRectOf`: tamaño nominal o el PDF), no según `normalizedSceneRect`, que crece con la tinta y separaba la hoja siguiente. Se dibujan en el fondo (`drawBackground`), no en el primer plano, que en repintados parciales tapaba el trazo con un cuadro blanco; la tinta que sale de una vecina se dibuja después, sin su fondo (`UBGraphicsScene::setDrawsBackground`).
 - **Dirección de desplazamiento** (Versión 5 del primer Word, punto 2, quedó pendiente hasta ahora): en **Estilo plantilla**, con los dibujos de Samsung Notes: **Vertical**, **Horizontal** y **Horizontal en 2 páginas** (`UBBoardView::PageFlow`, ajuste `Board/LibertyBoardPageFlow`). Horizontal: las hojas siguen a la derecha y la rueda mueve de lado. En 2 páginas: parejas fijas 1-2, 3-4… como cuaderno abierto (8 px entre las dos, 48 px entre parejas); la rueda pasa de pareja en pareja (si la pareja es más alta que la vista, primero baja por ella) y al cambiar de página con botones, miniaturas o Agregar página se muestra la pareja entera (`fitPair`). En todos los modos, un clic o un trazo en la hoja de al lado la vuelve la hoja actual sin mover la imagen (`switchToPageAt`). La barra del documento va abajo cuando las hojas están lado a lado. Probado en Linux con 3 hojas en los tres modos.
 
+## Mejoras después de la V2.32 (sin compilar aún; será la V2.35)
+
+Pedidas por Luis al revisar la V2.32 («puntos 1, 2 y 3»).
+
+- **Dirección de desplazamiento** también en **Personalización** (submenú de 4 opciones), además de Estilo plantilla, y un cuarto modo: **Vertical en 2 páginas** (`VerticalPairsFlow` = 3): parejas 1-2, 3-4… lado a lado, una pareja debajo de la otra, con su propio dibujo en Estilo plantilla. Orden en la ventana: Vertical, Vertical en 2 páginas, Horizontal, Horizontal en 2 páginas.
+- **Medidas en lienzo:** la regla cambia de lado solo cuando la barra de herramientas queda a lo largo de ese borde (barra a la izquierda: la regla Y va a la derecha; barra arriba: la regla X va abajo). El cuadro del zoom se corre para no taparla (`placeZoomPalette` descuenta las reglas).
+- **Botones de arriba a la derecha** más juntos (separación 2, relleno 2px 4px).
+- **Modo oscuro** (`Board/LibertyBoardDarkMode`): botón con una luna a la izquierda de Multipantalla y casilla en Personalización. Invierte los colores de lo que se ve (`CompositionMode_Difference` en `drawForeground`); no cambia el documento ni lo que se guarda.
+- **Panel de páginas:** en cada miniatura, al pasar el mouse o al estar elegida, botones **Borrar** y **Duplicar**, y una **estrella** de favorita arriba a la derecha. Filtro **Todo / Favoritas** arriba del panel. Las favoritas se guardan en el documento (`favorite-pages` en `metadata.rdf`, clase `UBPageFavorites`) y se corren al borrar, duplicar, insertar o mover páginas.
+- **Cambiar color, tamaño y opacidad de lo seleccionado** (`UBStrokeStylePanel`): al elegir trazos, formas o flechas con la flecha o el lazo aparece un cuadro con colores, Tamaño (25 % a 400 %) y Opacidad; se puede deshacer. Para cambiar el grosor se simplifica cada trazo (Douglas-Peucker) y se rehace su contorno; en trazos del marcador con miles de puntos tarda menos de 1 s.
+- **Reconocer y convertir texto manuscrito** (`UBHandwriting`): casilla en las opciones del bolígrafo (las 5 puntas). Un momento (1,2 s) después de que el lápiz descansa, las palabras escritas se reemplazan por un cuadro de texto del mismo tamaño y color, en un solo paso de deshacer. Usa el reconocedor de Windows (`Windows.UI.Input.Inking`, C++/WinRT, `-lwindowsapp`); en Linux y macOS la casilla queda desactivada. Para probar el flujo en Linux existe la variable `MASTERBOARD_FAKE_HANDWRITING`.
+- **Trazo entre hojas, como Xournal:** al terminar un trazo que pasa a la hoja de al lado, cada parte queda en la hoja que le corresponde (`UBBoardView::cutLinesAcrossPages`, a partir de `UBGraphicsScene::takeFinishedStrokes`).
+- **Arreglado:** la cuadrícula de las hojas vecinas se dibujaba con un zoom viejo.
+- **Guía del programa** actualizada en los 6 idiomas (páginas 3, 8, 17, 19 y 20) y las **33 traducciones** completas, con todo lo nuevo.
+
+Probado en Linux con capturas: los 4 modos de desplazamiento, modo oscuro, favoritas (también después de reiniciar y de duplicar), color/tamaño/opacidad con deshacer, el corte entre hojas y el flujo del manuscrito con el reconocedor de prueba. No se pudo probar aquí: el reconocimiento real en Windows, el lápiz en la hoja de al lado con el lápiz digital, ni PDFs en los modos horizontales.
+
 ## Forma de trabajo
 
 - El dueño es **Luis** (Chile), analista financiero, sin experiencia en programación. Habla en español; se le responde en español, claro y sin jerga. Usa Windows 11, pantalla ancha (unos 2540 px) y lápiz digital.
@@ -362,3 +379,4 @@ Pedidas en el documento «ultimas_mejoras_ahora_si».
 - La grabación y la reproducción de sonido no se pudieron probar en Linux (sin dispositivo de audio).
 - Se vio una vez que el programa se cerraba al abrir un segundo PDF mientras aparecía esa pregunta de reemplazo (viene de OpenBoard); revisar.
 - La ventana de bienvenida (consejos) se abre al inicio hasta que se desmarca.
+- **Grabación de audio sincronizada con lo escrito** (como en Notability: al tocar un trazo, el audio salta a ese momento): Luis no la quiere por ahora; queda como posible mejora futura.
