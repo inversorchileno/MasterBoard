@@ -1636,7 +1636,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2047,7 +2047,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+111"/>
         <source>Page</source>
         <translation>Сторінка</translation>
     </message>
@@ -2117,7 +2117,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Vertical</source>
         <translation>Вертикально</translation>
     </message>
@@ -2132,7 +2132,12 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2266,7 +2271,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+938"/>
         <source>Error Adding Image to Library</source>
         <translation>Помилка додавання зображення в бібліотеку</translation>
     </message>
@@ -2335,7 +2340,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2360"/>
         <source>That page is not in the document any more.</source>
         <translation>Цієї сторінки вже немає в документі.</translation>
     </message>
@@ -2364,7 +2369,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Текст скопійовано: %1</translation>
     </message>
     <message>
-        <location line="+565"/>
+        <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3798,7 +3803,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBGraphicsScene</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1201"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1219"/>
         <location line="+11"/>
         <source>Attach a file</source>
         <translation>Прикріпити файл</translation>
@@ -4004,6 +4009,14 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+12"/>
         <source>Transform as Tool </source>
         <translation>Перетворити в інструмент</translation>
+    </message>
+</context>
+<context>
+    <name>UBHandwriting</name>
+    <message>
+        <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
+        <source>Convert handwriting</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4324,7 +4337,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Розмір сторінки</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+145"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4522,7 +4535,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board — вільне програмне забезпечення (ліцензія GPLv3), як і OpenBoard.</translation>
     </message>
     <message>
-        <location line="+157"/>
+        <location line="+188"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Заблокувати полотно: нічого не можна малювати, писати, виділяти маркером, вибирати, переміщувати чи видаляти; лазер і рука й далі працюють</translation>
@@ -4561,7 +4574,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Записує сказане в записі; з&apos;явиться разом із ШІ Master Board</translation>
     </message>
     <message>
-        <location line="-245"/>
+        <location line="-276"/>
         <source>Full screen</source>
         <translation>Повноекранний режим</translation>
     </message>
@@ -4592,13 +4605,23 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+409"/>
+        <location line="+103"/>
+        <source>Dark mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Shows the pages with their colors inverted, to read at night without glare</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+417"/>
         <source>Saved</source>
         <translation>Збережено</translation>
     </message>
     <message>
-        <location line="-403"/>
+        <location line="-411"/>
         <source>Search...</source>
         <translation>Пошук...</translation>
     </message>
@@ -4635,7 +4658,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>Розблокувати полотно</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+38"/>
         <source>Hide or show the toolbar</source>
         <translation>Сховати або показати панель інструментів</translation>
     </message>
@@ -5262,6 +5285,24 @@ It can also be done later with Home &gt; Recognize text.</source>
     </message>
 </context>
 <context>
+    <name>UBPageNavigationWidget</name>
+    <message>
+        <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Favorites</source>
+        <translation type="unfinished">Вибране</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>UBPagesSidebar</name>
     <message>
         <location filename="../../src/gui/UBPagesSidebar.cpp" line="+48"/>
@@ -5302,7 +5343,7 @@ It can also be done later with Home &gt; Recognize text.</source>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1574"/>
         <source>Pen</source>
         <translation>Перо</translation>
     </message>
@@ -5390,6 +5431,21 @@ Dynamic width</source>
         <translation>Намальована від руки лінія, стрілка, коло, овал, трикутник, квадрат або прямокутник стає рівним.</translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>Recognize and convert handwriting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only on Windows, which reads the handwriting.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
         <translation type="vanished">Намальована від руки лінія, коло, овал, трикутник, квадрат або прямокутник стає рівним.</translation>
     </message>
@@ -5397,7 +5453,7 @@ Dynamic width</source>
 <context>
     <name>UBPersistenceManager</name>
     <message>
-        <location filename="../../src/core/UBPersistenceManager.cpp" line="+266"/>
+        <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5412,7 +5468,7 @@ Dynamic width</source>
         <translation>(копія)</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+678"/>
         <source>Document Repository Loss</source>
         <translation>Втрата з&apos;єднання з репозиторієм документів</translation>
     </message>
@@ -5427,7 +5483,7 @@ Dynamic width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-945"/>
+        <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6854,6 +6910,19 @@ Dynamic width</source>
     </message>
 </context>
 <context>
+    <name>UBStrokeStylePanel</name>
+    <message>
+        <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Непрозорість</translation>
+    </message>
+</context>
+<context>
     <name>UBStylusPalette</name>
     <message>
         <location filename="../../src/gui/UBStylusPalette.cpp" line="+91"/>
@@ -7036,7 +7105,7 @@ Dynamic width</source>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1284"/>
         <source>Color</source>
         <translation>Колір</translation>
     </message>
@@ -7044,7 +7113,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7111,7 +7180,7 @@ Dynamic width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>Scroll direction</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7128,6 +7197,11 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7254,7 +7328,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">Диктувати</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+700"/>
         <source>Read aloud</source>
         <translation>Прочитати вголос</translation>
     </message>
@@ -7458,7 +7532,7 @@ Please reboot the application to access the updated documents.</source>
 <context>
     <name>UBZLayerController</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1008"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
         <translation type="unfinished"></translation>
     </message>

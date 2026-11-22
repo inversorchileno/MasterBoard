@@ -1774,7 +1774,7 @@ Deseja substituir a verificação de segurança e continuar?</translation>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2185,7 +2185,7 @@ Deseja substituir a verificação de segurança e continuar?</translation>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+111"/>
         <source>Page</source>
         <translation>Página</translation>
     </message>
@@ -2255,7 +2255,7 @@ Deseja substituir a verificação de segurança e continuar?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Vertical</source>
         <translation>Vertical</translation>
     </message>
@@ -2270,7 +2270,12 @@ Deseja substituir a verificação de segurança e continuar?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2404,7 +2409,7 @@ Deseja substituir a verificação de segurança e continuar?</translation>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+929"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
         <source>CapturedImage</source>
         <translation>Imagem capturada</translation>
     </message>
@@ -2473,7 +2478,7 @@ Deseja substituir a verificação de segurança e continuar?</translation>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2360"/>
         <source>That page is not in the document any more.</source>
         <translation>Essa página não está mais no documento.</translation>
     </message>
@@ -2502,7 +2507,7 @@ Deseja substituir a verificação de segurança e continuar?</translation>
         <translation>Texto copiado: %1</translation>
     </message>
     <message>
-        <location line="+565"/>
+        <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
         <translation>É para Quadro ou Widget?</translation>
     </message>
@@ -3974,7 +3979,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBGraphicsScene</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1201"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1219"/>
         <location line="+11"/>
         <source>Attach a file</source>
         <translation>Anexar um arquivo</translation>
@@ -4180,6 +4185,14 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+12"/>
         <source>Transform as Tool </source>
         <translation>Transformar em Ferramenta</translation>
+    </message>
+</context>
+<context>
+    <name>UBHandwriting</name>
+    <message>
+        <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
+        <source>Convert handwriting</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4500,7 +4513,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Tamanho da página</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+145"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4698,7 +4711,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">O Master Board é software livre (licença GPLv3), assim como o OpenBoard.</translation>
     </message>
     <message>
-        <location line="+157"/>
+        <location line="+188"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Bloquear a tela: não é possível desenhar, escrever, destacar, selecionar, mover nem apagar nada; o laser e a mão continuam funcionando</translation>
@@ -4737,7 +4750,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Escreve o que se diz em uma gravação; chegará com a IA do Master Board</translation>
     </message>
     <message>
-        <location line="-245"/>
+        <location line="-276"/>
         <source>Full screen</source>
         <translation>Tela cheia</translation>
     </message>
@@ -4768,13 +4781,23 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+409"/>
+        <location line="+103"/>
+        <source>Dark mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Shows the pages with their colors inverted, to read at night without glare</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+417"/>
         <source>Saved</source>
         <translation>Salvo</translation>
     </message>
     <message>
-        <location line="-403"/>
+        <location line="-411"/>
         <source>Search...</source>
         <translation>Buscar...</translation>
     </message>
@@ -4811,7 +4834,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>Desbloquear a tela</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+38"/>
         <source>Hide or show the toolbar</source>
         <translation>Ocultar ou mostrar a barra de ferramentas</translation>
     </message>
@@ -5438,6 +5461,24 @@ Também dá para fazer depois com Início &gt; Reconhecer texto.</translation>
     </message>
 </context>
 <context>
+    <name>UBPageNavigationWidget</name>
+    <message>
+        <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Favorites</source>
+        <translation type="unfinished">Favoritos</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>UBPagesSidebar</name>
     <message>
         <location filename="../../src/gui/UBPagesSidebar.cpp" line="+48"/>
@@ -5478,7 +5519,7 @@ Também dá para fazer depois com Início &gt; Reconhecer texto.</translation>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1574"/>
         <source>Pen</source>
         <translation>Caneta</translation>
     </message>
@@ -5566,6 +5607,21 @@ Largura dinâmica</translation>
         <translation>Uma linha, seta, círculo, oval, triângulo, quadrado ou retângulo desenhado à mão fica limpo.</translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>Recognize and convert handwriting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only on Windows, which reads the handwriting.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
         <translation type="vanished">Uma linha, círculo, oval, triângulo, quadrado ou retângulo desenhado à mão fica limpo.</translation>
     </message>
@@ -5573,12 +5629,12 @@ Largura dinâmica</translation>
 <context>
     <name>UBPersistenceManager</name>
     <message>
-        <location filename="../../src/core/UBPersistenceManager.cpp" line="+748"/>
+        <location filename="../../src/core/UBPersistenceManager.cpp" line="+749"/>
         <source>(copy)</source>
         <translation>(cópia)</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+678"/>
         <source>Document Repository Loss</source>
         <translation>Repositório de Documentos perdido</translation>
     </message>
@@ -5588,7 +5644,7 @@ Largura dinâmica</translation>
         <translation>Acesso ao repositório &apos;%1&apos; foi perdido. Infelizmente, deverá encerrar a aplicação para evitar a corrupção de dados. As últimas alterações também serão perdidas.</translation>
     </message>
     <message>
-        <location line="-1192"/>
+        <location line="-1199"/>
         <source>Retrieving all your documents (found : %1)</source>
         <translation>Recuperando todos os seus documentos (encontrados: %1)</translation>
     </message>
@@ -5603,7 +5659,7 @@ Largura dinâmica</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+892"/>
+        <location line="+899"/>
         <source>Renaming pages (%1/%2)</source>
         <translation>Renomeando páginas (%1/%2)</translation>
     </message>
@@ -7052,6 +7108,19 @@ Largura dinâmica</translation>
     </message>
 </context>
 <context>
+    <name>UBStrokeStylePanel</name>
+    <message>
+        <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Opacidade</translation>
+    </message>
+</context>
+<context>
     <name>UBStylusPalette</name>
     <message>
         <location filename="../../src/gui/UBStylusPalette.cpp" line="+91"/>
@@ -7238,7 +7307,7 @@ Largura dinâmica</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1284"/>
         <source>Color</source>
         <translation>Cor</translation>
     </message>
@@ -7246,7 +7315,7 @@ Largura dinâmica</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7313,7 +7382,7 @@ Largura dinâmica</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>Scroll direction</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7330,6 +7399,11 @@ Largura dinâmica</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7456,7 +7530,7 @@ Por favor, reinicie o aplicativo para ir aos documentos atualizados.</translatio
         <translation type="vanished">Ditar</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+700"/>
         <source>Read aloud</source>
         <translation>Ler em voz alta</translation>
     </message>
@@ -7674,7 +7748,7 @@ Por favor, reinicie o aplicativo para ir aos documentos atualizados.</translatio
 <context>
     <name>UBZLayerController</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1008"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
         <translation type="unfinished"></translation>
     </message>

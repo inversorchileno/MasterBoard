@@ -1764,7 +1764,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2175,7 +2175,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+111"/>
         <source>Page</source>
         <translation>Orria</translation>
     </message>
@@ -2245,7 +2245,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Vertical</source>
         <translation>Bertikala</translation>
     </message>
@@ -2260,7 +2260,12 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2398,7 +2403,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+929"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
         <source>CapturedImage</source>
         <translation>Kapturatutako irudia</translation>
     </message>
@@ -2460,7 +2465,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2360"/>
         <source>That page is not in the document any more.</source>
         <translation>Orri hori ez dago jada dokumentuan.</translation>
     </message>
@@ -2489,7 +2494,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation>Testua kopiatuta: %1</translation>
     </message>
     <message>
-        <location line="+565"/>
+        <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
         <translation type="unfinished">Arbelerako edo trepetarako?</translation>
     </message>
@@ -3979,7 +3984,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBGraphicsScene</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1201"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1219"/>
         <location line="+11"/>
         <source>Attach a file</source>
         <translation>Erantsi fitxategi bat</translation>
@@ -4185,6 +4190,14 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+12"/>
         <source>Transform as Tool </source>
         <translation>Eraldatu tresna moduan</translation>
+    </message>
+</context>
+<context>
+    <name>UBHandwriting</name>
+    <message>
+        <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
+        <source>Convert handwriting</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4505,7 +4518,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Orriaren tamaina</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+145"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4703,7 +4716,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board software librea da (GPLv3 lizentzia), OpenBoard bezala.</translation>
     </message>
     <message>
-        <location line="+157"/>
+        <location line="+188"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Blokeatu oihala: ezin da ezer marraztu, idatzi, nabarmendu, hautatu, mugitu edo ezabatu; laserrak eta eskuak funtzionatzen jarraitzen dute</translation>
@@ -4742,7 +4755,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Grabazio batean esaten dena idazten du; Master Board-en AArekin iritsiko da</translation>
     </message>
     <message>
-        <location line="-245"/>
+        <location line="-276"/>
         <source>Full screen</source>
         <translation>Pantaila osoa</translation>
     </message>
@@ -4773,13 +4786,23 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+409"/>
+        <location line="+103"/>
+        <source>Dark mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Shows the pages with their colors inverted, to read at night without glare</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+417"/>
         <source>Saved</source>
         <translation>Gordeta</translation>
     </message>
     <message>
-        <location line="-403"/>
+        <location line="-411"/>
         <source>Search...</source>
         <translation>Bilatu...</translation>
     </message>
@@ -4816,7 +4839,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>Desblokeatu oihala</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+38"/>
         <source>Hide or show the toolbar</source>
         <translation>Ezkutatu edo erakutsi tresna-barra</translation>
     </message>
@@ -5443,6 +5466,24 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
     </message>
 </context>
 <context>
+    <name>UBPageNavigationWidget</name>
+    <message>
+        <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Favorites</source>
+        <translation type="unfinished">Gogokoak</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>UBPagesSidebar</name>
     <message>
         <location filename="../../src/gui/UBPagesSidebar.cpp" line="+48"/>
@@ -5483,7 +5524,7 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1574"/>
         <source>Pen</source>
         <translation>Boligrafoa</translation>
     </message>
@@ -5571,6 +5612,21 @@ Zabalera dinamikoa</translation>
         <translation>Eskuz marraztutako lerro, gezi, zirkulu, obalo, triangelu, karratu edo laukizuzen bat garbi geratzen da.</translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>Recognize and convert handwriting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only on Windows, which reads the handwriting.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
         <translation type="vanished">Eskuz marraztutako lerro, zirkulu, obalo, triangelu, karratu edo laukizuzen bat garbi geratzen da.</translation>
     </message>
@@ -5578,12 +5634,12 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBPersistenceManager</name>
     <message>
-        <location filename="../../src/core/UBPersistenceManager.cpp" line="+748"/>
+        <location filename="../../src/core/UBPersistenceManager.cpp" line="+749"/>
         <source>(copy)</source>
         <translation>(kopia)</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+678"/>
         <source>Document Repository Loss</source>
         <translation>Dokumentuen errepositorioaren galera</translation>
     </message>
@@ -5592,7 +5648,7 @@ Zabalera dinamikoa</translation>
         <translation type="vanished">%1 dokumentu errepositoriora sarbidea galdu da. Tamalez aplikazioa itxi egingo da datuen galera sahiesteko. Azken aldaketak galdu daitezke ere.</translation>
     </message>
     <message>
-        <location line="-1192"/>
+        <location line="-1199"/>
         <source>Retrieving all your documents (found : %1)</source>
         <translation type="unfinished">Zure dokumentu guztiak berreskuratzen (aurkitu dira: %1)</translation>
     </message>
@@ -5607,7 +5663,7 @@ Zabalera dinamikoa</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+892"/>
+        <location line="+899"/>
         <source>Renaming pages (%1/%2)</source>
         <translation type="unfinished">(%1/%2) orriak berrizendatzen</translation>
     </message>
@@ -7073,6 +7129,19 @@ Zabalera dinamikoa</translation>
     </message>
 </context>
 <context>
+    <name>UBStrokeStylePanel</name>
+    <message>
+        <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Opakotasuna</translation>
+    </message>
+</context>
+<context>
     <name>UBStylusPalette</name>
     <message>
         <location filename="../../src/gui/UBStylusPalette.cpp" line="+91"/>
@@ -7252,7 +7321,7 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1284"/>
         <source>Color</source>
         <translation>Kolorea</translation>
     </message>
@@ -7260,7 +7329,7 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7327,7 +7396,7 @@ Zabalera dinamikoa</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>Scroll direction</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7344,6 +7413,11 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7470,7 +7544,7 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
         <translation type="vanished">Diktatu</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+700"/>
         <source>Read aloud</source>
         <translation>Irakurri ozen</translation>
     </message>
@@ -7688,7 +7762,7 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
 <context>
     <name>UBZLayerController</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1008"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
         <translation type="unfinished"></translation>
     </message>

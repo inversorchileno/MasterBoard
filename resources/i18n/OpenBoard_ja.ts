@@ -1634,7 +1634,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
         <translation>AI</translation>
     </message>
@@ -2073,7 +2073,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+111"/>
         <source>Page</source>
         <translation>ページ</translation>
     </message>
@@ -2143,7 +2143,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>スクロール方向</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Vertical</source>
         <translation>縦</translation>
     </message>
@@ -2158,7 +2158,12 @@ Do you wish to override the security check and continue ?   </source>
         <translation>横に 2 ページ</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation>縦に 2 ページ</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
         <translation>ページを縦に並べる、横に並べる、または開いたノートのように 2 ページずつ並べます</translation>
     </message>
@@ -2292,7 +2297,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+938"/>
         <source>Error Adding Image to Library</source>
         <translation>ライブラリに画像追加中にエラー</translation>
     </message>
@@ -2354,7 +2359,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2360"/>
         <source>That page is not in the document any more.</source>
         <translation>そのページはもう文書にありません。</translation>
     </message>
@@ -2383,7 +2388,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>テキストをコピーしました: %1</translation>
     </message>
     <message>
-        <location line="+565"/>
+        <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
         <translation>ボード用ですか、ウィジェット用ですか?</translation>
     </message>
@@ -3884,7 +3889,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBGraphicsScene</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1201"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1219"/>
         <location line="+11"/>
         <source>Attach a file</source>
         <translation>ファイルを添付</translation>
@@ -4090,6 +4095,14 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+12"/>
         <source>Transform as Tool </source>
         <translation>ツールとして変換  </translation>
+    </message>
+</context>
+<context>
+    <name>UBHandwriting</name>
+    <message>
+        <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
+        <source>Convert handwriting</source>
+        <translation>手書き文字を変換</translation>
     </message>
 </context>
 <context>
@@ -4410,7 +4423,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">ページサイズ</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+145"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4616,7 +4629,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board は OpenBoard と同じく、自由ソフトウェア(GPLv3 ライセンス)です。</translation>
     </message>
     <message>
-        <location line="+157"/>
+        <location line="+188"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>キャンバスをロック：描画、書き込み、ハイライト、選択、移動、削除はできません。レーザーと手のひらツールは引き続き使えます</translation>
@@ -4655,7 +4668,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">録音で話されたことを書き起こします。Master Board の AI で提供予定です</translation>
     </message>
     <message>
-        <location line="-245"/>
+        <location line="-276"/>
         <source>Full screen</source>
         <translation>全画面表示</translation>
     </message>
@@ -4686,13 +4699,23 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>Master Board について</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+409"/>
+        <location line="+103"/>
+        <source>Dark mode</source>
+        <translation>ダークモード</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Shows the pages with their colors inverted, to read at night without glare</source>
+        <translation>ページの色を反転して表示し、夜でもまぶしくなく読めます</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+417"/>
         <source>Saved</source>
         <translation>保存しました</translation>
     </message>
     <message>
-        <location line="-403"/>
+        <location line="-411"/>
         <source>Search...</source>
         <translation>検索...</translation>
     </message>
@@ -4729,7 +4752,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>キャンバスのロックを解除</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+38"/>
         <source>Hide or show the toolbar</source>
         <translation>ツールバーの表示/非表示</translation>
     </message>
@@ -5345,6 +5368,24 @@ It can also be done later with Home &gt; Recognize text.</source>
     </message>
 </context>
 <context>
+    <name>UBPageNavigationWidget</name>
+    <message>
+        <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Favorites</source>
+        <translation>お気に入り</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
+        <translation>すべてのページ、またはサムネイルの星で印を付けたお気に入りのページだけを表示します</translation>
+    </message>
+</context>
+<context>
     <name>UBPagesSidebar</name>
     <message>
         <location filename="../../src/gui/UBPagesSidebar.cpp" line="+48"/>
@@ -5385,7 +5426,7 @@ It can also be done later with Home &gt; Recognize text.</source>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1574"/>
         <source>Pen</source>
         <translation>ペン </translation>
     </message>
@@ -5473,6 +5514,21 @@ Dynamic width</source>
         <translation>手書きの線、矢印、円、楕円、三角形、正方形、長方形がきれいな図形になります。</translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>Recognize and convert handwriting</source>
+        <translation>手書き文字を認識して変換</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
+        <translation>ペンを止めて少しすると、書いた言葉が同じ大きさと色のテキストボックスになります。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only on Windows, which reads the handwriting.</source>
+        <translation>手書き文字を読み取る Windows でのみ使えます。</translation>
+    </message>
+    <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
         <translation type="vanished">手書きの線、円、楕円、三角形、正方形、長方形がきれいな図形になります。</translation>
     </message>
@@ -5480,7 +5536,7 @@ Dynamic width</source>
 <context>
     <name>UBPersistenceManager</name>
     <message>
-        <location filename="../../src/core/UBPersistenceManager.cpp" line="+266"/>
+        <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
         <translation>取得済み - %1</translation>
     </message>
@@ -5495,7 +5551,7 @@ Dynamic width</source>
         <translation>(コピー)</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+678"/>
         <source>Document Repository Loss</source>
         <translation>ドキュメント・リポジトリ･ロス</translation>
     </message>
@@ -5510,7 +5566,7 @@ Dynamic width</source>
         <translation>ページの名前を変更中 (%1/%2)</translation>
     </message>
     <message>
-        <location line="-945"/>
+        <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
         <translation>すべてのドキュメントを取得中 (見つかった数: %1)</translation>
     </message>
@@ -6961,6 +7017,19 @@ Dynamic width</source>
     </message>
 </context>
 <context>
+    <name>UBStrokeStylePanel</name>
+    <message>
+        <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Opacity</source>
+        <translation>不透明度</translation>
+    </message>
+</context>
+<context>
     <name>UBStylusPalette</name>
     <message>
         <source>AI</source>
@@ -7151,7 +7220,7 @@ Dynamic width</source>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1284"/>
         <source>Color</source>
         <translation>色</translation>
     </message>
@@ -7159,7 +7228,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
         <translation>スポットライト / 拡大鏡</translation>
     </message>
@@ -7226,7 +7295,7 @@ Dynamic width</source>
         <translation>バーのスタイル...</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>Scroll direction</source>
         <translation>スクロール方向</translation>
     </message>
@@ -7244,6 +7313,11 @@ Dynamic width</source>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
         <translation>横に 2 ページ</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation>縦に 2 ページ</translation>
     </message>
 </context>
 <context>
@@ -7369,7 +7443,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">音声入力</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+700"/>
         <source>Read aloud</source>
         <translation>読み上げ</translation>
     </message>
@@ -7573,7 +7647,7 @@ Please reboot the application to access the updated documents.</source>
 <context>
     <name>UBZLayerController</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1008"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
         <translation>最背面に達しました</translation>
     </message>

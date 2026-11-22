@@ -1659,7 +1659,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
         <translation>IA</translation>
     </message>
@@ -2098,7 +2098,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+111"/>
         <source>Page</source>
         <translation>Page</translation>
     </message>
@@ -2168,7 +2168,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Sens de défilement</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Vertical</source>
         <translation>Vertical</translation>
     </message>
@@ -2183,7 +2183,12 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Horizontal sur 2 pages</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation>Vertical sur 2 pages</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
         <translation>Les pages l’une sous l’autre, l’une à côté de l’autre, ou deux par deux comme un cahier ouvert</translation>
     </message>
@@ -2317,7 +2322,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+938"/>
         <source>Error Adding Image to Library</source>
         <translation>Erreur lors de l&apos;ajout d&apos;images à la bibliothèque</translation>
     </message>
@@ -2386,7 +2391,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2360"/>
         <source>That page is not in the document any more.</source>
         <translation>Cette page n&apos;est plus dans le document.</translation>
     </message>
@@ -2415,7 +2420,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Texte copié : %1</translation>
     </message>
     <message>
-        <location line="+565"/>
+        <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
         <translation>Est-ce pour le tableau ou le widget ?</translation>
     </message>
@@ -3146,7 +3151,11 @@ Un nouveau nom vous permettra de conserver l&apos;ancien document.</translation>
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ce document a été créé avec OpenBoard 1.8 et son contenu a été réorganisé. Nous vous recommandons vivement de mettre OpenBoard à jour vers la version 1.8.
+
+Si vous continuez, le document sera converti pour être compatible avec la version 1.7.7. Cela peut prendre quelques minutes. Vous pourrez toujours l’ouvrir dans OpenBoard 1.8, mais il sera alors converti de nouveau au format 1.8.
+
+Voulez-vous continuer ?</translation>
     </message>
     <message>
         <source>This document was created using OpenBoard 1.8, and its content has been reorganized. We strongly recommend updating Master Board to version 1.8.
@@ -3984,7 +3993,7 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
 <context>
     <name>UBGraphicsScene</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1201"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1219"/>
         <location line="+11"/>
         <source>Attach a file</source>
         <translation>Joindre un fichier</translation>
@@ -4190,6 +4199,14 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <location line="+12"/>
         <source>Transform as Tool </source>
         <translation>Transformer en outil</translation>
+    </message>
+</context>
+<context>
+    <name>UBHandwriting</name>
+    <message>
+        <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
+        <source>Convert handwriting</source>
+        <translation>Convertir l’écriture manuscrite</translation>
     </message>
 </context>
 <context>
@@ -4510,7 +4527,7 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <translation type="vanished">Taille de la page</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+145"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4716,7 +4733,7 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <translation type="vanished">Master Board est un logiciel libre (licence GPLv3), comme OpenBoard.</translation>
     </message>
     <message>
-        <location line="+157"/>
+        <location line="+188"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Verrouiller le canevas : rien ne peut être dessiné, écrit, surligné, sélectionné, déplacé ni supprimé ; le laser et la main fonctionnent toujours</translation>
@@ -4755,7 +4772,7 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <translation type="vanished">Écrit ce qui est dit dans un enregistrement ; arrivera avec l&apos;IA de Master Board</translation>
     </message>
     <message>
-        <location line="-245"/>
+        <location line="-276"/>
         <source>Full screen</source>
         <translation>Plein écran</translation>
     </message>
@@ -4786,13 +4803,23 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <translation>À propos de Master Board</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+409"/>
+        <location line="+103"/>
+        <source>Dark mode</source>
+        <translation>Mode sombre</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Shows the pages with their colors inverted, to read at night without glare</source>
+        <translation>Affiche les pages avec leurs couleurs inversées, pour lire la nuit sans éblouissement</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+417"/>
         <source>Saved</source>
         <translation>Enregistré</translation>
     </message>
     <message>
-        <location line="-403"/>
+        <location line="-411"/>
         <source>Search...</source>
         <translation>Rechercher...</translation>
     </message>
@@ -4829,7 +4856,7 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <translation>Déverrouiller le canevas</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+38"/>
         <source>Hide or show the toolbar</source>
         <translation>Masquer ou afficher la barre d&apos;outils</translation>
     </message>
@@ -5464,6 +5491,24 @@ On peut aussi le faire plus tard avec Accueil &gt; Reconnaître le texte.</trans
     </message>
 </context>
 <context>
+    <name>UBPageNavigationWidget</name>
+    <message>
+        <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
+        <source>All</source>
+        <translation>Toutes</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Favorites</source>
+        <translation>Favoris</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
+        <translation>Afficher toutes les pages, ou seulement les favorites, marquées de l’étoile de leur miniature</translation>
+    </message>
+</context>
+<context>
     <name>UBPagesSidebar</name>
     <message>
         <location filename="../../src/gui/UBPagesSidebar.cpp" line="+48"/>
@@ -5504,7 +5549,7 @@ On peut aussi le faire plus tard avec Accueil &gt; Reconnaître le texte.</trans
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1574"/>
         <source>Pen</source>
         <translation>Stylo</translation>
     </message>
@@ -5592,6 +5637,21 @@ Largeur dynamique</translation>
         <translation>Une ligne, une flèche, un cercle, un ovale, un triangle, un carré ou un rectangle dessiné à main levée devient net.</translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>Recognize and convert handwriting</source>
+        <translation>Reconnaître et convertir l’écriture manuscrite</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
+        <translation>Un instant après que le stylet s’arrête, les mots écrits deviennent une zone de texte de même taille et couleur.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only on Windows, which reads the handwriting.</source>
+        <translation>Seulement sous Windows, qui lit l’écriture manuscrite.</translation>
+    </message>
+    <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
         <translation type="vanished">Une ligne, un cercle, un ovale, un triangle, un carré ou un rectangle dessiné à main levée devient net.</translation>
     </message>
@@ -5599,7 +5659,7 @@ Largeur dynamique</translation>
 <context>
     <name>UBPersistenceManager</name>
     <message>
-        <location filename="../../src/core/UBPersistenceManager.cpp" line="+266"/>
+        <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
         <translation>Récupéré - %1</translation>
     </message>
@@ -5614,7 +5674,7 @@ Largeur dynamique</translation>
         <translation>(copie)</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+678"/>
         <source>Document Repository Loss</source>
         <translation>Accès perdu vers le répertoire des documents</translation>
     </message>
@@ -5633,7 +5693,7 @@ Largeur dynamique</translation>
         <translation type="vanished">Récupération de tous vos documents (trouvés : %1)</translation>
     </message>
     <message>
-        <location line="-945"/>
+        <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
         <translation>Récupération de tous vos documents (trouvés : %1)</translation>
     </message>
@@ -7084,6 +7144,19 @@ Largeur dynamique</translation>
     </message>
 </context>
 <context>
+    <name>UBStrokeStylePanel</name>
+    <message>
+        <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
+        <source>Size</source>
+        <translation>Taille</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Opacity</source>
+        <translation>Opacité</translation>
+    </message>
+</context>
+<context>
     <name>UBStylusPalette</name>
     <message>
         <source>AI</source>
@@ -7282,7 +7355,7 @@ Largeur dynamique</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1284"/>
         <source>Color</source>
         <translation>Couleur</translation>
     </message>
@@ -7290,7 +7363,7 @@ Largeur dynamique</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
         <translation>Projecteur / Loupe</translation>
     </message>
@@ -7357,7 +7430,7 @@ Largeur dynamique</translation>
         <translation>Style de la barre...</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>Scroll direction</source>
         <translation>Sens de défilement</translation>
     </message>
@@ -7375,6 +7448,11 @@ Largeur dynamique</translation>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
         <translation>Horizontal sur 2 pages</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation>Vertical sur 2 pages</translation>
     </message>
 </context>
 <context>
@@ -7500,7 +7578,7 @@ Veuillez redémarrer l&apos;application pour accéder aux documents mis à jour.
         <translation type="vanished">Dicter</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+700"/>
         <source>Read aloud</source>
         <translation>Lire à voix haute</translation>
     </message>
@@ -7704,7 +7782,7 @@ Veuillez redémarrer l&apos;application pour accéder aux documents mis à jour.
 <context>
     <name>UBZLayerController</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1008"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
         <translation>Limite de couche inférieure atteinte</translation>
     </message>

@@ -1638,7 +1638,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
         <translation>AI</translation>
     </message>
@@ -2077,7 +2077,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+111"/>
         <source>Page</source>
         <translation>頁面</translation>
     </message>
@@ -2147,7 +2147,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>捲動方向</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Vertical</source>
         <translation>垂直</translation>
     </message>
@@ -2162,7 +2162,12 @@ Do you wish to override the security check and continue ?   </source>
         <translation>水平雙頁</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation>垂直雙頁</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
         <translation>頁面上下排列、左右排列，或像打開的筆記本一樣兩頁一組</translation>
     </message>
@@ -2296,7 +2301,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+938"/>
         <source>Error Adding Image to Library</source>
         <translation>新增圖像至圖書館時發生錯誤</translation>
     </message>
@@ -2365,7 +2370,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2360"/>
         <source>That page is not in the document any more.</source>
         <translation>該頁面已不在文件中。</translation>
     </message>
@@ -2394,7 +2399,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>已複製文字：%1</translation>
     </message>
     <message>
-        <location line="+565"/>
+        <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
         <translation>是給白板還是小工具用的？</translation>
     </message>
@@ -3923,7 +3928,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBGraphicsScene</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1201"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1219"/>
         <location line="+11"/>
         <source>Attach a file</source>
         <translation>附加檔案</translation>
@@ -4129,6 +4134,14 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+12"/>
         <source>Transform as Tool </source>
         <translation>轉換為工具</translation>
+    </message>
+</context>
+<context>
+    <name>UBHandwriting</name>
+    <message>
+        <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
+        <source>Convert handwriting</source>
+        <translation>轉換手寫文字</translation>
     </message>
 </context>
 <context>
@@ -4449,7 +4462,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">頁面大小</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+145"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4655,7 +4668,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board 和 OpenBoard 一樣，是自由軟體（GPLv3 授權）。</translation>
     </message>
     <message>
-        <location line="+157"/>
+        <location line="+188"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>鎖定畫布：無法繪製、書寫、標示、選取、移動或刪除任何內容；雷射筆和手形工具仍可使用</translation>
@@ -4694,7 +4707,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">寫出錄音中所說的內容；將隨 Master Board 的 AI 推出</translation>
     </message>
     <message>
-        <location line="-245"/>
+        <location line="-276"/>
         <source>Full screen</source>
         <translation>全螢幕</translation>
     </message>
@@ -4725,13 +4738,23 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>關於 Master Board</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+409"/>
+        <location line="+103"/>
+        <source>Dark mode</source>
+        <translation>深色模式</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Shows the pages with their colors inverted, to read at night without glare</source>
+        <translation>以反轉的顏色顯示頁面，夜間閱讀不刺眼</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+417"/>
         <source>Saved</source>
         <translation>已儲存</translation>
     </message>
     <message>
-        <location line="-403"/>
+        <location line="-411"/>
         <source>Search...</source>
         <translation>尋找...</translation>
     </message>
@@ -4768,7 +4791,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>解鎖畫布</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+38"/>
         <source>Hide or show the toolbar</source>
         <translation>隱藏或顯示工具列</translation>
     </message>
@@ -5387,6 +5410,24 @@ It can also be done later with Home &gt; Recognize text.</source>
     </message>
 </context>
 <context>
+    <name>UBPageNavigationWidget</name>
+    <message>
+        <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
+        <source>All</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Favorites</source>
+        <translation>我的最愛</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
+        <translation>顯示所有頁面，或僅顯示用縮圖星號標記的收藏頁面</translation>
+    </message>
+</context>
+<context>
     <name>UBPagesSidebar</name>
     <message>
         <location filename="../../src/gui/UBPagesSidebar.cpp" line="+48"/>
@@ -5427,7 +5468,7 @@ It can also be done later with Home &gt; Recognize text.</source>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1574"/>
         <source>Pen</source>
         <translation>電子筆</translation>
     </message>
@@ -5515,6 +5556,21 @@ Dynamic width</source>
         <translation>手繪的直線、箭頭、圓、橢圓、三角形、正方形或矩形會變得工整。</translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>Recognize and convert handwriting</source>
+        <translation>辨識並轉換手寫文字</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
+        <translation>停筆片刻後，寫下的文字會變成大小和顏色相同的文字方塊。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only on Windows, which reads the handwriting.</source>
+        <translation>僅在 Windows 上可用，由 Windows 辨識手寫。</translation>
+    </message>
+    <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
         <translation type="vanished">手繪的直線、圓、橢圓、三角形、正方形或矩形會變得工整。</translation>
     </message>
@@ -5522,7 +5578,7 @@ Dynamic width</source>
 <context>
     <name>UBPersistenceManager</name>
     <message>
-        <location filename="../../src/core/UBPersistenceManager.cpp" line="+266"/>
+        <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
         <translation>已取回 - %1</translation>
     </message>
@@ -5537,7 +5593,7 @@ Dynamic width</source>
         <translation>(複製)</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+678"/>
         <source>Document Repository Loss</source>
         <translation>文件資料庫遺失</translation>
     </message>
@@ -5552,7 +5608,7 @@ Dynamic width</source>
         <translation>正在重新命名頁面 (%1/%2)</translation>
     </message>
     <message>
-        <location line="-945"/>
+        <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
         <translation>正在取回您所有的文件（已找到：%1）</translation>
     </message>
@@ -7003,6 +7059,19 @@ Dynamic width</source>
     </message>
 </context>
 <context>
+    <name>UBStrokeStylePanel</name>
+    <message>
+        <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Opacity</source>
+        <translation>不透明度</translation>
+    </message>
+</context>
+<context>
     <name>UBStylusPalette</name>
     <message>
         <source>AI</source>
@@ -7186,7 +7255,7 @@ Dynamic width</source>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1284"/>
         <source>Color</source>
         <translation>顏色</translation>
     </message>
@@ -7194,7 +7263,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
         <translation>聚光燈 / 放大鏡</translation>
     </message>
@@ -7261,7 +7330,7 @@ Dynamic width</source>
         <translation>工具列樣式...</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>Scroll direction</source>
         <translation>捲動方向</translation>
     </message>
@@ -7279,6 +7348,11 @@ Dynamic width</source>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
         <translation>水平雙頁</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation>垂直雙頁</translation>
     </message>
 </context>
 <context>
@@ -7404,7 +7478,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">聽寫</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+700"/>
         <source>Read aloud</source>
         <translation>朗讀</translation>
     </message>
@@ -7608,7 +7682,7 @@ Please reboot the application to access the updated documents.</source>
 <context>
     <name>UBZLayerController</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1008"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
         <translation>已到最底層</translation>
     </message>

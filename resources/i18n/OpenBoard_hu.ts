@@ -1650,7 +1650,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2061,7 +2061,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+111"/>
         <source>Page</source>
         <translation>Oldal</translation>
     </message>
@@ -2131,7 +2131,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Vertical</source>
         <translation>Függőleges</translation>
     </message>
@@ -2146,7 +2146,12 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2280,7 +2285,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+938"/>
         <source>Error Adding Image to Library</source>
         <translation>Hiba a kép könyvtárhoz adásakor</translation>
     </message>
@@ -2349,7 +2354,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2360"/>
         <source>That page is not in the document any more.</source>
         <translation>Az az oldal már nincs a dokumentumban.</translation>
     </message>
@@ -2378,7 +2383,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <translation>Szöveg másolva: %1</translation>
     </message>
     <message>
-        <location line="+565"/>
+        <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
         <translation>Táblára vagy vezérlőre való?</translation>
     </message>
@@ -3887,7 +3892,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBGraphicsScene</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1201"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="+1219"/>
         <location line="+11"/>
         <source>Attach a file</source>
         <translation>Fájl csatolása</translation>
@@ -4093,6 +4098,14 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+12"/>
         <source>Transform as Tool </source>
         <translation>Átalakítás eszközként </translation>
+    </message>
+</context>
+<context>
+    <name>UBHandwriting</name>
+    <message>
+        <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
+        <source>Convert handwriting</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4413,7 +4426,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Oldalméret</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+145"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4611,7 +4624,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">A Master Board szabad szoftver (GPLv3 licenc), akárcsak az OpenBoard.</translation>
     </message>
     <message>
-        <location line="+157"/>
+        <location line="+188"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Vászon zárolása: semmit sem lehet rajzolni, írni, kiemelni, kijelölni, mozgatni vagy törölni; a lézer és a kéz továbbra is működik</translation>
@@ -4650,7 +4663,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Leírja, ami egy felvételen elhangzik; a Master Board MI-jével érkezik</translation>
     </message>
     <message>
-        <location line="-245"/>
+        <location line="-276"/>
         <source>Full screen</source>
         <translation>Teljes képernyő</translation>
     </message>
@@ -4681,13 +4694,23 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+409"/>
+        <location line="+103"/>
+        <source>Dark mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Shows the pages with their colors inverted, to read at night without glare</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <location line="+417"/>
         <source>Saved</source>
         <translation>Mentve</translation>
     </message>
     <message>
-        <location line="-403"/>
+        <location line="-411"/>
         <source>Search...</source>
         <translation>Keresés...</translation>
     </message>
@@ -4724,7 +4747,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>Vászon feloldása</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+38"/>
         <source>Hide or show the toolbar</source>
         <translation>Eszköztár elrejtése vagy megjelenítése</translation>
     </message>
@@ -5351,6 +5374,24 @@ Később is megteheti: Kezdőlap &gt; Szöveg felismerése.</translation>
     </message>
 </context>
 <context>
+    <name>UBPageNavigationWidget</name>
+    <message>
+        <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Favorites</source>
+        <translation type="unfinished">Kedvencek</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>UBPagesSidebar</name>
     <message>
         <location filename="../../src/gui/UBPagesSidebar.cpp" line="+48"/>
@@ -5391,7 +5432,7 @@ Később is megteheti: Kezdőlap &gt; Szöveg felismerése.</translation>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1574"/>
         <source>Pen</source>
         <translation>Toll</translation>
     </message>
@@ -5479,6 +5520,21 @@ Dinamikus szélesség</translation>
         <translation>A kézzel rajzolt vonal, nyíl, kör, ovális, háromszög, négyzet vagy téglalap szabályossá válik.</translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>Recognize and convert handwriting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only on Windows, which reads the handwriting.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
         <translation type="vanished">A kézzel rajzolt vonal, kör, ovális, háromszög, négyzet vagy téglalap szabályossá válik.</translation>
     </message>
@@ -5486,7 +5542,7 @@ Dinamikus szélesség</translation>
 <context>
     <name>UBPersistenceManager</name>
     <message>
-        <location filename="../../src/core/UBPersistenceManager.cpp" line="+266"/>
+        <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5501,7 +5557,7 @@ Dinamikus szélesség</translation>
         <translation>(másolás)</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+678"/>
         <source>Document Repository Loss</source>
         <translation>Dokumentum repository veszteség</translation>
     </message>
@@ -5524,7 +5580,7 @@ Dinamikus szélesség</translation>
         <translation>Oldalak átnevezése (%1/%2)</translation>
     </message>
     <message>
-        <location line="-945"/>
+        <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
         <translation>Az összes dokumentum lekérése (találva: %1)</translation>
     </message>
@@ -6951,6 +7007,19 @@ Dinamikus szélesség</translation>
     </message>
 </context>
 <context>
+    <name>UBStrokeStylePanel</name>
+    <message>
+        <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Átlátszatlanság</translation>
+    </message>
+</context>
+<context>
     <name>UBStylusPalette</name>
     <message>
         <location filename="../../src/gui/UBStylusPalette.cpp" line="+91"/>
@@ -7137,7 +7206,7 @@ Dinamikus szélesség</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1284"/>
         <source>Color</source>
         <translation>Szín</translation>
     </message>
@@ -7145,7 +7214,7 @@ Dinamikus szélesség</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7212,7 +7281,7 @@ Dinamikus szélesség</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>Scroll direction</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7229,6 +7298,11 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Vertical in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7354,7 +7428,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">Diktálás</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+700"/>
         <source>Read aloud</source>
         <translation>Felolvasás</translation>
     </message>
@@ -7558,7 +7632,7 @@ Please reboot the application to access the updated documents.</source>
 <context>
     <name>UBZLayerController</name>
     <message>
-        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1008"/>
+        <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
         <translation type="unfinished"></translation>
     </message>
