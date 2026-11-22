@@ -54,6 +54,9 @@ public:
 
     void onMainModeChanged(UBApplicationController::MainMode mode);
 
+    /** @brief Dark mode: a switch at the top right and in the Customize menu. */
+    static QAction* darkModeAction();
+
 private:
     void createMenus();
     void setupDocumentShortcuts();

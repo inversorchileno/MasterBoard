@@ -33,6 +33,8 @@
 #include <QMenu>
 #include <QMenuBar>
 #include <QPainter>
+#include <QPainterPath>
+#include <QPointer>
 #include <QLayout>
 #include <QToolBar>
 #include <QStandardPaths>
@@ -43,6 +45,7 @@
 #include "board/UBPageExtractor.h"
 #include "board/UBBoardController.h"
 #include "board/UBBoardSaver.h"
+#include "board/UBBoardView.h"
 #include "board/UBDrawingController.h"
 #include "board/UBDualBoard.h"
 #include "gui/UBCanvasRulers.h"
@@ -456,6 +459,37 @@ void UBMainMenu::arrangeBoardToolBar()
     toolBar->insertWidget(mMainWindow->actionForward, new UBPageIndicator(toolBar));
 }
 
+// A moon, white as the texts of the menu bar.
+static QIcon moonIcon()
+{
+    QPixmap pixmap(36, 36);
+    pixmap.fill(Qt::transparent);
+    QPainter painter(&pixmap);
+    painter.setRenderHint(QPainter::Antialiasing);
+    QPainterPath moon;
+    moon.addEllipse(QRectF(5, 5, 26, 26));
+    QPainterPath bite;
+    bite.addEllipse(QRectF(14, 1, 24, 24));
+    painter.fillPath(moon.subtracted(bite), QColor("#f6d77a"));
+    return QIcon(pixmap);
+}
+
+QAction* UBMainMenu::darkModeAction()
+{
+    static QPointer<QAction> action;
+
+    if (!action)
+    {
+        action = new QAction(moonIcon(), tr("Dark mode"), UBApplication::mainWindow);
+        action->setCheckable(true);
+        action->setChecked(UBBoardView::isDarkMode());
+        action->setToolTip(tr("Shows the pages with their colors inverted, to read at night without glare"));
+        connect(action, &QAction::toggled, action, [](bool dark) { UBBoardView::setDarkMode(dark); });
+    }
+
+    return action;
+}
+
 void UBMainMenu::createCornerButtons()
 {
     auto corner = new QWidget(mMainWindow->menuBar());
@@ -614,6 +648,14 @@ void UBMainMenu::createCornerButtons()
         button->setStyleSheet(buttonStyle);
         layout->insertWidget(layout->indexOf(lockButton), button);
     }
+
+    // The dark mode, left of the screens and the podcast.
+    auto darkButton = new QToolButton(corner);
+    darkButton->setDefaultAction(darkModeAction());
+    darkButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+    darkButton->setIconSize(QSize(18, 18));
+    darkButton->setStyleSheet(buttonStyle + UBTheme::style("QToolButton:checked { background: #4a4a4a; }"));
+    layout->insertWidget(layout->indexOf(lockButton) - 2, darkButton);
 
     // Goes to the desktop mode, like the board button of the desktop palette goes back.
     auto desktopButton = new QToolButton(corner);

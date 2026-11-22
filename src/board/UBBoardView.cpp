@@ -3088,8 +3088,42 @@ void UBBoardView::drawBackground (QPainter *painter, const QRectF &rect)
     }
 }
 
+static const QString sDarkModeKey = QStringLiteral("Board/LibertyBoardDarkMode");
+static int sDarkMode = -1;
+
+bool UBBoardView::isDarkMode()
+{
+    if (sDarkMode < 0)
+    {
+        sDarkMode = UBSettings::settings()->value(sDarkModeKey, false).toBool() ? 1 : 0;
+    }
+
+    return sDarkMode == 1;
+}
+
+void UBBoardView::setDarkMode(bool dark)
+{
+    sDarkMode = dark ? 1 : 0;
+    UBSettings::settings()->setValue(sDarkModeKey, dark);
+
+    if (UBApplication::boardController && UBApplication::boardController->controlView())
+    {
+        UBApplication::boardController->controlView()->viewport()->update();
+    }
+}
+
 void UBBoardView::drawForeground(QPainter* painter, const QRectF& rect)
 {
+    // The dark mode turns white into black and black into white, the
+    // pages, the PDF and the ink alike, as the dark mode of PDF readers.
+    if (bIsControl && !bIsDesktop && isDarkMode() && mController && this == mController->controlView())
+    {
+        painter->save();
+        painter->setCompositionMode(QPainter::CompositionMode_Difference);
+        painter->fillRect(rect, Qt::white);
+        painter->restore();
+    }
+
     // The text being read aloud, marked until it is read.
     const QRectF readingArea = UBReadAloud::instance()->readingArea();
 

@@ -96,6 +96,10 @@ public:
 
     static PageFlow pageFlow();
 
+    /** @brief The dark mode: the pages are shown with their colors inverted, to read at night. */
+    static bool isDarkMode();
+    static void setDarkMode(bool dark);
+
     /** @brief Keeps the way the pages follow each other and shows the pages that way. */
     void setPageFlow(PageFlow flow);
 

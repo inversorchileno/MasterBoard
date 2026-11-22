@@ -47,6 +47,7 @@
 #include "gui/UBMainWindow.h"
 #include "gui/UBActionPalette.h"
 #include "gui/UBBarStyle.h"
+#include "gui/UBMainMenu.h"
 #include "gui/UBShortcutsDialog.h"
 
 namespace
@@ -510,6 +511,9 @@ void UBToolbarChoice::fillCustomizeMenu(QMenu* menu)
     // The colors, the opacity and the corners of the palettes.
     QAction* style = menu->addAction(tr("Bar style..."));
     QObject::connect(style, &QAction::triggered, menu, [menu]() { UBBarStyle::openWindow(menu->parentWidget() ? menu->parentWidget()->window() : nullptr); });
+
+    // The dark mode, also at the top right.
+    menu->addAction(UBMainMenu::darkModeAction());
 
     // How the pages follow each other, also chosen in Template style.
     QMenu* flow = menu->addMenu(tr("Scroll direction"));
