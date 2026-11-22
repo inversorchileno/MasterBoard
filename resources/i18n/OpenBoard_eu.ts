@@ -7118,6 +7118,14 @@ Zabalera dinamikoa</translation>
         <source>PNG pictures (*.png)</source>
         <translation>PNG irudiak (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Zigiluak</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Zigilu guztiak</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7330,6 +7338,10 @@ Zabalera dinamikoa</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Tresna honek ez du aukerarik.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Egin klik orrian grabatzeko.</translation>
     </message>
 </context>
 <context>
@@ -8496,6 +8508,25 @@ p, li { white-space: pre-wrap; }
         <location line="+8"/>
         <source>Select a content to capture</source>
         <translation>Hautatu atzemateko edukia</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Gehitu gogokoetara</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Kendu gogokoetatik</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Ezabatu orria</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Bikoiztu orria</translation>
     </message>
 </context>
 </TS>

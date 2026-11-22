@@ -7120,6 +7120,14 @@ Largeur dynamique</translation>
         <source>PNG pictures (*.png)</source>
         <translation>Images PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Tampons</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Tous les tampons</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7355,6 +7363,10 @@ Largeur dynamique</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Cet outil n&apos;a pas d&apos;options.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Cliquez sur la page pour enregistrer.</translation>
     </message>
 </context>
 <context>
@@ -8432,6 +8444,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Capturer du contenu Web</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Ajouter aux favoris</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Retirer des favoris</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Supprimer la page</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Dupliquer la page</translation>
     </message>
 </context>
 </TS>

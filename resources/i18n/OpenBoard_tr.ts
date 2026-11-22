@@ -6920,6 +6920,14 @@ Dinamik kalınlık</translation>
         <source>PNG pictures (*.png)</source>
         <translation>PNG resimleri (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Damgalar</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Tüm damgalar</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7139,6 +7147,10 @@ Dinamik kalınlık</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Bu aracın seçeneği yok.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Kaydetmek için sayfaya tıklayın.</translation>
     </message>
 </context>
 <context>
@@ -8213,6 +8225,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Web İçeriğini Yakala</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Sık kullanılanlara ekle</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Sık kullanılanlardan kaldır</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Sayfayı sil</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Sayfayı çoğalt</translation>
     </message>
 </context>
 </TS>

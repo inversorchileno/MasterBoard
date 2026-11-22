@@ -6868,6 +6868,14 @@ Lățime dinamică</translation>
         <source>PNG pictures (*.png)</source>
         <translation>Imagini PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Ștampile</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Toate ștampilele</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7083,6 +7091,10 @@ Lățime dinamică</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Acest instrument nu are opțiuni.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Faceți clic pe pagină pentru a înregistra.</translation>
     </message>
 </context>
 <context>
@@ -8140,6 +8152,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Capturează conținut web</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Adăugare la favorite</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Eliminare din favorite</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Ștergeți pagina</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Duplicați pagina</translation>
     </message>
 </context>
 </TS>

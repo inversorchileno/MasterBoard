@@ -6858,6 +6858,14 @@ Dynamische breedte</translation>
         <source>PNG pictures (*.png)</source>
         <translation>PNG-afbeeldingen (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Stempels</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Alle stempels</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7073,6 +7081,10 @@ Dynamische breedte</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Dit gereedschap heeft geen opties.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Klik op de pagina om op te nemen.</translation>
     </message>
 </context>
 <context>
@@ -8129,6 +8141,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Webinhoud vastleggen</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Toevoegen aan favorieten</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Verwijderen uit favorieten</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>De pagina verwijderen</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>De pagina dupliceren</translation>
     </message>
 </context>
 </TS>

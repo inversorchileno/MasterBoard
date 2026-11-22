@@ -6883,6 +6883,14 @@ Dynamic width</source>
         <source>PNG pictures (*.png)</source>
         <translation>صور PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>الأختام</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>كل الأختام</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7098,6 +7106,10 @@ Dynamic width</source>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>لا توجد خيارات لهذه الأداة.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>انقر على الصفحة للتسجيل.</translation>
     </message>
 </context>
 <context>
@@ -8157,6 +8169,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>التقاط محتوى الويب</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>إضافة إلى المفضلة</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>إزالة من المفضلة</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>حذف الصفحة</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>تكرار الصفحة</translation>
     </message>
 </context>
 </TS>

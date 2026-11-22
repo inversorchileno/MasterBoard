@@ -6880,6 +6880,14 @@ Amplada dinàmica</translation>
         <source>PNG pictures (*.png)</source>
         <translation>Imatges PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Segells</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Tots els segells</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7088,6 +7096,10 @@ Amplada dinàmica</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Aquesta eina no té opcions.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Feu clic a la pàgina per gravar.</translation>
     </message>
 </context>
 <context>
@@ -8145,6 +8157,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Captura contingut web</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Afegeix a preferits</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Treu de preferits</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Esborra la pàgina</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Duplica la pàgina</translation>
     </message>
 </context>
 </TS>

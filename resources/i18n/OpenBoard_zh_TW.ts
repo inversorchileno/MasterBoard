@@ -7035,6 +7035,14 @@ Dynamic width</source>
         <source>PNG pictures (*.png)</source>
         <translation>PNG 圖片 (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>印章</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>所有印章</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7255,6 +7263,10 @@ Dynamic width</source>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>此工具沒有選項。</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>按一下頁面開始錄音。</translation>
     </message>
 </context>
 <context>
@@ -8312,6 +8324,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>擷取網頁內容</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>加入最愛</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>從最愛中移除</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>刪除頁面</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>複製頁面</translation>
     </message>
 </context>
 </TS>

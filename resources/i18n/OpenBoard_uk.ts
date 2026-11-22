@@ -6903,6 +6903,14 @@ Dynamic width</source>
         <source>PNG pictures (*.png)</source>
         <translation>Зображення PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Штампи</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Усі штампи</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7118,6 +7126,10 @@ Dynamic width</source>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Цей інструмент не має налаштувань.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Клацніть на сторінці, щоб записати.</translation>
     </message>
 </context>
 <context>
@@ -8187,6 +8199,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Захоплення веб-вмісту</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Додати до улюблених</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Вилучити з улюблених</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Видалити сторінку</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Дублювати сторінку</translation>
     </message>
 </context>
 </TS>

@@ -6977,6 +6977,14 @@ Dinamična širina</translation>
         <source>PNG pictures (*.png)</source>
         <translation>PNG slike (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Pečati</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Svi pečati</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7196,6 +7204,10 @@ Dinamična širina</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Ovaj alat nema opcija.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Kliknite na stranicu za snimanje.</translation>
     </message>
 </context>
 <context>
@@ -8467,6 +8479,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Snimi web sadržaj</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Dodaj u favorite</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Ukloni iz favorita</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Izbriši stranicu</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Udvostruči stranicu</translation>
     </message>
 </context>
 </TS>

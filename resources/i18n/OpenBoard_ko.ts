@@ -6877,6 +6877,14 @@ Dynamic width</source>
         <source>PNG pictures (*.png)</source>
         <translation>PNG 그림 (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>도장</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>모든 도장</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7092,6 +7100,10 @@ Dynamic width</source>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>이 도구에는 옵션이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>녹음하려면 페이지를 클릭하세요.</translation>
     </message>
 </context>
 <context>
@@ -8149,6 +8161,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>웹 콘텐츠 캡처</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>즐겨찾기에 추가</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>즐겨찾기에서 제거</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>페이지 삭제</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>페이지 복제</translation>
     </message>
 </context>
 </TS>

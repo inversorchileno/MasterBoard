@@ -6923,6 +6923,14 @@ Dynamic width</source>
         <source>PNG pictures (*.png)</source>
         <translation>Изображения PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Штампы</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Все штампы</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7138,6 +7146,10 @@ Dynamic width</source>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>У этого инструмента нет настроек.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Щёлкните по странице, чтобы записать.</translation>
     </message>
 </context>
 <context>
@@ -8207,6 +8219,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Захват веб-содержимого</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Добавить в избранное</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Удалить из избранного</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Удалить страницу</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Дублировать страницу</translation>
     </message>
 </context>
 </TS>

@@ -6995,6 +6995,14 @@ Dinamikus szélesség</translation>
         <source>PNG pictures (*.png)</source>
         <translation>PNG-képek (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Bélyegzők</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Minden bélyegző</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7214,6 +7222,10 @@ Dinamikus szélesség</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Ennek az eszköznek nincsenek beállításai.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Kattintson az oldalra a felvételhez.</translation>
     </message>
 </context>
 <context>
@@ -8290,6 +8302,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Webtartalom rögzítése</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Hozzáadás a kedvencekhez</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Eltávolítás a kedvencek közül</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Oldal törlése</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Oldal másolása</translation>
     </message>
 </context>
 </TS>

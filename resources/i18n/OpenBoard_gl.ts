@@ -6917,6 +6917,14 @@ Largura dinámica</translation>
         <source>PNG pictures (*.png)</source>
         <translation>Imaxes PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Selos</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Todos os selos</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7132,6 +7140,10 @@ Largura dinámica</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Esta ferramenta non ten opcións.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Fai clic na páxina para gravar.</translation>
     </message>
 </context>
 <context>
@@ -8201,6 +8213,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Capturar contido web</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Engadir a favoritas</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Quitar de favoritas</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Borrar a páxina</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Duplicar a páxina</translation>
     </message>
 </context>
 </TS>

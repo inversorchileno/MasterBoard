@@ -6922,6 +6922,14 @@ Dynamic width</source>
         <source>PNG pictures (*.png)</source>
         <translation>Εικόνες PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Σφραγίδες</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Όλες οι σφραγίδες</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7141,6 +7149,10 @@ Dynamic width</source>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Αυτό το εργαλείο δεν έχει επιλογές.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Κάντε κλικ στη σελίδα για ηχογράφηση.</translation>
     </message>
 </context>
 <context>
@@ -8210,6 +8222,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Λήψη στιγμιότυπου διαδικτυακού περιεχομένου</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Προσθήκη στα αγαπημένα</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Αφαίρεση από τα αγαπημένα</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Διαγραφή της σελίδας</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Διπλασιασμός της σελίδας</translation>
     </message>
 </context>
 </TS>

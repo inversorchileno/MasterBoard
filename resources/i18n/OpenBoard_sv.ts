@@ -6873,6 +6873,14 @@ Dynamisk bredd</translation>
         <source>PNG pictures (*.png)</source>
         <translation>PNG-bilder (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Stämplar</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Alla stämplar</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7088,6 +7096,10 @@ Dynamisk bredd</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Det här verktyget har inga alternativ.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Klicka på sidan för att spela in.</translation>
     </message>
 </context>
 <context>
@@ -8145,6 +8157,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Fånga webbinnehåll</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Lägg till i favoriter</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Ta bort från favoriter</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Ta bort sidan</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Duplicera sidan</translation>
     </message>
 </context>
 </TS>

@@ -6993,6 +6993,14 @@ Dynamic width</source>
         <source>PNG pictures (*.png)</source>
         <translation>PNG 画像 (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>スタンプ</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>すべてのスタンプ</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7220,6 +7228,10 @@ Dynamic width</source>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>このツールにはオプションがありません。</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>録音するにはページをクリックします。</translation>
     </message>
 </context>
 <context>
@@ -8277,6 +8289,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Web コンテンツをキャプチャ</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>お気に入りに追加</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>お気に入りから削除</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>ページを削除</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>ページを複製</translation>
     </message>
 </context>
 </TS>

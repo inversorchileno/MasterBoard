@@ -6905,6 +6905,14 @@ Dynamická šírka</translation>
         <source>PNG pictures (*.png)</source>
         <translation>Obrázky PNG (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Pečiatky</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Všetky pečiatky</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7120,6 +7128,10 @@ Dynamická šírka</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Tento nástroj nemá žiadne možnosti.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Kliknutím na stránku spustíte nahrávanie.</translation>
     </message>
 </context>
 <context>
@@ -8190,6 +8202,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Zachytiť webový obsah</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Pridať do obľúbených</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Odstrániť z obľúbených</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Odstrániť stránku</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Duplikovať stránku</translation>
     </message>
 </context>
 </TS>

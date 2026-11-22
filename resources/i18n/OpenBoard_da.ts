@@ -6872,6 +6872,14 @@ Dynamisk bredde</translation>
         <source>PNG pictures (*.png)</source>
         <translation>PNG-billeder (*.png)</translation>
     </message>
+    <message>
+        <source>Stamps</source>
+        <translation>Stempler</translation>
+    </message>
+    <message>
+        <source>All the stamps</source>
+        <translation>Alle stempler</translation>
+    </message>
 </context>
 <context>
     <name>UBStartupHintsPalette</name>
@@ -7087,6 +7095,10 @@ Dynamisk bredde</translation>
         <location filename="../../src/gui/UBToolOptionsBar.cpp" line="+57"/>
         <source>This tool has no options.</source>
         <translation>Dette værktøj har ingen indstillinger.</translation>
+    </message>
+    <message>
+        <source>Click on the page to record.</source>
+        <translation>Klik på siden for at optage.</translation>
     </message>
 </context>
 <context>
@@ -8144,6 +8156,25 @@ p, li { white-space: pre-wrap; }
         <location line="-8"/>
         <source>Capture Web Content</source>
         <translation>Optag webindhold</translation>
+    </message>
+</context>
+<context>
+    <name>UBThumbnail</name>
+    <message>
+        <source>Add to favorites</source>
+        <translation>Føj til favoritter</translation>
+    </message>
+    <message>
+        <source>Remove from favorites</source>
+        <translation>Fjern fra favoritter</translation>
+    </message>
+    <message>
+        <source>Delete the page</source>
+        <translation>Slet siden</translation>
+    </message>
+    <message>
+        <source>Duplicate the page</source>
+        <translation>Dupliker siden</translation>
     </message>
 </context>
 </TS>
