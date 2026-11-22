@@ -29,7 +29,8 @@ class UBBoardView;
 
 /**
  * @brief A scroll bar at the right of the board for the whole document,
- * page after page: dragging it goes quickly anywhere in the document.
+ * page after page: dragging it goes quickly anywhere in the document. It is
+ * at the bottom when the pages are beside each other.
  *
  * It shows only for a document of two pages or more, and only while the
  * pointer is close to the right edge of the board.

@@ -75,7 +75,9 @@
 #include "domain/UBGraphicsWidgetItem.h"
 #include "domain/UBGraphicsPDFItem.h"
 
+#include <QApplication>
 #include <QPainterPath>
+#include <QScrollBar>
 #include "domain/UBGraphicsPolygonItem.h"
 #include "domain/UBItem.h"
 #include "domain/UBGraphicsMediaItem.h"
@@ -174,6 +176,23 @@ UBBoardView::~UBBoardView ()
 
 void UBBoardView::init ()
 {
+    // With two pages side by side, another page shows its whole pair, as
+    // a notebook opened at it: not when the page changes by scrolling.
+    if (bIsControl && !bIsDesktop && mController)
+    {
+        connect(mController, &UBBoardController::activeSceneChanged, this, [this]() {
+            if (pageFlow() == TwoPagesFlow && !mShowingInPlace && this == mController->controlView())
+            {
+                QTimer::singleShot(0, this, [this]() {
+                    if (scene())
+                    {
+                        fitPair();
+                    }
+                });
+            }
+        });
+    }
+
     // The fingers on a touch screen zoom and move the board.
     if (bIsControl && !bIsDesktop)
     {
@@ -620,6 +639,11 @@ void UBBoardView::tabletEvent (QTabletEvent * event)
     QPointF tabletPos = event->posF();
 #endif
     UBStylusTool::Enum currentTool = (UBStylusTool::Enum)dc->stylusTool ();
+
+    if (event->type () == QEvent::TabletPress) {
+        // The pen on the page beside writes on that page.
+        switchToPageAt(tabletPos);
+    }
 
     if (event->type () == QEvent::TabletPress || event->type () == QEvent::TabletEnterProximity) {
 #if (QT_VERSION >= QT_VERSION_CHECK(6, 0, 0))
@@ -1391,6 +1415,12 @@ void UBBoardView::mousePressEvent (QMouseEvent *event)
 #endif
     mMouseDownPos = eventPosition.toPoint();
 
+    // A click or a stroke on the page beside goes on that page.
+    if (event->button() == Qt::LeftButton && bIsControl && !mTabletStylusIsPressed)
+    {
+        switchToPageAt(eventPosition);
+    }
+
     setMovingItem(scene()->itemAt(this->mapToScene(eventPosition.toPoint()), QTransform()));
 
     if (event->button () == Qt::LeftButton && isInteractive())
@@ -1627,6 +1657,12 @@ void UBBoardView::mouseMoveEvent (QMouseEvent *event)
         qreal dy = eventPosition.y () - mPreviousPoint.y ();
         mController->handScroll (dx, dy);
         mPreviousPoint = eventPosition;
+
+        if (mController && this == mController->controlView())
+        {
+            switchToNeighbourPage();
+        }
+
         event->accept ();
     } break;
 
@@ -2130,16 +2166,50 @@ bool UBBoardView::turnPageWithWheel(QWheelEvent* wheelEvent)
 
     const bool down = (delta < 0);
     const int index = mController->activeSceneIndex();
+    const QRectF page = pageRectOf(scene().get());
+    const QRectF visible = mapToScene(viewport()->rect()).boundingRect();
+    const qreal tolerance = 2;
+
+    if (pageFlow() == TwoPagesFlow)
+    {
+        // A pair taller than the view is read down first; then the wheel
+        // turns to the next pair, as the pages of a notebook.
+        const bool inside = down ? visible.bottom() < page.bottom() - tolerance : visible.top() > page.top() + tolerance;
+
+        if (inside)
+        {
+            mWheelTurn = 0;
+            QAbstractScrollArea::wheelEvent(wheelEvent);
+            return true;
+        }
+
+        mWheelTurn += delta;
+
+        if (qAbs(mWheelTurn) >= 120)
+        {
+            mWheelTurn = 0;
+            const int first = (index / 2) * 2 + (down ? 2 : -2);
+
+            if (first >= 0 && first < document->pageCount())
+            {
+                showPair(first, down);
+            }
+        }
+
+        wheelEvent->accept();
+        return true;
+    }
+
+    const bool across = (pageFlow() == HorizontalFlow);
     const bool hasNeighbour = down ? (index < document->pageCount() - 1) : (index > 0);
 
     if (!hasNeighbour)
     {
         // The end of the document: the wheel stops at the edge of the page.
-        const QRectF page = pageRectOf(scene().get());
-        const QRectF visible = mapToScene(viewport()->rect()).boundingRect();
-        const qreal tolerance = 2;
-        const bool atEdge = down ? (visible.bottom() >= page.bottom() - tolerance)
-                                 : (visible.top() <= page.top() + tolerance);
+        const bool atEdge = across ? (down ? visible.right() >= page.right() - tolerance
+                                           : visible.left() <= page.left() + tolerance)
+                                   : (down ? visible.bottom() >= page.bottom() - tolerance
+                                           : visible.top() <= page.top() + tolerance);
 
         if (atEdge)
         {
@@ -2147,12 +2217,29 @@ bool UBBoardView::turnPageWithWheel(QWheelEvent* wheelEvent)
             return true;
         }
 
-        return false;
+        if (!across)
+        {
+            return false;
+        }
     }
 
-    // The wheel scrolls at its own pace on into the neighbour page.
+    // The wheel scrolls at its own pace on into the neighbour page: down
+    // goes to the right when the pages are beside each other.
     const QPointF middleBefore = mapToScene(viewport()->rect().center());
-    QAbstractScrollArea::wheelEvent(wheelEvent);
+
+    if (across)
+    {
+        QScrollBar* bar = horizontalScrollBar();
+        const QPoint pixels = wheelEvent->pixelDelta();
+        const int move = !pixels.isNull() ? -pixels.y()
+                                          : -delta * bar->singleStep() * QApplication::wheelScrollLines() / 120;
+        bar->setValue(bar->value() + move);
+        wheelEvent->accept();
+    }
+    else
+    {
+        QAbstractScrollArea::wheelEvent(wheelEvent);
+    }
 
     if (mapToScene(viewport()->rect().center()) == middleBefore)
     {
@@ -2161,7 +2248,7 @@ bool UBBoardView::turnPageWithWheel(QWheelEvent* wheelEvent)
         // neighbour page in the middle, the other pages around it.
         mWheelTurn += delta;
 
-        if (qAbs(mWheelTurn) >= 120)
+        if (qAbs(mWheelTurn) >= 120 && hasNeighbour)
         {
             mWheelTurn = 0;
             showPageAtScale(index + (down ? 1 : -1), transform().m11());
@@ -2338,127 +2425,84 @@ qreal UBBoardView::pageGap() const
     return scale > 0 ? 16 / scale : 16;
 }
 
-void UBBoardView::switchToNeighbourPage()
+static const QString sPageFlowKey = QStringLiteral("Board/LibertyBoardPageFlow");
+static int sPageFlow = -1;
+
+UBBoardView::PageFlow UBBoardView::pageFlow()
 {
-    std::shared_ptr<UBDocumentProxy> document = mController->selectedDocument();
-
-    if (!document || !scene())
+    // Read once: the pages are placed at each painting.
+    if (sPageFlow < 0)
     {
-        return;
+        sPageFlow = qBound(0, UBSettings::settings()->value(sPageFlowKey, 0).toInt(), 2);
     }
 
-    const int index = mController->activeSceneIndex();
-    const QRectF page = pageRectOf(scene().get());
-    const qreal gap = pageGap();
-    const QPointF middle = mapToScene(viewport()->rect().center());
-
-    int direction = 0;
-
-    if (middle.y() > page.bottom() + gap / 2 && index < document->pageCount() - 1)
-    {
-        direction = 1;
-    }
-    else if (middle.y() < page.top() - gap / 2 && index > 0)
-    {
-        direction = -1;
-    }
-
-    if (direction == 0)
-    {
-        return;
-    }
-
-    // The page in the middle of the view: the next one, or one further
-    // when the zoom is small and the wheel turned fast.
-    int steps = 1;
-    qreal edgeY = direction > 0 ? page.bottom() + gap : page.top() - gap;
-
-    for (;;)
-    {
-        std::shared_ptr<UBGraphicsScene> neighbour = UBPersistenceManager::persistenceManager()->loadDocumentScene(document, index + direction * steps);
-        const qreal height = neighbour ? pageRectOf(neighbour.get()).height() : 0;
-        const qreal farEdge = direction > 0 ? edgeY + height : edgeY - height;
-        const int further = index + direction * (steps + 1);
-        const bool beyond = direction > 0 ? middle.y() > farEdge + gap / 2 : middle.y() < farEdge - gap / 2;
-
-        if (!neighbour || !beyond || further < 0 || further >= document->pageCount())
-        {
-            break;
-        }
-
-        edgeY = direction > 0 ? farEdge + gap : farEdge - gap;
-        ++steps;
-    }
-
-    // Where the edge of that page is on the screen now: it stays there.
-    const QPointF edge(page.center().x(), edgeY);
-    const QPointF edgeOnScreen = viewportTransform().map(edge);
-    const qreal scale = transform().m11();
-
-    // The same zoom as before.
-    showPageAtScale(index + direction * steps, scale);
-
-    if (!scene())
-    {
-        return;
-    }
-
-    const QRectF newPage = pageRectOf(scene().get());
-    const QPointF newEdge(newPage.center().x(), direction > 0 ? newPage.top() : newPage.bottom());
-    const QPointF viewportMiddle = QRectF(viewport()->rect()).center();
-    const QPointF newMiddle = newEdge + (viewportMiddle - edgeOnScreen) / scale;
-    centerOn(newMiddle);
-
-    // Showing a page restores its saved view once the events are processed:
-    // the place is set again after that.
-    QTimer::singleShot(0, this, [this, newMiddle]() {
-        centerOn(newMiddle);
-        UBApplication::applicationController->adjustDisplayView();
-    });
+    return PageFlow(sPageFlow);
 }
 
-void UBBoardView::drawNeighbourPages(QPainter* painter, const QRectF& rect)
+void UBBoardView::setPageFlow(PageFlow flow)
 {
-    if (!mController || this != mController->controlView() || !scene())
+    sPageFlow = flow;
+    UBSettings::settings()->setValue(sPageFlowKey, int(flow));
+
+    if (flow == TwoPagesFlow)
     {
-        return;
+        fitPair();
     }
 
-    std::shared_ptr<UBDocumentProxy> document = mController->selectedDocument();
+    resetCachedContent();
+    viewport()->update();
+    emit pageFlowChanged();
+    emit documentPositionChanged();
+}
 
-    if (!document || document->pageCount() < 2)
+bool UBBoardView::flowsAcross()
+{
+    return pageFlow() != VerticalFlow;
+}
+
+qreal UBBoardView::gapAfter(int index) const
+{
+    // The two pages of a pair touch as in a notebook, with the line of
+    // their edges between them; the pairs have more space around them.
+    if (pageFlow() == TwoPagesFlow)
     {
-        return;
+        return index % 2 == 0 ? pageGap() / 2 : pageGap() * 3;
+    }
+
+    return pageGap();
+}
+
+QList<UBBoardView::NeighbourPlace> UBBoardView::neighbourPlaces(const QRectF& area)
+{
+    QList<NeighbourPlace> places;
+    std::shared_ptr<UBDocumentProxy> document = mController ? mController->selectedDocument() : nullptr;
+
+    if (!document || !scene() || document->pageCount() < 2)
+    {
+        return places;
     }
 
     const int index = mController->activeSceneIndex();
     const QRectF page = pageRectOf(scene().get());
-    const qreal gap = pageGap();
+    const bool across = flowsAcross();
 
-    // As many pages above and below as the view shows, a few at most when
+    // As many pages before and after as the area shows, a few at most when
     // the zoom is very small.
     const int mostPerSide = 8;
-    QPair<int, int> drawn(index, index);
-
-    // The ink drawn beyond the sheet of a page, drawn once all the sheets are.
-    struct Overflow
-    {
-        std::shared_ptr<UBGraphicsScene> scene;
-        QRectF sheet;
-        QRectF target;
-    };
-    QList<Overflow> overflows;
 
     for (int direction : { -1, 1 })
     {
-        qreal edge = direction > 0 ? page.bottom() + gap : page.top() - gap;
+        qreal edge = direction > 0 ? (across ? page.right() : page.bottom()) + gapAfter(index)
+                                   : (across ? page.left() : page.top()) - gapAfter(index - 1);
 
         for (int step = 1; step <= mostPerSide; ++step)
         {
             const int neighbourIndex = index + direction * step;
 
-            // Only loaded when the space where it goes is seen.
-            const bool seen = direction > 0 ? rect.bottom() > edge : rect.top() < edge;
+            // Only loaded when the space where it goes is in the area.
+            const qreal areaStart = across ? area.left() : area.top();
+            const qreal areaEnd = across ? area.right() : area.bottom();
+            const bool seen = direction > 0 ? areaEnd > edge : areaStart < edge;
 
             if (!seen || neighbourIndex < 0 || neighbourIndex >= document->pageCount())
             {
@@ -2473,51 +2517,275 @@ void UBBoardView::drawNeighbourPages(QPainter* painter, const QRectF& rect)
             }
 
             const QRectF source = pageRectOf(neighbour.get());
-            const qreal top = direction > 0 ? edge : edge - source.height();
-            const QRectF target(page.center().x() - source.width() / 2, top, source.width(), source.height());
-            edge = direction > 0 ? target.bottom() + gap : target.top() - gap;
+            QRectF target;
 
-            if (!target.intersects(rect))
+            if (across)
             {
-                continue;
-            }
-
-            if (direction > 0)
-            {
-                drawn.second = neighbourIndex;
+                const qreal left = direction > 0 ? edge : edge - source.width();
+                target = QRectF(left, page.center().y() - source.height() / 2, source.width(), source.height());
+                edge = direction > 0 ? target.right() + gapAfter(neighbourIndex) : target.left() - gapAfter(neighbourIndex - 1);
             }
             else
             {
-                drawn.first = neighbourIndex;
+                const qreal top = direction > 0 ? edge : edge - source.height();
+                target = QRectF(page.center().x() - source.width() / 2, top, source.width(), source.height());
+                edge = direction > 0 ? target.bottom() + gapAfter(neighbourIndex) : target.top() - gapAfter(neighbourIndex - 1);
             }
 
-            painter->save();
-            painter->fillRect(target, neighbour->backgroundColor());
-            neighbour->render(painter, target, source);
-
-            const qreal penWidth = 8.0 / transform().m11();
-            painter->setPen(QPen(neighbour->isDarkBackground() ? UBSettings::documentSizeMarkColorDarkBackground
-                                                               : UBSettings::documentSizeMarkColorLightBackground, penWidth));
-            painter->setBrush(Qt::NoBrush);
-            painter->drawRect(target.adjusted(-penWidth / 2, -penWidth / 2, penWidth / 2, penWidth / 2));
-            painter->restore();
-
-            overflows << Overflow{ neighbour, source, target };
+            places << NeighbourPlace{ neighbourIndex, neighbour, source, target };
         }
     }
 
-    // A stroke that went past the sheet stays seen over the page beside it,
-    // under what is drawn on the page shown, as when it was drawn.
-    for (const Overflow& overflow : std::as_const(overflows))
-    {
-        const QRectF whole = overflow.scene->normalizedSceneRect();
+    return places;
+}
 
-        if (whole == overflow.sheet)
+void UBBoardView::showNeighbourInPlace(int index, const QRectF& target)
+{
+    // Where the corner of that page is on the screen now: it stays there.
+    const QPointF cornerOnScreen = viewportTransform().map(target.topLeft());
+    const qreal scale = transform().m11();
+
+    // The same zoom as before.
+    showPageAtScale(index, scale);
+
+    if (!scene())
+    {
+        return;
+    }
+
+    const QRectF newPage = pageRectOf(scene().get());
+    const QPointF viewportMiddle = QRectF(viewport()->rect()).center();
+    const QPointF newMiddle = newPage.topLeft() + (viewportMiddle - cornerOnScreen) / scale;
+    centerOn(newMiddle);
+
+    // Showing a page restores its saved view once the events are processed:
+    // the place is set again after that.
+    QTimer::singleShot(0, this, [this, newMiddle]() {
+        centerOn(newMiddle);
+        UBApplication::applicationController->adjustDisplayView();
+    });
+}
+
+void UBBoardView::switchToNeighbourPage()
+{
+    std::shared_ptr<UBDocumentProxy> document = mController->selectedDocument();
+
+    if (!document || !scene())
+    {
+        return;
+    }
+
+    const int index = mController->activeSceneIndex();
+    const QRectF page = pageRectOf(scene().get());
+    const QPointF middle = mapToScene(viewport()->rect().center());
+    const bool across = flowsAcross();
+
+    // The part of the strip of a page: the page and half the space on each side.
+    auto contains = [this, across](const QRectF& sheet, int pageIndex, const QPointF& point) {
+        const qreal start = (across ? sheet.left() : sheet.top()) - gapAfter(pageIndex - 1) / 2;
+        const qreal end = (across ? sheet.right() : sheet.bottom()) + gapAfter(pageIndex) / 2;
+        const qreal at = across ? point.x() : point.y();
+        return at >= start && at <= end;
+    };
+
+    if (contains(page, index, middle))
+    {
+        return;
+    }
+
+    // The page in the middle of the view: the next one, or one further
+    // when the zoom is small and the wheel turned fast.
+    const QRectF visible = mapToScene(viewport()->rect()).boundingRect();
+    const QList<NeighbourPlace> places = neighbourPlaces(visible);
+
+    for (const NeighbourPlace& place : places)
+    {
+        if (contains(place.target, place.index, middle))
+        {
+            showNeighbourInPlace(place.index, place.target);
+            return;
+        }
+    }
+}
+
+void UBBoardView::switchToPageAt(const QPointF& viewPoint)
+{
+    if (!mController || this != mController->controlView() || !scene())
+    {
+        return;
+    }
+
+    const QPointF point = mapToScene(viewPoint.toPoint());
+
+    if (pageRectOf(scene().get()).contains(point))
+    {
+        return;
+    }
+
+    // A click or a stroke on the page beside goes on that page.
+    for (const NeighbourPlace& place : neighbourPlaces(QRectF(point, QSizeF(1, 1))))
+    {
+        if (place.target.contains(point))
+        {
+            showNeighbourInPlace(place.index, place.target);
+            return;
+        }
+    }
+}
+
+QRectF UBBoardView::pairRect()
+{
+    std::shared_ptr<UBDocumentProxy> document = mController ? mController->selectedDocument() : nullptr;
+
+    if (!scene())
+    {
+        return QRectF();
+    }
+
+    const QRectF page = pageRectOf(scene().get());
+
+    if (!document)
+    {
+        return page;
+    }
+
+    // Pages 1 and 2, 3 and 4...: counted from 0, an even page is on the left.
+    const int index = mController->activeSceneIndex();
+    const int other = index % 2 == 0 ? index + 1 : index - 1;
+
+    if (other < 0 || other >= document->pageCount())
+    {
+        return page;
+    }
+
+    std::shared_ptr<UBGraphicsScene> otherScene = UBPersistenceManager::persistenceManager()->loadDocumentScene(document, other);
+
+    if (!otherScene)
+    {
+        return page;
+    }
+
+    const QSizeF size = pageRectOf(otherScene.get()).size();
+    const qreal gap = pageGap() / 2;
+    const qreal left = other > index ? page.right() + gap : page.left() - gap - size.width();
+    return page.united(QRectF(left, page.center().y() - size.height() / 2, size.width(), size.height()));
+}
+
+void UBBoardView::showPair(int first, bool fromTop)
+{
+    const qreal scale = transform().m11();
+
+    if (first != mController->activeSceneIndex())
+    {
+        showPageAtScale(first, scale);
+    }
+
+    if (!scene() || scale <= 0)
+    {
+        return;
+    }
+
+    const QRectF pair = pairRect();
+    const qreal visibleHeight = viewport()->height() / scale;
+    qreal y = pair.center().y();
+
+    if (pair.height() > visibleHeight)
+    {
+        // Taller than the view: from the top going forward, from the bottom going back.
+        y = fromTop ? pair.top() + visibleHeight / 2 : pair.bottom() - visibleHeight / 2;
+    }
+
+    const QPointF middle(pair.center().x(), y);
+    centerOn(middle);
+
+    QTimer::singleShot(0, this, [this, middle]() {
+        centerOn(middle);
+        UBApplication::applicationController->adjustDisplayView();
+    });
+}
+
+void UBBoardView::fitPair()
+{
+    if (!mController || this != mController->controlView() || !scene())
+    {
+        return;
+    }
+
+    const QRectF pair = pairRect();
+    const qreal scale = transform().m11();
+    const qreal margin = 40;
+
+    if (pair.isEmpty() || scale <= 0)
+    {
+        return;
+    }
+
+    const qreal fit = qMin((viewport()->width() - 2 * margin) / pair.width(),
+                           (viewport()->height() - 2 * margin) / pair.height());
+
+    if (fit > 0)
+    {
+        mController->zoom(fit / scale, pair.center());
+    }
+
+    centerOn(pairRect().center());
+    UBApplication::applicationController->adjustDisplayView();
+}
+
+void UBBoardView::drawNeighbourPages(QPainter* painter, const QRectF& rect)
+{
+    if (!mController || this != mController->controlView() || !scene())
+    {
+        return;
+    }
+
+    const int index = mController->activeSceneIndex();
+    QPair<int, int> drawn(index, index);
+    const QList<NeighbourPlace> places = neighbourPlaces(rect);
+
+    for (const NeighbourPlace& place : places)
+    {
+        if (!place.target.intersects(rect))
         {
             continue;
         }
 
-        const QRectF target = whole.translated(overflow.target.topLeft() - overflow.sheet.topLeft());
+        if (place.index > index)
+        {
+            drawn.second = qMax(drawn.second, place.index);
+        }
+        else
+        {
+            drawn.first = qMin(drawn.first, place.index);
+        }
+
+        // The grid of the page beside follows the zoom of the view, as the one of the page shown.
+        place.scene->setBackgroundZoomFactor(scene()->backgroundZoomFactor());
+
+        painter->save();
+        painter->fillRect(place.target, place.scene->backgroundColor());
+        place.scene->render(painter, place.target, place.source);
+
+        const qreal penWidth = 8.0 / transform().m11();
+        painter->setPen(QPen(place.scene->isDarkBackground() ? UBSettings::documentSizeMarkColorDarkBackground
+                                                             : UBSettings::documentSizeMarkColorLightBackground, penWidth));
+        painter->setBrush(Qt::NoBrush);
+        painter->drawRect(place.target.adjusted(-penWidth / 2, -penWidth / 2, penWidth / 2, penWidth / 2));
+        painter->restore();
+    }
+
+    // A stroke that went past the sheet stays seen over the page beside it,
+    // under what is drawn on the page shown, as when it was drawn.
+    for (const NeighbourPlace& place : places)
+    {
+        const QRectF whole = place.scene->normalizedSceneRect();
+
+        if (whole == place.source)
+        {
+            continue;
+        }
+
+        const QRectF target = whole.translated(place.target.topLeft() - place.source.topLeft());
 
         if (!target.intersects(rect))
         {
@@ -2527,13 +2795,13 @@ void UBBoardView::drawNeighbourPages(QPainter* painter, const QRectF& rect)
         QPainterPath outside;
         outside.addRect(target);
         QPainterPath sheet;
-        sheet.addRect(overflow.target);
+        sheet.addRect(place.target);
 
         painter->save();
         painter->setClipPath(outside.subtracted(sheet), Qt::IntersectClip);
-        overflow.scene->setDrawsBackground(false);
-        overflow.scene->render(painter, target, whole);
-        overflow.scene->setDrawsBackground(true);
+        place.scene->setDrawsBackground(false);
+        place.scene->render(painter, target, whole);
+        place.scene->setDrawsBackground(true);
         painter->restore();
     }
 
@@ -2626,6 +2894,12 @@ void UBBoardView::wheelEvent (QWheelEvent *wheelEvent)
 
     // event not handled, send it to QAbstractScrollArea to scroll with wheel event
     QAbstractScrollArea::wheelEvent(wheelEvent);
+
+    // A touchpad moved sideways, into the page beside.
+    if (mController && this == mController->controlView() && wheelEvent->modifiers() == Qt::NoModifier)
+    {
+        switchToNeighbourPage();
+    }
 
 #if (QT_VERSION < QT_VERSION_CHECK(6, 0, 0))
     // workaround: foreground not repainted after scrolling on Qt5 (fixed in Qt6)
@@ -2905,7 +3179,13 @@ qreal UBBoardView::documentPosition()
 
     const QRectF page = pageRectOf(scene().get());
     const QRectF visible = mapToScene(viewport()->rect()).boundingRect();
-    const qreal fraction = page.height() > 0 ? (visible.top() - page.top()) / page.height() : 0;
+    qreal fraction = page.height() > 0 ? (visible.top() - page.top()) / page.height() : 0;
+
+    if (flowsAcross())
+    {
+        fraction = page.width() > 0 ? (visible.left() - page.left()) / page.width() : 0;
+    }
+
     return mController->activeSceneIndex() + qBound(0.0, fraction, 1.0);
 }
 
@@ -2924,13 +3204,21 @@ qreal UBBoardView::visiblePageFraction()
 
     const QRectF page = pageRectOf(scene().get());
     const QRectF visible = mapToScene(viewport()->rect()).boundingRect();
+
+    if (flowsAcross())
+    {
+        return page.width() > 0 ? visible.width() / page.width() : 1;
+    }
+
     return page.height() > 0 ? visible.height() / page.height() : 1;
 }
 
 void UBBoardView::showPageAtScale(int index, qreal scale)
 {
     mController->persistCurrentScene(false, true);
+    mShowingInPlace = true;
     mController->setActiveDocumentScene(index);
+    mShowingInPlace = false;
 
     const qreal newScale = transform().m11();
 
@@ -2967,8 +3255,20 @@ void UBBoardView::showDocumentPosition(qreal position)
     const QRectF page = pageRectOf(scene().get());
     const qreal visibleHeight = viewport()->height() / transform().m11();
     const qreal top = page.top() + fraction * page.height();
+    const qreal visibleWidth = viewport()->width() / transform().m11();
+    const qreal left = page.left() + fraction * page.width();
+    const int down = verticalScrollBar()->value();
+    const bool sideways = flowsAcross();
 
-    auto place = [this, top, visibleHeight, across]() {
+    auto place = [this, top, visibleHeight, across, left, visibleWidth, down, sideways]() {
+        if (sideways)
+        {
+            // The pages are beside each other: only the place across changes.
+            centerOn(QPointF(left + visibleWidth / 2, mapToScene(viewport()->rect().center()).y()));
+            verticalScrollBar()->setValue(down);
+            return;
+        }
+
         centerOn(QPointF(mapToScene(viewport()->rect().center()).x(), top + visibleHeight / 2));
         horizontalScrollBar()->setValue(across);
     };

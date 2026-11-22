@@ -42,13 +42,22 @@ UBDocumentScrollBar::UBDocumentScrollBar(UBBoardView* view, QWidget* parent)
         "QScrollBar::handle:vertical { background: rgba(200, 205, 215, 220); min-height: 40px; border-radius: 6px; margin: 2px; }"
         "QScrollBar::handle:vertical:hover, QScrollBar::handle:vertical:pressed { background: #f6d77a; }"
         "QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0px; }"
-        "QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { background: transparent; }");
+        "QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { background: transparent; }"
+        "QScrollBar:horizontal { background: rgba(40, 44, 52, 150); height: 14px; margin: 0px; border-radius: 7px; }"
+        "QScrollBar::handle:horizontal { background: rgba(200, 205, 215, 220); min-width: 40px; border-radius: 6px; margin: 2px; }"
+        "QScrollBar::handle:horizontal:hover, QScrollBar::handle:horizontal:pressed { background: #f6d77a; }"
+        "QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { width: 0px; }"
+        "QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal { background: transparent; }");
     setCursor(Qt::ArrowCursor);
     hide();
 
     connect(mView, &UBBoardView::documentPositionChanged, this, &UBDocumentScrollBar::updateFromView);
     connect(UBApplication::boardController, &UBBoardController::activeSceneChanged, this, &UBDocumentScrollBar::updateFromView);
     connect(this, &QScrollBar::valueChanged, this, &UBDocumentScrollBar::showPosition);
+    connect(mView, &UBBoardView::pageFlowChanged, this, [this]() {
+        placeBesideView();
+        updateFromView();
+    });
 
     mShowTimer = new QTimer(this);
     mShowTimer->setSingleShot(true);
@@ -81,8 +90,20 @@ int UBDocumentScrollBar::barWidth()
 void UBDocumentScrollBar::placeBesideView()
 {
     // The view may be one side of the double board, inside its splitter.
+    // Along the right edge, or along the bottom when the pages are beside each other.
     const QRect view(mView->mapTo(parentWidget(), QPoint(0, 0)), mView->size());
-    setGeometry(view.right() - barWidth() + 1, view.top(), barWidth(), view.height());
+
+    if (mView->pageFlow() != UBBoardView::VerticalFlow)
+    {
+        setOrientation(Qt::Horizontal);
+        setGeometry(view.left(), view.bottom() - barWidth() + 1, view.width(), barWidth());
+    }
+    else
+    {
+        setOrientation(Qt::Vertical);
+        setGeometry(view.right() - barWidth() + 1, view.top(), barWidth(), view.height());
+    }
+
     raise();
 }
 
@@ -147,9 +168,12 @@ void UBDocumentScrollBar::checkPointer()
         return;
     }
 
-    // Close to the right edge of the board, or on the bar.
+    // Close to the right edge of the board, or to its bottom edge when the
+    // pages are beside each other, or on the bar.
     const QRect view(mView->mapToGlobal(QPoint(0, 0)), mView->size());
-    const QRect zone(view.right() - 3 * barWidth(), view.top(), 3 * barWidth() + 1, view.height());
+    const QRect zone = mView->pageFlow() != UBBoardView::VerticalFlow
+                           ? QRect(view.left(), view.bottom() - 3 * barWidth(), view.width(), 3 * barWidth() + 1)
+                           : QRect(view.right() - 3 * barWidth(), view.top(), 3 * barWidth() + 1, view.height());
 
     if (zone.contains(QCursor::pos()) || isSliderDown())
     {

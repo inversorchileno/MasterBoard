@@ -86,6 +86,19 @@ public:
     /** @brief Shows the page and the place of a document position, at the same zoom. */
     void showDocumentPosition(qreal position);
 
+    /** @brief How the pages follow each other on the board, as in the page settings of Samsung Notes. */
+    enum PageFlow
+    {
+        VerticalFlow = 0,   ///< One page under the other.
+        HorizontalFlow = 1, ///< One page beside the other.
+        TwoPagesFlow = 2    ///< Two pages side by side, as an open notebook: 1 and 2, 3 and 4...
+    };
+
+    static PageFlow pageFlow();
+
+    /** @brief Keeps the way the pages follow each other and shows the pages that way. */
+    void setPageFlow(PageFlow flow);
+
     /** @brief A dark frame telling that this side of the double board is the active one. */
     void setActiveFrameShown(bool shown);
     void updateSnapIndicator(Qt::Corner corner, QPointF snapPoint, double angle = 0);
@@ -103,6 +116,9 @@ signals:
 
     /** @brief The view moved in the document: scrolled, zoomed or on another page. */
     void documentPositionChanged();
+
+    /** @brief The pages follow each other another way: under or beside. */
+    void pageFlowChanged();
 
 protected:
 
@@ -197,7 +213,41 @@ private:
         /** @brief The space between two pages, in units of the page. */
         qreal pageGap() const;
 
+        /** @brief The space after a page, before the next one: smaller between the two pages of a pair. */
+        qreal gapAfter(int index) const;
+
+        /** @brief True when the pages are beside each other rather than one under the other. */
+        static bool flowsAcross();
+
+        /** @brief A page around the current one, and where it is shown, in units of the current page. */
+        struct NeighbourPlace
+        {
+            int index;
+            std::shared_ptr<UBGraphicsScene> scene;
+            QRectF source;
+            QRectF target;
+        };
+
+        /** @brief The pages before and after the current one, up to those beyond the given area. */
+        QList<NeighbourPlace> neighbourPlaces(const QRectF& area);
+
+        /** @brief Shows a page around the current one as the current page, without moving the picture. */
+        void showNeighbourInPlace(int index, const QRectF& target);
+
+        /** @brief Makes the page under a point of the view the current one, when it is one around it. */
+        void switchToPageAt(const QPointF& viewPoint);
+
+        /** @brief The two pages of the pair of the current page, in units of the current page. */
+        QRectF pairRect();
+
+        /** @brief Shows the pair of pages starting with the given one, at the same zoom. */
+        void showPair(int first, bool fromTop);
+
+        /** @brief Zooms so that the two pages of the pair fill the view. */
+        void fitPair();
+
         bool mNeighbourRepaintPending{false};
+        bool mShowingInPlace{false};
         bool mActiveFrameShown{false};
         int mLastNeighbourIndex{-1};
         int mNeighbourRepaints{0};

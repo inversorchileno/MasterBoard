@@ -48,6 +48,9 @@ class UBBackgroundPalette : public UBActionPalette
         void showTemplates(bool shown);
         QLayout* createLineColor();
 
+        /** @brief The choice of how the pages follow each other: under, beside, or two by two. */
+        QLayout* createPageFlow();
+
         /** @brief The setting of the color of the lines for the background of the page: light or dark. */
         static UBSetting* lineColorSetting();
         void showLineColor();
@@ -68,6 +71,7 @@ class UBBackgroundPalette : public UBActionPalette
         QCheckBox* mSundayFirst{nullptr};
         QMap<UBPageTemplates::Template, QToolButton*> mTemplateButtons;
 
+        UBSegmentedChoice* mPageFlow{nullptr};
         UBColorSwatches* mLineColors{nullptr};
         QSlider* mLineOpacity{nullptr};
         QLabel* mLineColorLabel{nullptr};

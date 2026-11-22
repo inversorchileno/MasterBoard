@@ -7,6 +7,8 @@
 #include <QGraphicsView>
 #include <QSlider>
 
+#include "board/UBBoardController.h"
+#include "board/UBBoardView.h"
 #include "domain/UBPageTemplates.h"
 #include "frameworks/UBPlatformUtils.h"
 #include "gui/UBMainWindow.h"
@@ -17,6 +19,47 @@ static QList<QColor> pageColors()
     // White and black first, then light colors to write on and two dark ones.
     return { QColor("#ffffff"), QColor("#000000"), QColor("#fdf6e3"), QColor("#fff7b0"), QColor("#dbeafe"),
              QColor("#dcfce7"), QColor("#fde2ec"), QColor("#1e3a5f"), QColor("#1f4d2b") };
+}
+
+// The drawing of a way the pages follow each other: the page in the middle,
+// and the edges of the pages around it, as in the page settings of Samsung Notes.
+static QIcon pageFlowIcon(UBBoardView::PageFlow flow)
+{
+    QPixmap pixmap(48, 28);
+    pixmap.fill(Qt::transparent);
+
+    QPainter painter(&pixmap);
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.setPen(QPen(QColor("#4b5563"), 1.6));
+
+    auto sheet = [&painter](const QRectF& rect, bool middle) {
+        painter.setBrush(middle ? QColor("#f59e5b") : Qt::transparent);
+        painter.drawRoundedRect(rect, 2, 2);
+    };
+
+    switch (flow)
+    {
+    case UBBoardView::VerticalFlow:
+        sheet(QRectF(18.5, -5, 11, 8), false);
+        sheet(QRectF(18.5, 7.5, 11, 13), true);
+        sheet(QRectF(18.5, 24.5, 11, 8), false);
+        break;
+
+    case UBBoardView::HorizontalFlow:
+        sheet(QRectF(-4, 7.5, 9, 13), false);
+        sheet(QRectF(18.5, 7.5, 11, 13), true);
+        sheet(QRectF(43, 7.5, 9, 13), false);
+        break;
+
+    case UBBoardView::TwoPagesFlow:
+        sheet(QRectF(-6, 7.5, 9, 13), false);
+        sheet(QRectF(13, 7.5, 11, 13), true);
+        sheet(QRectF(24, 7.5, 11, 13), true);
+        sheet(QRectF(45, 7.5, 9, 13), false);
+        break;
+    }
+
+    return QIcon(pixmap);
 }
 
 UBBackgroundPalette::UBBackgroundPalette(QList<QAction*> actions, QWidget * parent)
@@ -75,6 +118,8 @@ void UBBackgroundPalette::init()
     mTemplates = createTemplates();
     mTemplates->hide();
     mVLayout->addWidget(mTemplates);
+
+    mVLayout->addLayout(createPageFlow());
 
     // Fully opaque, so that the page under it does not show through.
     setBackgroundBrush(UBSettings::opaquePaletteColor);
@@ -276,6 +321,33 @@ QLayout* UBBackgroundPalette::createLineColor()
     connect(mLineColors, &UBColorSwatches::colorChosen, this, apply);
     connect(mLineOpacity, &QSlider::valueChanged, this, apply);
 
+    return row;
+}
+
+QLayout* UBBackgroundPalette::createPageFlow()
+{
+    // How the pages follow each other: under, beside, or two by two.
+    auto row = new QHBoxLayout();
+    auto label = new QLabel(tr("Scroll direction"), this);
+    label->setStyleSheet("QLabel { color : white; }");
+
+    mPageFlow = new UBSegmentedChoice({ tr("Vertical"), tr("Horizontal"), tr("Horizontal in 2 pages") }, this);
+    mPageFlow->setIcons({ pageFlowIcon(UBBoardView::VerticalFlow), pageFlowIcon(UBBoardView::HorizontalFlow),
+                          pageFlowIcon(UBBoardView::TwoPagesFlow) });
+    mPageFlow->setToolTip(tr("The pages one under the other, one beside the other, or two by two as an open notebook"));
+    mPageFlow->setChoice(UBBoardView::pageFlow());
+
+    connect(mPageFlow, &UBSegmentedChoice::choiceChanged, this, [](int choice) {
+        if (UBBoardView* view = UBApplication::boardController->controlView())
+        {
+            view->setPageFlow(UBBoardView::PageFlow(choice));
+        }
+    });
+
+    row->addSpacing(16);
+    row->addWidget(label);
+    row->addWidget(mPageFlow);
+    row->addStretch(1);
     return row;
 }
 

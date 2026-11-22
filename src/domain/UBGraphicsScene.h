@@ -382,6 +382,7 @@ public slots:
 
         void setBackground(bool pIsDark, UBPageBackground pBackground);
         void setBackgroundZoomFactor(qreal zoom);
+        qreal backgroundZoomFactor() const { return mZoomFactor; }
         void setBackgroundGridSize(int pSize);
         void setIntermediateLines(bool checked);
         void setDrawingMode(bool bModeDesktop);
