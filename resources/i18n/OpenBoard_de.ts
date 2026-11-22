@@ -1425,21 +1425,19 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <translation>Dokument zu Favoriten hinzufügen</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Hints and tips</source>
-        <translation>Tipps und Tricks</translation>
+        <translation type="vanished">Tipps und Tricks</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Open Hints and tips</source>
-        <translation>Tipps und Tricks öffnen</translation>
+        <translation type="vanished">Tipps und Tricks öffnen</translation>
     </message>
     <message>
         <source>favorite</source>
         <translation type="vanished">Favorit</translation>
     </message>
     <message>
-        <location line="-20"/>
+        <location line="-3"/>
         <source>Favorite</source>
         <translation>Favorit</translation>
     </message>
@@ -1449,7 +1447,17 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <translation>Strg+P</translation>
     </message>
     <message>
-        <location line="+774"/>
+        <location line="+758"/>
+        <source>Program guide</source>
+        <translation>Programmanleitung</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Open the program guide</source>
+        <translation>Die Programmanleitung öffnen</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Snap to grid</source>
         <translation>Am Gitter einrasten</translation>
     </message>
@@ -1650,7 +1658,7 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+728"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
         <source>AI</source>
         <translation>KI</translation>
     </message>
@@ -2018,9 +2026,9 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <translation type="vanished">Podcast</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+416"/>
         <location line="+48"/>
-        <location line="+221"/>
+        <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
         <translation>Ihre UBX-Datei kann nicht direkt geöffnet werden. Bitte importieren Sie die Datei im Dokumentenmodus</translation>
     </message>
@@ -2445,7 +2453,7 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
 <context>
     <name>UBCommentOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+775"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+773"/>
         <source>Quick note</source>
         <translation>Kurznotiz</translation>
     </message>
@@ -3207,7 +3215,7 @@ Möchten Sie fortfahren?</translation>
 <context>
     <name>UBEmojiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1204"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
         <translation>Emojis und GIFs</translation>
     </message>
@@ -3305,7 +3313,7 @@ Möchten Sie fortfahren?</translation>
 <context>
     <name>UBEraserOptionsPanel</name>
     <message>
-        <location line="-283"/>
+        <location line="-286"/>
         <source>Eraser</source>
         <translation>Löschen</translation>
     </message>
@@ -3326,6 +3334,11 @@ Möchten Sie fortfahren?</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -3688,12 +3701,11 @@ Möchten Sie fortfahren?</translation>
 <context>
     <name>UBGitHubUpdater</name>
     <message>
-        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+85"/>
         <source>%1 (build %2)</source>
-        <translation>%1 (Build %2)</translation>
+        <translation type="vanished">%1 (Build %2)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
         <translation>Sie verwenden Master Board %1.</translation>
     </message>
@@ -3721,27 +3733,43 @@ Möchten Sie fortfahren?</translation>
         <translation>Master Board konnte GitHub nicht erreichen, um nach einer neuen Version zu suchen. Prüfen Sie die Internetverbindung und versuchen Sie es erneut.</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
-        <translation>Eine neue Version von Master Board ist verfügbar (Build %1).
+        <translation type="vanished">Eine neue Version von Master Board ist verfügbar (Build %1).
 
 Ihre Seite zum Herunterladen öffnen?</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+50"/>
         <source>You have the latest version of Master Board.</source>
         <translation>Sie haben die neueste Version von Master Board.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>A new version of Master Board is available (build %1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation>Eine neue Version von Master Board ist verfügbar (Build %1).
+        <translation type="vanished">Eine neue Version von Master Board ist verfügbar (Build %1).
 
 Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, schließt sich und startet neu.</translation>
+    </message>
+    <message>
+        <location line="-16"/>
+        <source>A new version of Master Board is available (%1).
+
+Open its page to download it?</source>
+        <translation>Eine neue Version von Master Board ist verfügbar (%1).
+
+Ihre Seite zum Herunterladen öffnen?</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>A new version of Master Board is available (%1).
+
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>Eine neue Version von Master Board ist verfügbar (%1).
+
+Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, schließt sich und öffnet sich wieder.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -4284,7 +4312,7 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
 <context>
     <name>UBLaserOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+102"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+103"/>
         <source>Laser pointer</source>
         <translation>Laserpointer</translation>
     </message>
@@ -4310,6 +4338,11 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4449,7 +4482,7 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation type="vanished">Seitengröße</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+141"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4569,11 +4602,21 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation>Eigene Größe...</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Canvas measurements</source>
+        <translation>Maße der Leinwand</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
+        <translation>Lineale in Pixeln oben und links auf der Seite, ab 0 in ihrer oberen linken Ecke</translation>
+    </message>
+    <message>
         <source>Read and dictate</source>
         <translation type="vanished">Vorlesen und diktieren</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+12"/>
         <source>Read aloud</source>
         <translation>Vorlesen</translation>
     </message>
@@ -4617,13 +4660,11 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation>Tastenkürzel</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+31"/>
         <source>Creator</source>
-        <translation>Schöpfer</translation>
+        <translation type="vanished">Schöpfer</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+48"/>
         <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
         <translation>Master Board wurde von Luis erstellt, auf YouTube bekannt als „Inversor Chileno“.</translation>
     </message>
@@ -4686,7 +4727,7 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation type="vanished">Schreibt, was in einer Aufnahme gesagt wird; kommt mit der KI von Master Board</translation>
     </message>
     <message>
-        <location line="-241"/>
+        <location line="-244"/>
         <source>Full screen</source>
         <translation>Vollbild</translation>
     </message>
@@ -4696,7 +4737,7 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation>&amp;Über</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+13"/>
         <source>Master Board on GitHub</source>
         <translation>Master Board auf GitHub</translation>
     </message>
@@ -4711,7 +4752,13 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation>Neueste Version von GitHub herunterladen und installieren</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+8"/>
+        <location line="+15"/>
+        <source>About Master Board</source>
+        <translation>Über Master Board</translation>
+    </message>
+    <message>
+        <location line="+99"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Gespeichert</translation>
@@ -4795,12 +4842,17 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
 <context>
     <name>UBMarkerOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-165"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-167"/>
         <source>Marker</source>
         <translation>Marker</translation>
     </message>
     <message>
         <location line="+10"/>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4821,8 +4873,12 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
     </message>
     <message>
         <location line="+3"/>
+        <source>Opacity</source>
+        <translation>Deckkraft</translation>
+    </message>
+    <message>
         <source>Advanced</source>
-        <translation>Erweitert</translation>
+        <translation type="vanished">Erweitert</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4833,7 +4889,7 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
 <context>
     <name>UBMeasureOptionsPanel</name>
     <message>
-        <location line="+406"/>
+        <location line="+407"/>
         <source>Measurements</source>
         <translation>Messungen</translation>
     </message>
@@ -4937,6 +4993,26 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
     </message>
     <message>
         <location line="+19"/>
+        <source>Finish measure</source>
+        <translation>Messung beenden</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ends the shape at its last corner, as Enter does</source>
+        <translation>Beendet die Form an ihrer letzten Ecke, wie die Eingabetaste</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Modify</source>
+        <translation>Ändern</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Move the corners of the shape; Enter or Finish measure ends</source>
+        <translation>Die Ecken der Form verschieben; Eingabetaste oder Messung beenden schließt ab</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Restart</source>
         <translation>Neu beginnen</translation>
     </message>
@@ -4946,17 +5022,31 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation>Einheit wählen und die Referenz neu zeichnen</translation>
     </message>
     <message>
-        <location line="+419"/>
+        <location line="+498"/>
         <source>Distance</source>
         <translation>Entfernung</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Drag from one end to the other.</source>
-        <translation>Ziehen Sie von einem Ende zum anderen.</translation>
+        <source>Click at the start and at the end.</source>
+        <translation>Klicken Sie auf den Anfang und auf das Ende.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+14"/>
+        <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
+        <translation>Klicken Sie auf Anfang und Ende einer Linie, die 1 %1 misst: Sie ist die Referenz der Messungen.</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Drag the corners; Enter or Finish measure ends.</source>
+        <translation>Ziehen Sie die Ecken; Eingabetaste oder Messung beenden schließt ab.</translation>
+    </message>
+    <message>
+        <source>Drag from one end to the other.</source>
+        <translation type="vanished">Ziehen Sie von einem Ende zum anderen.</translation>
+    </message>
+    <message>
+        <location line="-27"/>
         <source>Perimeter</source>
         <translation>Umfang</translation>
     </message>
@@ -4972,9 +5062,8 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation>Fläche</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Draw a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation>Zeichnen Sie eine Linie, die 1 %1 misst: Sie ist die Referenz der Messungen.</translation>
+        <translation type="vanished">Zeichnen Sie eine Linie, die 1 %1 misst: Sie ist die Referenz der Messungen.</translation>
     </message>
 </context>
 <context>
@@ -5066,7 +5155,7 @@ Möchten Sie diese Fehler für diesen Computer ignorieren?</translation>
 <context>
     <name>UBNoteOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+983"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+981"/>
         <source>Note</source>
         <translation>Notiz</translation>
     </message>
@@ -5387,7 +5476,7 @@ Das geht auch später mit Start &gt; Text erkennen.</translation>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1560"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
         <source>Pen</source>
         <translation>Stift</translation>
     </message>
@@ -5441,6 +5530,11 @@ Dynamische Breite</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -5451,6 +5545,11 @@ Dynamische Breite</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Opacity</source>
+        <translation>Deckkraft</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> %</source>
         <translation> %</translation>
     </message>
@@ -5621,7 +5720,7 @@ Dynamische Breite</translation>
 <context>
     <name>UBPreferencesController</name>
     <message>
-        <location filename="../../src/core/UBPreferencesController.cpp" line="+161"/>
+        <location filename="../../src/core/UBPreferencesController.cpp" line="+164"/>
         <source>Language</source>
         <translation>Sprache</translation>
     </message>
@@ -5697,11 +5796,12 @@ Dynamische Breite</translation>
     </message>
     <message>
         <location line="+34"/>
+        <location line="+403"/>
         <source>Theme</source>
         <translation>Design</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-398"/>
         <source>Same as Windows</source>
         <translation>Wie Windows</translation>
     </message>
@@ -5726,23 +5826,25 @@ Dynamische Breite</translation>
         <translation>Grau</translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
-        <translation>Die Farben der Menüleiste, der Optionen der Werkzeuge und des Zooms. Das neue Design gilt beim nächsten Start von Master Board.</translation>
+        <translation type="vanished">Die Farben der Menüleiste, der Optionen der Werkzeuge und des Zooms. Das neue Design gilt beim nächsten Start von Master Board.</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+105"/>
         <source>Categories</source>
         <translation>Kategorien</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <location line="+262"/>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation type="vanished">Version %1</translation>
     </message>
     <message>
-        <location line="-255"/>
+        <location line="-87"/>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
+        <translation>Die Farben der Menüleiste, der Optionen der Werkzeuge und des Zooms. Für ein neues Design startet Master Board von selbst neu.</translation>
+    </message>
+    <message>
+        <location line="+117"/>
         <source>Internet</source>
         <translation>Internet</translation>
     </message>
@@ -5838,6 +5940,11 @@ Dynamische Breite</translation>
         <translation> px</translation>
     </message>
     <message>
+        <location line="+130"/>
+        <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
+        <translation>Master Board startet neu, um das neue Design zu zeigen. Ihre Dokumente werden vorher gespeichert.</translation>
+    </message>
+    <message>
         <source>version: </source>
         <translation type="vanished">Version: </translation>
     </message>
@@ -5846,7 +5953,7 @@ Dynamische Breite</translation>
         <translation type="vanished"> (Build %1)</translation>
     </message>
     <message>
-        <location line="+179"/>
+        <location line="+66"/>
         <source>Top</source>
         <translation>Oben</translation>
     </message>
@@ -5875,7 +5982,7 @@ Dynamische Breite</translation>
         <translation type="vanished">Laserpointer</translation>
     </message>
     <message>
-        <location line="-229"/>
+        <location line="-246"/>
         <source>Use all available displays</source>
         <translation>Alle verfügbaren Bildschirme nutzen</translation>
     </message>
@@ -6185,7 +6292,7 @@ Dynamische Breite</translation>
 <context>
     <name>UBSelectorOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1434"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1435"/>
         <source>Select</source>
         <translation>Auswählen</translation>
     </message>
@@ -6238,7 +6345,7 @@ Dynamische Breite</translation>
         <translation type="vanished">Rechteck</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-655"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
         <translation>Formen</translation>
     </message>
@@ -6288,35 +6395,40 @@ Dynamische Breite</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+4"/>
+        <location line="+5"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+181"/>
+        <location line="-1"/>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+177"/>
         <source>Line style</source>
         <translation>Linienstil</translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-177"/>
         <source>Border styles</source>
         <translation>Randstile</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location line="+168"/>
+        <location line="+164"/>
         <source>Line start</source>
         <translation>Linienanfang</translation>
     </message>
     <message>
-        <location line="-164"/>
-        <location line="+165"/>
+        <location line="-160"/>
+        <location line="+161"/>
         <source>Line end</source>
         <translation>Linienende</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-157"/>
         <source>Tapered</source>
         <translation>Spitz zulaufend</translation>
     </message>
@@ -6337,17 +6449,17 @@ Dynamische Breite</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+152"/>
+        <location line="+148"/>
         <source>Opacity</source>
         <translation>Deckkraft</translation>
     </message>
     <message>
-        <location line="-151"/>
+        <location line="-147"/>
         <source> %</source>
         <translation> %</translation>
     </message>
     <message>
-        <location line="+141"/>
+        <location line="+137"/>
         <source>Line</source>
         <translation>Linie</translation>
     </message>
@@ -6842,7 +6954,7 @@ Dynamische Breite</translation>
 <context>
     <name>UBSpotlightOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-354"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-351"/>
         <location line="+4"/>
         <source>Spotlight</source>
         <translation>Spotlight</translation>
@@ -6887,7 +6999,7 @@ Dynamische Breite</translation>
 <context>
     <name>UBStampOptionsPanel</name>
     <message>
-        <location line="+520"/>
+        <location line="+518"/>
         <source>Stamp</source>
         <translation>Stempel</translation>
     </message>
@@ -6915,9 +7027,13 @@ Dynamische Breite</translation>
 <context>
     <name>UBStartupHintsPalette</name>
     <message>
-        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Tips and tricks</source>
-        <translation>Tipps und Tricks</translation>
+        <translation type="vanished">Tipps und Tricks</translation>
+    </message>
+    <message>
+        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
+        <source>Program guide</source>
+        <translation>Programmanleitung</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6994,12 +7110,17 @@ Dynamische Breite</translation>
 <context>
     <name>UBTextOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-264"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-265"/>
         <source>Text</source>
         <translation>Text</translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -7130,7 +7251,7 @@ Miniaturansicht der Seite %1 wird geladen</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1268"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
         <source>Color</source>
         <translation>Farbe</translation>
     </message>
@@ -7328,7 +7449,7 @@ Bitte starten Sie die Anwendung erneut, um auf die aktualisierten Dokumente zugr
         <translation type="vanished">Diktieren</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+682"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
         <translation>Vorlesen</translation>
     </message>

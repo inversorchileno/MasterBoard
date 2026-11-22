@@ -618,7 +618,17 @@ Do you wish to override the security check and continue ?   </source>
         <translation>在頁面加入聲音</translation>
     </message>
     <message>
-        <location line="+399"/>
+        <location line="+383"/>
+        <source>Program guide</source>
+        <translation>程式指南</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Open the program guide</source>
+        <translation>開啟程式指南</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Snap to grid</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1438,17 +1448,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Hints and tips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Open Hints and tips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-20"/>
+        <location line="-3"/>
         <source>Favorite</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1636,7 +1636,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+728"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
         <source>AI</source>
         <translation>AI</translation>
     </message>
@@ -2004,9 +2004,9 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">Podcast</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+416"/>
         <location line="+48"/>
-        <location line="+221"/>
+        <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2431,7 +2431,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBCommentOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+775"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+773"/>
         <source>Quick note</source>
         <translation>快速附註</translation>
     </message>
@@ -3149,7 +3149,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEmojiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1204"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
         <translation>表情符號和GIF</translation>
     </message>
@@ -3247,7 +3247,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEraserOptionsPanel</name>
     <message>
-        <location line="-283"/>
+        <location line="-286"/>
         <source>Eraser</source>
         <translation>橡皮擦</translation>
     </message>
@@ -3268,6 +3268,11 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+3"/>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -3629,12 +3634,11 @@ Do you want to continue?</source>
 <context>
     <name>UBGitHubUpdater</name>
     <message>
-        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+85"/>
         <source>%1 (build %2)</source>
-        <translation>%1（組建 %2）</translation>
+        <translation type="vanished">%1（組建 %2）</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
         <translation>你正在使用 Master Board %1。</translation>
     </message>
@@ -3662,27 +3666,43 @@ Do you want to continue?</source>
         <translation>Master Board 無法連線到 GitHub 尋找新版本。請檢查網路連線後再試一次。</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>A new version of Master Board is available (build %1).
 
 Open its page to download it?</source>
-        <translation>Master Board 有新版本（組建 %1）。
+        <translation type="vanished">Master Board 有新版本（組建 %1）。
 
 開啟其頁面下載嗎？</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+50"/>
         <source>You have the latest version of Master Board.</source>
         <translation>您使用的是最新版本的 Master Board。</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>A new version of Master Board is available (build %1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation>Master Board 有新版本可用 (版本 %1)。
+        <translation type="vanished">Master Board 有新版本可用 (版本 %1)。
 
 現在下載並安裝嗎?Master Board 會儲存您的文件,關閉後重新開啟。</translation>
+    </message>
+    <message>
+        <location line="-16"/>
+        <source>A new version of Master Board is available (%1).
+
+Open its page to download it?</source>
+        <translation>Master Board 有新版本（%1）。
+
+開啟其頁面下載嗎？</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>A new version of Master Board is available (%1).
+
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation>Master Board 有新版本（%1）。
+
+現在下載並安裝嗎？Master Board 會儲存你的文件，關閉後重新開啟。</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -4225,7 +4245,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBLaserOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+102"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+103"/>
         <source>Laser pointer</source>
         <translation>雷射筆</translation>
     </message>
@@ -4251,6 +4271,11 @@ Download and install it now? Master Board saves your documents, closes and opens
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4390,7 +4415,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">頁面大小</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+141"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4510,11 +4535,21 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>自訂大小...</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Canvas measurements</source>
+        <translation>畫布刻度</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
+        <translation>頁面頂部和左側的像素尺規，從左上角的 0 開始</translation>
+    </message>
+    <message>
         <source>Read and dictate</source>
         <translation type="vanished">朗讀和聽寫</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+12"/>
         <source>Read aloud</source>
         <translation>朗讀</translation>
     </message>
@@ -4558,13 +4593,11 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>快速鍵</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+31"/>
         <source>Creator</source>
-        <translation>創作者</translation>
+        <translation type="vanished">創作者</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+48"/>
         <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
         <translation>Master Board 由 Luis 創作，他在 YouTube 上以「Inversor Chileno」為人所知。</translation>
     </message>
@@ -4627,7 +4660,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">寫出錄音中所說的內容；將隨 Master Board 的 AI 推出</translation>
     </message>
     <message>
-        <location line="-241"/>
+        <location line="-244"/>
         <source>Full screen</source>
         <translation>全螢幕</translation>
     </message>
@@ -4637,7 +4670,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>關於(&amp;A)</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+13"/>
         <source>Master Board on GitHub</source>
         <translation>GitHub 上的 Master Board</translation>
     </message>
@@ -4652,7 +4685,13 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>從 GitHub 下載並安裝最新版本</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+8"/>
+        <location line="+15"/>
+        <source>About Master Board</source>
+        <translation>關於 Master Board</translation>
+    </message>
+    <message>
+        <location line="+99"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>已儲存</translation>
@@ -4736,12 +4775,17 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBMarkerOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-165"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-167"/>
         <source>Marker</source>
         <translation>提示筆</translation>
     </message>
     <message>
         <location line="+10"/>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4762,8 +4806,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     </message>
     <message>
         <location line="+3"/>
+        <source>Opacity</source>
+        <translation>不透明度</translation>
+    </message>
+    <message>
         <source>Advanced</source>
-        <translation>進階</translation>
+        <translation type="vanished">進階</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4774,7 +4822,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBMeasureOptionsPanel</name>
     <message>
-        <location line="+406"/>
+        <location line="+407"/>
         <source>Measurements</source>
         <translation>測量</translation>
     </message>
@@ -4878,6 +4926,26 @@ Download and install it now? Master Board saves your documents, closes and opens
     </message>
     <message>
         <location line="+19"/>
+        <source>Finish measure</source>
+        <translation>完成測量</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ends the shape at its last corner, as Enter does</source>
+        <translation>在最後一個角結束圖形，與按 Enter 相同</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Modify</source>
+        <translation>修改</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Move the corners of the shape; Enter or Finish measure ends</source>
+        <translation>移動圖形的角；按 Enter 或「完成測量」結束</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Restart</source>
         <translation>重新開始</translation>
     </message>
@@ -4887,17 +4955,31 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>重新選擇單位並畫出參照</translation>
     </message>
     <message>
-        <location line="+419"/>
+        <location line="+498"/>
         <source>Distance</source>
         <translation>距離</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Drag from one end to the other.</source>
-        <translation>從一端拖到另一端。</translation>
+        <source>Click at the start and at the end.</source>
+        <translation>點擊起點和終點。</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+14"/>
+        <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
+        <translation>點擊一條長 1 %1 的線的起點和終點：它是測量的參照。</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Drag the corners; Enter or Finish measure ends.</source>
+        <translation>拖動角點；按 Enter 或「完成測量」結束。</translation>
+    </message>
+    <message>
+        <source>Drag from one end to the other.</source>
+        <translation type="vanished">從一端拖到另一端。</translation>
+    </message>
+    <message>
+        <location line="-27"/>
         <source>Perimeter</source>
         <translation>周長</translation>
     </message>
@@ -4913,9 +4995,8 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>面積</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Draw a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation>畫一條長 1 %1 的線：它是測量的參照。</translation>
+        <translation type="vanished">畫一條長 1 %1 的線：它是測量的參照。</translation>
     </message>
 </context>
 <context>
@@ -5001,7 +5082,7 @@ Do you want to ignore these errors for this host?</source>
 <context>
     <name>UBNoteOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+983"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+981"/>
         <source>Note</source>
         <translation>便箋</translation>
     </message>
@@ -5306,7 +5387,7 @@ It can also be done later with Home &gt; Recognize text.</source>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1560"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
         <source>Pen</source>
         <translation>電子筆</translation>
     </message>
@@ -5360,6 +5441,11 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -5370,6 +5456,11 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+4"/>
+        <source>Opacity</source>
+        <translation>不透明度</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> %</source>
         <translation> %</translation>
     </message>
@@ -5540,7 +5631,7 @@ Dynamic width</source>
 <context>
     <name>UBPreferencesController</name>
     <message>
-        <location filename="../../src/core/UBPreferencesController.cpp" line="+161"/>
+        <location filename="../../src/core/UBPreferencesController.cpp" line="+164"/>
         <source>Language</source>
         <translation>語言</translation>
     </message>
@@ -5616,11 +5707,12 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+34"/>
+        <location line="+403"/>
         <source>Theme</source>
         <translation>主題</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-398"/>
         <source>Same as Windows</source>
         <translation>與 Windows 相同</translation>
     </message>
@@ -5645,23 +5737,25 @@ Dynamic width</source>
         <translation>灰色</translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
-        <translation>選單列、工具選項和縮放的顏色。新主題將在下次啟動 Master Board 時生效。</translation>
+        <translation type="vanished">選單列、工具選項和縮放的顏色。新主題將在下次啟動 Master Board 時生效。</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+105"/>
         <source>Categories</source>
         <translation>類別</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <location line="+262"/>
         <source>Version %1</source>
-        <translation>版本 %1</translation>
+        <translation type="vanished">版本 %1</translation>
     </message>
     <message>
-        <location line="-255"/>
+        <location line="-87"/>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
+        <translation>選單列、工具選項和縮放的顏色。為顯示新主題，Master Board 會自動重新啟動。</translation>
+    </message>
+    <message>
+        <location line="+117"/>
         <source>Internet</source>
         <translation>網際網路</translation>
     </message>
@@ -5757,6 +5851,11 @@ Dynamic width</source>
         <translation> px</translation>
     </message>
     <message>
+        <location line="+130"/>
+        <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
+        <translation>Master Board 將重新啟動以顯示新主題。你的文件會先儲存。</translation>
+    </message>
+    <message>
         <source>version: </source>
         <translation type="vanished">版本：</translation>
     </message>
@@ -5765,7 +5864,7 @@ Dynamic width</source>
         <translation type="vanished"> (版本 %1)</translation>
     </message>
     <message>
-        <location line="+179"/>
+        <location line="+66"/>
         <source>Top</source>
         <translation>頂端</translation>
     </message>
@@ -5794,7 +5893,7 @@ Dynamic width</source>
         <translation type="vanished">雷射筆</translation>
     </message>
     <message>
-        <location line="-229"/>
+        <location line="-246"/>
         <source>Use all available displays</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6104,7 +6203,7 @@ Dynamic width</source>
 <context>
     <name>UBSelectorOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1434"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1435"/>
         <source>Select</source>
         <translation>選取</translation>
     </message>
@@ -6157,7 +6256,7 @@ Dynamic width</source>
         <translation type="vanished">矩形</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-655"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
         <translation>形狀</translation>
     </message>
@@ -6207,35 +6306,40 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+4"/>
+        <location line="+5"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+181"/>
+        <location line="-1"/>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+177"/>
         <source>Line style</source>
         <translation>線條樣式</translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-177"/>
         <source>Border styles</source>
         <translation>框線樣式</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location line="+168"/>
+        <location line="+164"/>
         <source>Line start</source>
         <translation>線條起點</translation>
     </message>
     <message>
-        <location line="-164"/>
-        <location line="+165"/>
+        <location line="-160"/>
+        <location line="+161"/>
         <source>Line end</source>
         <translation>線條終點</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-157"/>
         <source>Tapered</source>
         <translation>漸粗</translation>
     </message>
@@ -6256,17 +6360,17 @@ Dynamic width</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+152"/>
+        <location line="+148"/>
         <source>Opacity</source>
         <translation>透明度</translation>
     </message>
     <message>
-        <location line="-151"/>
+        <location line="-147"/>
         <source> %</source>
         <translation> %</translation>
     </message>
     <message>
-        <location line="+141"/>
+        <location line="+137"/>
         <source>Line</source>
         <translation>線條</translation>
     </message>
@@ -6761,7 +6865,7 @@ Dynamic width</source>
 <context>
     <name>UBSpotlightOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-354"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-351"/>
         <location line="+4"/>
         <source>Spotlight</source>
         <translation>聚光燈</translation>
@@ -6806,7 +6910,7 @@ Dynamic width</source>
 <context>
     <name>UBStampOptionsPanel</name>
     <message>
-        <location line="+520"/>
+        <location line="+518"/>
         <source>Stamp</source>
         <translation>印章</translation>
     </message>
@@ -6834,9 +6938,13 @@ Dynamic width</source>
 <context>
     <name>UBStartupHintsPalette</name>
     <message>
-        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Tips and tricks</source>
-        <translation>技巧與提示</translation>
+        <translation type="vanished">技巧與提示</translation>
+    </message>
+    <message>
+        <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
+        <source>Program guide</source>
+        <translation>程式指南</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6906,12 +7014,17 @@ Dynamic width</source>
 <context>
     <name>UBTextOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-264"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-265"/>
         <source>Text</source>
         <translation>文字</translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -7033,7 +7146,7 @@ Dynamic width</source>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1268"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
         <source>Color</source>
         <translation>顏色</translation>
     </message>
@@ -7231,7 +7344,7 @@ Please reboot the application to access the updated documents.</source>
         <translation type="vanished">聽寫</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+682"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
         <translation>朗讀</translation>
     </message>

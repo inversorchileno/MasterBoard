@@ -924,7 +924,17 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Afegeix un so a la pàgina</translation>
     </message>
     <message>
-        <location line="+399"/>
+        <location line="+383"/>
+        <source>Program guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Open the program guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Snap to grid</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1438,17 +1448,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Hints and tips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Open Hints and tips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-20"/>
+        <location line="-3"/>
         <source>Favorite</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1636,7 +1636,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+728"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1976,9 +1976,9 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">Podcast</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+416"/>
         <location line="+48"/>
-        <location line="+221"/>
+        <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2396,7 +2396,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBCommentOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+775"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+773"/>
         <source>Quick note</source>
         <translation>Nota ràpida</translation>
     </message>
@@ -3102,7 +3102,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEmojiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1204"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3144,7 +3144,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEraserOptionsPanel</name>
     <message>
-        <location line="-283"/>
+        <location line="-286"/>
         <source>Eraser</source>
         <translation>Esborrador</translation>
     </message>
@@ -3165,6 +3165,11 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+3"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -3526,12 +3531,7 @@ Do you want to continue?</source>
 <context>
     <name>UBGitHubUpdater</name>
     <message>
-        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+85"/>
-        <source>%1 (build %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3559,25 +3559,31 @@ Do you want to continue?</source>
         <translation>Master Board no ha pogut connectar amb GitHub per cercar una nova versió. Comproveu la connexió a internet i torneu-ho a provar.</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+50"/>
+        <source>You have the latest version of Master Board.</source>
+        <translation>Teniu l&apos;última versió de Master Board.</translation>
+    </message>
+    <message>
         <source>A new version of Master Board is available (build %1).
+
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation type="vanished">Hi ha una nova versió de Master Board (compilació %1).
+
+Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca i es torna a obrir.</translation>
+    </message>
+    <message>
+        <location line="-16"/>
+        <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>You have the latest version of Master Board.</source>
-        <translation>Teniu l&apos;última versió de Master Board.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>A new version of Master Board is available (build %1).
+        <location line="+21"/>
+        <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation>Hi ha una nova versió de Master Board (compilació %1).
-
-Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca i es torna a obrir.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+17"/>
@@ -4120,7 +4126,7 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
 <context>
     <name>UBLaserOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+102"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+103"/>
         <source>Laser pointer</source>
         <translation>Punter làser</translation>
     </message>
@@ -4146,6 +4152,11 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4285,7 +4296,7 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
         <translation type="vanished">Mida de la pàgina</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+141"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4405,11 +4416,21 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
         <translation>Mida personalitzada...</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Canvas measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Read and dictate</source>
         <translation type="vanished">Llegeix i dicta</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+12"/>
         <source>Read aloud</source>
         <translation>Llegeix en veu alta</translation>
     </message>
@@ -4445,13 +4466,11 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+31"/>
         <source>Creator</source>
-        <translation>Creador</translation>
+        <translation type="vanished">Creador</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+48"/>
         <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
         <translation>Master Board va ser creat per Luis, conegut a YouTube com a «Inversor Chileno».</translation>
     </message>
@@ -4514,7 +4533,7 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
         <translation type="vanished">Escriu el que es diu en una gravació; arribarà amb la IA de Master Board</translation>
     </message>
     <message>
-        <location line="-241"/>
+        <location line="-244"/>
         <source>Full screen</source>
         <translation>Pantalla completa</translation>
     </message>
@@ -4524,7 +4543,7 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
         <translation>&amp;Quant a</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+13"/>
         <source>Master Board on GitHub</source>
         <translation>Master Board a GitHub</translation>
     </message>
@@ -4539,7 +4558,13 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
         <translation>Baixa i instal·la l&apos;última versió des de GitHub</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+8"/>
+        <location line="+15"/>
+        <source>About Master Board</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+99"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Desat</translation>
@@ -4623,12 +4648,17 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
 <context>
     <name>UBMarkerOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-165"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-167"/>
         <source>Marker</source>
         <translation>Marcador</translation>
     </message>
     <message>
         <location line="+10"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4649,8 +4679,12 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
     </message>
     <message>
         <location line="+3"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Opacitat</translation>
+    </message>
+    <message>
         <source>Advanced</source>
-        <translation>Avançat</translation>
+        <translation type="vanished">Avançat</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4661,7 +4695,7 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
 <context>
     <name>UBMeasureOptionsPanel</name>
     <message>
-        <location line="+406"/>
+        <location line="+407"/>
         <source>Measurements</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4765,6 +4799,26 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
     </message>
     <message>
         <location line="+19"/>
+        <source>Finish measure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ends the shape at its last corner, as Enter does</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Modify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Move the corners of the shape; Enter or Finish measure ends</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Restart</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4774,17 +4828,27 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+419"/>
+        <location line="+498"/>
         <source>Distance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Drag from one end to the other.</source>
+        <source>Click at the start and at the end.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+14"/>
+        <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Drag the corners; Enter or Finish measure ends.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-27"/>
         <source>Perimeter</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4797,11 +4861,6 @@ Voleu baixar-la i instal·lar-la ara? Master Board desa els documents, es tanca 
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Draw a line that measures 1 %1: it is the reference of the measures.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4894,7 +4953,7 @@ Voleu ignorar aquests errors per a aquest amfitrió?</translation>
 <context>
     <name>UBNoteOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+983"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+981"/>
         <source>Note</source>
         <translation>Nota</translation>
     </message>
@@ -5195,7 +5254,7 @@ També es pot fer després amb Inici &gt; Reconeix el text.</translation>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1560"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
         <source>Pen</source>
         <translation>Bolígraf</translation>
     </message>
@@ -5249,6 +5308,11 @@ Amplada dinàmica</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -5259,6 +5323,11 @@ Amplada dinàmica</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Opacitat</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> %</source>
         <translation> %</translation>
     </message>
@@ -5429,7 +5498,7 @@ Amplada dinàmica</translation>
 <context>
     <name>UBPreferencesController</name>
     <message>
-        <location filename="../../src/core/UBPreferencesController.cpp" line="+161"/>
+        <location filename="../../src/core/UBPreferencesController.cpp" line="+164"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
@@ -5497,11 +5566,12 @@ Amplada dinàmica</translation>
     </message>
     <message>
         <location line="+34"/>
+        <location line="+403"/>
         <source>Theme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-398"/>
         <source>Same as Windows</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5527,22 +5597,21 @@ Amplada dinàmica</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+372"/>
+        <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-285"/>
         <source>Categories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
-        <location line="+262"/>
-        <source>Version %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-255"/>
+        <location line="+30"/>
         <source>Internet</source>
         <translation type="unfinished">Internet</translation>
     </message>
@@ -5646,7 +5715,7 @@ Amplada dinàmica</translation>
         <translation type="vanished"> (compilació %1)</translation>
     </message>
     <message>
-        <location line="+179"/>
+        <location line="+196"/>
         <source>Top</source>
         <translation>A dalt</translation>
     </message>
@@ -5675,7 +5744,7 @@ Amplada dinàmica</translation>
         <translation type="vanished">Punter làser</translation>
     </message>
     <message>
-        <location line="-229"/>
+        <location line="-246"/>
         <source>Use all available displays</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5985,7 +6054,7 @@ Amplada dinàmica</translation>
 <context>
     <name>UBSelectorOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1434"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1435"/>
         <source>Select</source>
         <translation>Selecciona</translation>
     </message>
@@ -6038,7 +6107,7 @@ Amplada dinàmica</translation>
         <translation type="vanished">Rectangle</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-655"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
         <translation type="unfinished">Formes</translation>
     </message>
@@ -6084,35 +6153,40 @@ Amplada dinàmica</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+4"/>
+        <location line="+5"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+181"/>
+        <location line="-1"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+177"/>
         <source>Line style</source>
         <translation>Estil de línia</translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-177"/>
         <source>Border styles</source>
         <translation>Estils de vora</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location line="+168"/>
+        <location line="+164"/>
         <source>Line start</source>
         <translation>Inici de la línia</translation>
     </message>
     <message>
-        <location line="-164"/>
-        <location line="+165"/>
+        <location line="-160"/>
+        <location line="+161"/>
         <source>Line end</source>
         <translation>Final de la línia</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-157"/>
         <source>Tapered</source>
         <translation>Cònica</translation>
     </message>
@@ -6133,17 +6207,17 @@ Amplada dinàmica</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+152"/>
+        <location line="+148"/>
         <source>Opacity</source>
         <translation>Opacitat</translation>
     </message>
     <message>
-        <location line="-151"/>
+        <location line="-147"/>
         <source> %</source>
         <translation> %</translation>
     </message>
     <message>
-        <location line="+141"/>
+        <location line="+137"/>
         <source>Line</source>
         <translation>Línia</translation>
     </message>
@@ -6638,7 +6712,7 @@ Amplada dinàmica</translation>
 <context>
     <name>UBSpotlightOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-354"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-351"/>
         <location line="+4"/>
         <source>Spotlight</source>
         <translation>Focus</translation>
@@ -6683,7 +6757,7 @@ Amplada dinàmica</translation>
 <context>
     <name>UBStampOptionsPanel</name>
     <message>
-        <location line="+520"/>
+        <location line="+518"/>
         <source>Stamp</source>
         <translation>Segell</translation>
     </message>
@@ -6712,7 +6786,7 @@ Amplada dinàmica</translation>
     <name>UBStartupHintsPalette</name>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
-        <source>Tips and tricks</source>
+        <source>Program guide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6775,12 +6849,17 @@ Amplada dinàmica</translation>
 <context>
     <name>UBTextOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-264"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-265"/>
         <source>Text</source>
         <translation>Text</translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -6902,7 +6981,7 @@ Amplada dinàmica</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1268"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
         <source>Color</source>
         <translation>Color</translation>
     </message>
@@ -7100,7 +7179,7 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
         <translation type="vanished">Dicta</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+682"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
         <translation type="unfinished">Llegeix en veu alta</translation>
     </message>

@@ -1017,7 +1017,17 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation>Gehitu soinu bat orrira</translation>
     </message>
     <message>
-        <location line="+399"/>
+        <location line="+383"/>
+        <source>Program guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Open the program guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Snap to grid</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1527,17 +1537,15 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation type="unfinished">Gehitu dokumentua gogokoetara</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Hints and tips</source>
-        <translation type="unfinished">Aholkuak eta laguntzak</translation>
+        <translation type="obsolete">Aholkuak eta laguntzak</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Open Hints and tips</source>
-        <translation type="unfinished">Ireki aholkuak eta laguntzak</translation>
+        <translation type="obsolete">Ireki aholkuak eta laguntzak</translation>
     </message>
     <message>
-        <location line="-20"/>
+        <location line="-3"/>
         <source>Favorite</source>
         <translation type="unfinished">Gogokoa</translation>
     </message>
@@ -1756,7 +1764,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+728"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2096,9 +2104,9 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation type="vanished">Podcasta</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+416"/>
         <location line="+48"/>
-        <location line="+221"/>
+        <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
         <translation type="unfinished">Ezin da zure UBX fitxategia zuzenean ireki. Mesedez, inporta ezazu dokumentu moduan</translation>
     </message>
@@ -2520,7 +2528,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
 <context>
     <name>UBCommentOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+775"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+773"/>
         <source>Quick note</source>
         <translation>Ohar azkarra</translation>
     </message>
@@ -3266,7 +3274,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEmojiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1204"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3308,7 +3316,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEraserOptionsPanel</name>
     <message>
-        <location line="-283"/>
+        <location line="-286"/>
         <source>Eraser</source>
         <translation>Borragoma</translation>
     </message>
@@ -3329,6 +3337,11 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+3"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -3698,12 +3711,7 @@ Do you want to continue?</source>
 <context>
     <name>UBGitHubUpdater</name>
     <message>
-        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+85"/>
-        <source>%1 (build %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3731,25 +3739,31 @@ Do you want to continue?</source>
         <translation>Master Board-ek ezin izan du GitHub-ekin konektatu bertsio berri bat bilatzeko. Egiaztatu interneteko konexioa eta saiatu berriro.</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+50"/>
+        <source>You have the latest version of Master Board.</source>
+        <translation>Master Board-en azken bertsioa duzu.</translation>
+    </message>
+    <message>
         <source>A new version of Master Board is available (build %1).
+
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation type="vanished">Master Board-en bertsio berri bat dago (%1. konpilazioa).
+
+Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, itxi eta berriro irekiko da.</translation>
+    </message>
+    <message>
+        <location line="-16"/>
+        <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>You have the latest version of Master Board.</source>
-        <translation>Master Board-en azken bertsioa duzu.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>A new version of Master Board is available (build %1).
+        <location line="+21"/>
+        <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation>Master Board-en bertsio berri bat dago (%1. konpilazioa).
-
-Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, itxi eta berriro irekiko da.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+17"/>
@@ -4296,7 +4310,7 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
 <context>
     <name>UBLaserOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+102"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+103"/>
         <source>Laser pointer</source>
         <translation>Laser erakuslea</translation>
     </message>
@@ -4322,6 +4336,11 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4461,7 +4480,7 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
         <translation type="vanished">Orriaren tamaina</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+141"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4581,11 +4600,21 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
         <translation>Tamaina pertsonalizatua...</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Canvas measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Read and dictate</source>
         <translation type="vanished">Irakurri eta diktatu</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+12"/>
         <source>Read aloud</source>
         <translation>Irakurri ozen</translation>
     </message>
@@ -4621,13 +4650,11 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+31"/>
         <source>Creator</source>
-        <translation>Sortzailea</translation>
+        <translation type="vanished">Sortzailea</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+48"/>
         <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
         <translation>Master Board Luisek sortu zuen, YouTuben «Inversor Chileno» izenez ezaguna.</translation>
     </message>
@@ -4690,7 +4717,7 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
         <translation type="vanished">Grabazio batean esaten dena idazten du; Master Board-en AArekin iritsiko da</translation>
     </message>
     <message>
-        <location line="-241"/>
+        <location line="-244"/>
         <source>Full screen</source>
         <translation>Pantaila osoa</translation>
     </message>
@@ -4700,7 +4727,7 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
         <translation>&amp;Honi buruz</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+13"/>
         <source>Master Board on GitHub</source>
         <translation>Master Board GitHub-en</translation>
     </message>
@@ -4715,7 +4742,13 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
         <translation>Deskargatu eta instalatu azken bertsioa GitHub-etik</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+8"/>
+        <location line="+15"/>
+        <source>About Master Board</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+99"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Gordeta</translation>
@@ -4799,12 +4832,17 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
 <context>
     <name>UBMarkerOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-165"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-167"/>
         <source>Marker</source>
         <translation>Errotulagailua</translation>
     </message>
     <message>
         <location line="+10"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4825,8 +4863,12 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
     </message>
     <message>
         <location line="+3"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Opakotasuna</translation>
+    </message>
+    <message>
         <source>Advanced</source>
-        <translation>Aurreratua</translation>
+        <translation type="vanished">Aurreratua</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4837,7 +4879,7 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
 <context>
     <name>UBMeasureOptionsPanel</name>
     <message>
-        <location line="+406"/>
+        <location line="+407"/>
         <source>Measurements</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4941,6 +4983,26 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
     </message>
     <message>
         <location line="+19"/>
+        <source>Finish measure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ends the shape at its last corner, as Enter does</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Modify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Move the corners of the shape; Enter or Finish measure ends</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Restart</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4950,17 +5012,27 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+419"/>
+        <location line="+498"/>
         <source>Distance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Drag from one end to the other.</source>
+        <source>Click at the start and at the end.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+14"/>
+        <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Drag the corners; Enter or Finish measure ends.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-27"/>
         <source>Perimeter</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4973,11 +5045,6 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Draw a line that measures 1 %1: it is the reference of the measures.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5070,7 +5137,7 @@ Ostalari onentzako errore hauek ez-ikusi nahi dituzu?</translation>
 <context>
     <name>UBNoteOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+983"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+981"/>
         <source>Note</source>
         <translation>Oharra</translation>
     </message>
@@ -5391,7 +5458,7 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1560"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
         <source>Pen</source>
         <translation>Boligrafoa</translation>
     </message>
@@ -5445,6 +5512,11 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -5455,6 +5527,11 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Opakotasuna</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> %</source>
         <translation> %</translation>
     </message>
@@ -5629,7 +5706,7 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBPreferencesController</name>
     <message>
-        <location filename="../../src/core/UBPreferencesController.cpp" line="+161"/>
+        <location filename="../../src/core/UBPreferencesController.cpp" line="+164"/>
         <source>Language</source>
         <translation>Hizkuntza</translation>
     </message>
@@ -5697,11 +5774,12 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+34"/>
+        <location line="+403"/>
         <source>Theme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-398"/>
         <source>Same as Windows</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5727,22 +5805,21 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+372"/>
+        <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-285"/>
         <source>Categories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
-        <location line="+262"/>
-        <source>Version %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-255"/>
+        <location line="+30"/>
         <source>Internet</source>
         <translation type="unfinished">Internet</translation>
     </message>
@@ -5846,7 +5923,7 @@ Zabalera dinamikoa</translation>
         <translation type="vanished"> (%1. konpilazioa)</translation>
     </message>
     <message>
-        <location line="+179"/>
+        <location line="+196"/>
         <source>Top</source>
         <translation>Goian</translation>
     </message>
@@ -5875,7 +5952,7 @@ Zabalera dinamikoa</translation>
         <translation type="vanished">Laser erakuslea</translation>
     </message>
     <message>
-        <location line="-229"/>
+        <location line="-246"/>
         <source>Use all available displays</source>
         <translation type="unfinished">Erabili pantaila eskuragarri guztiak</translation>
     </message>
@@ -6219,7 +6296,7 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBSelectorOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1434"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1435"/>
         <source>Select</source>
         <translation>Hautatu</translation>
     </message>
@@ -6272,7 +6349,7 @@ Zabalera dinamikoa</translation>
         <translation type="vanished">Laukizuzena</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-655"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
         <translation type="unfinished">Formak</translation>
     </message>
@@ -6318,35 +6395,40 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+4"/>
+        <location line="+5"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+181"/>
+        <location line="-1"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+177"/>
         <source>Line style</source>
         <translation>Lerro-estiloa</translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-177"/>
         <source>Border styles</source>
         <translation>Ertz-estiloak</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location line="+168"/>
+        <location line="+164"/>
         <source>Line start</source>
         <translation>Lerroaren hasiera</translation>
     </message>
     <message>
-        <location line="-164"/>
-        <location line="+165"/>
+        <location line="-160"/>
+        <location line="+161"/>
         <source>Line end</source>
         <translation>Lerroaren amaiera</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-157"/>
         <source>Tapered</source>
         <translation>Konikoa</translation>
     </message>
@@ -6367,17 +6449,17 @@ Zabalera dinamikoa</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+152"/>
+        <location line="+148"/>
         <source>Opacity</source>
         <translation>Opakotasuna</translation>
     </message>
     <message>
-        <location line="-151"/>
+        <location line="-147"/>
         <source> %</source>
         <translation> %</translation>
     </message>
     <message>
-        <location line="+141"/>
+        <location line="+137"/>
         <source>Line</source>
         <translation>Lerroa</translation>
     </message>
@@ -6872,7 +6954,7 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBSpotlightOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-354"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-351"/>
         <location line="+4"/>
         <source>Spotlight</source>
         <translation>Fokua</translation>
@@ -6917,7 +6999,7 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBStampOptionsPanel</name>
     <message>
-        <location line="+520"/>
+        <location line="+518"/>
         <source>Stamp</source>
         <translation>Zigilua</translation>
     </message>
@@ -6946,7 +7028,7 @@ Zabalera dinamikoa</translation>
     <name>UBStartupHintsPalette</name>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
-        <source>Tips and tricks</source>
+        <source>Program guide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7009,12 +7091,17 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBTextOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-264"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-265"/>
         <source>Text</source>
         <translation>Testua</translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -7140,7 +7227,7 @@ Zabalera dinamikoa</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1268"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
         <source>Color</source>
         <translation>Kolorea</translation>
     </message>
@@ -7338,7 +7425,7 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
         <translation type="vanished">Diktatu</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+682"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
         <translation type="unfinished">Irakurri ozen</translation>
     </message>

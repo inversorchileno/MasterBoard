@@ -950,7 +950,17 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Dodaj zvuk na stranicu</translation>
     </message>
     <message>
-        <location line="+399"/>
+        <location line="+383"/>
+        <source>Program guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Open the program guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Snap to grid</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1468,17 +1478,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Hints and tips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Open Hints and tips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-20"/>
+        <location line="-3"/>
         <source>Favorite</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1689,7 +1689,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBAiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+728"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+735"/>
         <source>AI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2029,9 +2029,9 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="vanished">Podcast</translation>
     </message>
     <message>
-        <location filename="../../src/core/UBApplication.cpp" line="+395"/>
+        <location filename="../../src/core/UBApplication.cpp" line="+416"/>
         <location line="+48"/>
-        <location line="+221"/>
+        <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
         <translation>Tvoja se UBX datoteka ne može izravno otvoriti. Uvezi je umjesto toga u modusu „Dokumenti”</translation>
     </message>
@@ -2456,7 +2456,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBCommentOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+775"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+773"/>
         <source>Quick note</source>
         <translation>Brza bilješka</translation>
     </message>
@@ -3177,7 +3177,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEmojiOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1204"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3219,7 +3219,7 @@ Do you want to continue?</source>
 <context>
     <name>UBEraserOptionsPanel</name>
     <message>
-        <location line="-283"/>
+        <location line="-286"/>
         <source>Eraser</source>
         <translation>Gumica</translation>
     </message>
@@ -3240,6 +3240,11 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="+3"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -3601,12 +3606,7 @@ Do you want to continue?</source>
 <context>
     <name>UBGitHubUpdater</name>
     <message>
-        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+85"/>
-        <source>%1 (build %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3634,25 +3634,31 @@ Do you want to continue?</source>
         <translation>Master Board se nije mogao spojiti na GitHub radi traženja nove verzije. Provjeri internetsku vezu i pokušaj ponovno.</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+50"/>
+        <source>You have the latest version of Master Board.</source>
+        <translation>Imaš najnoviju verziju Master Boarda.</translation>
+    </message>
+    <message>
         <source>A new version of Master Board is available (build %1).
+
+Download and install it now? Master Board saves your documents, closes and opens again.</source>
+        <translation type="vanished">Dostupna je nova verzija Master Boarda (izgradnja %1).
+
+Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i ponovno otvara.</translation>
+    </message>
+    <message>
+        <location line="-16"/>
+        <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>You have the latest version of Master Board.</source>
-        <translation>Imaš najnoviju verziju Master Boarda.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>A new version of Master Board is available (build %1).
+        <location line="+21"/>
+        <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation>Dostupna je nova verzija Master Boarda (izgradnja %1).
-
-Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i ponovno otvara.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+17"/>
@@ -4199,7 +4205,7 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
 <context>
     <name>UBLaserOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+102"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+103"/>
         <source>Laser pointer</source>
         <translation>Laserski pokazivač</translation>
     </message>
@@ -4225,6 +4231,11 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4364,7 +4375,7 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
         <translation type="vanished">Veličina stranice</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+141"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+142"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4484,11 +4495,21 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
         <translation>Prilagođena veličina...</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Canvas measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Read and dictate</source>
         <translation type="vanished">Čitaj i diktiraj</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+12"/>
         <source>Read aloud</source>
         <translation>Čitaj naglas</translation>
     </message>
@@ -4524,13 +4545,11 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+31"/>
         <source>Creator</source>
-        <translation>Autor</translation>
+        <translation type="vanished">Autor</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+48"/>
         <source>Master Board was created by Luis, known on YouTube as «Inversor Chileno».</source>
         <translation>Master Board je izradio Luis, na YouTubeu poznat kao „Inversor Chileno”.</translation>
     </message>
@@ -4593,7 +4612,7 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
         <translation type="vanished">Zapisuje ono što se govori u snimci; stiže s umjetnom inteligencijom Master Boarda</translation>
     </message>
     <message>
-        <location line="-241"/>
+        <location line="-244"/>
         <source>Full screen</source>
         <translation>Cijeli zaslon</translation>
     </message>
@@ -4603,7 +4622,7 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
         <translation>&amp;O programu</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+13"/>
         <source>Master Board on GitHub</source>
         <translation>Master Board na GitHubu</translation>
     </message>
@@ -4618,7 +4637,13 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
         <translation>Preuzmi i instaliraj najnoviju verziju s GitHuba</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+8"/>
+        <location line="+15"/>
+        <source>About Master Board</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+99"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Spremljeno</translation>
@@ -4702,12 +4727,17 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
 <context>
     <name>UBMarkerOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-165"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-167"/>
         <source>Marker</source>
         <translation>Marker</translation>
     </message>
     <message>
         <location line="+10"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -4728,8 +4758,12 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
     </message>
     <message>
         <location line="+3"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Neprozirnost</translation>
+    </message>
+    <message>
         <source>Advanced</source>
-        <translation>Napredno</translation>
+        <translation type="vanished">Napredno</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4740,7 +4774,7 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
 <context>
     <name>UBMeasureOptionsPanel</name>
     <message>
-        <location line="+406"/>
+        <location line="+407"/>
         <source>Measurements</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4844,6 +4878,26 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
     </message>
     <message>
         <location line="+19"/>
+        <source>Finish measure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ends the shape at its last corner, as Enter does</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Modify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Move the corners of the shape; Enter or Finish measure ends</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Restart</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4853,17 +4907,27 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+419"/>
+        <location line="+498"/>
         <source>Distance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Drag from one end to the other.</source>
+        <source>Click at the start and at the end.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+14"/>
+        <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Drag the corners; Enter or Finish measure ends.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-27"/>
         <source>Perimeter</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4876,11 +4940,6 @@ Preuzeti i instalirati sada? Master Board sprema tvoje dokumente, zatvara se i p
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Draw a line that measures 1 %1: it is the reference of the measures.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4973,7 +5032,7 @@ Do you want to ignore these errors for this host?</source>
 <context>
     <name>UBNoteOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+983"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+981"/>
         <source>Note</source>
         <translation>Bilješka</translation>
     </message>
@@ -5294,7 +5353,7 @@ To se može učiniti i kasnije putem Početna &gt; Prepoznaj tekst.</translation
 <context>
     <name>UBPenOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1560"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1563"/>
         <source>Pen</source>
         <translation>Pisaljka</translation>
     </message>
@@ -5348,6 +5407,11 @@ Dinamična širina</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -5358,6 +5422,11 @@ Dinamična širina</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Opacity</source>
+        <translation type="unfinished">Neprozirnost</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> %</source>
         <translation> %</translation>
     </message>
@@ -5528,7 +5597,7 @@ Dinamična širina</translation>
 <context>
     <name>UBPreferencesController</name>
     <message>
-        <location filename="../../src/core/UBPreferencesController.cpp" line="+161"/>
+        <location filename="../../src/core/UBPreferencesController.cpp" line="+164"/>
         <source>Language</source>
         <translation>Jezik</translation>
     </message>
@@ -5596,11 +5665,12 @@ Dinamična širina</translation>
     </message>
     <message>
         <location line="+34"/>
+        <location line="+403"/>
         <source>Theme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-398"/>
         <source>Same as Windows</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5626,22 +5696,21 @@ Dinamična širina</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The colors of the menu bar, of the options of the tools and of the zoom. The new theme is used the next time Master Board starts.</source>
+        <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+372"/>
+        <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-285"/>
         <source>Categories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
-        <location line="+262"/>
-        <source>Version %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-255"/>
+        <location line="+30"/>
         <source>Internet</source>
         <translation type="unfinished">Internet</translation>
     </message>
@@ -5745,7 +5814,7 @@ Dinamična širina</translation>
         <translation type="vanished"> (izgradnja %1)</translation>
     </message>
     <message>
-        <location line="+179"/>
+        <location line="+196"/>
         <source>Top</source>
         <translation>Gore</translation>
     </message>
@@ -5774,7 +5843,7 @@ Dinamična širina</translation>
         <translation type="vanished">Laserski pokazivač</translation>
     </message>
     <message>
-        <location line="-229"/>
+        <location line="-246"/>
         <source>Use all available displays</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6084,7 +6153,7 @@ Dinamična širina</translation>
 <context>
     <name>UBSelectorOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1434"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+1435"/>
         <source>Select</source>
         <translation>Odaberi</translation>
     </message>
@@ -6137,7 +6206,7 @@ Dinamična širina</translation>
         <translation type="vanished">Pravokutnik</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-655"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
         <translation type="unfinished">Oblici</translation>
     </message>
@@ -6183,35 +6252,40 @@ Dinamična širina</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+4"/>
+        <location line="+5"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+181"/>
+        <location line="-1"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+177"/>
         <source>Line style</source>
         <translation>Stil linije</translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-177"/>
         <source>Border styles</source>
         <translation>Stilovi ruba</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location line="+168"/>
+        <location line="+164"/>
         <source>Line start</source>
         <translation>Početak linije</translation>
     </message>
     <message>
-        <location line="-164"/>
-        <location line="+165"/>
+        <location line="-160"/>
+        <location line="+161"/>
         <source>Line end</source>
         <translation>Kraj linije</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-157"/>
         <source>Tapered</source>
         <translation>Suženo</translation>
     </message>
@@ -6232,17 +6306,17 @@ Dinamična širina</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+152"/>
+        <location line="+148"/>
         <source>Opacity</source>
         <translation>Neprozirnost</translation>
     </message>
     <message>
-        <location line="-151"/>
+        <location line="-147"/>
         <source> %</source>
         <translation> %</translation>
     </message>
     <message>
-        <location line="+141"/>
+        <location line="+137"/>
         <source>Line</source>
         <translation>Crta</translation>
     </message>
@@ -6737,7 +6811,7 @@ Dinamična širina</translation>
 <context>
     <name>UBSpotlightOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-354"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-351"/>
         <location line="+4"/>
         <source>Spotlight</source>
         <translation>Reflektor</translation>
@@ -6782,7 +6856,7 @@ Dinamična širina</translation>
 <context>
     <name>UBStampOptionsPanel</name>
     <message>
-        <location line="+520"/>
+        <location line="+518"/>
         <source>Stamp</source>
         <translation>Pečat</translation>
     </message>
@@ -6811,7 +6885,7 @@ Dinamična širina</translation>
     <name>UBStartupHintsPalette</name>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
-        <source>Tips and tricks</source>
+        <source>Program guide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6881,12 +6955,17 @@ Dinamična širina</translation>
 <context>
     <name>UBTextOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-264"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-265"/>
         <source>Text</source>
         <translation>Tekst</translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source> pt</source>
         <translation> pt</translation>
     </message>
@@ -7012,7 +7091,7 @@ Dinamična širina</translation>
 <context>
     <name>UBToolOptionsPanel</name>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1268"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1273"/>
         <source>Color</source>
         <translation>Boja</translation>
     </message>
@@ -7221,7 +7300,7 @@ Za pristup aktualiziranim dokumentima ponovo pokreni program.</translation>
         <translation type="vanished">Diktiraj</translation>
     </message>
     <message>
-        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+682"/>
+        <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
         <translation type="unfinished">Čitaj naglas</translation>
     </message>
