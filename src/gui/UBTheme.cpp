@@ -48,11 +48,17 @@ void UBTheme::noteSystemScheme()
 #endif
 }
 
+QString UBTheme::chosenAtStart()
+{
+    static const QString chosen = UBSettings::settings()->appTheme->get().toString();
+    return chosen;
+}
+
 UBTheme::Kind UBTheme::kind()
 {
     // Read once: the bars keep their colors until Master Board starts again.
     static const Kind theme = []() {
-        const QString chosen = UBSettings::settings()->appTheme->get().toString();
+        const QString chosen = chosenAtStart();
 
         if (chosen == "white")
         {

@@ -95,6 +95,7 @@ class UBPreferencesController : public QObject
         QWidget* mPressureGroup{nullptr};
         QWidget* mBorderGroup{nullptr};
         QWidget* mAiPage{nullptr};
+        bool mRestartAsked{false};
         QHash<class UBSetting*, QVariant> mSnapshot;
 
     protected slots:

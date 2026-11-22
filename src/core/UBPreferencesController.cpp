@@ -33,6 +33,8 @@
 #include "frameworks/UBPlatformUtils.h"
 
 #include <QButtonGroup>
+#include <QMessageBox>
+#include <QTimer>
 #include <QDialogButtonBox>
 #include <QKeyEvent>
 #include <QListWidget>
@@ -61,6 +63,7 @@
 
 #include "core/UBSetting.h"
 #include "gui/UBMainWindow.h"
+#include "gui/UBTheme.h"
 #include "core/UBApplicationController.h"
 #include "core/UBDisplayManager.h"
 
@@ -404,7 +407,7 @@ QWidget* UBPreferencesController::themeChoice()
     layout->addLayout(row);
 
     auto hint = new QLabel(tr("The colors of the menu bar, of the options of the tools and of the zoom. "
-                              "The new theme is used the next time Master Board starts."), group);
+                              "To show a new theme, Master Board restarts by itself."), group);
     hint->setWordWrap(true);
     hint->setObjectName("hint");
     layout->addWidget(hint);
@@ -762,11 +765,28 @@ void UBPreferencesController::restoreSnapshot()
 
 void UBPreferencesController::applyChanges()
 {
+    // A new theme is seen once Master Board starts again: it restarts.
+    const bool newTheme = UBSettings::settings()->appTheme->get().toString() != UBTheme::chosenAtStart();
+
     UBSettings::settings()->webHomePage->set(mPreferencesUI->webHomePage->text());
     UBSettings::settings()->setProxyUsername(mPreferencesUI->proxyUsername->text());
     UBSettings::settings()->setProxyPassword(mPreferencesUI->proxyPassword->text());
     UBSettings::settings()->save();
     takeSnapshot();
+
+    if (newTheme && !mRestartAsked)
+    {
+        mRestartAsked = true;
+        const auto answer = QMessageBox::question(mPreferencesWindow, tr("Theme"),
+            tr("Master Board will restart to show the new theme. Your documents are saved first."),
+            QMessageBox::Ok | QMessageBox::Cancel, QMessageBox::Ok);
+
+        if (answer == QMessageBox::Ok)
+        {
+            mPreferencesWindow->accept();
+            QTimer::singleShot(0, qApp, []() { UBApplication::restart(); });
+        }
+    }
 }
 
 void UBPreferencesController::wire()

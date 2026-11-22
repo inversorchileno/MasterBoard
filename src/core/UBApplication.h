@@ -93,6 +93,9 @@ class UBApplication : public SingleApplication
         static QString fileToOpen;
 
         static void showMessage(const QString& message, bool showSpinningWheel = false);
+
+        /** @brief Closes Master Board as the Quit menu does, saving the documents, and opens it again. */
+        static void restart();
         static void setDisabled(bool disable);
 
         static QObject* staticMemoryCleaner;

@@ -71,6 +71,9 @@
 #include "UBDisplayManager.h"
 #include "gui/UBMainMenu.h"
 
+#include <QDir>
+#include <QProcess>
+
 #include "core/memcheck.h"
 #include "gui/UBTheme.h"
 
@@ -581,6 +584,35 @@ void UBApplication::closing()
     quit();
 }
 
+
+void UBApplication::restart()
+{
+    // A small helper waits for this process to end, then opens the program
+    // again: started at once, it would find this one still running.
+    const qint64 pid = QCoreApplication::applicationPid();
+    QString program = QCoreApplication::applicationFilePath();
+
+    // An AppImage is opened by its file, not by the program inside it.
+    if (qEnvironmentVariableIsSet("APPIMAGE"))
+    {
+        program = qEnvironmentVariable("APPIMAGE");
+    }
+
+#ifdef Q_OS_WIN
+    const QString script = QString("try { Wait-Process -Id %1 -Timeout 120 -ErrorAction SilentlyContinue } catch {}; "
+                                   "Start-Process -FilePath '%2'")
+                               .arg(pid).arg(QDir::toNativeSeparators(program).replace("'", "''"));
+    QProcess::startDetached("powershell.exe", { "-NoProfile", "-ExecutionPolicy", "Bypass", "-WindowStyle", "Hidden",
+                                                "-Command", script });
+#else
+    QString quoted = program;
+    quoted.replace("'", "'\\''");
+    const QString script = QString("while kill -0 %1 2>/dev/null; do sleep 0.3; done; exec '%2'").arg(pid).arg(quoted);
+    QProcess::startDetached("/bin/sh", { "-c", script });
+#endif
+
+    mainWindow->actionQuit->trigger();
+}
 
 void UBApplication::showMessage(const QString& message, bool showSpinningWheel)
 {

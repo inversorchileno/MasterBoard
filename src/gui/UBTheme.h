@@ -52,6 +52,9 @@ public:
     /** @brief The theme in use. */
     static Kind kind();
 
+    /** @brief The theme chosen when Master Board started, as stored in the settings. */
+    static QString chosenAtStart();
+
     /** @brief A style sheet written with the dark colors, in the colors of the theme. */
     static QString style(const QString& darkStyle);
 
