@@ -2175,7 +2175,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
         <translation type="unfinished">Orria</translation>
     </message>
@@ -2185,7 +2185,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>Page color</source>
         <translation>Orriaren kolorea</translation>
     </message>
@@ -2238,6 +2238,31 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <location line="+9"/>
         <source>Opacity</source>
         <translation type="unfinished">Opakotasuna</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Vertical</source>
+        <translation type="unfinished">Bertikala</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation type="unfinished">Horizontala</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2435,7 +2460,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
         <source>That page is not in the document any more.</source>
         <translation>Orri hori ez dago jada dokumentuan.</translation>
     </message>
@@ -2464,7 +2489,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <translation>Testua kopiatuta: %1</translation>
     </message>
     <message>
-        <location line="+335"/>
+        <location line="+565"/>
         <source>Is it for Board or Widget ?</source>
         <translation type="unfinished">Arbelerako edo trepetarako?</translation>
     </message>

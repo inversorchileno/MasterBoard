@@ -2075,7 +2075,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
         <translation>頁面</translation>
     </message>
@@ -2085,7 +2085,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>範本</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>Page color</source>
         <translation>紙張顏色</translation>
     </message>
@@ -2138,6 +2138,31 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+9"/>
         <source>Opacity</source>
         <translation>不透明度</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Scroll direction</source>
+        <translation>捲動方向</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Vertical</source>
+        <translation>垂直</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>水平</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation>水平雙頁</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
+        <translation>頁面上下排列、左右排列，或像打開的筆記本一樣兩頁一組</translation>
     </message>
 </context>
 <context>
@@ -2338,7 +2363,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
         <source>That page is not in the document any more.</source>
         <translation>該頁面已不在文件中。</translation>
     </message>
@@ -2367,7 +2392,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>已複製文字：%1</translation>
     </message>
     <message>
-        <location line="+335"/>
+        <location line="+565"/>
         <source>Is it for Board or Widget ?</source>
         <translation type="unfinished"></translation>
     </message>

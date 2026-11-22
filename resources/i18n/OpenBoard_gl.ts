@@ -2047,7 +2047,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
         <translation type="unfinished">Páxina</translation>
     </message>
@@ -2057,7 +2057,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>Page color</source>
         <translation>Cor da folla</translation>
     </message>
@@ -2110,6 +2110,31 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+9"/>
         <source>Opacity</source>
         <translation type="unfinished">Opacidade</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Vertical</source>
+        <translation type="unfinished">Vertical</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation type="unfinished">Horizontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2310,7 +2335,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
         <source>That page is not in the document any more.</source>
         <translation>Esa páxina xa non está no documento.</translation>
     </message>
@@ -2339,7 +2364,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>Texto copiado: %1</translation>
     </message>
     <message>
-        <location line="+335"/>
+        <location line="+565"/>
         <source>Is it for Board or Widget ?</source>
         <translation type="unfinished"></translation>
     </message>

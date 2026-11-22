@@ -2097,7 +2097,7 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
         <translation>Seite</translation>
     </message>
@@ -2107,7 +2107,7 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <translation>Vorlagen</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>Page color</source>
         <translation>Blattfarbe</translation>
     </message>
@@ -2160,6 +2160,31 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <location line="+9"/>
         <source>Opacity</source>
         <translation>Deckkraft</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Scroll direction</source>
+        <translation>Bildlaufrichtung</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Vertical</source>
+        <translation>Vertikal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation>Horizontal mit 2 Seiten</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
+        <translation>Die Seiten untereinander, nebeneinander oder zu zweit wie ein aufgeschlagenes Heft</translation>
     </message>
 </context>
 <context>
@@ -2360,7 +2385,7 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
         <source>That page is not in the document any more.</source>
         <translation>Diese Seite ist nicht mehr im Dokument.</translation>
     </message>
@@ -2389,7 +2414,7 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <translation>Text kopiert: %1</translation>
     </message>
     <message>
-        <location line="+335"/>
+        <location line="+565"/>
         <source>Is it for Board or Widget ?</source>
         <translation>Ist das für das Board oder das Widget?</translation>
     </message>

@@ -2071,7 +2071,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
         <translation>ページ</translation>
     </message>
@@ -2081,7 +2081,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>テンプレート</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>Page color</source>
         <translation>用紙の色</translation>
     </message>
@@ -2134,6 +2134,31 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+9"/>
         <source>Opacity</source>
         <translation>不透明度</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Scroll direction</source>
+        <translation>スクロール方向</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Vertical</source>
+        <translation>縦</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>横</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation>横に 2 ページ</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
+        <translation>ページを縦に並べる、横に並べる、または開いたノートのように 2 ページずつ並べます</translation>
     </message>
 </context>
 <context>
@@ -2327,7 +2352,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
         <source>That page is not in the document any more.</source>
         <translation>そのページはもう文書にありません。</translation>
     </message>
@@ -2356,7 +2381,7 @@ Do you wish to override the security check and continue ?   </source>
         <translation>テキストをコピーしました: %1</translation>
     </message>
     <message>
-        <location line="+335"/>
+        <location line="+565"/>
         <source>Is it for Board or Widget ?</source>
         <translation type="unfinished"></translation>
     </message>

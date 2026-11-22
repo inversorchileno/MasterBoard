@@ -2098,7 +2098,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBBackgroundPalette</name>
     <message>
-        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+59"/>
+        <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
         <translation>Page</translation>
     </message>
@@ -2108,7 +2108,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Modèles</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>Page color</source>
         <translation>Couleur de la page</translation>
     </message>
@@ -2161,6 +2161,31 @@ Voulez-vous continuer quand-même ?   </translation>
         <location line="+9"/>
         <source>Opacity</source>
         <translation>Opacité</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Scroll direction</source>
+        <translation>Sens de défilement</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Vertical</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation>Horizontal sur 2 pages</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
+        <translation>Les pages l’une sous l’autre, l’une à côté de l’autre, ou deux par deux comme un cahier ouvert</translation>
     </message>
 </context>
 <context>
@@ -2361,7 +2386,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBBoardView</name>
     <message>
-        <location filename="../../src/board/UBBoardView.cpp" line="+2243"/>
+        <location filename="../../src/board/UBBoardView.cpp" line="+2347"/>
         <source>That page is not in the document any more.</source>
         <translation>Cette page n&apos;est plus dans le document.</translation>
     </message>
@@ -2390,7 +2415,7 @@ Voulez-vous continuer quand-même ?   </translation>
         <translation>Texte copié : %1</translation>
     </message>
     <message>
-        <location line="+335"/>
+        <location line="+565"/>
         <source>Is it for Board or Widget ?</source>
         <translation>Est-ce pour le tableau ou le widget ?</translation>
     </message>
