@@ -27,7 +27,7 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">Діалог</translation>
+        <translation>Діалог</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -144,7 +144,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Опублікувати в інтернеті</translation>
+        <translation>Опублікувати в інтернеті</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -989,7 +989,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">Форми</translation>
+        <translation>Форми</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1029,7 +1029,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Прочитати вголос</translation>
+        <translation>Прочитати вголос</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1577,7 +1577,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">Непрозорість</translation>
+        <translation>Непрозорість</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2049,7 +2049,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">Сторінка</translation>
+        <translation>Сторінка</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2109,7 +2109,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">Непрозорість</translation>
+        <translation>Непрозорість</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2119,12 +2119,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Вертикально</translation>
+        <translation>Вертикально</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Горизонтально</translation>
+        <translation>Горизонтально</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2266,7 +2266,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Помилка додавання зображення в бібліотеку</translation>
     </message>
@@ -2914,7 +2914,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">Перейменувати</translation>
+        <translation>Перейменувати</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2989,7 +2989,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="+4"/>
         <source>Trash</source>
-        <translation type="unfinished">Кошик</translation>
+        <translation>Кошик</translation>
     </message>
     <message numerus="yes">
         <location line="+383"/>
@@ -3166,7 +3166,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3308,17 +3308,17 @@ Do you want to continue?</source>
     <message>
         <location line="+8"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">Експорт документа ...</translation>
+        <translation>Експорт документа ...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export successful.</source>
-        <translation type="unfinished">Експорт успішно завершено.</translation>
+        <translation>Експорт успішно завершено.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export failed.</source>
-        <translation type="unfinished">Помилка експорту.</translation>
+        <translation>Помилка експорту.</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -3514,7 +3514,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтернет</translation>
     </message>
 </context>
 <context>
@@ -3728,7 +3728,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">Дублювати</translation>
+        <translation>Дублювати</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3935,7 +3935,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Середній</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4220,7 +4220,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Непрозорість</translation>
+        <translation>Непрозорість</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4522,7 +4522,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board — вільне програмне забезпечення (ліцензія GPLv3), як і OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Заблокувати полотно: нічого не можна малювати, писати, виділяти маркером, вибирати, переміщувати чи видаляти; лазер і рука й далі працюють</translation>
@@ -4561,7 +4561,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Записує сказане в записі; з&apos;явиться разом із ШІ Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Повноекранний режим</translation>
     </message>
@@ -4592,7 +4592,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Збережено</translation>
@@ -4708,7 +4708,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Непрозорість</translation>
+        <translation>Непрозорість</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5372,7 +5372,7 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Непрозорість</translation>
+        <translation>Непрозорість</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5595,17 +5595,17 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Адреса</translation>
+        <translation>Адреса</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Додати</translation>
+        <translation>Додати</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Прибрати</translation>
+        <translation>Прибрати</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5631,7 +5631,7 @@ Dynamic width</source>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Темний</translation>
+        <translation>Темний</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5661,7 +5661,7 @@ Dynamic width</source>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">Інтернет</translation>
+        <translation>Інтернет</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5676,7 +5676,7 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Панель інструментів</translation>
+        <translation>Панель інструментів</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5711,17 +5711,17 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Мережа</translation>
+        <translation>Мережа</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Оновити</translation>
+        <translation>Оновити</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Про програму</translation>
+        <translation>Про програму</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6157,7 +6157,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">Форми</translation>
+        <translation>Форми</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6290,14 +6290,14 @@ Dynamic width</source>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Дошка</translation>
+        <translation>Дошка</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Інструменти</translation>
+        <translation>Інструменти</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6397,7 +6397,7 @@ Dynamic width</source>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">Опис</translation>
+        <translation>Опис</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6418,13 +6418,13 @@ Dynamic width</source>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Вліво</translation>
+        <translation>Вліво</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Вправо</translation>
+        <translation>Вправо</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6436,13 +6436,13 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Назад</translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Вперед</translation>
+        <translation>Вперед</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6517,7 +6517,7 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Прибрати</translation>
+        <translation>Прибрати</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6840,12 +6840,12 @@ Dynamic width</source>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">Закрити</translation>
+        <translation>Закрити</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">Зміст</translation>
+        <translation>Зміст</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7044,7 +7044,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7072,7 +7072,7 @@ Dynamic width</source>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">Робочий стіл</translation>
+        <translation>Робочий стіл</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7108,6 +7108,26 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Вертикально</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Горизонтально</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7236,7 +7256,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Прочитати вголос</translation>
+        <translation>Прочитати вголос</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7261,17 +7281,17 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Грати</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Пауза</translation>
+        <translation>Пауза</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Зупинити</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8032,7 +8052,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">Документи</translation>
+        <translation>Документи</translation>
     </message>
     <message>
         <location line="+61"/>

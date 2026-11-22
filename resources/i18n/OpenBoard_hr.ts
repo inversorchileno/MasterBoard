@@ -27,7 +27,7 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">Dijalog</translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -182,7 +182,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Objavi na intranetu</translation>
+        <translation>Objavi na intranetu</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1051,7 +1051,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">Oblici</translation>
+        <translation>Oblici</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1091,7 +1091,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Čitaj naglas</translation>
+        <translation>Čitaj naglas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1630,7 +1630,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">Neprozirnost</translation>
+        <translation>Neprozirnost</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2102,7 +2102,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">Stranica</translation>
+        <translation>Stranica</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2162,7 +2162,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">Neprozirnost</translation>
+        <translation>Neprozirnost</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2172,12 +2172,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Okomito</translation>
+        <translation>Okomito</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Vodoravno</translation>
+        <translation>Vodoravno</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2319,7 +2319,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+928"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+929"/>
         <source>CapturedImage</source>
         <translation>Snimljena slika</translation>
     </message>
@@ -2990,7 +2990,7 @@ Davanjem novog imena stvorit će se novi dokument.</translation>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">Preimenuj</translation>
+        <translation>Preimenuj</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -3196,7 +3196,7 @@ Do you want to continue?</source>
     <message>
         <location line="+71"/>
         <source>Web</source>
-        <translation type="unfinished">Web</translation>
+        <translation>Web</translation>
     </message>
 </context>
 <context>
@@ -3238,7 +3238,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3580,7 +3580,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">Web</translation>
+        <translation>Web</translation>
     </message>
     <message>
         <location line="+168"/>
@@ -3804,7 +3804,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-617"/>
         <source>Duplicate</source>
-        <translation type="unfinished">Dupliciraj</translation>
+        <translation>Dupliciraj</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -4011,7 +4011,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Srednje veličine</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4296,7 +4296,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Neprozirnost</translation>
+        <translation>Neprozirnost</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4598,7 +4598,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board je slobodan softver (licenca GPLv3), kao i OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Zaključaj platno: ništa se ne može crtati, pisati, isticati, odabirati, pomicati ni brisati; laser i ruka i dalje rade</translation>
@@ -4637,7 +4637,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Zapisuje ono što se govori u snimci; stiže s umjetnom inteligencijom Master Boarda</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Cijeli zaslon</translation>
     </message>
@@ -4668,7 +4668,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Spremljeno</translation>
@@ -4784,7 +4784,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Neprozirnost</translation>
+        <translation>Neprozirnost</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5448,7 +5448,7 @@ Dinamična širina</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Neprozirnost</translation>
+        <translation>Neprozirnost</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5671,17 +5671,17 @@ Dinamična širina</translation>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Adresa</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Dodaj</translation>
+        <translation>Dodaj</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Ukloni</translation>
+        <translation>Ukloni</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5707,7 +5707,7 @@ Dinamična širina</translation>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Tamna</translation>
+        <translation>Tamna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5737,7 +5737,7 @@ Dinamična širina</translation>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">Internet</translation>
+        <translation>Internet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5752,7 +5752,7 @@ Dinamična širina</translation>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Alatna traka</translation>
+        <translation>Alatna traka</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5787,17 +5787,17 @@ Dinamična širina</translation>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Mreža</translation>
+        <translation>Mreža</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Aktualiziraj</translation>
+        <translation>Aktualiziraj</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Informacije</translation>
+        <translation>Informacije</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6233,7 +6233,7 @@ Dinamična širina</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">Oblici</translation>
+        <translation>Oblici</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6366,14 +6366,14 @@ Dinamična širina</translation>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Ploča</translation>
+        <translation>Ploča</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Paleta alata</translation>
+        <translation>Paleta alata</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6473,7 +6473,7 @@ Dinamična širina</translation>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">Opis</translation>
+        <translation>Opis</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6494,13 +6494,13 @@ Dinamična širina</translation>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6512,13 +6512,13 @@ Dinamična širina</translation>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Natrag</translation>
+        <translation>Natrag</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Naprijed</translation>
+        <translation>Naprijed</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6593,7 +6593,7 @@ Dinamična širina</translation>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Ukloni</translation>
+        <translation>Ukloni</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6916,12 +6916,12 @@ Dinamična širina</translation>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">Zatvori</translation>
+        <translation>Zatvori</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">Sadržaj</translation>
+        <translation>Sadržaj</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7124,7 +7124,7 @@ Dinamična širina</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7152,7 +7152,7 @@ Dinamična širina</translation>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">Radna površina</translation>
+        <translation>Radna površina</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7188,6 +7188,26 @@ Dinamična širina</translation>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Okomito</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Vodoravno</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7327,7 +7347,7 @@ Za pristup aktualiziranim dokumentima ponovo pokreni program.</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Čitaj naglas</translation>
+        <translation>Čitaj naglas</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7352,17 +7372,17 @@ Za pristup aktualiziranim dokumentima ponovo pokreni program.</translation>
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokreni</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Zaustavi</translation>
+        <translation>Zaustavi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaustavi</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8318,7 +8338,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">Dokumenti</translation>
+        <translation>Dokumenti</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -8355,7 +8375,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-8"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished">Snimi web sadržaj</translation>
+        <translation>Snimi web sadržaj</translation>
     </message>
 </context>
 </TS>

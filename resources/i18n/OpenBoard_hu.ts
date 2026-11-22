@@ -146,7 +146,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Közzététel az Intraneten</translation>
+        <translation>Közzététel az Intraneten</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1006,7 +1006,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">Alakzatok</translation>
+        <translation>Alakzatok</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1046,7 +1046,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Felolvasás</translation>
+        <translation>Felolvasás</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1591,7 +1591,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">Átlátszatlanság</translation>
+        <translation>Átlátszatlanság</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2063,7 +2063,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Oldal</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2123,7 +2123,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">Átlátszatlanság</translation>
+        <translation>Átlátszatlanság</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2133,12 +2133,12 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Függőleges</translation>
+        <translation>Függőleges</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Vízszintes</translation>
+        <translation>Vízszintes</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2280,7 +2280,7 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Hiba a kép könyvtárhoz adásakor</translation>
     </message>
@@ -3255,7 +3255,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3603,7 +3603,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">Web</translation>
+        <translation>Web</translation>
     </message>
 </context>
 <context>
@@ -3817,7 +3817,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">Másolat</translation>
+        <translation>Másolat</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -4024,7 +4024,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished">Közepes</translation>
+        <translation>Közepes</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4309,7 +4309,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Átlátszatlanság</translation>
+        <translation>Átlátszatlanság</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4611,7 +4611,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">A Master Board szabad szoftver (GPLv3 licenc), akárcsak az OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Vászon zárolása: semmit sem lehet rajzolni, írni, kiemelni, kijelölni, mozgatni vagy törölni; a lézer és a kéz továbbra is működik</translation>
@@ -4650,7 +4650,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Leírja, ami egy felvételen elhangzik; a Master Board MI-jével érkezik</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Teljes képernyő</translation>
     </message>
@@ -4681,7 +4681,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Mentve</translation>
@@ -4797,7 +4797,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Átlátszatlanság</translation>
+        <translation>Átlátszatlanság</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5461,7 +5461,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Átlátszatlanság</translation>
+        <translation>Átlátszatlanság</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5692,17 +5692,17 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Cím</translation>
+        <translation>Cím</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Hozzáadás</translation>
+        <translation>Hozzáadás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Eltávolítás</translation>
+        <translation>Eltávolítás</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5728,7 +5728,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Sötét</translation>
+        <translation>Sötét</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5758,7 +5758,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">Internet</translation>
+        <translation>Internet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5773,7 +5773,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Eszköztár</translation>
+        <translation>Eszköztár</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5808,17 +5808,17 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Hálózat</translation>
+        <translation>Hálózat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Frissítés</translation>
+        <translation>Frissítés</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Névjegy</translation>
+        <translation>Névjegy</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6254,7 +6254,7 @@ Dinamikus szélesség</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">Alakzatok</translation>
+        <translation>Alakzatok</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6387,14 +6387,14 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Tábla</translation>
+        <translation>Tábla</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Képernyő eszköztár</translation>
+        <translation>Képernyő eszköztár</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6494,7 +6494,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">Leírás</translation>
+        <translation>Leírás</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6515,13 +6515,13 @@ Dinamikus szélesség</translation>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Bal</translation>
+        <translation>Bal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Jobb</translation>
+        <translation>Jobb</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6533,13 +6533,13 @@ Dinamikus szélesség</translation>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Vissza</translation>
+        <translation>Vissza</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Előre</translation>
+        <translation>Előre</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6614,7 +6614,7 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Eltávolítás</translation>
+        <translation>Eltávolítás</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6937,12 +6937,12 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">Bezárás</translation>
+        <translation>Bezárás</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">Tartalomjegyzék</translation>
+        <translation>Tartalomjegyzék</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7145,7 +7145,7 @@ Dinamikus szélesség</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7173,7 +7173,7 @@ Dinamikus szélesség</translation>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Asztali</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7209,6 +7209,26 @@ Dinamikus szélesség</translation>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Függőleges</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Vízszintes</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7336,7 +7356,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Felolvasás</translation>
+        <translation>Felolvasás</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7361,17 +7381,17 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished">Lejátszás</translation>
+        <translation>Lejátszás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Szünet</translation>
+        <translation>Szünet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished">Leállítás</translation>
+        <translation>Leállítás</translation>
     </message>
     <message>
         <location line="+1"/>

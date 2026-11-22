@@ -27,7 +27,7 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">Diálogo</translation>
+        <translation>Diálogo</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -144,7 +144,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Publicar na Intranet</translation>
+        <translation>Publicar na Intranet</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -989,7 +989,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">Formas</translation>
+        <translation>Formas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1029,7 +1029,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Ler en voz alta</translation>
+        <translation>Ler en voz alta</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1577,7 +1577,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacidade</translation>
+        <translation>Opacidade</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2049,7 +2049,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">Páxina</translation>
+        <translation>Páxina</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2109,7 +2109,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacidade</translation>
+        <translation>Opacidade</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2119,12 +2119,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Vertical</translation>
+        <translation>Vertical</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Horizontal</translation>
+        <translation>Horizontal</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2266,7 +2266,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Error ao engadir a imaxe á biblioteca</translation>
     </message>
@@ -2928,7 +2928,7 @@ Proporcionar un novo nome creará un novo documento.</translation>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">Cambiar nome</translation>
+        <translation>Cambiar nome</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -3188,7 +3188,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3536,7 +3536,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">Web</translation>
+        <translation>Web</translation>
     </message>
 </context>
 <context>
@@ -3750,7 +3750,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">Duplicar</translation>
+        <translation>Duplicar</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3957,7 +3957,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished">Medio</translation>
+        <translation>Medio</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4242,7 +4242,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacidade</translation>
+        <translation>Opacidade</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4544,7 +4544,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board é software libre (licenza GPLv3), igual que OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Bloquear o lenzo: non se pode debuxar, escribir, resaltar, seleccionar, mover nin borrar nada; o láser e a man seguen funcionando</translation>
@@ -4583,7 +4583,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Escribe o que se di nunha gravación; chegará coa IA de Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Pantalla completa</translation>
     </message>
@@ -4614,7 +4614,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Gardado</translation>
@@ -4730,7 +4730,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacidade</translation>
+        <translation>Opacidade</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5388,7 +5388,7 @@ Largura dinámica</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacidade</translation>
+        <translation>Opacidade</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5611,17 +5611,17 @@ Largura dinámica</translation>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Dirección</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Engadir</translation>
+        <translation>Engadir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Quitar</translation>
+        <translation>Quitar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5647,7 +5647,7 @@ Largura dinámica</translation>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Escuro</translation>
+        <translation>Escuro</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5677,7 +5677,7 @@ Largura dinámica</translation>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">Internet</translation>
+        <translation>Internet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5692,7 +5692,7 @@ Largura dinámica</translation>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Barra de ferramentas</translation>
+        <translation>Barra de ferramentas</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5727,17 +5727,17 @@ Largura dinámica</translation>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Rede</translation>
+        <translation>Rede</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Actualizar</translation>
+        <translation>Actualizar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Acerca de</translation>
+        <translation>Acerca de</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6173,7 +6173,7 @@ Largura dinámica</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">Formas</translation>
+        <translation>Formas</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6306,14 +6306,14 @@ Largura dinámica</translation>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Encerado</translation>
+        <translation>Encerado</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Paleta do lápiz</translation>
+        <translation>Paleta do lápiz</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6413,7 +6413,7 @@ Largura dinámica</translation>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Descripción</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6434,13 +6434,13 @@ Largura dinámica</translation>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Esquerda</translation>
+        <translation>Esquerda</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Dereita</translation>
+        <translation>Dereita</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6452,13 +6452,13 @@ Largura dinámica</translation>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Atrás</translation>
+        <translation>Atrás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Cara a diante</translation>
+        <translation>Cara a diante</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6533,7 +6533,7 @@ Largura dinámica</translation>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Quitar</translation>
+        <translation>Quitar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6856,12 +6856,12 @@ Largura dinámica</translation>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">Pechar</translation>
+        <translation>Pechar</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">Índice</translation>
+        <translation>Índice</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7060,7 +7060,7 @@ Largura dinámica</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7088,7 +7088,7 @@ Largura dinámica</translation>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">Escritorio</translation>
+        <translation>Escritorio</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7124,6 +7124,26 @@ Largura dinámica</translation>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7252,7 +7272,7 @@ Por favor, reinicie a aplicación para acceder aos documentos actualizados.</tra
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Ler en voz alta</translation>
+        <translation>Ler en voz alta</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7277,17 +7297,17 @@ Por favor, reinicie a aplicación para acceder aos documentos actualizados.</tra
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished">Reproducir</translation>
+        <translation>Reproducir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Pausa</translation>
+        <translation>Pausa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished">Deter</translation>
+        <translation>Deter</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8048,7 +8068,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">Documentos</translation>
+        <translation>Documentos</translation>
     </message>
     <message>
         <location line="+61"/>

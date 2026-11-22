@@ -27,7 +27,7 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">דיאלוג</translation>
+        <translation>דיאלוג</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -144,7 +144,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">פרסם באינטרנט</translation>
+        <translation>פרסם באינטרנט</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -989,7 +989,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">צורות</translation>
+        <translation>צורות</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1029,7 +1029,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">הקרא בקול</translation>
+        <translation>הקרא בקול</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1578,7 +1578,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">אטימות</translation>
+        <translation>אטימות</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2050,7 +2050,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">עמוד</translation>
+        <translation>עמוד</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2110,7 +2110,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">אטימות</translation>
+        <translation>אטימות</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2120,12 +2120,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">אנכי</translation>
+        <translation>אנכי</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">אופקי</translation>
+        <translation>אופקי</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2267,7 +2267,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>אירעה שגיאה בהוספת התמונה לספריה</translation>
     </message>
@@ -2904,7 +2904,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">שנה שם</translation>
+        <translation>שנה שם</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2974,7 +2974,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentController.cpp" line="+259"/>
         <source>Trash</source>
-        <translation type="unfinished">סל</translation>
+        <translation>סל</translation>
     </message>
     <message numerus="yes">
         <location line="+383"/>
@@ -3156,7 +3156,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3202,12 +3202,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportAdaptor.cpp" line="+128"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">מייצא מסמך...</translation>
+        <translation>מייצא מסמך...</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Export successful.</source>
-        <translation type="unfinished">הייצוא בוצע בהצלחה.</translation>
+        <translation>הייצוא בוצע בהצלחה.</translation>
     </message>
     <message>
         <location line="-16"/>
@@ -3286,12 +3286,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportDocumentSetAdaptor.cpp" line="+99"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">מייצא מסמך...</translation>
+        <translation>מייצא מסמך...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export successful.</source>
-        <translation type="unfinished">הייצוא בוצע בהצלחה.</translation>
+        <translation>הייצוא בוצע בהצלחה.</translation>
     </message>
     <message>
         <location line="-28"/>
@@ -3308,7 +3308,7 @@ Do you want to continue?</source>
     <message>
         <location line="+16"/>
         <source>Export failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>פעולת הייצוא נכשלה</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -3504,7 +3504,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">אינטרנט</translation>
+        <translation>אינטרנט</translation>
     </message>
 </context>
 <context>
@@ -3718,7 +3718,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">שכפל</translation>
+        <translation>שכפל</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3925,7 +3925,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished">בינוני</translation>
+        <translation>בינוני</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4211,7 +4211,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">אטימות</translation>
+        <translation>אטימות</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4513,7 +4513,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board היא תוכנה חופשית (רישיון GPLv3), בדיוק כמו OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>נעילת הקנבס: לא ניתן לצייר, לכתוב, להדגיש, לבחור, להזיז או למחוק דבר; הלייזר והיד ממשיכים לעבוד</translation>
@@ -4552,7 +4552,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">כותב את מה שנאמר בהקלטה; יגיע עם הבינה המלאכותית של Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>מסך מלא</translation>
     </message>
@@ -4583,7 +4583,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>נשמר</translation>
@@ -4699,7 +4699,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">אטימות</translation>
+        <translation>אטימות</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5337,7 +5337,7 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">אטימות</translation>
+        <translation>אטימות</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5560,17 +5560,17 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">כתובת</translation>
+        <translation>כתובת</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">הוסף</translation>
+        <translation>הוסף</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">הסרה</translation>
+        <translation>הסרה</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5596,7 +5596,7 @@ Dynamic width</source>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">כהה</translation>
+        <translation>כהה</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5626,7 +5626,7 @@ Dynamic width</source>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">אינטרנט</translation>
+        <translation>אינטרנט</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5641,7 +5641,7 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">סרגל כלים</translation>
+        <translation>סרגל כלים</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5676,17 +5676,17 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">רשת</translation>
+        <translation>רשת</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>עדכון</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">אודות</translation>
+        <translation>אודות</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6122,7 +6122,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">צורות</translation>
+        <translation>צורות</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6255,14 +6255,14 @@ Dynamic width</source>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">לוח</translation>
+        <translation>לוח</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">סרגל הכלים הגראפיים</translation>
+        <translation>סרגל הכלים הגראפיים</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6362,7 +6362,7 @@ Dynamic width</source>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">תיאור</translation>
+        <translation>תיאור</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6383,13 +6383,13 @@ Dynamic width</source>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">שמאל</translation>
+        <translation>שמאל</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">ימין</translation>
+        <translation>ימין</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6401,13 +6401,13 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">חזרה</translation>
+        <translation>חזרה</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">קדימה</translation>
+        <translation>קדימה</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6482,7 +6482,7 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">הסרה</translation>
+        <translation>הסרה</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6805,12 +6805,12 @@ Dynamic width</source>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>סגור</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">תוכן עניינים</translation>
+        <translation>תוכן עניינים</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7009,7 +7009,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7037,7 +7037,7 @@ Dynamic width</source>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">שולחן העבודה</translation>
+        <translation>שולחן העבודה</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7073,6 +7073,26 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>אנכי</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>אופקי</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7201,7 +7221,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">הקרא בקול</translation>
+        <translation>הקרא בקול</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7226,17 +7246,17 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>נגן</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">השהייה</translation>
+        <translation>השהייה</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished">עצירה</translation>
+        <translation>עצירה</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7910,7 +7930,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-2289"/>
         <source>On Dark Background</source>
-        <translation type="unfinished">על רקע כהה</translation>
+        <translation>על רקע כהה</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -7921,7 +7941,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-176"/>
         <source>On Light Background</source>
-        <translation type="unfinished">על רקע בהיר</translation>
+        <translation>על רקע בהיר</translation>
     </message>
     <message>
         <location line="-318"/>
@@ -7981,7 +8001,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">מסמכים</translation>
+        <translation>מסמכים</translation>
     </message>
     <message>
         <location line="+61"/>

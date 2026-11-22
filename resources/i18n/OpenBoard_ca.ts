@@ -27,7 +27,7 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">Diàleg</translation>
+        <translation>Diàleg</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -144,7 +144,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Publica a la intranet</translation>
+        <translation>Publica a la intranet</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1094,7 +1094,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">Formes</translation>
+        <translation>Formes</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1134,7 +1134,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Llegeix en veu alta</translation>
+        <translation>Llegeix en veu alta</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1577,7 +1577,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitat</translation>
+        <translation>Opacitat</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2049,7 +2049,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">Pàgina</translation>
+        <translation>Pàgina</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2109,7 +2109,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitat</translation>
+        <translation>Opacitat</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2119,12 +2119,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Vertical</translation>
+        <translation>Vertical</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Horitzontal</translation>
+        <translation>Horitzontal</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2266,7 +2266,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>No s&apos;ha pogut afegir la imatge a la llibreria</translation>
     </message>
@@ -2907,7 +2907,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">Canvia el nom</translation>
+        <translation>Canvia el nom</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -3163,7 +3163,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3214,12 +3214,12 @@ Do you want to continue?</source>
     <message>
         <location line="-43"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">S&apos;està exportant el document...</translation>
+        <translation>S&apos;està exportant el document...</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Export successful.</source>
-        <translation type="unfinished">L&apos;exportació ha estat correcta.</translation>
+        <translation>L&apos;exportació ha estat correcta.</translation>
     </message>
     <message>
         <location line="-16"/>
@@ -3293,17 +3293,17 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportDocumentSetAdaptor.cpp" line="+99"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">S&apos;està exportant el document...</translation>
+        <translation>S&apos;està exportant el document...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export successful.</source>
-        <translation type="unfinished">L&apos;exportació ha estat correcta.</translation>
+        <translation>L&apos;exportació ha estat correcta.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export failed.</source>
-        <translation type="unfinished">L&apos;exportació ha fallat.</translation>
+        <translation>L&apos;exportació ha fallat.</translation>
     </message>
     <message>
         <location line="-32"/>
@@ -3511,7 +3511,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">Web</translation>
+        <translation>Web</translation>
     </message>
 </context>
 <context>
@@ -3725,7 +3725,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">Duplica</translation>
+        <translation>Duplica</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3932,7 +3932,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished">Mitjà</translation>
+        <translation>Mitjà</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4217,7 +4217,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitat</translation>
+        <translation>Opacitat</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4519,7 +4519,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board és programari lliure (llicència GPLv3), igual que OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Bloqueja el llenç: no es pot dibuixar, escriure, ressaltar, seleccionar, moure ni esborrar res; el làser i la mà continuen funcionant</translation>
@@ -4558,7 +4558,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Escriu el que es diu en una gravació; arribarà amb la IA de Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Pantalla completa</translation>
     </message>
@@ -4589,7 +4589,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Desat</translation>
@@ -4705,7 +4705,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitat</translation>
+        <translation>Opacitat</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5349,7 +5349,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitat</translation>
+        <translation>Opacitat</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5572,17 +5572,17 @@ Amplada dinàmica</translation>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Adreça</translation>
+        <translation>Adreça</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Afegeix</translation>
+        <translation>Afegeix</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Treu</translation>
+        <translation>Treu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5608,7 +5608,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Fosc</translation>
+        <translation>Fosc</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5638,7 +5638,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">Internet</translation>
+        <translation>Internet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5653,7 +5653,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Barra d&apos;eines</translation>
+        <translation>Barra d&apos;eines</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5688,17 +5688,17 @@ Amplada dinàmica</translation>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Xarxa</translation>
+        <translation>Xarxa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Actualitza</translation>
+        <translation>Actualitza</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Quant a</translation>
+        <translation>Quant a</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6134,7 +6134,7 @@ Amplada dinàmica</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">Formes</translation>
+        <translation>Formes</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6267,14 +6267,14 @@ Amplada dinàmica</translation>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Tauler</translation>
+        <translation>Tauler</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Barra d&apos;estris</translation>
+        <translation>Barra d&apos;estris</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6374,7 +6374,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">Descripció</translation>
+        <translation>Descripció</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6395,13 +6395,13 @@ Amplada dinàmica</translation>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Esquerra</translation>
+        <translation>Esquerra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Dreta</translation>
+        <translation>Dreta</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6413,13 +6413,13 @@ Amplada dinàmica</translation>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Enrere</translation>
+        <translation>Enrere</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Cap endavant</translation>
+        <translation>Cap endavant</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6494,7 +6494,7 @@ Amplada dinàmica</translation>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Treu</translation>
+        <translation>Treu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6817,12 +6817,12 @@ Amplada dinàmica</translation>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">Tanca</translation>
+        <translation>Tanca</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">Índex</translation>
+        <translation>Índex</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7014,7 +7014,7 @@ Amplada dinàmica</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7042,7 +7042,7 @@ Amplada dinàmica</translation>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">Escriptori</translation>
+        <translation>Escriptori</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7078,6 +7078,26 @@ Amplada dinàmica</translation>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Horitzontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7206,7 +7226,7 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Llegeix en veu alta</translation>
+        <translation>Llegeix en veu alta</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7231,17 +7251,17 @@ Reinicieu l&apos;aplicació per accedir als documents actualitzats.</translation
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Inicia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Posa en pausa</translation>
+        <translation>Posa en pausa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished">Atura</translation>
+        <translation>Atura</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7924,7 +7944,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-2289"/>
         <source>On Dark Background</source>
-        <translation type="unfinished">Sobre fons fosc</translation>
+        <translation>Sobre fons fosc</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -7935,7 +7955,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-176"/>
         <source>On Light Background</source>
-        <translation type="unfinished">Sobre fons clar</translation>
+        <translation>Sobre fons clar</translation>
     </message>
     <message>
         <location line="-493"/>
@@ -7990,7 +8010,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">Documents</translation>
+        <translation>Documents</translation>
     </message>
     <message>
         <location line="+61"/>

@@ -27,7 +27,7 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">Dialoog</translation>
+        <translation>Dialoog</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -144,7 +144,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Op internet publiceren</translation>
+        <translation>Op internet publiceren</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1029,7 +1029,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Voorlezen</translation>
+        <translation>Voorlezen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,7 +1573,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">lichtondoorlatendheid</translation>
+        <translation>lichtondoorlatendheid</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2045,7 +2045,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">Pagina</translation>
+        <translation>Pagina</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2105,7 +2105,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">lichtondoorlatendheid</translation>
+        <translation>lichtondoorlatendheid</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2115,12 +2115,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Verticaal</translation>
+        <translation>Verticaal</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Horizontaal</translation>
+        <translation>Horizontaal</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2262,7 +2262,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Error foto aan bibliotheek toevoegen</translation>
     </message>
@@ -2848,7 +2848,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-116"/>
         <source>Import successful.</source>
-        <translation type="unfinished">Import gelukt.</translation>
+        <translation>Import gelukt.</translation>
     </message>
     <message>
         <location line="+63"/>
@@ -2895,7 +2895,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">Naam wijzigen</translation>
+        <translation>Naam wijzigen</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2965,7 +2965,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentController.cpp" line="+259"/>
         <source>Trash</source>
-        <translation type="unfinished">Prullenbak</translation>
+        <translation>Prullenbak</translation>
     </message>
     <message numerus="yes">
         <location line="+383"/>
@@ -3147,7 +3147,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3193,12 +3193,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportAdaptor.cpp" line="+128"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">Document wordt geëxporteerd...</translation>
+        <translation>Document wordt geëxporteerd...</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Export successful.</source>
-        <translation type="unfinished">Export gelukt.</translation>
+        <translation>Export gelukt.</translation>
     </message>
     <message>
         <location line="-16"/>
@@ -3277,17 +3277,17 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportDocumentSetAdaptor.cpp" line="+99"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">Document wordt geëxporteerd...</translation>
+        <translation>Document wordt geëxporteerd...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export successful.</source>
-        <translation type="unfinished">Export gelukt.</translation>
+        <translation>Export gelukt.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export failed.</source>
-        <translation type="unfinished">Export mislukt.</translation>
+        <translation>Export mislukt.</translation>
     </message>
     <message>
         <location line="-32"/>
@@ -3479,13 +3479,13 @@ Do you want to continue?</source>
     <message>
         <location line="+4"/>
         <source>Trash</source>
-        <translation type="unfinished">Prullenbak</translation>
+        <translation>Prullenbak</translation>
     </message>
     <message>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished"></translation>
+        <translation>Internet</translation>
     </message>
     <message>
         <location line="-403"/>
@@ -3643,12 +3643,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsGroupContainerItemDelegate.cpp" line="+57"/>
         <source>Locked</source>
-        <translation type="unfinished">Vergrendeld</translation>
+        <translation>Vergrendeld</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Visible on Extended Screen</source>
-        <translation type="unfinished">Weergeven op Verbreed scherm</translation>
+        <translation>Weergeven op Verbreed scherm</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3709,7 +3709,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">Dupliceren</translation>
+        <translation>Dupliceren</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3916,7 +3916,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemiddeld</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3963,7 +3963,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsWidgetItem.cpp" line="+1247"/>
         <source>Web</source>
-        <translation type="unfinished"></translation>
+        <translation>Internet</translation>
     </message>
 </context>
 <context>
@@ -4201,7 +4201,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">lichtondoorlatendheid</translation>
+        <translation>lichtondoorlatendheid</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4503,7 +4503,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board is vrije software (GPLv3-licentie), net als OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Canvas vergrendelen: niets kan getekend, geschreven, gemarkeerd, geselecteerd, verplaatst of gewist worden; de laser en de hand werken nog</translation>
@@ -4542,7 +4542,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Schrijft wat er in een opname gezegd wordt; komt met de AI van Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Volledig scherm</translation>
     </message>
@@ -4573,7 +4573,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Opgeslagen</translation>
@@ -4689,7 +4689,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">lichtondoorlatendheid</translation>
+        <translation>lichtondoorlatendheid</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5327,7 +5327,7 @@ Dynamische breedte</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">lichtondoorlatendheid</translation>
+        <translation>lichtondoorlatendheid</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5550,17 +5550,17 @@ Dynamische breedte</translation>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Adres</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Toevoegen</translation>
+        <translation>Toevoegen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Verwijderen</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5586,7 +5586,7 @@ Dynamische breedte</translation>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Donker</translation>
+        <translation>Donker</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5616,7 +5616,7 @@ Dynamische breedte</translation>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">Internet</translation>
+        <translation>Internet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5631,7 +5631,7 @@ Dynamische breedte</translation>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Werkbalk</translation>
+        <translation>Werkbalk</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5666,17 +5666,17 @@ Dynamische breedte</translation>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Netwerk</translation>
+        <translation>Netwerk</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Update</translation>
+        <translation>Update</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Over</translation>
+        <translation>Over</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6245,14 +6245,14 @@ Dynamische breedte</translation>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Bord</translation>
+        <translation>Bord</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Pen palet</translation>
+        <translation>Pen palet</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6352,7 +6352,7 @@ Dynamische breedte</translation>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">Beschrijving</translation>
+        <translation>Beschrijving</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6373,13 +6373,13 @@ Dynamische breedte</translation>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Links</translation>
+        <translation>Links</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Rechts</translation>
+        <translation>Rechts</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6391,13 +6391,13 @@ Dynamische breedte</translation>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Terug</translation>
+        <translation>Terug</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Vooruit</translation>
+        <translation>Vooruit</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6472,7 +6472,7 @@ Dynamische breedte</translation>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Verwijderen</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6795,12 +6795,12 @@ Dynamische breedte</translation>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">Sluiten</translation>
+        <translation>Sluiten</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">Inhoudsopgave</translation>
+        <translation>Inhoudsopgave</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -6999,7 +6999,7 @@ Dynamische breedte</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7027,7 +7027,7 @@ Dynamische breedte</translation>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">Bureaublad</translation>
+        <translation>Bureaublad</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7063,6 +7063,26 @@ Dynamische breedte</translation>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Verticaal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Horizontaal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7190,7 +7210,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Voorlezen</translation>
+        <translation>Voorlezen</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7215,17 +7235,17 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Speel</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Pauze</translation>
+        <translation>Pauze</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished">Stoppen</translation>
+        <translation>Stoppen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7908,7 +7928,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-2289"/>
         <source>On Dark Background</source>
-        <translation type="unfinished">Op een Donkere Achtergrond</translation>
+        <translation>Op een Donkere Achtergrond</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -7919,7 +7939,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-176"/>
         <source>On Light Background</source>
-        <translation type="unfinished">Op een Lichte Achtergrond</translation>
+        <translation>Op een Lichte Achtergrond</translation>
     </message>
     <message>
         <location line="-493"/>
@@ -7974,7 +7994,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">Documenten</translation>
+        <translation>Documenten</translation>
     </message>
     <message>
         <location line="+61"/>

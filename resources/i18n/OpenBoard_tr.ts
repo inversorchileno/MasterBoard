@@ -146,7 +146,7 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Yerel ağa yayınla</translation>
+        <translation>Yerel ağa yayınla</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1006,7 +1006,7 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">Şekiller</translation>
+        <translation>Şekiller</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1046,7 +1046,7 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Sesli oku</translation>
+        <translation>Sesli oku</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1591,7 +1591,7 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">Matlık</translation>
+        <translation>Matlık</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2063,7 +2063,7 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">Sayfa</translation>
+        <translation>Sayfa</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2123,7 +2123,7 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">Matlık</translation>
+        <translation>Matlık</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2133,12 +2133,12 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Dikey</translation>
+        <translation>Dikey</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Yatay</translation>
+        <translation>Yatay</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2280,7 +2280,7 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Kütüphaneye Resim Eklerken Hata Oluştu</translation>
     </message>
@@ -3184,7 +3184,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3532,7 +3532,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">Web</translation>
+        <translation>Web</translation>
     </message>
 </context>
 <context>
@@ -3746,7 +3746,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">Çoğalt</translation>
+        <translation>Çoğalt</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3953,7 +3953,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished">Normal</translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4238,7 +4238,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Matlık</translation>
+        <translation>Matlık</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4540,7 +4540,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board, tıpkı OpenBoard gibi özgür yazılımdır (GPLv3 lisansı).</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Tuvali kilitle: hiçbir şey çizilemez, yazılamaz, vurgulanamaz, seçilemez, taşınamaz veya silinemez; lazer ve el çalışmaya devam eder</translation>
@@ -4579,7 +4579,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Bir kayıtta söylenenleri yazar; Master Board yapay zekâsı ile gelecek</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Tam ekran</translation>
     </message>
@@ -4610,7 +4610,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Kaydedildi</translation>
@@ -4726,7 +4726,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Matlık</translation>
+        <translation>Matlık</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5390,7 +5390,7 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Matlık</translation>
+        <translation>Matlık</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5616,17 +5616,17 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Adres</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Ekle</translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Kaldır</translation>
+        <translation>Kaldır</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5652,7 +5652,7 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Koyu</translation>
+        <translation>Koyu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5682,7 +5682,7 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">İnternet</translation>
+        <translation>İnternet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5697,7 +5697,7 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Araç Çubuğu</translation>
+        <translation>Araç Çubuğu</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5732,17 +5732,17 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Ağ</translation>
+        <translation>Ağ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Güncelle</translation>
+        <translation>Güncelle</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Hakkında</translation>
+        <translation>Hakkında</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6178,7 +6178,7 @@ Dinamik kalınlık</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">Şekiller</translation>
+        <translation>Şekiller</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6311,14 +6311,14 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Tahta</translation>
+        <translation>Tahta</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Kalemler Paleti</translation>
+        <translation>Kalemler Paleti</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6418,7 +6418,7 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">Açıklama</translation>
+        <translation>Açıklama</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6439,13 +6439,13 @@ Dinamik kalınlık</translation>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Sol</translation>
+        <translation>Sol</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Sağ</translation>
+        <translation>Sağ</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6457,13 +6457,13 @@ Dinamik kalınlık</translation>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Geri</translation>
+        <translation>Geri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">İleri</translation>
+        <translation>İleri</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6538,7 +6538,7 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Kaldır</translation>
+        <translation>Kaldır</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6861,12 +6861,12 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">İçindekiler</translation>
+        <translation>İçindekiler</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7069,7 +7069,7 @@ Dinamik kalınlık</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7097,7 +7097,7 @@ Dinamik kalınlık</translation>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Masaüstü</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7133,6 +7133,26 @@ Dinamik kalınlık</translation>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Dikey</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Yatay</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7264,7 +7284,7 @@ Güncellenen belgelere erişmek için uygulamayı yeniden başlatın.</translati
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Sesli oku</translation>
+        <translation>Sesli oku</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7289,17 +7309,17 @@ Güncellenen belgelere erişmek için uygulamayı yeniden başlatın.</translati
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished">Oynat</translation>
+        <translation>Oynat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Durdur</translation>
+        <translation>Durdur</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished">Durdur</translation>
+        <translation>Durdur</translation>
     </message>
     <message>
         <location line="+1"/>

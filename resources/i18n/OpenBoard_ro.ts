@@ -27,7 +27,7 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">Dialog</translation>
+        <translation>Dialog</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -144,7 +144,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Publicare pe Intranet</translation>
+        <translation>Publicare pe Intranet</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -989,7 +989,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">Forme</translation>
+        <translation>Forme</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1029,7 +1029,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Citește cu voce tare</translation>
+        <translation>Citește cu voce tare</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1577,7 +1577,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitate</translation>
+        <translation>Opacitate</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2049,7 +2049,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Pagină</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2109,7 +2109,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitate</translation>
+        <translation>Opacitate</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2119,12 +2119,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Vertical</translation>
+        <translation>Vertical</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Orizontal</translation>
+        <translation>Orizontal</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2266,7 +2266,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Eroare adăugare imagine la bibliotecă</translation>
     </message>
@@ -2903,7 +2903,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">Redenumire</translation>
+        <translation>Redenumire</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2973,7 +2973,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentController.cpp" line="+259"/>
         <source>Trash</source>
-        <translation type="unfinished">Coş de gunoi</translation>
+        <translation>Coş de gunoi</translation>
     </message>
     <message numerus="yes">
         <location line="+383"/>
@@ -3151,7 +3151,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3202,12 +3202,12 @@ Do you want to continue?</source>
     <message>
         <location line="-19"/>
         <source>Export successful.</source>
-        <translation type="unfinished">Exportare reuşită.</translation>
+        <translation>Exportare reuşită.</translation>
     </message>
     <message>
         <location line="-24"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">Exportare document...</translation>
+        <translation>Exportare document...</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3281,12 +3281,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportDocumentSetAdaptor.cpp" line="+103"/>
         <source>Export successful.</source>
-        <translation type="unfinished">Exportare reuşită.</translation>
+        <translation>Exportare reuşită.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export failed.</source>
-        <translation type="unfinished">Exportare nereuşită.</translation>
+        <translation>Exportare nereuşită.</translation>
     </message>
     <message>
         <location line="-32"/>
@@ -3303,7 +3303,7 @@ Do you want to continue?</source>
     <message>
         <location line="+8"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">Exportare document...</translation>
+        <translation>Exportare document...</translation>
     </message>
     <message>
         <location line="+54"/>
@@ -3499,7 +3499,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">Web</translation>
+        <translation>Web</translation>
     </message>
 </context>
 <context>
@@ -3713,7 +3713,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">Duplicare</translation>
+        <translation>Duplicare</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3920,7 +3920,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Mediu</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4205,7 +4205,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitate</translation>
+        <translation>Opacitate</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4507,7 +4507,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board este software liber (licență GPLv3), la fel ca OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Blochează pânza: nu se poate desena, scrie, evidenția, selecta, muta sau șterge nimic; laserul și mâna funcționează în continuare</translation>
@@ -4546,7 +4546,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Scrie ce se spune într-o înregistrare; va veni cu IA Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Ecran complet</translation>
     </message>
@@ -4577,7 +4577,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Salvat</translation>
@@ -4693,7 +4693,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitate</translation>
+        <translation>Opacitate</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5337,7 +5337,7 @@ Lățime dinamică</translation>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Opacitate</translation>
+        <translation>Opacitate</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5560,17 +5560,17 @@ Lățime dinamică</translation>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Adresă</translation>
+        <translation>Adresă</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Adăugare</translation>
+        <translation>Adăugare</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Elimină</translation>
+        <translation>Elimină</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5596,7 +5596,7 @@ Lățime dinamică</translation>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Închis</translation>
+        <translation>Închis</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5626,7 +5626,7 @@ Lățime dinamică</translation>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">Internet</translation>
+        <translation>Internet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5641,7 +5641,7 @@ Lățime dinamică</translation>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Bară de instrumente</translation>
+        <translation>Bară de instrumente</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5676,17 +5676,17 @@ Lățime dinamică</translation>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Reţea</translation>
+        <translation>Reţea</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Actualizare</translation>
+        <translation>Actualizare</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Despre</translation>
+        <translation>Despre</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6122,7 +6122,7 @@ Lățime dinamică</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">Forme</translation>
+        <translation>Forme</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6255,14 +6255,14 @@ Lățime dinamică</translation>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Tablă</translation>
+        <translation>Tablă</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Paletă stilou</translation>
+        <translation>Paletă stilou</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6362,7 +6362,7 @@ Lățime dinamică</translation>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">Descriere</translation>
+        <translation>Descriere</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6383,13 +6383,13 @@ Lățime dinamică</translation>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Stânga</translation>
+        <translation>Stânga</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Dreapta</translation>
+        <translation>Dreapta</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6401,13 +6401,13 @@ Lățime dinamică</translation>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Înapoi</translation>
+        <translation>Înapoi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Înainte</translation>
+        <translation>Înainte</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6482,7 +6482,7 @@ Lățime dinamică</translation>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Elimină</translation>
+        <translation>Elimină</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6805,12 +6805,12 @@ Lățime dinamică</translation>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Închidere</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">Cuprins</translation>
+        <translation>Cuprins</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7009,7 +7009,7 @@ Lățime dinamică</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7037,7 +7037,7 @@ Lățime dinamică</translation>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">Desktop</translation>
+        <translation>Desktop</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7073,6 +7073,26 @@ Lățime dinamică</translation>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Orizontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7201,7 +7221,7 @@ Vă rugăm să reporniţi aplicaţia pentru a accesa documentele actualizate.</t
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Citește cu voce tare</translation>
+        <translation>Citește cu voce tare</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7226,17 +7246,17 @@ Vă rugăm să reporniţi aplicaţia pentru a accesa documentele actualizate.</t
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Redare</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Pauză</translation>
+        <translation>Pauză</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Oprește</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7919,7 +7939,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-2289"/>
         <source>On Dark Background</source>
-        <translation type="unfinished">Pe fundal închis</translation>
+        <translation>Pe fundal închis</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -7930,7 +7950,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-176"/>
         <source>On Light Background</source>
-        <translation type="unfinished">Pe fundal deschis</translation>
+        <translation>Pe fundal deschis</translation>
     </message>
     <message>
         <location line="-493"/>
@@ -7985,7 +8005,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">Documente</translation>
+        <translation>Documente</translation>
     </message>
     <message>
         <location line="+61"/>

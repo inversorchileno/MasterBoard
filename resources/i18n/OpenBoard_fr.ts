@@ -2317,7 +2317,7 @@ Voulez-vous continuer quand-même ?   </translation>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Erreur lors de l&apos;ajout d&apos;images à la bibliothèque</translation>
     </message>
@@ -4716,7 +4716,7 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <translation type="vanished">Master Board est un logiciel libre (licence GPLv3), comme OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Verrouiller le canevas : rien ne peut être dessiné, écrit, surligné, sélectionné, déplacé ni supprimé ; le laser et la main fonctionnent toujours</translation>
@@ -4755,7 +4755,7 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <translation type="vanished">Écrit ce qui est dit dans un enregistrement ; arrivera avec l&apos;IA de Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Plein écran</translation>
     </message>
@@ -4786,7 +4786,7 @@ La télécharger et l’installer maintenant ? Master Board enregistre vos docum
         <translation>À propos de Master Board</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Enregistré</translation>
@@ -7290,7 +7290,7 @@ Largeur dynamique</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation>Projecteur / Loupe</translation>
     </message>
@@ -7355,6 +7355,26 @@ Largeur dynamique</translation>
         <location line="+4"/>
         <source>Bar style...</source>
         <translation>Style de la barre...</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation>Sens de défilement</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation>Horizontal sur 2 pages</translation>
     </message>
 </context>
 <context>

@@ -2304,7 +2304,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Error al añadir la imagen a la biblioteca</translation>
     </message>
@@ -4465,7 +4465,7 @@ Download and install it now? Master Board saves your documents, closes and opens
 <context>
     <name>UBMainMenu</name>
     <message>
-        <location filename="../../src/gui/UBMainMenu.cpp" line="+627"/>
+        <location filename="../../src/gui/UBMainMenu.cpp" line="+628"/>
         <source>Hide or show the toolbar</source>
         <translation>Ocultar o mostrar la barra</translation>
     </message>
@@ -4482,7 +4482,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Tamaño de página</translation>
     </message>
     <message>
-        <location line="-485"/>
+        <location line="-486"/>
         <location line="+91"/>
         <source>Podcast</source>
         <translation>Podcast</translation>
@@ -4688,7 +4688,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board es software libre (licencia GPLv3), igual que OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Bloquear el lienzo: no se puede dibujar, escribir, resaltar, seleccionar, mover ni borrar nada; el láser y la mano siguen funcionando</translation>
@@ -4727,7 +4727,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Escribe lo que se dice en una grabación; llegará con la IA de Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Pantalla completa</translation>
     </message>
@@ -4758,7 +4758,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>Sobre Master Board</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Guardado</translation>
@@ -7247,7 +7247,7 @@ Ancho dinámico</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation>Foco / Lupa</translation>
     </message>
@@ -7312,6 +7312,26 @@ Ancho dinámico</translation>
         <location line="+4"/>
         <source>Bar style...</source>
         <translation>Estilo barra...</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation>Dirección de desplazamiento</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation>Horizontal en 2 páginas</translation>
     </message>
 </context>
 <context>

@@ -146,7 +146,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">Δημοσίευση στο διαδίκτυο</translation>
+        <translation>Δημοσίευση στο διαδίκτυο</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1001,7 +1001,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Shapes</source>
-        <translation type="unfinished">Σχήματα</translation>
+        <translation>Σχήματα</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1041,7 +1041,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Ανάγνωση φωναχτά</translation>
+        <translation>Ανάγνωση φωναχτά</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1591,7 +1591,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">Διαφάνεια</translation>
+        <translation>Διαφάνεια</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2063,7 +2063,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">Σελίδα</translation>
+        <translation>Σελίδα</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2123,7 +2123,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">Διαφάνεια</translation>
+        <translation>Διαφάνεια</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2133,12 +2133,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">Κάθετα</translation>
+        <translation>Κάθετα</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">Οριζόντια</translation>
+        <translation>Οριζόντια</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2280,7 +2280,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Σφάλμα κατά την προσθήκη εικόνας στη βιβλιοθήκη</translation>
     </message>
@@ -3189,7 +3189,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3537,7 +3537,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">Διαδίκτυο</translation>
+        <translation>Διαδίκτυο</translation>
     </message>
 </context>
 <context>
@@ -3958,7 +3958,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Μεσαίο</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4243,7 +4243,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Διαφάνεια</translation>
+        <translation>Διαφάνεια</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4545,7 +4545,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Το Master Board είναι ελεύθερο λογισμικό (άδεια GPLv3), όπως και το OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Κλείδωμα καμβά: τίποτα δεν μπορεί να σχεδιαστεί, να γραφτεί, να επισημανθεί, να επιλεγεί, να μετακινηθεί ή να διαγραφεί· το λέιζερ και το χέρι λειτουργούν ακόμα</translation>
@@ -4584,7 +4584,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Γράφει ό,τι λέγεται σε μια ηχογράφηση· θα έρθει με την ΤΝ του Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Πλήρης οθόνη</translation>
     </message>
@@ -4615,7 +4615,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Αποθηκεύτηκε</translation>
@@ -4731,7 +4731,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">Διαφάνεια</translation>
+        <translation>Διαφάνεια</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5395,7 +5395,7 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">Διαφάνεια</translation>
+        <translation>Διαφάνεια</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5618,17 +5618,17 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Διεύθυνση</translation>
+        <translation>Διεύθυνση</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">Προσθήκη</translation>
+        <translation>Προσθήκη</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Αφαίρεση</translation>
+        <translation>Αφαίρεση</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5654,7 +5654,7 @@ Dynamic width</source>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">Σκουρόχρωμο</translation>
+        <translation>Σκουρόχρωμο</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5684,7 +5684,7 @@ Dynamic width</source>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">Διαδίκτυο</translation>
+        <translation>Διαδίκτυο</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5699,7 +5699,7 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">Εργαλειοθήκη</translation>
+        <translation>Εργαλειοθήκη</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5734,17 +5734,17 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">Δίκτυο</translation>
+        <translation>Δίκτυο</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">Ενημέρωση</translation>
+        <translation>Ενημέρωση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">Σχετικά</translation>
+        <translation>Σχετικά</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6180,7 +6180,7 @@ Dynamic width</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-653"/>
         <source>Shapes</source>
-        <translation type="unfinished">Σχήματα</translation>
+        <translation>Σχήματα</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6313,14 +6313,14 @@ Dynamic width</source>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">Πίνακας</translation>
+        <translation>Πίνακας</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">Παλέτα εργαλείων</translation>
+        <translation>Παλέτα εργαλείων</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6420,7 +6420,7 @@ Dynamic width</source>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">Περιγραφή</translation>
+        <translation>Περιγραφή</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6441,13 +6441,13 @@ Dynamic width</source>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Αριστερά</translation>
+        <translation>Αριστερά</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Δεξιά</translation>
+        <translation>Δεξιά</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6459,13 +6459,13 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Πίσω</translation>
+        <translation>Πίσω</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">Μπροστά</translation>
+        <translation>Μπροστά</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6540,7 +6540,7 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">Αφαίρεση</translation>
+        <translation>Αφαίρεση</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6863,12 +6863,12 @@ Dynamic width</source>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">Κλείσιμο</translation>
+        <translation>Κλείσιμο</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">Περιεχόμενα</translation>
+        <translation>Περιεχόμενα</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7071,7 +7071,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7099,7 +7099,7 @@ Dynamic width</source>
         <location line="+9"/>
         <location line="+163"/>
         <source>Desktop</source>
-        <translation type="unfinished">Επιφάνεια εργασίας</translation>
+        <translation>Επιφάνεια εργασίας</translation>
     </message>
     <message>
         <location line="-163"/>
@@ -7135,6 +7135,26 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Κάθετα</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Οριζόντια</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7263,7 +7283,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">Ανάγνωση φωναχτά</translation>
+        <translation>Ανάγνωση φωναχτά</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7288,17 +7308,17 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished">Αναπαραγωγή</translation>
+        <translation>Αναπαραγωγή</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">Παύση</translation>
+        <translation>Παύση</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished">Διακοπή</translation>
+        <translation>Διακοπή</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -27,7 +27,7 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">대화</translation>
+        <translation>대화</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -144,7 +144,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">인트라넷에 게시</translation>
+        <translation>인트라넷에 게시</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1029,7 +1029,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+29"/>
         <source>Read aloud</source>
-        <translation type="unfinished">소리 내어 읽기</translation>
+        <translation>소리 내어 읽기</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1577,7 +1577,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+40"/>
         <source>Opacity</source>
-        <translation type="unfinished">불투명도</translation>
+        <translation>불투명도</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2049,7 +2049,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBackgroundPalette.cpp" line="+102"/>
         <source>Page</source>
-        <translation type="unfinished">페이지</translation>
+        <translation>페이지</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2109,7 +2109,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+9"/>
         <source>Opacity</source>
-        <translation type="unfinished">불투명도</translation>
+        <translation>불투명도</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2119,12 +2119,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Vertical</source>
-        <translation type="unfinished">세로</translation>
+        <translation>세로</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Horizontal</source>
-        <translation type="unfinished">가로</translation>
+        <translation>가로</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2266,7 +2266,7 @@ Do you wish to override the security check and continue ?   </source>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>이미지를 라이브러리에 추가하는 도중 오류가 발생했습니다</translation>
     </message>
@@ -2856,7 +2856,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-63"/>
         <source>Import successful.</source>
-        <translation type="unfinished">가져오기 완료.</translation>
+        <translation>가져오기 완료.</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -2902,7 +2902,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">이름 바꾸기</translation>
+        <translation>이름 바꾸기</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2972,7 +2972,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentController.cpp" line="+259"/>
         <source>Trash</source>
-        <translation type="unfinished">휴지통</translation>
+        <translation>휴지통</translation>
     </message>
     <message numerus="yes">
         <location line="+383"/>
@@ -3160,7 +3160,7 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
 </context>
 <context>
@@ -3211,12 +3211,12 @@ Do you want to continue?</source>
     <message>
         <location line="-43"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">문서를 내보내는 중...</translation>
+        <translation>문서를 내보내는 중...</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Export successful.</source>
-        <translation type="unfinished">내보내기 완료.</translation>
+        <translation>내보내기 완료.</translation>
     </message>
     <message>
         <location line="-16"/>
@@ -3249,17 +3249,17 @@ Do you want to continue?</source>
     <message>
         <location line="+7"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">문서를 내보내는 중...</translation>
+        <translation>문서를 내보내는 중...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Export successful.</source>
-        <translation type="unfinished">내보내기 완료.</translation>
+        <translation>내보내기 완료.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export failed.</source>
-        <translation type="unfinished">내보내기 실패.</translation>
+        <translation>내보내기 실패.</translation>
     </message>
 </context>
 <context>
@@ -3290,17 +3290,17 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportDocumentSetAdaptor.cpp" line="+99"/>
         <source>Exporting document...</source>
-        <translation type="unfinished">문서를 내보내는 중...</translation>
+        <translation>문서를 내보내는 중...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export successful.</source>
-        <translation type="unfinished">내보내기 완료.</translation>
+        <translation>내보내기 완료.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Export failed.</source>
-        <translation type="unfinished">내보내기 실패.</translation>
+        <translation>내보내기 실패.</translation>
     </message>
     <message>
         <location line="-32"/>
@@ -3502,13 +3502,13 @@ Do you want to continue?</source>
     <message>
         <location line="+2"/>
         <source>Trash</source>
-        <translation type="unfinished">휴지통</translation>
+        <translation>휴지통</translation>
     </message>
     <message>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished">웹</translation>
+        <translation>웹</translation>
     </message>
 </context>
 <context>
@@ -3656,12 +3656,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsGroupContainerItemDelegate.cpp" line="+57"/>
         <source>Locked</source>
-        <translation type="unfinished">잠김</translation>
+        <translation>잠김</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Visible on Extended Screen</source>
-        <translation type="unfinished">확장 화면에 보이기</translation>
+        <translation>확장 화면에 보이기</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3722,7 +3722,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">복제</translation>
+        <translation>복제</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3929,7 +3929,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Medium</source>
-        <translation type="unfinished">중간</translation>
+        <translation>중간</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3976,7 +3976,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsWidgetItem.cpp" line="+1247"/>
         <source>Web</source>
-        <translation type="unfinished">웹</translation>
+        <translation>웹</translation>
     </message>
 </context>
 <context>
@@ -4214,7 +4214,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">불투명도</translation>
+        <translation>불투명도</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4516,7 +4516,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board는 OpenBoard와 마찬가지로 자유 소프트웨어(GPLv3 라이선스)입니다.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>캔버스 잠금: 그리기, 쓰기, 강조, 선택, 이동, 삭제를 할 수 없습니다. 레이저와 손 도구는 계속 작동합니다</translation>
@@ -4555,7 +4555,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">녹음에서 말한 내용을 씁니다. Master Board AI와 함께 제공 예정입니다</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>전체 화면</translation>
     </message>
@@ -4586,7 +4586,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>저장됨</translation>
@@ -4702,7 +4702,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+3"/>
         <source>Opacity</source>
-        <translation type="unfinished">불투명도</translation>
+        <translation>불투명도</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -5346,7 +5346,7 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Opacity</source>
-        <translation type="unfinished">불투명도</translation>
+        <translation>불투명도</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5569,17 +5569,17 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">주소</translation>
+        <translation>주소</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Add</source>
-        <translation type="unfinished">추가</translation>
+        <translation>추가</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">제거</translation>
+        <translation>제거</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5605,7 +5605,7 @@ Dynamic width</source>
     <message>
         <location line="+5"/>
         <source>Dark</source>
-        <translation type="unfinished">어두운 색</translation>
+        <translation>어두운 색</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5635,7 +5635,7 @@ Dynamic width</source>
     <message>
         <location line="+30"/>
         <source>Internet</source>
-        <translation type="unfinished">인터넷</translation>
+        <translation>인터넷</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5650,7 +5650,7 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Toolbar</source>
-        <translation type="unfinished">툴바</translation>
+        <translation>툴바</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5685,17 +5685,17 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Network</source>
-        <translation type="unfinished">네트워크</translation>
+        <translation>네트워크</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update</source>
-        <translation type="unfinished">업데이트</translation>
+        <translation>업데이트</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>About</source>
-        <translation type="unfinished">소개</translation>
+        <translation>소개</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -6264,14 +6264,14 @@ Dynamic width</source>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished">보드</translation>
+        <translation>보드</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">스타일러스 팔레트</translation>
+        <translation>스타일러스 팔레트</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6371,7 +6371,7 @@ Dynamic width</source>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">설명</translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6392,13 +6392,13 @@ Dynamic width</source>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">왼쪽</translation>
+        <translation>왼쪽</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">오른쪽</translation>
+        <translation>오른쪽</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6410,13 +6410,13 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">뒤로</translation>
+        <translation>뒤로</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">앞으로</translation>
+        <translation>앞으로</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6491,7 +6491,7 @@ Dynamic width</source>
     <message>
         <location line="+1"/>
         <source>Remove</source>
-        <translation type="unfinished">제거</translation>
+        <translation>제거</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6814,12 +6814,12 @@ Dynamic width</source>
     <message>
         <location line="+5"/>
         <source>Close</source>
-        <translation type="unfinished">닫기</translation>
+        <translation>닫기</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Index</source>
-        <translation type="unfinished">목차</translation>
+        <translation>목차</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -7018,7 +7018,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7082,6 +7082,26 @@ Dynamic width</source>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>세로</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>가로</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7210,7 +7230,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+689"/>
         <source>Read aloud</source>
-        <translation type="unfinished">소리 내어 읽기</translation>
+        <translation>소리 내어 읽기</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -7235,17 +7255,17 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location line="+17"/>
         <source>Play</source>
-        <translation type="unfinished">재생</translation>
+        <translation>재생</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pause</source>
-        <translation type="unfinished">일시 중지</translation>
+        <translation>일시 중지</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop</source>
-        <translation type="unfinished">중지</translation>
+        <translation>중지</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7903,7 +7923,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+8"/>
         <source>Board</source>
-        <translation type="unfinished">보드</translation>
+        <translation>보드</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -7928,7 +7948,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-2289"/>
         <source>On Dark Background</source>
-        <translation type="unfinished">어두운 배경</translation>
+        <translation>어두운 배경</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -7939,7 +7959,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-176"/>
         <source>On Light Background</source>
-        <translation type="unfinished">밝은 배경</translation>
+        <translation>밝은 배경</translation>
     </message>
     <message>
         <location line="-493"/>
@@ -7994,7 +8014,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">문서</translation>
+        <translation>문서</translation>
     </message>
     <message>
         <location line="+61"/>

@@ -2316,7 +2316,7 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>Fehler beim Hinzufügen des Bildes zur Bibliothek</translation>
     </message>
@@ -4713,7 +4713,7 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation type="vanished">Master Board ist freie Software (GPLv3-Lizenz), wie OpenBoard.</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>Leinwand sperren: Nichts kann gezeichnet, geschrieben, markiert, ausgewählt, verschoben oder gelöscht werden; Laser und Hand funktionieren weiter</translation>
@@ -4752,7 +4752,7 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation type="vanished">Schreibt, was in einer Aufnahme gesagt wird; kommt mit der KI von Master Board</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>Vollbild</translation>
     </message>
@@ -4783,7 +4783,7 @@ Jetzt herunterladen und installieren? Master Board speichert Ihre Dokumente, sch
         <translation>Über Master Board</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>Gespeichert</translation>
@@ -7284,7 +7284,7 @@ Miniaturansicht der Seite %1 wird geladen</translation>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation>Spotlight / Lupe</translation>
     </message>
@@ -7349,6 +7349,26 @@ Miniaturansicht der Seite %1 wird geladen</translation>
         <location line="+4"/>
         <source>Bar style...</source>
         <translation>Leistenstil...</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation>Bildlaufrichtung</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>Vertikal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation>Horizontal mit 2 Seiten</translation>
     </message>
 </context>
 <context>

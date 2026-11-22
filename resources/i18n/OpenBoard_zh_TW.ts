@@ -14,12 +14,12 @@
     <message>
         <location filename="../../src/web/simplebrowser/browserwindow.cpp" line="+151"/>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>導覽</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Show downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示下載</translation>
     </message>
 </context>
 <context>
@@ -27,24 +27,26 @@
     <message>
         <location filename="../../src/web/simplebrowser/certificateerrordialog.ui" line="+14"/>
         <source>Dialog</source>
-        <translation type="unfinished">對話</translation>
+        <translation>對話</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>圖示</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>If you wish so, you may continue with an unverified certificate. Accepting an unverified certificate mean you may not be connected with the host you tried to connect to.
 
 Do you wish to override the security check and continue ?   </source>
-        <translation type="unfinished"></translation>
+        <translation>如果願意，可以使用未經驗證的憑證繼續。接受未經驗證的憑證表示您可能沒有連線到您要連線的主機。
+
+要略過安全性檢查並繼續嗎？   </translation>
     </message>
 </context>
 <context>
@@ -52,12 +54,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.ui" line="+14"/>
         <source>Downloads</source>
-        <translation type="unfinished">下載</translation>
+        <translation>下載</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>No downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>沒有下載</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.cpp" line="+82"/>
@@ -71,68 +73,68 @@ Do you wish to override the security check and continue ?   </source>
         <location filename="../../src/web/simplebrowser/downloadwidget.ui" line="+31"/>
         <location line="+40"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadwidget.cpp" line="+87"/>
         <location line="+40"/>
         <source>Open file</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟檔案</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>%L1 B</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 B</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 KiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 KiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 MiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 MiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 GiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 GiB</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>%p% - %1 of %2 downloaded - %3/s</source>
-        <translation type="unfinished"></translation>
+        <translation>%p% - 已下載 %1，共 %2 - %3/秒</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>unknown size - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>大小不明 - 已下載 %1 - %2/秒</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>completed - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>已完成 - 已下載 %1 - %2/秒</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>cancelled - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>已取消 - 已下載 %1 - %2/秒</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>interrupted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>已中斷：%1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Stop downloading</source>
-        <translation type="unfinished"></translation>
+        <translation>停止下載</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>從清單中移除</translation>
     </message>
 </context>
 <context>
@@ -144,7 +146,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../forms/intranetPodcastPublishingDialog.ui" line="+17"/>
         <source>Publish to Intranet</source>
-        <translation type="unfinished">發佈到內部網路</translation>
+        <translation>發佈到內部網路</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -630,12 +632,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+13"/>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>對齊格線</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Snap to grid and angle</source>
-        <translation type="unfinished"></translation>
+        <translation>對齊格線和角度</translation>
     </message>
     <message>
         <source>Ctrl+I</source>
@@ -967,7 +969,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+67"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location line="+73"/>
@@ -1273,13 +1275,13 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-887"/>
         <location line="+6"/>
         <source>Ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>橫線（淺色背景）</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>橫線（深色背景）</translation>
     </message>
     <message>
         <location line="+814"/>
@@ -1336,7 +1338,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+1609"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>繪製中間格線</translation>
     </message>
     <message>
         <location line="-184"/>
@@ -1344,7 +1346,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+13"/>
         <location line="+3"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>擷取網頁內容</translation>
     </message>
     <message>
         <location line="-1773"/>
@@ -1359,42 +1361,42 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+94"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>文件模式</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Web Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>網頁模式</translation>
     </message>
     <message>
         <location line="+140"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>Board Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>白板模式</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1414,29 +1416,29 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Desktop Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>桌面模式</translation>
     </message>
     <message>
         <location line="+182"/>
         <source>Add to document</source>
-        <translation type="unfinished"></translation>
+        <translation>加到文件</translation>
     </message>
     <message>
         <location line="+318"/>
         <location line="+6"/>
         <source>Seyes ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Seyes 橫線（淺色背景）</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Seyes ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Seyes 橫線（深色背景）</translation>
     </message>
     <message>
         <location line="+603"/>
         <source>Import one or more pages (supported formats : jpg, png, svg, ubz, pdf)</source>
-        <translation type="unfinished"></translation>
+        <translation>匯入一頁或多頁（支援的格式：jpg、png、svg、ubz、pdf）</translation>
     </message>
     <message>
         <source>Add to favorites</source>
@@ -1445,12 +1447,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+239"/>
         <source>Add Document to favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>將文件加到我的最愛</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Favorite</source>
-        <translation type="unfinished"></translation>
+        <translation>我的最愛</translation>
     </message>
 </context>
 <context>
@@ -1473,12 +1475,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-36"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>圖示</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>資訊</translation>
     </message>
 </context>
 <context>
@@ -1504,17 +1506,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/adaptors/UBSvgSubsetAdaptor.cpp" line="+252"/>
         <source>Loading scene (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>正在載入場景 (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBSceneCache.cpp" line="+243"/>
         <source>Moving cached scenes (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>正在移動快取的場景 (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+46"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>常用</translation>
     </message>
     <message>
         <location filename="../../src/board/UBComments.cpp" line="+153"/>
@@ -2008,7 +2010,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+48"/>
         <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
-        <translation type="unfinished"></translation>
+        <translation>無法直接開啟 UBX 檔案。請在文件模式中匯入</translation>
     </message>
 </context>
 <context>
@@ -2097,7 +2099,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+1"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>繪製中間格線</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -2283,18 +2285,18 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+1282"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>未命名</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Could not find document.</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到文件。</translation>
     </message>
 </context>
 <context>
     <name>UBBoardPaletteManager</name>
     <message>
-        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+933"/>
+        <location filename="../../src/board/UBBoardPaletteManager.cpp" line="+934"/>
         <source>Error Adding Image to Library</source>
         <translation>新增圖像至圖書館時發生錯誤</translation>
     </message>
@@ -2394,12 +2396,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+565"/>
         <source>Is it for Board or Widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>是給白板還是小工具用的？</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you trying to drop the object(s) inside the widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您是要把物件放到小工具裡嗎？</translation>
     </message>
 </context>
 <context>
@@ -2621,13 +2623,13 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+12"/>
         <location line="+856"/>
         <source>Opening document in Board. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在白板中開啟文件，請稍候...</translation>
     </message>
     <message>
         <location line="-850"/>
         <location line="+856"/>
         <source>Document opened successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>文件已成功開啟</translation>
     </message>
     <message>
         <location line="-802"/>
@@ -2653,17 +2655,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1250"/>
         <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board 無法復原這個檔案。請刪除它或聯絡管理員尋求協助</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Broken document</source>
-        <translation type="unfinished"></translation>
+        <translation>損壞的文件</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>不要再顯示</translation>
     </message>
     <message>
         <location line="+1161"/>
@@ -2736,8 +2738,8 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+667"/>
         <source>duplicated %1 page</source>
         <comment>duplicated %1 pages</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>已複製 %1 頁</numerusform>
         </translation>
     </message>
     <message>
@@ -2759,107 +2761,107 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+57"/>
         <source>Complete deletion of %1 documents/folders</source>
-        <translation type="unfinished"></translation>
+        <translation>徹底刪除 %1 個文件/資料夾</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete %1 documents and/or folders. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將永久刪除 %1 個文件和/或資料夾。確定嗎？</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Complete deletion of folder &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>徹底刪除資料夾「%1」</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete folder &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將永久刪除資料夾「%1」。確定嗎？</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Complete deletion of document &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>徹底刪除文件「%1」</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete document &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將永久刪除文件「%1」。確定嗎？</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Emptying My Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>正在清空我的文件</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the folder &quot;My Documents&quot;. All your documents will be moved to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將完全清空「我的文件」資料夾。所有文件都會移到資源回收筒。確定嗎？</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Emptying Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>正在清空資源回收筒</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the trash. All documents and folders in it will be permanently deleted. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將完全清空資源回收筒。其中所有文件和資料夾都會被永久刪除。確定嗎？</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Moving %1 elements to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>正在將 %1 個元素移到資源回收筒</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move %1 documents and/or folders to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將把 %1 個文件和/或資料夾移到資源回收筒。確定嗎？</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Move folder &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>將資料夾「%1」移到資源回收筒</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move folder &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將把資料夾「%1」移到資源回收筒。確定嗎？</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Move document &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>將文件「%1」移到資源回收筒</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move document &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將把文件「%1」移到資源回收筒。確定嗎？</translation>
     </message>
     <message>
         <location line="+352"/>
         <source>Open Supported File(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟支援的檔案</translation>
     </message>
     <message>
         <location filename="../../src/document/UBDocument.cpp" line="+64"/>
         <source>Moving %1 pages of the document &quot;%2&quot; to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>將文件「%2」的 %1 頁移到資源回收筒</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>You are about to move %1 pages of the document &quot;%2&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將把文件「%2」的 %1 頁移到資源回收筒。確定嗎？</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Remove page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>刪除第 %1 頁</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to remove page %1 of the document &quot;%2&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>您即將刪除文件「%2」的第 %1 頁。確定嗎？</translation>
     </message>
 </context>
 <context>
@@ -2892,7 +2894,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+85"/>
         <source>Creating %1 pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在建立 %1 頁，請稍候...</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -2948,27 +2950,29 @@ Do you wish to override the security check and continue ?   </source>
         <source>The name %1 is allready used.
 Keeping this name will replace the document.
 Providing a new name will create a new document.</source>
-        <translation type="unfinished"></translation>
+        <translation>名稱 %1 已被使用。
+保留這個名稱會取代該文件。
+使用新名稱會建立新文件。</translation>
     </message>
     <message>
         <location line="-81"/>
         <source>Rename</source>
-        <translation type="unfinished">重新命名</translation>
+        <translation>重新命名</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>全部取代</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>略過</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip all</source>
-        <translation type="unfinished"></translation>
+        <translation>全部略過</translation>
     </message>
 </context>
 <context>
@@ -3083,7 +3087,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentVersionConverter.cpp" line="+69"/>
         <source>This document was created using OpenBoard 1.8</source>
-        <translation type="unfinished"></translation>
+        <translation>這份文件是用 OpenBoard 1.8 建立的</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3092,7 +3096,11 @@ Providing a new name will create a new document.</source>
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>這份文件是用 OpenBoard 1.8 建立的，其內容已重新編排。強烈建議將 OpenBoard 更新到 1.8 版。
+
+如果繼續，文件會轉換為與 1.7.7 版相容。這可能需要幾分鐘。您仍可在 OpenBoard 1.8 中開啟它，但屆時會再次轉換為 1.8 格式。
+
+要繼續嗎？</translation>
     </message>
 </context>
 <context>
@@ -3168,7 +3176,8 @@ Do you want to continue?</source>
         <location line="-71"/>
         <source>Application name can`t contain any of the following characters:<byte value="xd"/>
 </source>
-        <translation type="unfinished"></translation>
+        <translation>應用程式名稱不能包含下列任何字元：&lt;byte value=&quot;xd&quot;/&gt;
+</translation>
     </message>
 </context>
 <context>
@@ -3442,7 +3451,7 @@ Do you want to continue?</source>
         <location line="-56"/>
         <location line="+14"/>
         <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>匯入 Master Board 的原始 PDF 似乎無效，無法與您的註解合併。請修復後重新匯入 Master Board。為避免匯出完全失敗，這次匯出會改用原始 PDF 頁面的詳細（較大）圖片。</translation>
     </message>
 </context>
 <context>
@@ -3614,7 +3623,7 @@ Do you want to continue?</source>
         <location line="+394"/>
         <location line="+6"/>
         <source>Web</source>
-        <translation type="unfinished"></translation>
+        <translation>網頁</translation>
     </message>
 </context>
 <context>
@@ -3788,7 +3797,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>選取時在延伸螢幕上隱藏</translation>
     </message>
 </context>
 <context>
@@ -3834,27 +3843,27 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+10"/>
         <source>Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>網頁檢查器</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>選取時在延伸螢幕上隱藏</translation>
     </message>
     <message>
         <location line="-599"/>
         <source>Duplicate</source>
-        <translation type="unfinished">複製</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Layer up</source>
-        <translation type="unfinished"></translation>
+        <translation>上移一層</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Layer down</source>
-        <translation type="unfinished"></translation>
+        <translation>下移一層</translation>
     </message>
 </context>
 <context>
@@ -3862,7 +3871,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsMediaItem.cpp" line="+490"/>
         <source>Media resource couldn&apos;t be resolved</source>
-        <translation type="unfinished"></translation>
+        <translation>無法解析媒體資源</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3872,7 +3881,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+4"/>
         <source>Media playback service not found</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到媒體播放服務</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3899,7 +3908,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/tools/UBGraphicsProtractor.cpp" line="+535"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>使用方向鍵精確移動</translation>
     </message>
 </context>
 <context>
@@ -3908,7 +3917,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsRuler.cpp" line="+167"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>使用方向鍵精確移動</translation>
     </message>
 </context>
 <context>
@@ -4090,7 +4099,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsTriangle.cpp" line="+449"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>使用方向鍵精確移動</translation>
     </message>
 </context>
 <context>
@@ -4186,7 +4195,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/adaptors/UBImportDocumentSetAdaptor.cpp" line="+71"/>
         <source>Openboard (set of documents) (*.ubx)</source>
-        <translation type="unfinished"></translation>
+        <translation>Openboard（文件集）(*.ubx)</translation>
     </message>
 </context>
 <context>
@@ -4212,7 +4221,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+6"/>
         <source>Importing %1 PDF pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在匯入 %1 頁 PDF，請稍候...</translation>
     </message>
     <message>
         <source>Importing page %1 of %2</source>
@@ -4646,7 +4655,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">Master Board 和 OpenBoard 一樣，是自由軟體（GPLv3 授權）。</translation>
     </message>
     <message>
-        <location line="+156"/>
+        <location line="+157"/>
         <location line="+17"/>
         <source>Lock the canvas: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
         <translation>鎖定畫布：無法繪製、書寫、標示、選取、移動或刪除任何內容；雷射筆和手形工具仍可使用</translation>
@@ -4685,7 +4694,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation type="vanished">寫出錄音中所說的內容；將隨 Master Board 的 AI 推出</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-245"/>
         <source>Full screen</source>
         <translation>全螢幕</translation>
     </message>
@@ -4716,7 +4725,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <translation>關於 Master Board</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <location line="+409"/>
         <source>Saved</source>
         <translation>已儲存</translation>
@@ -5063,7 +5072,13 @@ Download and install it now? Master Board saves your documents, closes and opens
 %2
 
 Do you want to ignore these errors for this host?</source>
-        <translation type="unfinished"></translation>
+        <translation>SSL 錯誤：
+
+%1
+
+%2
+
+要忽略這個主機的這些錯誤嗎？</translation>
     </message>
 </context>
 <context>
@@ -5509,12 +5524,12 @@ Dynamic width</source>
     <message>
         <location filename="../../src/core/UBPersistenceManager.cpp" line="+266"/>
         <source>Retrieved - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>已取回 - %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Broken - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>已損壞 - %1</translation>
     </message>
     <message>
         <location line="+468"/>
@@ -5529,17 +5544,17 @@ Dynamic width</source>
     <message>
         <location line="+0"/>
         <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board 已無法存取文件存放位置「%1」。為避免資料損壞，程式必須關閉。最近的變更也可能遺失。</translation>
     </message>
     <message>
         <location line="-247"/>
         <source>Renaming pages (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>正在重新命名頁面 (%1/%2)</translation>
     </message>
     <message>
         <location line="-945"/>
         <source>Retrieving all your documents (found : %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>正在取回您所有的文件（已找到：%1）</translation>
     </message>
 </context>
 <context>
@@ -5920,7 +5935,7 @@ Dynamic width</source>
     <message>
         <location line="-246"/>
         <source>Use all available displays</source>
-        <translation type="unfinished"></translation>
+        <translation>使用所有可用的顯示器</translation>
     </message>
 </context>
 <context>
@@ -6415,29 +6430,29 @@ Dynamic width</source>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+74"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>常用</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Board</source>
-        <translation type="unfinished"></translation>
+        <translation>演示版</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+32"/>
         <location line="+3"/>
         <source>Stylus Palette</source>
-        <translation type="unfinished">桌面工具</translation>
+        <translation>桌面工具</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Lines and colours</source>
-        <translation type="unfinished"></translation>
+        <translation>線條和顏色</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>背景</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -6447,138 +6462,138 @@ Dynamic width</source>
     <message>
         <location line="+23"/>
         <source>First scene</source>
-        <translation type="unfinished"></translation>
+        <translation>第一個場景</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show first scene</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示第一個場景</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>最後一個場景</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示最後一個場景</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Zoom reset</source>
-        <translation type="unfinished"></translation>
+        <translation>重設縮放</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom factor</source>
-        <translation type="unfinished"></translation>
+        <translation>重設縮放比例</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll left</source>
-        <translation type="unfinished"></translation>
+        <translation>向左捲動</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page left</source>
-        <translation type="unfinished"></translation>
+        <translation>向左翻頁</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll right</source>
-        <translation type="unfinished"></translation>
+        <translation>向右捲動</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page right</source>
-        <translation type="unfinished"></translation>
+        <translation>向右翻頁</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll up</source>
-        <translation type="unfinished"></translation>
+        <translation>向上捲動</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page up</source>
-        <translation type="unfinished"></translation>
+        <translation>向上翻頁</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll down</source>
-        <translation type="unfinished"></translation>
+        <translation>向下捲動</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page down</source>
-        <translation type="unfinished"></translation>
+        <translation>向下翻頁</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Built-in (not editable)</source>
-        <translation type="unfinished"></translation>
+        <translation>內建（不可編輯）</translation>
     </message>
     <message>
         <location line="+173"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>命令</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished">描述</translation>
+        <translation>描述</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Key Sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>按鍵組合</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>滑鼠按鈕</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tablet Button</source>
-        <translation type="unfinished"></translation>
+        <translation>繪圖板按鈕</translation>
     </message>
     <message>
         <location line="+151"/>
         <source>Left</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">向左</translation>
+        <translation>向左</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Right</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">向右</translation>
+        <translation>向右</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Middle</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>中間</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Back</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">退回</translation>
+        <translation>退回</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished">前進</translation>
+        <translation>前進</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Task</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>工作</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6604,7 +6619,7 @@ Dynamic width</source>
         <location line="+1"/>
         <source>Extra</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>特粗</translation>
     </message>
 </context>
 <context>
@@ -6984,7 +6999,7 @@ Dynamic width</source>
     <message>
         <location line="+13"/>
         <source>Visible next time</source>
-        <translation type="unfinished"></translation>
+        <translation>下次顯示</translation>
     </message>
 </context>
 <context>
@@ -7149,7 +7164,7 @@ Dynamic width</source>
     <message>
         <location line="+48"/>
         <source>Loading thumbnails (%1 pages)</source>
-        <translation type="unfinished"></translation>
+        <translation>正在載入縮圖（%1 頁）</translation>
     </message>
 </context>
 <context>
@@ -7179,7 +7194,7 @@ Dynamic width</source>
 <context>
     <name>UBToolbarChoice</name>
     <message>
-        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+67"/>
+        <location filename="../../src/gui/UBToolbarChoice.cpp" line="+70"/>
         <source>Spotlight / Magnifier</source>
         <translation>聚光燈 / 放大鏡</translation>
     </message>
@@ -7245,6 +7260,26 @@ Dynamic width</source>
         <source>Bar style...</source>
         <translation>工具列樣式...</translation>
     </message>
+    <message>
+        <location line="+4"/>
+        <source>Scroll direction</source>
+        <translation>捲動方向</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Vertical</source>
+        <translation>垂直</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal</source>
+        <translation>水平</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Horizontal in 2 pages</source>
+        <translation>水平雙頁</translation>
+    </message>
 </context>
 <context>
     <name>UBToolsManager</name>
@@ -7286,7 +7321,7 @@ Dynamic width</source>
     <message>
         <location line="-40"/>
         <source>Axes</source>
-        <translation type="unfinished"></translation>
+        <translation>座標軸</translation>
     </message>
 </context>
 <context>
@@ -7471,7 +7506,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/domain/UBWebEngineView.cpp" line="+109"/>
         <source>Open Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟網頁檢查器</translation>
     </message>
 </context>
 <context>
@@ -7575,7 +7610,7 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1008"/>
         <source>Bottom layer limit reached</source>
-        <translation type="unfinished"></translation>
+        <translation>已到最底層</translation>
     </message>
 </context>
 <context>
@@ -7634,63 +7669,63 @@ Please reboot the application to access the updated documents.</source>
         <location line="+17"/>
         <location line="+4"/>
         <source>Certificate Error</source>
-        <translation type="unfinished"></translation>
+        <translation>憑證錯誤</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation type="unfinished"></translation>
+        <translation>請輸入 %2 上「%1」的使用者名稱和密碼</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Allow %1 to access your location information?</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 %1 存取您的位置資訊嗎？</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone?</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 %1 存取您的麥克風嗎？</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 %1 存取您的網路攝影機嗎？</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone and webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 %1 存取您的麥克風和網路攝影機嗎？</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to lock your mouse cursor?</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 %1 鎖定您的滑鼠游標嗎？</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 %1 擷取您桌面的影片嗎？</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture audio and video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 %1 擷取您桌面的音訊和影片嗎？</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+47"/>
         <source>Permission Request</source>
-        <translation type="unfinished"></translation>
+        <translation>權限要求</translation>
     </message>
     <message>
         <location line="-19"/>
         <source>Connect to proxy &quot;%1&quot; using:</source>
-        <translation type="unfinished"></translation>
+        <translation>連線到 Proxy「%1」使用：</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Allow %1 to open all %2 links?</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 %1 開啟所有 %2 連結嗎？</translation>
     </message>
 </context>
 <context>
@@ -7698,43 +7733,44 @@ Please reboot the application to access the updated documents.</source>
     <message>
         <location filename="../../src/web/simplebrowser/webview.cpp" line="+107"/>
         <source>Render process normal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>轉譯程序正常結束</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process abnormal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>轉譯程序異常結束</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>轉譯程序當掉</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process killed</source>
-        <translation type="unfinished"></translation>
+        <translation>轉譯程序被終止</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Render process exited with code: %1
 Do you want to reload the page ?</source>
-        <translation type="unfinished"></translation>
+        <translation>轉譯程序結束，代碼：%1
+要重新載入頁面嗎？</translation>
     </message>
     <message>
         <location line="+121"/>
         <source>Open Web Inspector in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>在新視窗中開啟網頁檢查器</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Inspect element</source>
-        <translation type="unfinished"></translation>
+        <translation>檢查元素</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Add to board</source>
-        <translation type="unfinished"></translation>
+        <translation>加到白板</translation>
     </message>
 </context>
 <context>
@@ -7747,7 +7783,7 @@ Do you want to reload the page ?</source>
     <message>
         <location line="-265"/>
         <source>an error occured while trying to open the PDF file</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟 PDF 檔案時發生錯誤</translation>
     </message>
 </context>
 <context>
@@ -7808,7 +7844,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+84"/>
         <source>Restore credentials on reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>重新開機時還原認證</translation>
     </message>
 </context>
 <context>
@@ -7856,7 +7892,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+451"/>
         <source>Show preview circle from</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示預覽圓圈的最小尺寸</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -8120,17 +8156,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-406"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>文件模式</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Display date column on alphabetical sort</source>
-        <translation type="unfinished"></translation>
+        <translation>依字母排序時顯示日期欄</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Empty trash for documents older than</source>
-        <translation type="unfinished"></translation>
+        <translation>清空早於以下時間的文件資源回收筒</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -8140,27 +8176,27 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-170"/>
         <source>PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Export background grid</source>
-        <translation type="unfinished"></translation>
+        <translation>匯出背景格線</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Export background color</source>
-        <translation type="unfinished"></translation>
+        <translation>匯出背景顏色</translation>
     </message>
     <message>
         <location line="+420"/>
         <source>Documents</source>
-        <translation type="unfinished">文件</translation>
+        <translation>文件</translation>
     </message>
     <message>
         <location line="+61"/>
         <source>List of screens used for Control, Display and Previous pages</source>
-        <translation type="unfinished"></translation>
+        <translation>用於控制、顯示和上一頁的螢幕清單</translation>
     </message>
 </context>
 <context>
@@ -8191,12 +8227,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-91"/>
         <source>Select a content to capture</source>
-        <translation type="unfinished"></translation>
+        <translation>選取要擷取的內容</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>擷取網頁內容</translation>
     </message>
 </context>
 </TS>
