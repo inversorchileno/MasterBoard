@@ -10,6 +10,8 @@
 - **Trazo entre hojas como en Xournal:** si una línea pasa a la hoja de al lado, cada parte queda en su hoja.
 - **Medidas en lienzo:** las reglas se cambian de lado cuando la barra de herramientas las tapa.
 - Botones de arriba a la derecha más juntos.
+- Las dos casillas «Reconocer» del bolígrafo, una debajo de la otra.
+- En macOS y Linux, lo que solo existe en Windows (texto manuscrito y dictado) aparece en gris con el aviso «Solo en Windows».
 - Guía del programa actualizada y los 33 idiomas traducidos por completo.
 
 ---
