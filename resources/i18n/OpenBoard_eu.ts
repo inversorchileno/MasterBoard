@@ -14,12 +14,12 @@
     <message>
         <location filename="../../src/web/simplebrowser/browserwindow.cpp" line="+151"/>
         <source>Navigation</source>
-        <translation type="unfinished">Nabigazioa</translation>
+        <translation>Nabigazioa</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Show downloads</source>
-        <translation type="unfinished">Erakutsi deskargak</translation>
+        <translation>Erakutsi deskargak</translation>
     </message>
 </context>
 <context>
@@ -32,21 +32,21 @@
     <message>
         <location line="+12"/>
         <source>Icon</source>
-        <translation type="unfinished">Ikonoa</translation>
+        <translation>Ikonoa</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Error</source>
-        <translation type="unfinished">Errorea</translation>
+        <translation>Errorea</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>If you wish so, you may continue with an unverified certificate. Accepting an unverified certificate mean you may not be connected with the host you tried to connect to.
 
 Do you wish to override the security check and continue ?   </source>
-        <translation type="unfinished">Hala nahi baduzu, egiaztatu gabeko ziurtagiri batekin jarrai dezakezu. Egiaztatu gabeko ziurtagiri bat onartzeak esan nahi du ez zarela konektatu konektatzen saiatu zaren ostalariarekin.
+        <translation>Nahi baduzu, egiaztatu gabeko ziurtagiri batekin jarrai dezakezu. Egiaztatu gabeko ziurtagiria onartzeak esan nahi du agian ez zaudela konektatu nahi zenuen ostalarira konektatuta.
 
-Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
+Segurtasun-egiaztapena saltatu eta jarraitu nahi duzu?   </translation>
     </message>
 </context>
 <context>
@@ -149,12 +149,12 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.ui" line="+14"/>
         <source>Downloads</source>
-        <translation type="unfinished">Deskargak</translation>
+        <translation>Deskargak</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>No downloads</source>
-        <translation type="unfinished">Deskargarik ez</translation>
+        <translation>Deskargarik ez</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.cpp" line="+82"/>
@@ -168,68 +168,68 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <location filename="../../src/web/simplebrowser/downloadwidget.ui" line="+31"/>
         <location line="+40"/>
         <source>TextLabel</source>
-        <translation type="unfinished">Testu-etiketa</translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadwidget.cpp" line="+87"/>
         <location line="+40"/>
         <source>Open file</source>
-        <translation type="unfinished">Ireki fitxategia</translation>
+        <translation>Ireki fitxategia</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>%L1 B</source>
-        <translation type="unfinished">%L1 B</translation>
+        <translation>%L1 B</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 KiB</source>
-        <translation type="unfinished">%L1 KB</translation>
+        <translation>%L1 KiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 MiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 MiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 GiB</source>
-        <translation type="unfinished">%L1 MB</translation>
+        <translation>%L1 GiB</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>%p% - %1 of %2 downloaded - %3/s</source>
-        <translation type="unfinished"></translation>
+        <translation>%p% - %1/%2 deskargatuta - %3/s</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>unknown size - %1 downloaded - %2/s</source>
-        <translation type="unfinished">%p% - %2-tik %1 dekargatuta - %3/s</translation>
+        <translation>tamaina ezezaguna - %1 deskargatuta - %2/s</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>completed - %1 downloaded - %2/s</source>
-        <translation type="unfinished">burutu da - %1 deskargatuta - %2/s</translation>
+        <translation>osatuta - %1 deskargatuta - %2/s</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>cancelled - %1 downloaded - %2/s</source>
-        <translation type="unfinished">bertan behera - %1 deskargatuta - %2/s</translation>
+        <translation>bertan behera - %1 deskargatuta - %2/s</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>interrupted: %1</source>
-        <translation type="unfinished">bertan behera: %1</translation>
+        <translation>etenda: %1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Stop downloading</source>
-        <translation type="unfinished">Gelditu deskarga</translation>
+        <translation>Gelditu deskarga</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Remove from list</source>
-        <translation type="unfinished">Kendu zerrendatik</translation>
+        <translation>Kendu zerrendatik</translation>
     </message>
 </context>
 <context>
@@ -1019,22 +1019,22 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+383"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Programaren gida</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Ireki programaren gida</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Doitu saretara</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Snap to grid and angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Doitu saretara eta angelura</translation>
     </message>
     <message>
         <source>Ctrl+I</source>
@@ -1123,37 +1123,37 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+3"/>
         <source>Draw shapes: rectangles, ellipses, lines, polylines, arrows, stars, speech bubbles…</source>
-        <translation type="unfinished"></translation>
+        <translation>Marraztu formak: laukizuzenak, elipseak, lerroak, polilerroak, geziak, izarrak, bunbuiloak…</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojiak eta GIFak</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Put an emoji or a GIF on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Jarri emoji edo GIF bat orrian</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AA</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
-        <translation type="unfinished"></translation>
+        <translation>Laburpena, itzulpena, irudiak eta gehiago weberako AA batekin</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Neurketak</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance, perimeter and area, with a reference drawn on the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Distantzia, perimetroa eta azalera, pantailan marraztutako erreferentzia batekin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1163,7 +1163,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+3"/>
         <source>Read the page aloud, from its start, from a word clicked or a rectangle dragged on the text</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurri orria ozen, hasieratik, klikatutako hitz batetik edo testuaren gainean arrastatutako laukizuzen batetik</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -1378,7 +1378,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="-1813"/>
         <source>Documents Mode</source>
-        <translation type="unfinished">Dokumentuen modua</translation>
+        <translation>Dokumentu modua</translation>
     </message>
     <message>
         <location line="-97"/>
@@ -1393,72 +1393,72 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+114"/>
         <source>Web Mode</source>
-        <translation type="unfinished">Web modua</translation>
+        <translation>Web modua</translation>
     </message>
     <message>
         <location line="+89"/>
         <source>Small Eraser</source>
-        <translation type="unfinished">Borragoma txikia</translation>
+        <translation>Borragoma txikia</translation>
     </message>
     <message>
         <location line="+45"/>
         <location line="+3"/>
         <source>Color 1</source>
-        <translation type="unfinished">1. kolorea</translation>
+        <translation>1. kolorea</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>1</source>
-        <translation type="unfinished">1</translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+12"/>
         <location line="+3"/>
         <source>Color 2</source>
-        <translation type="unfinished">2. kolorea</translation>
+        <translation>2. kolorea</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>2</source>
-        <translation type="unfinished">2</translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+12"/>
         <location line="+3"/>
         <source>Color 3</source>
-        <translation type="unfinished">3. kolorea</translation>
+        <translation>3. kolorea</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>3</source>
-        <translation type="unfinished">3</translation>
+        <translation>3</translation>
     </message>
     <message>
         <location line="+12"/>
         <location line="+3"/>
         <source>Color 4</source>
-        <translation type="unfinished">4. kolorea</translation>
+        <translation>4. kolorea</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>4</source>
-        <translation type="unfinished">4</translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+12"/>
         <location line="+3"/>
         <source>Color 5</source>
-        <translation type="unfinished">5. kolorea</translation>
+        <translation>5. kolorea</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>5</source>
-        <translation type="unfinished">5</translation>
+        <translation>5</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>Board Mode</source>
-        <translation type="unfinished">Arbela modua</translation>
+        <translation>Arbel modua</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1478,34 +1478,34 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+3"/>
         <source>Desktop Mode</source>
-        <translation type="unfinished">Mahaigaina modua</translation>
+        <translation>Mahaigain modua</translation>
     </message>
     <message>
         <location line="+182"/>
         <source>Add to document</source>
-        <translation type="unfinished">Gehitu dokumentuan</translation>
+        <translation>Gehitu dokumentura</translation>
     </message>
     <message>
         <location line="+318"/>
         <location line="+6"/>
         <source>Seyes ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Seyes marraduna, atzeko plano argia</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Seyes ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Seyes marraduna, atzeko plano iluna</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location line="+505"/>
         <source>Import one or more pages (supported formats : jpg, png, svg, ubz, pdf)</source>
-        <translation type="unfinished">Inportatau orri bat edo gehiago (supported formats : jpg, png, svg, ubz, pdf)</translation>
+        <translation>Inportatu orri bat edo gehiago (formatuak: jpg, png, svg, ubz, pdf)</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1513,19 +1513,19 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <location line="+13"/>
         <location line="+3"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished">Kapturatu Web edukia</translation>
+        <translation>Atzeman web edukia</translation>
     </message>
     <message>
         <location line="+146"/>
         <location line="+3"/>
         <source>Reset grid size</source>
-        <translation type="unfinished">Berrezarri saretaren tamaina</translation>
+        <translation>Berrezarri saretaren tamaina</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished">Marraztu tarteko sareta-lerroak</translation>
+        <translation>Marraztu saretaren tarteko lerroak</translation>
     </message>
     <message>
         <source>Add to favorites</source>
@@ -1534,7 +1534,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+16"/>
         <source>Add Document to favorites</source>
-        <translation type="unfinished">Gehitu dokumentua gogokoetara</translation>
+        <translation>Gehitu dokumentua gogokoetara</translation>
     </message>
     <message>
         <source>Hints and tips</source>
@@ -1547,7 +1547,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="-3"/>
         <source>Favorite</source>
-        <translation type="unfinished">Gogokoa</translation>
+        <translation>Gogokoa</translation>
     </message>
 </context>
 <context>
@@ -1570,12 +1570,12 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="-36"/>
         <source>Icon</source>
-        <translation type="unfinished">Ikonoa</translation>
+        <translation>Ikonoa</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Info</source>
-        <translation type="unfinished">Informazioa</translation>
+        <translation>Informazioa</translation>
     </message>
 </context>
 <context>
@@ -1614,22 +1614,22 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location filename="../../plugins/cffadaptor/src/UBCFFAdaptor.cpp" line="+1181"/>
         <source>Element ID = </source>
-        <translation type="unfinished">Elementuaren ID</translation>
+        <translation>Elementuaren IDa = </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Content is not supported in destination format.</source>
-        <translation type="unfinished">Edukia ez da helmuga formatuan onartzen.</translation>
+        <translation>Edukia ez da onartzen helburuko formatuan.</translation>
     </message>
     <message>
         <location filename="../../src/adaptors/UBSvgSubsetAdaptor.cpp" line="+252"/>
         <source>Loading scene (%1/%2)</source>
-        <translation type="unfinished">Eszena kargatzen</translation>
+        <translation>Eszena kargatzen (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBSceneCache.cpp" line="+243"/>
         <source>Moving cached scenes (%1/%2)</source>
-        <translation type="unfinished">Cacheko eszenak mugitzen</translation>
+        <translation>Cacheko eszenak mugitzen (%1/%2)</translation>
     </message>
     <message>
         <source>Are you sure you want to remove page %1 ?</source>
@@ -1638,7 +1638,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+46"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrunta</translation>
     </message>
     <message>
         <location filename="../../src/board/UBComments.cpp" line="+153"/>
@@ -1681,22 +1681,22 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
         <source>Bar style</source>
-        <translation type="unfinished"></translation>
+        <translation>Barraren estiloa</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tresna-paleten estiloa, arbelean eta mahaigainean. Paletak berehala aldatzen dira.</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Color inside</source>
-        <translation type="unfinished"></translation>
+        <translation>Barneko kolorea</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Color of the edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Ertzaren kolorea</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1706,17 +1706,17 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+2"/>
         <source>Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Ertzak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>Karratua</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>Biribila</translation>
     </message>
 </context>
 <context>
@@ -1766,77 +1766,77 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AA</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Laburpena</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, summarized by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Orriaren zati bat, edo osoa, AAk laburtua</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzulpena</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, translated by the AI into the language chosen</source>
-        <translation type="unfinished"></translation>
+        <translation>Orriaren zati bat, edo osoa, AAk hautatutako hizkuntzara itzulia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Create image</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortu irudia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>An image made by the AI from what you write</source>
-        <translation type="unfinished"></translation>
+        <translation>Idazten duzunetik AAk egindako irudia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove background</source>
-        <translation type="unfinished"></translation>
+        <translation>Kendu atzeko planoa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A picture without its background, made by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Atzeko planorik gabeko irudia, AAk egina</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erase</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezabatze sortzailea</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Something erased from a picture by the AI, as if it had never been there</source>
-        <translation type="unfinished"></translation>
+        <translation>AAk irudi batetik ezabatutako zerbait, inoiz egon ez balitz bezala</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Transkribatu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Asks for an audio and gives it to the AI, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio bat eskatu eta AAri ematen dio, esandakoa idatz dezan</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Ireki AA</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Opens or closes the page of the AI at the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Eskuineko AAren orria irekitzen edo ixten du</translation>
     </message>
 </context>
 <context>
@@ -1844,202 +1844,202 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location filename="../../src/gui/UBAiPanel.cpp" line="+164"/>
         <source>Drag over the part of the page to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrastatu AAri emateko orriaren zatiaren gainean. Esc: utzi.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag over the part of the screen to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrastatu AAri emateko pantailaren zatiaren gainean. Esc: utzi.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzulpena</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Detect it</source>
-        <translation type="unfinished"></translation>
+        <translation>Detektatu</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Write or choose the languages:</source>
-        <translation type="unfinished"></translation>
+        <translation>Idatzi edo hautatu hizkuntzak:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nork:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nori:</translation>
     </message>
     <message>
         <location line="+171"/>
         <source>Put the picture on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Jarri irudia mahaigainean</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the picture on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Jarri irudia orrian</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Put the text on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Jarri testua mahaigainean</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the text on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Jarri testua orrian</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The AI shown; the addresses are in the preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsitako AA; helbideak hobespenetan daude</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Close the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Itxi AA</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>AI:</source>
-        <translation type="unfinished"></translation>
+        <translation>AA:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Copy instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiatu argibidea</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copies the instruction again, to paste it with Ctrl+V in the box of the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Argibidea berriro kopiatzen du, Ctrl+V-rekin AAren koadroan itsasteko</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Paste on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Itsatsi orrian</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Paste on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Itsatsi mahaigainean</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Puts on the page what was copied in the AI: a text, or a picture with its right click, Copy image. The right click on a picture or a selected text of the AI can also put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>AAn kopiatutakoa orrian jartzen du: testu bat, edo irudi bat eskuineko klikarekin, Kopiatu irudia. AAren irudi edo hautatutako testu batean eskuineko klik eginez ere jar daiteke.</translation>
     </message>
     <message>
         <location line="+405"/>
         <source>Right click on a picture or a text of the AI to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin eskuineko klik AAren irudi edo testu batean mahaigainean jartzeko.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag a text or a picture of the AI to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrastatu AAren testu edo irudi bat orrira, edo egin eskuineko klik bertan jartzeko.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Right click on the answer to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Argibidea AAn idatzi eta kopiatu da: Ctrl+V-k itsasten du. Egin eskuineko klik erantzunean mahaigainean jartzeko.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Drag the answer to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Argibidea AAn idatzi eta kopiatu da: Ctrl+V-k itsasten du. Arrastatu erantzuna orrira, edo egin eskuineko klik bertan jartzeko.</translation>
     </message>
     <message>
         <location line="+305"/>
         <source>The picture could not be taken from the AI: right click on it and choose to put it on the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da irudia AAtik hartu: egin eskuineko klik bertan eta hautatu orrian jartzea.</translation>
     </message>
     <message>
         <location line="-675"/>
         <source>Drag to make the panel wider</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrastatu panela zabaltzeko</translation>
     </message>
     <message>
         <location line="+129"/>
         <source>The picture of the AI is on the page; it is also in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>AAren irudia orrian dago; %1 karpetan ere badago</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Downloaded: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Deskargatuta: %1</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>Create an image</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortu irudi bat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezabatze sortzailea</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Describe the image to create:</source>
-        <translation type="unfinished"></translation>
+        <translation>Deskribatu sortu beharreko irudia:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>What should the AI erase from the picture?</source>
-        <translation type="unfinished"></translation>
+        <translation>Zer ezabatu behar du AAk iruditik?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Summarize the attached document in clear words: first the main idea in two or three sentences, then the important points as a list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Laburtu erantsitako dokumentua hitz argiekin: lehenik ideia nagusia bi edo hiru esalditan, gero puntu garrantzitsuak zerrenda batean.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Translate the text of the attached file into %1. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzuli erantsitako fitxategiaren testua %1-(e)ra. Mantendu ordena eta izenburuak, eta eman itzulpena soilik.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translate the text of the attached file from %1 into %2. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzuli erantsitako fitxategiaren testua %1-(e)tik %2-(e)ra. Mantendu ordena eta izenburuak, eta eman itzulpena soilik.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Create an image: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortu irudi bat: %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the background of the attached image and give me the result as a PNG image with a transparent background, of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kendu erantsitako irudiaren atzeko planoa eta eman emaitza atzeko plano gardeneko PNG irudi gisa, tamaina berean.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>In the attached image, erase this: %1. Fill its place so that it looks natural, as if it had never been there, and give me the result as an image of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erantsitako irudian, ezabatu hau: %1. Bete bere lekua modu naturalean, inoiz egon ez balitz bezala, eta eman emaitza tamaina bereko irudi gisa.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Transcribe the attached audio word by word. When several people speak, mark who speaks. Give only the text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Transkribatu erantsitako audioa hitzez hitz. Hainbat pertsonak hitz egiten badute, adierazi nork hitz egiten duen. Eman testua soilik.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Audio to transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Transkribatzeko audioa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Audioa</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -2048,49 +2048,49 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <location line="+17"/>
         <location line="+139"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AA</translation>
     </message>
     <message>
         <location line="-169"/>
         <source>What should be given to the AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Zer eman behar zaio AAri?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Orriaren zati bat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The whole page</source>
-        <translation type="unfinished"></translation>
+        <translation>Orri osoa</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The whole PDF or board</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF edo arbel osoa</translation>
     </message>
     <message>
         <location line="-14"/>
         <location line="+25"/>
         <location line="+17"/>
         <source>The file for the AI could not be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da AArako fitxategia sortu.</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>If the AI did not take the file, drag it from here to the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AAk fitxategia hartu ez badu, arrastatu hemendik AAra</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>It seems that the free uses of %1 are over for now. Do the same with another AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Badirudi %1-(r)en doako erabilerak amaitu direla oraingoz. Gauza bera beste AA batekin?</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Stay here</source>
-        <translation type="unfinished"></translation>
+        <translation>Geratu hemen</translation>
     </message>
 </context>
 <context>
@@ -2108,7 +2108,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <location line="+48"/>
         <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
-        <translation type="unfinished">Ezin da zure UBX fitxategia zuzenean ireki. Mesedez, inporta ezazu dokumentu moduan</translation>
+        <translation>Ezin da UBX fitxategia zuzenean ireki. Inportatu Dokumentu moduan</translation>
     </message>
 </context>
 <context>
@@ -2182,7 +2182,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+0"/>
         <source>Templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Txantiloiak</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2197,42 +2197,42 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+1"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished">Marraztu tarteko sareta-lerroak</translation>
+        <translation>Marraztu saretaren tarteko lerroak</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Date of the calendars</source>
-        <translation type="unfinished"></translation>
+        <translation>Egutegien data</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The calendars and planners are made for this day, its week, its month or its year</source>
-        <translation type="unfinished"></translation>
+        <translation>Egutegiak eta agendak egun honetarako, bere asterako, hilabeterako edo urterako egiten dira</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Weeks start on Sunday</source>
-        <translation type="unfinished"></translation>
+        <translation>Asteak igandean hasten dira</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The calendars start their weeks on Monday, or on Sunday when this is ticked</source>
-        <translation type="unfinished"></translation>
+        <translation>Egutegiek astelehenean hasten dituzte asteak, edo igandean markatuta badago</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>%1, for the date chosen above</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, goian hautatutako datarako</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF bateko orrian, txantiloia ondorengo orri berri batean jartzen da.</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerroen kolorea</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2242,7 +2242,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+45"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Korritze-norabidea</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2257,17 +2257,17 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontalean 2 orriko</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Bertikalean 2 orriko</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Orriak bata bestearen azpian, bata bestearen ondoan, edo biko taldetan koaderno ireki bat bezala</translation>
     </message>
 </context>
 <context>
@@ -2367,7 +2367,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+402"/>
         <source>The GIF could not be found on its page. Try another one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da GIFa bere orrian aurkitu. Probatu beste bat.</translation>
     </message>
     <message>
         <location line="+200"/>
@@ -2387,17 +2387,17 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+555"/>
         <source>Deleting page %1</source>
-        <translation type="unfinished">Orria ezabatzen</translation>
+        <translation>%1. orria ezabatzen</translation>
     </message>
     <message>
         <location line="+727"/>
         <source>Untitled</source>
-        <translation type="unfinished">Izenik gabe</translation>
+        <translation>Izenik gabe</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Could not find document.</source>
-        <translation type="unfinished">Ezin izan da dokumentua aurkitu</translation>
+        <translation>Ezin da dokumentua aurkitu.</translation>
     </message>
 </context>
 <context>
@@ -2496,12 +2496,12 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
-        <translation type="unfinished">Arbelerako edo trepetarako?</translation>
+        <translation>Arbelerako ala widgeterako da?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you trying to drop the object(s) inside the widget ?</source>
-        <translation type="unfinished">Saiatzen ari zara objektua(k) trepetetan askatzen?</translation>
+        <translation>Objektua(k) widgetaren barruan jaregin nahian zabiltza?</translation>
     </message>
 </context>
 <context>
@@ -2684,12 +2684,12 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location filename="../../src/gui/UBDictation.cpp" line="+83"/>
         <source>Dictate</source>
-        <translation type="unfinished">Diktatu</translation>
+        <translation>Diktatu</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
-        <translation type="unfinished">Sistemaren diktaketa ez dago erabilgarri hemen. Windows-en, sakatu Windows + H testu batean.</translation>
+        <translation>Sistemaren diktaketa ez dago erabilgarri hemen. Windows-en, sakatu Windows + H testu batean.</translation>
     </message>
 </context>
 <context>
@@ -2866,9 +2866,9 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <location line="-994"/>
         <source>duplicated %1 page</source>
         <comment>duplicated %1 pages</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 orri bikoiztuta</numerusform>
+            <numerusform>%1 orri bikoiztuta</numerusform>
         </translation>
     </message>
     <message>
@@ -2876,133 +2876,133 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
         <location line="+12"/>
         <location line="+856"/>
         <source>Opening document in Board. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentua arbelean irekitzen. Itxaron...</translation>
     </message>
     <message>
         <location line="-1336"/>
         <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board-ek ezin izan du fitxategi hau berreskuratu. Ezabatu edo eskatu laguntza administratzaileari</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Broken document</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentu hondatua</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez erakutsi berriro</translation>
     </message>
     <message>
         <location line="+475"/>
         <location line="+856"/>
         <source>Document opened successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentua ireki da</translation>
     </message>
     <message>
         <location line="-755"/>
         <source>Complete deletion of %1 documents/folders</source>
-        <translation type="unfinished">Burutu %1 dokumentu/karpeten ezabaketa</translation>
+        <translation>%1 dokumentu/karpeten ezabatze osoa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete %1 documents and/or folders. Are you sure ?</source>
-        <translation type="unfinished">%1 dokumentu edota karpeta ezabatu behar dituzu betiko. Ziur zaude?</translation>
+        <translation>%1 dokumentu eta/edo karpeta behin betiko ezabatzera zoaz. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Complete deletion of folder &quot;%1&quot;</source>
-        <translation type="unfinished"> &quot;%1&quot; karpetaren ezabaketa</translation>
+        <translation>&quot;%1&quot; karpetaren ezabatze osoa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete folder &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished">&quot;%1&quot; karpeta ezabatu behar duzu betiko. Ziur zaude?</translation>
+        <translation>&quot;%1&quot; karpeta behin betiko ezabatzera zoaz. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Complete deletion of document &quot;%1&quot;</source>
-        <translation type="unfinished">&quot;%1&quot; dokumentuaren ezabaketa</translation>
+        <translation>&quot;%1&quot; dokumentuaren ezabatze osoa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete document &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished">&quot;%1&quot; dokumentua ezabatu behar duzu betiko. Ziur zaude?</translation>
+        <translation>&quot;%1&quot; dokumentua behin betiko ezabatzera zoaz. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Emptying My Documents</source>
-        <translation type="unfinished">Nire dokumentuak husten</translation>
+        <translation>Nire dokumentuak husten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the folder &quot;My Documents&quot;. All your documents will be moved to trash. Are you sure ?</source>
-        <translation type="unfinished">&quot;Nire dokumentuak&quot; karpeta hustu behar duzu. Dokumentu guztiak zakarrontzira mugituko dira. Ziur zaude?</translation>
+        <translation>&quot;Nire dokumentuak&quot; karpeta erabat hustera zoaz. Zure dokumentu guztiak zakarrontzira eramango dira. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Emptying Trash</source>
-        <translation type="unfinished">Zakarrontzia husten</translation>
+        <translation>Zakarrontzia husten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the trash. All documents and folders in it will be permanently deleted. Are you sure ?</source>
-        <translation type="unfinished">Zakarrontzia hustu behar duzu. Bertako dokumnetu eta karpeta guztiak betiko ezabatuko dira. Ziur zaude?</translation>
+        <translation>Zakarrontzia erabat hustera zoaz. Barruko dokumentu eta karpeta guztiak behin betiko ezabatuko dira. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Moving %1 elements to trash</source>
-        <translation type="unfinished">%1 elementu zakarrontzira mugitzen</translation>
+        <translation>%1 elementu zakarrontzira eramaten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move %1 documents and/or folders to trash. Are you sure ?</source>
-        <translation type="unfinished">%1 dokumentu edota karpeta zakarrontzira mugitu behar dituzu. Ziur zaude?</translation>
+        <translation>%1 dokumentu eta/edo karpeta zakarrontzira eramatera zoaz. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Move folder &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Eraman &quot;%1&quot; karpeta zakarrontzira</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move folder &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished">&quot;%1&quot; karpeta zakarrontzira mugitzen. Ziur zaude?</translation>
+        <translation>&quot;%1&quot; karpeta zakarrontzira eramatera zoaz. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Move document &quot;%1&quot;to trash</source>
-        <translation type="unfinished">&quot;%1&quot; dokumentua zakarrontzira mugitu</translation>
+        <translation>Eraman &quot;%1&quot; dokumentua zakarrontzira</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move document &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished">&quot;%1&quot; dokumentua zakarrontzira mugitu behar duzu. Ziur zaude?</translation>
+        <translation>&quot;%1&quot; dokumentua zakarrontzira eramatera zoaz. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+352"/>
         <source>Open Supported File(s)</source>
-        <translation type="unfinished">Ireki onartutako fitxategia(k)</translation>
+        <translation>Ireki fitxategi bateragarriak</translation>
     </message>
     <message>
         <location filename="../../src/document/UBDocument.cpp" line="+64"/>
         <source>Moving %1 pages of the document &quot;%2&quot; to trash</source>
-        <translation type="unfinished">&quot;%2&quot; dokumentuko %1 orri zakarrontzira mugitzen</translation>
+        <translation>&quot;%2&quot; dokumentuaren %1 orri zakarrontzira eramaten</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>You are about to move %1 pages of the document &quot;%2&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished">&quot;%2&quot; dokumentuko %1 orri zakarrontzira mugitu behar duzu. Ziur zaude?</translation>
+        <translation>&quot;%2&quot; dokumentuaren %1 orri zakarrontzira eramatera zoaz. Ziur zaude?</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Remove page %1</source>
-        <translation type="unfinished">%1 orria kendu</translation>
+        <translation>Kendu %1. orria</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to remove page %1 of the document &quot;%2&quot;. Are you sure ?</source>
-        <translation type="unfinished">&quot;%2&quot; dokumentuko %1 orria kendu behar duzu. Ziur zaude?</translation>
+        <translation>&quot;%2&quot; dokumentuaren %1. orria kentzera zoaz. Ziur zaude?</translation>
     </message>
     <message>
         <source>Refreshing Document Thumbnails View (%1/%2)</source>
@@ -3043,7 +3043,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+85"/>
         <source>Creating %1 pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 orri sortzen. Itxaron...</translation>
     </message>
     <message>
         <location line="+78"/>
@@ -3088,7 +3088,7 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+1"/>
         <source>Replace</source>
-        <translation type="unfinished">Ordeztu</translation>
+        <translation>Ordeztu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3098,26 +3098,26 @@ Segurtasun egiaztapena gainidatzi eta jarraitu nahi duzu?</translation>
     <message>
         <location line="+27"/>
         <source>Replace all</source>
-        <translation type="unfinished">Ordeztu guztiak</translation>
+        <translation>Ordeztu guztiak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip</source>
-        <translation type="unfinished">Salto egin</translation>
+        <translation>Saltatu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip all</source>
-        <translation type="unfinished">Salto egin guztiak</translation>
+        <translation>Saltatu guztiak</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>The name %1 is allready used.
 Keeping this name will replace the document.
 Providing a new name will create a new document.</source>
-        <translation type="unfinished">%1 izena dagoeneko erabili da.
-IzIzen hori mantenduz gero, dokumentua ordezkatuko da.
-Izen berria ematean dokumentu berri bat sortuko da.</translation>
+        <translation>%1 izena erabilita dago.
+Izen hau mantenduz gero, dokumentua ordeztuko da.
+Izen berri batekin dokumentu berri bat sortuko da.</translation>
     </message>
 </context>
 <context>
@@ -3172,7 +3172,7 @@ Izen berria ematean dokumentu berri bat sortuko da.</translation>
     <message>
         <location filename="../../src/document/UBDocumentController.cpp" line="+205"/>
         <source>My documents</source>
-        <translation type="unfinished">Nire dokumentuak</translation>
+        <translation>Nire dokumentuak</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -3182,9 +3182,9 @@ Izen berria ematean dokumentu berri bat sortuko da.</translation>
     <message numerus="yes">
         <location line="+383"/>
         <source>%1 pages copied</source>
-        <translation type="unfinished">
-            <numerusform>orri %1 kopiatu da</numerusform>
-            <numerusform>%1 orri kopiatu dira</numerusform>
+        <translation>
+            <numerusform>%1 orri kopiatuta</numerusform>
+            <numerusform>%1 orri kopiatuta</numerusform>
         </translation>
     </message>
 </context>
@@ -3198,9 +3198,9 @@ Izen berria ematean dokumentu berri bat sortuko da.</translation>
     <message numerus="yes">
         <location line="+40"/>
         <source>%1 pages copied</source>
-        <translation type="unfinished">
-            <numerusform>orri %1 kopiatu da</numerusform>
-            <numerusform>%1 orri kopiatu dira</numerusform>
+        <translation>
+            <numerusform>%1 orri kopiatuta</numerusform>
+            <numerusform>%1 orri kopiatuta</numerusform>
         </translation>
     </message>
 </context>
@@ -3227,7 +3227,7 @@ Izen berria ematean dokumentu berri bat sortuko da.</translation>
     <message>
         <location filename="../../src/document/UBDocumentVersionConverter.cpp" line="+69"/>
         <source>This document was created using OpenBoard 1.8</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentu hau OpenBoard 1.8rekin sortu zen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3236,7 +3236,11 @@ Izen berria ematean dokumentu berri bat sortuko da.</translation>
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentu hau OpenBoard 1.8rekin sortu zen, eta bere edukia berrantolatu da. Gomendatzen dizugu OpenBoard 1.8 bertsiora eguneratzea.
+
+Jarraitzen baduzu, dokumentua 1.7.7 bertsioarekin bateragarria izateko bihurtuko da. Minutu batzuk iraun ditzake. OpenBoard 1.8n ireki ahal izango duzu oraindik, baina orduan berriro 1.8 formatura bihurtuko da.
+
+Jarraitu nahi duzu?</translation>
     </message>
 </context>
 <context>
@@ -3298,7 +3302,8 @@ Do you want to continue?</source>
         <location line="-71"/>
         <source>Application name can`t contain any of the following characters:<byte value="xd"/>
 </source>
-        <translation type="unfinished">Aplikazioaren izenak ezin du honelako karaktereak eduki:<byte value="xd"/></translation>
+        <translation>Aplikazioaren izenak ezin du karaktere hauetako bat ere izan:&lt;byte value=&quot;xd&quot;/&gt;
+</translation>
     </message>
 </context>
 <context>
@@ -3306,27 +3311,27 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojiak eta GIFak</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojiak</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIFak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>GIFs: opens the page of klipy.com beside the board, without an account; drag a GIF from it to the page. A second click on GIFs closes it.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIFak: klipy.com-en orria irekitzen du arbelaren ondoan, konturik gabe; arrastatu handik GIF bat orrira. GIFetan bigarren klik batek ixten du.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrastatu GIF bat GIFen leihotik orrira.</translation>
     </message>
     <message>
         <source>Save</source>
@@ -3335,7 +3340,7 @@ Do you want to continue?</source>
     <message>
         <location line="+5"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaina</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3368,7 +3373,7 @@ Do you want to continue?</source>
     <message>
         <location line="+3"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaina</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3419,12 +3424,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/adaptors/UBExportCFF.cpp" line="+53"/>
         <source>Export to IWB</source>
-        <translation type="unfinished">Esportatu IWB-ra</translation>
+        <translation>Esportatu IWBra</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Export as IWB File</source>
-        <translation type="unfinished">Esportatu IWB fitxategi gisa</translation>
+        <translation>Esportatu IWB fitxategi gisa</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3471,13 +3476,13 @@ Do you want to continue?</source>
         <location filename="../../src/adaptors/UBExportDocumentSetAdaptor.cpp" line="+75"/>
         <location line="+9"/>
         <source>Failed to export...</source>
-        <translation type="unfinished">Esportazioak huts egin du...</translation>
+        <translation>Esportazioak huts egin du...</translation>
     </message>
     <message>
         <location line="-6"/>
         <location line="+13"/>
         <source>Export as UBX File</source>
-        <translation type="unfinished">Esportatu UBX fitxategi gisa</translation>
+        <translation>Esportatu UBX fitxategi gisa</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3516,7 +3521,7 @@ Do you want to continue?</source>
         <location line="-56"/>
         <location line="+14"/>
         <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation type="unfinished">Master Board-en inportatutako jatorrizko PDFa ez da baliozkoa eta ezin izan da zure oharretara batu. Mesedez, konpondu eta gero berriro inportatu Master Board-en. Uneko esportazioa jatorrizko PDFaren orrien irudi zehatzekin (astunekin) egingo da horren ordez, esportazio hutsegite osoa ekiditeko.</translation>
+        <translation>Master Board-en inportatutako jatorrizko PDFa ez dirudi baliozkoa eta ezin izan da zure oharrekin batu. Konpondu eta inportatu berriro Master Board-en. Esportazio hau jatorrizko PDFaren orrien irudi xehatuekin (astunak) egingo da, erabateko hutsegitea saihesteko.</translation>
     </message>
 </context>
 <context>
@@ -3730,12 +3735,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBGifWindow.cpp" line="+66"/>
         <source>GIFs of klipy.com: drag one to the page</source>
-        <translation type="unfinished"></translation>
+        <translation>klipy.com-eko GIFak: arrastatu bat orrira</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close the GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Itxi GIFak</translation>
     </message>
 </context>
 <context>
@@ -3743,7 +3748,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1 erabiltzen ari zara.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3786,14 +3791,18 @@ Orain deskargatu eta instalatu? Master Board-ek zure dokumentuak gordeko ditu, i
         <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board-en bertsio berri bat dago (%1).
+
+Ireki haren orria deskargatzeko?</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board-en bertsio berri bat dago (%1).
+
+Orain deskargatu eta instalatu? Master Board-ek dokumentuak gordetzen ditu, itxi eta berriro irekitzen da.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3854,7 +3863,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished">Ezkutatu hedatutako pantailan hautatuta dagoenean</translation>
+        <translation>Ezkutatu pantaila hedatuan hautatzean</translation>
     </message>
 </context>
 <context>
@@ -3899,17 +3908,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished">Ezkutatu hedatutako pantailan hautatuta dagoenean</translation>
+        <translation>Ezkutatu pantaila hedatuan hautatzean</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Set as background</source>
-        <translation type="unfinished">Ezarri atzeko plano moduan</translation>
+        <translation>Ezarri atzeko plano gisa</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Web Inspector</source>
-        <translation type="unfinished">Web-arakatzailea</translation>
+        <translation>Web ikuskatzailea</translation>
     </message>
     <message>
         <location line="-617"/>
@@ -3919,12 +3928,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+14"/>
         <source>Layer up</source>
-        <translation type="unfinished">Igo geruza</translation>
+        <translation>Geruza bat gora</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Layer down</source>
-        <translation type="unfinished">Jaitsi geruza</translation>
+        <translation>Geruza bat behera</translation>
     </message>
 </context>
 <context>
@@ -3969,7 +3978,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/tools/UBGraphicsProtractor.cpp" line="+535"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>erabili geziak mugimendu zehatzetarako</translation>
     </message>
 </context>
 <context>
@@ -3978,7 +3987,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsRuler.cpp" line="+167"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>erabili geziak mugimendu zehatzetarako</translation>
     </message>
 </context>
 <context>
@@ -4036,87 +4045,87 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+393"/>
         <source>Insert a table...</source>
-        <translation type="unfinished"></translation>
+        <translation>Txertatu taula...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Add a row</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehitu errenkada</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a column</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehitu zutabea</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the row</source>
-        <translation type="unfinished"></translation>
+        <translation>Kendu errenkada</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the column</source>
-        <translation type="unfinished"></translation>
+        <translation>Kendu zutabea</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Columns as wide</source>
-        <translation type="unfinished"></translation>
+        <translation>Zabalera berdineko zutabeak</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Table style</source>
-        <translation type="unfinished"></translation>
+        <translation>Taularen estiloa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Highlight the header row</source>
-        <translation type="unfinished"></translation>
+        <translation>Nabarmendu goiburuko errenkada</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Highlight the first column</source>
-        <translation type="unfinished"></translation>
+        <translation>Nabarmendu lehen zutabea</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>All the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerro guztiak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Horizontal lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerro horizontalak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Outer lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanpoko lerroak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerrorik gabe</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Color of the lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerroen kolorea...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerroen kolorea</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Width of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerroen lodiera</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Thin</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehea</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -4126,32 +4135,32 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Lodia</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Very thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Oso lodia</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Color of the cells...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gelaxken kolorea...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Gelaxken kolorea</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No color in the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolorerik ez gelaxketan</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the table</source>
-        <translation type="unfinished"></translation>
+        <translation>Kendu taula</translation>
     </message>
 </context>
 <context>
@@ -4160,7 +4169,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsTriangle.cpp" line="+449"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>erabili geziak mugimendu zehatzetarako</translation>
     </message>
 </context>
 <context>
@@ -4197,7 +4206,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
         <source>Convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Bihurtu eskuz idatzitakoa</translation>
     </message>
 </context>
 <context>
@@ -4205,7 +4214,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/adaptors/UBImportCFF.cpp" line="+81"/>
         <source>Common File Format (</source>
-        <translation type="unfinished">Common File formatua</translation>
+        <translation>Fitxategi-formatu arrunta (</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -4229,7 +4238,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="-151"/>
         <location line="+156"/>
         <source>Import failed.</source>
-        <translation type="unfinished">Inportazioak huts egin du.</translation>
+        <translation>Inportazioak huts egin du.</translation>
     </message>
 </context>
 <context>
@@ -4264,7 +4273,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/adaptors/UBImportDocumentSetAdaptor.cpp" line="+71"/>
         <source>Openboard (set of documents) (*.ubx)</source>
-        <translation type="unfinished">Openboard (dokumentu sorta) (*.ubx) </translation>
+        <translation>Openboard (dokumentu multzoa) (*.ubx)</translation>
     </message>
 </context>
 <context>
@@ -4290,7 +4299,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+6"/>
         <source>Importing %1 PDF pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 PDF orri inportatzen. Itxaron...</translation>
     </message>
     <message>
         <source>Importing page %1 of %2</source>
@@ -4323,17 +4332,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin klik hemen eta sakatu lasterbide berriaren teklak</translation>
     </message>
     <message>
         <location line="+91"/>
         <source>Press the keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sakatu teklak...</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Click here and press the keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin klik hemen eta sakatu teklak</translation>
     </message>
 </context>
 <context>
@@ -4375,7 +4384,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaina</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4620,7 +4629,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Multiscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantaila anitz</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -4640,12 +4649,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+2"/>
         <source>Canvas measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Neurriak oihalean</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixel-erregelak orriaren goian eta ezkerrean, goiko ezkerreko ertzeko 0tik</translation>
     </message>
     <message>
         <source>Read and dictate</source>
@@ -4675,17 +4684,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+21"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tresnak</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pertsonalizatu</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Lasterbideak</translation>
     </message>
     <message>
         <source>Creator</source>
@@ -4725,18 +4734,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="-7"/>
         <location line="+40"/>
         <source>Unlock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Desblokeatu PDFa</translation>
     </message>
     <message>
         <location line="-40"/>
         <location line="+40"/>
         <source>Lock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Blokeatu PDFa</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Lock the PDF: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
-        <translation type="unfinished"></translation>
+        <translation>Blokeatu PDFa: ezin da ezer marraztu, idatzi, nabarmendu, hautatu, mugitu edo ezabatu; laser-erakusleak eta eskuak funtzionatzen dute</translation>
     </message>
     <message>
         <source>Dictate</source>
@@ -4783,17 +4792,17 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+8"/>
         <location line="+15"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board-i buruz</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Dark mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modu iluna</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Shows the pages with their colors inverted, to read at night without glare</source>
-        <translation type="unfinished"></translation>
+        <translation>Orriak kolore alderantzikatuekin erakusten ditu, gauez itsutu gabe irakurtzeko</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -4887,7 +4896,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+10"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaina</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4929,37 +4938,37 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+407"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Neurketak</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Distantzia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length of a line dragged from one end to the other</source>
-        <translation type="unfinished"></translation>
+        <translation>Mutur batetik bestera arrastatutako lerroaren luzera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Perimetroa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length around a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Forma baten inguruko luzera: klik bat ertz bakoitzean, klik bikoitza azkenean</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Azalera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The surface of a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Forma baten azalera: klik bat ertz bakoitzean, klik bikoitza azkenean</translation>
     </message>
 </context>
 <context>
@@ -4967,133 +4976,133 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
         <source>End the measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Amaitu neurketak</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu unitatea. Gero marraztu unitate horretako 1 neurtzen duen lerro bat: neurketak erreferentzia horrekin egiten dira.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Metric</source>
-        <translation type="unfinished"></translation>
+        <translation>Metrikoa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imperial</source>
-        <translation type="unfinished"></translation>
+        <translation>Inperiala</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>millimeter (mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>milimetro (mm)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>centimeter (cm)</source>
-        <translation type="unfinished"></translation>
+        <translation>zentimetro (cm)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>meter (m)</source>
-        <translation type="unfinished"></translation>
+        <translation>metro (m)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>kilometer (km)</source>
-        <translation type="unfinished"></translation>
+        <translation>kilometro (km)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>inch (in)</source>
-        <translation type="unfinished"></translation>
+        <translation>hazbete (in)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>foot (ft)</source>
-        <translation type="unfinished"></translation>
+        <translation>oin (ft)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>yard (yd)</source>
-        <translation type="unfinished"></translation>
+        <translation>iarda (yd)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>mile (mi)</source>
-        <translation type="unfinished"></translation>
+        <translation>milia (mi)</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Jarraitu</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Finish measure</source>
-        <translation type="unfinished"></translation>
+        <translation>Amaitu neurketa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ends the shape at its last corner, as Enter does</source>
-        <translation type="unfinished"></translation>
+        <translation>Forma azken ertzean amaitzen du, Sartu bezala</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Aldatu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move the corners of the shape; Enter or Finish measure ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Mugitu formaren ertzak; Sartu edo Amaitu neurketa amaitzeko</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Berrabiarazi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose the unit and draw the reference again</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu unitatea eta marraztu erreferentzia berriro</translation>
     </message>
     <message>
         <location line="+498"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Distantzia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Click at the start and at the end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin klik hasieran eta amaieran.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin klik 1 %1 neurtzen duen lerro baten hasieran eta amaieran: neurketen erreferentzia da.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Drag the corners; Enter or Finish measure ends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrastatu ertzak; Sartu edo Amaitu neurketa amaitzeko.</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Perimetroa</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+4"/>
         <source>Click at each corner; double click at the last one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin klik ertz bakoitzean; klik bikoitza azkenean.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Azalera</translation>
     </message>
 </context>
 <context>
@@ -5470,7 +5479,7 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
     <message>
         <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Guztiak</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5480,7 +5489,7 @@ Geroago ere egin daiteke Hasiera &gt; Ezagutu testua erabiliz.</translation>
     <message>
         <location line="+4"/>
         <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi orri guztiak, edo gogokoak bakarrik, miniaturaren izarrarekin markatuak</translation>
     </message>
 </context>
 <context>
@@ -5579,7 +5588,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaina</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5614,17 +5623,17 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+8"/>
         <source>Recognize and convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezagutu eta bihurtu eskuz idatzitakoa</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkatza gelditu eta une batera, idatzitako hitzak tamaina eta kolore bereko testu-koadro bihurtzen dira.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only on Windows, which reads the handwriting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-en bakarrik, eskuz idatzitakoa irakurtzen baitu.</translation>
     </message>
     <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
@@ -5650,27 +5659,27 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="-1199"/>
         <source>Retrieving all your documents (found : %1)</source>
-        <translation type="unfinished">Zure dokumentu guztiak berreskuratzen (aurkitu dira: %1)</translation>
+        <translation>Zure dokumentu guztiak berreskuratzen (aurkituak: %1)</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>Retrieved - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Berreskuratuta - %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Broken - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hondatuta - %1</translation>
     </message>
     <message>
         <location line="+899"/>
         <source>Renaming pages (%1/%2)</source>
-        <translation type="unfinished">(%1/%2) orriak berrizendatzen</translation>
+        <translation>Orriak berrizendatzen (%1/%2)</translation>
     </message>
     <message>
         <location line="+247"/>
         <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation type="unfinished">Master Board-ek &apos;%1&apos; dokumentu-biltegirako sarbidea galdu du. Zoritxarrez aplikazioa itxi egin behar da datuen hondamena saihesteko. Azken aldaketak ere gal daitezke.</translation>
+        <translation>Master Board-ek &apos;%1&apos; dokumentu-biltegirako sarbidea galdu du. Zoritxarrez aplikazioak itxi behar du datuak ez hondatzeko. Azken aldaketak ere gal daitezke.</translation>
     </message>
 </context>
 <context>
@@ -5815,23 +5824,23 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+30"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Erreferentziak</translation>
     </message>
     <message>
         <location line="+25"/>
         <location line="+280"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AA</translation>
     </message>
     <message>
         <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
-        <translation type="unfinished"></translation>
+        <translation>AA panelak erakuts ditzakeen AAk. Idatzi izen bat eta bere orriaren helbidea; lehena erakusten da lehen aldian.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Izena</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5851,23 +5860,23 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+1"/>
         <source>Default list</source>
-        <translation type="unfinished"></translation>
+        <translation>Zerrenda lehenetsia</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+403"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaia</translation>
     </message>
     <message>
         <location line="-398"/>
         <source>Same as Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bezala</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Same as the system</source>
-        <translation type="unfinished"></translation>
+        <translation>Sistema bezala</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5877,27 +5886,27 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+1"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuria</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Grey</source>
-        <translation type="unfinished"></translation>
+        <translation>Grisa</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu-barraren, tresnen aukeren eta zoomaren koloreak. Gai berri bat erakusteko, Master Board berez berrabiarazten da.</translation>
     </message>
     <message>
         <location line="+372"/>
         <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board berrabiaraziko da gai berria erakusteko. Dokumentuak lehenik gordetzen dira.</translation>
     </message>
     <message>
         <location line="-285"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategoriak</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -5907,12 +5916,12 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+3"/>
         <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1. Bertsio berria orain bilatzeko: Honi buruz &gt; Eguneratu.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Options bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukeren barra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5922,32 +5931,32 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+14"/>
         <source>General settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezarpen orokorrak</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Itxura</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pen and toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Boligrafoa eta tresna-barra</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Screens and desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantailak eta mahaigaina</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Documents and PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentuak eta PDF</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Artificial intelligence</source>
-        <translation type="unfinished"></translation>
+        <translation>Adimen artifiziala</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5967,7 +5976,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+0"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board-i buruz</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -6035,7 +6044,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="-246"/>
         <source>Use all available displays</source>
-        <translation type="unfinished">Erabili pantaila eskuragarri guztiak</translation>
+        <translation>Erabili erabilgarri dauden pantaila guztiak</translation>
     </message>
 </context>
 <context>
@@ -6389,7 +6398,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+2"/>
         <source>Arrow: select with a rectangle. Lasso: select by drawing a free line around the objects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gezia: hautatu laukizuzen batekin. Lazoa: hautatu objektuen inguruan lerro libre bat marraztuz.</translation>
     </message>
     <message>
         <source>Select with a rectangle again</source>
@@ -6457,7 +6466,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+18"/>
         <source>The shape to draw. The polyline: a click for each corner, any key to end it, Escape to drop it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marraztu beharreko forma. Polilerroa: klik bat ertz bakoitzeko, edozein tekla amaitzeko, Esc baztertzeko.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6483,7 +6492,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="-1"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaina</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -6560,7 +6569,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+74"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrunta</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -6577,12 +6586,12 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+2"/>
         <source>Lines and colours</source>
-        <translation type="unfinished"></translation>
+        <translation>Lerroak eta koloreak</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Atzeko planoa</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -6592,82 +6601,82 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+23"/>
         <source>First scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Lehen eszena</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show first scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi lehen eszena</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Azken eszena</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi azken eszena</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Zoom reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Berrezarri zooma</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom factor</source>
-        <translation type="unfinished"></translation>
+        <translation>Berrezarri zoom-faktorea</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll left</source>
-        <translation type="unfinished"></translation>
+        <translation>Korritu ezkerrera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page left</source>
-        <translation type="unfinished"></translation>
+        <translation>Orria ezkerrera</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll right</source>
-        <translation type="unfinished"></translation>
+        <translation>Korritu eskuinera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page right</source>
-        <translation type="unfinished"></translation>
+        <translation>Orria eskuinera</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll up</source>
-        <translation type="unfinished"></translation>
+        <translation>Korritu gora</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page up</source>
-        <translation type="unfinished"></translation>
+        <translation>Orria gora</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll down</source>
-        <translation type="unfinished"></translation>
+        <translation>Korritu behera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page down</source>
-        <translation type="unfinished"></translation>
+        <translation>Orria behera</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Built-in (not editable)</source>
-        <translation type="unfinished"></translation>
+        <translation>Integratua (ezin da editatu)</translation>
     </message>
     <message>
         <location line="+173"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Komandoa</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6677,17 +6686,17 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+3"/>
         <source>Key Sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekla-sekuentzia</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Saguaren botoia</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tablet Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabletaren botoia</translation>
     </message>
     <message>
         <location line="+151"/>
@@ -6705,7 +6714,7 @@ Zabalera dinamikoa</translation>
         <location line="+1"/>
         <source>Middle</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Erdia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6723,7 +6732,7 @@ Zabalera dinamikoa</translation>
         <location line="+1"/>
         <source>Task</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Zeregina</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6749,7 +6758,7 @@ Zabalera dinamikoa</translation>
         <location line="+1"/>
         <source>Extra</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Oso lodia</translation>
     </message>
 </context>
 <context>
@@ -6757,37 +6766,37 @@ Zabalera dinamikoa</translation>
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="-667"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Lasterbideak</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Choose a function, press the new keys in the box below and click Assign.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu funtzio bat, sakatu tekla berriak beheko koadroan eta egin klik Esleitu botoian.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Search a function...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilatu funtzio bat...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funtzioa</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Lasterbidea</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>New shortcut:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lasterbide berria:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Esleitu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6797,53 +6806,53 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+1"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Lehenetsia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Gives back the shortcut that this function had at first</source>
-        <translation type="unfinished"></translation>
+        <translation>Funtzio honi hasierako lasterbidea itzultzen dio</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+508"/>
         <source>Restore all</source>
-        <translation type="unfinished"></translation>
+        <translation>Leheneratu guztiak</translation>
     </message>
     <message>
         <location line="-507"/>
         <source>Gives back the first shortcuts to all the functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funtzio guztiei hasierako lasterbideak itzultzen dizkie</translation>
     </message>
     <message>
         <location line="+152"/>
         <source>Buttons beside the menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Menuen ondoko botoiak</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Tools of the board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbelaren / PDFaren tresnak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tools of the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Mahaigaineko tresnak</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pages and board</source>
-        <translation type="unfinished"></translation>
+        <translation>Orriak eta arbela</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>no keys were pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>ez da teklarik sakatu.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>the Windows key is kept by Windows for its own shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows teklak Windows-en lasterbideetarako gordeta daude.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6852,32 +6861,32 @@ Zabalera dinamikoa</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to change between the open windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-ek irekitako leihoen artean aldatzeko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to close the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-ek leihoa ixteko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-ek leihoaren menua irekitzeko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Start menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-ek Hasiera menua irekitzeko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Task Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-ek Ataza-kudeatzailea irekitzeko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open its security screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-ek segurtasun-pantaila irekitzeko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6885,12 +6894,12 @@ Zabalera dinamikoa</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-ek pantaila-argazkiak egiteko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the right click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-ek eskuineko klikaren menua irekitzeko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6898,70 +6907,70 @@ Zabalera dinamikoa</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>on many computers it turns the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>ordenagailu askotan pantaila biratzen du.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>this key is used to write, to move or to delete. Add Ctrl or Alt, or choose a key from F1 to F12.</source>
-        <translation type="unfinished"></translation>
+        <translation>tekla hau idazteko, mugitzeko edo ezabatzeko da. Gehitu Ctrl edo Alt, edo hautatu F1etik F12rako tekla bat.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Ctrl + Alt works as Alt Gr, which writes signs such as @, # or €.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl + Alt Alt Gr bezala dabil, @, # edo € bezalako ikurrak idazteko.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Master Board uses it to select all the text of a text box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board-ek testu-koadro bateko testu osoa hautatzeko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Master Board uses it to open the menu «%1».</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board-ek «%1» menua irekitzeko erabiltzen du.</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
         <source>Master Board already uses it for «%1». Remove it there first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board-ek dagoeneko «%1»-rako erabiltzen du. Kendu hortik lehenik.</translation>
     </message>
     <message>
         <location line="-130"/>
         <source>Fixed keys (can not be changed)</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekla finkoak (ezin dira aldatu)</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Choose a function in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu funtzio bat zerrendan.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1: no shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: lasterbiderik ez</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+37"/>
         <source>Shortcut not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Lasterbidea ez da posible</translation>
     </message>
     <message>
         <location line="-36"/>
         <location line="+37"/>
         <source>%1 can not be used: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin da %1 erabili: %2</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Give back the first shortcuts to all the functions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Funtzio guztiei hasierako lasterbideak itzuli?</translation>
     </message>
 </context>
 <context>
@@ -7110,7 +7119,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Programaren gida</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -7133,7 +7142,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaina</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7159,27 +7168,27 @@ Zabalera dinamikoa</translation>
     <message>
         <location filename="../../src/gui/UBTextBoxes.cpp" line="+120"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Taula</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many rows and columns?</source>
-        <translation type="unfinished"></translation>
+        <translation>Zenbat errenkada eta zutabe?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Rows</source>
-        <translation type="unfinished"></translation>
+        <translation>Errenkadak</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Zutabeak</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Txertatu</translation>
     </message>
 </context>
 <context>
@@ -7192,7 +7201,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+7"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaina</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7227,57 +7236,57 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+7"/>
         <source>Checklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Egiaztapen-zerrenda</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bullets</source>
-        <translation type="unfinished"></translation>
+        <translation>Buletak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Zenbakiak</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Puts the lines of the text box being written in a list, or takes them out of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Idazten ari den testu-koadroaren lerroak zerrenda batean jartzen ditu, edo ateratzen</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Click in a text box first, then on the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin klik lehenik testu-koadro batean, eta gero zerrendan.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Taula</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks how many rows and columns, then puts a table in the text box being written, or in a new one</source>
-        <translation type="unfinished"></translation>
+        <translation>Zenbat errenkada eta zutabe galdetzen du, eta taula bat jartzen du idazten ari den testu-koadroan, edo berri batean</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dictate</source>
-        <translation type="unfinished">Diktatu</translation>
+        <translation>Diktatu</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Makes a text box and writes in it what you say (the dictation of Windows, Windows + H). In a text box, the microphone left of F does the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>Testu-koadro bat sortu eta esaten duzuna idazten du (Windows-en diktaketa, Windows + H). Testu-koadro batean, F-ren ezkerreko mikrofonoak gauza bera egiten du.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Transkribatu</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks for an audio and gives it to an AI on the web, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio bat eskatu eta weberako AA bati ematen dio, esandakoa idatz dezan</translation>
     </message>
 </context>
 <context>
@@ -7295,7 +7304,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+48"/>
         <source>Loading thumbnails (%1 pages)</source>
-        <translation type="unfinished"></translation>
+        <translation>Miniaturak kargatzen (%1 orri)</translation>
     </message>
     <message>
         <source>Loading thumbnail (%1/%2)</source>
@@ -7307,7 +7316,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location filename="../../src/gui/UBThumbnailTextItem.cpp" line="+74"/>
         <source>Page %0</source>
-        <translation type="unfinished">%0 orria</translation>
+        <translation>%0. orria</translation>
     </message>
 </context>
 <context>
@@ -7331,27 +7340,27 @@ Zabalera dinamikoa</translation>
     <message>
         <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokua / Lupa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attach file / Hyperlink</source>
-        <translation type="unfinished"></translation>
+        <translation>Erantsi fitxategia / Esteka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Selector: arrow / lasso</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatzailea: gezia / lazoa</translation>
     </message>
     <message>
         <location line="+234"/>
         <source>Move items</source>
-        <translation type="unfinished"></translation>
+        <translation>Mugitu elementuak</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Drag the tools up or down, or use the buttons. Only the tools shown in the palette are listed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrastatu tresnak gora edo behera, edo erabili botoiak. Paletan agertzen diren tresnak bakarrik daude zerrendan.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -7363,42 +7372,42 @@ Zabalera dinamikoa</translation>
         <location line="-163"/>
         <location line="+164"/>
         <source>Board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbela / PDF</translation>
     </message>
     <message>
         <location line="-155"/>
         <source>Back to the board: always first</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzuli arbelera: beti lehena</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Gora</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Behera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Original order</source>
-        <translation type="unfinished"></translation>
+        <translation>Jatorrizko ordena</translation>
     </message>
     <message>
         <location line="+154"/>
         <source>Move items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mugitu elementuak...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
-        <translation type="unfinished"></translation>
+        <translation>Barraren estiloa...</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Korritze-norabidea</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7413,12 +7422,12 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontalean 2 orriko</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Bertikalean 2 orriko</translation>
     </message>
 </context>
 <context>
@@ -7461,7 +7470,7 @@ Zabalera dinamikoa</translation>
     <message>
         <location line="-40"/>
         <source>Axes</source>
-        <translation type="unfinished">Ardatzak</translation>
+        <translation>Ardatzak</translation>
     </message>
 </context>
 <context>
@@ -7561,12 +7570,12 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
     <message>
         <location line="+0"/>
         <source>From the click</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikatutako tokitik</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it. From the click: click on a word to read from it, then the next pages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hasieratik: erakutsitako orria irakurtzen du, gero hurrengoak. Hautatutako testua: arrastatu laukizuzen bat testuaren gainean irakurtzeko. Klikatutako tokitik: egin klik hitz batean handik irakurtzeko, gero hurrengo orriak.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7586,7 +7595,7 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
     <message>
         <location line="+1"/>
         <source>Next page</source>
-        <translation type="unfinished"></translation>
+        <translation>Hurrengo orria</translation>
     </message>
     <message>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it.</source>
@@ -7646,7 +7655,7 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
     <message>
         <location filename="../../src/domain/UBWebEngineView.cpp" line="+109"/>
         <source>Open Web Inspector</source>
-        <translation type="unfinished">Ireki Web arakatzailea</translation>
+        <translation>Ireki web ikuskatzailea</translation>
     </message>
 </context>
 <context>
@@ -7764,7 +7773,7 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
     <message>
         <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
-        <translation type="unfinished"></translation>
+        <translation>Beheko geruzara iritsi da</translation>
     </message>
 </context>
 <context>
@@ -7898,63 +7907,63 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
         <location line="+17"/>
         <location line="+4"/>
         <source>Certificate Error</source>
-        <translation type="unfinished">Zertifikazio errorea</translation>
+        <translation>Ziurtagiri-errorea</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation type="unfinished">Sartu %2-ko &quot;%1&quot;-ren erabiltzaile-izena eta pasahitza</translation>
+        <translation>Idatzi &quot;%1&quot;-(r)en erabiltzaile-izena eta pasahitza (%2)</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Allow %1 to access your location information?</source>
-        <translation type="unfinished">Baimena eman nahi diozu %1-ri zure informazioa atzitzeko?</translation>
+        <translation>%1-i kokapena erabiltzen utzi?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone?</source>
-        <translation type="unfinished">Baimena eman nahi diozu %1-ri zure mikrofonoa erabiltzeko</translation>
+        <translation>%1-i mikrofonoa erabiltzen utzi?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your webcam?</source>
-        <translation type="unfinished">Baimena eman nahi diozu %1-ri zure web-kamera erabiltzeko?</translation>
+        <translation>%1-i web-kamera erabiltzen utzi?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone and webcam?</source>
-        <translation type="unfinished">Baimena eman nahi diozu %1-ri zure mikrofonoa eta web-kamera erabiltzeko?</translation>
+        <translation>%1-i mikrofonoa eta web-kamera erabiltzen utzi?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to lock your mouse cursor?</source>
-        <translation type="unfinished">Baimena eman nahi diozu %1-ri blokeazeko zure saguaren kurtsorea?</translation>
+        <translation>%1-i saguaren erakuslea blokeatzen utzi?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture video of your desktop?</source>
-        <translation type="unfinished">Baimena eman nahi diozu %1-ri zure mahaigaren bideo-kaptura egiteko?</translation>
+        <translation>%1-i mahaigainaren bideoa atzematen utzi?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture audio and video of your desktop?</source>
-        <translation type="unfinished">Baimena eman nahi diozu %1-ri zure mahaigainaren audioa eta bideoa kapturatzeko?</translation>
+        <translation>%1-i mahaigaineko audioa eta bideoa atzematen utzi?</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+47"/>
         <source>Permission Request</source>
-        <translation type="unfinished">Baimen eskaera</translation>
+        <translation>Baimen-eskaera</translation>
     </message>
     <message>
         <location line="-19"/>
         <source>Connect to proxy &quot;%1&quot; using:</source>
-        <translation type="unfinished">Konektatu &quot;%1&quot; proxyra honen bidez:</translation>
+        <translation>Konektatu &quot;%1&quot; proxyra honekin:</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Allow %1 to open all %2 links?</source>
-        <translation type="unfinished">Baimendu %1 %2-ko esteka guztiak irekitzen?</translation>
+        <translation>%1-i %2 esteka guztiak irekitzen utzi?</translation>
     </message>
 </context>
 <context>
@@ -7962,44 +7971,44 @@ Berrabiarazi aplikazioa eguneratutako dokumentuak irekitzeko.</translation>
     <message>
         <location filename="../../src/web/simplebrowser/webview.cpp" line="+107"/>
         <source>Render process normal exit</source>
-        <translation type="unfinished">Errendatze-prozesuaren irteera normala</translation>
+        <translation>Errendatze-prozesua normal amaitu da</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process abnormal exit</source>
-        <translation type="unfinished">Errendatze-prozesuaren irteera anormala</translation>
+        <translation>Errendatze-prozesua ezohiko moduan amaitu da</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process crashed</source>
-        <translation type="unfinished">Errendatze-prozesua hondatu da</translation>
+        <translation>Errendatze-prozesuak huts egin du</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process killed</source>
-        <translation type="unfinished">Errendatze-prozesua eten da</translation>
+        <translation>Errendatze-prozesua amaitu da</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Render process exited with code: %1
 Do you want to reload the page ?</source>
-        <translation type="unfinished">Errendatze-prozesua kodearekin irten da: %1
-Orria berriro kargatu nahi duzu?</translation>
+        <translation>Errendatze-prozesua kode honekin amaitu da: %1
+Orria birkargatu nahi duzu?</translation>
     </message>
     <message>
         <location line="+121"/>
         <source>Open Web Inspector in new window</source>
-        <translation type="unfinished">Ireki Web arakatzailea lehio berri batean</translation>
+        <translation>Ireki web ikuskatzailea leiho berrian</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Inspect element</source>
-        <translation type="unfinished">Aztertu elementua</translation>
+        <translation>Ikuskatu elementua</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Add to board</source>
-        <translation type="unfinished">Gehitu arbelera</translation>
+        <translation>Gehitu arbelera</translation>
     </message>
 </context>
 <context>
@@ -8007,12 +8016,12 @@ Orria berriro kargatu nahi duzu?</translation>
     <message>
         <location filename="../../src/pdf/XPDFRenderer.cpp" line="+81"/>
         <source>an error occured while trying to open the PDF file</source>
-        <translation type="unfinished">Errore bat gertatu da PDF fitxategia irekitzean</translation>
+        <translation>errore bat gertatu da PDF fitxategia irekitzean</translation>
     </message>
     <message>
         <location line="+265"/>
         <source>Processing...</source>
-        <translation type="unfinished">Prozesatzen...</translation>
+        <translation>Prozesatzen...</translation>
     </message>
 </context>
 <context>
@@ -8129,12 +8138,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+451"/>
         <source>Show preview circle from</source>
-        <translation type="unfinished">Erakutsi aurrebista zirkulua</translation>
+        <translation>Erakutsi aurrebistaren zirkulua hemendik</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>px</source>
-        <translation type="unfinished">px</translation>
+        <translation>px</translation>
     </message>
 </context>
 <context>
@@ -8175,22 +8184,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+64"/>
         <source>Creation date</source>
-        <translation type="unfinished">Sortze-data</translation>
+        <translation>Sortze-data</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Update date</source>
-        <translation type="unfinished">Eguneratze-data</translation>
+        <translation>Eguneratze-data</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Alphabetical order</source>
-        <translation type="unfinished">Orden alfabetikoa</translation>
+        <translation>Ordena alfabetikoa</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Sort Order</source>
-        <translation type="unfinished">Ordena</translation>
+        <translation>Ordenatzeko modua</translation>
     </message>
 </context>
 <context>
@@ -8380,12 +8389,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+58"/>
         <source>PDF</source>
-        <translation type="unfinished">PDF</translation>
+        <translation>PDF</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Export background grid</source>
-        <translation type="unfinished">Esportatu atzeko planoaren sareta</translation>
+        <translation>Esportatu atzeko planoaren sareta</translation>
     </message>
     <message>
         <source>Improve zoom execution time (can slightly affect rendering quality)</source>
@@ -8394,27 +8403,27 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+7"/>
         <source>Export background color</source>
-        <translation type="unfinished">Esportatu atzeko planoaren kolorea</translation>
+        <translation>Esportatu atzeko planoaren kolorea</translation>
     </message>
     <message>
         <location line="+124"/>
         <source>Documents Mode</source>
-        <translation type="unfinished">Dokumentuen modua</translation>
+        <translation>Dokumentu modua</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Display date column on alphabetical sort</source>
-        <translation type="unfinished">Erakutsi daten zutabea ordena alfabetikoan</translation>
+        <translation>Erakutsi data-zutabea ordena alfabetikoan</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Empty trash for documents older than</source>
-        <translation type="unfinished"></translation>
+        <translation>Hustu hau baino zaharragoak diren dokumentuen zakarrontzia</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>days</source>
-        <translation type="unfinished">egunak</translation>
+        <translation>egun</translation>
     </message>
     <message>
         <location line="+265"/>
@@ -8424,12 +8433,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+61"/>
         <source>List of screens used for Control, Display and Previous pages</source>
-        <translation type="unfinished">Kontrola, pantaila eta aurreko orrietarako erabilitako pantailen zerrenda</translation>
+        <translation>Kontrolerako, bistaratzeko eta aurreko orrietarako pantailen zerrenda</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Grid</source>
-        <translation type="unfinished">Sareta</translation>
+        <translation>Sareta</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -8476,12 +8485,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-99"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished">Kapturatu Webaren edukia</translation>
+        <translation>Atzeman web edukia</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Select a content to capture</source>
-        <translation type="unfinished">Hautatu kapturatu beharreko edukia</translation>
+        <translation>Hautatu atzemateko edukia</translation>
     </message>
 </context>
 </TS>
