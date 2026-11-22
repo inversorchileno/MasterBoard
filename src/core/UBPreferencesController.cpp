@@ -513,7 +513,7 @@ void UBPreferencesController::buildCategories()
     bodyLayout->addWidget(right, 1);
 
     // The page About: the version, the text, and the references at the bottom.
-    auto version = new QLabel(tr("Version %1").arg(UBGitHubUpdater::currentVersionText()), ui->aboutTab);
+    auto version = new QLabel(QString("Master Board %1").arg(UBGitHubUpdater::currentVersionText()), ui->aboutTab);
     version->setObjectName("version");
     ui->verticalLayout_2->insertWidget(0, version);
     ui->aboutTab->setObjectName("aboutPage");
@@ -775,7 +775,7 @@ void UBPreferencesController::wire()
 
     // main tab
     mPreferencesUI->mainTabWidget->setCurrentWidget(mPreferencesUI->displayTab);
-    mPreferencesUI->versionLabel->setText(tr("Version %1").arg(UBGitHubUpdater::currentVersionText()));
+    mPreferencesUI->versionLabel->setText(QString("Master Board %1").arg(UBGitHubUpdater::currentVersionText()));
 
     connect(mPreferencesUI->closeButton, SIGNAL(released()), this, SLOT(close()));
     connect(mPreferencesUI->defaultSettingsButton, SIGNAL(released()), this, SLOT(defaultSettings()));

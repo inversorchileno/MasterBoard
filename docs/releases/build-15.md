@@ -1,4 +1,4 @@
-# Master Board, compilación 15
+# Master Board V1.15
 
 **Etapa 7: logo nuevo, íconos a color, scroll continuo y pantalla completa**
 

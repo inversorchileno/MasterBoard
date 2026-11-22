@@ -1,4 +1,4 @@
-# Master Board, compilación 16
+# Master Board V1.16
 
 **Doble pizarra**
 

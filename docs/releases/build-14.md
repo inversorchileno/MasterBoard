@@ -1,4 +1,4 @@
-# Master Board, compilación 14
+# Master Board V1.14
 
 **Etapa 6: pestañas, guardar, girar, sellos, buscar, notas rápidas, adjuntos y sonidos**
 

@@ -2164,10 +2164,10 @@
      <normaloff>:/images/toolbar/tip.png</normaloff>:/images/toolbar/tip.png</iconset>
    </property>
    <property name="text">
-    <string>Hints and tips</string>
+    <string>Program guide</string>
    </property>
    <property name="toolTip">
-    <string>Open Hints and tips</string>
+    <string>Open the program guide</string>
    </property>
   </action>
   <action name="actionSnap">

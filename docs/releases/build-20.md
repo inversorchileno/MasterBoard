@@ -1,4 +1,4 @@
-# Master Board, compilación 20
+# Master Board V1.20
 
 **Versión 1 de las mejoras**
 

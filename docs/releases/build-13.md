@@ -1,4 +1,4 @@
-# Master Board, compilación 13
+# Master Board V1.13
 
 **Etapa 5: menús, guardar, actualización, zoom, notas de colores e idiomas** (compilaciones 9 a 13)
 

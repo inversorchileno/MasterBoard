@@ -1,4 +1,4 @@
-# Master Board, compilación 27
+# Master Board V1.27
 
 **Versión 4 de las mejoras**
 

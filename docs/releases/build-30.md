@@ -1,4 +1,4 @@
-# Master Board, compilación 30
+# Master Board V1.30
 
 **Versiones para macOS y Linux**
 

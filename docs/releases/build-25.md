@@ -1,4 +1,4 @@
-# Master Board, compilación 25
+# Master Board V1.25
 
 **Ajustes de la Versión 3**
 

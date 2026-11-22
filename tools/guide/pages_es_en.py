@@ -12,14 +12,14 @@ page(['board.png'],
             'Debajo, la <b>barra de opciones</b>: muestra las opciones de la herramienta que elegiste.',
             'A la derecha, la <b>barra de herramientas</b>; a la izquierda, las <b>páginas</b> del documento.',
             'Arriba a la derecha: Bloquear lienzo, Índice del PDF, Buscar y el paso al modo Escritorio.'],
-  'tip': 'Puedes volver a abrir esta guía cuando quieras en Acerca → Consejos y trucos (F1).'},
+  'tip': 'Puedes volver a abrir esta guía cuando quieras en Acerca → Guía del programa (F1).'},
  {'title': 'Welcome to Master Board',
   'intro': 'A board and a PDF reader to write, draw, present and study. This guide shows each tool: choose a topic in the index at the right.',
   'items': ['At the top are the <b>menus</b>: Home (open, save, print), Mode (board, double board, desktop), Edit, Tools, Customize and About.',
             'Below them, the <b>options bar</b>: it shows the options of the tool you chose.',
             'At the right, the <b>tool palette</b>; at the left, the <b>pages</b> of the document.',
             'At the top right: Lock canvas, Index of the PDF, Search and the switch to the Desktop mode.'],
-  'tip': 'You can open this guide again whenever you want in About → Tips and tricks (F1).'})
+  'tip': 'You can open this guide again whenever you want in About → Program guide (F1).'})
 
 page(['palette.png'],
  {'title': 'La barra de herramientas',

@@ -130,18 +130,23 @@ jobs:
           $zip = "MasterBoard-windows.zip"
           Compress-Archive -Path "build\win32\release\product\*" -DestinationPath $zip -Force
           $tag = "build-$env:LIBERTYBOARD_BUILD"
+          # The version shown: the major version and the number of the build, as V2.31.
+          $major = ((Get-Content version.txt | Select-String 'VERSION_MAJ\s*=\s*(\d+)').Matches[0].Groups[1].Value)
+          $title = "Master Board V$major.$env:LIBERTYBOARD_BUILD"
           # The notes of this build, written in docs/releases, else a short text.
           $notes = "docs\releases\$tag.md"
           if (Test-Path $notes) {
-            gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title "Master Board (build $env:LIBERTYBOARD_BUILD)" --notes-file $notes --latest
+            gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title $title --notes-file $notes --latest
           } else {
-            gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title "Master Board (build $env:LIBERTYBOARD_BUILD)" --notes "Windows build $env:LIBERTYBOARD_BUILD. Unzip and open MasterBoard.exe, or use About > Update in Master Board." --latest
+            gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title $title --notes "$title. Unzip and open MasterBoard.exe, or use About > Update in Master Board." --latest
           }
           if ($LASTEXITCODE -ne 0) { exit 1 }
 
           # The notes of the earlier builds follow their files, when they change.
           Get-ChildItem "docs\releases\build-*.md" | Where-Object { $_.BaseName -ne $tag } | ForEach-Object {
             $number = $_.BaseName -replace 'build-', ''
-            gh release edit $_.BaseName --repo "${{ github.repository }}" --title "Master Board (build $number)" --notes-file $_.FullName 2>$null
+            # Up to build 30 the program was version 1, from build 31 version 2.
+            $old = if ([int]$number -ge 31) { $major } else { 1 }
+            gh release edit $_.BaseName --repo "${{ github.repository }}" --title "Master Board V$old.$number" --notes-file $_.FullName 2>$null
           }
           exit 0

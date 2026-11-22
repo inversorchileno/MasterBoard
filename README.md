@@ -96,7 +96,7 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 - Menú **Personalización**: elige qué botones se ven en la pizarra y en el escritorio, su orden con **Mover elementos** y su **Estilo barra** (colores, opacidad y esquinas de cuadradas a redondas).
 - **Preferencias** ordenadas por categorías, con **Tema** oscuro, blanco, gris o igual que Windows.
 - **Acerca → Atajos**: todos los atajos de teclado, que se pueden cambiar, con aviso si chocan con Windows o con el programa.
-- **Consejos y trucos** (F1): una guía con imágenes de cada herramienta y un índice para ir a cualquier tema.
+- **Guía del programa** (F1): una guía con imágenes de cada herramienta y un índice para ir a cualquier tema.
 - 33 idiomas.
 
 ## Compilar desde el código

@@ -328,11 +328,6 @@ void UBMainMenu::createMenus()
     connect(shortcutsAction, &QAction::triggered, this, [this]() { UBShortcutsDialog::open(mMainWindow); });
     aboutMenu->addAction(shortcutsAction);
 
-    // Who made Master Board, and how.
-    auto creatorAction = new QAction(QIcon(":/images/OpenBoard.png"), tr("Creator"), mMainWindow);
-    creatorAction->setObjectName("actionLbCreator");
-    connect(creatorAction, &QAction::triggered, this, &UBMainMenu::showCreator);
-    aboutMenu->addAction(creatorAction);
     aboutMenu->addSeparator();
 
     auto gitHubAction = new QAction(QIcon(":/images/toolbar/github.svg"), tr("Master Board on GitHub"), mMainWindow);
@@ -348,7 +343,15 @@ void UBMainMenu::createMenus()
     mMainWindow->actionCheckUpdate->setToolTip(tr("Download and install the latest version from GitHub"));
     mMainWindow->actionCheckUpdate->setVisible(true);
     connect(mMainWindow->actionCheckUpdate, &QAction::triggered, mUpdater, &UBGitHubUpdater::checkForUpdate);
+
     aboutMenu->addAction(mMainWindow->actionCheckUpdate);
+
+    // Who made Master Board, and how: the last of the menu.
+    aboutMenu->addSeparator();
+    auto creatorAction = new QAction(QIcon(":/images/OpenBoard.png"), tr("About Master Board"), mMainWindow);
+    creatorAction->setObjectName("actionLbCreator");
+    connect(creatorAction, &QAction::triggered, this, &UBMainMenu::showCreator);
+    aboutMenu->addAction(creatorAction);
 
     // The same dark gray as the tool palettes.
     menuBar->setStyleSheet(UBTheme::style(
@@ -360,7 +363,7 @@ void UBMainMenu::createMenus()
 void UBMainMenu::showCreator()
 {
     QDialog dialog(mMainWindow);
-    dialog.setWindowTitle(tr("Creator"));
+    dialog.setWindowTitle(tr("About Master Board"));
     dialog.setMinimumWidth(560);
 
     auto logo = new QLabel(&dialog);

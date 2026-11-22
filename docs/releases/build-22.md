@@ -1,4 +1,4 @@
-# Master Board, compilación 22
+# Master Board V1.22
 
 **Observaciones a la Versión 2**
 

@@ -70,22 +70,16 @@ int UBGitHubUpdater::currentBuild()
     return LIBERTYBOARD_BUILD;
 }
 
+QString UBGitHubUpdater::versionText(int build)
+{
+    // The major version and the number of the build: V2.31, V2.32...
+    const QString major = QCoreApplication::applicationVersion().section('.', 0, 0);
+    return QString("V%1.%2").arg(major).arg(build);
+}
+
 QString UBGitHubUpdater::currentVersionText()
 {
-    // 2.0.0 is shown as 2.0.
-    QString version = QCoreApplication::applicationVersion();
-
-    if (version.count('.') == 2 && version.endsWith(".0"))
-    {
-        version.chop(2);
-    }
-
-    if (currentBuild() > 0)
-    {
-        return tr("%1 (build %2)").arg(version).arg(currentBuild());
-    }
-
-    return version;
+    return versionText(currentBuild());
 }
 
 /** @brief The first line of the messages of the update: the version in use. */
@@ -154,7 +148,7 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
     {
         mBusy = false;
         const auto open = QMessageBox::question(mDialogParent, tr("Update"),
-            inUse() + tr("A new version of Master Board is available (build %1).\n\nOpen its page to download it?").arg(build),
+            inUse() + tr("A new version of Master Board is available (%1).\n\nOpen its page to download it?").arg(versionText(build)),
             QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 
         if (open == QMessageBox::Yes)
@@ -175,8 +169,8 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
     }
 
     const auto answer = QMessageBox::question(mDialogParent, tr("Update"),
-        inUse() + tr("A new version of Master Board is available (build %1).\n\n"
-           "Download and install it now? Master Board saves your documents, closes and opens again.").arg(build),
+        inUse() + tr("A new version of Master Board is available (%1).\n\n"
+           "Download and install it now? Master Board saves your documents, closes and opens again.").arg(versionText(build)),
         QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 
     if (answer != QMessageBox::Yes)

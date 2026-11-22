@@ -1,4 +1,4 @@
-# Master Board 2.0, compilación 31
+# Master Board V2.31
 
 **Versión 2.0**
 

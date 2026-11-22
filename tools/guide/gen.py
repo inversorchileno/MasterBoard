@@ -1,4 +1,4 @@
-# Writes the guide of Tips and tricks (resources/startupHints/locales/<lang>/<n>.html)
+# Writes the program guide (resources/startupHints/locales/<lang>/<n>.html)
 # from the texts of pages_es_en.py, pages_de_fr.py and pages_ja_zh.py.
 # The pictures are in resources/startupHints/assets/guide.
 # Run from anywhere: python3 tools/guide/gen.py

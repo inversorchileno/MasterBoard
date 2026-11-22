@@ -1,4 +1,4 @@
-# Master Board, compilación 28
+# Master Board V1.28
 
 **Guía, Creador e IA mejorada**
 

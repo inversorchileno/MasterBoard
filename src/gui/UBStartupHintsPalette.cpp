@@ -72,7 +72,7 @@ UBStartupHintsPalette::UBStartupHintsPalette(QWidget *parent) :
     header->setFixedHeight(40);
     auto headerLayout = new QHBoxLayout(header);
     headerLayout->setContentsMargins(14, 0, 6, 0);
-    auto title = new QLabel(tr("Tips and tricks"), header);
+    auto title = new QLabel(tr("Program guide"), header);
     title->setObjectName("hintsTitle");
     auto close = new QToolButton(header);
     close->setObjectName("hintsClose");
