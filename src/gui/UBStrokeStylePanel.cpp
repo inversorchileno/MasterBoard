@@ -132,6 +132,71 @@ static qreal estimatedWidth(UBGraphicsStrokesGroup* group)
     return outline > 0 ? qAbs(2 * qAbs(area) / outline) : 0;
 }
 
+// Fewer points along the same outline (Douglas-Peucker): the points closer
+// than the tolerance to the line between their neighbours are dropped.
+static void keepPoints(const QPolygonF& polygon, int first, int last, qreal tolerance, QVector<bool>& kept)
+{
+    qreal farthest = 0;
+    int index = -1;
+    const QLineF chord(polygon.at(first), polygon.at(last));
+
+    for (int i = first + 1; i < last; ++i)
+    {
+        const QPointF p = polygon.at(i);
+        qreal distance;
+
+        if (chord.length() < 1e-9)
+        {
+            distance = QLineF(chord.p1(), p).length();
+        }
+        else
+        {
+            const QPointF d = chord.p2() - chord.p1();
+            distance = qAbs(d.x() * (chord.p1().y() - p.y()) - d.y() * (chord.p1().x() - p.x())) / chord.length();
+        }
+
+        if (distance > farthest)
+        {
+            farthest = distance;
+            index = i;
+        }
+    }
+
+    if (index >= 0 && farthest > tolerance)
+    {
+        kept[index] = true;
+        keepPoints(polygon, first, index, tolerance, kept);
+        keepPoints(polygon, index, last, tolerance, kept);
+    }
+}
+
+static QPolygonF simplified(const QPolygonF& polygon, qreal tolerance)
+{
+    if (polygon.size() < 8)
+    {
+        return polygon;
+    }
+
+    // An outline: split at its middle so that both halves are open lines.
+    const int middle = polygon.size() / 2;
+    QVector<bool> kept(polygon.size(), false);
+    kept[0] = kept[middle] = kept[polygon.size() - 1] = true;
+    keepPoints(polygon, 0, middle, tolerance, kept);
+    keepPoints(polygon, middle, polygon.size() - 1, tolerance, kept);
+
+    QPolygonF result;
+
+    for (int i = 0; i < polygon.size(); ++i)
+    {
+        if (kept.at(i))
+        {
+            result << polygon.at(i);
+        }
+    }
+
+    return result;
+}
+
 // Replaces each group by a changed copy, in one step of Undo.
 static void changeGroups(const QList<UBGraphicsStrokesGroup*>& groups, const std::function<void(UBGraphicsStrokesGroup*)>& change)
 {
@@ -384,13 +449,22 @@ void UBStrokeStylePanel::applyWidth()
         {
             QPainterPath path;
             path.setFillRule(polygon->fillRule());
-            path.addPolygon(polygon->polygon());
+            // The rough edges of the marker have thousands of points: a
+            // lighter outline keeps the change quick.
+            path.addPolygon(simplified(polygon->polygon(), qMax(0.5, qAbs(delta) / 4)));
             path.closeSubpath();
 
             const QPainterPath edge = stroker.createStroke(path);
             const QPainterPath result = delta > 0 ? path.united(edge) : path.subtracted(edge);
             polygon->setFillRule(Qt::OddEvenFill);
             polygon->setPolygon(result.toFillPolygon());
+        }
+
+        // A group keeps the outline of its parts from when they were added.
+        for (UBGraphicsPolygonItem* polygon : polygonsOf(group))
+        {
+            group->removeFromGroup(polygon);
+            group->addToGroup(polygon);
         }
     });
 
