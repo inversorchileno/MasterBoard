@@ -320,6 +320,9 @@ class UBGraphicsScene: public UBCoreGraphicsScene, public UBItem, public std::en
         QList<QUrl> relativeDependenciesOfItem(QGraphicsItem* item) const;
         QList<QUrl> relativeDependencies() const;
 
+        /** @brief Without its background, to draw only what is on it, as the ink beyond its page. */
+        void setDrawsBackground(bool draws) { mDrawsBackground = draws; }
+
         QSize nominalSize();
 
         QSize sceneSize();
@@ -576,6 +579,8 @@ signals:
         UBSelectionFrame *mSelectionFrame;
 
         UBGraphicsCache* mGraphicsCache;
+
+        bool mDrawsBackground{true};
 };
 
 

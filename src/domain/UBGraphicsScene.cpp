@@ -3655,6 +3655,11 @@ void UBGraphicsScene::drawItems (QPainter * painter, int numItems,
 
 void UBGraphicsScene::drawBackground(QPainter *painter, const QRectF &rect)
 {
+    if (!mDrawsBackground)
+    {
+        return;
+    }
+
     if (mIsDesktopMode)
     {
         QGraphicsScene::drawBackground (painter, rect);

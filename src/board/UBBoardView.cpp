@@ -74,6 +74,8 @@
 #include "domain/UBGraphicsPixmapItem.h"
 #include "domain/UBGraphicsWidgetItem.h"
 #include "domain/UBGraphicsPDFItem.h"
+
+#include <QPainterPath>
 #include "domain/UBGraphicsPolygonItem.h"
 #include "domain/UBItem.h"
 #include "domain/UBGraphicsMediaItem.h"
@@ -96,6 +98,21 @@
 #include "tools/UBGraphicsProtractor.h"
 
 #include "core/memcheck.h"
+
+/**
+ * @brief The sheet of a page in its scene: the PDF, or the page of its size.
+ * What is drawn beyond it does not move the pages before and after it.
+ */
+static QRectF pageRectOf(UBGraphicsScene* scene)
+{
+    if (auto pdf = qgraphicsitem_cast<UBGraphicsPDFItem*>(scene->backgroundObject()))
+    {
+        return pdf->sceneBoundingRect();
+    }
+
+    const QSizeF size = scene->nominalSize();
+    return QRectF(-size.width() / 2, -size.height() / 2, size.width(), size.height());
+}
 
 UBBoardView::UBBoardView (UBBoardController* pController, QWidget* pParent, bool isControl, bool isDesktop)
     : QGraphicsView (pParent)
@@ -2118,7 +2135,7 @@ bool UBBoardView::turnPageWithWheel(QWheelEvent* wheelEvent)
     if (!hasNeighbour)
     {
         // The end of the document: the wheel stops at the edge of the page.
-        const QRectF page = scene()->normalizedSceneRect();
+        const QRectF page = pageRectOf(scene().get());
         const QRectF visible = mapToScene(viewport()->rect()).boundingRect();
         const qreal tolerance = 2;
         const bool atEdge = down ? (visible.bottom() >= page.bottom() - tolerance)
@@ -2331,7 +2348,7 @@ void UBBoardView::switchToNeighbourPage()
     }
 
     const int index = mController->activeSceneIndex();
-    const QRectF page = scene()->normalizedSceneRect();
+    const QRectF page = pageRectOf(scene().get());
     const qreal gap = pageGap();
     const QPointF middle = mapToScene(viewport()->rect().center());
 
@@ -2359,7 +2376,7 @@ void UBBoardView::switchToNeighbourPage()
     for (;;)
     {
         std::shared_ptr<UBGraphicsScene> neighbour = UBPersistenceManager::persistenceManager()->loadDocumentScene(document, index + direction * steps);
-        const qreal height = neighbour ? neighbour->normalizedSceneRect().height() : 0;
+        const qreal height = neighbour ? pageRectOf(neighbour.get()).height() : 0;
         const qreal farEdge = direction > 0 ? edgeY + height : edgeY - height;
         const int further = index + direction * (steps + 1);
         const bool beyond = direction > 0 ? middle.y() > farEdge + gap / 2 : middle.y() < farEdge - gap / 2;
@@ -2386,7 +2403,7 @@ void UBBoardView::switchToNeighbourPage()
         return;
     }
 
-    const QRectF newPage = scene()->normalizedSceneRect();
+    const QRectF newPage = pageRectOf(scene().get());
     const QPointF newEdge(newPage.center().x(), direction > 0 ? newPage.top() : newPage.bottom());
     const QPointF viewportMiddle = QRectF(viewport()->rect()).center();
     const QPointF newMiddle = newEdge + (viewportMiddle - edgeOnScreen) / scale;
@@ -2415,13 +2432,22 @@ void UBBoardView::drawNeighbourPages(QPainter* painter, const QRectF& rect)
     }
 
     const int index = mController->activeSceneIndex();
-    const QRectF page = scene()->normalizedSceneRect();
+    const QRectF page = pageRectOf(scene().get());
     const qreal gap = pageGap();
 
     // As many pages above and below as the view shows, a few at most when
     // the zoom is very small.
     const int mostPerSide = 8;
     QPair<int, int> drawn(index, index);
+
+    // The ink drawn beyond the sheet of a page, drawn once all the sheets are.
+    struct Overflow
+    {
+        std::shared_ptr<UBGraphicsScene> scene;
+        QRectF sheet;
+        QRectF target;
+    };
+    QList<Overflow> overflows;
 
     for (int direction : { -1, 1 })
     {
@@ -2446,7 +2472,7 @@ void UBBoardView::drawNeighbourPages(QPainter* painter, const QRectF& rect)
                 break;
             }
 
-            const QRectF source = neighbour->normalizedSceneRect();
+            const QRectF source = pageRectOf(neighbour.get());
             const qreal top = direction > 0 ? edge : edge - source.height();
             const QRectF target(page.center().x() - source.width() / 2, top, source.width(), source.height());
             edge = direction > 0 ? target.bottom() + gap : target.top() - gap;
@@ -2475,7 +2501,40 @@ void UBBoardView::drawNeighbourPages(QPainter* painter, const QRectF& rect)
             painter->setBrush(Qt::NoBrush);
             painter->drawRect(target.adjusted(-penWidth / 2, -penWidth / 2, penWidth / 2, penWidth / 2));
             painter->restore();
+
+            overflows << Overflow{ neighbour, source, target };
         }
+    }
+
+    // A stroke that went past the sheet stays seen over the page beside it,
+    // under what is drawn on the page shown, as when it was drawn.
+    for (const Overflow& overflow : std::as_const(overflows))
+    {
+        const QRectF whole = overflow.scene->normalizedSceneRect();
+
+        if (whole == overflow.sheet)
+        {
+            continue;
+        }
+
+        const QRectF target = whole.translated(overflow.target.topLeft() - overflow.sheet.topLeft());
+
+        if (!target.intersects(rect))
+        {
+            continue;
+        }
+
+        QPainterPath outside;
+        outside.addRect(target);
+        QPainterPath sheet;
+        sheet.addRect(overflow.target);
+
+        painter->save();
+        painter->setClipPath(outside.subtracted(sheet), Qt::IntersectClip);
+        overflow.scene->setDrawsBackground(false);
+        overflow.scene->render(painter, target, whole);
+        overflow.scene->setDrawsBackground(true);
+        painter->restore();
     }
 
     if (drawn.first == index && drawn.second == index)
@@ -2499,6 +2558,7 @@ void UBBoardView::drawNeighbourPages(QPainter* painter, const QRectF& rect)
         mNeighbourRepaintPending = true;
         QTimer::singleShot(250, this, [this]() {
             mNeighbourRepaintPending = false;
+            resetCachedContent();
             viewport()->update();
         });
     }
@@ -2721,6 +2781,11 @@ void UBBoardView::drawBackground (QPainter *painter, const QRectF &rect)
         return;
     }
 
+    // The pages before and after, so that scrolling goes on from page to
+    // page: in the background, under what is drawn on this page, and kept
+    // in its cache while a stroke is drawn over them.
+    drawNeighbourPages(painter, rect);
+
     if (!mFilterZIndex && scene ())
     {
         QSize pageNominalSize = scene ()->nominalSize ();
@@ -2751,10 +2816,6 @@ void UBBoardView::drawBackground (QPainter *painter, const QRectF &rect)
 
 void UBBoardView::drawForeground(QPainter* painter, const QRectF& rect)
 {
-    // The pages before and after, so that scrolling goes on from page to page.
-    // Drawn over the background, which is cached, and outside the page.
-    drawNeighbourPages(painter, rect);
-
     // The text being read aloud, marked until it is read.
     const QRectF readingArea = UBReadAloud::instance()->readingArea();
 
@@ -2842,7 +2903,7 @@ qreal UBBoardView::documentPosition()
         return 0;
     }
 
-    const QRectF page = scene()->normalizedSceneRect();
+    const QRectF page = pageRectOf(scene().get());
     const QRectF visible = mapToScene(viewport()->rect()).boundingRect();
     const qreal fraction = page.height() > 0 ? (visible.top() - page.top()) / page.height() : 0;
     return mController->activeSceneIndex() + qBound(0.0, fraction, 1.0);
@@ -2861,7 +2922,7 @@ qreal UBBoardView::visiblePageFraction()
         return 1;
     }
 
-    const QRectF page = scene()->normalizedSceneRect();
+    const QRectF page = pageRectOf(scene().get());
     const QRectF visible = mapToScene(viewport()->rect()).boundingRect();
     return page.height() > 0 ? visible.height() / page.height() : 1;
 }
@@ -2903,7 +2964,7 @@ void UBBoardView::showDocumentPosition(qreal position)
         showPageAtScale(index, scale);
     }
 
-    const QRectF page = scene()->normalizedSceneRect();
+    const QRectF page = pageRectOf(scene().get());
     const qreal visibleHeight = viewport()->height() / transform().m11();
     const qreal top = page.top() + fraction * page.height();
 
