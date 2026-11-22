@@ -138,8 +138,8 @@ DE = [
  ('Messungen',
   'Entfernungen, Umfänge und Flächen, auf der Tafel und auf dem Desktop.',
   ['Beim ersten Mal fragt das Messfenster nach der <b>Einheit</b> (mm, cm, m, km, Zoll, Fuß, Yard oder Meilen) und nach einer <b>Referenzlinie</b>, die 1 dieser Einheit misst.',
-   '<b>Entfernung</b>: von einem Ende zum anderen ziehen.',
-   '<b>Umfang</b> und <b>Fläche</b>: ein Klick an jeder Ecke und ein Doppelklick an der letzten; Esc beginnt neu.',
+   '<b>Entfernung</b>: ein Klick auf den Anfang und einer auf das Ende (ebenso die Referenzlinie).',
+   '<b>Umfang</b> und <b>Fläche</b>: ein Klick an jeder Ecke und ein Doppelklick an der letzten, Eingabetaste oder <b>Messung beenden</b>; Esc beginnt neu. Danach lassen sich mit <b>Ändern</b> die Ecken verschieben.',
    'Das Fenster lässt sich verschieben; <b>Neu beginnen</b> fragt erneut nach Einheit und Referenz, das <b>X</b> beendet die Messungen.'],
   'Mit einem anderen Werkzeug behält das Fenster die letzte Messung. Auf der Tafel folgt die Referenz der Seite: Der Zoom ändert die Messungen nicht.'),
 ]
@@ -282,8 +282,8 @@ FR = [
  ('Mesures',
   'Distances, périmètres et aires, sur le tableau et sur le bureau.',
   ['La première fois, la fenêtre de mesure demande l’<b>unité</b> (mm, cm, m, km, pouces, pieds, yards ou miles) et une <b>ligne de référence</b> qui mesure 1 de cette unité.',
-   '<b>Distance</b> : faites glisser d’un bout à l’autre.',
-   '<b>Périmètre</b> et <b>Aire</b> : un clic à chaque coin et un double-clic au dernier ; Échap recommence.',
+   '<b>Distance</b> : un clic au début et un à la fin (de même pour la ligne de référence).',
+   '<b>Périmètre</b> et <b>Aire</b> : un clic à chaque coin et un double-clic au dernier, Entrée ou <b>Terminer la mesure</b> ; Échap recommence. Ensuite <b>Modifier</b> permet de déplacer les coins.',
    'La fenêtre se déplace en la faisant glisser ; <b>Recommencer</b> redemande l’unité et la référence, et le <b>X</b> termine les mesures.'],
   'Avec un autre outil, la fenêtre garde la dernière mesure. Sur le tableau, la référence suit la page : le zoom ne change pas les mesures.'),
 ]
