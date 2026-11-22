@@ -8484,20 +8484,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Dodaj u favorite</translation>
+        <source>Favorite</source>
+        <translation>Favorit</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Ukloni iz favorita</translation>
+        <source>Close</source>
+        <translation>Zatvori</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Izbriši stranicu</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Udvostruči stranicu</translation>
+        <source>Clone</source>
+        <translation>Kloniraj</translation>
     </message>
 </context>
 </TS>

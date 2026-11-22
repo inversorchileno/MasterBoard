@@ -8384,20 +8384,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>添加到收藏</translation>
+        <source>Favorite</source>
+        <translation>收藏</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>从收藏中移除</translation>
+        <source>Close</source>
+        <translation>关闭</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>删除页面</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>复制页面</translation>
+        <source>Clone</source>
+        <translation>克隆</translation>
     </message>
 </context>
 </TS>

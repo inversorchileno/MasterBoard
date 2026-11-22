@@ -8157,20 +8157,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Ampio amin'ny ankafizina</translation>
+        <source>Favorite</source>
+        <translation>Ankafizina</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Esory amin'ny ankafizina</translation>
+        <source>Close</source>
+        <translation>Hidio</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Fafao ny pejy</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Adikao indroa ny pejy</translation>
+        <source>Clone</source>
+        <translation>Adikao</translation>
     </message>
 </context>
 </TS>

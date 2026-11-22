@@ -8166,20 +8166,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>즐겨찾기에 추가</translation>
+        <source>Favorite</source>
+        <translation>즐겨찾기</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>즐겨찾기에서 제거</translation>
+        <source>Close</source>
+        <translation>닫기</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>페이지 삭제</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>페이지 복제</translation>
+        <source>Clone</source>
+        <translation>복제</translation>
     </message>
 </context>
 </TS>

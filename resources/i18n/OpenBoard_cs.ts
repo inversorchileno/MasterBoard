@@ -8166,20 +8166,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Přidat do oblíbených</translation>
+        <source>Favorite</source>
+        <translation>Oblíbená</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Odebrat z oblíbených</translation>
+        <source>Close</source>
+        <translation>Zavřít</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Smazat stránku</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Duplikovat stránku</translation>
+        <source>Clone</source>
+        <translation>Klonovat</translation>
     </message>
 </context>
 </TS>

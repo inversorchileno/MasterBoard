@@ -8513,20 +8513,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Gehitu gogokoetara</translation>
+        <source>Favorite</source>
+        <translation>Gogokoa</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Kendu gogokoetatik</translation>
+        <source>Close</source>
+        <translation>Itxi</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Ezabatu orria</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Bikoiztu orria</translation>
+        <source>Clone</source>
+        <translation>Klonatu</translation>
     </message>
 </context>
 </TS>

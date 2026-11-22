@@ -8162,20 +8162,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Afegeix a preferits</translation>
+        <source>Favorite</source>
+        <translation>Preferida</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Treu de preferits</translation>
+        <source>Close</source>
+        <translation>Tanca</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Esborra la pàgina</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Duplica la pàgina</translation>
+        <source>Clone</source>
+        <translation>Clona</translation>
     </message>
 </context>
 </TS>

@@ -8329,20 +8329,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>加入最愛</translation>
+        <source>Favorite</source>
+        <translation>最愛</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>從最愛中移除</translation>
+        <source>Close</source>
+        <translation>關閉</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>刪除頁面</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>複製頁面</translation>
+        <source>Clone</source>
+        <translation>複製</translation>
     </message>
 </context>
 </TS>

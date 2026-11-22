@@ -8294,20 +8294,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>お気に入りに追加</translation>
+        <source>Favorite</source>
+        <translation>お気に入り</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>お気に入りから削除</translation>
+        <source>Close</source>
+        <translation>閉じる</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>ページを削除</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>ページを複製</translation>
+        <source>Clone</source>
+        <translation>複製</translation>
     </message>
 </context>
 </TS>

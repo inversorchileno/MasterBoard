@@ -8443,20 +8443,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Zu Favoriten hinzufügen</translation>
+        <source>Favorite</source>
+        <translation>Favorit</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Aus Favoriten entfernen</translation>
+        <source>Close</source>
+        <translation>Schließen</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Seite löschen</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Seite duplizieren</translation>
+        <source>Clone</source>
+        <translation>Klonen</translation>
     </message>
 </context>
 </TS>

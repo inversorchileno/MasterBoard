@@ -8227,20 +8227,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Προσθήκη στα αγαπημένα</translation>
+        <source>Favorite</source>
+        <translation>Αγαπημένη</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Αφαίρεση από τα αγαπημένα</translation>
+        <source>Close</source>
+        <translation>Κλείσιμο</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Διαγραφή της σελίδας</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Διπλασιασμός της σελίδας</translation>
+        <source>Clone</source>
+        <translation>Κλωνοποίηση</translation>
     </message>
 </context>
 </TS>

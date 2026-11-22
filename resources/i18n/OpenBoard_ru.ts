@@ -8224,20 +8224,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Добавить в избранное</translation>
+        <source>Favorite</source>
+        <translation>Избранное</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Удалить из избранного</translation>
+        <source>Close</source>
+        <translation>Закрыть</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Удалить страницу</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Дублировать страницу</translation>
+        <source>Clone</source>
+        <translation>Клонировать</translation>
     </message>
 </context>
 </TS>

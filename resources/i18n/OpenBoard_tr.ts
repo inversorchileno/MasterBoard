@@ -8230,20 +8230,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Sık kullanılanlara ekle</translation>
+        <source>Favorite</source>
+        <translation>Favori</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Sık kullanılanlardan kaldır</translation>
+        <source>Close</source>
+        <translation>Kapat</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Sayfayı sil</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Sayfayı çoğalt</translation>
+        <source>Clone</source>
+        <translation>Klonla</translation>
     </message>
 </context>
 </TS>

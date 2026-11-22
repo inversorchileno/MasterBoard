@@ -8162,20 +8162,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Lägg till i favoriter</translation>
+        <source>Favorite</source>
+        <translation>Favorit</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Ta bort från favoriter</translation>
+        <source>Close</source>
+        <translation>Stäng</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Ta bort sidan</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Duplicera sidan</translation>
+        <source>Clone</source>
+        <translation>Klona</translation>
     </message>
 </context>
 </TS>

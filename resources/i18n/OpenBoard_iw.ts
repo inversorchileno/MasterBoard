@@ -8157,20 +8157,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>הוספה למועדפים</translation>
+        <source>Favorite</source>
+        <translation>מועדף</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>הסרה מהמועדפים</translation>
+        <source>Close</source>
+        <translation>סגירה</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>מחיקת העמוד</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>שכפול העמוד</translation>
+        <source>Clone</source>
+        <translation>שכפול</translation>
     </message>
 </context>
 </TS>

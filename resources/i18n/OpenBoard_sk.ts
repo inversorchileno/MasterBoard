@@ -8207,20 +8207,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Pridať do obľúbených</translation>
+        <source>Favorite</source>
+        <translation>Obľúbená</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Odstrániť z obľúbených</translation>
+        <source>Close</source>
+        <translation>Zavrieť</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Odstrániť stránku</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Duplikovať stránku</translation>
+        <source>Clone</source>
+        <translation>Klonovať</translation>
     </message>
 </context>
 </TS>

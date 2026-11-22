@@ -8307,20 +8307,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Hozzáadás a kedvencekhez</translation>
+        <source>Favorite</source>
+        <translation>Kedvenc</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Eltávolítás a kedvencek közül</translation>
+        <source>Close</source>
+        <translation>Bezárás</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Oldal törlése</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Oldal másolása</translation>
+        <source>Clone</source>
+        <translation>Klónozás</translation>
     </message>
 </context>
 </TS>

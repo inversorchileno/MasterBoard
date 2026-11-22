@@ -8187,20 +8187,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Adicionar aos favoritos</translation>
+        <source>Favorite</source>
+        <translation>Favorito</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Remover dos favoritos</translation>
+        <source>Close</source>
+        <translation>Fechar</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Eliminar a página</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Duplicar a página</translation>
+        <source>Clone</source>
+        <translation>Clonar</translation>
     </message>
 </context>
 </TS>

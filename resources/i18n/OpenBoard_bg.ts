@@ -8153,20 +8153,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Добавяне към любими</translation>
+        <source>Favorite</source>
+        <translation>Любима</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Премахване от любими</translation>
+        <source>Close</source>
+        <translation>Затваряне</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Изтриване на страницата</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Дублиране на страницата</translation>
+        <source>Clone</source>
+        <translation>Клониране</translation>
     </message>
 </context>
 </TS>

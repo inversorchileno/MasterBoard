@@ -8204,20 +8204,16 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>UBThumbnail</name>
     <message>
-        <source>Add to favorites</source>
-        <translation>Додати до улюблених</translation>
+        <source>Favorite</source>
+        <translation>Улюблена</translation>
     </message>
     <message>
-        <source>Remove from favorites</source>
-        <translation>Вилучити з улюблених</translation>
+        <source>Close</source>
+        <translation>Закрити</translation>
     </message>
     <message>
-        <source>Delete the page</source>
-        <translation>Видалити сторінку</translation>
-    </message>
-    <message>
-        <source>Duplicate the page</source>
-        <translation>Дублювати сторінку</translation>
+        <source>Clone</source>
+        <translation>Клонувати</translation>
     </message>
 </context>
 </TS>
