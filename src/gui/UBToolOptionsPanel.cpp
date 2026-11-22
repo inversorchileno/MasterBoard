@@ -591,7 +591,7 @@ void UBLaserOptionsPanel::layOutForToolbar()
 
     for (const auto& time : times)
     {
-        if (auto caption = time.first->findChild<QLabel*>("section"))
+        if (auto caption = time.first->findChild<QLabel*>("caption"))
         {
             time.first->setToolTip(caption->text());
             caption->setText(time.second);
