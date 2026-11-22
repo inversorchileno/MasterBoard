@@ -14,12 +14,12 @@
     <message>
         <location filename="../../src/web/simplebrowser/browserwindow.cpp" line="+151"/>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Navigace</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Show downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit stažené</translation>
     </message>
 </context>
 <context>
@@ -32,19 +32,21 @@
     <message>
         <location line="+12"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikona</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>If you wish so, you may continue with an unverified certificate. Accepting an unverified certificate mean you may not be connected with the host you tried to connect to.
 
 Do you wish to override the security check and continue ?   </source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud chcete, můžete pokračovat s neověřeným certifikátem. Přijetí neověřeného certifikátu znamená, že možná nejste připojeni k hostiteli, ke kterému jste se chtěli připojit.
+
+Chcete přeskočit bezpečnostní kontrolu a pokračovat?   </translation>
     </message>
 </context>
 <context>
@@ -52,12 +54,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.ui" line="+14"/>
         <source>Downloads</source>
-        <translation type="unfinished">Stáhnout</translation>
+        <translation>Stažené</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>No downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>Žádná stahování</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.cpp" line="+82"/>
@@ -71,68 +73,68 @@ Do you wish to override the security check and continue ?   </source>
         <location filename="../../src/web/simplebrowser/downloadwidget.ui" line="+31"/>
         <location line="+40"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadwidget.cpp" line="+87"/>
         <location line="+40"/>
         <source>Open file</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít soubor</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>%L1 B</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 B</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 KiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 KiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 MiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 MiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 GiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 GiB</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>%p% - %1 of %2 downloaded - %3/s</source>
-        <translation type="unfinished"></translation>
+        <translation>%p% - staženo %1 z %2 - %3/s</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>unknown size - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>neznámá velikost - staženo %1 - %2/s</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>completed - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>dokončeno - staženo %1 - %2/s</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>cancelled - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>zrušeno - staženo %1 - %2/s</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>interrupted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>přerušeno: %1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Stop downloading</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastavit stahování</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Odebrat ze seznamu</translation>
     </message>
 </context>
 <context>
@@ -1067,7 +1069,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Draw shapes: rectangles, ellipses, lines, polylines, arrows, stars, speech bubbles…</source>
-        <translation type="unfinished"></translation>
+        <translation>Kreslit tvary: obdélníky, elipsy, čáry, lomené čáry, šipky, hvězdy, bubliny…</translation>
     </message>
     <message>
         <location line="+155"/>
@@ -1077,7 +1079,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Read the page aloud, from its start, from a word clicked or a rectangle dragged on the text</source>
-        <translation type="unfinished"></translation>
+        <translation>Přečíst stranu nahlas: od začátku, od kliknutého slova nebo z obdélníku taženého přes text</translation>
     </message>
     <message>
         <location line="+346"/>
@@ -1103,70 +1105,70 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-887"/>
         <location line="+6"/>
         <source>Ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Linky na světlém pozadí</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Linky na tmavém pozadí</translation>
     </message>
     <message>
         <location line="+814"/>
         <source>Open Tutorial</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít výukový program</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the tutorial web page</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít webovou stránku výukového programu</translation>
     </message>
     <message>
         <location line="+9"/>
         <location line="+3"/>
         <source>Reset grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovit velikost mřížky</translation>
     </message>
     <message>
         <location line="-1716"/>
         <source>Small Eraser</source>
-        <translation type="unfinished"></translation>
+        <translation>Malá guma</translation>
     </message>
     <message>
         <location line="+45"/>
         <location line="+3"/>
         <source>Color 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva 1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva 2</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva 3</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva 4</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 5</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva 5</translation>
     </message>
     <message>
         <location line="+1609"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Kreslit mezilehlé čáry mřížky</translation>
     </message>
     <message>
         <location line="-184"/>
@@ -1174,7 +1176,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+13"/>
         <location line="+3"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Zachytit webový obsah</translation>
     </message>
     <message>
         <location line="-1773"/>
@@ -1189,42 +1191,42 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+94"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Režim dokumentů</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Web Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Webový režim</translation>
     </message>
     <message>
         <location line="+140"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>Board Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Režim tabule</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1244,29 +1246,29 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Desktop Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Režim plochy</translation>
     </message>
     <message>
         <location line="+182"/>
         <source>Add to document</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat do dokumentu</translation>
     </message>
     <message>
         <location line="+318"/>
         <location line="+6"/>
         <source>Seyes ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Linky Seyes na světlém pozadí</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Seyes ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Linky Seyes na tmavém pozadí</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location line="+150"/>
@@ -1339,32 +1341,32 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+13"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emoji a GIFy</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Put an emoji or a GIF on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístit emoji nebo GIF na stranu</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>UI</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
-        <translation type="unfinished"></translation>
+        <translation>Shrnutí, překlad, obrázky a další s UI na webu</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Měření</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance, perimeter and area, with a reference drawn on the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzdálenost, obvod a obsah s měřítkem nakresleným na obrazovce</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1417,27 +1419,27 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+130"/>
         <source>Import one or more pages (supported formats : jpg, png, svg, ubz, pdf)</source>
-        <translation type="unfinished"></translation>
+        <translation>Importovat jednu nebo více stran (formáty: jpg, png, svg, ubz, pdf)</translation>
     </message>
     <message>
         <location line="+253"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Průvodce programem</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít průvodce programem</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Přichytit k mřížce</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Snap to grid and angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Přichytit k mřížce a úhlu</translation>
     </message>
     <message>
         <source>Add to favorites</source>
@@ -1446,12 +1448,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-33"/>
         <source>Add Document to favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat dokument do oblíbených</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Favorite</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblíbené</translation>
     </message>
 </context>
 <context>
@@ -1474,12 +1476,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-26"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikona</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Informace</translation>
     </message>
 </context>
 <context>
@@ -1487,7 +1489,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../plugins/cffadaptor/src/UBCFFAdaptor.cpp" line="+1181"/>
         <source>Element ID = </source>
-        <translation type="unfinished">ID objektu = </translation>
+        <translation>ID prvku = </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1505,17 +1507,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/adaptors/UBSvgSubsetAdaptor.cpp" line="+252"/>
         <source>Loading scene (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítání scény (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBSceneCache.cpp" line="+243"/>
         <source>Moving cached scenes (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesouvání scén z mezipaměti (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+46"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Společné</translation>
     </message>
     <message>
         <location filename="../../src/board/UBComments.cpp" line="+153"/>
@@ -1558,22 +1560,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
         <source>Bar style</source>
-        <translation type="unfinished"></translation>
+        <translation>Styl lišty</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Styl palet nástrojů na tabuli a na ploše. Palety se změní hned.</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Color inside</source>
-        <translation type="unfinished"></translation>
+        <translation>Vnitřní barva</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Color of the edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva okraje</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1583,17 +1585,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+2"/>
         <source>Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Rohy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>Čtverec</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>Kulatý</translation>
     </message>
 </context>
 <context>
@@ -1639,77 +1641,77 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>UI</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Shrnutí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, summarized by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Část strany nebo celá, shrnutá UI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Překlad</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, translated by the AI into the language chosen</source>
-        <translation type="unfinished"></translation>
+        <translation>Část strany nebo celá, přeložená UI do zvoleného jazyka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Create image</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvořit obrázek</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>An image made by the AI from what you write</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrázek vytvořený UI z toho, co napíšete</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove background</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstranit pozadí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A picture without its background, made by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrázek bez pozadí, vytvořený UI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erase</source>
-        <translation type="unfinished"></translation>
+        <translation>Generativní mazání</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Something erased from a picture by the AI, as if it had never been there</source>
-        <translation type="unfinished"></translation>
+        <translation>Něco vymazaného z obrázku pomocí UI, jako by to tam nikdy nebylo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Přepsat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Asks for an audio and gives it to the AI, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Požádá o zvuk a předá jej UI, která zapíše, co zaznělo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít UI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Opens or closes the page of the AI at the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevře nebo zavře stránku UI vpravo</translation>
     </message>
 </context>
 <context>
@@ -1717,202 +1719,202 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBAiPanel.cpp" line="+164"/>
         <source>Drag over the part of the page to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Táhněte přes část strany pro UI. Esc: zrušit.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag over the part of the screen to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Táhněte přes část obrazovky pro UI. Esc: zrušit.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Překlad</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Detect it</source>
-        <translation type="unfinished"></translation>
+        <translation>Zjistit</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Write or choose the languages:</source>
-        <translation type="unfinished"></translation>
+        <translation>Napište nebo vyberte jazyky:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Od:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Komu:</translation>
     </message>
     <message>
         <location line="+171"/>
         <source>Put the picture on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístit obrázek na plochu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the picture on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístit obrázek na stranu</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Put the text on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístit text na plochu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the text on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístit text na stranu</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The AI shown; the addresses are in the preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazená UI; adresy jsou v předvolbách</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Close the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Zavřít UI</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>AI:</source>
-        <translation type="unfinished"></translation>
+        <translation>UI:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Copy instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopírovat pokyn</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copies the instruction again, to paste it with Ctrl+V in the box of the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Znovu zkopíruje pokyn, abyste jej vložili Ctrl+V do pole UI</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Paste on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Vložit na stranu</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Paste on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Vložit na plochu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Puts on the page what was copied in the AI: a text, or a picture with its right click, Copy image. The right click on a picture or a selected text of the AI can also put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístí na stranu, co bylo zkopírováno v UI: text, nebo obrázek přes pravé tlačítko, Kopírovat obrázek. Pravé tlačítko na obrázku nebo vybraném textu UI jej tam také může umístit.</translation>
     </message>
     <message>
         <location line="+405"/>
         <source>Right click on a picture or a text of the AI to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte pravým tlačítkem na obrázek nebo text UI a umístěte jej na plochu.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag a text or a picture of the AI to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Přetáhněte text nebo obrázek UI na stranu, nebo na něj klikněte pravým tlačítkem a umístěte jej tam.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Right click on the answer to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokyn je zapsán v UI a také zkopírován: Ctrl+V jej vloží. Klikněte pravým tlačítkem na odpověď a umístěte ji na plochu.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Drag the answer to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokyn je zapsán v UI a také zkopírován: Ctrl+V jej vloží. Přetáhněte odpověď na stranu, nebo na ni klikněte pravým tlačítkem a umístěte ji tam.</translation>
     </message>
     <message>
         <location line="+305"/>
         <source>The picture could not be taken from the AI: right click on it and choose to put it on the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrázek z UI nelze převzít: klikněte na něj pravým tlačítkem a zvolte umístění na stranu.</translation>
     </message>
     <message>
         <location line="-675"/>
         <source>Drag to make the panel wider</source>
-        <translation type="unfinished"></translation>
+        <translation>Táhněte pro rozšíření panelu</translation>
     </message>
     <message>
         <location line="+129"/>
         <source>The picture of the AI is on the page; it is also in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrázek UI je na straně; je také v %1</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Downloaded: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Staženo: %1</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>Create an image</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvořit obrázek</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Generativní mazání</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Describe the image to create:</source>
-        <translation type="unfinished"></translation>
+        <translation>Popište obrázek k vytvoření:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>What should the AI erase from the picture?</source>
-        <translation type="unfinished"></translation>
+        <translation>Co má UI vymazat z obrázku?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Summarize the attached document in clear words: first the main idea in two or three sentences, then the important points as a list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Shrňte přiložený dokument srozumitelně: nejprve hlavní myšlenku ve dvou nebo třech větách, pak důležité body v seznamu.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Translate the text of the attached file into %1. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Přeložte text přiloženého souboru do jazyka %1. Zachovejte pořadí a nadpisy a uveďte jen překlad.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translate the text of the attached file from %1 into %2. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Přeložte text přiloženého souboru z jazyka %1 do jazyka %2. Zachovejte pořadí a nadpisy a uveďte jen překlad.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Create an image: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvořit obrázek: %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the background of the attached image and give me the result as a PNG image with a transparent background, of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstraňte pozadí přiloženého obrázku a dejte mi výsledek jako PNG s průhledným pozadím ve stejné velikosti.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>In the attached image, erase this: %1. Fill its place so that it looks natural, as if it had never been there, and give me the result as an image of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Na přiloženém obrázku vymažte toto: %1. Vyplňte místo přirozeně, jako by tam nikdy nebylo, a dejte mi výsledek jako obrázek stejné velikosti.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Transcribe the attached audio word by word. When several people speak, mark who speaks. Give only the text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Přepište přiložený zvuk slovo od slova. Když mluví více lidí, označte, kdo mluví. Uveďte jen text.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Audio to transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvuk k přepisu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvuk</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1921,49 +1923,49 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+17"/>
         <location line="+139"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>UI</translation>
     </message>
     <message>
         <location line="-169"/>
         <source>What should be given to the AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Co předat UI?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Část strany</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The whole page</source>
-        <translation type="unfinished"></translation>
+        <translation>Celá strana</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The whole PDF or board</source>
-        <translation type="unfinished"></translation>
+        <translation>Celé PDF nebo tabule</translation>
     </message>
     <message>
         <location line="-14"/>
         <location line="+25"/>
         <location line="+17"/>
         <source>The file for the AI could not be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor pro UI nelze vytvořit.</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>If the AI did not take the file, drag it from here to the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud UI soubor nepřevzala, přetáhněte jej odsud do UI</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>It seems that the free uses of %1 are over for now. Do the same with another AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdá se, že bezplatná použití %1 jsou zatím vyčerpána. Udělat totéž s jinou UI?</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Stay here</source>
-        <translation type="unfinished"></translation>
+        <translation>Zůstat zde</translation>
     </message>
 </context>
 <context>
@@ -1981,7 +1983,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+48"/>
         <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor UBX nelze otevřít přímo. Importujte jej v režimu dokumentů</translation>
     </message>
 </context>
 <context>
@@ -2055,7 +2057,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Šablony</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2065,47 +2067,47 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+19"/>
         <source>Grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost mřížky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Kreslit mezilehlé čáry mřížky</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Date of the calendars</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum kalendářů</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The calendars and planners are made for this day, its week, its month or its year</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalendáře a plánovače se vytvářejí pro tento den, jeho týden, měsíc nebo rok</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Weeks start on Sunday</source>
-        <translation type="unfinished"></translation>
+        <translation>Týden začíná nedělí</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The calendars start their weeks on Monday, or on Sunday when this is ticked</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalendáře začínají týden pondělím, nebo nedělí, je-li zaškrtnuto</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>%1, for the date chosen above</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, pro datum zvolené výše</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Na straně PDF jde šablona na novou stranu za ní.</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva čar</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2115,7 +2117,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+45"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Směr posouvání</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2130,17 +2132,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodorovně po 2 stranách</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Svisle po 2 stranách</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Strany pod sebou, vedle sebe, nebo po dvou jako otevřený sešit</translation>
     </message>
 </context>
 <context>
@@ -2198,7 +2200,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+402"/>
         <source>The GIF could not be found on its page. Try another one.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF nebyl na své stránce nalezen. Zkuste jiný.</translation>
     </message>
     <message>
         <location line="+200"/>
@@ -2241,17 +2243,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+377"/>
         <source>Saving document...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukládání dokumentu...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Document has just been saved...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument byl právě uložen...</translation>
     </message>
     <message>
         <location line="+427"/>
         <source>Deleting page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mazání strany %1</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -2261,12 +2263,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+1282"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez názvu</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Could not find document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument nebyl nalezen.</translation>
     </message>
 </context>
 <context>
@@ -2365,12 +2367,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Je to pro tabuli, nebo pro widget?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you trying to drop the object(s) inside the widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokoušíte se pustit objekt(y) do widgetu?</translation>
     </message>
 </context>
 <context>
@@ -2553,12 +2555,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBDictation.cpp" line="+83"/>
         <source>Dictate</source>
-        <translation type="unfinished">Diktovat</translation>
+        <translation>Diktovat</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
-        <translation type="unfinished">Diktování systému zde není k dispozici. Ve Windows stiskněte v textu Windows + H.</translation>
+        <translation>Systémové diktování zde není dostupné. Ve Windows stiskněte v textu Windows + H.</translation>
     </message>
 </context>
 <context>
@@ -2643,28 +2645,28 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+12"/>
         <location line="+856"/>
         <source>Opening document in Board. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevírání dokumentu na tabuli. Čekejte prosím...</translation>
     </message>
     <message>
         <location line="-1336"/>
         <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board nemohl tento soubor obnovit. Smažte jej nebo požádejte správce o pomoc</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Broken document</source>
-        <translation type="unfinished"></translation>
+        <translation>Poškozený dokument</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>Znovu nezobrazovat</translation>
     </message>
     <message>
         <location line="+475"/>
         <location line="+856"/>
         <source>Document opened successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument byl otevřen</translation>
     </message>
     <message>
         <location line="-183"/>
@@ -2707,116 +2709,116 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+667"/>
         <source>duplicated %1 page</source>
         <comment>duplicated %1 pages</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Zdvojeno stran: %1</numerusform>
+            <numerusform>Zdvojeno stran: %1</numerusform>
+            <numerusform>Zdvojeno stran: %1</numerusform>
         </translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Complete deletion of %1 documents/folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Úplné smazání dokumentů/složek: %1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete %1 documents and/or folders. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se trvale smazat dokumenty a/nebo složky: %1. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Complete deletion of folder &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Úplné smazání složky „%1“</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete folder &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se trvale smazat složku „%1“. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Complete deletion of document &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Úplné smazání dokumentu „%1“</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete document &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se trvale smazat dokument „%1“. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Emptying My Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Vysypávání Mých dokumentů</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the folder &quot;My Documents&quot;. All your documents will be moved to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se zcela vyprázdnit složku „Moje dokumenty“. Všechny dokumenty budou přesunuty do koše. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Emptying Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Vysypávání koše</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the trash. All documents and folders in it will be permanently deleted. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se zcela vysypat koš. Všechny dokumenty a složky v něm budou trvale smazány. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Moving %1 elements to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesouvání položek do koše: %1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move %1 documents and/or folders to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se přesunout do koše dokumenty a/nebo složky: %1. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Move folder &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesunout složku „%1“ do koše</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move folder &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se přesunout složku „%1“ do koše. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Move document &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesunout dokument „%1“ do koše</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move document &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se přesunout dokument „%1“ do koše. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+352"/>
         <source>Open Supported File(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít podporované soubory</translation>
     </message>
     <message>
         <location filename="../../src/document/UBDocument.cpp" line="+64"/>
         <source>Moving %1 pages of the document &quot;%2&quot; to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesouvání %1 stran dokumentu „%2“ do koše</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>You are about to move %1 pages of the document &quot;%2&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se přesunout do koše %1 stran dokumentu „%2“. Jste si jisti?</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Remove page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Odebrat stranu %1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to remove page %1 of the document &quot;%2&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chystáte se odebrat stranu %1 dokumentu „%2“. Jste si jisti?</translation>
     </message>
 </context>
 <context>
@@ -2849,7 +2851,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+139"/>
         <source>Creating %1 pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytváření stran: %1. Čekejte prosím...</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -2898,14 +2900,16 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1"/>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahradit</translation>
     </message>
     <message>
         <location line="+80"/>
         <source>The name %1 is allready used.
 Keeping this name will replace the document.
 Providing a new name will create a new document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Název %1 se už používá.
+Ponecháním názvu se dokument nahradí.
+Nový název vytvoří nový dokument.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -2915,17 +2919,17 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="+29"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahradit vše</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Přeskočit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip all</source>
-        <translation type="unfinished"></translation>
+        <translation>Přeskočit vše</translation>
     </message>
 </context>
 <context>
@@ -2985,16 +2989,16 @@ Providing a new name will create a new document.</source>
     <message numerus="yes">
         <location line="+383"/>
         <source>%1 pages copied</source>
-        <translation type="unfinished">
-            <numerusform>%1 zkopírovaná stránka</numerusform>
-            <numerusform>%1 zkopírované stránky</numerusform>
-            <numerusform>%1 zkopírovaných stránek</numerusform>
+        <translation>
+            <numerusform>Zkopírováno stran: %1</numerusform>
+            <numerusform>Zkopírováno stran: %1</numerusform>
+            <numerusform>Zkopírováno stran: %1</numerusform>
         </translation>
     </message>
     <message>
         <location line="-387"/>
         <source>My documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Moje dokumenty</translation>
     </message>
 </context>
 <context>
@@ -3002,10 +3006,10 @@ Providing a new name will create a new document.</source>
     <message numerus="yes">
         <location line="+1328"/>
         <source>%1 pages copied</source>
-        <translation type="unfinished">
-            <numerusform>%1 zkopírovaná stránka</numerusform>
-            <numerusform>%1 zkopírované stránky</numerusform>
-            <numerusform>%1 zkopírovaných stránek</numerusform>
+        <translation>
+            <numerusform>Zkopírováno stran: %1</numerusform>
+            <numerusform>Zkopírováno stran: %1</numerusform>
+            <numerusform>Zkopírováno stran: %1</numerusform>
         </translation>
     </message>
     <message>
@@ -3038,7 +3042,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentVersionConverter.cpp" line="+69"/>
         <source>This document was created using OpenBoard 1.8</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento dokument byl vytvořen v OpenBoard 1.8</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3047,7 +3051,11 @@ Providing a new name will create a new document.</source>
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento dokument byl vytvořen v OpenBoard 1.8 a jeho obsah byl přeuspořádán. Důrazně doporučujeme aktualizovat OpenBoard na verzi 1.8.
+
+Pokud budete pokračovat, dokument se převede, aby byl kompatibilní s verzí 1.7.7. Může to trvat několik minut. V OpenBoard 1.8 jej budete moci dál otevřít, ale pak se znovu převede do formátu 1.8.
+
+Chcete pokračovat?</translation>
     </message>
 </context>
 <context>
@@ -3123,7 +3131,8 @@ Do you want to continue?</source>
         <location line="+92"/>
         <source>Application name can`t contain any of the following characters:<byte value="xd"/>
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Název aplikace nesmí obsahovat žádný z těchto znaků:&lt;byte value=&quot;xd&quot;/&gt;
+</translation>
     </message>
 </context>
 <context>
@@ -3131,27 +3140,27 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emoji a GIFy</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>Emoji</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIFy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>GIFs: opens the page of klipy.com beside the board, without an account; drag a GIF from it to the page. A second click on GIFs closes it.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIFy: otevře stránku klipy.com vedle tabule, bez účtu; přetáhněte z ní GIF na stranu. Druhé kliknutí na GIFy ji zavře.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Přetáhněte GIF z okna GIFů na stranu.</translation>
     </message>
     <message>
         <source>Save</source>
@@ -3160,7 +3169,7 @@ Do you want to continue?</source>
     <message>
         <location line="+5"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3193,7 +3202,7 @@ Do you want to continue?</source>
     <message>
         <location line="+3"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3226,17 +3235,17 @@ Do you want to continue?</source>
     <message>
         <location line="-16"/>
         <source>Export failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Export se nezdařil</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unable to export to the selected location. You do not have the permissions necessary to save the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Do zvoleného umístění nelze exportovat. Nemáte oprávnění k uložení souboru.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Export failed: location not writable</source>
-        <translation type="unfinished"></translation>
+        <translation>Export se nezdařil: do umístění nelze zapisovat</translation>
     </message>
 </context>
 <context>
@@ -3306,13 +3315,13 @@ Do you want to continue?</source>
         <location line="-28"/>
         <location line="+9"/>
         <source>Failed to export...</source>
-        <translation type="unfinished"></translation>
+        <translation>Export se nezdařil...</translation>
     </message>
     <message>
         <location line="-6"/>
         <location line="+13"/>
         <source>Export as UBX File</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportovat jako soubor UBX</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -3341,7 +3350,7 @@ Do you want to continue?</source>
         <location line="-56"/>
         <location line="+14"/>
         <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>Původní PDF importované do Master Board se zdá neplatné a nelze jej sloučit s vašimi poznámkami. Opravte jej a importujte znovu. Tento export bude proveden s podrobnými (velkými) obrázky stran původního PDF, aby nedošlo k úplnému selhání.</translation>
     </message>
 </context>
 <context>
@@ -3547,12 +3556,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBGifWindow.cpp" line="+66"/>
         <source>GIFs of klipy.com: drag one to the page</source>
-        <translation type="unfinished"></translation>
+        <translation>GIFy z klipy.com: přetáhněte jeden na stranu</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close the GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Zavřít GIFy</translation>
     </message>
 </context>
 <context>
@@ -3560,7 +3569,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Používáte Master Board %1.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3603,14 +3612,18 @@ Stáhnout a nainstalovat nyní? Master Board uloží vaše dokumenty, zavře se 
         <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Je k dispozici nová verze Master Board (%1).
+
+Otevřít její stránku ke stažení?</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je k dispozici nová verze Master Board (%1).
+
+Stáhnout a nainstalovat nyní? Master Board uloží dokumenty, zavře se a znovu otevře.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3671,7 +3684,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrýt na rozšířené obrazovce při výběru</translation>
     </message>
 </context>
 <context>
@@ -3712,17 +3725,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+16"/>
         <source>Set as background</source>
-        <translation type="unfinished">Nastavit jako pozadí</translation>
+        <translation>Nastavit jako pozadí</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>Webový inspektor</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrýt na rozšířené obrazovce při výběru</translation>
     </message>
     <message>
         <location line="-599"/>
@@ -3732,12 +3745,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+14"/>
         <source>Layer up</source>
-        <translation type="unfinished"></translation>
+        <translation>O vrstvu výš</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Layer down</source>
-        <translation type="unfinished"></translation>
+        <translation>O vrstvu níž</translation>
     </message>
 </context>
 <context>
@@ -3745,23 +3758,23 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsMediaItem.cpp" line="+490"/>
         <source>Media resource couldn&apos;t be resolved</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdroj médií nebyl nalezen</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unsupported media format</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodporovaný formát médií</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Media playback service not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Služba přehrávání médií nebyla nalezena</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+3"/>
         <source>Media error: </source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba médií: </translation>
     </message>
 </context>
 <context>
@@ -3782,7 +3795,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/tools/UBGraphicsProtractor.cpp" line="+535"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>pro přesný posun použijte šipky</translation>
     </message>
 </context>
 <context>
@@ -3791,7 +3804,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsRuler.cpp" line="+167"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>pro přesný posun použijte šipky</translation>
     </message>
 </context>
 <context>
@@ -3849,87 +3862,87 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+393"/>
         <source>Insert a table...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vložit tabulku...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Add a row</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat řádek</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a column</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat sloupec</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the row</source>
-        <translation type="unfinished"></translation>
+        <translation>Odebrat řádek</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the column</source>
-        <translation type="unfinished"></translation>
+        <translation>Odebrat sloupec</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Columns as wide</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloupce stejné šířky</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Table style</source>
-        <translation type="unfinished"></translation>
+        <translation>Styl tabulky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Highlight the header row</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvýraznit řádek záhlaví</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Highlight the first column</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvýraznit první sloupec</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>All the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Všechny čáry</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Horizontal lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodorovné čáry</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Outer lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vnější čáry</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez čar</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Color of the lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva čar...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva čar</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Width of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Tloušťka čar</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Thin</source>
-        <translation type="unfinished"></translation>
+        <translation>Tenký</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3939,32 +3952,32 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Silný</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Very thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Velmi silný</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Color of the cells...</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva buněk...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva buněk</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No color in the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez barvy v buňkách</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the table</source>
-        <translation type="unfinished"></translation>
+        <translation>Odebrat tabulku</translation>
     </message>
 </context>
 <context>
@@ -3973,7 +3986,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsTriangle.cpp" line="+449"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>pro přesný posun použijte šipky</translation>
     </message>
 </context>
 <context>
@@ -4010,7 +4023,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
         <source>Convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Převést ručně psaný text</translation>
     </message>
 </context>
 <context>
@@ -4077,7 +4090,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/adaptors/UBImportDocumentSetAdaptor.cpp" line="+71"/>
         <source>Openboard (set of documents) (*.ubx)</source>
-        <translation type="unfinished"></translation>
+        <translation>Openboard (sada dokumentů) (*.ubx)</translation>
     </message>
 </context>
 <context>
@@ -4098,7 +4111,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+6"/>
         <source>Importing %1 PDF pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Import stran PDF: %1. Čekejte prosím...</translation>
     </message>
     <message>
         <source>Importing page %1 of %2</source>
@@ -4136,17 +4149,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte sem a stiskněte klávesy nové zkratky</translation>
     </message>
     <message>
         <location line="+91"/>
         <source>Press the keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Stiskněte klávesy...</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Click here and press the keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte sem a stiskněte klávesy</translation>
     </message>
 </context>
 <context>
@@ -4188,7 +4201,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4433,7 +4446,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Multiscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Více obrazovek</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -4453,12 +4466,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+2"/>
         <source>Canvas measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Míry na plátně</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
-        <translation type="unfinished"></translation>
+        <translation>Pravítka v pixelech nahoře a vlevo od strany, od 0 v levém horním rohu</translation>
     </message>
     <message>
         <source>Read and dictate</source>
@@ -4488,17 +4501,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+21"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nástroje</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Přizpůsobit</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkratky</translation>
     </message>
     <message>
         <source>Creator</source>
@@ -4538,18 +4551,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="-7"/>
         <location line="+40"/>
         <source>Unlock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Odemknout PDF</translation>
     </message>
     <message>
         <location line="-40"/>
         <location line="+40"/>
         <source>Lock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamknout PDF</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Lock the PDF: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamknout PDF: nic nelze kreslit, psát, zvýrazňovat, vybírat, přesouvat ani mazat; laserové ukazovátko a ruka fungují</translation>
     </message>
     <message>
         <source>Dictate</source>
@@ -4596,17 +4609,17 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+8"/>
         <location line="+15"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>O aplikaci Master Board</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Dark mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Tmavý režim</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Shows the pages with their colors inverted, to read at night without glare</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazí strany s obrácenými barvami, abyste v noci četli bez oslnění</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -4700,7 +4713,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+10"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4742,37 +4755,37 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+407"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Měření</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzdálenost</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length of a line dragged from one end to the other</source>
-        <translation type="unfinished"></translation>
+        <translation>Délka čáry tažené z jednoho konce na druhý</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Obvod</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length around a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Délka kolem tvaru: kliknutí v každém rohu, poklepání v posledním</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Obsah</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The surface of a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Obsah tvaru: kliknutí v každém rohu, poklepání v posledním</translation>
     </message>
 </context>
 <context>
@@ -4780,133 +4793,133 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
         <source>End the measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukončit měření</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte jednotku. Pak nakreslete čáru dlouhou 1 té jednotky: měření se provádějí podle tohoto měřítka.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Metric</source>
-        <translation type="unfinished"></translation>
+        <translation>Metrické</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imperial</source>
-        <translation type="unfinished"></translation>
+        <translation>Imperiální</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>millimeter (mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>milimetr (mm)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>centimeter (cm)</source>
-        <translation type="unfinished"></translation>
+        <translation>centimetr (cm)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>meter (m)</source>
-        <translation type="unfinished"></translation>
+        <translation>metr (m)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>kilometer (km)</source>
-        <translation type="unfinished"></translation>
+        <translation>kilometr (km)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>inch (in)</source>
-        <translation type="unfinished"></translation>
+        <translation>palec (in)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>foot (ft)</source>
-        <translation type="unfinished"></translation>
+        <translation>stopa (ft)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>yard (yd)</source>
-        <translation type="unfinished"></translation>
+        <translation>yard (yd)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>mile (mi)</source>
-        <translation type="unfinished"></translation>
+        <translation>míle (mi)</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokračovat</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Finish measure</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukončit měření</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ends the shape at its last corner, as Enter does</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukončí tvar v posledním rohu, jako Enter</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move the corners of the shape; Enter or Finish measure ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Posuňte rohy tvaru; Enter nebo Ukončit měření dokončí</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Restartovat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose the unit and draw the reference again</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte jednotku a znovu nakreslete měřítko</translation>
     </message>
     <message>
         <location line="+498"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzdálenost</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Click at the start and at the end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte na začátek a na konec.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte na začátek a konec čáry dlouhé 1 %1: je to měřítko měření.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Drag the corners; Enter or Finish measure ends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Táhněte rohy; Enter nebo Ukončit měření dokončí.</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Obvod</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+4"/>
         <source>Click at each corner; double click at the last one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte na každý roh; na posledním poklepejte.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Obsah</translation>
     </message>
 </context>
 <context>
@@ -5263,7 +5276,7 @@ Lze to udělat i později přes Domů &gt; Rozpoznat text.</translation>
     <message>
         <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Vše</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5273,7 +5286,7 @@ Lze to udělat i později přes Domů &gt; Rozpoznat text.</translation>
     <message>
         <location line="+4"/>
         <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit všechny strany, nebo jen oblíbené, označené hvězdičkou náhledu</translation>
     </message>
 </context>
 <context>
@@ -5372,7 +5385,7 @@ Dynamická šířka</translation>
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5407,17 +5420,17 @@ Dynamická šířka</translation>
     <message>
         <location line="+8"/>
         <source>Recognize and convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozpoznat a převést ručně psaný text</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chvíli poté, co se pero zastaví, se napsaná slova změní v textové pole stejné velikosti a barvy.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only on Windows, which reads the handwriting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jen ve Windows, které čtou ručně psaný text.</translation>
     </message>
     <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
@@ -5429,12 +5442,12 @@ Dynamická šířka</translation>
     <message>
         <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Získáno - %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Broken - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Poškozeno - %1</translation>
     </message>
     <message>
         <location line="+468"/>
@@ -5449,17 +5462,17 @@ Dynamická šířka</translation>
     <message>
         <location line="+0"/>
         <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board ztratil přístup k úložišti dokumentů „%1“. Aplikace se bohužel musí ukončit, aby nedošlo k poškození dat. Poslední změny se mohou ztratit.</translation>
     </message>
     <message>
         <location line="-247"/>
         <source>Renaming pages (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Přejmenování stran (%1/%2)</translation>
     </message>
     <message>
         <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Získávání všech dokumentů (nalezeno: %1)</translation>
     </message>
 </context>
 <context>
@@ -5604,23 +5617,23 @@ Dynamická šířka</translation>
     <message>
         <location line="+30"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Odkazy</translation>
     </message>
     <message>
         <location line="+25"/>
         <location line="+280"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>UI</translation>
     </message>
     <message>
         <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
-        <translation type="unfinished"></translation>
+        <translation>UI, které může panel UI zobrazit. Napište název a adresu její stránky; první se zobrazí poprvé.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Název</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5640,23 +5653,23 @@ Dynamická šířka</translation>
     <message>
         <location line="+1"/>
         <source>Default list</source>
-        <translation type="unfinished"></translation>
+        <translation>Výchozí seznam</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+403"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Motiv</translation>
     </message>
     <message>
         <location line="-398"/>
         <source>Same as Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Jako ve Windows</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Same as the system</source>
-        <translation type="unfinished"></translation>
+        <translation>Jako systém</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5666,27 +5679,27 @@ Dynamická šířka</translation>
     <message>
         <location line="+1"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>Bílá</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Grey</source>
-        <translation type="unfinished"></translation>
+        <translation>Šedá</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>Barvy lišty nabídek, možností nástrojů a přiblížení. Pro zobrazení nového motivu se Master Board sám restartuje.</translation>
     </message>
     <message>
         <location line="+372"/>
         <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board se restartuje, aby ukázal nový motiv. Nejprve uloží dokumenty.</translation>
     </message>
     <message>
         <location line="-285"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorie</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -5696,12 +5709,12 @@ Dynamická šířka</translation>
     <message>
         <location line="+3"/>
         <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1. Pro hledání nové verze nyní: O aplikaci &gt; Aktualizovat.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Options bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Lišta možností</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5711,32 +5724,32 @@ Dynamická šířka</translation>
     <message>
         <location line="+14"/>
         <source>General settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Obecná nastavení</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzhled</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pen and toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Pero a panel nástrojů</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Screens and desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrazovky a plocha</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Documents and PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumenty a PDF</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Artificial intelligence</source>
-        <translation type="unfinished"></translation>
+        <translation>Umělá inteligence</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5756,7 +5769,7 @@ Dynamická šířka</translation>
     <message>
         <location line="+0"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>O aplikaci Master Board</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -5824,7 +5837,7 @@ Dynamická šířka</translation>
     <message>
         <location line="-246"/>
         <source>Use all available displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít všechny dostupné displeje</translation>
     </message>
 </context>
 <context>
@@ -6144,7 +6157,7 @@ Dynamická šířka</translation>
     <message>
         <location line="+2"/>
         <source>Arrow: select with a rectangle. Lasso: select by drawing a free line around the objects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Šipka: výběr obdélníkem. Laso: výběr volnou čarou kolem objektů.</translation>
     </message>
     <message>
         <source>Select with a rectangle again</source>
@@ -6212,7 +6225,7 @@ Dynamická šířka</translation>
     <message>
         <location line="+18"/>
         <source>The shape to draw. The polyline: a click for each corner, any key to end it, Escape to drop it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tvar ke kreslení. Lomená čára: kliknutí pro každý roh, libovolná klávesa ji ukončí, Esc ji zahodí.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6238,7 +6251,7 @@ Dynamická šířka</translation>
     <message>
         <location line="-1"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -6315,7 +6328,7 @@ Dynamická šířka</translation>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+74"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Společné</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -6332,12 +6345,12 @@ Dynamická šířka</translation>
     <message>
         <location line="+2"/>
         <source>Lines and colours</source>
-        <translation type="unfinished"></translation>
+        <translation>Čáry a barvy</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozadí</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -6347,82 +6360,82 @@ Dynamická šířka</translation>
     <message>
         <location line="+23"/>
         <source>First scene</source>
-        <translation type="unfinished"></translation>
+        <translation>První scéna</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show first scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit první scénu</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Poslední scéna</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit poslední scénu</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Zoom reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovit přiblížení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom factor</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovit míru přiblížení</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll left</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunout vlevo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page left</source>
-        <translation type="unfinished"></translation>
+        <translation>O stranu vlevo</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll right</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunout vpravo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page right</source>
-        <translation type="unfinished"></translation>
+        <translation>O stranu vpravo</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll up</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunout nahoru</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page up</source>
-        <translation type="unfinished"></translation>
+        <translation>O stranu nahoru</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll down</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunout dolů</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page down</source>
-        <translation type="unfinished"></translation>
+        <translation>O stranu dolů</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Built-in (not editable)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vestavěné (nelze upravit)</translation>
     </message>
     <message>
         <location line="+173"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Příkaz</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6432,17 +6445,17 @@ Dynamická šířka</translation>
     <message>
         <location line="+3"/>
         <source>Key Sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekvence kláves</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Tlačítko myši</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tablet Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Tlačítko tabletu</translation>
     </message>
     <message>
         <location line="+151"/>
@@ -6460,7 +6473,7 @@ Dynamická šířka</translation>
         <location line="+1"/>
         <source>Middle</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Střed</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6478,7 +6491,7 @@ Dynamická šířka</translation>
         <location line="+1"/>
         <source>Task</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Úkol</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6504,7 +6517,7 @@ Dynamická šířka</translation>
         <location line="+1"/>
         <source>Extra</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Velmi silný</translation>
     </message>
 </context>
 <context>
@@ -6512,37 +6525,37 @@ Dynamická šířka</translation>
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="-667"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkratky</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Choose a function, press the new keys in the box below and click Assign.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte funkci, stiskněte nové klávesy v poli níže a klikněte na Přiřadit.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Search a function...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat funkci...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkce</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkratka</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>New shortcut:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nová zkratka:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Přiřadit</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6552,53 +6565,53 @@ Dynamická šířka</translation>
     <message>
         <location line="+1"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Výchozí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Gives back the shortcut that this function had at first</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrátí původní zkratku této funkce</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+508"/>
         <source>Restore all</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovit vše</translation>
     </message>
     <message>
         <location line="-507"/>
         <source>Gives back the first shortcuts to all the functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrátí všem funkcím původní zkratky</translation>
     </message>
     <message>
         <location line="+152"/>
         <source>Buttons beside the menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Tlačítka vedle nabídek</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Tools of the board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Nástroje tabule / PDF</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tools of the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Nástroje plochy</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pages and board</source>
-        <translation type="unfinished"></translation>
+        <translation>Strany a tabule</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>no keys were pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>nebyly stisknuty žádné klávesy.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>the Windows key is kept by Windows for its own shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>klávesu Windows si Windows vyhrazuje pro své zkratky.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6607,32 +6620,32 @@ Dynamická šířka</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to change between the open windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows jej používá k přepínání mezi otevřenými okny.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to close the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows jej používá k zavření okna.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows jej používá k otevření nabídky okna.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Start menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows jej používá k otevření nabídky Start.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Task Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows jej používá k otevření Správce úloh.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open its security screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows jej používá k otevření obrazovky zabezpečení.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6640,12 +6653,12 @@ Dynamická šířka</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows jej používá ke snímkům obrazovky.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the right click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows jej používá k otevření nabídky pravého tlačítka.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6653,70 +6666,70 @@ Dynamická šířka</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>on many computers it turns the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>na mnoha počítačích otáčí obrazovku.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>this key is used to write, to move or to delete. Add Ctrl or Alt, or choose a key from F1 to F12.</source>
-        <translation type="unfinished"></translation>
+        <translation>tato klávesa slouží k psaní, přesunu nebo mazání. Přidejte Ctrl nebo Alt, nebo zvolte klávesu F1 až F12.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Ctrl + Alt works as Alt Gr, which writes signs such as @, # or €.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl + Alt funguje jako Alt Gr, který píše znaky jako @, # nebo €.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Master Board uses it to select all the text of a text box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board jej používá k výběru celého textu pole.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Master Board uses it to open the menu «%1».</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board jej používá k otevření nabídky «%1».</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
         <source>Master Board already uses it for «%1». Remove it there first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board jej už používá pro «%1». Nejprve jej tam odeberte.</translation>
     </message>
     <message>
         <location line="-130"/>
         <source>Fixed keys (can not be changed)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pevné klávesy (nelze změnit)</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Choose a function in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte funkci ze seznamu.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1: no shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: bez zkratky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+37"/>
         <source>Shortcut not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkratka není možná</translation>
     </message>
     <message>
         <location line="-36"/>
         <location line="+37"/>
         <source>%1 can not be used: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nelze použít: %2</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Give back the first shortcuts to all the functions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrátit všem funkcím původní zkratky?</translation>
     </message>
 </context>
 <context>
@@ -6865,7 +6878,7 @@ Dynamická šířka</translation>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Průvodce programem</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6880,7 +6893,7 @@ Dynamická šířka</translation>
     <message>
         <location line="+13"/>
         <source>Visible next time</source>
-        <translation type="unfinished"></translation>
+        <translation>Viditelné příště</translation>
     </message>
 </context>
 <context>
@@ -6888,7 +6901,7 @@ Dynamická šířka</translation>
     <message>
         <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6921,27 +6934,27 @@ Dynamická šířka</translation>
     <message>
         <location filename="../../src/gui/UBTextBoxes.cpp" line="+120"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulka</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many rows and columns?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolik řádků a sloupců?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Rows</source>
-        <translation type="unfinished"></translation>
+        <translation>Řádky</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloupce</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Vložit</translation>
     </message>
 </context>
 <context>
@@ -6954,7 +6967,7 @@ Dynamická šířka</translation>
     <message>
         <location line="+7"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6989,57 +7002,57 @@ Dynamická šířka</translation>
     <message>
         <location line="+7"/>
         <source>Checklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrolní seznam</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bullets</source>
-        <translation type="unfinished"></translation>
+        <translation>Odrážky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Číslování</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Puts the lines of the text box being written in a list, or takes them out of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Převede řádky psaného textového pole na seznam, nebo je z něj vyjme</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Click in a text box first, then on the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nejprve klikněte do textového pole, potom na seznam.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulka</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks how many rows and columns, then puts a table in the text box being written, or in a new one</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeptá se na počet řádků a sloupců a vloží tabulku do psaného textového pole nebo do nového</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dictate</source>
-        <translation type="unfinished">Diktovat</translation>
+        <translation>Diktovat</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Makes a text box and writes in it what you say (the dictation of Windows, Windows + H). In a text box, the microphone left of F does the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvoří textové pole a zapíše do něj, co říkáte (diktování Windows, Windows + H). V textovém poli dělá totéž mikrofon vlevo od F.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Přepsat</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks for an audio and gives it to an AI on the web, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Požádá o zvuk a předá jej UI na webu, která zapíše, co zaznělo</translation>
     </message>
 </context>
 <context>
@@ -7052,7 +7065,7 @@ Dynamická šířka</translation>
     <message>
         <location line="+48"/>
         <source>Loading thumbnails (%1 pages)</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítání náhledů (%1 stran)</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -7065,7 +7078,7 @@ Dynamická šířka</translation>
     <message>
         <location filename="../../src/gui/UBThumbnailTextItem.cpp" line="+74"/>
         <source>Page %0</source>
-        <translation type="unfinished">Stránka %0</translation>
+        <translation>Strana %0</translation>
     </message>
 </context>
 <context>
@@ -7089,27 +7102,27 @@ Dynamická šířka</translation>
     <message>
         <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Reflektor / Lupa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attach file / Hyperlink</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojit soubor / Odkaz</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Selector: arrow / lasso</source>
-        <translation type="unfinished"></translation>
+        <translation>Výběr: šipka / laso</translation>
     </message>
     <message>
         <location line="+234"/>
         <source>Move items</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesunout položky</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Drag the tools up or down, or use the buttons. Only the tools shown in the palette are listed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Přetahujte nástroje nahoru nebo dolů, nebo použijte tlačítka. V seznamu jsou jen nástroje zobrazené v paletě.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -7121,42 +7134,42 @@ Dynamická šířka</translation>
         <location line="-163"/>
         <location line="+164"/>
         <source>Board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabule / PDF</translation>
     </message>
     <message>
         <location line="-155"/>
         <source>Back to the board: always first</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpět na tabuli: vždy první</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahoru</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolů</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Original order</source>
-        <translation type="unfinished"></translation>
+        <translation>Původní pořadí</translation>
     </message>
     <message>
         <location line="+154"/>
         <source>Move items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesunout položky...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
-        <translation type="unfinished"></translation>
+        <translation>Styl lišty...</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Směr posouvání</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7171,12 +7184,12 @@ Dynamická šířka</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodorovně po 2 stranách</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Svisle po 2 stranách</translation>
     </message>
 </context>
 <context>
@@ -7219,7 +7232,7 @@ Dynamická šířka</translation>
     <message>
         <location line="-32"/>
         <source>Axes</source>
-        <translation type="unfinished"></translation>
+        <translation>Osy</translation>
     </message>
 </context>
 <context>
@@ -7319,12 +7332,12 @@ Znovu spusťte aplikaci, abyste mohli pracovat s aktualizovanými dokumenty.</tr
     <message>
         <location line="+0"/>
         <source>From the click</source>
-        <translation type="unfinished"></translation>
+        <translation>Od kliknutí</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it. From the click: click on a word to read from it, then the next pages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Od začátku: čte zobrazenou stranu a pak další. Vybraný text: přetáhněte obdélník přes text a přečte se. Od kliknutí: klikněte na slovo a čte se od něj, pak další strany.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7344,7 +7357,7 @@ Znovu spusťte aplikaci, abyste mohli pracovat s aktualizovanými dokumenty.</tr
     <message>
         <location line="+1"/>
         <source>Next page</source>
-        <translation type="unfinished"></translation>
+        <translation>Další strana</translation>
     </message>
     <message>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it.</source>
@@ -7404,7 +7417,7 @@ Znovu spusťte aplikaci, abyste mohli pracovat s aktualizovanými dokumenty.</tr
     <message>
         <location filename="../../src/domain/UBWebEngineView.cpp" line="+109"/>
         <source>Open Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít webový inspektor</translation>
     </message>
 </context>
 <context>
@@ -7508,7 +7521,7 @@ Znovu spusťte aplikaci, abyste mohli pracovat s aktualizovanými dokumenty.</tr
     <message>
         <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosažena nejnižší vrstva</translation>
     </message>
 </context>
 <context>
@@ -7567,63 +7580,63 @@ Znovu spusťte aplikaci, abyste mohli pracovat s aktualizovanými dokumenty.</tr
         <location line="+17"/>
         <location line="+4"/>
         <source>Certificate Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba certifikátu</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadejte uživatelské jméno a heslo pro „%1“ na %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Allow %1 to access your location information?</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit %1 přístup k poloze?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone?</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit %1 přístup k mikrofonu?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit %1 přístup k webové kameře?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone and webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit %1 přístup k mikrofonu a webové kameře?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to lock your mouse cursor?</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit %1 zamknout ukazatel myši?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit %1 zachytávat video plochy?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture audio and video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit %1 zachytávat zvuk a video plochy?</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+47"/>
         <source>Permission Request</source>
-        <translation type="unfinished"></translation>
+        <translation>Žádost o oprávnění</translation>
     </message>
     <message>
         <location line="-19"/>
         <source>Connect to proxy &quot;%1&quot; using:</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojit k proxy „%1“ pomocí:</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Allow %1 to open all %2 links?</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit %1 otevírat všechny odkazy %2?</translation>
     </message>
 </context>
 <context>
@@ -7631,43 +7644,44 @@ Znovu spusťte aplikaci, abyste mohli pracovat s aktualizovanými dokumenty.</tr
     <message>
         <location filename="../../src/web/simplebrowser/webview.cpp" line="+107"/>
         <source>Render process normal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Proces vykreslování skončil normálně</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process abnormal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Proces vykreslování skončil chybou</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>Proces vykreslování spadl</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process killed</source>
-        <translation type="unfinished"></translation>
+        <translation>Proces vykreslování ukončen</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Render process exited with code: %1
 Do you want to reload the page ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Proces vykreslování skončil s kódem: %1
+Chcete stránku znovu načíst?</translation>
     </message>
     <message>
         <location line="+121"/>
         <source>Open Web Inspector in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít webový inspektor v novém okně</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Inspect element</source>
-        <translation type="unfinished"></translation>
+        <translation>Prozkoumat prvek</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Add to board</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat na tabuli</translation>
     </message>
 </context>
 <context>
@@ -7675,12 +7689,12 @@ Do you want to reload the page ?</source>
     <message>
         <location filename="../../src/pdf/XPDFRenderer.cpp" line="+346"/>
         <source>Processing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpracování...</translation>
     </message>
     <message>
         <location line="-265"/>
         <source>an error occured while trying to open the PDF file</source>
-        <translation type="unfinished"></translation>
+        <translation>při otevírání souboru PDF došlo k chybě</translation>
     </message>
 </context>
 <context>
@@ -7741,7 +7755,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+84"/>
         <source>Restore credentials on reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovit přihlašovací údaje po restartu</translation>
     </message>
 </context>
 <context>
@@ -7789,12 +7803,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+276"/>
         <source>Show preview circle from</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit kroužek náhledu od</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>px</source>
-        <translation type="unfinished"></translation>
+        <translation>px</translation>
     </message>
 </context>
 <context>
@@ -7835,22 +7849,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+64"/>
         <source>Creation date</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum vytvoření</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Update date</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum aktualizace</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Alphabetical order</source>
-        <translation type="unfinished"></translation>
+        <translation>Abecední pořadí</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Sort Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Řazení</translation>
     </message>
 </context>
 <context>
@@ -8038,52 +8052,52 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-493"/>
         <source>Built-in virtual keyboard button size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Velikost tlačítek vestavěné virtuální klávesnice:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use system keyboard (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít systémovou klávesnici (doporučeno)</translation>
     </message>
     <message>
         <location line="+459"/>
         <source>Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Mřížka</translation>
     </message>
     <message>
         <location line="-406"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Režim dokumentů</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Display date column on alphabetical sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit sloupec data při abecedním řazení</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Empty trash for documents older than</source>
-        <translation type="unfinished"></translation>
+        <translation>Vysypat koš od dokumentů starších než</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>days</source>
-        <translation type="unfinished"></translation>
+        <translation>dní</translation>
     </message>
     <message>
         <location line="-170"/>
         <source>PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Export background grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportovat mřížku pozadí</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Export background color</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportovat barvu pozadí</translation>
     </message>
     <message>
         <location line="+420"/>
@@ -8093,7 +8107,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+61"/>
         <source>List of screens used for Control, Display and Previous pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Seznam obrazovek pro ovládání, zobrazení a předchozí strany</translation>
     </message>
 </context>
 <context>
@@ -8124,12 +8138,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-91"/>
         <source>Select a content to capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte obsah k zachycení</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Zachytit webový obsah</translation>
     </message>
 </context>
 </TS>
