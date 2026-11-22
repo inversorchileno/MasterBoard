@@ -9,6 +9,8 @@
 - **Tema:** al cambiarlo, Master Board se reinicia solo para aplicarlo.
 - **Guía del programa** (antes Consejos y trucos) y **Sobre Master Board** (antes Creador, ahora al final del menú Acerca).
 - Ya no se incluye el antiguo `LibertyBoard.exe`.
+- **Dirección de desplazamiento** (en Estilo plantilla): **Vertical**, **Horizontal** o **Horizontal en 2 páginas**, como en Samsung Notes. En 2 páginas las hojas van de a pares (1-2, 3-4…) como un cuaderno abierto y la rueda pasa de par en par. Un clic o un trazo en la hoja de al lado la vuelve la hoja actual.
+- **Arreglado:** al rayar de una hoja a otra ya no aparece un cuadro blanco alrededor de la línea ni se separan las hojas.
 
 ---
 **Descargas:** Windows: `MasterBoard-windows.zip` · macOS con chip Apple (M1, M2…): `MasterBoard-macos-apple-silicon.dmg` · macOS con Intel: `MasterBoard-macos-intel.dmg` · Linux: `MasterBoard-linux-x86_64.AppImage`.

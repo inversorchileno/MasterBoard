@@ -326,7 +326,7 @@ Pedidas en el Word «mejoras_finales».
 - **Consejos y trucos** en una ventana propia (sin el marco gris de OpenBoard): barra de título con X, la página a la izquierda y el **índice** de las páginas a la derecha; 20 páginas, con una nueva de Mediciones.
 - **Mediciones** (`UBMeasureTool`, `UBStylusTool::Measure`, `actionMeasure`, Ctrl+Mayús+D), en la pizarra y en el escritorio: Distancia, Perímetro y Área. La primera vez la ventana pide la unidad (mm, cm, m, km, in, ft, yd, mi) y una línea de 1 unidad; luego Distancia se arrastra, Perímetro y Área se marcan con un clic en cada esquina y doble clic (o Enter) en la última. La ventana se mueve, tiene Reiniciar y X; elegir de nuevo la opción activa también cierra. Con otra herramienta la ventana conserva la última medida y las líneas se van. En la pizarra la referencia está en coordenadas de la página (el zoom no cambia las medidas). En el escritorio la unidad se elige dentro de la ventana (un diálogo aparte no recibe los clics) y la capa de las líneas queda bajo la barra. Probado: 3,00 cm, 4,00 cm² y 8,00 cm con una referencia de 100 px, también con zoom.
 
-## Últimas mejoras (V2.32, sin compilar aún)
+## Últimas mejoras (V2.32)
 
 Pedidas en el documento «ultimas_mejoras_ahora_si».
 
@@ -336,6 +336,8 @@ Pedidas en el documento «ultimas_mejoras_ahora_si».
 - **Medidas en lienzo** (`UBCanvasRulers`, Edición): reglas de 24 px sobre la vista, en píxeles de la página desde su esquina superior izquierda (`-ancho/2, -alto/2` en la escena, o la del PDF); el paso rotulado es el menor de 5, 10, 20, 50, 100… que deja al menos 50 px de pantalla.
 - **Tema:** al aceptar o aplicar un tema distinto del de inicio (`UBTheme::chosenAtStart`), un aviso y `UBApplication::restart`, que cierra como Salir y vuelve a abrir el programa con un ayudante que espera a que termine (PowerShell en Windows, `sh` en Linux y macOS, el AppImage si corre desde uno). Cambiar todo al instante no era seguro: muchos colores e íconos se fijan al crear cada parte.
 - **Guía del programa** (antes Consejos y trucos) y **Sobre Master Board** (antes Creador), al final del menú Acerca.
+- **Rayado entre hojas:** las hojas vecinas se ubican según la hoja (`pageRectOf`: tamaño nominal o el PDF), no según `normalizedSceneRect`, que crece con la tinta y separaba la hoja siguiente. Se dibujan en el fondo (`drawBackground`), no en el primer plano, que en repintados parciales tapaba el trazo con un cuadro blanco; la tinta que sale de una vecina se dibuja después, sin su fondo (`UBGraphicsScene::setDrawsBackground`).
+- **Dirección de desplazamiento** (Versión 5 del primer Word, punto 2, quedó pendiente hasta ahora): en **Estilo plantilla**, con los dibujos de Samsung Notes: **Vertical**, **Horizontal** y **Horizontal en 2 páginas** (`UBBoardView::PageFlow`, ajuste `Board/LibertyBoardPageFlow`). Horizontal: las hojas siguen a la derecha y la rueda mueve de lado. En 2 páginas: parejas fijas 1-2, 3-4… como cuaderno abierto (8 px entre las dos, 48 px entre parejas); la rueda pasa de pareja en pareja (si la pareja es más alta que la vista, primero baja por ella) y al cambiar de página con botones, miniaturas o Agregar página se muestra la pareja entera (`fitPair`). En todos los modos, un clic o un trazo en la hoja de al lado la vuelve la hoja actual sin mover la imagen (`switchToPageAt`). La barra del documento va abajo cuando las hojas están lado a lado. Probado en Linux con 3 hojas en los tres modos.
 
 ## Forma de trabajo
 

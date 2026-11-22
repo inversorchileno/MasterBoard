@@ -73,6 +73,7 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 
 ### Plantillas
 - **Estilo plantilla**: color de la hoja, cuadrícula o líneas y 21 **plantillas** (calendarios diario, semanal, mensual y anual que se arman solos, listas, notas Cornell, pentagrama, papel milimetrado, plan de clase, mapa mental, guion gráfico…), en español, inglés, alemán, francés, chino y japonés.
+- **Dirección de desplazamiento** (en Estilo plantilla): hojas una debajo de la otra, una al lado de la otra, o de a dos como un cuaderno abierto.
 - Color y opacidad de las líneas de la cuadrícula, del rayado y de los puntos.
 - Tamaño de página/lienzo personalizado, para seguir dibujando cuando la hoja se llena.
 
