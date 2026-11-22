@@ -93,7 +93,7 @@ void UBDocumentScrollBar::placeBesideView()
     // Along the right edge, or along the bottom when the pages are beside each other.
     const QRect view(mView->mapTo(parentWidget(), QPoint(0, 0)), mView->size());
 
-    if (mView->pageFlow() != UBBoardView::VerticalFlow)
+    if (UBBoardView::flowsAcross())
     {
         setOrientation(Qt::Horizontal);
         setGeometry(view.left(), view.bottom() - barWidth() + 1, view.width(), barWidth());
@@ -171,7 +171,7 @@ void UBDocumentScrollBar::checkPointer()
     // Close to the right edge of the board, or to its bottom edge when the
     // pages are beside each other, or on the bar.
     const QRect view(mView->mapToGlobal(QPoint(0, 0)), mView->size());
-    const QRect zone = mView->pageFlow() != UBBoardView::VerticalFlow
+    const QRect zone = UBBoardView::flowsAcross()
                            ? QRect(view.left(), view.bottom() - 3 * barWidth(), view.width(), 3 * barWidth() + 1)
                            : QRect(view.right() - 3 * barWidth(), view.top(), 3 * barWidth() + 1, view.height());
 

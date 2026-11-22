@@ -51,6 +51,15 @@ static QIcon pageFlowIcon(UBBoardView::PageFlow flow)
         sheet(QRectF(43, 7.5, 9, 13), false);
         break;
 
+    case UBBoardView::VerticalPairsFlow:
+        sheet(QRectF(13, -5, 11, 8), false);
+        sheet(QRectF(24, -5, 11, 8), false);
+        sheet(QRectF(13, 7.5, 11, 13), true);
+        sheet(QRectF(24, 7.5, 11, 13), true);
+        sheet(QRectF(13, 24.5, 11, 8), false);
+        sheet(QRectF(24, 24.5, 11, 8), false);
+        break;
+
     case UBBoardView::TwoPagesFlow:
         sheet(QRectF(-6, 7.5, 9, 13), false);
         sheet(QRectF(13, 7.5, 11, 13), true);
@@ -331,16 +340,18 @@ QLayout* UBBackgroundPalette::createPageFlow()
     auto label = new QLabel(tr("Scroll direction"), this);
     label->setStyleSheet("QLabel { color : white; }");
 
-    mPageFlow = new UBSegmentedChoice({ tr("Vertical"), tr("Horizontal"), tr("Horizontal in 2 pages") }, this);
-    mPageFlow->setIcons({ pageFlowIcon(UBBoardView::VerticalFlow), pageFlowIcon(UBBoardView::HorizontalFlow),
-                          pageFlowIcon(UBBoardView::TwoPagesFlow) });
+    // In the order of the drawings: down, down two by two, across, across two by two.
+    const QList<UBBoardView::PageFlow> flows = { UBBoardView::VerticalFlow, UBBoardView::VerticalPairsFlow,
+                                                 UBBoardView::HorizontalFlow, UBBoardView::TwoPagesFlow };
+    mPageFlow = new UBSegmentedChoice({ tr("Vertical"), tr("Vertical in 2 pages"), tr("Horizontal"), tr("Horizontal in 2 pages") }, this);
+    mPageFlow->setIcons({ pageFlowIcon(flows.at(0)), pageFlowIcon(flows.at(1)), pageFlowIcon(flows.at(2)), pageFlowIcon(flows.at(3)) });
     mPageFlow->setToolTip(tr("The pages one under the other, one beside the other, or two by two as an open notebook"));
-    mPageFlow->setChoice(UBBoardView::pageFlow());
+    mPageFlow->setChoice(flows.indexOf(UBBoardView::pageFlow()));
 
-    connect(mPageFlow, &UBSegmentedChoice::choiceChanged, this, [](int choice) {
+    connect(mPageFlow, &UBSegmentedChoice::choiceChanged, this, [flows](int choice) {
         if (UBBoardView* view = UBApplication::boardController->controlView())
         {
-            view->setPageFlow(UBBoardView::PageFlow(choice));
+            view->setPageFlow(flows.value(choice, UBBoardView::VerticalFlow));
         }
     });
 
@@ -462,7 +473,9 @@ void UBBackgroundPalette::showEvent(QShowEvent* event)
     // The scroll direction may have been chosen in the Customize menu.
     if (mPageFlow)
     {
-        mPageFlow->setChoice(UBBoardView::pageFlow());
+        const QList<UBBoardView::PageFlow> flows = { UBBoardView::VerticalFlow, UBBoardView::VerticalPairsFlow,
+                                                     UBBoardView::HorizontalFlow, UBBoardView::TwoPagesFlow };
+        mPageFlow->setChoice(flows.indexOf(UBBoardView::pageFlow()));
     }
 
     mSlider->setValue(UBApplication::boardController->activeScene()->backgroundGridSize());

@@ -181,7 +181,7 @@ void UBBoardView::init ()
     if (bIsControl && !bIsDesktop && mController)
     {
         connect(mController, &UBBoardController::activeSceneChanged, this, [this]() {
-            if (pageFlow() == TwoPagesFlow && !mShowingInPlace && this == mController->controlView())
+            if (flowsInPairs() && !mShowingInPlace && this == mController->controlView())
             {
                 QTimer::singleShot(0, this, [this]() {
                     if (scene())
@@ -2201,7 +2201,13 @@ bool UBBoardView::turnPageWithWheel(QWheelEvent* wheelEvent)
     }
 
     const bool across = (pageFlow() == HorizontalFlow);
-    const bool hasNeighbour = down ? (index < document->pageCount() - 1) : (index > 0);
+    bool hasNeighbour = down ? (index < document->pageCount() - 1) : (index > 0);
+
+    // Two by two, one under the other: a pair below or above.
+    if (pageFlow() == VerticalPairsFlow)
+    {
+        hasNeighbour = down ? (index / 2 + 1) * 2 < document->pageCount() : index / 2 > 0;
+    }
 
     if (!hasNeighbour)
     {
@@ -2251,7 +2257,8 @@ bool UBBoardView::turnPageWithWheel(QWheelEvent* wheelEvent)
         if (qAbs(mWheelTurn) >= 120 && hasNeighbour)
         {
             mWheelTurn = 0;
-            showPageAtScale(index + (down ? 1 : -1), transform().m11());
+            const int step = pageFlow() == VerticalPairsFlow ? 2 : 1;
+            showPageAtScale(qBound(0, index + (down ? step : -step), document->pageCount() - 1), transform().m11());
             UBApplication::applicationController->adjustDisplayView();
         }
 
@@ -2433,7 +2440,7 @@ UBBoardView::PageFlow UBBoardView::pageFlow()
     // Read once: the pages are placed at each painting.
     if (sPageFlow < 0)
     {
-        sPageFlow = qBound(0, UBSettings::settings()->value(sPageFlowKey, 0).toInt(), 2);
+        sPageFlow = qBound(0, UBSettings::settings()->value(sPageFlowKey, 0).toInt(), 3);
     }
 
     return PageFlow(sPageFlow);
@@ -2444,7 +2451,7 @@ void UBBoardView::setPageFlow(PageFlow flow)
     sPageFlow = flow;
     UBSettings::settings()->setValue(sPageFlowKey, int(flow));
 
-    if (flow == TwoPagesFlow)
+    if (flowsInPairs())
     {
         fitPair();
     }
@@ -2457,7 +2464,12 @@ void UBBoardView::setPageFlow(PageFlow flow)
 
 bool UBBoardView::flowsAcross()
 {
-    return pageFlow() != VerticalFlow;
+    return pageFlow() == HorizontalFlow || pageFlow() == TwoPagesFlow;
+}
+
+bool UBBoardView::flowsInPairs()
+{
+    return pageFlow() == TwoPagesFlow || pageFlow() == VerticalPairsFlow;
 }
 
 qreal UBBoardView::gapAfter(int index) const
@@ -2480,6 +2492,11 @@ QList<UBBoardView::NeighbourPlace> UBBoardView::neighbourPlaces(const QRectF& ar
     if (!document || !scene() || document->pageCount() < 2)
     {
         return places;
+    }
+
+    if (pageFlow() == VerticalPairsFlow)
+    {
+        return pairPlaces(area);
     }
 
     const int index = mController->activeSceneIndex();
@@ -2539,6 +2556,87 @@ QList<UBBoardView::NeighbourPlace> UBBoardView::neighbourPlaces(const QRectF& ar
     return places;
 }
 
+QList<UBBoardView::NeighbourPlace> UBBoardView::pairPlaces(const QRectF& area)
+{
+    QList<NeighbourPlace> places;
+    std::shared_ptr<UBDocumentProxy> document = mController->selectedDocument();
+    const int index = mController->activeSceneIndex();
+    const int count = document->pageCount();
+    const QRectF page = pageRectOf(scene().get());
+    const qreal inside = pageGap() / 2;
+    const qreal between = pageGap();
+
+    // The middle of the pairs: the line between their two pages.
+    const qreal middle = index % 2 == 0 ? page.right() + inside / 2 : page.left() - inside / 2;
+    auto persistence = UBPersistenceManager::persistenceManager();
+
+    // The pages of a pair, from the top of its row; their height.
+    auto placeRow = [&](int row, qreal top, bool fromBottom) {
+        qreal height = 0;
+        QList<NeighbourPlace> row_places;
+
+        for (int pageIndex : { 2 * row, 2 * row + 1 })
+        {
+            if (pageIndex >= count)
+            {
+                continue;
+            }
+
+            if (pageIndex == index)
+            {
+                height = qMax(height, page.height());
+                continue;
+            }
+
+            std::shared_ptr<UBGraphicsScene> other = persistence->loadDocumentScene(document, pageIndex);
+
+            if (!other)
+            {
+                continue;
+            }
+
+            const QRectF source = pageRectOf(other.get());
+            const qreal left = pageIndex % 2 == 0 ? middle - inside / 2 - source.width() : middle + inside / 2;
+            row_places << NeighbourPlace{ pageIndex, other, source, QRectF(left, top, source.width(), source.height()) };
+            height = qMax(height, source.height());
+        }
+
+        // Going up, the row is placed from its bottom.
+        if (fromBottom)
+        {
+            for (NeighbourPlace& place : row_places)
+            {
+                place.target.moveTop(top - height);
+            }
+        }
+
+        places << row_places;
+        return height;
+    };
+
+    const int currentRow = index / 2;
+    const qreal rowHeight = placeRow(currentRow, page.top(), false);
+    const int mostRows = 8;
+
+    // The rows below.
+    qreal top = page.top() + rowHeight + between;
+
+    for (int row = currentRow + 1; row <= currentRow + mostRows && 2 * row < count && top < area.bottom(); ++row)
+    {
+        top += placeRow(row, top, false) + between;
+    }
+
+    // The rows above.
+    qreal bottom = page.top() - between;
+
+    for (int row = currentRow - 1; row >= currentRow - mostRows && row >= 0 && bottom > area.top(); --row)
+    {
+        bottom -= placeRow(row, bottom, true) + between;
+    }
+
+    return places;
+}
+
 void UBBoardView::showNeighbourInPlace(int index, const QRectF& target)
 {
     // Where the corner of that page is on the screen now: it stays there.
@@ -2582,6 +2680,13 @@ void UBBoardView::switchToNeighbourPage()
 
     // The part of the strip of a page: the page and half the space on each side.
     auto contains = [this, across](const QRectF& sheet, int pageIndex, const QPointF& point) {
+        // Two by two, one under the other: the page and half the space around it.
+        if (pageFlow() == VerticalPairsFlow)
+        {
+            const qreal half = pageGap() / 2;
+            return sheet.adjusted(-half, -half, half, half).contains(point);
+        }
+
         const qreal start = (across ? sheet.left() : sheet.top()) - gapAfter(pageIndex - 1) / 2;
         const qreal end = (across ? sheet.right() : sheet.bottom()) + gapAfter(pageIndex) / 2;
         const qreal at = across ? point.x() : point.y();

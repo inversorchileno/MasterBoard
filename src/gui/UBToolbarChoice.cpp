@@ -518,18 +518,21 @@ void UBToolbarChoice::fillCustomizeMenu(QMenu* menu)
     // How the pages follow each other, also chosen in Template style.
     QMenu* flow = menu->addMenu(tr("Scroll direction"));
     auto group = new QActionGroup(flow);
-    const QStringList names = { tr("Vertical"), tr("Horizontal"), tr("Horizontal in 2 pages") };
+    const QStringList names = { tr("Vertical"), tr("Vertical in 2 pages"), tr("Horizontal"), tr("Horizontal in 2 pages") };
+    const QList<UBBoardView::PageFlow> flows = { UBBoardView::VerticalFlow, UBBoardView::VerticalPairsFlow,
+                                                 UBBoardView::HorizontalFlow, UBBoardView::TwoPagesFlow };
 
     for (int i = 0; i < names.size(); ++i)
     {
         QAction* choice = flow->addAction(names.at(i));
+        const UBBoardView::PageFlow pageFlow = flows.at(i);
         choice->setCheckable(true);
-        choice->setChecked(UBBoardView::pageFlow() == i);
+        choice->setChecked(UBBoardView::pageFlow() == pageFlow);
         group->addAction(choice);
-        QObject::connect(choice, &QAction::triggered, flow, [i]() {
+        QObject::connect(choice, &QAction::triggered, flow, [pageFlow]() {
             if (UBBoardView* view = UBApplication::boardController->controlView())
             {
-                view->setPageFlow(UBBoardView::PageFlow(i));
+                view->setPageFlow(pageFlow);
             }
         });
     }

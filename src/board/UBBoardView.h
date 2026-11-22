@@ -91,8 +91,15 @@ public:
     {
         VerticalFlow = 0,   ///< One page under the other.
         HorizontalFlow = 1, ///< One page beside the other.
-        TwoPagesFlow = 2    ///< Two pages side by side, as an open notebook: 1 and 2, 3 and 4...
+        TwoPagesFlow = 2,   ///< Two pages side by side, as an open notebook: 1 and 2, 3 and 4...
+        VerticalPairsFlow = 3 ///< Two pages side by side, the pairs one under the other.
     };
+
+    /** @brief True when the pages follow each other beside each other rather than downward. */
+    static bool flowsAcross();
+
+    /** @brief True when the pages go two by two, side by side. */
+    static bool flowsInPairs();
 
     static PageFlow pageFlow();
 
@@ -220,8 +227,6 @@ private:
         /** @brief The space after a page, before the next one: smaller between the two pages of a pair. */
         qreal gapAfter(int index) const;
 
-        /** @brief True when the pages are beside each other rather than one under the other. */
-        static bool flowsAcross();
 
         /** @brief A page around the current one, and where it is shown, in units of the current page. */
         struct NeighbourPlace
@@ -234,6 +239,9 @@ private:
 
         /** @brief The pages before and after the current one, up to those beyond the given area. */
         QList<NeighbourPlace> neighbourPlaces(const QRectF& area);
+
+        /** @brief The pages around the current one, two by two and the pairs one under the other. */
+        QList<NeighbourPlace> pairPlaces(const QRectF& area);
 
         /** @brief Shows a page around the current one as the current page, without moving the picture. */
         void showNeighbourInPlace(int index, const QRectF& target);
