@@ -302,21 +302,28 @@ UBPenOptionsPanel::UBPenOptionsPanel(QWidget* parent)
     mOpacity = new UBValueSlider(opacityMarks(), tr(" %"), 0, this);
     addRow(mOpacity);
 
-    mRecognizeShapes = new QCheckBox(tr("Recognize shapes"), this);
+    // The two "Recognize" boxes one above the other, to take little width.
+    auto recognize = new QWidget(this);
+    auto recognizeLayout = new QVBoxLayout(recognize);
+    recognizeLayout->setContentsMargins(0, 0, 0, 0);
+    recognizeLayout->setSpacing(2);
+
+    mRecognizeShapes = new QCheckBox(tr("Recognize shapes"), recognize);
     mRecognizeShapes->setToolTip(tr("A line, arrow, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one."));
-    addRow(mRecognizeShapes);
+    recognizeLayout->addWidget(mRecognizeShapes);
 
     connect(mRecognizeShapes, &QCheckBox::toggled, this, [settings](bool on) {
         settings->setValue(sRecognizeShapesKey, on);
     });
 
     // The words written become a text box, with the recognition of Windows.
-    mRecognizeHandwriting = new QCheckBox(tr("Recognize and convert handwriting"), this);
+    mRecognizeHandwriting = new QCheckBox(tr("Recognize and convert handwriting"), recognize);
     mRecognizeHandwriting->setToolTip(UBHandwriting::isAvailable()
         ? tr("A moment after the pen rests, the words written become a text box of the same size and color.")
         : tr("Only on Windows, which reads the handwriting."));
     mRecognizeHandwriting->setEnabled(UBHandwriting::isAvailable());
-    addRow(mRecognizeHandwriting);
+    recognizeLayout->addWidget(mRecognizeHandwriting);
+    addRow(recognize);
 
     connect(mRecognizeHandwriting, &QCheckBox::toggled, this, [](bool on) { UBHandwriting::setEnabled(on); });
 
