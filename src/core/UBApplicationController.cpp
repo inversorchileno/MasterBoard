@@ -53,6 +53,7 @@
 #include "domain/UBGraphicsWidgetItem.h"
 
 #include "desktop/UBDesktopPalette.h"
+#include "gui/UBToolOptionsArrows.h"
 #include "desktop/UBDesktopAnnotationController.h"
 
 #include "web/UBWebController.h"
@@ -380,6 +381,8 @@ void UBApplicationController::showBoard()
         UBApplication::boardController->show();
 
     mIsShowingDesktop = false;
+    // The triangles of the desktop palette are not for the board.
+    UBToolOptionsArrows::remove();
     UBPlatformUtils::hideMenuBarAndDock();
     UBDrawingController::drawingController()->setInDesktopMode(false);
 
@@ -479,6 +482,13 @@ void UBApplicationController::showDesktop(bool dontSwitchFrontProcess)
     }
 
     mIsShowingDesktop = true;
+
+    // The palette was shown just before: now it may show its triangles.
+    if (mUninoteController && mUninoteController->desktopPalette())
+    {
+        mUninoteController->desktopPalette()->updateOptionArrows();
+    }
+
     emit desktopMode(true);
 
     if (!dontSwitchFrontProcess) {
@@ -624,6 +634,8 @@ void UBApplicationController::hideDesktop()
     }
 
     mIsShowingDesktop = false;
+    // The triangles of the desktop palette are not for the board.
+    UBToolOptionsArrows::remove();
 
     UBApplication::displayManager->adjustScreens();
 

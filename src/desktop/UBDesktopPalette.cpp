@@ -612,6 +612,14 @@ Qt::Edge UBDesktopPalette::screenEdge() const
 
 void UBDesktopPalette::updateOptionArrows()
 {
+    // The triangles are only for the desktop: the tools share their actions
+    // with the palette of the board, which is placed again from Bar style
+    // while the board is shown.
+    if (!UBApplication::applicationController || !UBApplication::applicationController->isShowingDesktop())
+    {
+        return;
+    }
+
     UBToolOptionsArrows::apply(screenEdge());
 }
 

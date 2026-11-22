@@ -68,6 +68,9 @@ class UBDesktopPalette : public UBActionPalette
         /** @brief Places the palette along this edge of the screen, as when it is dropped there. */
         void placeAtEdge(int edge);
 
+        /** @brief The triangles of the tools with options, toward the inside of the screen: only in the desktop mode. */
+        void updateOptionArrows();
+
         /** @brief The tools of the palette, in their order. */
         static QList<QAction*> toolActions();
 
@@ -119,7 +122,6 @@ private:
         void minimizeToEdge();
         void snapToEdge(const QPoint& pointer);
 
-        void updateOptionArrows();
         QAction* mActionTest;
 
 
