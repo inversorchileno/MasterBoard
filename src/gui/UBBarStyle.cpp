@@ -249,30 +249,50 @@ namespace
     }
 
     // The pointer near the side of the palette: within its gap to the edge, and a little more.
-    bool nearSide(const Watched& watched, const QPoint& pointer)
+    bool nearSide(const Watched& watched, const QPoint& pointer, const QPoint& previous)
     {
         QWidget* parent = watched.palette->parentWidget();
         const QRect area = globalRect(parent);
+        const QRect home(parent->mapToGlobal(watched.home), watched.palette->size());
+
+        // At the top and the bottom the pointer does not stop at the edge,
+        // as at the sides of the screen: it goes on to the options bar or out
+        // of the window. So the whole side past the place of the bar counts,
+        // also when the pointer went through it between two looks.
+        if (watched.edge == Qt::TopEdge || watched.edge == Qt::BottomEdge)
+        {
+            if (pointer.x() < area.left() - 2 || pointer.x() > area.right() + 2)
+            {
+                return false;
+            }
+
+            const int reach = 28;
+
+            if (watched.edge == Qt::TopEdge)
+            {
+                // Anywhere above its place: on the options bar, the menus, or out of the window.
+                const int line = qMax(area.top() + reach, home.top() + 6);
+                return pointer.y() <= line || previous.y() <= line;
+            }
+
+            // Anywhere below its place, also out of the window.
+            const int line = qMin(area.bottom() - reach, home.bottom() - 6);
+            return pointer.y() >= line || previous.y() >= line;
+        }
 
         if (!area.adjusted(-2, -2, 2, 2).contains(pointer))
         {
             return false;
         }
 
-        const QRect home(parent->mapToGlobal(watched.home), watched.palette->size());
         const int reach = 14;
 
-        switch (watched.edge)
+        if (watched.edge == Qt::LeftEdge)
         {
-            case Qt::LeftEdge:
-                return pointer.x() <= qMax(area.left() + reach, home.left() + 6);
-            case Qt::TopEdge:
-                return pointer.y() <= qMax(area.top() + reach, home.top() + 6);
-            case Qt::BottomEdge:
-                return pointer.y() >= qMin(area.bottom() - reach, home.bottom() - 6);
-            default:
-                return pointer.x() >= qMin(area.right() - reach, home.right() - 6);
+            return pointer.x() <= qMax(area.left() + reach, home.left() + 6);
         }
+
+        return pointer.x() >= qMin(area.right() - reach, home.right() - 6);
     }
 
     QPoint awayFrom(QWidget* palette, int edge, const QPoint& home)
@@ -376,6 +396,9 @@ namespace
     {
         QList<Watched>& palettes = watchedPalettes();
         const QPoint pointer = QCursor::pos();
+        static QPoint lastPointer = pointer;
+        const QPoint previous = lastPointer;
+        lastPointer = pointer;
         const qint64 now = QDateTime::currentMSecsSinceEpoch();
         const bool on = UBBarStyle::autoHide();
 
@@ -406,7 +429,7 @@ namespace
 
             if (watched.hidden)
             {
-                if (!on || nearSide(watched, pointer))
+                if (!on || nearSide(watched, pointer, previous))
                 {
                     showPalette(watched);
                 }
@@ -425,7 +448,7 @@ namespace
             // Kept while it is used: the pointer on it or near its side, a
             // button held, a menu or a window of its options open.
             const bool busy = globalRect(palette).adjusted(-24, -24, 24, 24).contains(pointer)
-                              || nearSide(watched, pointer)
+                              || nearSide(watched, pointer, previous)
                               || QApplication::mouseButtons() != Qt::NoButton
                               || QApplication::activePopupWidget()
                               || QApplication::activeModalWidget();
