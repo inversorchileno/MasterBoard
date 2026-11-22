@@ -2616,6 +2616,11 @@ Möchten Sie die Sicherheitsüberprüfung außer Kraft setzen und fortfahren?   
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Das Diktat des Systems ist hier nicht verfügbar. Drücken Sie unter Windows in einem Text Windows + H.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Nur unter Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

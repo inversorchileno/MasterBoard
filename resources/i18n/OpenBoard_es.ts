@@ -2604,6 +2604,11 @@ Do you wish to override the security check and continue ?   </source>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>El dictado del sistema no está disponible aquí. En Windows, presiona Windows + H en un texto.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Solo en Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

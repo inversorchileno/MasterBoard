@@ -2563,6 +2563,11 @@ Deseja ignorar a verificação de segurança e continuar?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>O ditado do sistema não está disponível aqui. No Windows, pressione Windows + H em um texto.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Apenas no Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

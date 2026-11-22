@@ -2557,6 +2557,11 @@ Wil je de beveiligingscontrole overslaan en doorgaan?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Het dicteren van het systeem is hier niet beschikbaar. Druk in Windows op Windows + H in een tekst.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Alleen op Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

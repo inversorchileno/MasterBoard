@@ -2585,6 +2585,11 @@ Do you wish to override the security check and continue ?   </source>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>ここではシステムの音声入力は使えません。Windowsでは、テキストの中で Windows + H を押してください。</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Windows のみ。</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

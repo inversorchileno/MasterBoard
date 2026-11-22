@@ -2561,6 +2561,11 @@ Doriți să treceți peste verificarea de securitate și să continuați?   </tr
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Dictarea sistemului nu este disponibilă aici. În Windows, apăsați Windows + H într-un text.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Doar pe Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

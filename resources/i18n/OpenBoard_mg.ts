@@ -2561,6 +2561,11 @@ Tianao hodinganina ve ny fanamarinana fiarovana ary hotohizana?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Tsy misy eto ny fanoratana amin&apos;ny feon&apos;ny rafitra. Amin&apos;ny Windows, tsindrio Windows + H ao anaty soratra.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Amin'ny Windows ihany.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

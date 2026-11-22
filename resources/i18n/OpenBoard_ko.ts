@@ -2561,6 +2561,11 @@ Do you wish to override the security check and continue ?   </source>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>여기서는 시스템 받아쓰기를 쓸 수 없습니다. Windows에서는 텍스트 안에서 Windows + H를 누르세요.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Windows에서만 가능합니다.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

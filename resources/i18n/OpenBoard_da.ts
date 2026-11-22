@@ -2561,6 +2561,11 @@ Vil du springe sikkerhedskontrollen over og fortsætte?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Systemets diktering er ikke tilgængelig her. I Windows skal du trykke på Windows + H i en tekst.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Kun på Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

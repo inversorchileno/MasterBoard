@@ -2617,6 +2617,11 @@ Voulez-vous continuer quand-même ?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>La dictée du système n&apos;est pas disponible ici. Sous Windows, appuyez sur Windows + H dans un texte.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Uniquement sous Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

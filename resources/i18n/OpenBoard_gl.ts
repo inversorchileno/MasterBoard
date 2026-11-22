@@ -2568,6 +2568,11 @@ Quere omitir a comprobación de seguranza e continuar?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>O ditado do sistema non está dispoñible aquí. En Windows, prema Windows + H nun texto.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Só en Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

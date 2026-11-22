@@ -2561,6 +2561,11 @@ Voleu ometre la comprovació de seguretat i continuar?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>El dictat del sistema no està disponible aquí. A Windows, premeu Windows + H en un text.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Només a Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

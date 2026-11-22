@@ -2621,6 +2621,11 @@ Do you wish to override the security check and continue ?   </source>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Diktiranje sustava ovdje nije dostupno. U Windowsu pritisnite Windows + H u tekstu.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Samo u sustavu Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

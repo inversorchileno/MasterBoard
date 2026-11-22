@@ -2691,6 +2691,11 @@ Segurtasun-egiaztapena saltatu eta jarraitu nahi duzu?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Sistemaren diktaketa ez dago erabilgarri hemen. Windows-en, sakatu Windows + H testu batean.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Windows-en bakarrik.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

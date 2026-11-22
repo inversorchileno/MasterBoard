@@ -2573,6 +2573,11 @@ Güvenlik denetimini geçersiz kılmak ve devam etmek istiyor musunuz?   </trans
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Sistem diktesi burada kullanılamıyor. Windows&apos;ta bir metin içinde Windows + H&apos;ye basın.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Yalnızca Windows'ta.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

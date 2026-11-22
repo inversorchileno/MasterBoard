@@ -2580,6 +2580,11 @@ Felülírja a biztonsági ellenőrzést, és folytatja?</translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>A rendszer diktálása itt nem érhető el. Windowson nyomja le a Windows + H billentyűt egy szövegben.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Csak Windowson.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

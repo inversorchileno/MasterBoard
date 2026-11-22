@@ -2564,6 +2564,11 @@ Chcete preskočiť bezpečnostnú kontrolu a pokračovať?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Systémové diktovanie tu nie je dostupné. Vo Windows stlačte v texte Windows + H.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Iba vo Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>

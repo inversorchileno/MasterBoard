@@ -2571,6 +2571,11 @@ Czy pominąć kontrolę bezpieczeństwa i kontynuować?   </translation>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
         <translation>Dyktowanie systemowe nie jest tu dostępne. W Windows naciśnij Windows + H w tekście.</translation>
     </message>
+    <message>
+        <location line="-13"/>
+        <source>Only on Windows.</source>
+        <translation>Tylko w systemie Windows.</translation>
+    </message>
 </context>
 <context>
     <name>UBDocumentController</name>
