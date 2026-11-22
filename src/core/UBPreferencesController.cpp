@@ -28,6 +28,7 @@
 
 
 #include "UBPreferencesController.h"
+#include "gui/UBBarStyle.h"
 
 #include "core/UBGitHubUpdater.h"
 #include "frameworks/UBPlatformUtils.h"
@@ -855,7 +856,31 @@ void UBPreferencesController::wire()
     }
 
     connect(mPaletteEdges, &QButtonGroup::idClicked, this, [](int edge) {
-        UBApplication::boardController->paletteManager()->placeStylusPalette(edge);
+        // The palette of the board and the one of the desktop, as in Bar style.
+        UBBarStyle::placeBars(edge);
+    });
+
+    // Hidden until the pointer goes near their side, as in Bar style.
+    mAutoHideBars = new QCheckBox(tr("Hide automatically"), mPreferencesUI->horizontalChoice->parentWidget());
+    mHideEffect = new QComboBox(mPreferencesUI->horizontalChoice->parentWidget());
+    mHideEffect->addItem(tr("Slide toward its side"));
+    mHideEffect->addItem(tr("Fade out"));
+    mPreferencesUI->gridLayout_5->addWidget(mAutoHideBars, 2, 0);
+    mPreferencesUI->gridLayout_5->addWidget(mHideEffect, 2, 1);
+
+    connect(mAutoHideBars, &QCheckBox::clicked, this, [this](bool on) {
+        if (on && !UBBarStyle::askHideEffect(mPreferencesWindow))
+        {
+            mAutoHideBars->setChecked(false);
+            return;
+        }
+
+        mHideEffect->setCurrentIndex(int(UBBarStyle::hideEffect()));
+        mHideEffect->setEnabled(on);
+        UBBarStyle::setAutoHide(on);
+    });
+    connect(mHideEffect, qOverload<int>(&QComboBox::currentIndexChanged), this, [](int index) {
+        UBBarStyle::setHideEffect(index == 1 ? UBBarStyle::HideEffect::Fade : UBBarStyle::HideEffect::Slide);
     });
     connect(mPreferencesUI->toolbarDisplayTextCheckBox, SIGNAL(clicked(bool)), settings->appToolBarDisplayText, SLOT(setBool(bool)));
 
@@ -1001,6 +1026,13 @@ void UBPreferencesController::init()
         edge->setChecked(true);
     }
 
+    mAutoHideBars->setChecked(UBBarStyle::autoHide());
+    {
+        const QSignalBlocker blocker(mHideEffect);
+        mHideEffect->setCurrentIndex(int(UBBarStyle::hideEffect()));
+    }
+    mHideEffect->setEnabled(UBBarStyle::autoHide());
+
     // pen tab
     mPenProperties->fineSlider->setValue(settings->boardPenFineWidth->get().toDouble() * sSliderRatio);
     mPenProperties->mediumSlider->setValue(settings->boardPenMediumWidth->get().toDouble() * sSliderRatio);
@@ -1041,8 +1073,11 @@ void UBPreferencesController::defaultSettings()
         defaultValue = settings->appToolBarDisplayText->reset().toBool();
         mPreferencesUI->toolbarDisplayTextCheckBox->setChecked(defaultValue);
         // At the right, vertical, as Master Board starts.
-        UBApplication::boardController->paletteManager()->placeStylusPalette(Qt::RightEdge);
+        UBBarStyle::placeBars(Qt::RightEdge);
         mPaletteEdges->button(Qt::RightEdge)->setChecked(true);
+        UBBarStyle::setAutoHide(false);
+        mAutoHideBars->setChecked(false);
+        mHideEffect->setEnabled(false);
         mPreferencesUI->startModeComboBox->setCurrentIndex(0);
 
         mPreferencesUI->useSystemOSKCheckBox->setChecked(settings->useSystemOnScreenKeyboard->reset().toBool());

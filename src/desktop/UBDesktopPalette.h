@@ -65,6 +65,9 @@ class UBDesktopPalette : public UBActionPalette
         /** @brief Places the palette along the edge where it was last left. */
         void placeAtSavedEdge();
 
+        /** @brief Places the palette along this edge of the screen, as when it is dropped there. */
+        void placeAtEdge(int edge);
+
         /** @brief The tools of the palette, in their order. */
         static QList<QAction*> toolActions();
 

@@ -45,6 +45,7 @@
 #include "gui/UBDocumentScrollBar.h"
 #include "board/UBDrawingController.h"
 #include "gui/UBToolbarChoice.h"
+#include "gui/UBBarStyle.h"
 
 
 #include "core/memcheck.h"
@@ -109,6 +110,9 @@ UBStylusPalette::UBStylusPalette(QWidget *parent, Qt::Orientation orient)
 
     initPosition();
 
+
+    // Hidden until the pointer goes near its side, when chosen in Bar style.
+    UBBarStyle::watch(this);
     foreach(const UBActionPaletteButton* button, mButtons)
     {
         if (button->defaultAction() != mScreenshotAction)

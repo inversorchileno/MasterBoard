@@ -35,6 +35,8 @@
 #include <QLineEdit>
 
 class QButtonGroup;
+class QCheckBox;
+class QComboBox;
 class UBColorPicker;
 class UBApplication;
 class UBSettings;
@@ -87,6 +89,8 @@ class UBPreferencesController : public QObject
         UBBrushPropertiesFrame* mPenProperties;
         UBBrushPropertiesFrame* mMarkerProperties;
         QButtonGroup* mPaletteEdges{nullptr};
+        QCheckBox* mAutoHideBars{nullptr};
+        QComboBox* mHideEffect{nullptr};
         UBColorPicker* mDarkBackgroundGridColorPicker;
         UBColorPicker* mLightBackgroundGridColorPicker;
         QString mScreenConfigurationPath;

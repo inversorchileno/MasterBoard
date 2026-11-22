@@ -44,4 +44,28 @@ public:
 
     /** @brief Repaints the palettes with the style of the settings. */
     static void repaintPalettes();
+
+    /** @brief The edge of the board where the palettes stand. */
+    static int edge();
+
+    /** @brief Places the palette of the board and the one of the desktop along this edge. */
+    static void placeBars(int edge);
+
+    /** @brief The palettes hide themselves when the pointer leaves them, and come back near their edge. */
+    static bool autoHide();
+    static void setAutoHide(bool on);
+
+    /** @brief How they hide: sliding out toward their edge, or fading out. */
+    enum class HideEffect { Slide = 0, Fade = 1 };
+    static HideEffect hideEffect();
+    static void setHideEffect(HideEffect effect);
+
+    /**
+     * @brief Asks how the palettes should hide, when the automatic hiding
+     * is turned on. False if the person cancels.
+     */
+    static bool askHideEffect(QWidget* parent);
+
+    /** @brief Watches this palette, to hide it and show it again when the automatic hiding is on. */
+    static void watch(QWidget* palette);
 };

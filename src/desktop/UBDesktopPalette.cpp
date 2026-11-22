@@ -147,6 +147,9 @@ UBDesktopPalette::UBDesktopPalette(QWidget *parent, UBRightPalette* _rightPalett
     setMinimizePermission(true);
 
     connect(rightPalette, SIGNAL(resized()), this, SLOT(parentResized()));
+
+    // Hidden until the pointer goes near its side, when chosen in Bar style.
+    UBBarStyle::watch(this);
 }
 
 
@@ -405,6 +408,22 @@ void UBDesktopPalette::placeAtSavedEdge()
     }
 
     updateMargins();
+}
+
+void UBDesktopPalette::placeAtEdge(int edge)
+{
+    if (!parentWidget() || mMinimized)
+    {
+        return;
+    }
+
+    UBSettings::settings()->setValue(sEdgeKey, edge);
+    const bool horizontal = (edge == Qt::TopEdge || edge == Qt::BottomEdge);
+    setOrientation(horizontal ? Qt::Horizontal : Qt::Vertical);
+    adjustPosition();
+    placeAtSavedEdge();
+    updateOptionArrows();
+    emit refreshMask();
 }
 
 void UBDesktopPalette::snapToEdge(const QPoint& pointer)
