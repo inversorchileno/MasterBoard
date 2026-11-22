@@ -26,6 +26,7 @@
 #include <QCheckBox>
 #include <QFileDialog>
 #include <QFontComboBox>
+#include <QGraphicsOpacityEffect>
 #include <QGridLayout>
 #include <QPainter>
 #include <QPainterPath>
@@ -1501,6 +1502,15 @@ UBTextOptionsPanel::UBTextOptionsPanel(QWidget* parent)
     dictate->setFocusPolicy(Qt::NoFocus);
     dictate->setToolTip(tr("Makes a text box and writes in it what you say (the dictation of Windows, Windows + H). "
                            "In a text box, the microphone left of F does the same."));
+    if (!UBDictation::isAvailable())
+    {
+        // Greyed: the style of the bar keeps the colors of a disabled button.
+        dictate->setEnabled(false);
+        dictate->setToolTip(UBDictation::onlyOnWindows());
+        auto faded = new QGraphicsOpacityEffect(dictate);
+        faded->setOpacity(0.35);
+        dictate->setGraphicsEffect(faded);
+    }
     addRow(dictate);
     connect(dictate, &QToolButton::clicked, this, []() { UBDictation::start(); });
 

@@ -38,6 +38,20 @@
 #include "gui/UBMainWindow.h"
 #include "gui/UBTextBoxes.h"
 
+bool UBDictation::isAvailable()
+{
+#ifdef Q_OS_WIN
+    return true;
+#else
+    return false;
+#endif
+}
+
+QString UBDictation::onlyOnWindows()
+{
+    return tr("Only on Windows.");
+}
+
 void UBDictation::start(QGraphicsTextItem* textBox)
 {
     if (!textBox)

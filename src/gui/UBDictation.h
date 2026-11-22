@@ -44,4 +44,15 @@ public:
      * middle of the board shown.
      */
     static void start(QGraphicsTextItem* textBox = nullptr);
+
+    /**
+     * @brief Whether the system has a dictation that Master Board can start:
+     * only Windows. Elsewhere the buttons of dictation are disabled.
+     */
+    static bool isAvailable();
+
+    /**
+     * @brief The tooltip of the buttons of dictation where it is not available.
+     */
+    static QString onlyOnWindows();
 };

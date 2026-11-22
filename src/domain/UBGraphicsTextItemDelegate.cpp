@@ -139,6 +139,14 @@ void UBGraphicsTextItemDelegate::createControls()
     if (!mDictateButton) {
         mDictateButton = new DelegateButton(":/images/microphone.svg", mDelegated, mFrame, Qt::TitleBarArea);
         connect(mDictateButton, &DelegateButton::clicked, this, [this]() { UBDictation::start(delegated()); });
+
+        if (!UBDictation::isAvailable())
+        {
+            // Greyed, and its tooltip says why.
+            mDictateButton->setEnabled(false);
+            mDictateButton->setOpacity(0.35);
+            mDictateButton->setToolTip(UBDictation::onlyOnWindows());
+        }
         mButtons << mDictateButton;
     }
 
