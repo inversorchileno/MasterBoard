@@ -98,6 +98,10 @@
 
 #include "core/memcheck.h"
 
+// Run when lines are finished: see UBGraphicsScene::setStrokesFinishedHandler.
+static std::function<void()> sStrokesFinished;
+
+
 
 #define DEFAULT_Z_VALUE 0.0
 
@@ -975,12 +979,31 @@ bool UBGraphicsScene::inputDeviceRelease(int tool, Qt::KeyboardModifiers modifie
 
     if (mRemovedItems.size() > 0 || mAddedItems.size() > 0)
     {
+        // The lines and the parts of them that the board puts on other
+        // pages are undone together.
+        const bool macro = mUndoRedoStackEnabled && UBApplication::undoStack && !mFinishedStrokes.isEmpty() && sStrokesFinished;
+
+        if (macro)
+        {
+            UBApplication::undoStack->beginMacro(UBSettings::undoCommandTransactionName);
+        }
+
         if (mUndoRedoStackEnabled) { //should be deleted after scene own undo stack implemented
             if (UBApplication::undoStack)
             {
                 UBGraphicsItemUndoCommand* udcmd = new UBGraphicsItemUndoCommand(shared_from_this(), mRemovedItems, mAddedItems); //deleted by the undoStack
                 UBApplication::undoStack->push(udcmd);
             }
+        }
+
+        if (!mFinishedStrokes.isEmpty() && sStrokesFinished)
+        {
+            sStrokesFinished();
+        }
+
+        if (macro)
+        {
+            UBApplication::undoStack->endMacro();
         }
 
         mRemovedItems.clear();
@@ -998,6 +1021,11 @@ bool UBGraphicsScene::inputDeviceRelease(int tool, Qt::KeyboardModifiers modifie
 
     mCurrentStroke = NULL;
     return accepted;
+}
+
+void UBGraphicsScene::setStrokesFinishedHandler(std::function<void()> handler)
+{
+    sStrokesFinished = std::move(handler);
 }
 
 QList<UBGraphicsStrokesGroup*> UBGraphicsScene::takeFinishedStrokes()

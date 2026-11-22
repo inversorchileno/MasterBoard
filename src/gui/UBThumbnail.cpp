@@ -322,15 +322,15 @@ void UBThumbnail::hoverMoveEvent(QGraphicsSceneHoverEvent* event)
 
         if (starRect(mPixmapItem).contains(event->pos()))
         {
-            tip = isFavorite() ? tr("Remove from favorites") : tr("Add to favorites");
+            tip = tr("Favorite");
         }
         else if (UBThumbnailUI::getIcon("close")->triggered(p))
         {
-            tip = tr("Delete the page");
+            tip = tr("Close");
         }
         else if (UBThumbnailUI::getIcon("duplicate")->triggered(p))
         {
-            tip = tr("Duplicate the page");
+            tip = tr("Clone");
         }
     }
 

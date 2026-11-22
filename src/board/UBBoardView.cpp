@@ -101,6 +101,8 @@
 #include "tools/UBGraphicsTriangle.h"
 #include "tools/UBGraphicsProtractor.h"
 
+#include "domain/UBUndoCommand.h"
+
 #include "core/memcheck.h"
 
 /**
@@ -144,6 +146,18 @@ UBBoardView::UBBoardView (UBBoardController* pController, QWidget* pParent, bool
 
     mLongPressTimer.setInterval(mLongPressInterval);
     mLongPressTimer.setSingleShot(true);
+
+    // The lines finished on the board are cut where they cross onto another
+    // page, inside the undo step of the line.
+    if (isControl && !isDesktop)
+    {
+        UBGraphicsScene::setStrokesFinishedHandler([]() {
+            if (UBApplication::boardController && UBApplication::boardController->controlView())
+            {
+                UBApplication::boardController->controlView()->cutLinesAcrossPages();
+            }
+        });
+    }
 }
 
 UBBoardView::UBBoardView (UBBoardController* pController, int pStartLayer, int pEndLayer, QWidget* pParent, bool isControl, bool isDesktop)
@@ -713,7 +727,6 @@ void UBBoardView::tabletEvent (QTabletEvent * event)
         setToolCursor (currentTool);
 
         scene ()->inputDeviceRelease (currentTool, event->modifiers());
-        cutLinesAcrossPages();
 
         mPendingStylusReleaseEvent = false;
 
@@ -1815,7 +1828,6 @@ void UBBoardView::mouseReleaseEvent (QMouseEvent *event)
     if (scene())
     {
         scene()->inputDeviceRelease(currentTool, event->modifiers());
-        cutLinesAcrossPages();
     }
 
 #if (QT_VERSION >= QT_VERSION_CHECK(6, 0, 0))
@@ -2643,6 +2655,109 @@ QList<UBBoardView::NeighbourPlace> UBBoardView::pairPlaces(const QRectF& area)
     return places;
 }
 
+namespace
+{
+    /**
+     * @brief The part of a line put on another page: Undo takes it away
+     * from that page, Redo puts it back. Both save that page.
+     */
+    class UBCrossPagePartUndoCommand : public UBUndoCommand
+    {
+    public:
+        UBCrossPagePartUndoCommand(std::shared_ptr<UBDocumentProxy> document, std::shared_ptr<UBGraphicsScene> scene,
+                                   int index, QGraphicsItem* part)
+            : mDocument(document), mScene(scene), mIndex(index), mPart(part), mUuid(UBGraphicsItem::getOwnUuid(part))
+        {
+        }
+
+        ~UBCrossPagePartUndoCommand() override
+        {
+            // Undone: the part is in no page any more.
+            if (mPart && !mPart->scene())
+            {
+                delete mPart;
+            }
+        }
+
+    protected:
+        void undo() override
+        {
+            std::shared_ptr<UBGraphicsScene> scene = pageScene();
+
+            if (!scene)
+            {
+                return;
+            }
+
+            // The page may have been read again from its file: its own copy.
+            QGraphicsItem* item = mPart && mPart->scene() == scene.get() ? mPart : scene->itemForUuid(mUuid);
+
+            if (item)
+            {
+                scene->removeItem(item);
+
+                if (item != mPart)
+                {
+                    delete item;
+                }
+            }
+
+            save(scene);
+        }
+
+        void redo() override
+        {
+            if (mFirstRedo)
+            {
+                mFirstRedo = false;
+                return;
+            }
+
+            std::shared_ptr<UBGraphicsScene> scene = pageScene();
+
+            if (!scene || !mPart || mPart->scene())
+            {
+                return;
+            }
+
+            scene->addItem(mPart);
+            save(scene);
+        }
+
+    private:
+        std::shared_ptr<UBGraphicsScene> pageScene() const
+        {
+            if (!mDocument || mIndex < 0 || mIndex >= mDocument->pageCount())
+            {
+                return mScene;
+            }
+
+            return UBPersistenceManager::persistenceManager()->loadDocumentScene(mDocument, mIndex);
+        }
+
+        void save(std::shared_ptr<UBGraphicsScene> scene) const
+        {
+            scene->setModified(true);
+            UBPersistenceManager::persistenceManager()->persistDocumentScene(mDocument, scene, mIndex);
+
+            // The page beside the current one shows it at once.
+            if (UBApplication::boardController && UBApplication::boardController->controlView())
+            {
+                UBBoardView* view = UBApplication::boardController->controlView();
+                view->resetCachedContent();
+                view->viewport()->update();
+            }
+        }
+
+        std::shared_ptr<UBDocumentProxy> mDocument;
+        std::shared_ptr<UBGraphicsScene> mScene;
+        int mIndex;
+        QGraphicsItem* mPart;
+        QUuid mUuid;
+        bool mFirstRedo{true};
+    };
+}
+
 void UBBoardView::cutLinesAcrossPages()
 {
     if (!scene())
@@ -2757,6 +2872,11 @@ void UBBoardView::cutLinesAcrossPages()
             place.scene->setModified(true);
             UBPersistenceManager::persistenceManager()->persistDocumentScene(document, place.scene, place.index);
             cut = true;
+
+            if (UBApplication::undoStack)
+            {
+                UBApplication::undoStack->push(new UBCrossPagePartUndoCommand(document, place.scene, place.index, piece));
+            }
         }
 
         // A line cut between pages keeps no ink in the space between the

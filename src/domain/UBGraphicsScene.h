@@ -28,6 +28,7 @@
 #ifndef UBGRAPHICSSCENE_H_
 #define UBGRAPHICSSCENE_H_
 
+#include <functional>
 #include <QtGui>
 #include <optional>
 
@@ -326,6 +327,14 @@ class UBGraphicsScene: public UBCoreGraphicsScene, public UBItem, public std::en
 
         /** @brief The groups of lines finished by the last release of the pen, given once. */
         QList<UBGraphicsStrokesGroup*> takeFinishedStrokes();
+
+        /**
+         * @brief Called when lines are finished, right after their undo step
+         * is pushed and inside the same undo macro: the board cuts there
+         * the parts that cross onto another page, whose own undo steps then
+         * belong to the same Undo.
+         */
+        static void setStrokesFinishedHandler(std::function<void()> handler);
 
         QSize nominalSize();
 
