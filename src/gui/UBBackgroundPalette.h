@@ -46,6 +46,7 @@ class UBBackgroundPalette : public UBActionPalette
         QWidget* createTemplates();
         void drawTemplatePictures();
         void showTemplates(bool shown);
+        void applyLook();
         QLayout* createLineColor();
 
         /** @brief The choice of how the pages follow each other: under, beside, or two by two. */

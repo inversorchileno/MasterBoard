@@ -5,6 +5,7 @@
 #include <QGridLayout>
 #include <QPainter>
 #include <QGraphicsView>
+#include <QFrame>
 #include <QSlider>
 
 #include "board/UBBoardController.h"
@@ -87,6 +88,80 @@ UBBackgroundPalette::UBBackgroundPalette(QWidget * parent)
 
 
 
+namespace
+{
+    struct Look
+    {
+        QColor background;
+        QString styleSheet;
+    };
+
+    // The sliders: a black circle with a light ring, seen on any background.
+    QString sliderStyle(const QString& groove, const QString& filled, const QString& ring)
+    {
+        return QString("QSlider::groove:horizontal { height: 6px; background: %1; border-radius: 3px; }"
+                       "QSlider::sub-page:horizontal { background: %2; border-radius: 3px; }"
+                       "QSlider::handle:horizontal { background: #000000; border: 2px solid %3; width: 16px; height: 16px; margin: -7px 0; border-radius: 10px; }")
+            .arg(groove, filled, ring);
+    }
+
+    Look look(int index)
+    {
+        switch (index)
+        {
+            case 1: // Light
+                return { QColor("#f4f5f7"),
+                         "QLabel { color: #1f2328; } QLabel#hint { color: #5b6270; } QCheckBox { color: #1f2328; }"
+                         "QFrame#separator { background: #d6dae1; }"
+                         "QToolButton { background: #ffffff; color: #1f2328; border: 1px solid #cfd4dc; border-radius: 8px; padding: 4px 8px; }"
+                         "QToolButton:hover { border-color: #8c96a5; }"
+                         "QToolButton:checked { background: #e7efff; border: 2px solid #2563eb; color: #0b3aa8; }"
+                         "QToolButton#template { background: transparent; border: 1px solid transparent; }"
+                         "QToolButton#template:hover { border-color: #8c96a5; background: #ffffff; }"
+                         + sliderStyle("#cfd4dc", "#2563eb", "#ffffff") };
+            case 2: // Dark with a yellow accent, as Master Board's own buttons
+                return { QColor("#2b2d31"),
+                         "QLabel { color: #f2f2f2; } QLabel#hint { color: #b4b9c2; } QCheckBox { color: #f2f2f2; }"
+                         "QFrame#separator { background: #45484f; }"
+                         "QToolButton { background: #3a3d44; color: #f2f2f2; border: 1px solid #4a4e57; border-radius: 8px; padding: 4px 8px; }"
+                         "QToolButton:hover { border-color: #f6c343; }"
+                         "QToolButton:checked { background: #f6c343; color: #1d1d1d; border: 2px solid #f6c343; }"
+                         "QToolButton#template { background: transparent; border: 1px solid transparent; }"
+                         "QToolButton#template:hover { border-color: #f6c343; background: #3a3d44; }"
+                         + sliderStyle("#55585f", "#f6c343", "#f6c343") };
+            case 3: // Night blue
+                return { QColor("#1e2a3b"),
+                         "QLabel { color: #e2e8f0; } QLabel#hint { color: #9fb0c6; } QCheckBox { color: #e2e8f0; }"
+                         "QFrame#separator { background: #33435a; }"
+                         "QToolButton { background: #2a3a50; color: #e2e8f0; border: 1px solid #3b4d66; border-radius: 10px; padding: 4px 8px; }"
+                         "QToolButton:hover { border-color: #7aa2ff; }"
+                         "QToolButton:checked { background: #2f6fed; color: #ffffff; border: 2px solid #9cc0ff; }"
+                         "QToolButton#template { background: transparent; border: 1px solid transparent; }"
+                         "QToolButton#template:hover { border-color: #7aa2ff; background: #2a3a50; }"
+                         + sliderStyle("#3b4d66", "#7aa2ff", "#ffffff") };
+            default: // Graphite, as the bar of the options
+                return { QColor("#20242b"),
+                         "QLabel { color: #e8e8e8; } QLabel#hint { color: #9aa3b2; } QCheckBox { color: #e8e8e8; }"
+                         "QFrame#separator { background: #3a404b; }"
+                         "QToolButton { background: #2c313a; color: #e8e8e8; border: 1px solid #3a404b; border-radius: 6px; padding: 4px 8px; }"
+                         "QToolButton:hover { border-color: #6b7383; }"
+                         "QToolButton:checked { background: #3d4452; border: 2px solid #f0f0f0; }"
+                         "QToolButton#template { background: transparent; border: 1px solid transparent; }"
+                         "QToolButton#template:hover { border-color: #6b7383; background: #2c313a; }"
+                         + sliderStyle("#4a5160", "#f0f0f0", "#f0f0f0") };
+        }
+    }
+}
+
+void UBBackgroundPalette::applyLook()
+{
+    const Look chosen = look(qEnvironmentVariableIntValue("MB_BGLOOK"));
+    setBackgroundBrush(chosen.background);
+    // The small round buttons keep their own picture, without a tile.
+    setStyleSheet(chosen.styleSheet + "QToolButton#icon, QToolButton#icon:checked, QToolButton#icon:hover "
+                                      "{ background: transparent; border: none; padding: 0px; }");
+}
+
 void UBBackgroundPalette::init()
 {
     UBActionPalette::clearLayout();
@@ -128,14 +203,20 @@ void UBBackgroundPalette::init()
     mTemplates->hide();
     mVLayout->addWidget(mTemplates);
 
+    // Some room and a thin line before the scroll direction, apart from the page.
+    mVLayout->addSpacing(8);
+    auto separator = new QFrame(this);
+    separator->setObjectName("separator");
+    separator->setFixedHeight(1);
+    mVLayout->addWidget(separator);
+    mVLayout->addSpacing(6);
     mVLayout->addLayout(createPageFlow());
 
     // Fully opaque, so that the page under it does not show through.
-    setBackgroundBrush(UBSettings::opaquePaletteColor);
+    applyLook();
 
     // Any color for the page, with the pattern of the template chosen above.
     mColorLabel = new QLabel(tr("Page color"));
-    mColorLabel->setStyleSheet("QLabel { color : white; }");
     mPageColors = new UBColorSwatches(pageColors(), false, this);
     mColorLayout->addSpacing(16);
     mColorLayout->addWidget(mColorLabel);
@@ -158,12 +239,14 @@ void UBBackgroundPalette::init()
 
     mResetDefaultGridSizeButton = createPaletteButton(UBApplication::mainWindow->actionDefaultGridSize, this);
     mResetDefaultGridSizeButton->setFixedSize(24,24);
+    mResetDefaultGridSizeButton->setObjectName("icon");
     mActions << UBApplication::mainWindow->actionDefaultGridSize;
 
     connect(UBApplication::mainWindow->actionDefaultGridSize, SIGNAL(triggered()), this, SLOT(defaultBackgroundGridSize()));
 
     mDrawIntermediateLinesCheckBox = createPaletteButton(UBApplication::mainWindow->actionDrawIntermediateGridLines, this);
     mDrawIntermediateLinesCheckBox->setFixedSize(24,24);
+    mDrawIntermediateLinesCheckBox->setObjectName("icon");
     mDrawIntermediateLinesCheckBox->setCheckable(true);
     mActions << UBApplication::mainWindow->actionDrawIntermediateGridLines;
     UBApplication::mainWindow->actionDrawIntermediateGridLines->setProperty("ungrouped", true);
@@ -198,14 +281,12 @@ QWidget* UBBackgroundPalette::createTemplates()
     // The date of the calendars and planners.
     auto dateRow = new QHBoxLayout();
     auto dateLabel = new QLabel(tr("Date of the calendars"), templates);
-    dateLabel->setStyleSheet("QLabel { color : white; }");
     mTemplateDate = new QDateEdit(QDate::currentDate(), templates);
     mTemplateDate->setCalendarPopup(true);
     mTemplateDate->setDisplayFormat("dd/MM/yyyy");
     mTemplateDate->setToolTip(tr("The calendars and planners are made for this day, its week, its month or its year"));
     // Monday first, as in most of the world; Sunday for those who use it.
     mSundayFirst = new QCheckBox(tr("Weeks start on Sunday"), templates);
-    mSundayFirst->setStyleSheet("QCheckBox { color : white; }");
     mSundayFirst->setChecked(UBSettings::settings()->weekStartsOnSunday->get().toBool());
     mSundayFirst->setToolTip(tr("The calendars start their weeks on Monday, or on Sunday when this is ticked"));
     connect(mSundayFirst, &QCheckBox::toggled, this, [this](bool sunday) {
@@ -242,8 +323,7 @@ QWidget* UBBackgroundPalette::createTemplates()
                                : name);
         button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
         button->setFixedWidth(thumbnail.width() + 12);
-        button->setStyleSheet("QToolButton { color: white; border: 1px solid transparent; border-radius: 4px; padding: 2px; }"
-                              "QToolButton:hover { border-color: #8a8f99; background: rgba(255, 255, 255, 30); }");
+        button->setObjectName("template");
         grid->addWidget(button, i / 7, i % 7);
 
         connect(button, &QToolButton::clicked, this, [this, pageTemplate]() {
@@ -252,7 +332,7 @@ QWidget* UBBackgroundPalette::createTemplates()
     }
 
     auto hint = new QLabel(tr("On a page of a PDF, the template goes on a new page after it."), templates);
-    hint->setStyleSheet("QLabel { color : #c9ced6; }");
+    hint->setObjectName("hint");
     layout->addWidget(hint);
 
     drawTemplatePictures();
@@ -284,7 +364,6 @@ QLayout* UBBackgroundPalette::createLineColor()
     // and of the dots: for a light page, or for a dark one, as the current page.
     auto row = new QHBoxLayout();
     mLineColorLabel = new QLabel(tr("Color of the lines"), this);
-    mLineColorLabel->setStyleSheet("QLabel { color : white; }");
 
     const QList<QColor> colors = { QColor("#A5E1FF"), QColor("#C0C0C0"), QColor("#808080"), QColor("#000000"),
                                    QColor("#ffffff"), QColor("#93c5fd"), QColor("#86efac"), QColor("#fca5a5"),
@@ -293,7 +372,6 @@ QLayout* UBBackgroundPalette::createLineColor()
     mLineColors->hideOtherColorButton();
 
     mLineOpacityLabel = new QLabel(tr("Opacity"), this);
-    mLineOpacityLabel->setStyleSheet("QLabel { color : white; }");
     mLineOpacity = new QSlider(Qt::Horizontal, this);
     mLineOpacity->setRange(10, 100);
     mLineOpacity->setFixedWidth(120);
@@ -338,7 +416,6 @@ QLayout* UBBackgroundPalette::createPageFlow()
     // How the pages follow each other: under, beside, or two by two.
     auto row = new QHBoxLayout();
     auto label = new QLabel(tr("Scroll direction"), this);
-    label->setStyleSheet("QLabel { color : white; }");
 
     // In the order of the drawings: down, down two by two, across, across two by two.
     const QList<UBBoardView::PageFlow> flows = { UBBoardView::VerticalFlow, UBBoardView::VerticalPairsFlow,
@@ -509,9 +586,7 @@ void UBBackgroundPalette::toggleIntermediateLines(bool checked)
 
 void UBBackgroundPalette::backgroundChanged()
 {
-    // The palette is opaque and dark, whatever the page under it.
-    mSliderLabel->setStyleSheet("QLabel { color : white; }");
-    mIntermediateLinesLabel->setStyleSheet("QLabel { color : white; }");
+    // The palette is opaque, whatever the page under it.
     mPageColors->setCurrentColor(UBApplication::boardController->activeScene()->backgroundColor());
 
     // A dark page has its own color of the lines.
