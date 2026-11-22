@@ -79,6 +79,7 @@
 #include <QPainterPath>
 #include <QScrollBar>
 #include "domain/UBGraphicsPolygonItem.h"
+#include "domain/UBGraphicsStroke.h"
 #include "domain/UBItem.h"
 #include "domain/UBGraphicsMediaItem.h"
 #include "domain/UBGraphicsSvgItem.h"
@@ -711,6 +712,7 @@ void UBBoardView::tabletEvent (QTabletEvent * event)
         setToolCursor (currentTool);
 
         scene ()->inputDeviceRelease (currentTool, event->modifiers());
+        cutLinesAcrossPages();
 
         mPendingStylusReleaseEvent = false;
 
@@ -1810,7 +1812,10 @@ void UBBoardView::mouseReleaseEvent (QMouseEvent *event)
     setToolCursor (currentTool);
     // first/ propagate device release to the scene
     if (scene())
+    {
         scene()->inputDeviceRelease(currentTool, event->modifiers());
+        cutLinesAcrossPages();
+    }
 
 #if (QT_VERSION >= QT_VERSION_CHECK(6, 0, 0))
     QPointF eventPosition = event->position();
@@ -2635,6 +2640,170 @@ QList<UBBoardView::NeighbourPlace> UBBoardView::pairPlaces(const QRectF& area)
     }
 
     return places;
+}
+
+void UBBoardView::cutLinesAcrossPages()
+{
+    if (!scene())
+    {
+        return;
+    }
+
+    const QList<UBGraphicsStrokesGroup*> groups = scene()->takeFinishedStrokes();
+
+    if (groups.isEmpty() || !mController || this != mController->controlView())
+    {
+        return;
+    }
+
+    std::shared_ptr<UBDocumentProxy> document = mController->selectedDocument();
+
+    if (!document || document->pageCount() < 2)
+    {
+        return;
+    }
+
+    const QRectF page = pageRectOf(scene().get());
+
+    for (UBGraphicsStrokesGroup* group : groups)
+    {
+        const QRectF bounds = group->sceneBoundingRect();
+
+        if (!static_cast<QGraphicsItem*>(group)->scene() || page.contains(bounds))
+        {
+            continue;
+        }
+
+        bool cut = false;
+
+        for (const NeighbourPlace& place : neighbourPlaces(bounds))
+        {
+            if (!place.target.intersects(bounds))
+            {
+                continue;
+            }
+
+            // The part on that sheet goes to its page, at the same place on it.
+            const QPolygonF sheet(place.target);
+            const QPointF onPage = place.source.topLeft() - place.target.topLeft();
+            auto piece = new UBGraphicsStrokesGroup();
+            auto stroke = new UBGraphicsStroke(place.scene);
+            bool any = false;
+
+            for (QGraphicsItem* child : group->childItems())
+            {
+                auto polygon = dynamic_cast<UBGraphicsPolygonItem*>(child);
+
+                if (!polygon)
+                {
+                    continue;
+                }
+
+                QPainterPath path;
+                path.setFillRule(polygon->fillRule());
+                path.addPolygon(polygon->mapToScene(polygon->polygon()));
+                path.closeSubpath();
+
+                QPainterPath sheetPath;
+                sheetPath.addPolygon(sheet);
+                const QPainterPath inside = path.intersected(sheetPath);
+
+                if (!inside.isEmpty())
+                {
+                    auto part = new UBGraphicsPolygonItem(inside.toFillPolygon().translated(onPage));
+                    part->setFillRule(Qt::OddEvenFill);
+                    part->setColor(polygon->color());
+                    part->setColorOnDarkBackground(polygon->colorOnDarkBackground());
+                    part->setColorOnLightBackground(polygon->colorOnLightBackground());
+                    part->setData(UBGraphicsItemData::ItemLayerType, QVariant(UBItemLayerType::Graphic));
+                    part->setStroke(stroke);
+                    part->setStrokesGroup(piece);
+                    part->setParentItem(piece);
+                    any = true;
+                }
+
+                // What stays on this page.
+                const QPainterPath outside = path.subtracted(sheetPath);
+
+                if (outside.isEmpty())
+                {
+                    polygon->setParentItem(nullptr);
+                    delete polygon;
+                }
+                else if (!inside.isEmpty())
+                {
+                    polygon->setFillRule(Qt::OddEvenFill);
+                    polygon->setPolygon(polygon->mapFromScene(outside.toFillPolygon()));
+                }
+            }
+
+            if (!any)
+            {
+                delete piece;
+                delete stroke;
+                continue;
+            }
+
+            piece->setData(UBGraphicsItemData::ItemLayerType, QVariant(UBItemLayerType::Graphic));
+            place.scene->addItem(piece);
+            place.scene->setModified(true);
+            UBPersistenceManager::persistenceManager()->persistDocumentScene(document, place.scene, place.index);
+            cut = true;
+        }
+
+        // A line cut between pages keeps no ink in the space between the
+        // sheets: what is left stays on this sheet.
+        if (cut)
+        {
+            QPainterPath sheetPath;
+            sheetPath.addRect(page);
+
+            for (QGraphicsItem* child : group->childItems())
+            {
+                auto polygon = dynamic_cast<UBGraphicsPolygonItem*>(child);
+
+                if (!polygon)
+                {
+                    continue;
+                }
+
+                QPainterPath path;
+                path.setFillRule(polygon->fillRule());
+                path.addPolygon(polygon->mapToScene(polygon->polygon()));
+                path.closeSubpath();
+                const QPainterPath inside = path.intersected(sheetPath);
+
+                if (inside.isEmpty())
+                {
+                    polygon->setParentItem(nullptr);
+                    delete polygon;
+                }
+                else
+                {
+                    polygon->setFillRule(Qt::OddEvenFill);
+                    polygon->setPolygon(polygon->mapFromScene(inside.toFillPolygon()));
+                }
+            }
+        }
+
+        // The group keeps the outline of its parts from when they were added.
+        const QList<QGraphicsItem*> parts = group->childItems();
+
+        if (parts.isEmpty())
+        {
+            scene()->removeItem(group);
+            continue;
+        }
+
+        for (QGraphicsItem* part : parts)
+        {
+            group->removeFromGroup(part);
+            group->addToGroup(part);
+        }
+    }
+
+    resetCachedContent();
+    viewport()->update();
 }
 
 void UBBoardView::showNeighbourInPlace(int index, const QRectF& target)

@@ -40,6 +40,7 @@
 class UBGraphicsPixmapItem;
 class UBGraphicsSvgItem;
 class UBGraphicsPolygonItem;
+class UBGraphicsStrokesGroup;
 class UBGraphicsMediaItem;
 class UBGraphicsWidgetItem;
 class UBGraphicsW3CWidgetItem;
@@ -323,6 +324,9 @@ class UBGraphicsScene: public UBCoreGraphicsScene, public UBItem, public std::en
         /** @brief Without its background, to draw only what is on it, as the ink beyond its page. */
         void setDrawsBackground(bool draws) { mDrawsBackground = draws; }
 
+        /** @brief The groups of lines finished by the last release of the pen, given once. */
+        QList<UBGraphicsStrokesGroup*> takeFinishedStrokes();
+
         QSize nominalSize();
 
         QSize sceneSize();
@@ -526,6 +530,7 @@ signals:
         QGraphicsEllipseItem* mPenCircle; // dotted circle around pen
 
         QSet<QGraphicsItem*> mAddedItems;
+        QList<UBGraphicsStrokesGroup*> mFinishedStrokes;
         QSet<QGraphicsItem*> mRemovedItems;
 
         std::shared_ptr<UBDocumentProxy> mDocument;

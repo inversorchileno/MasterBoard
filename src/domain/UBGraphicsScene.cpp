@@ -962,6 +962,17 @@ bool UBGraphicsScene::inputDeviceRelease(int tool, Qt::KeyboardModifiers modifie
         QTimer::singleShot(0, this, [this, tool, position]() { addPageMark(tool, position); });
     }
 
+    // The lines just drawn, which the board may cut where they cross onto another page.
+    mFinishedStrokes.clear();
+
+    for (QGraphicsItem* item : std::as_const(mAddedItems))
+    {
+        if (auto strokes = dynamic_cast<UBGraphicsStrokesGroup*>(item))
+        {
+            mFinishedStrokes << strokes;
+        }
+    }
+
     if (mRemovedItems.size() > 0 || mAddedItems.size() > 0)
     {
         if (mUndoRedoStackEnabled) { //should be deleted after scene own undo stack implemented
@@ -987,6 +998,13 @@ bool UBGraphicsScene::inputDeviceRelease(int tool, Qt::KeyboardModifiers modifie
 
     mCurrentStroke = NULL;
     return accepted;
+}
+
+QList<UBGraphicsStrokesGroup*> UBGraphicsScene::takeFinishedStrokes()
+{
+    QList<UBGraphicsStrokesGroup*> strokes;
+    strokes.swap(mFinishedStrokes);
+    return strokes;
 }
 
 void UBGraphicsScene::drawEraser(const QPointF &pPoint, bool pressed)

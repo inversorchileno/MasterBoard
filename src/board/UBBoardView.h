@@ -243,6 +243,9 @@ private:
         /** @brief The pages around the current one, two by two and the pairs one under the other. */
         QList<NeighbourPlace> pairPlaces(const QRectF& area);
 
+        /** @brief Puts the parts of the lines just drawn that lie on the pages around on those pages, as Xournal does. */
+        void cutLinesAcrossPages();
+
         /** @brief Shows a page around the current one as the current page, without moving the picture. */
         void showNeighbourInPlace(int index, const QRectF& target);
 
