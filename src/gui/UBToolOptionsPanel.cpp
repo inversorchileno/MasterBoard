@@ -46,6 +46,7 @@
 #include "domain/UBGraphicsNoteItem.h"
 #include "domain/UBGraphicsTextItem.h"
 #include "domain/UBStamps.h"
+#include "gui/UBHandwriting.h"
 #include "gui/UBMainWindow.h"
 #include "gui/UBToolOptionsArrows.h"
 #include "gui/UBToolOptionsWidgets.h"
@@ -309,6 +310,16 @@ UBPenOptionsPanel::UBPenOptionsPanel(QWidget* parent)
         settings->setValue(sRecognizeShapesKey, on);
     });
 
+    // The words written become a text box, with the recognition of Windows.
+    mRecognizeHandwriting = new QCheckBox(tr("Recognize and convert handwriting"), this);
+    mRecognizeHandwriting->setToolTip(UBHandwriting::isAvailable()
+        ? tr("A moment after the pen rests, the words written become a text box of the same size and color.")
+        : tr("Only on Windows, which reads the handwriting."));
+    mRecognizeHandwriting->setEnabled(UBHandwriting::isAvailable());
+    addRow(mRecognizeHandwriting);
+
+    connect(mRecognizeHandwriting, &QCheckBox::toggled, this, [](bool on) { UBHandwriting::setEnabled(on); });
+
     connect(mStrokeType, &UBSegmentedChoice::choiceChanged, this, [this, settings](int type) {
         settings->penStrokeType->set(type);
         updatePreview();
@@ -340,6 +351,7 @@ void UBPenOptionsPanel::refresh()
     mColors->setCurrentColor(settings->currentPenColor());
     mOpacity->setValue(settings->penOpacity->get().toDouble() * 100);
     mRecognizeShapes->setChecked(settings->value(sRecognizeShapesKey, false).toBool());
+    mRecognizeHandwriting->setChecked(UBHandwriting::isEnabled());
     updatePreview();
 }
 

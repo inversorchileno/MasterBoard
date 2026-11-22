@@ -73,6 +73,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     UBCanvasRulers.h
     UBStrokeStylePanel.cpp
     UBStrokeStylePanel.h
+    UBHandwriting.cpp
+    UBHandwriting.h
     UBDocumentTabs.cpp
     UBDocumentTabs.h
     UBNoteToolIcon.cpp

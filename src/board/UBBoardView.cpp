@@ -61,6 +61,7 @@
 #include "gui/UBMainWindow.h"
 #include "gui/UBSnapIndicator.h"
 #include "gui/UBDocumentThumbnailsView.h"
+#include "gui/UBHandwriting.h"
 
 #include "board/UBBoardController.h"
 #include "board/UBBoardPaletteManager.h"
@@ -2653,6 +2654,13 @@ void UBBoardView::cutLinesAcrossPages()
 
     if (groups.isEmpty() || !mController || this != mController->controlView())
     {
+        return;
+    }
+
+    // Handwriting to read: it becomes a text box on this page.
+    if (UBHandwriting::isEnabled() && UBDrawingController::drawingController()->stylusTool() == UBStylusTool::Pen)
+    {
+        UBHandwriting::instance()->addWritten(scene(), groups);
         return;
     }
 

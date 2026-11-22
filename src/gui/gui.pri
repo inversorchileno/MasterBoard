@@ -29,6 +29,7 @@ HEADERS +=  \
     src/gui/UBMeasureTool.h \
     src/gui/UBCanvasRulers.h \
     src/gui/UBStrokeStylePanel.h \
+    src/gui/UBHandwriting.h \
     src/gui/UBDocumentTabs.h \
     src/gui/UBNoteToolIcon.h \
     src/gui/UBCommentPopup.h \
@@ -114,6 +115,7 @@ SOURCES +=  \
     src/gui/UBMeasureTool.cpp \
     src/gui/UBCanvasRulers.cpp \
     src/gui/UBStrokeStylePanel.cpp \
+    src/gui/UBHandwriting.cpp \
     src/gui/UBDocumentTabs.cpp \
     src/gui/UBNoteToolIcon.cpp \
     src/gui/UBCommentPopup.cpp \
@@ -174,3 +176,9 @@ linux-g++:SOURCES += src/gui/UBKeyboardPalette_linux.cpp
 linux-g++-32:SOURCES += src/gui/UBKeyboardPalette_linux.cpp
 linux-g++-64:SOURCES += src/gui/UBKeyboardPalette_linux.cpp
 
+
+win32 {
+    # The handwriting recognition of Windows (UBHandwriting).
+    LIBS += -lwindowsapp
+    QMAKE_CXXFLAGS += /bigobj
+}

@@ -93,6 +93,7 @@ private:
     UBColorSwatches* mColors{nullptr};
     UBValueSlider* mOpacity{nullptr};
     QCheckBox* mRecognizeShapes{nullptr};
+    QCheckBox* mRecognizeHandwriting{nullptr};
 };
 
 class UBEraserOptionsPanel : public UBToolOptionsPanel
