@@ -14,12 +14,12 @@
     <message>
         <location filename="../../src/web/simplebrowser/browserwindow.cpp" line="+151"/>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Navigation</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Show downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis overførsler</translation>
     </message>
 </context>
 <context>
@@ -32,19 +32,21 @@
     <message>
         <location line="+12"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikon</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fejl</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>If you wish so, you may continue with an unverified certificate. Accepting an unverified certificate mean you may not be connected with the host you tried to connect to.
 
 Do you wish to override the security check and continue ?   </source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis du vil, kan du fortsætte med et ubekræftet certifikat. At acceptere et ubekræftet certifikat betyder, at du måske ikke er forbundet til den vært, du ville forbinde til.
+
+Vil du springe sikkerhedskontrollen over og fortsætte?   </translation>
     </message>
 </context>
 <context>
@@ -52,12 +54,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.ui" line="+14"/>
         <source>Downloads</source>
-        <translation type="unfinished">Downloads</translation>
+        <translation>Overførsler</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>No downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen overførsler</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadmanagerwidget.cpp" line="+82"/>
@@ -71,68 +73,68 @@ Do you wish to override the security check and continue ?   </source>
         <location filename="../../src/web/simplebrowser/downloadwidget.ui" line="+31"/>
         <location line="+40"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../../src/web/simplebrowser/downloadwidget.cpp" line="+87"/>
         <location line="+40"/>
         <source>Open file</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn fil</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>%L1 B</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 B</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 KiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 KiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 MiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 MiB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%L1 GiB</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1 GiB</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>%p% - %1 of %2 downloaded - %3/s</source>
-        <translation type="unfinished"></translation>
+        <translation>%p% - %1 af %2 overført - %3/s</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>unknown size - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>ukendt størrelse - %1 overført - %2/s</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>completed - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>fuldført - %1 overført - %2/s</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>cancelled - %1 downloaded - %2/s</source>
-        <translation type="unfinished"></translation>
+        <translation>annulleret - %1 overført - %2/s</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>interrupted: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>afbrudt: %1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Stop downloading</source>
-        <translation type="unfinished"></translation>
+        <translation>Stop overførsel</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjern fra liste</translation>
     </message>
 </context>
 <context>
@@ -890,22 +892,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+383"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Programguide</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn programguiden</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Fastgør til gitter</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Snap to grid and angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Fastgør til gitter og vinkel</translation>
     </message>
     <message>
         <source>Ctrl+I</source>
@@ -994,37 +996,37 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Draw shapes: rectangles, ellipses, lines, polylines, arrows, stars, speech bubbles…</source>
-        <translation type="unfinished"></translation>
+        <translation>Tegn former: rektangler, ellipser, linjer, polylinjer, pile, stjerner, talebobler…</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojis og GIF&apos;er</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Put an emoji or a GIF on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Sæt en emoji eller GIF på siden</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Summary, translation, images and more with an AI on the web</source>
-        <translation type="unfinished"></translation>
+        <translation>Resumé, oversættelse, billeder og mere med en AI på nettet</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Målinger</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance, perimeter and area, with a reference drawn on the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Afstand, omkreds og areal med en reference tegnet på skærmen</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1034,7 +1036,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Read the page aloud, from its start, from a word clicked or a rectangle dragged on the text</source>
-        <translation type="unfinished"></translation>
+        <translation>Læs siden højt fra starten, fra et klikket ord eller fra et rektangel trukket hen over teksten</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -1268,70 +1270,70 @@ Do you wish to override the security check and continue ?   </source>
         <location line="-887"/>
         <location line="+6"/>
         <source>Ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjeret, lys baggrund</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjeret, mørk baggrund</translation>
     </message>
     <message>
         <location line="+814"/>
         <source>Open Tutorial</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn vejledning</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open the tutorial web page</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn vejledningens webside</translation>
     </message>
     <message>
         <location line="+9"/>
         <location line="+3"/>
         <source>Reset grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>Nulstil gitterstørrelse</translation>
     </message>
     <message>
         <location line="-1716"/>
         <source>Small Eraser</source>
-        <translation type="unfinished"></translation>
+        <translation>Lille viskelæder</translation>
     </message>
     <message>
         <location line="+45"/>
         <location line="+3"/>
         <source>Color 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Farve 1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Farve 2</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Farve 3</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Farve 4</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+3"/>
         <source>Color 5</source>
-        <translation type="unfinished"></translation>
+        <translation>Farve 5</translation>
     </message>
     <message>
         <location line="+1609"/>
         <location line="+3"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Tegn mellemliggende gitterlinjer</translation>
     </message>
     <message>
         <location line="-184"/>
@@ -1339,7 +1341,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+13"/>
         <location line="+3"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Optag webindhold</translation>
     </message>
     <message>
         <location line="-1773"/>
@@ -1354,42 +1356,42 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+94"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumenttilstand</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Web Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Webtilstand</translation>
     </message>
     <message>
         <location line="+140"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>Board Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Tavletilstand</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1409,34 +1411,34 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+3"/>
         <source>Desktop Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivebordstilstand</translation>
     </message>
     <message>
         <location line="+182"/>
         <source>Add to document</source>
-        <translation type="unfinished"></translation>
+        <translation>Føj til dokument</translation>
     </message>
     <message>
         <location line="+318"/>
         <location line="+6"/>
         <source>Seyes ruled Light Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Seyes-linjeret, lys baggrund</translation>
     </message>
     <message>
         <location line="+70"/>
         <location line="+6"/>
         <source>Seyes ruled Dark Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Seyes-linjeret, mørk baggrund</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location line="+505"/>
         <source>Import one or more pages (supported formats : jpg, png, svg, ubz, pdf)</source>
-        <translation type="unfinished"></translation>
+        <translation>Importer en eller flere sider (formater: jpg, png, svg, ubz, pdf)</translation>
     </message>
     <message>
         <source>Add to favorites</source>
@@ -1445,12 +1447,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+239"/>
         <source>Add Document to favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>Føj dokument til favoritter</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Favorite</source>
-        <translation type="unfinished"></translation>
+        <translation>Favorit</translation>
     </message>
 </context>
 <context>
@@ -1473,12 +1475,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-36"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikon</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
@@ -1504,17 +1506,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/adaptors/UBSvgSubsetAdaptor.cpp" line="+252"/>
         <source>Loading scene (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Indlæser scene (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBSceneCache.cpp" line="+243"/>
         <source>Moving cached scenes (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytter cachelagrede scener (%1/%2)</translation>
     </message>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+46"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Fælles</translation>
     </message>
     <message>
         <location filename="../../src/board/UBComments.cpp" line="+153"/>
@@ -1557,22 +1559,22 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBBarStyle.cpp" line="+96"/>
         <source>Bar style</source>
-        <translation type="unfinished"></translation>
+        <translation>Bjælkens stil</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The style of the tool palettes, on the board and on the desktop. The palettes change at once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Værktøjspaletternes stil på tavlen og skrivebordet. Paletterne ændres med det samme.</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Color inside</source>
-        <translation type="unfinished"></translation>
+        <translation>Indvendig farve</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Color of the edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Kantfarve</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1582,17 +1584,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+2"/>
         <source>Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Hjørner</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvadrat</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>Rund</translation>
     </message>
 </context>
 <context>
@@ -1638,77 +1640,77 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="+747"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Resumé</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, summarized by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>En del af siden, eller hele, opsummeret af AI&apos;en</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Oversættelse</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page, or all of it, translated by the AI into the language chosen</source>
-        <translation type="unfinished"></translation>
+        <translation>En del af siden, eller hele, oversat af AI&apos;en til det valgte sprog</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Create image</source>
-        <translation type="unfinished"></translation>
+        <translation>Opret billede</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>An image made by the AI from what you write</source>
-        <translation type="unfinished"></translation>
+        <translation>Et billede, som AI&apos;en laver ud fra det, du skriver</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove background</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjern baggrund</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A picture without its background, made by the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Et billede uden baggrund, lavet af AI&apos;en</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erase</source>
-        <translation type="unfinished"></translation>
+        <translation>Generativ sletning</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Something erased from a picture by the AI, as if it had never been there</source>
-        <translation type="unfinished"></translation>
+        <translation>Noget, AI&apos;en har slettet fra et billede, som om det aldrig havde været der</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Transskriber</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Asks for an audio and gives it to the AI, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Beder om lyd og giver den til AI&apos;en, der skriver det sagte</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn AI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Opens or closes the page of the AI at the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbner eller lukker AI&apos;ens side til højre</translation>
     </message>
 </context>
 <context>
@@ -1716,202 +1718,202 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBAiPanel.cpp" line="+164"/>
         <source>Drag over the part of the page to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Træk hen over den del af siden, AI&apos;en skal have. Esc: annuller.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag over the part of the screen to give to the AI. Escape: cancel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Træk hen over den del af skærmen, AI&apos;en skal have. Esc: annuller.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Oversættelse</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Detect it</source>
-        <translation type="unfinished"></translation>
+        <translation>Genkend</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Write or choose the languages:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv eller vælg sprogene:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fra:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Til:</translation>
     </message>
     <message>
         <location line="+171"/>
         <source>Put the picture on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Sæt billedet på skrivebordet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the picture on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Sæt billedet på siden</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Put the text on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Sæt teksten på skrivebordet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put the text on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Sæt teksten på siden</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The AI shown; the addresses are in the preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Den viste AI; adresserne findes i indstillingerne</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Close the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Luk AI</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>AI:</source>
-        <translation type="unfinished"></translation>
+        <translation>AI:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Copy instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopier instruktion</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copies the instruction again, to paste it with Ctrl+V in the box of the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopierer instruktionen igen, så den kan indsættes med Ctrl+V i AI&apos;ens felt</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Paste on the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Indsæt på siden</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Paste on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Indsæt på skrivebordet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Puts on the page what was copied in the AI: a text, or a picture with its right click, Copy image. The right click on a picture or a selected text of the AI can also put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sætter det, der blev kopieret i AI&apos;en, på siden: en tekst eller et billede med højreklik, Kopier billede. Højreklik på et billede eller en markeret tekst i AI&apos;en kan også sætte det der.</translation>
     </message>
     <message>
         <location line="+405"/>
         <source>Right click on a picture or a text of the AI to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Højreklik på et billede eller en tekst fra AI&apos;en for at sætte det på skrivebordet.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drag a text or a picture of the AI to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Træk en tekst eller et billede fra AI&apos;en til siden, eller højreklik for at sætte det der.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Right click on the answer to put it on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Instruktionen er skrevet i AI&apos;en og også kopieret: Ctrl+V indsætter den. Højreklik på svaret for at sætte det på skrivebordet.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The instruction is written in the AI and also copied: Ctrl+V pastes it. Drag the answer to the page, or right click on it to put it there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Instruktionen er skrevet i AI&apos;en og også kopieret: Ctrl+V indsætter den. Træk svaret til siden, eller højreklik for at sætte det der.</translation>
     </message>
     <message>
         <location line="+305"/>
         <source>The picture could not be taken from the AI: right click on it and choose to put it on the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Billedet kunne ikke hentes fra AI&apos;en: højreklik på det, og vælg at sætte det på siden.</translation>
     </message>
     <message>
         <location line="-675"/>
         <source>Drag to make the panel wider</source>
-        <translation type="unfinished"></translation>
+        <translation>Træk for at gøre panelet bredere</translation>
     </message>
     <message>
         <location line="+129"/>
         <source>The picture of the AI is on the page; it is also in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>AI&apos;ens billede er på siden; det er også i %1</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Downloaded: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Overført: %1</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>Create an image</source>
-        <translation type="unfinished"></translation>
+        <translation>Opret et billede</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generative erasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Generativ sletning</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Describe the image to create:</source>
-        <translation type="unfinished"></translation>
+        <translation>Beskriv billedet, der skal oprettes:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>What should the AI erase from the picture?</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvad skal AI&apos;en slette fra billedet?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Summarize the attached document in clear words: first the main idea in two or three sentences, then the important points as a list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opsummer det vedhæftede dokument med klare ord: først hovedideen i to-tre sætninger, derefter de vigtige punkter som en liste.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Translate the text of the attached file into %1. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oversæt teksten i den vedhæftede fil til %1. Behold rækkefølgen og overskrifterne, og giv kun oversættelsen.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Translate the text of the attached file from %1 into %2. Keep its order and its titles, and give only the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oversæt teksten i den vedhæftede fil fra %1 til %2. Behold rækkefølgen og overskrifterne, og giv kun oversættelsen.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Create an image: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Opret et billede: %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the background of the attached image and give me the result as a PNG image with a transparent background, of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjern baggrunden fra det vedhæftede billede, og giv mig resultatet som et PNG-billede med gennemsigtig baggrund i samme størrelse.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>In the attached image, erase this: %1. Fill its place so that it looks natural, as if it had never been there, and give me the result as an image of the same size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Slet dette i det vedhæftede billede: %1. Udfyld stedet naturligt, som om det aldrig havde været der, og giv mig resultatet som et billede i samme størrelse.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Transcribe the attached audio word by word. When several people speak, mark who speaks. Give only the text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Transskriber den vedhæftede lyd ord for ord. Når flere taler, så angiv, hvem der taler. Giv kun teksten.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Audio to transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Lyd til transskription</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Lyd</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1920,49 +1922,49 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+17"/>
         <location line="+139"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location line="-169"/>
         <source>What should be given to the AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvad skal AI&apos;en have?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A part of the page</source>
-        <translation type="unfinished"></translation>
+        <translation>En del af siden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The whole page</source>
-        <translation type="unfinished"></translation>
+        <translation>Hele siden</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The whole PDF or board</source>
-        <translation type="unfinished"></translation>
+        <translation>Hele PDF&apos;en eller tavlen</translation>
     </message>
     <message>
         <location line="-14"/>
         <location line="+25"/>
         <location line="+17"/>
         <source>The file for the AI could not be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen til AI&apos;en kunne ikke oprettes.</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>If the AI did not take the file, drag it from here to the AI</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis AI&apos;en ikke tog filen, så træk den herfra til AI&apos;en</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>It seems that the free uses of %1 are over for now. Do the same with another AI?</source>
-        <translation type="unfinished"></translation>
+        <translation>Det ser ud til, at de gratis forbrug af %1 er opbrugt for nu. Gør det samme med en anden AI?</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Stay here</source>
-        <translation type="unfinished"></translation>
+        <translation>Bliv her</translation>
     </message>
 </context>
 <context>
@@ -1980,7 +1982,7 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+48"/>
         <location line="+250"/>
         <source>Cannot open your UBX file directly. Please import it in Documents mode instead</source>
-        <translation type="unfinished"></translation>
+        <translation>UBX-filen kan ikke åbnes direkte. Importer den i dokumenttilstand</translation>
     </message>
 </context>
 <context>
@@ -2054,7 +2056,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Skabeloner</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2064,47 +2066,47 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+19"/>
         <source>Grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>Gitterstørrelse</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Draw intermediate grid lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Tegn mellemliggende gitterlinjer</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Date of the calendars</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalendernes dato</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The calendars and planners are made for this day, its week, its month or its year</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalenderne og planlæggerne laves til denne dag, dens uge, måned eller år</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Weeks start on Sunday</source>
-        <translation type="unfinished"></translation>
+        <translation>Ugen starter søndag</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The calendars start their weeks on Monday, or on Sunday when this is ticked</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalenderne starter ugen mandag, eller søndag når dette er markeret</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>%1, for the date chosen above</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, for datoen valgt ovenfor</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>On a page of a PDF, the template goes on a new page after it.</source>
-        <translation type="unfinished"></translation>
+        <translation>På en side i en PDF kommer skabelonen på en ny side efter den.</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjernes farve</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2114,7 +2116,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+45"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Rulleretning</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2129,17 +2131,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Vandret med 2 sider</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Lodret med 2 sider</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The pages one under the other, one beside the other, or two by two as an open notebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Siderne under hinanden, ved siden af hinanden eller to og to som et opslået hæfte</translation>
     </message>
 </context>
 <context>
@@ -2202,7 +2204,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+402"/>
         <source>The GIF could not be found on its page. Try another one.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF&apos;en blev ikke fundet på sin side. Prøv en anden.</translation>
     </message>
     <message>
         <location line="+200"/>
@@ -2240,17 +2242,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+377"/>
         <source>Saving document...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemmer dokument...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Document has just been saved...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentet er lige blevet gemt...</translation>
     </message>
     <message>
         <location line="+427"/>
         <source>Deleting page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sletter side %1</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -2260,12 +2262,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+1282"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Uden titel</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Could not find document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentet blev ikke fundet.</translation>
     </message>
 </context>
 <context>
@@ -2364,12 +2366,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+834"/>
         <source>Is it for Board or Widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Er det til tavlen eller til widgetten?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you trying to drop the object(s) inside the widget ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Prøver du at slippe objektet/objekterne i widgetten?</translation>
     </message>
 </context>
 <context>
@@ -2552,12 +2554,12 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location filename="../../src/gui/UBDictation.cpp" line="+83"/>
         <source>Dictate</source>
-        <translation type="unfinished">Dikter</translation>
+        <translation>Dikter</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The dictation of the system is not available here. On Windows, press Windows + H in a text.</source>
-        <translation type="unfinished">Systemets diktering er ikke tilgængelig her. I Windows trykkes Windows + H i en tekst.</translation>
+        <translation>Systemets diktering er ikke tilgængelig her. I Windows skal du trykke på Windows + H i en tekst.</translation>
     </message>
 </context>
 <context>
@@ -2591,13 +2593,13 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+12"/>
         <location line="+856"/>
         <source>Opening document in Board. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbner dokumentet på tavlen. Vent venligst...</translation>
     </message>
     <message>
         <location line="-850"/>
         <location line="+856"/>
         <source>Document opened successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentet er åbnet</translation>
     </message>
     <message>
         <location line="-802"/>
@@ -2623,17 +2625,17 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1250"/>
         <source>Master Board could not recover this file. Please delete it or contact your administrator for help</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board kunne ikke gendanne denne fil. Slet den, eller bed din administrator om hjælp</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Broken document</source>
-        <translation type="unfinished"></translation>
+        <translation>Beskadiget dokument</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis ikke igen</translation>
     </message>
     <message>
         <location line="+1161"/>
@@ -2706,115 +2708,115 @@ Do you wish to override the security check and continue ?   </source>
         <location line="+667"/>
         <source>duplicated %1 page</source>
         <comment>duplicated %1 pages</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 side dubleret</numerusform>
+            <numerusform>%1 side dubleret</numerusform>
         </translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Complete deletion of %1 documents/folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuldstændig sletning af %1 dokumenter/mapper</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete %1 documents and/or folders. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at slette %1 dokumenter og/eller mapper permanent. Er du sikker?</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Complete deletion of folder &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuldstændig sletning af mappen &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete folder &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at slette mappen &quot;%1&quot; permanent. Er du sikker?</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Complete deletion of document &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuldstændig sletning af dokumentet &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to permanantly delete document &quot;%1&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at slette dokumentet &quot;%1&quot; permanent. Er du sikker?</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Emptying My Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Tømmer Mine dokumenter</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the folder &quot;My Documents&quot;. All your documents will be moved to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at tømme mappen &quot;Mine dokumenter&quot; helt. Alle dine dokumenter flyttes til papirkurven. Er du sikker?</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Emptying Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Tømmer papirkurven</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to entirely empty the trash. All documents and folders in it will be permanently deleted. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at tømme papirkurven helt. Alle dokumenter og mapper i den slettes permanent. Er du sikker?</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Moving %1 elements to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytter %1 elementer til papirkurven</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move %1 documents and/or folders to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at flytte %1 dokumenter og/eller mapper til papirkurven. Er du sikker?</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Move folder &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Flyt mappen &quot;%1&quot; til papirkurven</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move folder &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at flytte mappen &quot;%1&quot; til papirkurven. Er du sikker?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Move document &quot;%1&quot;to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Flyt dokumentet &quot;%1&quot; til papirkurven</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to move document &quot;%1&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at flytte dokumentet &quot;%1&quot; til papirkurven. Er du sikker?</translation>
     </message>
     <message>
         <location line="+352"/>
         <source>Open Supported File(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn understøttede filer</translation>
     </message>
     <message>
         <location filename="../../src/document/UBDocument.cpp" line="+64"/>
         <source>Moving %1 pages of the document &quot;%2&quot; to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytter %1 sider af dokumentet &quot;%2&quot; til papirkurven</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>You are about to move %1 pages of the document &quot;%2&quot; to trash. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at flytte %1 sider af dokumentet &quot;%2&quot; til papirkurven. Er du sikker?</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Remove page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjern side %1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are about to remove page %1 of the document &quot;%2&quot;. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du er ved at fjerne side %1 af dokumentet &quot;%2&quot;. Er du sikker?</translation>
     </message>
 </context>
 <context>
@@ -2847,7 +2849,7 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="+85"/>
         <source>Creating %1 pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Opretter %1 sider. Vent venligst...</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -2896,14 +2898,16 @@ Do you wish to override the security check and continue ?   </source>
     <message>
         <location line="-1"/>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstat</translation>
     </message>
     <message>
         <location line="+80"/>
         <source>The name %1 is allready used.
 Keeping this name will replace the document.
 Providing a new name will create a new document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Navnet %1 er allerede i brug.
+Hvis du beholder navnet, erstattes dokumentet.
+Et nyt navn opretter et nyt dokument.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -2913,17 +2917,17 @@ Providing a new name will create a new document.</source>
     <message>
         <location line="+29"/>
         <source>Replace all</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstat alle</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Spring over</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Skip all</source>
-        <translation type="unfinished"></translation>
+        <translation>Spring alle over</translation>
     </message>
 </context>
 <context>
@@ -2983,15 +2987,15 @@ Providing a new name will create a new document.</source>
     <message numerus="yes">
         <location line="+383"/>
         <source>%1 pages copied</source>
-        <translation type="unfinished">
-            <numerusform>%1 side kopieret</numerusform>
+        <translation>
+            <numerusform>%1 sider kopieret</numerusform>
             <numerusform>%1 sider kopieret</numerusform>
         </translation>
     </message>
     <message>
         <location line="-387"/>
         <source>My documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Mine dokumenter</translation>
     </message>
 </context>
 <context>
@@ -2999,8 +3003,8 @@ Providing a new name will create a new document.</source>
     <message numerus="yes">
         <location line="+1328"/>
         <source>%1 pages copied</source>
-        <translation type="unfinished">
-            <numerusform>%1 side kopieret</numerusform>
+        <translation>
+            <numerusform>%1 sider kopieret</numerusform>
             <numerusform>%1 sider kopieret</numerusform>
         </translation>
     </message>
@@ -3033,7 +3037,7 @@ Providing a new name will create a new document.</source>
     <message>
         <location filename="../../src/document/UBDocumentVersionConverter.cpp" line="+69"/>
         <source>This document was created using OpenBoard 1.8</source>
-        <translation type="unfinished"></translation>
+        <translation>Dette dokument blev oprettet med OpenBoard 1.8</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3042,7 +3046,11 @@ Providing a new name will create a new document.</source>
 If you wish to continue, the document will be converted to be compatible with version 1.7.7. This may take a few minutes. You will still be able to open it in OpenBoard 1.8, but it will then be converted again to the 1.8 format.
 
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Dette dokument blev oprettet med OpenBoard 1.8, og dets indhold er blevet omorganiseret. Vi anbefaler kraftigt at opdatere OpenBoard til version 1.8.
+
+Hvis du fortsætter, konverteres dokumentet, så det er kompatibelt med version 1.7.7. Det kan tage et par minutter. Du kan stadig åbne det i OpenBoard 1.8, men så konverteres det igen til 1.8-formatet.
+
+Vil du fortsætte?</translation>
     </message>
 </context>
 <context>
@@ -3118,7 +3126,8 @@ Do you want to continue?</source>
         <location line="-71"/>
         <source>Application name can`t contain any of the following characters:<byte value="xd"/>
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Programnavnet må ikke indeholde nogen af følgende tegn:&lt;byte value=&quot;xd&quot;/&gt;
+</translation>
     </message>
 </context>
 <context>
@@ -3126,27 +3135,27 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBToolOptionsPanel.cpp" line="-1202"/>
         <source>Emojis and GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojis og GIF&apos;er</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>Emojis</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF&apos;er</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>GIFs: opens the page of klipy.com beside the board, without an account; drag a GIF from it to the page. A second click on GIFs closes it.</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF&apos;er: åbner klipy.com-siden ved siden af tavlen, uden konto; træk en GIF derfra til siden. Et andet klik på GIF&apos;er lukker den.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Drag a GIF from the window of the GIFs to the page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Træk en GIF fra GIF-vinduet til siden.</translation>
     </message>
     <message>
         <source>Save</source>
@@ -3155,7 +3164,7 @@ Do you want to continue?</source>
     <message>
         <location line="+5"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3188,7 +3197,7 @@ Do you want to continue?</source>
     <message>
         <location line="+3"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3221,17 +3230,17 @@ Do you want to continue?</source>
     <message>
         <location line="-16"/>
         <source>Export failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksport mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unable to export to the selected location. You do not have the permissions necessary to save the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan ikke eksportere til den valgte placering. Du har ikke tilladelse til at gemme filen.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Export failed: location not writable</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksport mislykkedes: placeringen kan ikke skrives til</translation>
     </message>
 </context>
 <context>
@@ -3306,13 +3315,13 @@ Do you want to continue?</source>
         <location line="-32"/>
         <location line="+9"/>
         <source>Failed to export...</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksport mislykkedes...</translation>
     </message>
     <message>
         <location line="-6"/>
         <location line="+13"/>
         <source>Export as UBX File</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksporter som UBX-fil</translation>
     </message>
     <message>
         <location line="+62"/>
@@ -3336,7 +3345,7 @@ Do you want to continue?</source>
         <location line="-56"/>
         <location line="+14"/>
         <source>The original PDF imported in Master Board seems not valid and could not be merged with your annotations. Please repair it and then reimport it in Master Board. The current export will be done with detailed (heavy) images of the pages of the original PDF instead, to avoid complete export failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den oprindelige PDF, der er importeret i Master Board, ser ugyldig ud og kunne ikke flettes med dine noter. Reparer den, og importer den igen. Denne eksport laves med detaljerede (tunge) billeder af den oprindelige PDF&apos;s sider for at undgå en fuldstændig fejl.</translation>
     </message>
 </context>
 <context>
@@ -3542,12 +3551,12 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/gui/UBGifWindow.cpp" line="+66"/>
         <source>GIFs of klipy.com: drag one to the page</source>
-        <translation type="unfinished"></translation>
+        <translation>GIF&apos;er fra klipy.com: træk én til siden</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close the GIFs</source>
-        <translation type="unfinished"></translation>
+        <translation>Luk GIF&apos;erne</translation>
     </message>
 </context>
 <context>
@@ -3555,7 +3564,7 @@ Do you want to continue?</source>
     <message>
         <location filename="../../src/core/UBGitHubUpdater.cpp" line="+88"/>
         <source>You are using Master Board %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du bruger Master Board %1.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3598,14 +3607,18 @@ Hent og installér nu? Master Board gemmer dine dokumenter, lukker og åbner ige
         <source>A new version of Master Board is available (%1).
 
 Open its page to download it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Der er en ny version af Master Board (%1).
+
+Åbn siden for at hente den?</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>A new version of Master Board is available (%1).
 
 Download and install it now? Master Board saves your documents, closes and opens again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der er en ny version af Master Board (%1).
+
+Hent og installer den nu? Master Board gemmer dine dokumenter, lukker og åbner igen.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3666,7 +3679,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Skjul på udvidet skærm, når den er valgt</translation>
     </message>
 </context>
 <context>
@@ -3707,17 +3720,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+16"/>
         <source>Set as background</source>
-        <translation type="unfinished">Brug som baggrund</translation>
+        <translation>Brug som baggrund</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>Webinspektør</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Hide on Extended Screen when selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Skjul på udvidet skærm, når den er valgt</translation>
     </message>
     <message>
         <location line="-599"/>
@@ -3727,12 +3740,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+14"/>
         <source>Layer up</source>
-        <translation type="unfinished"></translation>
+        <translation>Et lag op</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Layer down</source>
-        <translation type="unfinished"></translation>
+        <translation>Et lag ned</translation>
     </message>
 </context>
 <context>
@@ -3740,23 +3753,23 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/domain/UBGraphicsMediaItem.cpp" line="+490"/>
         <source>Media resource couldn&apos;t be resolved</source>
-        <translation type="unfinished"></translation>
+        <translation>Medieressourcen kunne ikke findes</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unsupported media format</source>
-        <translation type="unfinished"></translation>
+        <translation>Medieformat understøttes ikke</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Media playback service not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Medieafspilningstjenesten blev ikke fundet</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+3"/>
         <source>Media error: </source>
-        <translation type="unfinished"></translation>
+        <translation>Mediefejl: </translation>
     </message>
 </context>
 <context>
@@ -3777,7 +3790,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/tools/UBGraphicsProtractor.cpp" line="+535"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>brug piletasterne til præcise flytninger</translation>
     </message>
 </context>
 <context>
@@ -3786,7 +3799,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsRuler.cpp" line="+167"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>brug piletasterne til præcise flytninger</translation>
     </message>
 </context>
 <context>
@@ -3844,87 +3857,87 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+393"/>
         <source>Insert a table...</source>
-        <translation type="unfinished"></translation>
+        <translation>Indsæt en tabel...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Add a row</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilføj en række</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a column</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilføj en kolonne</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the row</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjern rækken</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove the column</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjern kolonnen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Columns as wide</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolonner af samme bredde</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Table style</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabelstil</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Highlight the header row</source>
-        <translation type="unfinished"></translation>
+        <translation>Fremhæv overskriftsrækken</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Highlight the first column</source>
-        <translation type="unfinished"></translation>
+        <translation>Fremhæv første kolonne</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>All the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle linjer</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Horizontal lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vandrette linjer</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Outer lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Yderlinjer</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen linjer</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Color of the lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjernes farve...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjernes farve</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Width of the lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjernes tykkelse</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Thin</source>
-        <translation type="unfinished"></translation>
+        <translation>Tynd</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3934,32 +3947,32 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+0"/>
         <source>Thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyk</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Very thick</source>
-        <translation type="unfinished"></translation>
+        <translation>Meget tyk</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Color of the cells...</source>
-        <translation type="unfinished"></translation>
+        <translation>Cellernes farve...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color of the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Cellernes farve</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No color in the cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen farve i cellerne</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Remove the table</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjern tabellen</translation>
     </message>
 </context>
 <context>
@@ -3968,7 +3981,7 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location filename="../../src/tools/UBGraphicsTriangle.cpp" line="+449"/>
         <location line="+4"/>
         <source>use arrow keys for precise moves</source>
-        <translation type="unfinished"></translation>
+        <translation>brug piletasterne til præcise flytninger</translation>
     </message>
 </context>
 <context>
@@ -4005,7 +4018,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBHandwriting.cpp" line="+229"/>
         <source>Convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Konverter håndskrift</translation>
     </message>
 </context>
 <context>
@@ -4072,7 +4085,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/adaptors/UBImportDocumentSetAdaptor.cpp" line="+71"/>
         <source>Openboard (set of documents) (*.ubx)</source>
-        <translation type="unfinished"></translation>
+        <translation>Openboard (dokumentsæt) (*.ubx)</translation>
     </message>
 </context>
 <context>
@@ -4098,7 +4111,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+6"/>
         <source>Importing %1 PDF pages. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Importerer %1 PDF-sider. Vent venligst...</translation>
     </message>
     <message>
         <source>Importing page %1 of %2</source>
@@ -4131,17 +4144,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="+728"/>
         <source>Click here and press the keys of the new shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik her og tryk på tasterne til den nye genvej</translation>
     </message>
     <message>
         <location line="+91"/>
         <source>Press the keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryk på tasterne...</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Click here and press the keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik her og tryk på tasterne</translation>
     </message>
 </context>
 <context>
@@ -4183,7 +4196,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4428,7 +4441,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+8"/>
         <source>Multiscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Flere skærme</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -4448,12 +4461,12 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+2"/>
         <source>Canvas measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mål på lærredet</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rulers in pixels at the top and at the left of the page, from 0 at its top left corner</source>
-        <translation type="unfinished"></translation>
+        <translation>Linealer i pixel øverst og til venstre for siden, fra 0 i øverste venstre hjørne</translation>
     </message>
     <message>
         <source>Read and dictate</source>
@@ -4483,17 +4496,17 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+21"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Værktøjer</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tilpas</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Genveje</translation>
     </message>
     <message>
         <source>Creator</source>
@@ -4533,18 +4546,18 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="-7"/>
         <location line="+40"/>
         <source>Unlock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås PDF op</translation>
     </message>
     <message>
         <location line="-40"/>
         <location line="+40"/>
         <source>Lock PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås PDF</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Lock the PDF: nothing can be drawn, written, highlighted, selected, moved or deleted; the laser pointer and the hand still work</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås PDF&apos;en: intet kan tegnes, skrives, fremhæves, markeres, flyttes eller slettes; laserpointeren og hånden virker stadig</translation>
     </message>
     <message>
         <source>Dictate</source>
@@ -4591,17 +4604,17 @@ Download and install it now? Master Board saves your documents, closes and opens
         <location line="+8"/>
         <location line="+15"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Om Master Board</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Dark mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mørk tilstand</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Shows the pages with their colors inverted, to read at night without glare</source>
-        <translation type="unfinished"></translation>
+        <translation>Viser siderne med omvendte farver, så du kan læse om natten uden at blive blændet</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -4695,7 +4708,7 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+10"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4737,37 +4750,37 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location line="+407"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Målinger</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Afstand</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length of a line dragged from one end to the other</source>
-        <translation type="unfinished"></translation>
+        <translation>Længden af en linje trukket fra den ene ende til den anden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Omkreds</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The length around a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Længden rundt om en form: et klik ved hvert hjørne, dobbeltklik ved det sidste</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Areal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The surface of a shape: a click at each corner, a double click at the last one</source>
-        <translation type="unfinished"></translation>
+        <translation>Arealet af en form: et klik ved hvert hjørne, dobbeltklik ved det sidste</translation>
     </message>
 </context>
 <context>
@@ -4775,133 +4788,133 @@ Download and install it now? Master Board saves your documents, closes and opens
     <message>
         <location filename="../../src/gui/UBMeasureTool.cpp" line="+130"/>
         <source>End the measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Afslut målingerne</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Choose the unit. Then draw a line that measures 1 of that unit: the measures are made with that reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vælg enheden. Tegn derefter en linje, der måler 1 af den enhed: målingerne foretages med den reference.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Metric</source>
-        <translation type="unfinished"></translation>
+        <translation>Metrisk</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imperial</source>
-        <translation type="unfinished"></translation>
+        <translation>Imperialt</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>millimeter (mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>millimeter (mm)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>centimeter (cm)</source>
-        <translation type="unfinished"></translation>
+        <translation>centimeter (cm)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>meter (m)</source>
-        <translation type="unfinished"></translation>
+        <translation>meter (m)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>kilometer (km)</source>
-        <translation type="unfinished"></translation>
+        <translation>kilometer (km)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>inch (in)</source>
-        <translation type="unfinished"></translation>
+        <translation>tomme (in)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>foot (ft)</source>
-        <translation type="unfinished"></translation>
+        <translation>fod (ft)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>yard (yd)</source>
-        <translation type="unfinished"></translation>
+        <translation>yard (yd)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>mile (mi)</source>
-        <translation type="unfinished"></translation>
+        <translation>mil (mi)</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortsæt</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Finish measure</source>
-        <translation type="unfinished"></translation>
+        <translation>Afslut måling</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ends the shape at its last corner, as Enter does</source>
-        <translation type="unfinished"></translation>
+        <translation>Afslutter formen ved det sidste hjørne, ligesom Enter</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move the corners of the shape; Enter or Finish measure ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Flyt formens hjørner; Enter eller Afslut måling afslutter</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Genstart</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose the unit and draw the reference again</source>
-        <translation type="unfinished"></translation>
+        <translation>Vælg enheden, og tegn referencen igen</translation>
     </message>
     <message>
         <location line="+498"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Afstand</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Click at the start and at the end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik ved starten og ved slutningen.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Click at the start and at the end of a line that measures 1 %1: it is the reference of the measures.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik ved starten og slutningen af en linje, der måler 1 %1: den er målingernes reference.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Drag the corners; Enter or Finish measure ends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Træk hjørnerne; Enter eller Afslut måling afslutter.</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Omkreds</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+4"/>
         <source>Click at each corner; double click at the last one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik ved hvert hjørne; dobbeltklik ved det sidste.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Areal</translation>
     </message>
 </context>
 <context>
@@ -5258,7 +5271,7 @@ Det kan også gøres senere med Start &gt; Genkend tekst.</translation>
     <message>
         <location filename="../../src/gui/UBPageNavigationWidget.cpp" line="+65"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5268,7 +5281,7 @@ Det kan også gøres senere med Start &gt; Genkend tekst.</translation>
     <message>
         <location line="+4"/>
         <source>Show all the pages, or only the favorite pages, marked with the star of their thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis alle sider, eller kun favoritterne, markeret med miniaturens stjerne</translation>
     </message>
 </context>
 <context>
@@ -5367,7 +5380,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5402,17 +5415,17 @@ Dynamisk bredde</translation>
     <message>
         <location line="+8"/>
         <source>Recognize and convert handwriting</source>
-        <translation type="unfinished"></translation>
+        <translation>Genkend og konverter håndskrift</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>A moment after the pen rests, the words written become a text box of the same size and color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kort efter at pennen stopper, bliver de skrevne ord til et tekstfelt i samme størrelse og farve.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only on Windows, which reads the handwriting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun i Windows, som læser håndskriften.</translation>
     </message>
     <message>
         <source>A line, circle, oval, triangle, square or rectangle drawn by hand becomes a clean one.</source>
@@ -5424,12 +5437,12 @@ Dynamisk bredde</translation>
     <message>
         <location filename="../../src/core/UBPersistenceManager.cpp" line="+267"/>
         <source>Retrieved - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hentet - %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Broken - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Beskadiget - %1</translation>
     </message>
     <message>
         <location line="+468"/>
@@ -5444,17 +5457,17 @@ Dynamisk bredde</translation>
     <message>
         <location line="+0"/>
         <source>Master Board has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board har mistet adgangen til dokumentlageret &apos;%1&apos;. Desværre skal programmet lukke for at undgå beskadigede data. De seneste ændringer kan også gå tabt.</translation>
     </message>
     <message>
         <location line="-247"/>
         <source>Renaming pages (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Omdøber sider (%1/%2)</translation>
     </message>
     <message>
         <location line="-952"/>
         <source>Retrieving all your documents (found : %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Henter alle dine dokumenter (fundet: %1)</translation>
     </message>
 </context>
 <context>
@@ -5599,23 +5612,23 @@ Dynamisk bredde</translation>
     <message>
         <location line="+30"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Referencer</translation>
     </message>
     <message>
         <location line="+25"/>
         <location line="+280"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location line="-271"/>
         <source>The AI that the AI panel can show. Write a name and the address of its page; the first one is shown the first time.</source>
-        <translation type="unfinished"></translation>
+        <translation>De AI&apos;er, som AI-panelet kan vise. Skriv et navn og adressen på dens side; den første vises første gang.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Navn</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5635,23 +5648,23 @@ Dynamisk bredde</translation>
     <message>
         <location line="+1"/>
         <source>Default list</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardliste</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+403"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <location line="-398"/>
         <source>Same as Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Som Windows</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Same as the system</source>
-        <translation type="unfinished"></translation>
+        <translation>Som systemet</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5661,27 +5674,27 @@ Dynamisk bredde</translation>
     <message>
         <location line="+1"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvid</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Grey</source>
-        <translation type="unfinished"></translation>
+        <translation>Grå</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The colors of the menu bar, of the options of the tools and of the zoom. To show a new theme, Master Board restarts by itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>Farverne på menulinjen, værktøjernes indstillinger og zoomen. For at vise et nyt tema genstarter Master Board af sig selv.</translation>
     </message>
     <message>
         <location line="+372"/>
         <source>Master Board will restart to show the new theme. Your documents are saved first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board genstarter for at vise det nye tema. Dokumenterne gemmes først.</translation>
     </message>
     <message>
         <location line="-285"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorier</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -5691,12 +5704,12 @@ Dynamisk bredde</translation>
     <message>
         <location line="+3"/>
         <source>Master Board %1. To look for a new version now: About &gt; Update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board %1. Søg efter en ny version nu: Om &gt; Opdater.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Options bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Indstillingsbjælke</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5706,32 +5719,32 @@ Dynamisk bredde</translation>
     <message>
         <location line="+14"/>
         <source>General settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Generelle indstillinger</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Udseende</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pen and toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Pen og værktøjslinje</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Screens and desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Skærme og skrivebord</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Documents and PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumenter og PDF</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Artificial intelligence</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunstig intelligens</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5751,7 +5764,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="+0"/>
         <source>About Master Board</source>
-        <translation type="unfinished"></translation>
+        <translation>Om Master Board</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -5819,7 +5832,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="-246"/>
         <source>Use all available displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Brug alle tilgængelige skærme</translation>
     </message>
 </context>
 <context>
@@ -6139,7 +6152,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="+2"/>
         <source>Arrow: select with a rectangle. Lasso: select by drawing a free line around the objects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pil: marker med et rektangel. Lasso: marker ved at tegne en fri linje rundt om objekterne.</translation>
     </message>
     <message>
         <source>Select with a rectangle again</source>
@@ -6207,7 +6220,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="+18"/>
         <source>The shape to draw. The polyline: a click for each corner, any key to end it, Escape to drop it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Formen, der skal tegnes. Polylinjen: et klik for hvert hjørne, en vilkårlig tast for at slutte, Esc for at kassere.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6233,7 +6246,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="-1"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -6310,7 +6323,7 @@ Dynamisk bredde</translation>
     <message>
         <location filename="../../src/core/UBShortcutManager.cpp" line="+74"/>
         <source>Common</source>
-        <translation type="unfinished"></translation>
+        <translation>Fælles</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -6327,12 +6340,12 @@ Dynamisk bredde</translation>
     <message>
         <location line="+2"/>
         <source>Lines and colours</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjer og farver</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Baggrund</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -6342,82 +6355,82 @@ Dynamisk bredde</translation>
     <message>
         <location line="+23"/>
         <source>First scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Første scene</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show first scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis første scene</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Sidste scene</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show last scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis sidste scene</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Zoom reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Nulstil zoom</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom factor</source>
-        <translation type="unfinished"></translation>
+        <translation>Nulstil zoomfaktor</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll left</source>
-        <translation type="unfinished"></translation>
+        <translation>Rul til venstre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page left</source>
-        <translation type="unfinished"></translation>
+        <translation>Side til venstre</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll right</source>
-        <translation type="unfinished"></translation>
+        <translation>Rul til højre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page right</source>
-        <translation type="unfinished"></translation>
+        <translation>Side til højre</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll up</source>
-        <translation type="unfinished"></translation>
+        <translation>Rul op</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page up</source>
-        <translation type="unfinished"></translation>
+        <translation>Side op</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Scroll down</source>
-        <translation type="unfinished"></translation>
+        <translation>Rul ned</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scroll page down</source>
-        <translation type="unfinished"></translation>
+        <translation>Side ned</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Built-in (not editable)</source>
-        <translation type="unfinished"></translation>
+        <translation>Indbygget (kan ikke redigeres)</translation>
     </message>
     <message>
         <location line="+173"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommando</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6427,17 +6440,17 @@ Dynamisk bredde</translation>
     <message>
         <location line="+3"/>
         <source>Key Sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastsekvens</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Museknap</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tablet Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabletknap</translation>
     </message>
     <message>
         <location line="+151"/>
@@ -6455,7 +6468,7 @@ Dynamisk bredde</translation>
         <location line="+1"/>
         <source>Middle</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Midte</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6473,7 +6486,7 @@ Dynamisk bredde</translation>
         <location line="+1"/>
         <source>Task</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Opgave</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6499,7 +6512,7 @@ Dynamisk bredde</translation>
         <location line="+1"/>
         <source>Extra</source>
         <comment>MouseButton</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ekstra tyk</translation>
     </message>
 </context>
 <context>
@@ -6507,37 +6520,37 @@ Dynamisk bredde</translation>
     <message>
         <location filename="../../src/gui/UBShortcutsDialog.cpp" line="-667"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Genveje</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Choose a function, press the new keys in the box below and click Assign.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vælg en funktion, tryk på de nye taster i feltet nedenfor, og klik på Tildel.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Search a function...</source>
-        <translation type="unfinished"></translation>
+        <translation>Søg efter en funktion...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktion</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Genvej</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>New shortcut:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny genvej:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Tildel</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6547,53 +6560,53 @@ Dynamisk bredde</translation>
     <message>
         <location line="+1"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Gives back the shortcut that this function had at first</source>
-        <translation type="unfinished"></translation>
+        <translation>Giver denne funktion dens første genvej tilbage</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+508"/>
         <source>Restore all</source>
-        <translation type="unfinished"></translation>
+        <translation>Gendan alle</translation>
     </message>
     <message>
         <location line="-507"/>
         <source>Gives back the first shortcuts to all the functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Giver alle funktioner deres første genveje tilbage</translation>
     </message>
     <message>
         <location line="+152"/>
         <source>Buttons beside the menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Knapper ved menuerne</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Tools of the board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Tavlens / PDF&apos;ens værktøjer</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tools of the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivebordets værktøjer</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pages and board</source>
-        <translation type="unfinished"></translation>
+        <translation>Sider og tavle</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>no keys were pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>der blev ikke trykket på nogen taster.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>the Windows key is kept by Windows for its own shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-tasten er forbeholdt Windows til dets egne genveje.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6602,32 +6615,32 @@ Dynamisk bredde</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to change between the open windows.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bruger den til at skifte mellem åbne vinduer.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to close the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bruger den til at lukke vinduet.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bruger den til at åbne vinduets menu.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Start menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bruger den til at åbne menuen Start.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the Task Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bruger den til at åbne Jobliste.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open its security screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bruger den til at åbne sikkerhedsskærmen.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6635,12 +6648,12 @@ Dynamisk bredde</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Windows uses it to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bruger den til skærmbilleder.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Windows uses it to open the menu of the right click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows bruger den til at åbne højreklikmenuen.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6648,70 +6661,70 @@ Dynamisk bredde</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>on many computers it turns the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>på mange computere drejer den skærmen.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>this key is used to write, to move or to delete. Add Ctrl or Alt, or choose a key from F1 to F12.</source>
-        <translation type="unfinished"></translation>
+        <translation>denne tast bruges til at skrive, flytte eller slette. Tilføj Ctrl eller Alt, eller vælg en tast fra F1 til F12.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Ctrl + Alt works as Alt Gr, which writes signs such as @, # or €.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl + Alt virker som Alt Gr, der skriver tegn som @, # eller €.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Master Board uses it to select all the text of a text box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board bruger den til at markere al tekst i et tekstfelt.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Master Board uses it to open the menu «%1».</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board bruger den til at åbne menuen «%1».</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+178"/>
         <source>Master Board already uses it for «%1». Remove it there first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Master Board bruger den allerede til «%1». Fjern den der først.</translation>
     </message>
     <message>
         <location line="-130"/>
         <source>Fixed keys (can not be changed)</source>
-        <translation type="unfinished"></translation>
+        <translation>Faste taster (kan ikke ændres)</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Choose a function in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vælg en funktion på listen.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1: no shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: ingen genvej</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+37"/>
         <source>Shortcut not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Genvej ikke mulig</translation>
     </message>
     <message>
         <location line="-36"/>
         <location line="+37"/>
         <source>%1 can not be used: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kan ikke bruges: %2</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Give back the first shortcuts to all the functions?</source>
-        <translation type="unfinished"></translation>
+        <translation>Giv alle funktioner deres første genveje tilbage?</translation>
     </message>
 </context>
 <context>
@@ -6860,7 +6873,7 @@ Dynamisk bredde</translation>
     <message>
         <location filename="../../src/gui/UBStartupHintsPalette.cpp" line="+75"/>
         <source>Program guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Programguide</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6875,7 +6888,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="+13"/>
         <source>Visible next time</source>
-        <translation type="unfinished"></translation>
+        <translation>Synlig næste gang</translation>
     </message>
 </context>
 <context>
@@ -6883,7 +6896,7 @@ Dynamisk bredde</translation>
     <message>
         <location filename="../../src/gui/UBStrokeStylePanel.cpp" line="+258"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6916,27 +6929,27 @@ Dynamisk bredde</translation>
     <message>
         <location filename="../../src/gui/UBTextBoxes.cpp" line="+120"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabel</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many rows and columns?</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvor mange rækker og kolonner?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Rows</source>
-        <translation type="unfinished"></translation>
+        <translation>Rækker</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolonner</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Indsæt</translation>
     </message>
 </context>
 <context>
@@ -6949,7 +6962,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="+7"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6984,57 +6997,57 @@ Dynamisk bredde</translation>
     <message>
         <location line="+7"/>
         <source>Checklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Tjekliste</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bullets</source>
-        <translation type="unfinished"></translation>
+        <translation>Punkttegn</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Nummerering</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Puts the lines of the text box being written in a list, or takes them out of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Sætter linjerne i tekstfeltet, der skrives i, på en liste, eller tager dem ud</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Click in a text box first, then on the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik først i et tekstfelt og derefter på listen.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabel</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks how many rows and columns, then puts a table in the text box being written, or in a new one</source>
-        <translation type="unfinished"></translation>
+        <translation>Spørger om antal rækker og kolonner og sætter en tabel i tekstfeltet, der skrives i, eller i et nyt</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dictate</source>
-        <translation type="unfinished">Dikter</translation>
+        <translation>Dikter</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Makes a text box and writes in it what you say (the dictation of Windows, Windows + H). In a text box, the microphone left of F does the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opretter et tekstfelt og skriver det, du siger, i det (Windows&apos; diktering, Windows + H). I et tekstfelt gør mikrofonen til venstre for F det samme.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Transcribe</source>
-        <translation type="unfinished"></translation>
+        <translation>Transskriber</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Asks for an audio and gives it to an AI on the web, which writes what is said</source>
-        <translation type="unfinished"></translation>
+        <translation>Beder om lyd og giver den til en AI på nettet, der skriver det sagte</translation>
     </message>
 </context>
 <context>
@@ -7052,7 +7065,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="+48"/>
         <source>Loading thumbnails (%1 pages)</source>
-        <translation type="unfinished"></translation>
+        <translation>Indlæser miniaturer (%1 sider)</translation>
     </message>
 </context>
 <context>
@@ -7060,7 +7073,7 @@ Dynamisk bredde</translation>
     <message>
         <location filename="../../src/gui/UBThumbnailTextItem.cpp" line="+74"/>
         <source>Page %0</source>
-        <translation type="unfinished">Side %0</translation>
+        <translation>Side %0</translation>
     </message>
 </context>
 <context>
@@ -7084,27 +7097,27 @@ Dynamisk bredde</translation>
     <message>
         <location filename="../../src/gui/UBToolbarChoice.cpp" line="+71"/>
         <source>Spotlight / Magnifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Spotlight / Lup</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attach file / Hyperlink</source>
-        <translation type="unfinished"></translation>
+        <translation>Vedhæft fil / Link</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Selector: arrow / lasso</source>
-        <translation type="unfinished"></translation>
+        <translation>Markering: pil / lasso</translation>
     </message>
     <message>
         <location line="+234"/>
         <source>Move items</source>
-        <translation type="unfinished"></translation>
+        <translation>Flyt elementer</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Drag the tools up or down, or use the buttons. Only the tools shown in the palette are listed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Træk værktøjerne op eller ned, eller brug knapperne. Kun værktøjer, der vises i paletten, er på listen.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -7116,42 +7129,42 @@ Dynamisk bredde</translation>
         <location line="-163"/>
         <location line="+164"/>
         <source>Board / PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Tavle / PDF</translation>
     </message>
     <message>
         <location line="-155"/>
         <source>Back to the board: always first</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilbage til tavlen: altid først</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Op</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Ned</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Original order</source>
-        <translation type="unfinished"></translation>
+        <translation>Oprindelig rækkefølge</translation>
     </message>
     <message>
         <location line="+154"/>
         <source>Move items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Flyt elementer...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bar style...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bjælkens stil...</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Scroll direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Rulleretning</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7166,12 +7179,12 @@ Dynamisk bredde</translation>
     <message>
         <location line="+0"/>
         <source>Horizontal in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Vandret med 2 sider</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Vertical in 2 pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Lodret med 2 sider</translation>
     </message>
 </context>
 <context>
@@ -7214,7 +7227,7 @@ Dynamisk bredde</translation>
     <message>
         <location line="-40"/>
         <source>Axes</source>
-        <translation type="unfinished"></translation>
+        <translation>Akser</translation>
     </message>
 </context>
 <context>
@@ -7314,12 +7327,12 @@ Genstart venligst applikationen for at få adgang til de opdaterede dokumenter.<
     <message>
         <location line="+0"/>
         <source>From the click</source>
-        <translation type="unfinished"></translation>
+        <translation>Fra klikket</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it. From the click: click on a word to read from it, then the next pages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fra starten: læser den viste side og derefter de næste. Markeret tekst: træk et rektangel hen over teksten for at læse den. Fra klikket: klik på et ord for at læse derfra, derefter de næste sider.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7339,7 +7352,7 @@ Genstart venligst applikationen for at få adgang til de opdaterede dokumenter.<
     <message>
         <location line="+1"/>
         <source>Next page</source>
-        <translation type="unfinished"></translation>
+        <translation>Næste side</translation>
     </message>
     <message>
         <source>From the start: reads the page shown, then the next pages. Selected text: drag a rectangle over the text to read it.</source>
@@ -7399,7 +7412,7 @@ Genstart venligst applikationen for at få adgang til de opdaterede dokumenter.<
     <message>
         <location filename="../../src/domain/UBWebEngineView.cpp" line="+109"/>
         <source>Open Web Inspector</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn webinspektør</translation>
     </message>
 </context>
 <context>
@@ -7503,7 +7516,7 @@ Genstart venligst applikationen for at få adgang til de opdaterede dokumenter.<
     <message>
         <location filename="../../src/domain/UBGraphicsScene.cpp" line="-1026"/>
         <source>Bottom layer limit reached</source>
-        <translation type="unfinished"></translation>
+        <translation>Nederste lag nået</translation>
     </message>
 </context>
 <context>
@@ -7562,63 +7575,63 @@ Genstart venligst applikationen for at få adgang til de opdaterede dokumenter.<
         <location line="+17"/>
         <location line="+4"/>
         <source>Certificate Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Certifikatfejl</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Indtast brugernavn og adgangskode til &quot;%1&quot; på %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Allow %1 to access your location information?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad %1 at bruge din placering?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad %1 at bruge din mikrofon?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad %1 at bruge dit webkamera?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to access your microphone and webcam?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad %1 at bruge din mikrofon og dit webkamera?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to lock your mouse cursor?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad %1 at låse din musemarkør?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad %1 at optage video af dit skrivebord?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Allow %1 to capture audio and video of your desktop?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad %1 at optage lyd og video af dit skrivebord?</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+47"/>
         <source>Permission Request</source>
-        <translation type="unfinished"></translation>
+        <translation>Anmodning om tilladelse</translation>
     </message>
     <message>
         <location line="-19"/>
         <source>Connect to proxy &quot;%1&quot; using:</source>
-        <translation type="unfinished"></translation>
+        <translation>Forbind til proxy &quot;%1&quot; med:</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Allow %1 to open all %2 links?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillad %1 at åbne alle %2-links?</translation>
     </message>
 </context>
 <context>
@@ -7626,43 +7639,44 @@ Genstart venligst applikationen for at få adgang til de opdaterede dokumenter.<
     <message>
         <location filename="../../src/web/simplebrowser/webview.cpp" line="+107"/>
         <source>Render process normal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Gengivelsesprocessen afsluttede normalt</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process abnormal exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Gengivelsesprocessen afsluttede unormalt</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>Gengivelsesprocessen gik ned</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Render process killed</source>
-        <translation type="unfinished"></translation>
+        <translation>Gengivelsesprocessen blev stoppet</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Render process exited with code: %1
 Do you want to reload the page ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Gengivelsesprocessen afsluttede med kode: %1
+Vil du genindlæse siden?</translation>
     </message>
     <message>
         <location line="+121"/>
         <source>Open Web Inspector in new window</source>
-        <translation type="unfinished"></translation>
+        <translation>Åbn webinspektør i nyt vindue</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Inspect element</source>
-        <translation type="unfinished"></translation>
+        <translation>Inspicer element</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Add to board</source>
-        <translation type="unfinished"></translation>
+        <translation>Føj til tavlen</translation>
     </message>
 </context>
 <context>
@@ -7670,12 +7684,12 @@ Do you want to reload the page ?</source>
     <message>
         <location filename="../../src/pdf/XPDFRenderer.cpp" line="+346"/>
         <source>Processing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Behandler...</translation>
     </message>
     <message>
         <location line="-265"/>
         <source>an error occured while trying to open the PDF file</source>
-        <translation type="unfinished"></translation>
+        <translation>der opstod en fejl ved åbning af PDF-filen</translation>
     </message>
 </context>
 <context>
@@ -7727,12 +7741,16 @@ Do you want to reload the page ?</source>
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:10pt;&quot;&gt;By clicking &apos;Upload,&apos; you certify that you own all rights to the content or that you are authorized by the owner to make the content publicly available on YouTube, and that it otherwise complies with the YouTube Terms of Service located at &lt;/span&gt;&lt;a href=&quot;http://www.youtube.com/t/terms&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.youtube.com/t/terms&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:10pt;&quot;&gt;By clicking &apos;Upload,&apos; you certify that you own all rights to the content or that you are authorized by the owner to make the content publicly available on YouTube, and that it otherwise complies with the YouTube Terms of Service located at &lt;/span&gt;&lt;a href=&quot;http://www.youtube.com/t/terms&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.youtube.com/t/terms&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Restore credentials on reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>Gendan legitimationsoplysninger ved genstart</translation>
     </message>
 </context>
 <context>
@@ -7780,12 +7798,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+451"/>
         <source>Show preview circle from</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis eksempelcirkel fra</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>px</source>
-        <translation type="unfinished"></translation>
+        <translation>px</translation>
     </message>
 </context>
 <context>
@@ -7826,22 +7844,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+64"/>
         <source>Creation date</source>
-        <translation type="unfinished"></translation>
+        <translation>Oprettelsesdato</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Update date</source>
-        <translation type="unfinished"></translation>
+        <translation>Opdateringsdato</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Alphabetical order</source>
-        <translation type="unfinished"></translation>
+        <translation>Alfabetisk rækkefølge</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Sort Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortering</translation>
     </message>
 </context>
 <context>
@@ -8029,52 +8047,52 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-493"/>
         <source>Built-in virtual keyboard button size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Knapstørrelse på det indbyggede virtuelle tastatur:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use system keyboard (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>Brug systemets tastatur (anbefales)</translation>
     </message>
     <message>
         <location line="+459"/>
         <source>Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Gitter</translation>
     </message>
     <message>
         <location line="-406"/>
         <source>Documents Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumenttilstand</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Display date column on alphabetical sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis datokolonne ved alfabetisk sortering</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Empty trash for documents older than</source>
-        <translation type="unfinished"></translation>
+        <translation>Tøm papirkurven for dokumenter ældre end</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>days</source>
-        <translation type="unfinished"></translation>
+        <translation>dage</translation>
     </message>
     <message>
         <location line="-170"/>
         <source>PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Export background grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksporter baggrundsgitter</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Export background color</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksporter baggrundsfarve</translation>
     </message>
     <message>
         <location line="+420"/>
@@ -8084,7 +8102,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+61"/>
         <source>List of screens used for Control, Display and Previous pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste over skærme til styring, visning og forrige sider</translation>
     </message>
 </context>
 <context>
@@ -8115,12 +8133,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-91"/>
         <source>Select a content to capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Vælg indhold at optage</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>Capture Web Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Optag webindhold</translation>
     </message>
 </context>
 </TS>
