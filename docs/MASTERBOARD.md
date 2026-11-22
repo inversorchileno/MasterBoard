@@ -358,13 +358,15 @@ Pedidas por Luis al revisar la V2.32 («puntos 1, 2 y 3»).
 
 Probado en Linux con capturas: los 4 modos de desplazamiento, modo oscuro, favoritas (también después de reiniciar y de duplicar), color/tamaño/opacidad con deshacer, el corte entre hojas y el flujo del manuscrito con el reconocedor de prueba. No se pudo probar aquí: el reconocimiento real en Windows, el lápiz en la hoja de al lado con el lápiz digital, ni PDFs en los modos horizontales.
 
-## Mejoras pequeñas después de la V2.35 (sin compilar aún)
+## Mejoras pequeñas después de la V2.35 (V2.36)
 
 - Barras de opciones: el nombre y el valor de cada deslizador van centrados sobre él. Los círculos de colores no se estiran (`UBColorSwatches::setThreeRows` con tamaño fijo): ya no queda un hueco después de ellos, por ejemplo en Subrayar.
 - Rotulador: la línea de muestra dibuja la punta elegida (`UBStrokePreview::setChiselTip`: punta plana inclinada -65°, con extremos rectos).
 - Sellos en la barra: **Tu PNG** y un botón **Sellos** que abre todos los demás en una ventana debajo (4 columnas) y muestra el sello elegido; antes la fila no cabía y solo se podía deslizar con pantalla táctil.
 - Agregar sonido: la barra dice «Haz clic en la página para grabar.».
 - Bloquear lienzo/PDF ocupa solo el ancho de su nombre: el espacio hasta Índice es igual al de los demás botones.
+- **Esperar antes de ocultar** (Estilo barra y Preferencias): 0,5 s y de 1 a 10 s, por defecto 1 s (`App/LibertyBoardBarHideDelay`, `UBBarStyle::hideDelay`); volver sigue siendo rápido.
+- Guía del programa actualizada en los 6 idiomas (páginas 10, 17 y 19) y los 33 idiomas traducidos con todo lo nuevo.
 - Deshacer una línea cortada entre hojas: la escena corta la línea justo después de guardar su paso de Deshacer, dentro de una misma macro (`UBGraphicsScene::setStrokesFinishedHandler`), y cada parte puesta en otra hoja agrega su propio paso (`UBCrossPagePartUndoCommand` en `UBBoardView.cpp`), que la quita de esa hoja y la guarda. Un solo Deshacer quita las dos partes.
 - Los avisos de los botones de las miniaturas dicen Clonar, Cerrar y Favorito, como pidió Luis.
 - **Estilo barra:** Ubicación (Arriba, Abajo, Izquierda, Derecha) para la barra de la pizarra y la del escritorio a la vez (`UBBarStyle::placeBars`, `UBDesktopPalette::placeAtEdge`); los bordes de Preferencias → Lápiz y barra de herramientas también mueven las dos. **Ocultar automáticamente**, en Estilo barra y en Preferencias: al marcarlo pregunta si deslizar hacia su lado o desvanecer (la lista al lado lo cambia después; ajustes `App/LibertyBoardBarAutoHide` y `App/LibertyBoardBarHideEffect`). La barra se oculta 0,9 s después de que el mouse la deja (no con un botón apretado, un menú o la ventana de opciones abierta) y vuelve igual al acercar el mouse a su lado. Oculta, solo se mueve fuera de su ventana pasado el borde (`UBBarStyle::watch`), así el resto del programa la sigue viendo mostrada; una barra alta se oculta a la izquierda o la derecha y una ancha arriba o abajo.

@@ -56,7 +56,7 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 - **Cambiar color, tamaño y opacidad** de trazos, formas y flechas ya dibujados: se eligen con la flecha o el lazo.
 - Un trazo que pasa a la hoja de al lado queda cortado, cada parte en su hoja.
 - **Texto** con fuente, tamaño, negrita, cursiva y color; casillas para marcar, viñetas, números y **tablas**.
-- **Notas** de colores, **notas rápidas**, **sellos** (Aprobado, Confidencial, Borrador… y tu propio PNG), **emojis** y **GIF animados** de klipy.com.
+- **Notas** de colores, **notas rápidas**, **sellos** (un botón Sellos los abre todos: Aprobado, Confidencial, Borrador… y tu propio PNG), **emojis** y **GIF animados** de klipy.com.
 - **Adjuntar archivos**, **hipervínculos** y **sonidos** grabados con tu voz.
 
 ### Presentar
@@ -98,7 +98,7 @@ Solo se pide la primera vez. Master Board guarda sus documentos y su configuraci
 
 ### A tu manera
 - Menú **Herramientas** con todas las herramientas.
-- Menú **Personalización**: elige qué botones se ven en la pizarra y en el escritorio, su orden con **Mover elementos** y su **Estilo barra** (colores, opacidad y esquinas de cuadradas a redondas).
+- Menú **Personalización**: elige qué botones se ven en la pizarra y en el escritorio, su orden con **Mover elementos** y su **Estilo barra** (colores, opacidad, esquinas de cuadradas a redondas, ubicación arriba, abajo, izquierda o derecha, y **ocultar automáticamente** deslizando o desvaneciendo, tras 0,5 a 10 segundos).
 - **Panel de páginas** con botones para borrar y duplicar cada página, **páginas favoritas** marcadas con una estrella y un filtro Todo / Favoritas.
 - **Modo oscuro**: invierte los colores de las páginas para leer de noche (botón arriba a la derecha y en Personalización).
 - **Preferencias** ordenadas por categorías, con **Tema** oscuro, blanco, gris o igual que Windows (el programa se reinicia solo para aplicarlo).
