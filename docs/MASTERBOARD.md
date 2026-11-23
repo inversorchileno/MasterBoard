@@ -372,6 +372,14 @@ Probado en Linux con capturas: los 4 modos de desplazamiento, modo oscuro, favor
 - **Estilo barra:** Ubicación (Arriba, Abajo, Izquierda, Derecha) para la barra de la pizarra y la del escritorio a la vez (`UBBarStyle::placeBars`, `UBDesktopPalette::placeAtEdge`); los bordes de Preferencias → Lápiz y barra de herramientas también mueven las dos. **Ocultar automáticamente**, en Estilo barra y en Preferencias: al marcarlo pregunta si deslizar hacia su lado o desvanecer (la lista al lado lo cambia después; ajustes `App/LibertyBoardBarAutoHide` y `App/LibertyBoardBarHideEffect`). La barra se oculta 0,9 s después de que el mouse la deja (no con un botón apretado, un menú o la ventana de opciones abierta) y vuelve igual al acercar el mouse a su lado. Oculta, solo se mueve fuera de su ventana pasado el borde (`UBBarStyle::watch`), así el resto del programa la sigue viendo mostrada; una barra alta se oculta a la izquierda o la derecha y una ancha arriba o abajo.
 - Miniaturas: la estrella de favorita va abajo a la derecha (en las páginas angostas de un PDF chocaba con Borrar y Duplicar); los tres dicen qué hacen al pasar el mouse.
 
+## Mejoras pequeñas después de la V2.36 (V2.37)
+
+- **Atajos:** toda función de Acerca → Atajos tiene uno. Mediciones pasa a Ctrl+F5 (Ctrl+Mayús+D ya era Duplicar lo seleccionado y Ctrl+Mayús+L es Leer en voz alta), Medidas en lienzo Ctrl+F7, Preferencias Ctrl+, y Modo oscuro Ctrl+Mayús+F3; la acción del modo oscuro recibe nombre (`actionLbDarkMode`), sin el cual la lista no la mostraba.
+- **Barra oculta arriba o abajo en la pizarra:** vuelve aunque el mouse pase más allá de su lugar (a la barra de opciones, los menús o fuera de la ventana), y también si lo cruzó entre dos revisiones; los lados quedan igual. Mientras el mouse está en esa zona, la barra no se oculta.
+- **Estilo plantilla:** la ventana tiene estilo propio según el tema: Grafito con el tema oscuro, Claro con el blanco y el gris (`UBBackgroundPalette::applyLook`). Filas separadas 12 px, una línea fina antes de la dirección de desplazamiento y deslizadores con un círculo negro.
+- **Triángulos del escritorio en la pizarra:** las herramientas comparten sus acciones con la barra del escritorio, cuyos triángulos cambian el ícono; al elegir una ubicación en la pizarra se acomodaba también la barra del escritorio y quedaban los triángulos. Ahora solo se ponen en el modo escritorio (también justo después de entrar) y se quitan al volver a la pizarra.
+- En la pantalla virtual de Linux (Xvfb sin compositor), la barra del escritorio no se dibuja al pasar desde la pizarra; pasa igual con el código anterior y en Windows funciona bien.
+
 ## Forma de trabajo
 
 - El dueño es **Luis** (Chile), analista financiero, sin experiencia en programación. Habla en español; se le responde en español, claro y sin jerga. Usa Windows 11, pantalla ancha (unos 2540 px) y lápiz digital.
