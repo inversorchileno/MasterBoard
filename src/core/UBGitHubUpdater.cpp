@@ -136,7 +136,15 @@ void UBGitHubUpdater::onReleaseReceived(QNetworkReply* reply)
         // The zip of Windows; a release also has the files of Linux and macOS.
         const QString name = object.value("name").toString();
 
-        if (name.endsWith(".zip", Qt::CaseInsensitive) && (!zipUrl.isValid() || name.contains("windows", Qt::CaseInsensitive)))
+        // The program itself: the release also has the symbols of the build, to read the diagnostic log.
+        if (name.compare("MasterBoard-windows.zip", Qt::CaseInsensitive) == 0)
+        {
+            zipUrl = QUrl(object.value("browser_download_url").toString());
+            break;
+        }
+
+        if (name.endsWith(".zip", Qt::CaseInsensitive) && !name.contains("symbols", Qt::CaseInsensitive)
+            && (!zipUrl.isValid() || name.contains("windows", Qt::CaseInsensitive)))
         {
             zipUrl = QUrl(object.value("browser_download_url").toString());
         }

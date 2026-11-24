@@ -28,6 +28,7 @@
 
 
 #include "UBApplication.h"
+#include "UBDiagnostics.h"
 
 #include <QtGui>
 #include <QtXml>
@@ -354,6 +355,9 @@ static void removeOldProgram()
 
 int UBApplication::exec(const QString& pFileToImport)
 {
+    // The diagnostic log, when it is on: before anything may go wrong.
+    UBDiagnostics::start();
+
     // A few seconds after the start, once nothing uses it any more.
     QTimer::singleShot(5000, qApp, &removeOldProgram);
 
@@ -480,6 +484,11 @@ int UBApplication::exec(const QString& pFileToImport)
 
     onScreenCountChanged(displayManager->numScreens());
     connect(displayManager, SIGNAL(availableScreenCountChanged(int)), this, SLOT(onScreenCountChanged(int)));
+
+    // Once the menus are made: the functions used. The report of a close
+    // follows the offer to open the documents again (UBDocumentTabs).
+    QTimer::singleShot(2000, qApp, []() { UBDiagnostics::followActions(); });
+
     return QApplication::exec();
 }
 

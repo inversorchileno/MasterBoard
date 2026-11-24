@@ -124,6 +124,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # The symbols of the program stay out of the download: they are
+          # published apart, to read the diagnostic log. Their name has no
+          # "windows", so that the update menu never takes them.
+          New-Item -ItemType Directory -Force symbols | Out-Null
+          Get-ChildItem -Path "build" -Recurse -File -Filter "MasterBoard.pdb" | Select-Object -First 1 | Copy-Item -Destination symbols
+          Get-ChildItem -Path "build\win32\release\product" -Recurse -File -Filter "*.pdb" | Remove-Item
           $zip = "MasterBoard-windows.zip"
           Compress-Archive -Path "build\win32\release\product\*" -DestinationPath $zip -Force
           $tag = "build-$env:LIBERTYBOARD_BUILD"
@@ -138,6 +144,14 @@ jobs:
             gh release create $tag $zip --repo "${{ github.repository }}" --target "${{ github.sha }}" --title $title --notes "$title. Unzip and open MasterBoard.exe, or use About > Update in Master Board." --latest
           }
           if ($LASTEXITCODE -ne 0) { exit 1 }
+          if (Get-ChildItem symbols -Filter *.pdb) {
+            # With the program they belong to, to read the addresses of the log.
+            Copy-Item "build\win32\release\product\MasterBoard.exe" symbols -ErrorAction SilentlyContinue
+            Compress-Archive -Path "symbols\*" -DestinationPath "MasterBoard-symbols.zip" -Force
+            # Without them the release is still good: no failure for that.
+            gh release upload $tag "MasterBoard-symbols.zip" --repo "${{ github.repository }}" --clobber
+            if ($LASTEXITCODE -ne 0) { Write-Warning "The symbols could not be published"; $global:LASTEXITCODE = 0 }
+          }
 
           # The notes of the earlier builds follow their files, when they change.
           Get-ChildItem "docs\releases\build-*.md" | Where-Object { $_.BaseName -ne $tag } | ForEach-Object {

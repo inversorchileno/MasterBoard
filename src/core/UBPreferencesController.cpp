@@ -29,6 +29,7 @@
 
 #include "UBPreferencesController.h"
 #include "gui/UBBarStyle.h"
+#include "core/UBDiagnostics.h"
 
 #include "core/UBGitHubUpdater.h"
 #include "frameworks/UBPlatformUtils.h"
@@ -372,6 +373,34 @@ QWidget* UBPreferencesController::aiChoice()
     return page;
 }
 
+QWidget* UBPreferencesController::diagnosticsGroup()
+{
+    // Off by default: for the person who tests Master Board and reports a close.
+    auto group = new QGroupBox(tr("Diagnostic log"), mPreferencesWindow);
+    auto layout = new QVBoxLayout(group);
+    auto row = new QHBoxLayout();
+    auto enabled = new QCheckBox(tr("Write a diagnostic log"), group);
+    enabled->setChecked(UBDiagnostics::isEnabled());
+    auto open = new QPushButton(tr("Open the folder"), group);
+    open->setEnabled(enabled->isChecked());
+    row->addWidget(enabled);
+    row->addStretch(1);
+    row->addWidget(open);
+    layout->addLayout(row);
+
+    auto hint = new QLabel(tr("Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. "
+                              "It does not keep the content of the documents."), group);
+    hint->setWordWrap(true);
+    layout->addWidget(hint);
+
+    connect(enabled, &QCheckBox::toggled, this, [open](bool on) {
+        UBDiagnostics::setEnabled(on);
+        open->setEnabled(on);
+    });
+    connect(open, &QPushButton::clicked, this, []() { UBDiagnostics::openFolder(); });
+    return group;
+}
+
 QWidget* UBPreferencesController::themeChoice()
 {
     // The colors of the menu bar, of the options of the tools and of the zoom.
@@ -555,7 +584,7 @@ void UBPreferencesController::buildCategories()
         QList<QWidget*> sections;
     } list[] = {
         { ":/images/toolbar/settings.png", tr("General"), tr("General settings"),
-          { mLanguageGroup, ui->modeGroupBox, ui->keyboardGroupBox } },
+          { mLanguageGroup, ui->modeGroupBox, ui->keyboardGroupBox, diagnosticsGroup() } },
         { ":/images/color.svg", tr("Appearance"), tr("Appearance"),
           { themeChoice(), toolbar } },
         { ":/images/toolbar/stylus.png", tr("Pen and toolbar"), tr("Pen and toolbar"),

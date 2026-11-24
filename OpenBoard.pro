@@ -139,6 +139,9 @@ win32 {
       QMAKE_CXXFLAGS += /MD
    }
    QMAKE_CXXFLAGS_RELEASE += /Od /Zi
+   # The symbols of the program (MasterBoard.pdb), published beside the
+   # release, to read the call stack of the diagnostic log.
+   QMAKE_LFLAGS_RELEASE += /DEBUG /OPT:REF /OPT:ICF
    QMAKE_LFLAGS += /VERBOSE:LIB
    UB_LIBRARY.path = $$DESTDIR
    UB_I18N.path = $$DESTDIR/i18n

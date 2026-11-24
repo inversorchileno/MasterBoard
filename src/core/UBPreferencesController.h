@@ -128,6 +128,7 @@ class UBPreferencesController : public QObject
         QWidget* desktopBorderChoice();
         QWidget* aiChoice();
         QWidget* themeChoice();
+        QWidget* diagnosticsGroup();
         void simplifyTabs();
 
         /** @brief The categories at the left, each with its page at the right, as in PDF-XChange. */

@@ -33,6 +33,7 @@
 #include "frameworks/UBFileSystemUtils.h"
 
 #include "UBApplication.h"
+#include "UBDiagnostics.h"
 #include "UBSettings.h"
 
 /* Uncomment this for memory leaks detection */
@@ -171,6 +172,9 @@ int main(int argc, char *argv[])
     {
         qDebug() << "file name argument" << fileToOpen;
         result = app.exec(fileToOpen);
+
+        // A normal end: the next start knows it did not stop unexpectedly.
+        UBDiagnostics::stop();
     }
 
     app.cleanup();

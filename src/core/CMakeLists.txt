@@ -7,6 +7,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     UBApplicationController.h
     UBGitHubUpdater.cpp
     UBGitHubUpdater.h
+    UBDiagnostics.cpp
+    UBDiagnostics.h
     UBDisplayManager.cpp
     UBDisplayManager.h
     UBDocumentManager.cpp
@@ -40,3 +42,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     UBTextTools.cpp
     UBTextTools.h
 )
+
+# The diagnostic log reads the call stack when Master Board closes unexpectedly.
+if(WIN32)
+    target_link_libraries(${PROJECT_NAME} DbgHelp)
+endif()
