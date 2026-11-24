@@ -83,7 +83,8 @@ public:
     void setShowHandler(std::function<bool(const std::shared_ptr<UBDocumentProxy>&)> handler);
 
     /**
-     * @brief After Master Board stopped without closing, offers to open again
+     * @brief After a normal close with several tabs, opens them again; after
+     * Master Board stopped without closing, offers to open again
      * the documents that were in the tabs. Their content is saved as they
      * are worked on.
      */
@@ -140,5 +141,6 @@ private:
     QList<OpenDocument> mDocuments;
     bool mSwitching{false};
     bool mStoppedUnexpectedly{false};
+    bool mSessionRestored{false};
     std::function<bool(const std::shared_ptr<UBDocumentProxy>&)> mShowHandler;
 };

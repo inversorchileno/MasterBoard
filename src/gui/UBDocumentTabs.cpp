@@ -21,6 +21,9 @@
 
 
 #include "UBDocumentTabs.h"
+#include "core/UBDiagnostics.h"
+
+#include <algorithm>
 
 #include <QCoreApplication>
 #include <QDir>
@@ -45,6 +48,7 @@
 
 static const QString sRunningKey = QStringLiteral("App/LibertyBoardRunning");
 static const QString sSessionKey = QStringLiteral("App/LibertyBoardSession");
+static const QString sActiveKey = QStringLiteral("App/LibertyBoardSessionActive");
 
 UBDocumentTabs::UBDocumentTabs(QWidget* parent)
     : QWidget(parent)
@@ -511,8 +515,9 @@ void UBDocumentTabs::onUndoStackChanged()
 
 void UBDocumentTabs::saveSession() const
 {
-    // While the recovery is offered, the tabs of the stopped session are kept.
-    if (mStoppedUnexpectedly)
+    // Until the tabs of the last session are opened again (or not), they are
+    // kept: the document shown at the start would take their place.
+    if (!mSessionRestored)
     {
         return;
     }
@@ -526,19 +531,21 @@ void UBDocumentTabs::saveSession() const
 
     // Written at once: it is needed after a stop, when nothing else is written.
     UBSettings::settings()->setValue(sSessionKey, session);
+
+    // The tab shown, to show it again.
+    const int index = currentIndex();
+    UBSettings::settings()->setValue(sActiveKey, index >= 0 ? mDocuments.at(index).document->documentFolderName() : QString());
     UBSettings::settings()->save();
 }
 
 void UBDocumentTabs::offerRecovery()
 {
-    if (!mStoppedUnexpectedly)
-    {
-        saveSession();
-        return;
-    }
-
+    const bool stoppedUnexpectedly = mStoppedUnexpectedly;
     mStoppedUnexpectedly = false;
+    mSessionRestored = true;
+
     const QStringList session = UBSettings::settings()->value(sSessionKey).toStringList();
+    const QString active = UBSettings::settings()->value(sActiveKey).toString();
     QList<QStringList> documents;
     UBDocumentTreeModel* library = UBPersistenceManager::persistenceManager()->mDocumentTreeStructureModel;
 
@@ -552,17 +559,27 @@ void UBDocumentTabs::offerRecovery()
         }
     }
 
-    if (documents.isEmpty())
+    // After a normal close, several tabs are opened again by themselves, to go
+    // on where the work was left; one alone is not: Master Board starts anew.
+    // After a stop without closing, Master Board asks.
+    bool reopen = false;
+
+    if (stoppedUnexpectedly && !documents.isEmpty())
     {
-        saveSession();
-        return;
+        reopen = QMessageBox::question(window(), tr("Recover documents"),
+                     tr("Master Board stopped without closing. Open again the %1 documents that were open?").arg(documents.size()))
+                 == QMessageBox::Yes;
+    }
+    else if (!stoppedUnexpectedly && documents.size() >= 2)
+    {
+        reopen = true;
     }
 
-    const auto answer = QMessageBox::question(window(), tr("Recover documents"),
-        tr("Master Board stopped without closing. Open again the %1 documents that were open?").arg(documents.size()));
-
-    if (answer == QMessageBox::Yes)
+    if (reopen)
     {
+        QStringList shown;
+        const std::shared_ptr<UBDocumentProxy> startDocument = UBApplication::boardController->selectedDocument();
+
         for (const QStringList& fields : std::as_const(documents))
         {
             std::shared_ptr<UBDocumentProxy> document = library->findDocumentByFolderName(fields.at(0));
@@ -576,10 +593,37 @@ void UBDocumentTabs::offerRecovery()
                 mDocuments[index].pdfFile = fields.at(1);
                 updateTabText(index);
             }
+
+            if (fields.at(0) == active)
+            {
+                shown = fields;
+            }
+        }
+
+        // The tab that was shown, at its page.
+        if (!shown.isEmpty())
+        {
+            std::shared_ptr<UBDocumentProxy> document = library->findDocumentByFolderName(shown.at(0));
+            UBApplication::boardController->persistCurrentScene(false, true);
+            UBApplication::boardController->setActiveDocumentScene(document, qBound(0, shown.at(2).toInt(), document->pageCount() - 1));
+        }
+
+        // The blank board made at the start is not kept beside them.
+        const int startIndex = indexOf(startDocument);
+        const bool inSession = std::any_of(documents.cbegin(), documents.cend(), [&startDocument](const QStringList& fields) {
+            return startDocument && fields.at(0) == startDocument->documentFolderName();
+        });
+
+        if (startIndex >= 0 && !inSession && mDocuments.size() > 1 && isBlank(mDocuments.at(startIndex)))
+        {
+            closeTab(startIndex);
         }
 
         UBApplication::applicationController->showBoard();
     }
 
     saveSession();
+
+    // Then, one window after the other, the diagnostic log of a close, when it is on.
+    UBDiagnostics::offerReport();
 }
