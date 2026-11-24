@@ -2237,8 +2237,11 @@ UBGraphicsPixmapItem* UBSvgSubsetAdaptor::UBSvgSubsetReader::pixmapItemFromSvg()
         QPixmap pix = QPixmap::fromImage(img);
         pixmapItem->setPixmap(pix);
 
-        // An animated GIF moves again when the page is opened.
-        if (href.endsWith(".gif", Qt::CaseInsensitive))
+        // An animated GIF moves again when the page is opened. Some GIFs of
+        // klipy.com come as an animated WebP, kept with its own extension.
+        const QString suffix = QFileInfo(href).suffix().toLower();
+
+        if (suffix == "gif" || suffix == "webp" || suffix == "mng")
         {
             QFile file(mDocumentPath + "/" + UBFileSystemUtils::normalizeFilePath(href));
 
