@@ -380,6 +380,11 @@ Probado en Linux con capturas: los 4 modos de desplazamiento, modo oscuro, favor
 - **Triángulos del escritorio en la pizarra:** las herramientas comparten sus acciones con la barra del escritorio, cuyos triángulos cambian el ícono; al elegir una ubicación en la pizarra se acomodaba también la barra del escritorio y quedaban los triángulos. Ahora solo se ponen en el modo escritorio (también justo después de entrar) y se quitan al volver a la pizarra.
 - En la pantalla virtual de Linux (Xvfb sin compositor), la barra del escritorio no se dibuja al pasar desde la pizarra; pasa igual con el código anterior y en Windows funciona bien.
 
+## Arreglo de cierres con PDF (V2.38)
+
+- Luis vio cerrarse el programa al moverse rápido con la barra de desplazamiento por un PDF de 85 páginas con el buscador abierto, y al guardar justo después de marcar. Un PDF se dibuja en un hilo aparte (`XPDFRenderer::CacheThread`, las imágenes de cada zoom) y en el hilo principal (miniaturas, Guardar con `UBExportFullPDF`, dibujos sin caché) con el mismo `PDFDoc` de Poppler, que no admite dos hilos a la vez. Ahora `mDocumentMutex` los hace turnarse: el hilo lo toma mientras dibuja una página, el principal mientras dibuja sin caché o lee tamaño, rotación, cantidad o título de las páginas.
+- No se pudo reproducir en Linux (tampoco sin el arreglo). Si vuelve a pasar, lo siguiente es registrar dónde se cae (pila del programa en Windows) para que Luis lo envíe.
+
 ## Forma de trabajo
 
 - El dueño es **Luis** (Chile), analista financiero, sin experiencia en programación. Habla en español; se le responde en español, claro y sin jerga. Usa Windows 11, pantalla ancha (unos 2540 px) y lápiz digital.
