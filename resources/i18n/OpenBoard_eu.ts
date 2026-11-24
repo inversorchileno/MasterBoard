@@ -6111,6 +6111,22 @@ Zabalera dinamikoa</translation>
         <source>Wait before hiding</source>
         <translation>Itxaron ezkutatu aurretik</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Diagnostiko-erregistroa</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Idatzi diagnostiko-erregistro bat</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Ireki karpeta</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Master Board-en egiten dena idazten du eta, ustekabean ixten bada, non gelditu zen. Ez du dokumentuen edukia gordetzen.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8583,6 +8599,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Klonatu</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Diagnostiko-erregistroa</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board ustekabean itxi zen azken aldian. Diagnostiko-erregistroak non dioen: haren fitxategiak bidal ditzakezu.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Ireki karpeta</translation>
     </message>
 </context>
 </TS>

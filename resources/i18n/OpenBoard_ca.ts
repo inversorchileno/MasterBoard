@@ -5907,6 +5907,22 @@ Amplada dinàmica</translation>
         <source>Wait before hiding</source>
         <translation>Espera abans d’amagar</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Registre de diagnòstic</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Escriu un registre de diagnòstic</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Obre la carpeta</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Anota el que es fa a Master Board i, si es tanca inesperadament, on s’ha aturat. No guarda el contingut dels documents.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8232,6 +8248,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Clona</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Registre de diagnòstic</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board es va tancar inesperadament l’última vegada. El registre de diagnòstic diu on: en podeu enviar els fitxers.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Obre la carpeta</translation>
     </message>
 </context>
 </TS>

@@ -5895,6 +5895,22 @@ Dynamic width</source>
         <source>Wait before hiding</source>
         <translation>המתנה לפני הסתרה</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>יומן אבחון</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>כתיבת יומן אבחון</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>פתיחת התיקייה</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>רושם מה נעשה ב-Master Board, ואם הוא נסגר באופן לא צפוי, היכן הוא נעצר. אינו שומר את תוכן המסמכים.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8227,6 +8243,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>שכפול</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>יומן אבחון</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board נסגר באופן לא צפוי בפעם הקודמת. יומן האבחון מראה היכן: אפשר לשלוח את הקבצים שלו.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>פתיחת התיקייה</translation>
     </message>
 </context>
 </TS>

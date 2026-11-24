@@ -5895,6 +5895,22 @@ Sakany miova</translation>
         <source>Wait before hiding</source>
         <translation>Miandry alohan’ny hanafenana</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Rakitra fitiliana olana</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Soraty ny rakitra fitiliana olana</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Sokafy ny lahatahiry</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Manoratra izay atao ao amin'ny Master Board ary, raha mikatona tsy nampoizina izy, ny toerana nijanonany. Tsy mitahiry ny votoatin'ny antontan-taratasy.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8227,6 +8243,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Adikao</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Rakitra fitiliana olana</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Nikatona tsy nampoizina ny Master Board tamin'ny farany. Asehon'ny rakitra fitiliana olana ny toerana: azonao alefa ireo rakiny.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Sokafy ny lahatahiry</translation>
     </message>
 </context>
 </TS>

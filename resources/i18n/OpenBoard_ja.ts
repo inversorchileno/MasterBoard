@@ -6016,6 +6016,22 @@ Dynamic width</source>
         <source>Wait before hiding</source>
         <translation>隠すまでの時間</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>診断ログ</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>診断ログを記録する</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>フォルダーを開く</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Master Board で行った操作と、予期せず終了した場合はその場所を記録します。文書の内容は保存しません。</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8364,6 +8380,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>複製</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>診断ログ</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>前回 Master Board が予期せず終了しました。診断ログに場所が記録されています。そのファイルを送ることができます。</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>フォルダーを開く</translation>
     </message>
 </context>
 </TS>

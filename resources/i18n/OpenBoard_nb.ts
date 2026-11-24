@@ -5895,6 +5895,22 @@ Dynamisk bredde</translation>
         <source>Wait before hiding</source>
         <translation>Vent før skjuling</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Diagnoselogg</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Skriv en diagnoselogg</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Åpne mappen</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Skriver hva som gjøres i Master Board og, hvis det lukkes uventet, hvor det stoppet. Innholdet i dokumentene lagres ikke.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8228,6 +8244,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Klon</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Diagnoselogg</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board ble uventet lukket forrige gang. Diagnoseloggen viser hvor: du kan sende filene.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Åpne mappen</translation>
     </message>
 </context>
 </TS>

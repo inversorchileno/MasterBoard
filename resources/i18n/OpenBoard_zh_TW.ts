@@ -6058,6 +6058,22 @@ Dynamic width</source>
         <source>Wait before hiding</source>
         <translation>隱藏前等待</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>診斷記錄</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>寫入診斷記錄</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>開啟資料夾</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>記錄在 Master Board 中的操作，以及意外關閉時停止的位置。不保存文件內容。</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8399,6 +8415,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>複製</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>診斷記錄</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board 上次意外關閉。診斷記錄說明了位置：您可以傳送其中的檔案。</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>開啟資料夾</translation>
     </message>
 </context>
 </TS>

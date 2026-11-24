@@ -5904,6 +5904,22 @@ Dynamic width</source>
         <source>Wait before hiding</source>
         <translation>숨기기 전 대기 시간</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>진단 로그</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>진단 로그 기록</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>폴더 열기</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Master Board에서 한 작업과 예기치 않게 종료된 경우 멈춘 위치를 기록합니다. 문서 내용은 저장하지 않습니다.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8236,6 +8252,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>복제</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>진단 로그</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>지난번에 Master Board가 예기치 않게 종료되었습니다. 진단 로그에 위치가 기록되어 있습니다. 해당 파일을 보낼 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>폴더 열기</translation>
     </message>
 </context>
 </TS>

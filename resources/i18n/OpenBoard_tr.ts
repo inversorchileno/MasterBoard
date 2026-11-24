@@ -5947,6 +5947,22 @@ Dinamik kalınlık</translation>
         <source>Wait before hiding</source>
         <translation>Gizlemeden önce bekle</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Tanılama günlüğü</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Tanılama günlüğü yaz</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Klasörü aç</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Master Board'da yapılanları ve beklenmedik şekilde kapanırsa nerede durduğunu yazar. Belgelerin içeriğini saklamaz.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8300,6 +8316,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Klonla</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Tanılama günlüğü</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board geçen sefer beklenmedik şekilde kapandı. Tanılama günlüğü nerede olduğunu gösterir: dosyalarını gönderebilirsiniz.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Klasörü aç</translation>
     </message>
 </context>
 </TS>

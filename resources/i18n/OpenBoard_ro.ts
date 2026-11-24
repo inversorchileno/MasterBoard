@@ -5895,6 +5895,22 @@ Lățime dinamică</translation>
         <source>Wait before hiding</source>
         <translation>Așteptare înainte de ascundere</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Jurnal de diagnosticare</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Scrie un jurnal de diagnosticare</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Deschide dosarul</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Notează ce se face în Master Board și, dacă se închide neașteptat, unde s-a oprit. Nu păstrează conținutul documentelor.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8227,6 +8243,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Clonează</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Jurnal de diagnosticare</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board s-a închis neașteptat ultima dată. Jurnalul de diagnosticare arată unde: îi puteți trimite fișierele.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Deschide dosarul</translation>
     </message>
 </context>
 </TS>

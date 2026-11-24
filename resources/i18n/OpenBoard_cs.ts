@@ -5904,6 +5904,22 @@ Dynamická šířka</translation>
         <source>Wait before hiding</source>
         <translation>Čekat před skrytím</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Diagnostický záznam</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Zapisovat diagnostický záznam</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Otevřít složku</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Zapisuje, co se v Master Board dělá, a pokud se neočekávaně zavře, kde se zastavil. Neuchovává obsah dokumentů.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8236,6 +8252,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Klonovat</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Diagnostický záznam</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board se minule neočekávaně zavřel. Diagnostický záznam ukazuje kde: můžete poslat jeho soubory.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Otevřít složku</translation>
     </message>
 </context>
 </TS>

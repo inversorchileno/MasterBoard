@@ -5922,6 +5922,22 @@ Largura dinâmica</translation>
         <source>Wait before hiding</source>
         <translation>Esperar antes de ocultar</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Registo de diagnóstico</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Escrever um registo de diagnóstico</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Abrir a pasta</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Anota o que se faz no Master Board e, se fechar inesperadamente, onde parou. Não guarda o conteúdo dos documentos.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8257,6 +8273,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Clonar</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Registo de diagnóstico</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>O Master Board fechou-se inesperadamente da última vez. O registo de diagnóstico diz onde: pode enviar os seus ficheiros.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Abrir a pasta</translation>
     </message>
 </context>
 </TS>

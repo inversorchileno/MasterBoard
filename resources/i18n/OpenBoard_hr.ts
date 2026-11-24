@@ -6004,6 +6004,22 @@ Dinamična širina</translation>
         <source>Wait before hiding</source>
         <translation>Čekaj prije sakrivanja</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Dijagnostički zapisnik</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Piši dijagnostički zapisnik</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Otvori mapu</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Bilježi što se radi u Master Boardu i, ako se neočekivano zatvori, gdje je stao. Ne čuva sadržaj dokumenata.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8554,6 +8570,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Kloniraj</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Dijagnostički zapisnik</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Master Board se prošli put neočekivano zatvorio. Dijagnostički zapisnik pokazuje gdje: možete poslati njegove datoteke.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Otvori mapu</translation>
     </message>
 </context>
 </TS>

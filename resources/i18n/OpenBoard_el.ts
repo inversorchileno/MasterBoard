@@ -5949,6 +5949,22 @@ Dynamic width</source>
         <source>Wait before hiding</source>
         <translation>Αναμονή πριν την απόκρυψη</translation>
     </message>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Αρχείο διάγνωσης</translation>
+    </message>
+    <message>
+        <source>Write a diagnostic log</source>
+        <translation>Καταγραφή αρχείου διάγνωσης</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Άνοιγμα του φακέλου</translation>
+    </message>
+    <message>
+        <source>Writes what is done in Master Board and, if it closes unexpectedly, where it stopped. It does not keep the content of the documents.</source>
+        <translation>Καταγράφει ό,τι γίνεται στο Master Board και, αν κλείσει απροσδόκητα, πού σταμάτησε. Δεν κρατά το περιεχόμενο των εγγράφων.</translation>
+    </message>
 </context>
 <context>
     <name>UBPrintDialog</name>
@@ -8297,6 +8313,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Clone</source>
         <translation>Κλωνοποίηση</translation>
+    </message>
+</context>
+<context>
+    <name>UBDiagnostics</name>
+    <message>
+        <source>Diagnostic log</source>
+        <translation>Αρχείο διάγνωσης</translation>
+    </message>
+    <message>
+        <source>Master Board closed unexpectedly the last time. The diagnostic log says where: you can send its files.</source>
+        <translation>Το Master Board έκλεισε απροσδόκητα την τελευταία φορά. Το αρχείο διάγνωσης δείχνει πού: μπορείτε να στείλετε τα αρχεία του.</translation>
+    </message>
+    <message>
+        <source>Open the folder</source>
+        <translation>Άνοιγμα του φακέλου</translation>
     </message>
 </context>
 </TS>
