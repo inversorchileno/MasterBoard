@@ -131,6 +131,7 @@ class XPDFRenderer : public PDFRenderer
             struct JobData {
                 PdfZoomCacheData* cacheData;
                 PDFDoc *document;
+                QMutex *documentMutex; // the same document is also used by the main thread
                 int pageNumber;
                 double dpiForRendering;
             };
@@ -163,6 +164,11 @@ class XPDFRenderer : public PDFRenderer
         SplashOutputDev* mSplashUncached;
 
         PDFDoc *mDocument;
+
+        // Poppler does not allow two threads to use one document at the same
+        // time: the cache thread renders while the main thread renders
+        // thumbnails or pages without cache, or reads the size of a page.
+        mutable QMutex mDocumentMutex;
         static QAtomicInt sInstancesCount;
         qreal mSliceX;
         qreal mSliceY;

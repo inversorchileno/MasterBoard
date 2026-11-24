@@ -151,6 +151,8 @@ bool XPDFRenderer::isValid() const
 
 int XPDFRenderer::pageCount() const
 {
+    QMutexLocker documentLock(&mDocumentMutex);
+
     if (isValid())
         return mDocument->getNumPages();
     else
@@ -159,6 +161,8 @@ int XPDFRenderer::pageCount() const
 
 QString XPDFRenderer::title() const
 {
+    QMutexLocker documentLock(&mDocumentMutex);
+
     if (isValid())
     {
 #if POPPLER_VERSION_MAJOR > 0 || POPPLER_VERSION_MINOR >= 55
@@ -199,6 +203,8 @@ QSizeF XPDFRenderer::pageSizeF(int pageNumber) const
 
 int XPDFRenderer::pageRotation(int pageNumber) const
 {
+    QMutexLocker documentLock(&mDocumentMutex);
+
     if (mDocument)
         return  mDocument->getPageRotate(pageNumber);
     else
@@ -209,6 +215,7 @@ QSizeF XPDFRenderer::pointSizeF(int pageNumber) const
 {
     qreal cropWidth = 0;
     qreal cropHeight = 0;
+    QMutexLocker documentLock(&mDocumentMutex);
 
     if (isValid())
     {
@@ -240,6 +247,8 @@ QImage* XPDFRenderer::createPDFImageUncached(int pageNumber, qreal xscale, qreal
 #else
         mSplashUncached = new SplashOutputDev(splashModeRGB8, 1, false, constants::paperColor);
 #endif
+        // One thread at a time in the document: the cache thread may be rendering.
+        QMutexLocker documentLock(&mDocumentMutex);
         mSplashUncached->startDoc(mDocument);
 
         int rotation = 0; // in degrees (get it from the worldTransform if we want to support rotation)
@@ -399,6 +408,7 @@ QImage& XPDFRenderer::createPDFImageCached(int pageNumber, PdfZoomCacheData &cac
             CacheThread::JobData jobData;
             jobData.cacheData = &cacheData;
             jobData.document = mDocument;
+            jobData.documentMutex = &mDocumentMutex;
             jobData.dpiForRendering = this->dpiForRendering;
             jobData.pageNumber = pageNumber;
             jobData.cacheData->hasToBeProcessed = true;
@@ -427,9 +437,12 @@ void XPDFRenderer::CacheThread::run()
              << "ratio" << jobData.cacheData->ratio; */
 
     jobData.cacheData->prepareNewSplash(jobData.pageNumber, constants::paperColor);
-    jobData.cacheData->splash->startDoc(jobData.document);
 
     m_jobMutex.unlock();
+
+    // One thread at a time in the document (see mDocumentMutex).
+    QMutexLocker documentLock(jobData.documentMutex);
+    jobData.cacheData->splash->startDoc(jobData.document);
 
     int rotation = 0; // in degrees (get it from the worldTransform if we want to support rotation)
     bool useMediaBox = false;
@@ -439,6 +452,7 @@ void XPDFRenderer::CacheThread::run()
     jobData.document->displayPage(jobData.cacheData->splash, jobData.pageNumber, jobData.dpiForRendering * jobData.cacheData->ratio,
                                   jobData.dpiForRendering * jobData.cacheData->ratio,
                            rotation, useMediaBox, crop, printing);
+    documentLock.unlock();
 
     m_jobMutex.lock();
     jobData.cacheData->splashBitmap = jobData.cacheData->splash->getBitmap();
