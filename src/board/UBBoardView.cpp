@@ -1721,7 +1721,10 @@ void UBBoardView::mouseMoveEvent (QMouseEvent *event)
                     mLassoItem->setBrush(QColor(61, 90, 128, 30));
                     mLassoItem->setZValue(1e9);
                     mLassoItem->setAcceptedMouseButtons(Qt::NoButton);
-                    scene()->addItem(mLassoItem);
+                    // A mark of the screen only: the page does not own it, so
+                    // it is never in the page's list of things to delete.
+                    scene()->QGraphicsScene::addItem(mLassoItem);
+                    mLassoScene = scene().get();
                 }
 
                 mLassoItem->setPath(mapToScene(lassoPath));
@@ -2294,13 +2297,15 @@ void UBBoardView::removeLasso()
 {
     if (mLassoItem)
     {
-        if (mLassoItem->scene())
+        // A page that is gone took its lasso with it.
+        if (mLassoScene)
         {
-            mLassoItem->scene()->removeItem(mLassoItem);
+            mLassoScene->removeItem(mLassoItem);
+            delete mLassoItem;
         }
 
-        delete mLassoItem;
         mLassoItem = nullptr;
+        mLassoScene = nullptr;
     }
 
     mLassoPoints.clear();
@@ -2666,14 +2671,14 @@ namespace
     public:
         UBCrossPagePartUndoCommand(std::shared_ptr<UBDocumentProxy> document, std::shared_ptr<UBGraphicsScene> scene,
                                    int index, QGraphicsItem* part)
-            : mDocument(document), mScene(scene), mIndex(index), mPart(part), mUuid(UBGraphicsItem::getOwnUuid(part))
+            : mDocument(document), mScene(scene), mIndex(index), mUuid(UBGraphicsItem::getOwnUuid(part))
         {
         }
 
         ~UBCrossPagePartUndoCommand() override
         {
-            // Undone: the part is in no page any more.
-            if (mPart && !mPart->scene())
+            // Undone: the part is in no page any more and is ours.
+            if (mOwned)
             {
                 delete mPart;
             }
@@ -2689,17 +2694,22 @@ namespace
                 return;
             }
 
-            // The page may have been read again from its file: its own copy.
-            QGraphicsItem* item = mPart && mPart->scene() == scene.get() ? mPart : scene->itemForUuid(mUuid);
+            if (mOwned)
+            {
+                return;
+            }
+
+            // While the page holds the part, the page owns it: it may even
+            // have been read again from its file, so it is looked for by its
+            // id. Taken out, it is no longer the page's to delete.
+            QGraphicsItem* item = scene->itemForUuid(mUuid);
 
             if (item)
             {
                 scene->removeItem(item);
-
-                if (item != mPart)
-                {
-                    delete item;
-                }
+                scene->removeItemFromDeletion(item);
+                mPart = item;
+                mOwned = true;
             }
 
             save(scene);
@@ -2715,12 +2725,15 @@ namespace
 
             std::shared_ptr<UBGraphicsScene> scene = pageScene();
 
-            if (!scene || !mPart || mPart->scene())
+            if (!scene || !mOwned || !mPart)
             {
                 return;
             }
 
+            // The page owns it again.
             scene->addItem(mPart);
+            mPart = nullptr;
+            mOwned = false;
             save(scene);
         }
 
@@ -2752,7 +2765,9 @@ namespace
         std::shared_ptr<UBDocumentProxy> mDocument;
         std::shared_ptr<UBGraphicsScene> mScene;
         int mIndex;
-        QGraphicsItem* mPart;
+        // Only set while undone: then the part is in no page and is ours.
+        QGraphicsItem* mPart{nullptr};
+        bool mOwned{false};
         QUuid mUuid;
         bool mFirstRedo{true};
     };
@@ -2851,6 +2866,7 @@ void UBBoardView::cutLinesAcrossPages()
                 if (outside.isEmpty())
                 {
                     polygon->setParentItem(nullptr);
+                    scene()->removeItemFromDeletion(polygon);
                     delete polygon;
                 }
                 else if (!inside.isEmpty())
@@ -2904,6 +2920,7 @@ void UBBoardView::cutLinesAcrossPages()
                 if (inside.isEmpty())
                 {
                     polygon->setParentItem(nullptr);
+                    scene()->removeItemFromDeletion(polygon);
                     delete polygon;
                 }
                 else

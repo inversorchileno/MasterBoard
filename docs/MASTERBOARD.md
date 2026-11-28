@@ -392,6 +392,13 @@ Probado en Linux con capturas: los 4 modos de desplazamiento, modo oscuro, favor
 - **Pestañas:** al cerrar normalmente con 2 o más pestañas, al abrir se reabren solas, con la que estaba a la vista en su página (`App/LibertyBoardSessionActive`); con 1 se parte de cero; una pestaña cerrada a propósito sale de la lista. La pizarra en blanco del inicio se cierra si no tiene nada. Tras un cierre inesperado se sigue preguntando. La lista no se guarda hasta haberla usado al iniciar (`mSessionRestored`), porque el documento del inicio la sobrescribía.
 - **GIF quietos al reabrir:** klipy.com a veces entrega WebP animado (guardado como `.png.webp`); al abrir solo se animaban los `.gif`. Ahora se anima todo GIF/WebP/MNG animado.
 
+## Arreglo de cierres al cambiar de pestaña (V2.40, sin compilar aún)
+
+- Luis vio cerrarse el programa 2 veces «de la nada». El registro de la segunda (con la pila leída con los símbolos de la build 39) muestra el cierre en `~UBCoreGraphicsScene` al sacar de la caché (20 páginas) la página 114 de un PDF, al hacer clic en una pestaña. Antes había buscado una palabra que lo llevó a esa página y luego volvió a la 4.
+- Causa: cada página guarda la lista de lo que debe borrar al cerrarse (`mItemsToDelete`, todo lo agregado con `addItem`). `removeItem(item)` lo saca de la página pero no de esa lista, así que hacer `removeItem` + `delete` deja un puntero a algo ya borrado, y la página se cae al cerrarse más tarde. Lo hacían el resaltado amarillo del buscador (`UBSearchBar::clearMark`), el lazo del selector (`UBBoardView::removeLasso`), el deshacer del trazo entre hojas (`UBCrossPagePartUndoCommand`), «Convertir comentarios en imagen» (`UBComments`) y los trozos de trazo borrados al cortar entre hojas.
+- Arreglo: el resaltado y el lazo se agregan con `QGraphicsScene::addItem` (no van a la lista; si la página se cierra antes, se los lleva y solo se olvida el puntero); el resto llama `removeItemFromDeletion` antes de `delete`. El deshacer entre hojas busca la parte por su id y solo la borra si es suya (deshecha), nunca guarda un puntero a algo de una página que pudo cerrarse.
+- Regla para código nuevo: nunca `scene->removeItem(x); delete x;` sin `removeItemFromDeletion(x)` (o `removeItem(x, true)`).
+
 ## Forma de trabajo
 
 - El dueño es **Luis** (Chile), analista financiero, sin experiencia en programación. Habla en español; se le responde en español, claro y sin jerga. Usa Windows 11, pantalla ancha (unos 2540 px) y lápiz digital.

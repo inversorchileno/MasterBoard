@@ -313,6 +313,7 @@ void UBComments::merge(QWidget* parent)
         scene->addItem(item);
 
         scene->removeItem(comment);
+        scene->removeItemFromDeletion(comment);
         delete comment;
         scene->setModified(true);
 

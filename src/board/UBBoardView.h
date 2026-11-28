@@ -279,6 +279,7 @@ private:
         qreal mTouchSpan{0};
         QPolygon mLassoPoints;
         QGraphicsPathItem* mLassoItem{nullptr};
+        QPointer<QGraphicsScene> mLassoScene;
         bool mOverPdfLink{false};
         QString mPdfLinksOf;
         QList<UBPdfNavigation::Link> mPdfLinks;

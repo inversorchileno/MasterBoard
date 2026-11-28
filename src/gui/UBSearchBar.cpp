@@ -410,7 +410,10 @@ void UBSearchBar::showPlace(int index)
     mMark->setPen(QPen(QColor(255, 140, 0), 0));
     mMark->setZValue(1e9);
     mMark->setAcceptedMouseButtons(Qt::NoButton);
-    scene->addItem(mMark);
+    // The page does not own it, so it is never in the page's list of things
+    // to delete: a page that is gone takes it with it, and clearMark() then
+    // only forgets it.
+    scene->QGraphicsScene::addItem(mMark);
     mMarkScene = scene;
 
     board->controlView()->centerOn(onBoard.boundingRect().center());
@@ -420,9 +423,13 @@ void UBSearchBar::clearMark()
 {
     std::shared_ptr<UBGraphicsScene> scene = mMarkScene.lock();
 
-    if (mMark && scene && mMark->scene() == scene.get())
+    if (mMark && scene)
     {
-        scene->removeItem(mMark);
+        if (mMark->scene() == scene.get())
+        {
+            scene->QGraphicsScene::removeItem(mMark);
+        }
+
         delete mMark;
     }
 
